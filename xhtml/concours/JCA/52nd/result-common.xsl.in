@@ -25,13 +25,13 @@
 	<xsl:element name="h1">
 	  <xsl:value-of select="/大会/大会名"/>
 	</xsl:element>
+	<xsl:element name="hr"/>
 	<xsl:element name="dl">
 	  <xsl:call-template name="開催日リスト"/>
 	  <xsl:apply-templates select="開催場所"/>
 	  <xsl:call-template name="審査員リスト"/>
 	  <xsl:call-template name="報告者リスト"/>
 	</xsl:element>
-	<xsl:element name="hr"/>
 	<xsl:apply-templates select="注記"/>
 	<xsl:call-template name="採点結果リンク"/>
 	<xsl:element name="hr"/>
