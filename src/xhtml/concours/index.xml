@@ -9,6 +9,9 @@
     <title>Chorus Concours</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>合唱関係コンクールのページ</h1>
@@ -44,9 +47,12 @@
     <h2><a href="JCA/" shape="rect">全日本合唱コンクール</a></h2>
     <h2>宝塚室内合唱コンクール</h2>
     <h2>各種ボーカルアンサンブルコンテスト</h2>
+    <h3>しが・ヴォーカル・アンサンブル・コンテスト (滋賀、掲載予定)</h3>
     <h3><a href="KOVOX/" shape="rect">KOVOX</a> (神戸)</h3>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Revision: 1.2 $ $Date: 2000/08/28 11:31:47 $ GMT</p>
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.3 $ $Date: 2000/08/30 00:13:21 $ GMT</p>
+    </div>
   </body>
 </html>
