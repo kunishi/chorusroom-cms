@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1012/kansai.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1009/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/chubu.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/links.html"></rdf:li>
@@ -23,10 +24,19 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0926/renewal.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0925/linkupdate.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1012/kansai.html">
+    <title>第58回関西合唱コンクール(一般)の結果掲載</title>
+    <link>http://www.chorusroom.org/info/2003/1012/kansai.html</link>
+    <description>
+      10月12日に行われた第58回関西合唱コンクール一般部門の結果を掲載し
+      ました。
+    </description>
+    <dc:date>2003-10-12</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1009/links.html">
     <title>リンク集の更新</title>
@@ -161,6 +171,7 @@
     <dc:date>2003-09-25</dc:date>
   </item>
 
+  <!-- 
   <item rdf:about="http://www.chorusroom.org/info/2003/0925/linkupdate.html">
     <title>本日のリンク更新情報</title>
     <link>http://www.chorusroom.org/info/2003/0925/linkupdate.html</link>
@@ -169,6 +180,7 @@
     </description>
     <dc:date>2003-09-24</dc:date>
   </item>
+  -->
 
   <!-- 
   <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml">
