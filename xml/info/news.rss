@@ -9,6 +9,8 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1029/links.html"/>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1025/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1025/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/concours.html"></rdf:li>
@@ -23,17 +25,32 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1009/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/chubu.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/kanto.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1029/links.html">
+    <title>本日のリンク更新(10/29)</title>
+    <link>http://www.chorusroom.org/info/2003/1029/links.html</link>
+    <description>以下のリンクを更新しました: Chor Himmel(一般・東京、
+    新規)、合唱団TERRA(一般・兵庫、URL変更)</description>
+    <dc:date>2003-10-29T23:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1025/concours.html">
+    <title>コンクール情報(10/25)</title>
+    <link>http://www.chorusroom.org/info/2003/1025/concours.html</link>
+    <description>今年のNHK学校音楽コンクールの中国ブロックの結果を、録
+    画を見ながら入力しました。</description>
+    <dc:date>2003-10-25</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1025/links.html">
     <title>本日のリンク更新(10/25)</title>
     <link>http://www.chorusroom.org/info/2003/1025/links.html</link>
     <description>以下のリンクを更新しました: 福島大学混声合唱団(大学・
     福島、新規)、混声合唱団メンタル・ハーモニー(一般・福島、新規)</description>
-    <dc:date>2003-10-25T10:23</dc:date>
+    <dc:date>2003-10-25</dc:date>
   </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1019/links.html">
@@ -159,6 +176,7 @@
     <dc:date>2003-10-06</dc:date>
   </item>
 
+  <!-- 
   <item rdf:about="http://www.chorusroom.org/info/2003/1005/kanto.html">
     <title>関東合唱コンクール(職場・一般)</title>
     <link>http://www.chorusroom.org/info/2003/1005/kanto.html</link>
@@ -168,7 +186,9 @@
     </description>
     <dc:date>2003-10-05</dc:date>
   </item>
+  -->
 
+  <!--
   <item rdf:about="http://www.chorusroom.org/info/2003/1005/links.html">
     <title>リンク集の更新</title>
     <link>http://www.chorusroom.org/info/2003/1005/links.html</link>
@@ -178,6 +198,7 @@
     </description>
     <dc:date>2003-10-05</dc:date>
   </item>
+  -->
 
   <!--
   <item rdf:about="http://www.chorusroom.org/info/2003/1002/design.html">
