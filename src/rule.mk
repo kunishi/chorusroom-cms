@@ -1,13 +1,17 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.34 2001/01/29 11:29:44 kunishi Exp $
+# $Id: rule.mk,v 1.35 2001/02/05 03:15:28 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
 
 .PHONY:		all install clean subdir install-subdir
 
+#define xslt-transform
+#${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
+#endef
+
 define xslt-transform
-${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
+${SCRIPTDIR}/xalan.sh -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
 endef
 
 define fixhtml
