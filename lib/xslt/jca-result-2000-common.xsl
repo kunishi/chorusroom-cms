@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-2000-common.xsl,v 1.22 2000/10/04 23:50:10 kunishi Exp $ -->
+<!-- $Id: jca-result-2000-common.xsl,v 1.23 2000/10/06 11:18:15 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -82,7 +82,21 @@
 	<xsl:text>made</xsl:text>
       </xsl:attribute>
     </xsl:element>
+    <xsl:element name="meta">
+      <xsl:attribute name="http-equiv">
+        <xsl:text>Content-Stype-Type</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="content">
+        <xsl:text>text/css</xsl:text>
+      </xsl:attribute>
+    </xsl:element>
     <xsl:element name="style">
+      <xsl:attribute name="type">
+        <xsl:text>text/css</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="xml:space">
+        <xsl:text>preserve</xsl:text>
+      </xsl:attribute>
       <xsl:text>
 body { background-image: url(%%IMAGEDIR%%/background.png); }
       </xsl:text>
@@ -122,7 +136,7 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   <xsl:template name="footer">
     <xsl:element name="hr"/>
     <xsl:element name="div">
-      <xsl:attribute name="clsss">
+      <xsl:attribute name="class">
         <xsl:text>footer</xsl:text>
       </xsl:attribute>
       <xsl:element name="address">
@@ -137,6 +151,9 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
         <xsl:text>この文書は</xsl:text>
         <xsl:value-of select="/大会/CVSID"/>
         <xsl:text>から自動的に生成されました。</xsl:text>
+      </xsl:element>
+      <xsl:element name="p">
+        <xsl:text>Copyright (C) 2000 Takeo Kunishima.  All rights reserved.</xsl:text>
       </xsl:element>
     </xsl:element>
   </xsl:template>
