@@ -60,11 +60,13 @@
   <xsl:template name="body-header">
     <p>
       <div class="logo">
-        <img alt="Chorus Room/合唱の部屋">
-          <xsl:attribute name="src">
-            <xsl:value-of select="concat($imagedir, '/chorusroom-toplogo.png')"/>
-          </xsl:attribute>
-        </img>
+	<a href="http://www.chorusroom.org">
+	  <img alt="Chorus Room/合唱の部屋">
+	    <xsl:attribute name="src">
+	      <xsl:value-of select="concat($imagedir, '/chorusroom-toplogo.png')"/>
+	    </xsl:attribute>
+	  </img>
+	</a>
       </div>
     </p>
   </xsl:template>
