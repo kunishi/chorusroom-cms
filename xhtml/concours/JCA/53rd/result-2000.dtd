@@ -84,7 +84,7 @@
 <!ATTLIST 組曲
           抜粋 (yes|no) #REQUIRED>
 <!ELEMENT 組曲名 (#PCDATA)>
-<!ELEMENT 組曲ピース (作詩?, 出典?, ピース曲名)>
+<!ELEMENT 組曲ピース (出典?, 作詩?, 訳詩?, ピース曲名)>
 <!ELEMENT ピース曲名 (#PCDATA)>
 <!ATTLIST ピース曲名
           ピース番号 CDATA #IMPLIED>
