@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:c="http://www.chorusroom.org/character" xml:lang="ja">
   <cvs-id></cvs-id>
   <competition-name pref="true" area="false">平成15年度兵庫県合唱コンクール</competition-name>
@@ -785,10 +785,8 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <!-- 
-	      <p:words-by>? 真珠</p:words-by>
-	      <p:composed-by>? 真珠</p:composed-by>
-	      -->
+	      <p:words-by><c:utf8-char codepoint="x88f5">裴</c:utf8-char> 真珠</p:words-by>
+	      <p:composed-by><c:utf8-char codepoint="x88f5">裴</c:utf8-char> 真珠</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>私のチョゴリ</p:mainTitle>
 	      </p:title>
