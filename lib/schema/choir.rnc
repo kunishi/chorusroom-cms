@@ -3,45 +3,98 @@ default namespace = "http://www.chorusroom.org/choir"
 start = choir
 
 choir = 
-  element choir {
-    attribute moduleVersion { xsd:NMTOKEN "1.0" },
-    element include {
-      attribute href { xsd:string }?
-    }*,
-    element urn { xsd:string },
-    name,
-    url,
-    element prefecture { xsd:string }?,
-    element choir-type {
-      xsd:NMTOKEN "same-voice"
-      | xsd:NMTOKEN "female"
-      | xsd:NMTOKEN "male"
-      | xsd:NMTOKEN "children"
-      | xsd:NMTOKEN "mixed"
-    }?,
-    element kind {
-      xsd:NMTOKEN "univ"
-      | xsd:NMTOKEN "junior-highschool"
-      | xsd:NMTOKEN "senior-highschool"
-      | xsd:NMTOKEN "highschool"
-      | xsd:NMTOKEN "general"
-      | xsd:NMTOKEN "children"
-      | xsd:NMTOKEN "company"
-    },
-    element comment {
-      mixed { utf8-char* }
-    }?,
-    element contact {
-      name?,
-      element email { xsd:string },
-      url?
-    }?
-  }
+   element choir {
+      attribute moduleVersion { xsd:NMTOKEN "1.0" },
+      element include {
+         attribute href { xsd:string }?
+      }*,
+      element urn { xsd:string },
+      name,
+      url,
+      prefecture,
+      element choir-type {
+         xsd:NMTOKEN "same-voice"
+       | xsd:NMTOKEN "female"
+       | xsd:NMTOKEN "male"
+       | xsd:NMTOKEN "children"
+       | xsd:NMTOKEN "mixed"
+      }?,
+      element kind {
+         xsd:NMTOKEN "univ"
+       | xsd:NMTOKEN "junior-highschool"
+       | xsd:NMTOKEN "senior-highschool"
+       | xsd:NMTOKEN "highschool"
+       | xsd:NMTOKEN "general"
+       | xsd:NMTOKEN "children"
+       | xsd:NMTOKEN "company"
+      },
+      element comment {
+         mixed { utf8-char* }
+      }?,
+      element contact {
+         name?,
+         element email { xsd:string },
+         url?
+      }?
+   }
 name =
-  element name {
-    attribute yomi { xsd:string }?,
-    mixed { utf8-char* }
-  }
+   element name {
+      attribute yomi { xsd:string }?,
+      mixed { utf8-char* }
+   }
 url = element url { xsd:anyURI }
 
 utf8-char = external "utf8-char.rnc"
+
+prefecture =
+   element prefecture {
+      xsd:NMTOKEN "北海道"
+    | xsd:NMTOKEN "青森県"
+    | xsd:NMTOKEN "秋田県"
+    | xsd:NMTOKEN "岩手県"
+    | xsd:NMTOKEN "山形県"
+    | xsd:NMTOKEN "宮城県"
+    | xsd:NMTOKEN "福島県"
+    | xsd:NMTOKEN "茨城県"
+    | xsd:NMTOKEN "千葉県"
+    | xsd:NMTOKEN "栃木県"
+    | xsd:NMTOKEN "群馬県"
+    | xsd:NMTOKEN "埼玉県"
+    | xsd:NMTOKEN "東京都"
+    | xsd:NMTOKEN "神奈川県"
+    | xsd:NMTOKEN "山梨県"
+    | xsd:NMTOKEN "新潟県"
+    | xsd:NMTOKEN "富山県"
+    | xsd:NMTOKEN "石川県"
+    | xsd:NMTOKEN "福井県"
+    | xsd:NMTOKEN "長野県"
+    | xsd:NMTOKEN "岐阜県"
+    | xsd:NMTOKEN "静岡県"
+    | xsd:NMTOKEN "愛知県"
+    | xsd:NMTOKEN "三重県"
+    | xsd:NMTOKEN "滋賀県"
+    | xsd:NMTOKEN "京都府"
+    | xsd:NMTOKEN "大阪府"
+    | xsd:NMTOKEN "兵庫県"
+    | xsd:NMTOKEN "奈良県"
+    | xsd:NMTOKEN "和歌山県"
+    | xsd:NMTOKEN "鳥取県"
+    | xsd:NMTOKEN "島根県"
+    | xsd:NMTOKEN "岡山県"
+    | xsd:NMTOKEN "広島県"
+    | xsd:NMTOKEN "山口県"
+    | xsd:NMTOKEN "香川県"
+    | xsd:NMTOKEN "愛媛県"
+    | xsd:NMTOKEN "徳島県"
+    | xsd:NMTOKEN "高知県"
+    | xsd:NMTOKEN "福岡県"
+    | xsd:NMTOKEN "佐賀県"
+    | xsd:NMTOKEN "長崎県"
+    | xsd:NMTOKEN "大分県"
+    | xsd:NMTOKEN "熊本県"
+    | xsd:NMTOKEN "宮崎県"
+    | xsd:NMTOKEN "鹿児島県"
+    | xsd:NMTOKEN "沖縄県"
+    | xsd:NMTOKEN "海外"
+    | xsd:NMTOKEN "その他"
+   }
