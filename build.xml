@@ -204,6 +204,10 @@
   <target name='build.xhtml.index'
           depends='prepare.xslt.common, prepare.xslt.xhtml1,
                    prepare.xml.xhtml'>
+    <dependset>
+      <srcfilelist dir="${basedir}/xml/info" files="news.rss"/>
+      <targetfileset dir="${build.xhtml}" includes="index.xml"/>
+    </dependset>
     <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
       extension='.xml' processor='trax'
