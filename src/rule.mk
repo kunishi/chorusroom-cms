@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.4 1999/08/22 15:25:44 kunishi Exp $
+# $Id: rule.mk,v 1.5 1999/08/22 15:53:11 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html
@@ -13,17 +13,18 @@ all:	${INSTFILES} subdir
 
 subdir:
 ifdef SUBDIR
-	for dir in ${SUBDIR}; do \
+	@for dir in ${SUBDIR}; do \
 	  (cd $${dir} && ${MAKE} all) \
 	done
 endif
 
 install:	install-subdir
-	${SYNC_TOOL} ${INSTFILES} ${INSTTOPDIR}${RELPATH}
+	${SYNC_TOOL} ${INSTFILES} ${INSTFILES_NOBUILD} ${INSTTOPDIR}${RELPATH}
 
 install-subdir:
 ifdef SUBDIR
-	for dir in ${SUBDIR}; do \
+	@for dir in ${SUBDIR}; do \
+	  if ! test -d $${dir} && mkdir -p $${dir}; \
 	  (cd $${dir} && ${MAKE} install) \
 	done
 endif
