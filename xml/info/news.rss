@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0927/freetalk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0926/rss.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml"></rdf:li>
@@ -18,6 +19,16 @@
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/0927/freetalk.html">
+    <title>本日の雑文</title>
+    <link>http://www.chorusroom.org/info/2003/0927/freetalk.html</link>
+    <description>
+      メインページに掲載しにくい情報などを日記風に書いてみます。今回は
+      JCAコンクール東北大会(高校)の速報が中心です。
+    </description>
+    <dc:date>2003-09-27T11:00</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/0926/rss.html">
     <title>RSSによる新着情報配信を開始しました</title>
