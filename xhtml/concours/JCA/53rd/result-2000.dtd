@@ -2,7 +2,7 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.33 2000/08/06 02:53:50 kunishi Exp $
+  $Id: result-2000.dtd,v 1.34 2000/08/23 04:07:48 kunishi Exp $
   -->
 
 <![%utfdoc;[
@@ -110,7 +110,8 @@
 
 <!ELEMENT 指揮者 (%HumanName;)>
 <!ATTLIST 指揮者
-          %i18n;>
+          %i18n;
+          兼任 CDATA #IMPLIED>
 
 <!ELEMENT ピアノ (%HumanName;)>
 <!ATTLIST ピアノ
