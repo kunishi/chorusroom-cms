@@ -2,8 +2,12 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.38 2000/09/04 06:13:17 kunishi Exp $
+  $Id: result-2000.dtd,v 1.39 2000/10/03 01:31:32 kunishi Exp $
   -->
+
+<!-- These entities will override by the internal entity declaration. -->
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 
 <![%utfdoc;[
 <!ENTITY % HTMLlat1 PUBLIC
@@ -59,8 +63,8 @@
 <!-- 開催日のフォーマットは YYYY-MM-DD -->
 <!ATTLIST 開催日
           曜日 CDATA #REQUIRED>
-<!ELEMENT 開始時刻 (#PCDATA)>
-<!-- 開始時刻のフォーマットは HH:MM -->
+<!ELEMENT 開催時刻 (#PCDATA)>
+<!-- 開催時刻のフォーマットは HH:MM -->
 
 <!ELEMENT 開催場所 (#PCDATA)>
 
@@ -176,3 +180,5 @@
 <!-- 番号しかなく、個々の構成曲にタイトルが付いていない場合は
      番号に相当するものを曲名とする。
 -->
+
+<!ELEMENT 構成曲番号 (#PCDATA)>
