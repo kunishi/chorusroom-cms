@@ -3,6 +3,9 @@
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
+<!ENTITY % latin1-ent SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/latin1-iso2022jp.ent">
+%latin1-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -168,6 +171,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Mon Aug 31 21:17:02 JST 1998 -->
-    $Date: 2000/08/26 02:16:04 $
+    $Date: 2000/08/27 16:57:50 $
   </body>
 </html>
