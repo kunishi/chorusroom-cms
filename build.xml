@@ -321,7 +321,7 @@
     <xslt basedir='${build.concours}' destdir='${build.xhtml}/concours'
       style='${build.xslt}/contest-result.utf8.xsl'
       extension='.xml' outputtype='xml' processor='trax'
-      includes='**/*.xml' excludes='**/*-score.xml'
+      includes='**/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>

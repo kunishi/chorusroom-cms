@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- $Id: contest-result-build.xsl,v 1.1 2002/06/18 15:22:16 kunishi Exp $ -->
+<!-- $Id: contest-result-build.xsl,v 1.2 2002/06/19 10:56:56 kunishi Exp $ -->
 <xsl:stylesheet version='1.0'
   xmlns:xsl='http://www.w3.org/1999/XSL/Transform'
   xmlns:lxslt='http://xml.apache.org/xslt'
@@ -65,7 +65,7 @@
       <xsl:if test='.//c:scores'>
         <xsl:element name='c:scoreTableRef' namespace='http://www.chorusroom.org/xml'>
           <xsl:attribute name='href'>
-            <xsl:value-of select='concat(@output, "-score.xml")'/>
+            <xsl:value-of select='concat(@output, "-score.html")'/>
           </xsl:attribute>
         </xsl:element>
       </xsl:if>
