@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<!-- $Id: jca-comp-result.rxm,v 1.3 2000/12/26 16:12:20 kunishi Exp $ -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: jca-comp-result.rxm,v 1.4 2001/01/02 05:47:37 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -8,10 +8,20 @@
 
   <interface>
     <export label="competition"/>
-    <import label="specialCharacters"/>
   </interface>
 
   <include moduleLocation="contest-result.rxm"/>
+
+  <attPool role="representative-attr-list">
+    <attribute name="representative" type="NMTOKEN">
+      <enumeration value="false"/>
+      <enumeration value="true"/>
+    </attribute>
+    <attribute name="seed" type="NMTOKEN">
+      <enumeration value="false"/>
+      <enumeration value="true"/>
+    </attribute>
+  </attPool>
 
   <attPool role="given-program-list">
     <attribute name="number" required="true" type="NMTOKEN">
