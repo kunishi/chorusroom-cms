@@ -23,6 +23,7 @@
 	<xsl:call-template name="additional-header"/>
       </xsl:element>
       <xsl:element name="body">
+	<xsl:call-template name="encodinglink"/>
 	<xsl:element name="h1">
 	  <xsl:value-of select="/大会/大会名"/>
 	</xsl:element>
@@ -64,6 +65,27 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template name="encodinglink">
+    <xsl:element name="p">
+      <xsl:if test="$suffix=$utfhtmlsuffix">
+	<xsl:element name="a">
+	  <xsl:attribute name="href">
+	    <xsl:value-of select="concat(@出力, $htmlsuffix)" />
+	  </xsl:attribute>
+	  <xsl:text>EUC-JPページ</xsl:text>
+	</xsl:element>
+      </xsl:if>
+      <xsl:if test="$suffix=$htmlsuffix">
+	<xsl:element name="a">
+	  <xsl:attribute name="href">
+	    <xsl:value-of select="concat(@出力, $utfhtmlsuffix)"/>
+	  </xsl:attribute>
+	  <xsl:text>UTF-8ページ</xsl:text>
+	</xsl:element>
+      </xsl:if>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template name="footer">
     <xsl:element name="hr"/>
     <xsl:element name="address">
@@ -401,9 +423,10 @@
     <xsl:element name="li">
       <xsl:apply-templates select="出典"/>
       <xsl:apply-templates select="作詩"/>
+      <xsl:apply-templates select="訳詩"/>
       <xsl:apply-templates select="作曲"/>
       <xsl:apply-templates select="編曲"/>
-      <xsl:if test="出典 or 作詩 or 作曲 or 編曲">
+      <xsl:if test="出典 or 作詩 or 訳詩 or 作曲 or 編曲">
 	<xsl:text>: </xsl:text>
       </xsl:if>
       <xsl:if test="曲名"><xsl:apply-templates select="曲名"/></xsl:if>
@@ -439,6 +462,9 @@
   <xsl:template match="訳詩">
     <xsl:value-of select="."/>
     <xsl:text>訳詩</xsl:text>
+    <xsl:if test="following-sibling::作曲">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="曲名">
