@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.59 2000/10/29 01:49:13 kunishi Exp $
+# $Id: GNUmakefile,v 1.60 2000/10/30 02:45:08 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -44,7 +44,8 @@ HOKKAIDO_HTML=		hokkaido-2000-09-24.html hokkaido-2000-10-08.html
 TOHOKU_HTML=		tohoku-2000-09-29.html \
 			tohoku-2000-09-30.html \
 			tohoku-2000-10-01.html
-HIGHSCHOOL_HTML=	highschool-2000-10-28.html
+HIGHSCHOOL_HTML=	highschool-2000-10-28.html \
+			highschool-2000-10-29.html
 
 INSTFILES_HTML_SAITEN+=	chiba-saiten.html
 INSTFILES_HTML_SAITEN+=	chubu-saiten.html
