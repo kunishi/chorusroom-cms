@@ -202,7 +202,7 @@
 
   <xsl:template match="登録人数">
     <xsl:value-of select="."/>名
-    <xsl:if test="following-sibling::指揮者">, </xsl:if>
+    <xsl:if test="following-sibling::指揮者 or following-sibling::ピアノ">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="指揮者">
