@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.40 1999/10/30 13:22:58 kunishi Exp $
+# $Id: Makefile,v 1.41 1999/11/01 09:38:05 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -37,6 +37,7 @@ INSTFILES+=	shizuoka.html shizuoka.utfhtml
 INSTFILES+=	tohoku.html tohoku.utfhtml
 INSTFILES+=	yamagata.html yamagata.utfhtml
 INSTFILES+=	highschool-1999-10-30.html highschool-1999-10-30.utfhtml
+INSTFILES+=	highschool-1999-10-31.html highschool-1999-10-31.utfhtml
 
 include ${SRCTOPDIR}/config.mk
 
@@ -75,10 +76,10 @@ kansai-09-23.html kansai-10-17.html kansai-10-24.html:	kansai.xml
 kansai-09-23.utfhtml kansai-10-17.utfhtml kansai-10-24.utfhtml:	kansai.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
-highschool-1999-10-30.html: national.xml
+highschool-1999-10-30.html highschool-1999-10-31.html: national.xml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-highschool-1999-10-30.utfhtml: national.utfxml
+highschool-1999-10-30.utfhtml highschool-1999-10-31.utfhtml: national.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ## dummy target.

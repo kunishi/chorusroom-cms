@@ -5,6 +5,8 @@
 		xmlns="http://www.w3.org/TR/REC-html40"
 		extension-element-prefix="xt">
   <xsl:variable name="suffix">.utfhtml</xsl:variable>
+  <xsl:variable name="htmlsuffix">.html</xsl:variable>
+  <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
 
   <xsl:template match="開催日別結果">
     <xt:document method="html" href="{concat(@出力, $suffix)}"

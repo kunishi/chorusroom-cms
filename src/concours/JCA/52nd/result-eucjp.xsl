@@ -6,6 +6,8 @@
 		extension-element-prefix="xt">
   <xsl:variable name="output-encoding">euc-jp</xsl:variable>
   <xsl:variable name="suffix">.html</xsl:variable>
+  <xsl:variable name="htmlsuffix">.html</xsl:variable>
+  <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
 
   <xsl:template match="開催日別結果">
     <xt:document method="html" href="{concat(@出力, $suffix)}"
