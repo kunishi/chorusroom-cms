@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.25 2000/09/03 13:18:18 kunishi Exp $
+# $Id: Makefile,v 1.26 2000/09/04 02:56:13 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -21,6 +21,8 @@ INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
+
+INSTFILES_NOBUILD+=	hyogo.xml
 
 INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
 
