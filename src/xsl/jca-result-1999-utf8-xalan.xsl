@@ -12,6 +12,6 @@
 
   <xsl:output encoding="utf-8"/>
 
-  <xsl:include href="result-common.xsl"/>
-  <xsl:include href="result-saiten.xsl"/>
+  <xsl:include href="jca-result-1999-common.xsl"/>
+  <xsl:include href="jca-result-1999-saiten.xsl"/>
 </xsl:stylesheet>

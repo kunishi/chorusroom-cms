@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-2000-common.xsl,v 1.26 2000/10/08 02:21:30 kunishi Exp $ -->
+<!-- $Id: jca-result-2000-common.xsl,v 1.27 2000/10/08 09:59:56 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -7,6 +7,8 @@
   xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
   xmlns="http://www.w3.org/1999/xhtml"
   extension-element-prefixes="redirect">
+
+  <xsl:import href="common.xsl"/>
 
   <xsl:output
     method="xml"
@@ -62,38 +64,12 @@
     </xsl:element>
   </xsl:template>
 
-  <xsl:template name="additional-header">
-    <link>
-      <xsl:attribute name="href">%%STYLEDIR%%/jca-concours.css</xsl:attribute>
-      <xsl:attribute name="type">text/css</xsl:attribute>
-      <xsl:attribute name="rel">stylesheet</xsl:attribute>
-    </link>
-    <link>
-      <xsl:attribute name="href">mailto:kunishi@c.oka-pu.ac.jp</xsl:attribute>
-      <xsl:attribute name="rev">made</xsl:attribute>
-    </link>
-    <meta>
-      <xsl:attribute name="http-equiv">Content-Style-Type</xsl:attribute>
-      <xsl:attribute name="content">text/css</xsl:attribute>
-    </meta>
-    <style>
-      <xsl:attribute name="type">text/css</xsl:attribute>
-      <xsl:attribute name="xml:space">preserve</xsl:attribute>
-      <xsl:text>
-body { background-image: url(%%IMAGEDIR%%/background.png); }
-      </xsl:text>
-    </style>
-    <meta>
-      <xsl:attribute name="http-equiv">
-	<xsl:text>Content-Type</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="content">
-	<xsl:text>text/html; charset=</xsl:text>
-	<xsl:value-of select="$output-encoding" />
-      </xsl:attribute>
-    </meta>
+  <xsl:template name="additional-footer">
+    <p>
+      <xsl:value-of select="/大会/CVSID"/>
+    </p>
   </xsl:template>
-  
+
   <xsl:template name="encodinglink">
     <p>
       <xsl:if test="$suffix=$utfhtmlsuffix">
@@ -113,27 +89,6 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
 	</a>
       </xsl:if>
     </p>
-  </xsl:template>
-
-  <xsl:template name="footer">
-    <hr/>
-    <div>
-      <xsl:attribute name="class">footer</xsl:attribute>
-      <address>
-        <a>
-          <xsl:attribute name="href">mailto:kunishi@c.oka-pu.ac.jp</xsl:attribute>
-          <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
-        </a>
-      </address>
-      <p>
-        <xsl:text>この文書は</xsl:text>
-        <xsl:value-of select="/大会/CVSID"/>
-        <xsl:text>から自動的に生成されました。</xsl:text>
-      </p>
-      <p>
-        <xsl:text>Copyright (C) 2000 Takeo Kunishima.  All rights reserved.</xsl:text>
-      </p>
-    </div>
   </xsl:template>
 
   <xsl:template name="開催日リスト">

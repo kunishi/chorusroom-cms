@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-1999-common.xsl,v 1.18 2000/10/06 15:42:23 kunishi Exp $ -->
+<!-- $Id: jca-result-1999-common.xsl,v 1.19 2000/10/08 09:59:55 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -7,6 +7,8 @@
   xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
   xmlns="http://www.w3.org/1999/xhtml"
   extension-element-prefixes="redirect">
+
+  <xsl:import href="common.xsl"/>
 
   <xsl:output
     method="xml"
@@ -62,56 +64,6 @@
     </xsl:element>
   </xsl:template>
 
-  <xsl:template name="additional-header">
-    <xsl:element name="link">
-      <xsl:attribute name="href">
-	<xsl:text>%%STYLEDIR%%/jca-concour.css</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="type">
-	<xsl:text>text/css</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="rel">
-	<xsl:text>stylesheet</xsl:text>
-      </xsl:attribute>
-    </xsl:element>
-    <xsl:element name="link">
-      <xsl:attribute name="href">
-	<xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="rev">
-	<xsl:text>made</xsl:text>
-      </xsl:attribute>
-    </xsl:element>
-    <xsl:element name="meta">
-      <xsl:attribute name="http-equiv">
-        <xsl:text>Content-Style-Type</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="content">
-        <xsl:text>text/css</xsl:text>
-      </xsl:attribute>
-    </xsl:element>
-    <xsl:element name="style">
-      <xsl:attribute name="type">
-        <xsl:text>text/css</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="xml:space">
-        <xsl:text>preserve</xsl:text>
-      </xsl:attribute>
-      <xsl:text>
-body { background-image: url(%%IMAGEDIR%%/background.png); }
-      </xsl:text>
-    </xsl:element>
-    <xsl:element name="meta">
-      <xsl:attribute name="http-equiv">
-	<xsl:text>Content-Type</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="content">
-        <xsl:text>text/html; charset=</xsl:text>
-        <xsl:value-of select="$output-encoding" />
-      </xsl:attribute>
-    </xsl:element>
-  </xsl:template>
-  
   <xsl:template name="encodinglink">
     <xsl:element name="p">
       <xsl:if test="$suffix='.utfhtml'">
@@ -133,28 +85,9 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
     </xsl:element>
   </xsl:template>
 
-  <xsl:template name="footer">
-    <xsl:element name="hr"/>
-    <xsl:element name="div">
-      <xsl:attribute name="class">
-        <xsl:text>footer</xsl:text>
-      </xsl:attribute>
-      <xsl:element name="address">
-        <xsl:element name="a">
-          <xsl:attribute name="href">
-            <xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
-          </xsl:attribute>
-          <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
-        </xsl:element>
-      </xsl:element>
-      <xsl:element name="p">
-        <xsl:text>この文書は</xsl:text>
-        <xsl:value-of select="/大会/CVSID"/>
-        <xsl:text>から自動的に生成されました。</xsl:text>
-      </xsl:element>
-      <xsl:element name="p">
-        <xsl:text>Copyright (C) 1999,2000 Takeo Kunishima. All rights reserved.</xsl:text>
-      </xsl:element>
+  <xsl:template name="additional-footer">
+    <xsl:element name="p">
+      <xsl:value-of select="/大会/CVSID"/>
     </xsl:element>
   </xsl:template>
 
