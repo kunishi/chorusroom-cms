@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: nhk-contest-result.src.xsl,v 1.6 2001/01/22 07:59:30 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.src.xsl,v 1.7 2001/01/23 01:56:37 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -53,16 +53,12 @@
 
   <xsl:template match="cr:pieceRef">
     <xsl:variable name="number" select="@number"/>
-    <xsl:call-template name="contest-result-choir-piece">
-      <xsl:with-param name="piece-top" select="document(concat($docBaseURI,'/',@href))/cr:givenPrograms/cr:givenProgram[./cr:givenProgramNumber=$number]"/>
-    </xsl:call-template>
+    <xsl:apply-templates select="document(concat($docBaseURI,'/',@href))/cr:givenPrograms/cr:givenProgram[./cr:givenProgramNumber=$number]/p:*"/>
   </xsl:template>
 
   <xsl:template match="cr:free-program">
     <li>
-      <xsl:call-template name="contest-result-choir-piece">
-	<xsl:with-param name="piece-top" select="."/>
-      </xsl:call-template>
+      <xsl:apply-templates select="p:piece | p:suite"/>
       <xsl:call-template name="piece-players-list"/>
     </li>
   </xsl:template>
