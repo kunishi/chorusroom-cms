@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2004/0111/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1221/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1206/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/links.html"/>
@@ -23,15 +24,21 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1018/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1017/links.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
 
+  <item rdf:about="http://www.chorusroom.org/info/2004/0111/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2004/0111/links.html</link>
+    <description>以下のリンクを更新しました: 国立音楽大学女声合唱団ANGELICA(大学・東京都、新規)、音楽集団ホツマ(一般・東京都、新規)、兵庫県立豊岡高等学校音楽部(中学・高校・兵庫県、URL変更)</description>
+    <dc:date>2004-01-11T20:32</dc:date>
+  </item>
+
   <item rdf:about="http://www.chorusroom.org/info/2003/1221/links.html">
     <title>本日のリンク更新</title>
     <link>http://www.chorusroom.org/info/2003/1221/links.html</link>
-    <description>以下のリンクを更新しました: 横浜室内合唱団「海〜kai〜」(一般・神奈川県、新規)、フルトン男声合唱団(一般・宮崎、URL変更)、安積合唱協会(一般・福島県、新規)、混声合唱団 翠声会(一般・神奈川県、URL変更)</description>
+    <description>以下のリンクを更新しました: 横浜室内合唱団「海〜kai〜」(一般・神奈川県、新規)、フルトン男声合唱団(一般・宮崎、URL変更)、安積合唱協会(一般・福島県、新規)、グローリアアンサンブル&amp;クワイヤー(一般・栃木県、新規)、混声合唱団 翠声会(一般・神奈川県、URL変更)</description>
     <dc:date>2003-12-21T14:20</dc:date>
   </item>
 
@@ -139,13 +146,6 @@
     <description>以下のリンクを更新しました: アンサンブル・ギオーネ(一
     般・栃木、新規)</description>
     <dc:date>2003-10-18</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1017/links.html">
-    <title>本日のリンク更新</title>
-    <link>http://www.chorusroom.org/info/2003/1017/links.html</link>
-    <description>以下のリンクを更新しました: 平塚男声合唱団コール・ブラックス(一般・神奈川、URL変更)、静岡合唱団(一般・静岡、URL変更)</description>
-    <dc:date>2003-10-17</dc:date>
   </item>
 
 </rdf:RDF>
