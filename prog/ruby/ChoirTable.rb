@@ -7,10 +7,6 @@ class ChoirTable
   DB = 'chorusroom'
   TABLE = 'choir'
 
-  def ChoirTable.create()
-    ChoirTable.create('localhost', 'chorusroom', 'pizzetti')
-  end
-
   def ChoirTable.create(host, user, passwd)
     if (@@choirtb == nil)
       @@choirtb = ChoirTable.new(host, user, passwd)
@@ -19,9 +15,9 @@ class ChoirTable
   end
 
   def update(c)
-    schema = ['urn', 'name', 'url', 'pref', 'type', 'kind', 'comment',
-      'created']
-    tuple = [c.urn, c.name, c.url, c.pref, c.type, c.kind, c.comment]
+    schema = ['urn', 'name', 'url', 'pref', 'type', 'kind', 'yomi',
+      'comment', 'created']
+    tuple = [c.urn, c.name, c.url, c.pref, c.type, c.kind, c.yomi, c.comment]
     if ((ans = get(c.urn)).num_rows() == 0)
       tuple.insert(tuple.length, Time.new().strftime("%Y%m%d%H%M%S"))
       @db.query('INSERT INTO ' + TABLE +
@@ -67,7 +63,7 @@ class ChoirTable
 end
 
 # ct = ChoirTable.create('localhost', 'root', 'chorusroom2706')
-ct = ChoirTable.create('localhost', 'root', '')
+ct = ChoirTable.create('localhost', 'chorusroom', 'pizzetti')
 
 ARGV.each {
   |entry|

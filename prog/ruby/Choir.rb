@@ -2,7 +2,8 @@ require 'ChoirId'
 require 'rexml/document'
 
 class Choir
-  attr_reader :urn, :name, :url, :pref, :type, :kind, :comment
+  attr_reader :urn, :name, :yomi, :url, :pref, :type, :kind, :comment,
+    :created, :modified
 
   def initialize(f)
     self.read(f)
@@ -19,6 +20,7 @@ class Choir
 	@urn = e.text
       when "name"
 	@name = e.text
+	@yomi = e.attributes["yomi"]
       when "url"
 	@url = e.text
       when "prefecture"
@@ -29,6 +31,10 @@ class Choir
 	@kind = e.text
       when "comment"
 	@comment = e.text
+      when "created"
+	@created = e.text
+      when "modified"
+	@modified = e.text
       else
       end
     }
