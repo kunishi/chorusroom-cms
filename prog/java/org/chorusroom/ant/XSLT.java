@@ -54,16 +54,24 @@
 
 package org.chorusroom.ant;
 
-import java.io.*;
+import java.io.File;
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.StringTokenizer;
 import java.util.Vector;
 
-import org.apache.tools.ant.*;
-import org.apache.tools.ant.types.*;
+import org.apache.tools.ant.AntClassLoader;
+import org.apache.tools.ant.BuildException;
+import org.apache.tools.ant.DirectoryScanner;
+import org.apache.tools.ant.Project;
+import org.apache.tools.ant.Task;
 import org.apache.tools.ant.taskdefs.XSLTLiaison;
-import org.apache.tools.ant.util.*;
+import org.apache.tools.ant.types.FileSet;
+import org.apache.tools.ant.types.Mapper;
+import org.apache.tools.ant.types.Path;
+import org.apache.tools.ant.util.FileNameMapper;
+import org.apache.tools.ant.util.FileUtils;
+import org.apache.tools.ant.util.IdentityMapper;
+import org.apache.tools.ant.util.SourceFileScanner;
 
 
 /**

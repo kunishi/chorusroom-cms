@@ -1,19 +1,19 @@
 package org.chorusroom.ant;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Vector;
-import java.util.ListIterator;
 
-import org.apache.tools.ant.*;
-import org.apache.tools.ant.taskdefs.*;
-import org.apache.tools.ant.types.*;
-
-import jp.gr.java_conf.jaba2.Relaxer.Relaxer;
-import jp.gr.java_conf.jaba2.xml.relax.raw.RSyntaxErrorException;
-import jp.gr.java_conf.jaba2.xml.relax.cooked.CSyntaxErrorException;
-import jp.gr.java_conf.jaba2.xml.relax.expanded.ESyntaxErrorException;
-import jp.gr.java_conf.jaba2.text.UString;
-import jp.gr.java_conf.jaba2.j2fw.*;
+import org.apache.tools.ant.BuildException;
+import org.apache.tools.ant.Project;
+import org.apache.tools.ant.taskdefs.Execute;
+import org.apache.tools.ant.taskdefs.ExecuteJava;
+import org.apache.tools.ant.taskdefs.Java;
+import org.apache.tools.ant.taskdefs.LogStreamHandler;
+import org.apache.tools.ant.taskdefs.PumpStreamHandler;
+import org.apache.tools.ant.types.CommandlineJava;
 
 /**
  * A task to use Relaxer as a DTD generator.

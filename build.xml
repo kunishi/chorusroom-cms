@@ -238,7 +238,7 @@
 
   <target name='build.xhtml'
           depends='build.xhtml.index, build.xhtml.ja,
-                   build.xhtml.en, build.xhtml.concours'/>
+                   build.xhtml.en, build.xhtml.concours, build.xhtml.choir'/>
 
   <target name='build.xhtml.index'
           depends='prepare.xslt.common, prepare.xslt.xhtml1,
@@ -314,9 +314,9 @@
   </target>
 
   <target name='build.xhtml.choir'>
-    <xslt basedir='db/choir' destdir='${build}/choir'
+    <xslt basedir='db/choir' destdir='${build.xhtml}/choir'
 	  style='lib/xslt/choir2xhtml.xsl'
-	  extension='.xhtml' processor='trax'
+	  extension='.xml' processor='trax'
 	  includes='**/*.xml' classpathref='xalan2.class.path'>
     </xslt>
   </target>
