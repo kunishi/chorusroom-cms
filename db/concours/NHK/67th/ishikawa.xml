@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: ishikawa.xml,v 1.4 2001/01/23 01:57:39 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: ishikawa.xml,v 1.5 2001/01/23 13:09:33 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">平成12年度(第67回) NHK全国学校音楽コンクール石川県コンクール</competition-name>
   <result output="ishikawa">
     <date day-of-week="wed" holiday="false">2000-08-02</date>
@@ -305,7 +305,7 @@
 	      <p:suite-piece>
 		<p:piece-number>2.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>棗のうた</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -313,7 +313,7 @@
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>なにをさがしに</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -397,7 +397,7 @@
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>春だから</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -405,7 +405,7 @@
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>願い−少女のプラカード</p:mainTitle>
 		  </p:title>
 		</p:piece>
