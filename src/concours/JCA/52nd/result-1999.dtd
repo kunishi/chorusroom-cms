@@ -39,8 +39,9 @@
 
 <!ELEMENT 報告者 (#PCDATA)>
 <!ATTLIST 報告者
-          email CDATA #IMPLIED
-          匿名希望 CDATA #IMPLIED>
+          email CDATA #REQUIRED
+          匿名希望 (yes|no) #IMPLIED
+          email匿名 (yes|no) #IMPLIED>
 <!ELEMENT 注記 (注記事項+)>
 <!ELEMENT 注記事項 (#PCDATA)>
 
