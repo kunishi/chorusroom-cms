@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: resource.xsl,v 1.1 2001/01/07 05:22:11 kunishi Exp $ -->
+<!-- $Id: resource.xsl,v 1.2 2001/01/10 12:02:25 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns:r="http://www.chorusroom.org/resource">
+		xmlns:r="http://www.chorusroom.org/resource"
+		exclude-result-prefixes="r">
 
   <xsl:variable name="resourceTable" select="document('../DTD/resource.xml')/r:resources"/>
 
