@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.20 1999/12/18 14:24:03 kunishi Exp $
+# $Id: config.mk,v 1.21 1999/12/18 14:28:47 kunishi Exp $
 #
 
 JDK_LIBDIR=	/usr/local/jdk1.1.8/lib
@@ -36,10 +36,10 @@ ENV=		env
 RELPATH!=	.
 INSTTOPDIR=	/usr/local/www/data/chorusRoom/
 
-XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
-XHTML10_XSL_UTF8=	${SRCTOPDIR}xhtml10-utf8.xsl
-XHTML10_XSL_ASCII=	${SRCTOPDIR}xhtml10-ascii.xsl
+XHTML10_XSL=	${SRCTOPDIR}/xhtml10.xsl
+XHTML10_XSL_UTF8=	${SRCTOPDIR}/xhtml10-utf8.xsl
+XHTML10_XSL_ASCII=	${SRCTOPDIR}/xhtml10-ascii.xsl
 DEFAULT_XSL=	${XHTML10_XSL}
 DEFAULT_XSL_UTF8=	${XHTML10_XSL_UTF8}
 
-XML2UTFXML=	${SRCTOPDIR}gen-utfxml.sed
+XML2UTFXML=	${SRCTOPDIR}/gen-utfxml.sed
