@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.22 2001/11/14 11:23:04 kunishi Exp $
+# $Id: GNUmakefile,v 1.23 2001/11/25 23:47:27 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -25,7 +25,8 @@ INSTFILES_TRADITIONAL=	chiba.html \
 			shimane.html \
 			tochigi.html \
 			tohoku.html \
-			${HIGHSCHOOL_HTML}
+			${HIGHSCHOOL_HTML} \
+			${GENERAL_HTML}
 
 INSTFILES_TRADITIONAL_SAITEN+=	chubu-saiten.html
 INSTFILES_TRADITIONAL_SAITEN+=	kansai-2001-10-14-saiten.html \
@@ -40,7 +41,9 @@ KANSAI_HTML=	kansai-2001-09-23.html kansai-2001-10-14.html \
 		kansai-2001-10-13.html kansai-2001-10-21.html
 HIGHSCHOOL_HTML=	national-highschool-2001-10-27.html \
 			national-highschool-2001-10-28.html
-REDIRECT_HTML=	${KANSAI_HTML} ${HIGHSCHOOL_HTML}
+GENERAL_HTML=		national-general-2001-11-24.html \
+			national-general-2001-11-25.html
+REDIRECT_HTML=	${KANSAI_HTML} ${HIGHSCHOOL_HTML} ${GENERAL_HTML}
 
 WITH_SCORE=	true
 
@@ -61,6 +64,9 @@ include ${SRCTOPDIR}/rule.mk
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
 
 ###
+
+${GENERAL_HTML:%.html=%.xml}: national-general.xml
+	${LN_S} $< $@
 
 ${HIGHSCHOOL_HTML:%.html=%.xml}: national-highschool.xml
 	${LN_S} $< $@
