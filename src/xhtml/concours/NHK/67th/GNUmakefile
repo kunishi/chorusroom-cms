@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.14 2001/08/06 02:13:33 kunishi Exp $
+# $Id: GNUmakefile,v 1.15 2001/08/06 02:14:30 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -54,6 +54,9 @@ ${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
 
 include config.mk
 include rule.mk
+
+${HTML_KINKI:%.html=%.xml}:	kinki.xml
+	${LN_S} $< $@
 
 ${HTML_KUMAMOTO:%.html=%.xml}:	kumamoto.xml
 	${LN_S} $< $@
