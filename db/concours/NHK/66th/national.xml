@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: national.xml,v 1.1 2001/02/17 23:38:32 kunishi Exp $</cvs-id>
+  <competition-name pref="false" area="false">平成10年度(第65回)NHK全国学校音楽コンクール全国コンクール</competition-name>
+  <result output="national">
+    <date day-of-week="mon" holiday="false">1999-10-25</date>
+    <hall>NHKホール</hall>
+    <referee shortname="若松" job="作曲家">若松正司</referee>
+    <referee shortname="佐藤" job="作曲家">佐藤眞</referee>
+    <referee shortname="高嶋" job="作曲家">高嶋みどり</referee>
+    <referee shortname="荒谷" job="指揮者">荒谷俊治</referee>
+    <referee shortname="松浦" job="指揮者">松浦ゆかり</referee>
+    <referee shortname="丹羽" job="音楽評論家">丹羽正明</referee>
+    <referee shortname="中澤" job="声楽家">中澤桂</referee>
+    <referee shortname="真篠" job="日本教育音楽協会">真篠将</referee>
+    <referee shortname="高谷" job="全日本音楽研">高谷守宏</referee>
+    <reporter anonymous="false">
+      <reporter-name>なおや</reporter-name>
+      <reporter-email anonymous="false">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>出雲市立第一中学校</choir-name>
+	<prefecture>島根県</prefecture>
+	<choir-type>female</choir-type>
+	<conductor>浜崎香子</conductor>
+	<piano grade="3">勝部温子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>Five Songs of Nonsense</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>The Hole</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Two Guys</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>西条市立南中学校</choir-name>
+	<prefecture>愛媛県</prefecture>
+	<choir-type>mixed</choir-type>
+	<conductor>礒恒子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <piano grade="3">一色弥生</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <piano grade="3">近藤美智代</piano>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>青春のネガティブ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>反語</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>国立音楽大学附属中学校</choir-name>
+	<prefecture>東京都</prefecture>
+	<choir-type>female</choir-type>
+	<conductor>羽田喜久代</conductor>
+	<piano grade="3">塩田恵</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true">
+		<p:mainTitle>Missa in A</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>下市町立下市中学校</choir-name>
+	<prefecture>奈良県</prefecture>
+	<choir-type>female</choir-type>
+	<conductor>大谷一仁</conductor>
+	<piano>川岸ユウカ</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>さくら</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>大井町立大井中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>宮本隆久</conductor>
+	<piano grade="3">椎名杏子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>二群の童声（女声）合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>森へ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>4th Scene</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="6">
+	<choir-name>札幌市立手稲東中学校</choir-name>
+	<prefecture>北海道</prefecture>
+	<choir-type>mixed</choir-type>
+	<conductor>阿部和佳代</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <piano>久保智子</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>子猫物語</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>子ども</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="7">
+	<choir-name>山鹿市立山鹿中学校</choir-name>
+	<prefecture>熊本県</prefecture>
+	<choir-type>female</choir-type>
+	<conductor>角田陽子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <piano grade="3">矢田理恵</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>天使と羊飼い</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="8">
+	<choir-name>八戸市立根城中学校</choir-name>
+	<prefecture>青森県</prefecture>
+	<choir-type>female</choir-type>
+	<conductor>佐藤久美子</conductor>
+	<piano>福井智子</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>夕暮れの歌声</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="9">
+	<choir-name>富山大学教育学部附属中学校</choir-name>
+	<prefecture>富山県</prefecture>
+	<choir-type>mixed</choir-type>
+	<conductor>堀江英一</conductor>
+	<piano grade="3">舟木真也</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>かみさまへのてがみ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1</p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
