@@ -129,7 +129,7 @@
   <xsl:template match="団体">
     <li>
       <xsl:if test="@大会代表">◎</xsl:if>
-      <xsl:value-of select="団体名"/>
+      <xsl:apply-templates select="団体名"/>
       (<xsl:apply-templates select="所属県"/>
       <xsl:apply-templates select="形態"/>
       <xsl:apply-templates select="登録人数"/>
@@ -138,6 +138,15 @@
       <xsl:call-template name="特別賞リスト"/>
       <xsl:apply-templates select="曲目"/>
     </li>
+  </xsl:template>
+
+  <xsl:template match="団体名">
+    <xsl:if test="@url">
+      <a href="{@url}"><xsl:value-of select="."/></a>
+    </xsl:if>
+    <xsl:if test="not(@url)">
+      <xsl:value-of select="node()"/>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="所属県">
