@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.18 1999/12/10 10:09:15 kunishi Exp $
+# $Id: config.mk,v 1.19 1999/12/12 02:28:34 kunishi Exp $
 #
 
 JDK_LIBDIR=	/usr/local/jdk1.1.8/lib
@@ -9,11 +9,18 @@ XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
 XML4J_CLASSPATH= ${JAVA_CLASSES_DIR}/xml4j.jar:${JAVA_CLASSES_DIR}/xml4jSamples.jar
 LOTUSXSL_CLASSPATH=	${JAVA_CLASSES_DIR}/lotusxsl.jar:${JAVA_CLASSES_DIR}/lotusxslbsf.jar:${JAVA_CLASSES_DIR}/js.jar
 
-CLASSPATH=	${XT_CLASSPATH}:${XML4J_CLASSPATH}:${JDK_CLASSPATH}
-XSLT_PROC=	java \
-		-classpath ${CLASSPATH} \
-		-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser \
-		com.jclark.xsl.sax.Driver
+ifdef USE_LOTUSXSL
+XSLT_CLASSPATH=	${LOTUSXSL_CLASSPATH}
+XSLT_OPTS=	
+XSLT_CLASS=	com.lotus.xsl.Process
+else
+XSLT_CLASSPATH=	${XT_CLASSPATH}
+XSLT_OPTS=	-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser
+XSLT_CLASS=	com.jclark.xsl.sax.Driver
+endif
+
+CLASSPATH=	${XSLT_CLASSPATH}:${XML4J_CLASSPATH}:${JDK_CLASSPATH}
+XSLT_PROC=	java -classpath ${CLASSPATH} ${XSLT_OPTS} ${XSLT_CLASS}
 JAVA_COMPILER?=	tya
 MAKE_ENV+=	JAVA_COMPILER=${JAVA_COMPILER}
 
