@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.16 1999/09/17 01:01:35 kunishi Exp $
+# $Id: Makefile,v 1.17 1999/09/17 02:21:36 kunishi Exp $
 #
 
 RELPATH=	.
@@ -45,6 +45,12 @@ PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
 
 .PHONY: sync-upload
 
+install-namazu:
+	cp /usr/local/namazu/bin/namazu ${PUBLIC_DIR}/search.cgi
+
+index:
+	cd ${INSTTOPDIR}/namazu/index && mknmz "" "${INSTTOPDIR}"
+
 sync-upload:
-	rsync -Cavuz --delete -e ssh \
+	rsync -Cavuz --delete -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
