@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/jca-comp-result.rnc" type="compact"?>
+<competition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
+    <competition-name area="true" pref="false">第53回全日本合唱コンクール関東支部大会</competition-name>
+    <result output="kanto-2000-09-24">
+        <date day-of-week="sun" holiday="false">2000-09-24</date>
+        <hall>山梨県民文化ホール大ホール（甲府市）</hall>
+        <referee shortname="移川">移川澄也</referee>
+        <referee shortname="高嶋">高嶋みどり</referee>
+        <referee shortname="渡辺">渡辺三郎</referee>
+        <referee shortname="片山">片山みゆき</referee>
+        <referee shortname="堀">堀俊輔</referee>
+        <reporter>
+            <reporter-name>国島丈生</reporter-name>
+            <reporter-email>kunishi@c.oka-pu.ac.jp</reporter-email>
+        </reporter>
+        <section>
+            <section-name>高校部門Aグループ</section-name>
+            <choir representative="true" seed="false">
+                <choir-name>栃木県立栃木女子</choir-name>
+                <prefecture>栃木</prefecture>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F3" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>こぶし</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ともに…無題</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true" seed="false">
+                <choir-name>栃木県立真岡女子</choir-name>
+                <prefecture>栃木</prefecture>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>HOLST</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>TO AGNI</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>HOLST</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>FUNERAL CHANT</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立秩父</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>山梨県立韮崎</choir-name>
+                <prefecture>山梨</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>新潟県立新潟西</choir-name>
+                <prefecture>新潟</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>藤枝南女子</choir-name>
+                <prefecture>静岡</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立川越女子</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>静岡県立浜松江之島</choir-name>
+                <prefecture>静岡</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>群馬県立渋川女子</choir-name>
+                <prefecture>群馬</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>群馬県立大田女子</choir-name>
+                <prefecture>群馬</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>茨城県立水戸第三</choir-name>
+                <prefecture>茨城</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>山梨英和</choir-name>
+                <prefecture>山梨</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>千葉県立千葉女子</choir-name>
+                <prefecture>千葉</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>千葉県立木更津東</choir-name>
+                <prefecture>千葉</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>慶應義塾湘南藤沢</choir-name>
+                <prefecture>神奈川</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+        </section>
+        <section>
+            <section-name>高校部門Bグループ</section-name>
+            <choir representative="true" seed="false">
+                <choir-name>山梨県立市川</choir-name>
+                <prefecture>山梨</prefecture>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Busto</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>O magnum mysterium</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true" seed="false">
+                <choir-name>茨城県立水戸第二</choir-name>
+                <prefecture>茨城</prefecture>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>曙</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true" seed="false">
+                <choir-name>埼玉栄</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>三善晃</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>あなた</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                        <programNote>抜粋</programNote>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立松山女子</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>神奈川県立多摩</choir-name>
+                <prefecture>神奈川</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立久喜</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立大宮光陵</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>千葉県立幕張総合</choir-name>
+                <prefecture>千葉</prefecture>
+                <prize nickname="gold">金賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立伊奈学園総合</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉県立川越</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>群馬県立富岡東</choir-name>
+                <prefecture>群馬</prefecture>
+                <prize nickname="silver">銀賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>星野女子</choir-name>
+                <prefecture>埼玉</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>浜松市立</choir-name>
+                <prefecture>静岡</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>静岡県立清水西</choir-name>
+                <prefecture>静岡</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>栃木県立宇都宮女子</choir-name>
+                <prefecture>栃木</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>北鎌倉女子学園</choir-name>
+                <prefecture>神奈川</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>茨城県立太田第二</choir-name>
+                <prefecture>茨城</prefecture>
+                <prize nickname="blonze">銅賞</prize>
+            </choir>
+        </section>
+    </result>
+</competition>

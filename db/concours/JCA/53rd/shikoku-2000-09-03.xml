@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/jca-comp-result.rnc" type="compact"?>
+<competition xmlns:cr="http://www.chorusroom.org/character"
+    xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
+    <competition-name area="true" pref="false">第53回全日本合唱コンクール四国支部大会</competition-name>
+    <result output="shikoku-2000-09-03">
+        <date day-of-week="sun" holiday="false">2000-09-03</date>
+        <hall>徳島市文化センターホール</hall>
+        <reporter>
+            <reporter-name>国島丈生</reporter-name>
+            <reporter-email>kunishi@c.oka-pu.ac.jp</reporter-email>
+        </reporter>
+        <notices>
+            <notice>NIFTYSERVEのFCLASフォーラムに流された結果を、ご本人の承諾を得て国島が再編集しました。</notice>
+        </notices>
+        <section>
+            <section-name>高校部門A</section-name>
+            <choir playing-order="1" representative="false" seed="false">
+                <choir-name>土佐女子高校コーラス部</choir-name>
+                <prefecture>高知</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Nystedt</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Festo Pentecostes</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="2" representative="false" seed="false">
+                <choir-name>徳島県立徳島北高校合唱部</choir-name>
+                <prefecture>徳島</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G4" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>谷川俊太郎</p:words-by>
+                            <p:composed-by>吉岡弘行</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>組曲</p:titlePrefix>
+                                <p:mainTitle>十ぴきのねずみ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>
+                                    <cr:utf8-char nickname="romanII">II</cr:utf8-char>
+                                </p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>Ballad…〜いるか〜</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece-number>
+                                    <cr:utf8-char nickname="romanI">I</cr:utf8-char>
+                                </p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>Rock'n Roll…〜十ぴきのねずみ〜</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="3" representative="false" seed="false">
+                <choir-name>高知県立高知丸の内高校合唱部</choir-name>
+                <prefecture>高知</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>宇宙の果物</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>宇宙の果物</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="4" representative="false" seed="false">
+                <choir-name>高知学芸高校コーラス部</choir-name>
+                <prefecture>高知</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Elgar</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>As torrents in summer</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Nystedt</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>SING AND REJOICE</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="5" representative="true" seed="false">
+                <choir-name>坂出高校合唱部</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Kocsar</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>O vos omnes</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Kocsar</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Assumpta est Maria</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="6" representative="false" seed="false">
+                <choir-name>愛媛県立今治西高校コーラス部</choir-name>
+                <prefecture>愛媛</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>Rutter</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Gloria</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>
+                                    <cr:utf8-char nickname="romanIII">III</cr:utf8-char>
+                                </p:piece-number>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="7" representative="false" seed="false">
+                <choir-name>香川県立高松桜井高校合唱部</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F4" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>湯山昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>木犀のセレナーデ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="8" representative="false" seed="false">
+                <choir-name>香川県立高松北高校合唱部</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>松下耕</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>胸の中の風景</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>朝</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>あなたの心の中に</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>はだか</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>きみ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="9" representative="false" seed="false">
+                <choir-name>愛媛県立松山東高校コーラス部</choir-name>
+                <prefecture>愛媛</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>小林秀雄</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>優しき歌</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>また落葉林で</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+        <section>
+            <section-name>高校部門B</section-name>
+            <choir playing-order="1" representative="false" seed="false">
+                <choir-name>高松第一高校合唱部</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G4" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ひみつ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>
+                                    <cr:utf8-char nickname="romanII">II</cr:utf8-char>
+                                </p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>ひみつ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="2" representative="false" seed="false">
+                <choir-name>愛媛県立八幡浜高校コーラス部</choir-name>
+                <prefecture>愛媛</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G3" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>はだか</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>きみ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="3" representative="false" seed="false">
+                <choir-name>徳島県立名西高校音楽部</choir-name>
+                <prefecture>徳島</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F3" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>女に 第1集</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>こぶし</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>なめる</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="4" representative="false" seed="false">
+                <choir-name>愛媛県立西条高校合唱部</choir-name>
+                <prefecture>愛媛</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Monteverdi</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>O Rossignuol</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Monteverdi</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Jo mi son giovinetta</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="5" representative="true" seed="false">
+                <choir-name>香川県立高松西高校コーラス部</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G4" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>平吉毅州</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>レモン哀歌</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>レモン哀歌</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="6" representative="false" seed="false">
+                <choir-name>坂出第一高校合唱部</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>松下耕</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>はじめに</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+        <section>
+            <section-name>一般部門A</section-name>
+            <choir playing-order="1" representative="true" seed="false">
+                <choir-name>徳島合唱団</choir-name>
+                <prefecture>徳島</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <special-prize>理事長賞</special-prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Penderecki</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Agnus Dei</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="2" representative="false" seed="false">
+                <choir-name>女声合唱団「歌姫」</choir-name>
+                <prefecture>愛媛</prefecture>
+                <choir-type>female</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>松下耕</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>聖母への祈り</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>Ave Regina coelorum</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>Salve Regina</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="3" representative="false" seed="false">
+                <choir-name>コール・サル</choir-name>
+                <prefecture>愛媛</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>Cour</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>3 MOTTETTI LATINI 1982</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>Hodie Christus natus est</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>Ave Maria</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>Laudate Dominum</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+        <section>
+            <section-name>一般部門B</section-name>
+            <choir playing-order="1" representative="false" seed="false">
+                <choir-name>徳島男声合唱団「響」</choir-name>
+                <prefecture>徳島</prefecture>
+                <choir-type>male</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="M2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>草野心平</p:words-by>
+                            <p:composed-by>廣瀬量平</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>五つのラメント</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>十字架</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>オーボエの雲</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="2" representative="false" seed="false">
+                <choir-name>Choeur en Ciel</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>はだか</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>きみ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="3" representative="false" seed="false">
+                <choir-name>高知市民合唱団</choir-name>
+                <prefecture>高知</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G3" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>中村千榮子</p:words-by>
+                            <p:composed-by>石井歓</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>明日香の風</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>明日香の風</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir playing-order="4" representative="true" seed="false">
+                <choir-name>高知ファミリーコーラス</choir-name>
+                <prefecture>高知</prefecture>
+                <choir-type>mixed</choir-type>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>宇宙の果物</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>曙</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+    </result>
+</competition>
