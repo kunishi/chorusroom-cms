@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.8 2000/08/25 08:23:58 kunishi Exp $ -->
-<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
+<!-- $Id: index.xml,v 1.9 2000/08/27 00:50:16 kunishi Exp $ -->
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>第53回全日本合唱コンクール</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
       本年度もやります。みなさまの情報提供をお待ちしております。なお、
       情報提供してあげてもいいよという方は<a href="../info-note.html"
       shape="rect">コンクール情報提供の方法</a>、および<a
-      href="../../info-note.html" shape="rect">私からのお願い</a>のペー
+      href="%%TOPDIR%%/info-note.html" shape="rect">私からのお願い</a>のペー
       ジをご一読下さい。
     </p>
     <h2>開催日程ほか</h2>
@@ -67,6 +68,7 @@
       <dd><a href="ishikawa.html" shape="rect">石川県大会</a></dd>
       <dt>中国支部</dt>
       <dd><a href="okayama.html" shape="rect">岡山県大会</a></dd>
+      <dd><a href="yamaguchi.html" shape="rect">山口県大会</a></dd>
       <dt>四国支部</dt>
       <dd><a href="kagawa.html" shape="rect">香川県大会(高等学校の部)</a></dd>
       <dt>九州支部</dt>
@@ -77,6 +79,6 @@
     </dl>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Revision: 1.8 $ $Date: 2000/08/25 08:23:58 $ GMT</p>
+    <p>$Revision: 1.9 $ $Date: 2000/08/27 00:50:16 $ GMT</p>
   </body>
 </html>
