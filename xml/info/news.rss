@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1206/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/concours.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/links.html"/>
@@ -23,10 +24,16 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1018/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1017/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1015/jca.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/links.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1206/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2003/1206/links.html</link>
+    <description>以下のリンクを更新しました: 男声合唱団 炎(一般・東京都、URL変更・コメント追加)、浦添市民合唱団(一般・沖縄県、新規)、コーロ・ソアーベ(一般・和歌山県、新規)</description>
+    <dc:date>2003-12-06T19:43</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1126/links.html">
     <title>本日のリンク更新</title>
@@ -143,16 +150,6 @@
       関西大会一般の部(曲目追加)
     </description>
     <dc:date>2003-10-15</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1014/links.html">
-    <title>リンク集更新(10/14分)</title>
-    <link>http://www.chorusroom.org/info/2003/1014/links.html</link>
-    <description>
-      以下のリンクを更新しました: レグルス・アンサンブル(一般・神奈川、
-      新規)、クール・プリエール(一般・東京、更新)
-    </description>
-    <dc:date>2003-10-14</dc:date>
   </item>
 
 </rdf:RDF>
