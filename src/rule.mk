@@ -1,8 +1,8 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.38 2001/02/08 16:07:03 kunishi Exp $
+# $Id: rule.mk,v 1.39 2001/02/09 01:47:13 kunishi Exp $
 #
 
-.SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
+.SUFFIXES:	.xml .html .utfhtml .ent .u8.html .style .xsl
 
 .PHONY:		all install clean subdir install-subdir
 
@@ -16,35 +16,6 @@ ${PATH_CONFIGURE} $@
 endef
 
 ifndef SPECIAL_RULES
-ifndef USE_NEW_SCHEME
-%.html:	%.xml ${DEFAULT_XSL}
-	$(xslt-transform)
-	${SLEEP} 1
-	$(fixhtml)
-
-%.utfhtml: %.utfxml ${DEFAULT_XSL}
-	$(xslt-transform)
-	${SLEEP} 1
-	$(fixhtml)
-%.utfhtml: TIDY_ENCODING=-utf8
-%.utfhtml: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
-
-# new rules for reflecting Charset declaration
-%.html.euc-jp:	%.xml ${DEFAULT_XSL}
-	$(xslt-transform)
-	${SLEEP} 1
-	$(fixhtml)
-
-%.html.utf8: %.utfxml ${DEFAULT_XSL_UTF8}
-	$(xslt-transform)
-	${SLEEP} 1
-	$(fixhtml)
-%.html.utf8: TIDY_ENCODING=-utf8
-%.html.utf8: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
-
-%.style: %.xsl
-	${ENV} ${JAVA_ENV} ${XSLT_COMPILER} -xsl $< -lxcout $@
-else
 %.html:	%.xml ${DEFAULT_XSL}
 	$(xslt-transform)
 	${PATH_CONFIGURE} $@
@@ -55,10 +26,6 @@ else
 	${PATH_CONFIGURE} $@
 %.utfhtml:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.utf8.xsl
 endif
-endif
-
-%.utfxml: %.xml
-	${XML2UTFXML} $< > $@
 
 all:	${INSTFILES} subdir
 
