@@ -9,5 +9,5 @@ WWW_DIR=/home/www/data
 WWW_ISO_DIR=${WWW_DIR}/chorusRoom/
 WWW_UTF8_DIR=${WWW_DIR}/chorusRoom.utf8/
 
-rsync -avucIz -e ssh ${BUILD_ISO_DIR} ${WWW_HOST}:${WWW_ISO_DIR}
+rsync -avucIz --delete -e ssh ${BUILD_ISO_DIR} ${WWW_HOST}:${WWW_ISO_DIR}
 #rsync -avuIz -e ssh ${BUILD_UTF8_DIR} ${WWW_HOST}:${WWW_UTF8_DIR}
