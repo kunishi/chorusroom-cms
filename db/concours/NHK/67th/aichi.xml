@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: aichi.xml,v 1.4 2001/01/22 06:56:07 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: aichi.xml,v 1.5 2002/06/18 15:21:53 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回)ＮＨＫ全国学校音楽コンクール愛知県コンクール</competition-name>
   <result output="aichi">
     <reporter anonymous="false">
@@ -18,7 +18,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -59,7 +59,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -78,7 +78,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -105,7 +105,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -151,7 +151,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -179,7 +179,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>

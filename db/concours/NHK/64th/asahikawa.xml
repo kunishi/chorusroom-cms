@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: asahikawa.xml,v 1.1 2001/02/28 01:17:21 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: asahikawa.xml,v 1.2 2002/06/18 15:21:51 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成9年度(第64回) NHK全国学校音楽コンクール旭川地区コンクール</competition-name>
   <result output="asahikawa">
     <date day-of-week="sun" holiday="false">1997-08-24</date>
@@ -16,7 +16,7 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -39,7 +39,7 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -62,7 +62,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -78,7 +78,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>

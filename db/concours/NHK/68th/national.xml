@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
- <cvs-id>$Id: national.xml,v 1.1 2002/01/26 04:49:34 kunishi Exp $</cvs-id>
+ <cvs-id>$Id: national.xml,v 1.2 2002/06/18 15:21:58 kunishi Exp $</cvs-id>
  <competition-name pref="false" area="false">平成13年度(第68回) NHK全国学校音楽コンクール</competition-name>
  <result output="national-elementary-school-2001-10-07">
   <date day-of-week="sun" holiday="false">2001-10-07</date>
@@ -32,7 +32,7 @@
     <special-prize>奨励賞</special-prize>
     <program>
      <given-program>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:piece>
@@ -56,7 +56,7 @@
     <program>
      <given-program>
       <piano grade="6">原菜摘</piano>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:piece>
@@ -79,7 +79,7 @@
     <prize nickname="gold">金賞</prize>
     <program>
      <given-program>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:piece>
@@ -104,7 +104,7 @@
      <given-program>
       <conductor>三森敏</conductor>
       <piano>西田真弓</piano>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <conductor>西田真弓</conductor>
@@ -136,7 +136,7 @@
     <special-prize>奨励賞</special-prize>
     <program>
      <given-program>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -167,7 +167,7 @@
     <prize nickname="silver">銀賞</prize>
     <program>
      <given-program>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -198,7 +198,7 @@
     <prize nickname="blonze">銅賞</prize>
     <program>
      <given-program>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:piece>
@@ -223,7 +223,7 @@
     <program>
      <given-program>
       <piano>若生知子</piano>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:piece>
@@ -246,7 +246,7 @@
      <given-program>
       <conductor>楠俊明</conductor>
       <piano>阪本佳子</piano>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <conductor>阪本佳子</conductor>
@@ -271,7 +271,7 @@
     <program>
      <given-program>
       <piano grade="6">白井友理</piano>
-      <pieceRef number="elementary-school" href="givenPrograms.xml"/>
+      <pieceRef number="elementary-school" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <piano grade="6">松岡麻友</piano>
@@ -316,7 +316,7 @@
     <program>
      <given-program>
       <piano grade="3">阿比留愛美</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -347,7 +347,7 @@
     <program>
      <given-program>
       <piano grade="3">井澤真梨恵</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -379,7 +379,7 @@
     <program>
      <given-program>
       <piano>桑原季英</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -414,7 +414,7 @@
     <program>
      <given-program>
       <piano>西村明子</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -446,7 +446,7 @@
     <program>
      <given-program>
       <piano grade="2">牟田安耶香</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <piano grade="3">松村衣里子</piano>
@@ -478,7 +478,7 @@
     <program>
      <given-program>
       <piano grade="3">小寺千聡</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -510,7 +510,7 @@
     <program>
      <given-program>
       <piano grade="3">佐藤絵美</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -538,7 +538,7 @@
     <program>
      <given-program>
       <piano>南澤まゆみ</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -599,7 +599,7 @@
     <program>
      <given-program>
       <piano grade="2">生田悠衣</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:piece>
@@ -632,7 +632,7 @@
     <program>
      <given-program>
       <piano grade="3">福士久美子</piano>
-      <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="junior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -682,7 +682,7 @@
     <special-prize>奨励賞</special-prize>
     <program>
      <given-program>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -714,7 +714,7 @@
     <special-prize>奨励賞</special-prize>
     <program>
      <given-program>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -753,7 +753,7 @@
     <program>
      <given-program>
       <piano>吉冨淳子</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -785,7 +785,7 @@
     <program>
      <given-program>
       <piano grade="3">長坂聡</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -814,7 +814,7 @@
     <program>
      <given-program>
       <piano grade="2">橋本恵</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -846,7 +846,7 @@
     <special-prize>奨励賞</special-prize>
     <program>
      <given-program>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -877,7 +877,7 @@
     <program>
      <given-program>
       <piano grade="2">松井麻侑</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -907,7 +907,7 @@
     <program>
      <given-program>
       <piano grade="2">朝田景子</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -938,7 +938,7 @@
     <program>
      <given-program>
       <piano>磯村順子</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>
@@ -969,7 +969,7 @@
     <program>
      <given-program>
       <piano grade="2">明石友理恵</piano>
-      <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+      <pieceRef number="senior-highschool" href="givenPrograms-68th.xml"/>
      </given-program>
      <free-program>
       <p:suite>

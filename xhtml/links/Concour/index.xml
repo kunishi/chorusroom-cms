@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
   <head>
-    <!-- $Id: index.xml,v 1.16 2002/04/30 15:07:29 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.17 2002/06/18 15:23:26 kunishi Exp $ -->
     <title>Links Page/Concour</title>
   </head>
   <body>
-    <h1><a href="../" shape="rect">$B%j%s%/=8(B</a>:$B%3%s%/!<%k(B</h1>
-    <ul>
-      <li><a href="http://tokyo.cool.ne.jp/nishi/news.html" shape="rect">$B9g>'%3%s%/!<%kBg2q7k2L%G!<%?%Y!<%9(B</a> $B?'!9$J9g>'%3%s%/!<%k$N7k2L$d%W%m%0%i%`$r7G:\$7$?!"%G!<%?%Y!<%9$N%Z!<%8$G$9!#8!:w$b$G$-$^$9!#(B</li>
-      <li><a href="http://www2.tbs.co.jp/radio/kodomo/" shape="rect">$B$3$I$b2;3Z%3%s%/!<%k(B</a></li>
-      <li><a href="http://www.nhk.or.jp/event/oncon/index.html" shape="rect">NHK$BA49q3X9;2;3Z%3%s%/!<%k(B</a> <a href="http://www.nhk.or.jp/" shape="rect">NHK</a>$B$K$h$k8x<0%Z!<%8!#(B</li>
-    </ul>
+    <h1><a href="../" shape="rect">リンク集</a>:コンクール</h1>
+    <xi:include href="../../../db/links/concours.xml"/>
   </body>
 </html>

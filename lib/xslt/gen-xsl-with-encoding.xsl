@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-xsl-with-encoding.xsl,v 1.2 2001/12/16 11:30:50 kunishi Exp $ -->
+<!-- $Id: gen-xsl-with-encoding.xsl,v 1.3 2002/06/18 15:22:14 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -37,7 +37,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:choose>
 	<xsl:when test="$output-encoding='utf-8'">
-	  <xsl:text>.utfhtml</xsl:text>
+	  <xsl:text>.html</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
 	  <xsl:text>.html</xsl:text>

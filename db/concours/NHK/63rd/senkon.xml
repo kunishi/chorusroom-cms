@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: senkon.xml,v 1.1 2001/03/23 00:43:27 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: senkon.xml,v 1.2 2002/06/18 15:21:50 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成8年度(第63回)NHK全国学校音楽コンクール釧根地区コンクール</competition-name>
   <result output="senkon">
     <date day-of-week="sun" holiday="false">1996-09-01</date>
@@ -21,7 +21,7 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-63rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>

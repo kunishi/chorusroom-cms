@@ -1,18 +1,12 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
   <head>
-    <!-- $Id: index.xml,v 1.14 2001/09/28 13:48:59 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.15 2002/06/18 15:23:27 kunishi Exp $ -->
     <title>Chorus Room/Links:Information:Mailinglist</title>
   </head>
   <body>
-    <h1><a href="../../" shape="rect">$B%j%s%/=8(B</a>:<a href="../" shape="rect">$B>pJs(B</a>:$B%a!<%j%s%0%j%9%H(B</h1>
-    <ul>
-      <li><a href="http://village.infoweb.ne.jp/~abeken/gassyo_ml_f3.html" shape="rect">$BCf9b@8$N$?$a$N9g>'%a!<%j%s%0%j%9%H(B</a></li>
-      <li><a href="http://web.kyoto-inet.or.jp/people/yutaka70/naiskuoro.html" shape="rect">$B=w@<9g>'%a!<%j%s%0%j%9%H(B naiskuoro</a> $BA0@nM5$5$s$,4IM}$7$F$$$^$9!#(B</li>
-      <li><a href="http://homepage1.nifty.com/amabile/amabile.html" shape="rect">$B;yF89g>'%a%$%j%s%0%j%9%H(B</a> by $B;3K\E/$5$s!#(B</li>
-      <li><a href="http://www.na.rim.or.jp/~kkawai/jamca/jamca.htm" shape="rect">$BF|K\CK@<9g>'6(2q(B(JAMCA)$B%a!<%j%s%0%j%9%H(B</a> $BC/$G$b;22C$G$-$^$9!#(B</li>
-      <li><a href="%%TOPDIR%%hml/" shape="rect">$B%O!<%b%K!<%a!<%j%s%0%j%9%H(B(HML)</a></li>
-    </ul>
+    <h1><a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">情報</a>:メーリングリスト</h1>
+    <xi:include href="../../../../db/links/mailinglist.xml"/>
   </body>
 </html>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.11 2002/06/11 04:49:50 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.12 2002/06/18 15:22:15 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
 		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
-		xmlns:cr="http://www.chorusroom.org/xml"
+		xmlns:c="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:r="http://www.chorusroom.org/resource"
-		xmlns:char="http://www.chorusroom.org/character"
+		xmlns:cr="http://www.chorusroom.org/character"
 		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
-		exclude-result-prefixes="cr p char r">
+		exclude-result-prefixes="c p r">
 
   <xsl:param name="output-encoding"/>
   <xsl:param name="suffix"/>
   <xsl:include href="common.xsl"/>
-  <xsl:include href="dummy-char-conv.xsl"/>
+  <!-- <xsl:include href="dummy-char-conv.xsl"/> -->
   <xsl:include href="resource.xsl"/>
+  <xsl:include href="xinclude.xsl"/>
+  <xsl:include href="xhtml1-choir-links.xsl"/>
+  <xsl:include href="xhtml1-links.xsl"/>
 
-  <xsl:output method="xml"
-	      indent="yes"
-	      doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-	      doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
+  <xsl:output method="xml" indent="yes"/>
 
   <xsl:template match="*[name()='head']" priority="1.0">
     <head>

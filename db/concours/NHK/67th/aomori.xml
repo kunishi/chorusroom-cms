@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: aomori.xml,v 1.5 2001/02/04 02:04:45 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: aomori.xml,v 1.6 2002/06/18 15:21:53 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回)NHK全国学校音楽コンクール青森県コンクール</competition-name>
   <result output="aomori">
     <date day-of-week="thu" holiday="false">2000-08-31</date>
@@ -20,7 +20,7 @@
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
 	    <piano grade="2">山道かさね</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -67,7 +67,7 @@
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
 	    <piano grade="3">正井清子</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -95,7 +95,7 @@
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
 	    <piano>佐々木優子</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -131,7 +131,7 @@
 	<program>
 	  <given-program>
 	    <!-- one of (pieceRef p:piece p:suite) -->
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -157,7 +157,7 @@
 	<program>
 	  <given-program>
 	    <piano grade="3">戸田亜都美</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano grade="3">八戸麻利奈</piano>

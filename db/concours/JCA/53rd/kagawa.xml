@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: kagawa.xml,v 1.7 2001/02/04 02:04:42 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kagawa.xml,v 1.8 2002/06/18 15:21:42 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">第 53 回全日本合唱コンクール香川県大会 (第 40 回香川県合唱コンクール)</competition-name>
   <result output="kagawa">
     <date day-of-week="sun" holiday="false">2000-07-30</date>
@@ -408,7 +408,7 @@
 	<special-prize>全日本合唱連盟理事長賞</special-prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="G4" href="givenPrograms.xml"/>
+	    <pieceRef number="G4" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -439,7 +439,7 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -469,7 +469,7 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="G4" href="givenPrograms.xml"/>
+	    <pieceRef number="G4" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -501,7 +501,7 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	    <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -559,7 +559,7 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	    <pieceRef number="F4" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -582,7 +582,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	    <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -613,7 +613,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	    <pieceRef number="G3" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>

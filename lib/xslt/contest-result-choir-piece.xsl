@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-choir-piece.xsl,v 1.9 2001/09/06 02:37:45 kunishi Exp $ -->
+<!-- $Id: contest-result-choir-piece.xsl,v 1.10 2002/06/18 15:22:14 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:p="http://www.chorusroom.org/piece"
-		xmlns:char="http://www.chorusroom.org/character">
+		xmlns:cr="http://www.chorusroom.org/character">
 
   <xsl:template match="p:piece">
     <xsl:param name="piece-top" select="."/>

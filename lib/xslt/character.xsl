@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: character.xsl,v 1.3 2001/02/04 02:04:47 kunishi Exp $ -->
+<!-- $Id: character.xsl,v 1.4 2002/06/18 15:22:14 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns:char="http://www.chorusroom.org/character">
+		xmlns:cr="http://www.chorusroom.org/character"
+                exclude-result-prefixes="cr">
 
+  <xsl:param name="output-encoding">utf-8</xsl:param>
+
+  <xsl:variable name="all-chars-extracted.xml">../../../lib/tech/all-chars-extracted.xml</xsl:variable>
   <xsl:variable name="all-chars"
-		select="document('../tech/all-chars-extracted.xml')/*/char:character"/>
+		select="document($all-chars-extracted.xml)/*/cr:character"/>
 
-  <xsl:template match="char:utf8-char">
+  <xsl:template match="cr:utf8-char">
     <xsl:variable name="nickname" select="@nickname"/>
     <xsl:choose>
       <xsl:when test="$output-encoding='utf-8'">

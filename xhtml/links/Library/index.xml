@@ -1,20 +1,11 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character" xmlns:xi="http://www.w3.org/2001/XInclude">
   <head>
     <title>Chorus Room/links:Library</title>
   </head>
   <body>
-    <h1><a href="../" shape="rect">$B%j%s%/=8(B</a>:$B%i%$%V%i%j(B</h1>
-    <ul>
-      <li><a href="http://members.tripod.co.jp/escore/index.html" shape="rect">$B9g>'6JEE;R3ZIh%i%$%V%i%j(B</a></li>
-      <li><a href="http://plaza24.mbn.or.jp/~tamasan/" shape="rect">$B$?$^$5$s$NIt20(B</a> $B9g>'6J$N(B MIDI $B%G!<%?=8$J$I!#(B</li>
-      <li> <a href="http://lemur.stanford.edu/albumdbase/" shape="rect">A Cappella Album Database (Stanford Univ.)</a></li>
-      <li> <a href="http://www.dtx.net/~raborn/choral.html" shape="rect">The Choral Connection</a> (by Faren Raborn)<br/>
-	<a href="http://www.dtx.net/~raborn/index.html" shape="rect">The Classical MIDI Connection</a>$B$NCf$N(B1$B%Z!<%8!#(B</li>
-   <li><a href="http://www.geocities.com/vienna/strasse/4303/" shape="rect">Coral Espirita Vozes da Esperan<cr:utf8-char nickname="ccedil">c</cr:utf8-char>a</a> Encore$B7A<0$d(BFinale$B7A<0$N9g>'3ZIh$,(B500$B0J>e%@%&%s%m!<%I$G$-$k(B&quot;Bank of Choir Scores&quot;$B$J$I!#$[$H$s$I$N%3%s%F%s%D$O%]%k%H%,%k8l$G=q$+$l$F$$$^$9$,!"(B&quot;Bank of Choir Scores&quot;$B$O1Q8l$G$9$N$G$4?4G[$J$/!#(B</li>
-      <li> <a href="http://www.channel1.com/users/gsilvis/" shape="rect">The Silvis Woodshed</a> MIDI $B%"!<%+%$%V!#(B</li>
-      <li> <a href="http://www.prs.net/midi.html" shape="rect"> The Classical MIDI Archives</a> (by Pierre R. Schwob)</li>
-    </ul>
+    <h1><a href="../" shape="rect">リンク集</a>:ライブラリ</h1>
+    <xi:include href="../../../db/links/library.xml"/>
   </body>
 </html>

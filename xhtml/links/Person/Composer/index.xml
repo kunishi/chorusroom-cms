@@ -1,20 +1,12 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
   <head>
-    <!-- $Id: index.xml,v 1.15 2001/01/12 12:03:35 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.16 2002/06/18 15:23:29 kunishi Exp $ -->
     <title>Chorus Room/Links:Person:Composer</title>
   </head>
   <body>
-    <h1><a href="../../" shape="rect">$B%j%s%/=8(B</a>:<a href="../" shape="rect">$B$R$H(B</a>:$B:n6J2H(B</h1>
-    <ul>
-      <li><a href="http://www3.justnet.ne.jp/~micin/" shape="rect">$BCv4VF;L@;a$N%Z!<%8(B</a></li>
-      <li><a href="http://www.asahi-net.or.jp/~kd2e-kwsk/" shape="rect">$B@n:j3(ETIW;a$N%Z!<%8(B</a></li>
-      <li><a href="http://www.asahi-net.or.jp/~az4m-knst/" shape="rect">$BLZ2<KR;R(BHomePage</a> $BLZ2<$5$s$4K\?M$,:n$C$F$*$i$l$k%Z!<%8$G$9!#(B</li>
-      <li><a href="http://www.eva.hi-ho.ne.jp/jshibata/" shape="rect">$B<FEDFnM:$N%Z!<%8(B</a>$B<FED$5$s$N$4?FB2$,:n$i$l$?%Z!<%8$J$s$G$7$g$&$+!#N,Nr!"G/Ih!"<FED:nIJ$N1iAUM=Dj$J$I!#(B</li>
-      <li><a href="http://www2a.meshnet.or.jp/~moyse/" shape="rect">$BDIEi(B $BIpK~E0(B</a> $BCfLnMN0l$5$s$,:n$i$l$F$$$^$9!#%G%#%9%3%0%i%U%#$=$NB>!#(B</li>
-      <li><a href="http://www.geocities.co.jp/Hollywood-Theater/1957/" shape="rect">($BL$G'2DHG(B)$BB?EDIpI'9g>':nIJ%G!<%?%Y!<%9(B</a> $B:n6J2HB?EDIpI'$N9g>':nIJ$N%G!<%?$,$=$m$C$F$$$k%Z!<%8$G$9!#(B</li>
-      <li><a href="http://www.geocities.co.jp/Milkyway/6021/q_totsu.html" shape="rect">$B;0A198@h@8$X$N<ALd>u(B</a> $B9bLnK'<#$5$s:n!#9bLn$5$s$N9g>'CD$G!V2G$0L<$K!W$r<h$j>e$2$?$H$-$K;0A198;a$KAw$C$?!"6J$N2r<a$J$I$K$D$$$F$N<ALd$H$=$NJVEz$r$^$H$a$?$b$N!#(B</li>
-    </ul>
+    <h1><a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">ひと</a>:作曲家</h1>
+    <xi:include href="../../../../db/links/composer.xml"/>
   </body>
 </html>

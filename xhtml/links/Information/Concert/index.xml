@@ -1,24 +1,11 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="ja" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
   <head dir="ltr">
     <title dir="ltr">Chorus Room/links:Information:Concert</title>
   </head>
   <body dir="ltr">
-    <h1 dir="ltr"><a dir="ltr" href="../../" shape="rect">$B%j%s%/=8(B</a>:<a dir="ltr" href="../" shape="rect">$B>pJs(B</a>:$B%3%s%5!<%H>pJs(B</h1>
-    <ul dir="ltr">
-      <li dir="ltr"><a dir="ltr" href="http://angelfire.com/ns/corofesta2001/" shape="rect">$B%3%m!&%U%'%9%?(B2001</a> $BEl5~"*>>;3"*1'ET5\!"A49q$+$i=8$&9g>'CD$K$h$k%^%i%=%s!&%3%s%5!<%H!#:#G/!"?L:R$+$i$NI|6=$N?J$`?@8M$G!V?7$7$$9g>'$N:WE5!W$r3+$-$^$9!#(B</li>
-      <li dir="ltr">Chorus Concert Diary (
-	<a dir="ltr" href="http://www.asahi-net.or.jp/~VD6K-MSK/index.htm" shape="rect">Chorus House POISSONS</a>
-	$B$+$i$?$I$l$^$9(B)</li>
-      <li dir="ltr"><a dir="ltr" href="http://homepage1.nifty.com/ks-trp/calendar.htm" shape="rect">Concert Calendar</a> $B"v%/%i%7%C%/2;3Z$N"v%3%s%5!<%H>pJs$r$*CN$j$K$J$j$?$$J}!"%3%s%5!<%H>pJs$r$*FO$1$7$?$$J}!K$N9->l!#Kh7n#12s!"3'MM$+$i$*4s$;D:$$$?%3%s%5!<%H>pJs$rCO0hJL$K%a!<%k%^%,%8%s$GH/9TCW$7$F$*$j$^$9!#(B</li>
-      <li dir="ltr"><a dir="ltr" href="http://wolfgang.pi.titech.ac.jp/~nmiya/schwalben/consert.html" shape="rect">1995$BG/EYBg3X9g>'CDDj4|1iAU2q>pJs(B($B5\:j!wEl9)Bg$5$s$K$h$k(B)</a></li>
-      <li dir="ltr"><a dir="ltr" href="http://village.infoweb.or.jp/~fwgd0962/cgibook/cinfo.htm" shape="rect">$B1iAU2q>pJs$N%Z!<%8(B(by $B9bLnK'<#$5$s(B)</a></li>
-      <li dir="ltr"><a dir="ltr" href="http://www2d.meshnet.or.jp/~fukunisi/concert.html" shape="rect">$BBg:e6aJU$N9g>'$N1iAU2q>pJs(B</a> (by $BJ!@>LP<y$5$s(B)</li>
-      <li dir="ltr"><a dir="ltr" href="http://www.musicinfo.com/music/index.html" shape="rect">$B%/%i%7%C%/2;3Z>pJs%;%s%?!<(B</a></li>
-      <li dir="ltr">$B8E3Z1iAU2q>pJs(B (by $BJ?4\M%$5$s(B) <a dir="ltr" href="http://sakura.kek.jp/~taira/music/" shape="rect">Early Music Information</a>$B$+$i$?$I$C$F$/$@$5$$!#(B</li>
-      <li dir="ltr"><a dir="ltr" href="http://www.hongo.ecc.u-tokyo.ac.jp/~e61380/hozon/tada.html" shape="rect">$BB?EDIpI':nIJ$N1iAUM=Dj(B</a>(by $BNkLZ7zK.$5$s(B) $B$$$D!"$I$3$GB?EDIpI':nIJ$,1iAU$5$l$k$+$r$^$H$a$?%Z!<%8!#!V$3$NB>$K>pJs$r$*;}$A$NJ}$O$4O"Mm2<$5$$!W$H$N$3$H$G$9!#(B</li>
-      <li dir="ltr"><a dir="ltr" href="http://www.ki.rim.or.jp/~t-cantat/" shape="rect">Tokyo Cantat</a> $BKhG/(B5$B7n$K3+:E$5$l$k!V2;3Z<y!W<g:E$N%$%Y%s%H(BTokyo Cantat$B$N%[!<%`%Z!<%8!#(B</li>
-    </ul>
+    <h1 dir="ltr"><a dir="ltr" href="../../" shape="rect">リンク集</a>:<a dir="ltr" href="../" shape="rect">情報</a>:コンサート情報</h1>
+    <xi:include href="../../../../db/links/concert.xml"/>
   </body>
 </html>

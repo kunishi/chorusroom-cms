@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: national.xml,v 1.2 2001/08/06 03:46:45 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: national.xml,v 1.3 2002/06/18 15:21:51 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">平成9年度(第64回)NHK全国学校音楽コンクール全国大会</competition-name>
 <!--   <result output="national-1997-10-12"> -->
 <!--     <date day-of-week="sun" holiday="false">1997-10-12</date> -->
@@ -29,7 +29,7 @@
 <!-- 	<prize nickname="none"></prize> -->
 <!-- 	<program> -->
 <!-- 	  <given-program> -->
-<!-- 	    <pieceRef number="elementary-school" href="givenPrograms.xml"/> -->
+<!-- 	    <pieceRef number="elementary-school" href="givenPrograms-64th.xml"/> -->
 <!-- 	  </given-program> -->
 <!-- 	  <free-program> -->
 <!-- 	    <p:suite> -->
@@ -55,7 +55,7 @@
 <!-- 	<prize nickname="silver">銀賞</prize> -->
 <!-- 	<program> -->
 <!-- 	  <given-program> -->
-<!-- 	    <pieceRef number="elementary-school" href="givenPrograms.xml"/> -->
+<!-- 	    <pieceRef number="elementary-school" href="givenPrograms-64th.xml"/> -->
 <!-- 	  </given-program> -->
 <!-- 	  <free-program> -->
 <!-- 	    <p:suite> -->
@@ -109,7 +109,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -137,7 +137,7 @@
 	<program>
 	  <given-program>
 	    <piano grade="3">蓼内夏子</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -188,7 +188,7 @@
 	<program>
 	  <given-program>
 	    <piano grade="3">鈴木史人</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -216,7 +216,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -244,7 +244,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -264,7 +264,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -293,7 +293,7 @@
 	<program>
 	  <given-program>
 	    <piano grade="1">桑原美央</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -314,7 +314,7 @@
 	<special-prize>文部大臣奨励賞</special-prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -349,7 +349,7 @@
 	<program>
 	  <given-program>
 	    <piano grade="3">富塚悦子</piano>
-	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano grade="3">田浦亜矢子</piano>
@@ -397,7 +397,7 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -433,7 +433,7 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -470,7 +470,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -492,7 +492,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -528,7 +528,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -549,7 +549,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
@@ -572,7 +572,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -601,7 +601,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -635,7 +635,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="senior-highschool" href="givenPrograms-64th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>

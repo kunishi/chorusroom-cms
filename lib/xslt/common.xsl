@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.10 2002/06/11 04:49:39 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.11 2002/06/18 15:22:14 kunishi Exp $ -->
 
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
 		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
-		xmlns:cr="http://www.chorusroom.org/xml"
+		xmlns:c="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
-		xmlns:char="http://www.chorusroom.org/character"
+		xmlns:cr="http://www.chorusroom.org/character"
 		xmlns:r="http://www.chorusroom.org/resource"
 		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
-		exclude-result-prefixes="cr p char r">
+		exclude-result-prefixes="c p cr r">
 
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
@@ -22,9 +22,10 @@
   <xsl:param name="styledir">/style</xsl:param>
   <xsl:param name="stylesheet">default.css</xsl:param>
 
-  <xsl:variable name="maintainerName" select="document('../../src/DTD/resource.xml')/r:resources/r:resource[@name='maintainerName']/@value"/>
-  <xsl:variable name="maintainerJName" select="document('../../src/DTD/resource.xml')/r:resources/r:resource[@name='maintainerJName']/@value"/>
-  <xsl:variable name="maintainerEmail" select="document('../../src/DTD/resource.xml')/r:resources/r:resource[@name='maintainerEmail']/@value"/>
+  <xsl:variable name="resource.xml">../../../lib/dtd/resource.xml</xsl:variable>
+  <xsl:variable name="maintainerName" select="document($resource.xml)/r:resources/r:resource[@name='maintainerName']/@value"/>
+  <xsl:variable name="maintainerJName" select="document($resource.xml)/r:resources/r:resource[@name='maintainerJName']/@value"/>
+  <xsl:variable name="maintainerEmail" select="document($resource.xml)/r:resources/r:resource[@name='maintainerEmail']/@value"/>
 
   <xsl:template name="additional-header">
     <link type="text/css" rel="stylesheet">
@@ -43,12 +44,6 @@
       <xsl:value-of select="concat($imagedir, '/', $bgimage)"/>
       <xsl:text>); }</xsl:text>
     </style>
-    <meta http-equiv="Content-Type">
-      <xsl:attribute name="content">
-	<xsl:text>text/html; charset=</xsl:text>
-	<xsl:value-of select="$output-encoding" />
-      </xsl:attribute>
-    </meta>
   </xsl:template>
 
   <xsl:template name="footer">
