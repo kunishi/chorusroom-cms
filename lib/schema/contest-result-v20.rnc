@@ -40,7 +40,9 @@ choir =
             xsd:string
         }
         & element c:playingOrder { xsd:integer }?
-        & element c:type { "general" | "male" | "female" | "same-voice" | "children" }?
+        & element c:type { 
+            attribute nickname  { "mixed" | "male" | "female" | "same-voice" | "children" },
+            text }?
         & element c:prefecture { text }?
         & element c:number { xsd:integer }?
         & element c:players { players }?
@@ -54,20 +56,16 @@ choir =
     }
 players =
     (element c:conductor {
-         attribute grade { xsd:integer }?,
-         attribute performed { "assigned" | "free" }?,
+         attribute note { text }?,
          text
      }
      | element c:piano {
-           attribute id { text }?,
-           attribute grade { xsd:integer }?,
-           attribute performed { "assigned" | "free" }?,
+           attribute note { text }?,
            text
        }
      | element c:instrument {
            attribute kind { text },
-           attribute grade { xsd:integer }?,
-           attribute performed { "assigned" | "free" }?,
+           attribute note { text },
            text
        })+
 playing-number =
