@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id: gen-tbl.pl,v 1.2 1999/11/20 23:55:35 kunishi Exp $
+# $Id: gen-tbl.pl,v 1.3 1999/11/20 23:58:31 kunishi Exp $
 
 use strict;
 use vars qw(%HTML4symtab $line);
@@ -31,9 +31,9 @@ while (<>) {
 	&printtd('&amp;' . $2);
 	&printtd($3);
 	if ($HTML4symtab{$1}) {
-	    &printtd('&circ;');
+	    &printtd('OK');
 	} else {
-	    &printtd('');
+	    &printtd('NG');
 	}
 	print '</tr>' . "\n";
     }
