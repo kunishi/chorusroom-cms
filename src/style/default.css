@@ -1,16 +1,16 @@
-/* $Id: default.css,v 1.6 2000/09/05 04:24:11 kunishi Exp $ */
+/* $Id: default.css,v 1.7 2000/09/05 04:28:35 kunishi Exp $ */
 
 body { background-color: rgb(204,204,204);
        color: black;
        margin-left: 1em;
        margin-right: 1em;
+       line-height: 130%;
        }
 h1 { text-align: center;
      margin-top: 1em;
      margin-bottom: 0.5em; }
 a:link { color: rgb(0,0,204); }
 a:visited { color: rgb(102, 0, 0); }
-p { line-height: 130%; }
 
 /* for AJCL contest results pages */
 h1.ajclcontest { text-align: left; }
