@@ -1,7 +1,7 @@
 #!/usr/local/bin/ruby
 #
 # a script for fixing irregular result of Xalan
-# $Id: fix-xmldecl-duplication.rb,v 1.1 2000/10/04 05:13:39 kunishi Exp $
+# $Id: fix-xmldecl-duplication.rb,v 1.2 2000/10/04 05:18:38 kunishi Exp $
 
 $xmldecl = 'no'
 
@@ -18,4 +18,5 @@ ARGV.each {
   end
   $fd.close
   $newfd.close
+  File.rename(file + '.new', file)
 }
