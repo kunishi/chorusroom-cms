@@ -10,7 +10,6 @@
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>50th AJCL Chorus Contest/Kansai</title>
   </head>
-
   <body>
     <h1>第52回関西合唱コンクール大学・職場の部</h1>
     <dl>
@@ -152,9 +151,10 @@
 	</ul>
       </li>
     </ul>
-
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:15:59 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 03:56:47 $ GMT</p>
+    </div>
   </body>
 </html>
