@@ -1,9 +1,9 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.54 2001/09/20 09:39:23 kunishi Exp $
+# $Id: config.mk,v 1.55 2001/09/21 06:27:27 kunishi Exp $
 #
 
 PUBLIC_SERVER=	chorusroom.c.oka-pu.ac.jp
-PUBLIC_DIR=	/usr/home/www/data/chorusRoom/
+PUBLIC_DIR=	/home/www/data/chorusRoom/
 TOP_URL=	http://www.chorusroom.org/
 
 LOCALBASE=	/usr/local
