@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/nhk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/notice.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1012/kansai.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1009/links.html"></rdf:li>
@@ -23,11 +24,19 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0927/freetalk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0926/rss.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0926/renewal.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1013/nhk.html">
+    <title>NHK全国学校音楽コンクール・高等学校の部の結果</title>
+    <link>http://www.chorusroom.org/info/2003/1013/nhk.html</link>
+    <description>
+      10月13日に行われたNHK全国学校音楽コンクール・高等学校の部の結果
+      の速報です。
+    </description>
+    <dc:date>2003-10-13</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1013/nhk-notice.html">
     <title>NHK全国学校音楽コンクールの結果</title>
@@ -165,6 +174,7 @@
     <dc:date>2003-09-26</dc:date>
   </item>
 
+  <!--
   <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml">
     <title>第42回中国合唱コンクール(第1日)</title>
     <link>http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml</link>
@@ -173,6 +183,7 @@
     </description>
     <dc:date>2003-09-26</dc:date>
   </item>
+  -->
 
   <!-- 
   <item rdf:about="http://www.chorusroom.org/info/2003/0926/renewal.html">
