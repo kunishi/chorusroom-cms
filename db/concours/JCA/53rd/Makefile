@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.44 2000/10/05 16:40:06 kunishi Exp $
+# $Id: Makefile,v 1.45 2000/10/06 11:34:43 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -160,7 +160,7 @@ ${INSTFILES_HTML_SHIKOKU}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
-${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
+${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}: shikoku.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} $@
@@ -176,7 +176,7 @@ ${TOHOKU_HTML}: tohoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
-${TOHOKU_HTML:%.html=%.utfhtml}: tohoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
+${TOHOKU_HTML:%.html=%.utfhtml}: tohoku.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} $@
