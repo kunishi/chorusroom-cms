@@ -62,7 +62,7 @@
 <!ELEMENT 共演者 (#PCDATA)>
 <!ATTLIST 共演者
           演奏楽器 CDATA #REQUIRED>
-<!ELEMENT 曲目 (課題曲, 自由曲+)>
+<!ELEMENT 曲目 (課題曲?, 自由曲+)>
 <!ELEMENT 賞 (#PCDATA)>
 <!-- 金賞、銀賞、銅賞以外の賞は特別賞フィールドに書く。 -->
 <!ELEMENT 特別賞 (#PCDATA)>
