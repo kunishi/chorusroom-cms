@@ -90,14 +90,27 @@
   </xsl:template>
   <xsl:template match="報告者">
     <dd>
-      <xsl:if test="@匿名希望[.='yes']">匿名希望さん</xsl:if>
+      <xsl:if test="@匿名希望[.='yes']">匿名希望</xsl:if>
       <xsl:if test="not(@匿名希望[.='yes'])">
-	<xsl:value-of select="."/>
-	<xsl:if test="not(@email匿名[.='yes'])">
-	  (<xsl:value-of select="@email"/>)
-	</xsl:if>
+	<xsl:apply-templates select="報告者氏名"/>
+	<xsl:apply-templates select="email"/>
       </xsl:if>
     </dd>
+  </xsl:template>
+
+  <xsl:template match="報告者氏名">
+    <xsl:if test="@ペンネーム">
+      <xsl:value-of select="@ペンネーム"/>
+    </xsl:if>
+    <xsl:if test="not(@ペンネーム)">
+      <xsl:value-of select="."/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="email">
+    <xsl:if test="not(@email匿名[.='yes'])">
+      (<xsl:value-of select="."/>)
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="注記">
