@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.33 2001/01/03 11:30:26 kunishi Exp $
+# $Id: rule.mk,v 1.34 2001/01/29 11:29:44 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -77,7 +77,7 @@ endif
 
 install:	install-subdir
 ifneq ($(join ${INSTFILES},${INSTFILES_NOBUILD}),)
-	${SYNC_TOOL} ${INSTFILES} ${INSTFILES_NOBUILD} ${INSTTOPDIR}${RELPATH}
+	install -c -p ${INSTFILES} ${INSTFILES_NOBUILD} ${INSTTOPDIR}${RELPATH}
 endif
 
 install-subdir:
