@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.1 1999/08/22 16:15:58 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 1999/09/09 04:07:00 kunishi Exp $
 # 
 
 RELPATH=	links/Person
@@ -9,6 +9,7 @@ INSTFILES+=	index.html
 
 SUBDIR+=	Composer \
 		Conductor \
+		Misc \
 		Poet
 
 include ${SRCTOPDIR}/config.mk
