@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml1-chorusroom.dtd">
+<html lang="ja" xml:lang="ja" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Chorus Concours</title>
   </head>
@@ -40,9 +36,11 @@
     </p>
     <hr/>
     <h2><a href="JCA/" shape="rect">全日本合唱コンクール</a></h2>
-    <h2>宝塚室内合唱コンクール</h2>
+    <h2 dir="ltr"><a dir="ltr" href="NHK/" shape="rect">NHK全国学校音楽コンクール</a></h2>
+    <h2><a dir="ltr" href="Takarazuka/" shape="rect">宝塚室内合唱コンクール</a></h2>
     <h2>各種ボーカルアンサンブルコンテスト</h2>
     <h3>しが・ヴォーカル・アンサンブル・コンテスト (滋賀、掲載予定)</h3>
     <h3><a href="KOVOX/" shape="rect">KOVOX</a> (神戸)</h3>
+    <h3 dir="ltr"><a dir="ltr" href="TVEC/" shape="rect">東京ヴォーカルアンサンブルコンテスト(TVEC)</a></h3>
   </body>
 </html>
