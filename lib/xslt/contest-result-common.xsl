@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.5 2001/01/24 05:30:04 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.6 2001/01/30 13:27:20 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -558,6 +558,12 @@
     <li>
       <xsl:apply-templates/>
     </li>
+  </xsl:template>
+
+  <xsl:template match="cr:programNote">
+    <xsl:text> (</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>)</xsl:text>
   </xsl:template>
 
   <xsl:template match="char:utf8-char">

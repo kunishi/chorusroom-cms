@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: contest-result.rxm,v 1.9 2001/01/22 07:59:29 kunishi Exp $ -->
+<!-- $Id: contest-result.rxm,v 1.10 2001/01/30 13:26:58 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -255,11 +255,17 @@
 
   <tag name="program"/>
   <elementRule role="program">
+    <hedgeRef label="programList"/>
+  </elementRule>
+  <hedgeRule label="programList">
     <sequence>
-      <ref label="given-program" occurs="?"/>
+      <hedgeRef label="givenProgramRule"/>
       <ref label="free-program" occurs="+"/>
     </sequence>
-  </elementRule>
+  </hedgeRule>
+  <hedgeRule label="givenProgramRule">
+    <empty/>
+  </hedgeRule>
 
   <tag name="prize">
     <ref role="prize-list"/>
@@ -304,13 +310,25 @@
   <tag name="given-program">
   </tag>
   <elementRule role="given-program">
+    <hedgeRef label="aProgram"/>
+  </elementRule>
+  <hedgeRule label="aProgram">
     <sequence>
-      <hedgeRef label="players-list" occurs="?"/>
+      <hedgeRef label="playersListInAProgram"/>
       <choice>
 	<ref label="pieceRef"/>
 	<importedLabelRef label="choirPiece"/>
       </choice>
+      <hedgeRef label="programNote" occurs="?"/>
     </sequence>
+  </hedgeRule>
+  <hedgeRule label="playersListInAProgram">
+    <empty/>
+  </hedgeRule>
+
+  <tag name="programNote">
+  </tag>
+  <elementRule role="programNote" type="string">
   </elementRule>
 
   <attPool role="given-program-list"/>
@@ -324,10 +342,7 @@
 
   <tag name="free-program"/>
   <elementRule role="free-program">
-    <sequence>
-      <hedgeRef label="players-list" occurs="?"/>
-      <importedLabelRef label="choirPiece"/>
-    </sequence>
+    <hedgeRef label="aProgram"/>
   </elementRule>
 
 </module>
