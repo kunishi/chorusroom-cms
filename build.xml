@@ -345,7 +345,7 @@
 
   <!-- finalize -->
   <target name='finalize'
-          depends='finalize.html, finalize.copysrc, finalize.fixmod'/>
+          depends='finalize.html, finalize.copysrc'/>
 
   <target name='finalize.html' depends='build.xhtml'>
     <xslt basedir='${build.xhtml}' destdir='${build.html}'
@@ -393,6 +393,7 @@
     </copy>
   </target>
 
+  <!-- 
   <target name="finalize.fixmod">
     <chmod perm="go+r" type="file">
       <fileset dir="${build.html}">
@@ -405,6 +406,7 @@
       </fileset>
     </chmod>
   </target>
+  -->
 
   <!-- clean -->
   <target name="clean">
