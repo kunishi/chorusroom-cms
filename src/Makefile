@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.37 2000/09/12 10:07:21 kunishi Exp $
+# $Id: Makefile,v 1.38 2000/09/19 12:09:37 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -17,8 +17,7 @@ INSTFILES+=	CDShop.html \
 		profile.html \
 		notice.html
 
-INSTFILES_NOBUILD+=	chorusroom-logo.png \
-			panaMusica-map.txt \
+INSTFILES_NOBUILD+=	panaMusica-map.txt \
 			panaMusica.png \
 			panaMusica.ps \
 			panaMusica.ps.gz \
