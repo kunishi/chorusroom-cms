@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.48 2000/11/16 16:36:38 kunishi Exp $
+# $Id: GNUmakefile,v 1.49 2000/12/22 05:55:28 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -33,7 +33,6 @@ SUBDIR+=	ajcl \
 		namazu \
 		server \
 		style \
-		tech \
 		whatsnew
 
 include ${SRCTOPDIR}config.mk
