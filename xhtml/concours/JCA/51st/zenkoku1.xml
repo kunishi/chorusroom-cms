@@ -1,10 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
     <title>51st All Japan Chorus Contest/Univ, General A</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -24,7 +29,7 @@
       <dd>国島丈生 (kunishi@c.oka-pu.ac.jp)</dd>
     </dl>
     <p>◎が来年度の全国大会へのシード権獲得団体を表します。</p>
-    <hr>
+    <hr/>
     <h2>大学部門Aグループ</h2>
     <h3 class="gold">金賞</h3>
     <ul>
@@ -98,7 +103,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学部門Bグループ</h2>
     <h3 class="gold">金賞</h3>
     <ul>
@@ -190,7 +195,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般部門Aグループ</h2>
     <h3 class="gold">金賞</h3>
     <ul>
@@ -310,11 +315,9 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sat Nov 21 23:10:32 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Tue Nov 24 09:00:39 JST 1998
-<!-- hhmts end -->
+    $Date: 1999/08/24 12:24:24 $
   </body>
 </html>

@@ -1,12 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
     <title>51st All Japan Chorus Contest/Miyagi</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
-
   <body>
     <h1>第51回宮城県合唱コンクール</h1>
     <dl>
@@ -100,7 +104,7 @@
       <li>亘理町立荒浜中 (女声・39名, 指揮: 三谷一夫, ピアノ: 森佳代子)</li>
       <li>田尻町立田尻中 (女声・12名, 指揮: 門傳睦美, ピアノ: 廣亀早苗)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高等学校部門</h2>
     <h3>金賞</h3>
     <ul>
@@ -189,7 +193,7 @@
       <li>涌谷高(女声・19名A, 指揮: 佐藤秀樹)</li>
       <li>登米高(女声・12名A, 指揮: 亘理撫子, ピアノ: 佐々木理之)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学部門</h2>
     <h3>銀賞</h3>
     <ul>
@@ -203,7 +207,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場部門</h2>
     <h3>銀賞</h3>
     <ul>
@@ -216,14 +220,14 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部</h2>
     <h3>金賞・シード</h3>
     <ul>
       <li>○合唱団Palinka(男声・20名A, 指揮: 千葉敏行)
 	<ul>
 	  <li>M4</li>
-	  <li>木原孝一作詞/一柳慧作曲/「鎮魂歌」から</li>
+	  <li>木原孝一作詞/一柳慧作曲/「鎮魂歌」から</li></ul>
       </li>
     </ul>
     <h3>金賞</h3>
@@ -293,11 +297,9 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Tue Sep  1 23:34:52 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Wed Sep  2 00:12:04 JST 1998
-<!-- hhmts end -->
+    $Date: 1999/08/24 12:05:10 $
   </body>
 </html>

@@ -1,10 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
     <title>51st All Japan Chorus Contest/Shikoku Part 1</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -24,7 +29,7 @@
       <dd>塚本尚文さん (tsuka@bc.mbn.or.jp)</dd>
     </dl>
     <p>◎が全国コンクールの代表校です。</p>
-    <hr>
+    <hr/>
     <h2>高校の部A</h2>
     <h3>金賞</h3>
     <ul>
@@ -66,7 +71,7 @@
       <li>愛媛県立今治西高等学校コーラス部</li>
       <li>愛媛県立宇和島東高等学校声楽部</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校の部B</h2>
     <h3>金賞</h3>
     <ul>
@@ -89,7 +94,7 @@
       <li>西条高等学校合唱部</li>
       <li>八幡浜高等学校コーラス部</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部A</h2>
     <h3>銀賞</h3>
     <ul>
@@ -100,7 +105,7 @@
       <li>徳島大学リーダークライス</li>
       <li>高知大学合唱団</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部B</h2>
     <h3>金賞</h3>
     <ul>
@@ -111,11 +116,9 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sun Aug 30 01:08:07 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Sun Aug 30 01:33:12 JST 1998
-<!-- hhmts end -->
+    $Date: 1999/08/24 12:13:48 $
   </body>
 </html>
