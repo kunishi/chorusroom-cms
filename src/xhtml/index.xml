@@ -8,7 +8,12 @@
   <head>
     <title xml:lang="en">Chorus Room</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="toppage.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png);
+             color: black;
+      }
+    </style>
+    <link href="%%STYLEDIR%%/toppage.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1><img src="chorusroom-logo.png" width="417" height="108" alt="合唱の部屋"/></h1>
@@ -96,6 +101,6 @@
     </div>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a> &lt;&kunishi-email;&gt;</address>
     <hr/>
-    <p>$Id: index.xml,v 1.42 2000/08/26 02:15:48 kunishi Exp $</p>
+    <p>$Id: index.xml,v 1.43 2000/08/29 04:59:44 kunishi Exp $</p>
   </body>
 </html>
