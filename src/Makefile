@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.20 1999/09/27 02:22:10 kunishi Exp $
+# $Id: Makefile,v 1.21 1999/12/18 14:24:02 kunishi Exp $
 #
 
 RELPATH=	.
@@ -61,4 +61,4 @@ sync-upload:
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_ISO8859_1}
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_ASCII} > $@
+	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_ASCII} > $@

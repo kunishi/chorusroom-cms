@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.19 1999/12/12 02:28:34 kunishi Exp $
+# $Id: config.mk,v 1.20 1999/12/18 14:24:03 kunishi Exp $
 #
 
 JDK_LIBDIR=	/usr/local/jdk1.1.8/lib
@@ -22,7 +22,7 @@ endif
 CLASSPATH=	${XSLT_CLASSPATH}:${XML4J_CLASSPATH}:${JDK_CLASSPATH}
 XSLT_PROC=	java -classpath ${CLASSPATH} ${XSLT_OPTS} ${XSLT_CLASS}
 JAVA_COMPILER?=	tya
-MAKE_ENV+=	JAVA_COMPILER=${JAVA_COMPILER}
+XSLT_ENV+=	JAVA_COMPILER=${JAVA_COMPILER}
 
 UTF2ASCII=	hutrans
 ASCII2EUC=	tcs -f utf -t ujis

@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.16 1999/11/20 23:41:41 kunishi Exp $
+# $Id: rule.mk,v 1.17 1999/12/18 14:24:03 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent
@@ -8,10 +8,10 @@
 
 ifndef SPECIAL_RULES
 %.html:	%.xml
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} > $@
+	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} > $@
 
 %.utfhtml: %.utfxml
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
+	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
 endif
 
 %.utfxml: %.xml
@@ -22,7 +22,8 @@ all:	${INSTFILES} subdir
 subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
-	  (cd $${dir} && ${MAKE} all) \
+	  (cd $${dir} && ${MAKE} all \
+	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/../ ) \
 	done
 endif
 
@@ -40,7 +41,8 @@ ifdef SUBDIR
 	  if ! test -d ${INSTTOPDIR}${RELPATH}/$${dir}; then \
 	    mkdir -p ${INSTTOPDIR}${RELPATH}/$${dir}; \
 	  fi; \
-	  (cd $${dir} && ${MAKE} install); \
+	  (cd $${dir} && ${MAKE} install \
+	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/../ ); \
 	done
 endif
 
