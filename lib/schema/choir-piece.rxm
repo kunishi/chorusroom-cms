@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
-<!-- $Id: choir-piece.rxm,v 1.4 2000/12/25 14:23:20 kunishi Exp $ -->
+<!-- $Id: choir-piece.rxm,v 1.5 2000/12/26 16:12:16 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
-<module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
-  <interface/>
+<module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/piece" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+  <interface>
+    <import label="specialCharacters"/>
+    <export label="choir-piece"/>
+  </interface>
 
   <hedgeRule label="choir-piece">
     <sequence>
@@ -28,7 +31,7 @@
   </tag>
   <elementRule role="originated-from">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -37,7 +40,7 @@
   </tag>
   <elementRule role="words-by">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -46,7 +49,7 @@
   </tag>
   <elementRule role="translated-by">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -55,7 +58,7 @@
   </tag>
   <elementRule role="composed-by">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -64,7 +67,7 @@
   </tag>
   <elementRule role="arranged-by">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -73,7 +76,7 @@
   </tag>
   <elementRule role="piece">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -101,18 +104,18 @@
   <tag name="piece-number"/>
   <elementRule role="piece-number">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
   <tag name="piece-note"/>
   <elementRule role="piece-note">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
-  <hedgeRule label="character">
+  <hedgeRule label="specialCharacters">
     <empty/>
   </hedgeRule>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: contest-result.rxm,v 1.3 2000/12/26 13:32:44 kunishi Exp $ -->
+<!-- $Id: contest-result.rxm,v 1.4 2000/12/26 16:12:17 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -8,6 +8,8 @@
 
   <interface>
     <export label="competition"/>
+    <import label="specialCharacters"/>
+    <import label="choirPiece"/>
   </interface>
 
   <tag name="competition">
@@ -26,15 +28,17 @@
 
   <tag name="competition-name">
     <attribute name="pref" type="NMTOKEN">
-      <enumeration value="yes"/>
+      <enumeration value="false"/>
+      <enumeration value="true"/>
     </attribute>
     <attribute name="area" type="NMTOKEN">
-      <enumeration value="yes"/>
+      <enumeration value="false"/>
+      <enumeration value="true"/>
     </attribute>
   </tag>
   <elementRule role="competition-name">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -55,15 +59,16 @@
 
   <tag name="date">
     <attribute name="day-of-week" required="true" type="NMTOKEN">
+      <enumeration value="sun"/>
       <enumeration value="mon"/>
       <enumeration value="tue"/>
       <enumeration value="wed"/>
       <enumeration value="thu"/>
       <enumeration value="fri"/>
       <enumeration value="sat"/>
-      <enumeration value="sun"/>
     </attribute>
     <attribute name="holiday" type="NMTOKEN">
+      <enumeration value="false"/>
       <enumeration value="true"/>
     </attribute>
   </tag>
@@ -75,7 +80,7 @@
   <tag name="hall"/>
   <elementRule role="hall">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -88,13 +93,14 @@
   </tag>
   <elementRule role="referee">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
   <tag name="reporter">
     <attribute name="anonymous" type="NMTOKEN">
-      <enumeration value="yes"/>
+      <enumeration value="false"/>
+      <enumeration value="true"/>
     </attribute>
   </tag>
   <elementRule role="reporter">
@@ -110,13 +116,14 @@
   </tag>
   <elementRule role="reporter-name">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
   <tag name="reporter-email">
     <attribute name="anonymous" type="NMTOKEN">
-      <enumeration value="yes"/>
+      <enumeration value="false"/>
+      <enumeration value="true"/>
     </attribute>
   </tag>
   <elementRule role="reporter-email" type="string"/>
@@ -129,7 +136,7 @@
   <tag name="notice"/>
   <elementRule role="notice">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -146,18 +153,19 @@
   </tag>
   <elementRule role="section-name">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
   <tag name="choir">
     <attribute name="playing-order" type="positiveInteger"/>
     <attribute name="representative" type="NMTOKEN">
-      <enumeration value="yes"/>
-      <enumeration value="no"/>
+      <enumeration value="false"/>
+      <enumeration value="true"/>
     </attribute>
     <attribute name="seed" type="NMTOKEN">
-      <enumeration value="yes"/>
+      <enumeration value="false"/>
+      <enumeration value="true"/>
     </attribute>
   </tag>
   <elementRule role="choir">
@@ -169,7 +177,7 @@
       <ref label="conductor" occurs="*"/>
       <ref label="piano" occurs="*"/>
       <ref label="accompaniment" occurs="*"/>
-      <ref label="prize" occurs="*"/>
+      <ref label="prize"/>
       <ref label="special-prize" occurs="*"/>
       <ref label="program" occurs="?"/>
       <ref label="scores" occurs="?"/>
@@ -183,7 +191,7 @@
   </tag>
   <elementRule role="choir-name">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -208,7 +216,7 @@
   </tag>
   <elementRule role="conductor">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -217,7 +225,7 @@
   </tag>
   <elementRule role="piano">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -227,7 +235,7 @@
   </tag>
   <elementRule role="accompaniment">
     <mixed>
-      <hedgeRef label="character"/>
+      <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -239,13 +247,11 @@
     </sequence>
   </elementRule>
 
-  <tag name="prize"/>
-  <elementRule role="prize" type="NMTOKEN">
-    <enumeration value="gold"/>
-    <enumeration value="silver"/>
-    <enumeration value="blonze"/>
-    <enumeration value="sheed"/>
-  </elementRule>
+  <tag name="prize">
+    <ref role="prize-list"/>
+  </tag>
+  <elementRule role="prize" type="string"/>
+  <attPool role="prize-list"/>
 
   <tag name="special-prize"/>
   <elementRule role="special-prize" type="string"/>
@@ -275,7 +281,7 @@
 
   <attPool role="given-program-list"/>
   <tag name="given-program">
-    <ref label="given-program-list"/>
+    <ref role="given-program-list"/>
   </tag>
   <elementRule role="given-program">
     <empty/>
@@ -284,10 +290,8 @@
   <tag name="free-program"/>
   <elementRule role="free-program">
     <sequence>
-      <hedgeRef label="choir-piece"/>
+      <importedLabelRef label="choirPiece" occurs="+"/>
     </sequence>
   </elementRule>
-
-  <include moduleLocation="choir-piece.rxm"/>
 
 </module>
