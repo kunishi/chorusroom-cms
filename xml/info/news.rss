@@ -9,6 +9,8 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/links.html"></rdf:li>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/freetalk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/nhk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/notice.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1012/kansai.html"></rdf:li>
@@ -23,10 +25,29 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0927/hokkaido.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0927/freetalk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0926/rss.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1014/links.html">
+    <title>リンク集更新(10/14分)</title>
+    <link>http://www.chorusroom.org/info/2003/1014/links.html</link>
+    <description>
+      以下のリンクを更新しました: レグルス・アンサンブル(一般・神奈川、
+      新規)、クール・プリエール(一般・東京、更新)
+    </description>
+    <dc:date>2003-10-14</dc:date>
+  </item>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1014/freetalk.html">
+    <title>本日の雑文(10/14分)</title>
+    <link>http://www.chorusroom.org/info/2003/1014/freetalk.html</link>
+    <description>
+      10/14、NHK全国学校音楽コンクールの日。当サイトにとっても大変な一
+      日となりました。その顛末の一部始終を書いてみました。
+    </description>
+    <dc:date>2003-10-14</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1013/nhk.html">
     <title>NHK全国学校音楽コンクール・高等学校の部の結果</title>
@@ -155,6 +176,7 @@
     <dc:date>2003-09-27T11:00</dc:date>
   </item>
 
+  <!-- 
   <item rdf:about="http://www.chorusroom.org/info/2003/0926/rss.html">
     <title>RSSによる新着情報配信を開始しました</title>
     <link>http://www.chorusroom.org/info/2003/0926/rss.html</link>
@@ -164,7 +186,9 @@
     </description>
     <dc:date>2003-09-26T22:00</dc:date>
   </item>
+  -->
 
+  <!-- 
   <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml">
     <title>第42回中国合唱コンクール(第2日)</title>
     <link>http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml</link>
@@ -173,6 +197,7 @@
     </description>
     <dc:date>2003-09-26</dc:date>
   </item>
+  -->
 
   <!--
   <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml">
