@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.55 2000/09/05 10:03:53 kunishi Exp $
+# $Id: Makefile,v 1.56 2000/09/28 02:17:06 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -68,8 +68,8 @@ include ${SRCTOPDIR}/rule.mk
 
 %.utfhtml: %.uhtml
 	${CP} $< $@
-	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -utf8 < $< > $@
+	${PATH_CONFIGURE} $@
 
 ###
 
