@@ -173,7 +173,7 @@
   </xsl:template>
 
   <xsl:template name="採点結果リンク">
-    <xsl:if test="//採点結果">
+    <xsl:if test=".//採点結果">
       <xsl:element name="ul">
 	<xsl:element name="li">
 	  <xsl:element name="p">
