@@ -3,19 +3,37 @@
 		xmlns:xt="http://www.jclark.com/xt"
 		xmlns="http://www.w3.org/TR/REC-html40"
 		extension-element-prefix="xt">
+
   <xsl:template match="大会">
+    <xsl:apply-templates select="開催日別結果"/>
+  </xsl:template>
+
+  <!--
+   xsl:template match="開催日別結果" は、各 encoding 別 xsl ファイル
+   に定義されています。
+  -->    
+
+  <xsl:template name="main">
     <xsl:element name="html">
       <xsl:element name="head">
 	<xsl:element name="title">
-	  <xsl:value-of select="大会名"/>
+	  <xsl:value-of select="/大会/大会名"/>
 	</xsl:element>
 	<xsl:call-template name="additional-header"/>
       </xsl:element>
       <xsl:element name="body">
 	<xsl:element name="h1">
-	  <xsl:value-of select="大会名"/>
+	  <xsl:value-of select="/大会/大会名"/>
 	</xsl:element>
-	<xsl:apply-templates select="開催日別結果"/>
+	<xsl:element name="dl">
+	  <xsl:call-template name="開催日リスト"/>
+	  <xsl:apply-templates select="開催場所"/>
+	  <xsl:call-template name="審査員リスト"/>
+	  <xsl:call-template name="報告者リスト"/>
+	</xsl:element>
+	<xsl:element name="hr"/>
+	<xsl:apply-templates select="注記"/>
+	<xsl:apply-templates select="部門結果"/>
 	<xsl:call-template name="footer"/>
       </xsl:element>
     </xsl:element>
@@ -58,18 +76,6 @@
       <xsl:value-of select="/大会/CVSID"/>
       <xsl:text>から自動的に生成されました。</xsl:text>
     </xsl:element>
-  </xsl:template>
-
-  <xsl:template match="開催日別結果">
-    <xsl:element name="dl">
-      <xsl:call-template name="開催日リスト"/>
-      <xsl:apply-templates select="開催場所"/>
-      <xsl:call-template name="審査員リスト"/>
-      <xsl:call-template name="報告者リスト"/>
-    </xsl:element>
-    <xsl:element name="hr"/>
-    <xsl:apply-templates select="注記"/>
-    <xsl:apply-templates select="部門結果"/>
   </xsl:template>
 
   <xsl:template name="開催日リスト">

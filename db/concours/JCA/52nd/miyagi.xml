@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="miyagi">
-  <CVSID>$Id: miyagi.xml,v 1.7 1999/09/27 01:50:41 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: miyagi.xml,v 1.8 1999/09/27 09:48:13 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第52回宮城県合唱コンクール</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="miyagi">
     <開催日 曜日="土">1999-08-28</開催日>
     <開催日 曜日="日">1999-08-29</開催日>
     <開催場所>東北大学川内記念講堂</開催場所>

@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="yamagata">
-  <CVSID>$Id: yamagata.xml,v 1.6 1999/09/27 01:50:41 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: yamagata.xml,v 1.7 1999/09/27 09:48:13 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第52回全日本合唱コンクール山形県大会</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="yamagata">
     <開催日 曜日="日">1999-08-29</開催日>
     <開催場所>新庄市民文化会館</開催場所>
     <報告者 匿名希望="yes">

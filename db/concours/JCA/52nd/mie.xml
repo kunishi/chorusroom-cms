@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="mie">
-  <CVSID>$Id: mie.xml,v 1.7 1999/09/27 01:50:41 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: mie.xml,v 1.8 1999/09/27 09:48:12 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第39回三重県合唱コンクール</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="mie">
     <開催日 曜日="日">1999-08-22</開催日>
     <開催場所>三重県文化会館大ホール</開催場所>
     <審査員 肩書="合唱指揮者">新井裕治</審査員>

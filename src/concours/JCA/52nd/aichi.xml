@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="aichi">
-  <CVSID>$Id: aichi.xml,v 1.12 1999/09/26 16:38:12 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: aichi.xml,v 1.13 1999/09/27 09:48:11 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第39回愛知県合唱コンクール</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="aichi">
     <開催日 曜日="日">1999-08-29</開催日>
     <開催場所>名古屋市民会館中ホール</開催場所>
     <報告者>

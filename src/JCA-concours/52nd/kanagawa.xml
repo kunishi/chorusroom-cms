@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="kanagawa">
-  <CVSID>$Id: kanagawa.xml,v 1.4 1999/09/27 01:50:40 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: kanagawa.xml,v 1.5 1999/09/27 09:48:12 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第52回全日本合唱コンクール神奈川県大会(第42回神奈川県合唱コンクール)</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="kanagawa">
     <開催日 曜日="土">1999-09-11</開催日>
     <開催日 曜日="日">1999-09-12</開催日>
     <開催場所>神奈川県立音楽堂(木の音楽ホール)</開催場所>

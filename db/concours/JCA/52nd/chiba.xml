@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="chiba">
-  <CVSID>$Id: chiba.xml,v 1.9 1999/09/26 16:38:32 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: chiba.xml,v 1.10 1999/09/27 09:48:11 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第54回千葉県合唱コンクール</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="chiba">
     <開催日 曜日="日">1999-08-29</開催日>
     <開催場所>千葉県文化会館大ホール</開催場所>
     <審査員>木下牧子</審査員>

@@ -27,8 +27,7 @@
 
 <!ELEMENT 大会 (CVSID, 大会名, 開催日別結果+)>
 <!ATTLIST 大会
-          %i18n;
-          略称 CDATA #REQUIRED>
+          %i18n;>
 <!ELEMENT CVSID (#PCDATA)>
 
 <!ELEMENT 大会名 (#PCDATA)>
@@ -38,7 +37,7 @@
 
 <!ELEMENT 開催日別結果 (開催日*, 開催時刻?, 開催場所?, 審査員*, 報告者+, 注記?, 部門結果+)>
 <!ATTLIST 開催日別結果
-          出力名 CDATA #IMPLIED>
+          出力 CDATA #REQUIRED>
 <!ELEMENT 開催日 (#PCDATA)>
 <!-- 開催日のフォーマットは YYYY-MM-DD -->
 <!ATTLIST 開催日

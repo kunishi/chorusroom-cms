@@ -5,10 +5,10 @@
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
-<大会 略称="shizuoka">
-  <CVSID>$Id: shizuoka.xml,v 1.8 1999/09/27 01:50:41 kunishi Exp $</CVSID>
+<大会>
+  <CVSID>$Id: shizuoka.xml,v 1.9 1999/09/27 09:48:13 kunishi Exp $</CVSID>
   <大会名 県大会="yes">平成11年度静岡県合唱コンクール</大会名>
-  <開催日別結果>
+  <開催日別結果 出力="shizuoka">
     <開催日 曜日="日">1999-09-12</開催日>
     <開催場所>静岡音楽館AOI</開催場所>
     <審査員 肩書="声楽家">鈴木茂明</審査員>

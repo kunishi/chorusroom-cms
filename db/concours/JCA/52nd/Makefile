@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.28 1999/09/27 06:20:09 kunishi Exp $
+# $Id: Makefile,v 1.29 1999/09/27 09:48:11 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -18,7 +18,7 @@ INSTFILES+=	fukushima.html fukushima.utfhtml
 INSTFILES+=	hyogo.html hyogo.utfhtml
 INSTFILES+=	kagoshima.html kagoshima.utfhtml
 INSTFILES+=	kanagawa.html kanagawa.utfhtml
-INSTFILES+=	kansai.html kansai.utfhtml
+INSTFILES+=	kansai-09-23.html kansai-09-23.utfhtml
 INSTFILES+=	kyushu.html kyushu.utfhtml
 INSTFILES+=	mie.html mie.utfhtml
 INSTFILES+=	miyagi.html miyagi.utfhtml
@@ -33,10 +33,26 @@ RESULT_XSL_UTF8=	result-utf8.xsl
 DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
+SPECIAL_RULES=		yes
+
 include ${SRCTOPDIR}/rule.mk
 
+%.html:	%.xml
+	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+
+%.utfhtml: %.utfxml
+	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+
+###
+
 index.html: %.html : %.xml ${XHTML10_XSL}
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
+	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
 
 index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
+	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
+
+kansai-09-23.html:	kansai.xml
+	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+
+kansai-09-23.utfhtml:	kansai.utfxml
+	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
