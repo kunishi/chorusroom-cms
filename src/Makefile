@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.28 2000/08/28 06:03:11 kunishi Exp $
+# $Id: Makefile,v 1.29 2000/08/28 06:04:42 kunishi Exp $
 #
 
 RELPATH=	.
@@ -54,7 +54,7 @@ index:
 gcindex:
 	cd ${NAMAZU_INDEX_DIR} && /usr/local/namazu/bin/gcnmz
 
-sync-upload:
+upload:
 	rsync -Cavu --delete -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
