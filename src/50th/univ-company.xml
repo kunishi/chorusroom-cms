@@ -1,9 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>50th AJCL Chorus Contest/University, Company</title>
   </head>
 
@@ -19,7 +24,7 @@
       <dt>情報提供者</dt>
       <dd>国島丈生(kunishi@c.oka-pu.ac.jp)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>大学部門Aグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -62,7 +67,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学部門Bグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -135,7 +140,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場部門</h2>
     <h3>金賞</h3>
     <ul>
@@ -210,12 +215,8 @@
 	</ul>
       </li>
     </ul>
-
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- Created: Sun Nov 23 21:14:16 JST 1997 -->
-<!-- hhmts start -->
-Last modified: Sat Dec 27 21:21:39 JST 1997
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/24 05:17:46 $
   </body>
 </html>
