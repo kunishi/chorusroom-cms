@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.35 2000/10/08 03:31:08 kunishi Exp $ -->
+<!-- $Id: index.xml,v 1.36 2000/10/08 23:37:54 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -7,11 +7,6 @@
 ]>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
     <title>第53回全日本合唱コンクール</title>
   </head>
   <body>
@@ -104,10 +99,5 @@
       <dd><a href="kumamoto2.html" shape="rect">熊本県大会(一般の部)</a></dd>
       <dd><a href="kyushu-2000-09-10.html" shape="rect">九州支部大会(大学・職場・一般)</a></dd>
     </dl>
-    <hr/>
-    <div class="footer">
-      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-      <p>$Revision: 1.35 $ $Date: 2000/10/08 03:31:08 $ GMT</p>
-    </div>
   </body>
 </html>

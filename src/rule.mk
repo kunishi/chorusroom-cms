@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.25 2000/10/04 06:44:36 kunishi Exp $
+# $Id: rule.mk,v 1.26 2000/10/08 23:37:38 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -8,19 +8,22 @@
 
 ifndef SPECIAL_RULES
 %.html:	%.xml ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} -out $@
-	${HTML_FORMAT} -m -iso2022 $@
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} -out $@ ${XSLT_PARAMS}
+	${SLEEP} 1
+	${HTML_FORMAT} -m ${TIDY_ENCODING} $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 
 %.utfhtml: %.utfxml ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@ ${XSLT_PARAMS}
+	${SLEEP} 1
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 
 %.u8.html: %.utfxml ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@ ${XSLT_PARAMS}
+	${SLEEP} 1
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@

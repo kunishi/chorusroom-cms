@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.40 2000/10/04 15:46:04 kunishi Exp $
+# $Id: Makefile,v 1.41 2000/10/08 23:37:37 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -45,6 +45,11 @@ NAMAZU_INDEX_DIR=	${INSTTOPDIR}namazu/index/
 
 .PHONY: index gcindex upload
 
+index.html:	CSSFILE=toppage.css
+
+info-note2.html: override DEFAULT_XSL=${XHTML10_XSL_ASCII}
+info-note2.html: override TIDY_ENCODING=-ascii
+
 install-namazu:	${INSTTOPDIR}search.cgi
 
 ${PUBLIC_DIR}search.cgi:	${NAMAZU_SRC}
@@ -60,7 +65,3 @@ upload:
 	rsync -Cavu -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
-info-note2.html: %.html : %.xml ${XHTML10_XSL_UTF8}
-	${ENV} ${XSLT_ENV} ${XSLT_PROC} -in $< -xsl ${XHTML10_XSL_UTF8} -out $@
-	${PATH_CONFIGURE} $@
-	${HTML_FORMAT} -m -utf8 $@

@@ -7,11 +7,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>This server</title>
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made"/>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
   </head>
   <body>
     <h1>このサーバの紹介</h1>
@@ -60,10 +55,5 @@
       (まあ、<a href="http://www.oka-pu.ac.jp/" shape="rect">うちの大学</a>は
       ネットワーク的に僻地にあるので、ネットワークのほうがボトルネックになる
       可能性の方が高いですが。)</p>
-    <hr/>
-    <div class="footer">
-      <address><a href="mailto:kunishi@c.oka-pu.ac.jp" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
-    <p>$Date: 2000/09/11 11:19:38 $ GMT</p>
-    </div>
   </body>
 </html>

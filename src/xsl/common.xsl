@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.1 2000/10/08 09:59:55 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.2 2000/10/08 23:38:08 kunishi Exp $ -->
 
 <xsl:stylesheet
   version="1.0"
@@ -55,7 +55,14 @@
       <address>
         <a>
           <xsl:attribute name="href">mailto:kunishi@c.oka-pu.ac.jp</xsl:attribute>
-          <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+          <xsl:choose>
+            <xsl:when test="$output-encoding='iso-8859-1'">
+              <xsl:text>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
         </a>
       </address>
       <p>

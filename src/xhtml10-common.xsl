@@ -20,7 +20,7 @@
 	</xsl:attribute>
 	<xsl:attribute name="content">
 	  <xsl:text>text/html; charset=</xsl:text>
-	  <xsl:value-of select="$output-charset"/>
+	  <xsl:value-of select="$output-encoding"/>
 	</xsl:attribute>
       </xsl:element>
     </xsl:copy>

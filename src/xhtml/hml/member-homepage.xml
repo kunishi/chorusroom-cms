@@ -6,13 +6,8 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: member-homepage.xml,v 1.9 2000/08/29 15:00:30 kunishi Exp $ -->
+    <!-- $Id: member-homepage.xml,v 1.10 2000/10/08 23:37:55 kunishi Exp $ -->
     <title>HML Members' Homepages</title>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <link href="mailto:&kunishi-email;" rev="made"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
   </head>
   <body>
     <h1>個人のホームページを持っているメンバー</h1>
@@ -96,10 +91,5 @@
       <li class="feb1998-update"><a href="http://quoniam.social.tsukuba.ac.jp/yamane/index.shtml" shape="rect">山根誠一郎</a></li>
       <li><a href="http://www.nsknet.or.jp/~ka-tsu/yumiko.html" shape="rect">ゆみこ</a></li>
     </ul>
-    <hr/>
-    <div class="footer">
-      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-      <p>$Revision: 1.9 $ $Date: 2000/08/29 15:00:30 $ GMT</p>
-    </div>
   </body>
 </html>

@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.39 2000/10/05 14:29:03 kunishi Exp $
+# $Id: config.mk,v 1.40 2000/10/08 23:37:37 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -26,9 +26,9 @@ endif
 endif
 
 JAVA_COMPILER?=	tya
-
-ifdef JAVA_COMPILER
 JAVA_OPTS+=	-Djava.compiler=${JAVA_COMPILER}
+
+ifdef USE_JDK11
 ifeq (${JAVA_COMPILER},tya)
 JAVA_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/tya
 endif
@@ -37,23 +37,34 @@ JAVA_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/shujit
 endif
 endif
 
-XSLT_CLASSPATH=	${XALAN_CLASSPATH}
-XSLT_CLASS=	org.apache.xalan.xslt.Process
-XSLT_OPTS+=	-XML
-
 ifdef JDK_CLASSPATH
 CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}:${JDK_CLASSPATH}
 else
 CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}
 endif
 
+DEFAULT_CSS=	default.css
+DEFAULT_BGIMG=	background.png
+
+BGIMG?=		${DEFAULT_BGIMG}
+CSSFILE?=	${DEFAULT_CSS}
+
 XSLT_PROC=	${JAVA} -classpath ${CLASSPATH} ${JAVA_OPTS} ${XSLT_CLASS} ${XSLT_OPTS}
 XSLT_COMPILER=	${JAVA} -classpath ${CLASSPATH} ${JAVA_OPTS} ${XSLT_CLASS}
+
+XSLT_CLASSPATH=	${XALAN_CLASSPATH}
+XSLT_CLASS=	org.apache.xalan.xslt.Process
+XSLT_OPTS+=	-XML
+XSLT_PARAMS+=	-param "imagedir" "'${IMAGEDIR}'" \
+		-param "bgimage" "'${BGIMG}'" \
+		-param "styledir" "'${STYLEDIR}'" \
+		-param "stylesheet" "'${CSSFILE}'"
 
 UTF2ASCII=	hutrans
 ASCII2EUC=	iconv -f utf-8 -t euc-jp
 EUC2JIS=	nkf
 HTML_FORMAT=	tidy -q -xml -asxml
+TIDY_ENCODING?=	-iso2022
 SYNC_TOOL=	rsync -au
 
 BASENAME=	basename
@@ -66,22 +77,22 @@ TOUCH=		touch
 
 RELPATH!=	./
 INSTTOPDIR=	${LOCALBASE}/www/data/
-
 IMAGEDIR=	/image
 STYLEDIR=	/style
+
 SCRIPTDIR=	${SRCTOPDIR}scripts
-
-XMLDECL_FIX=	${SCRIPTDIR}/fix-xmldecl-duplication.rb
-
-XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
-XHTML10_XSL_UTF8=	${SRCTOPDIR}xhtml10-utf8.xsl
-XHTML10_XSL_ASCII=	${SRCTOPDIR}xhtml10-ascii.xsl
-DEFAULT_XSL=	${XHTML10_XSL}
-DEFAULT_XSL_UTF8=	${XHTML10_XSL_UTF8}
+XSLDIR=		${SRCTOPDIR}xsl
 
 XML2UTFXML=	${SCRIPTDIR}/gen-utfxml.sed
+XMLDECL_FIX=	${SCRIPTDIR}/fix-xmldecl-duplication.rb
 PATH_CONFIGURE=	${PERL} -pi -e " \
 			s@%%TOPDIR%%@${SRCTOPDIR}@g; \
 			s@%%STYLEDIR%%@${STYLEDIR}@g; \
 			s@%%IMAGEDIR%%@${IMAGEDIR}@g; \
 			"
+
+XHTML10_XSL=	${XSLDIR}/xhtml10-eucjp.xsl
+XHTML10_XSL_UTF8=	${XSLDIR}/xhtml10-utf8.xsl
+XHTML10_XSL_ASCII=	${XSLDIR}/xhtml10-ascii.xsl
+DEFAULT_XSL?=	${XHTML10_XSL}
+DEFAULT_XSL_UTF8?=	${XHTML10_XSL_UTF8}

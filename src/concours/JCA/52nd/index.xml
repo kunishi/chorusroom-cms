@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.49 2000/09/28 02:19:31 kunishi Exp $ -->
+<!-- $Id: index.xml,v 1.50 2000/10/08 23:37:54 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -7,11 +7,6 @@
 ]>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
     <title>52nd Concours of Japan Choral Association</title>
   </head>
   <body>
@@ -120,8 +115,5 @@
       <dd><a href="national-1999-11-20.html" shape="rect">大学部門・一般部門Aグループ</a> (1999-11-20)</dd>
       <dd><a href="national-1999-11-21.html" shape="rect">職場部門・一般部門Bグループ</a> (1999-11-21)</dd>
     </dl>
-    <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Date: 2000/09/28 02:19:31 $</p>
   </body>
 </html>

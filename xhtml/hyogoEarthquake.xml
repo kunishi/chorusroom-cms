@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
+<!-- $Id: hyogoEarthquake.xml,v 1.10 2000/10/08 23:37:38 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -7,11 +8,6 @@
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title xml:lang="en">Damages to Kansai Music Halls by the Hyogo South Earthquake</title>
-    <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
   </head>
   <body>
     <h1>兵庫県南部地震による関西地区音楽ホールの被害状況</h1>
@@ -74,10 +70,5 @@
       <dd> 3/9 に大阪大学交響楽団の定期演奏会が開かれる。このことから推測
 	するに、大きな被害はないものと思われる。</dd>
     </dl>
-    <hr/>
-    <div class="footer">
-      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-      <p>$Revision: 1.9 $ $Date: 2000/09/06 12:55:01 $ GMT</p>
-    </div>
   </body>
 </html>

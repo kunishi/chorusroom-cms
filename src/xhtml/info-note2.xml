@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id: info-note2.xml,v 1.13 2000/10/08 23:37:38 kunishi Exp $ -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/DTD/xhtml/1.0/xhtml1-strict.dtd" [
 <!-- borrowed the necessary entity definitions from global.ent. -->
@@ -6,11 +7,6 @@
 ]>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <link href="mailto:&kunishi-email;" rev="made"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
     <title>Chorus Room/Notes for Information Providers Part 2</title>
   </head>
   <body>
@@ -26,10 +22,5 @@
       <li>&szlig; ... [ss]</li>
     </ul>
     <p>and so on.</p>
-    <hr/>
-    <div class="footer">
-      <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo</a>&lt;&kunishi-email;&gt;</address>
-      <p>$Revision: 1.12 $ $Date: 2000/10/02 23:24:33 $ GMT</p>
-    </div>
   </body>
 </html>

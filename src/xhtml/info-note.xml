@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
+<!-- $Id: info-note.xml,v 1.13 2000/10/08 23:37:38 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
+<!-- $Id: info-note.xml,v 1.13 2000/10/08 23:37:38 kunishi Exp $ -->
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
-    <style type="text/css" xml:space="preserve">
-      body { background-image: url(%%IMAGEDIR%%/background.png); }
-    </style>
     <title xml:lang="en">Chorus Room: Notes for Information Providers</title>
   </head>
   <body>
@@ -86,10 +83,5 @@
       見をふまえ、昨年の記法から変更しました)</strong>でメールに書いて
       頂ければ、HTML 編集時に正しい記法にこちらで直させて頂きます。
     </p>
-    <hr/>
-    <div class="footer">
-      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a>&lt;&kunishi-email;&gt;</address>
-      <p>$Revision: 1.12 $ $Date: 2000/09/12 12:22:02 $ GMT</p>
-    </div>
   </body>
 </html>

@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.60 2000/10/05 14:29:03 kunishi Exp $
+# $Id: GNUmakefile,v 1.61 2000/10/08 23:37:53 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -48,33 +48,17 @@ INSTFILES+=	${INSTFILES_HTML} \
 		${INSTFILES_HTML_SAITEN} \
 		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
 
-include ${SRCTOPDIR}/config.mk
-
-RESULT_XSL=		result-eucjp-xalan.xsl
-RESULT_XSL_UTF8=	result-utf8-xalan.xsl
-RESULT_XSL_COMMON=	result-common.xsl
+RESULT_XSL=		${XSLDIR}/jca-result-1999-eucjp-xalan.xsl
+RESULT_XSL_UTF8=	${XSLDIR}/jca-result-1999-utf8-xalan.xsl
+RESULT_XSL_COMMON=	${XSLDIR}/jca-result-1999-common.xsl
 DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
-SPECIAL_RULES=		yes
+CSSFILE=	jca-concour.css
+XSLT_PARAMS+=	-param "output-base" "'$(basename $@)'"
 
+include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
-
-%.html: %.xml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} \
-	  -param "output-base" "'$(basename $@)'"
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
-
-%.utfhtml: %.utfxml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} \
-	  -param "output-base" "'$(basename $@)'"
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
 
 %-saiten.html: %.html
 	${HTML_FORMAT} -m -iso2022 $@
@@ -88,77 +72,71 @@ include ${SRCTOPDIR}/rule.mk
 
 ###
 
-index.html: %.html : %.xml ${XHTML10_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${XHTML10_XSL} -OUT $@
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+index.html:	DEFAULT_XSL=${XHTML10_XSL}
+index.html:	CSSFILE=${DEFAULT_CSS}
 
-index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${XHTML10_XSL_UTF8} -OUT $@
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+index.utfhtml:	DEFAULT_XSL_UTF8=${XHTML10_XSL_UTF8}
+index.utfhtml:	CSSFILE=${DEFAULT_CSS}
 
 ${CHUBU_HTML}:	chubu.xml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${CHUBU_HTML:%.html=%.utfhtml}:	chubu.utfxml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${KANSAI_HTML}: kansai.xml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${KANSAI_HTML:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${NATIONAL_HTML}: national.xml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${NATIONAL_HTML:%.html=%.utfhtml}: national.utfxml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${HOKKAIDO_HTML}: hokkaido.xml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${HOKKAIDO_HTML:%.html=%.utfhtml}: hokkaido.utfxml ${RESULT_XSL_COMMON}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
-	   -param "output-base" "'$(basename $@)'"
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
+		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
