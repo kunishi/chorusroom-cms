@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.9 1999/08/29 03:17:47 kunishi Exp $
+# $Id: Makefile,v 1.10 1999/08/29 03:19:29 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -30,8 +30,8 @@ kagoshima.html: %.html : %.xml ${RESULT_XSL}
 	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
 
 # template
-template-taikai.txt: %.xml
+template-taikai.txt: %.txt : %.xml
 	${CP} $< $@
 
-template-dantai.txt: %.xml
+template-dantai.txt: %.txt : %.xml
 	${CP} $< $@
