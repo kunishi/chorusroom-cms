@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.9 2001/01/04 01:09:48 kunishi Exp $
+# $Id: GNUmakefile,v 1.10 2001/02/06 08:18:28 kunishi Exp $
 # 
 
 USE_NEW_SCHEME=	yes
@@ -14,7 +14,16 @@ ENTXMLFILES=	iso-lat1.xml iso-lat2.xml iso-cyr1.xml iso-cyr2.xml
 
 all:
 
-pre-all:	${ENTXMLFILES}
+prepare-build:	${ENTXMLFILES} all-chars-extracted.xml
+
+prepare:
+
+clean:
+	rm -f ${ENTXMLFILES} all-chars-extracted.xml 
+
+all-chars-extracted.xml:	DEFAULT_XSL=${XSLDIR}/gen-all-chars.xsl
+all-chars-extracted.xml:	all-chars.xml
+	${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT}
 
 all-chars.html:	DEFAULT_XSL=${XSLDIR}/all-chars.xsl
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.7 2001/02/06 05:14:32 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.8 2001/02/06 08:18:29 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
-		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
+		xmlns:redirect="org.apache.xalan.lib.Redirect"
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:r="http://www.chorusroom.org/resource"
 		xmlns:char="http://www.chorusroom.org/character"
-		xmlns:xml="http://www.chorusroom.org/XML/1998/namespace"
+		xmlns:xml="http://www.w3.org/XML/1998/namespace"
 		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
 		exclude-result-prefixes="cr p char r">
@@ -48,9 +48,7 @@
   </xsl:template>
 
   <xsl:template match="@*">
-    <xsl:attribute name="{name(.)}">
-      <xsl:value-of select="."/>
-    </xsl:attribute>
+    <xsl:copy/>
   </xsl:template>
 
 </xsl:stylesheet>

@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.3 2001/01/03 05:20:25 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/02/06 08:18:28 kunishi Exp $
 #
 
 CHAR_ENT_GEN_FILES=	${SRCTOPDIR}/tech/iso-lat1.xml \
@@ -23,7 +23,9 @@ GEN_XSLT=		char-conv-traditional.xsl \
 
 all:
 
-pre-all:	${GEN_XSLT}
+prepare-build:	${GEN_XSLT}
+
+prepare:
 
 char-conv-traditional.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl $(addprefix gen-,$@) ${XSLT_OUT} ${XSLT_PARAMS}
@@ -31,11 +33,11 @@ char-conv-traditional.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 char-conv-utf8.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl $(addprefix gen-,$@) ${XSLT_OUT} ${XSLT_PARAMS}
 
-%.traditional.xsl:	XSLT_PARAMS=-param "output-encoding" "'euc-jp'"
+%.traditional.xsl:	XSLT_PARAMS=-param "output-encoding" "euc-jp"
 %.traditional.xsl:	%.src.xsl
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl gen-xsl-with-encoding.xsl ${XSLT_OUT} ${XSLT_PARAMS}
 
-%.utf8.xsl:	XSLT_PARAMS=-param "output-encoding" "'utf-8'"
+%.utf8.xsl:	XSLT_PARAMS=-param "output-encoding" "utf-8"
 %.utf8.xsl:	%.src.xsl
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl gen-xsl-with-encoding.xsl ${XSLT_OUT} ${XSLT_PARAMS}
 

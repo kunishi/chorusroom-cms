@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id: gen-char-table.pl,v 1.3 2001/01/09 10:12:22 kunishi Exp $
+# $Id: gen-char-table.pl,v 1.4 2001/02/06 08:18:28 kunishi Exp $
 
 use strict;
 use vars qw(%entity_tab @docbook_ents
@@ -36,7 +36,7 @@ $html_dtd_dir = "/usr/local/share/sgml/html/4.01/";
 $local_ent_dir = $ENV{'HOME'} . "/cvs/xml/www/chorusRoom/tech/";
 @local_ents = ('html-special-chars.txt');
 
-&construct_symbol_table();
+#&construct_symbol_table();
 
 &print_xml_decl;
 print '<characters xmlns="http://www.chorusroom.org/character">' . "\n";

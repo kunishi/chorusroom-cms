@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.53 2001/01/12 13:01:33 kunishi Exp $
+# $Id: GNUmakefile,v 1.54 2001/02/06 08:18:26 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -35,8 +35,9 @@ SUBDIR+=	ajcl \
 		namazu \
 		server \
 		style \
-		whatsnew \
-		DTD
+		whatsnew
+
+PREPARE_SUBDIR+=	tech xsl DTD
 
 .PHONY: index gcindex upload clean
 
@@ -54,13 +55,17 @@ info-note2.html: override TIDY_ENCODING=-ascii
 robots.txt:	conf/robots.txt
 	${CP} $< $@
 
-pre-all:
-	cd tech && \
-	  ${MAKE} -I$(shell pwd) pre-all RELPATH=${RELPATH}tech/ SRCTOPDIR=${SRCTOPDIR}../
-	cd xsl && \
-	  ${MAKE} -I$(shell pwd) pre-all RELPATH=${RELPATH}xsl/ SRCTOPDIR=${SRCTOPDIR}../
-	cd DTD && \
-	  ${MAKE} -I$(shell pwd) pre-all RELPATH=${RELPATH}DTD/ SRCTOPDIR=${SRCTOPDIR}../
+prepare-build:
+	@for dir in ${PREPARE_SUBDIR}; do \
+	  (cd $${dir} && ${MAKE} -I${SRCTOPDIR}../ prepare-build \
+	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../) \
+	done
+
+prepare:
+	@for dir in ${PREPARE_SUBDIR}; do \
+	  (cd $${dir} && ${MAKE} -I${SRCTOPDIR}../ prepare \
+	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../) \
+	done
 
 upload:
 	rsync -Cavu -e ssh --exclude="search.cgi" \

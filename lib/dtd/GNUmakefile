@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.8 2001/01/22 06:45:36 kunishi Exp $
+# $Id: GNUmakefile,v 1.9 2001/02/06 08:18:27 kunishi Exp $
 #
 
 GEN_DTDS_NONS=	char-table.dtd
@@ -20,7 +20,9 @@ CONTEST_AUX_RXM=	characters.rxm \
 
 all:
 
-pre-all:	${GEN_DTDS_NONS} ${GEN_RELAX_MODULES} ${GEN_DTDS_NS}
+prepare-build:	${GEN_DTDS_NONS} ${GEN_RELAX_MODULES} ${GEN_DTDS_NS}
+
+prepare:	install
 
 contest-result-generic.dtd:	contest-result-generic.rxg
 contest-result-generic.dtd:	${CONTEST_AUX_RXM}
@@ -46,7 +48,7 @@ char-table.dtd:	char-table.rxm
 	relaxer -dtd $(@:%.dtd=%.rxm)
 
 resource.dtd:	resource.rxm
-	relaxer -dtd $(@:%.dtd=$.rxm)
+	relaxer -dtd $(@:%.dtd=%.rxm)
 
 characters.rxm:	../tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ../xsl/gen-char-relax.xsl ${XSLT_OUT} ${XSLT_PARAMS}

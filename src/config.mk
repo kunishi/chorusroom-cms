@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.48 2001/02/06 02:29:59 kunishi Exp $
+# $Id: config.mk,v 1.49 2001/02/06 08:18:26 kunishi Exp $
 #
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
@@ -17,7 +17,7 @@ JDK_LIBDIR=	${JDK_TOPDIR}/lib
 JAVA_CLASSES_DIR=	${LOCALBASE}/share/java/classes
 XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
 XERCES_CLASSPATH= ${JAVA_CLASSES_DIR}/xerces.jar
-XALAN_CLASSPATH= ${JAVA_CLASSES_DIR}/xalan.jar:${JAVA_CLASSES_DIR}/bsf.jar
+XALAN_CLASSPATH= ${JAVA_CLASSES_DIR}/xalan/xalan.jar:${JAVA_CLASSES_DIR}/xalan/bsf.jar
 
 ifdef USE_KAFFE
 JAVA=		${LOCALBASE}/bin/kaffe

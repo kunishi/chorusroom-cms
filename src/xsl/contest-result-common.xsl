@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.9 2001/02/06 05:35:40 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.10 2001/02/06 08:18:29 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
-		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
+		xmlns:redirect="org.apache.xalan.lib.Redirect"
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:char="http://www.chorusroom.org/character"
@@ -35,22 +35,22 @@
   <xsl:template match="cr:result">
     <xsl:param name="top" select="/"/>
     <xsl:variable name="result-top" select="."/>
-    <redirect:open file="concat(@output, $suffix)"/>
-    <redirect:write file="concat(@output, $suffix)">
+    <redirect:open select="concat($docBaseURI, '/', @output, $suffix)"/>
+    <redirect:write select="concat($docBaseURI, '/', @output, $suffix)">
       <xsl:call-template name="main">
 	<xsl:with-param name="top" select="$top"/>
       </xsl:call-template>
     </redirect:write>
-    <redirect:close file="concat(@output, $suffix)"/>
+    <redirect:close select="concat($docBaseURI, '/', @output, $suffix)"/>
     <xsl:if test=".//cr:scores">
-      <redirect:open file="{concat(@output, '-saiten', $suffix)}"/>
-      <redirect:write file="{concat(@output, '-saiten', $suffix)}">
+      <redirect:open select="concat($docBaseURI, '/', @output, '-saiten', $suffix)"/>
+      <redirect:write select="concat($docBaseURI, '/', @output, '-saiten', $suffix)">
         <xsl:call-template name="saiten">
 	  <xsl:with-param name="top" select="$top"/>
 	  <xsl:with-param name="result-top" select="$result-top"/>
 	</xsl:call-template>
       </redirect:write>
-      <redirect:close file="{concat(@output, '-saiten', $suffix)}"/>
+      <redirect:close select="concat($docBaseURI, '/', @output, '-saiten', $suffix)"/>
     </xsl:if>
   </xsl:template>
 
