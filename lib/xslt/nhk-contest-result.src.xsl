@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: nhk-contest-result.src.xsl,v 1.4 2001/01/09 16:36:41 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.src.xsl,v 1.5 2001/01/22 06:45:39 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -30,19 +30,29 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template match="cr:number-of-parts">
+    <xsl:number value="." format="1"/>
+    <xsl:text>部</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="@grade">
+    <xsl:text>(</xsl:text>
+    <xsl:number value="." format="1"/>
+    <xsl:text>年)</xsl:text>
+  </xsl:template>
+
   <xsl:template match="cr:given-program">
-    <xsl:variable name="number" select="@number"/>
     <li>
-      <xsl:if test="@href">
-	<xsl:call-template name="contest-result-choir-piece">
-	  <xsl:with-param name="piece-top" select="document(concat($docBaseURI,'/',@href))/cr:givenPrograms/cr:givenProgram[./cr:givenProgramNumber=$number]"/>
-	</xsl:call-template>
-      </xsl:if>
-      <xsl:if test="not(@href)">
-	<xsl:value-of select="*[namespace-uri()='http://www.chorusroom.org/piece']"/>
-      </xsl:if>
-      <xsl:call-template name="piece-players-list"/>
+      <xsl:text>[課題曲] </xsl:text>
+      <xsl:apply-templates/>
     </li>
+  </xsl:template>
+
+  <xsl:template match="cr:pieceRef">
+    <xsl:variable name="number" select="@number"/>
+    <xsl:call-template name="contest-result-choir-piece">
+      <xsl:with-param name="piece-top" select="document(concat($docBaseURI,'/',@href))/cr:givenPrograms/cr:givenProgram[./cr:givenProgramNumber=$number]"/>
+    </xsl:call-template>
   </xsl:template>
 
   <xsl:template match="cr:free-program">

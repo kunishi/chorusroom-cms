@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.3 2001/01/04 16:12:04 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.4 2001/01/22 06:45:39 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -330,7 +330,9 @@
       </ul>
     </xsl:if>
     <xsl:if test="$other-choir-list">
-      <h3>そのほか</h3>
+      <xsl:if test="$seed-choir-list or $gold-choir-list or $silver-choir-list or $blonze-choir-list">
+	<h3>そのほか</h3>
+      </xsl:if>
       <ul>
         <xsl:for-each select="$other-choir-list">
           <li>
@@ -388,7 +390,7 @@
     <xsl:param name="top" select="/"/>
     <xsl:variable name="choir-pref" select="cr:prefecture"/>
     <xsl:variable name="choir-member"
-		  select="child::*[self::cr:choir-type or self::cr:number-of-members]"/>
+		  select="child::*[self::cr:choir-type or self::cr:number-of-members or self::cr:number-of-parts]"/>
     <xsl:variable name="player-data"
 		  select="child::*[self::cr:conductor or self::cr:piano or self::cr:accompaniment]"/>
     <xsl:choose>
@@ -489,6 +491,7 @@
 	<xsl:text>: </xsl:text>
       </xsl:if>
       <xsl:apply-templates/>
+      <xsl:apply-templates select="@grade"/>
       <xsl:if test="not(position()=last())">
 	<xsl:text>・</xsl:text>
       </xsl:if>
@@ -501,6 +504,7 @@
 	<xsl:text>ピアノ: </xsl:text>
       </xsl:if>
       <xsl:apply-templates/>
+      <xsl:apply-templates select="@grade"/>
       <xsl:if test="not(position()=last())">
 	<xsl:text>・</xsl:text>
       </xsl:if>
@@ -552,9 +556,9 @@
 
   <xsl:template match="cr:free-program">
     <li>
-      <xsl:call-template name="contest-result-choir-piece">
+      <xsl:apply-templates>
 	<xsl:with-param name="piece-top" select="."/>
-      </xsl:call-template>
+      </xsl:apply-templates>
     </li>
   </xsl:template>
 

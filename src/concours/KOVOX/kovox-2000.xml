@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: kovox-2000.xml,v 1.3 2001/01/12 12:03:10 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kovox-2000.xml,v 1.4 2001/01/22 06:45:38 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第5回神戸ヴォーカルアンサンブルコンテスト(KOVOX)</competition-name>
   <result output="kovox-2000">
     <date day-of-week="sun" holiday="false">2000-03-26</date>
@@ -21,18 +21,29 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Sisask</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱のための24の詩篇「主の祈り」</p:piece>
+	      <p:composed-by>Sisask</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための24の詩篇</p:titlePrefix>
+		<p:mainTitle>主の祈り</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Laudate Dominum</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Laudate Dominum</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:originated-from>フランス民謡</p:originated-from>
-	    <p:arranged-by>Doveton</p:arranged-by>
-	    <p:piece>Sur Le pont D'Avignon</p:piece>
+	    <p:piece>
+	      <p:originated-from>フランス民謡</p:originated-from>
+	      <p:arranged-by>Doveton</p:arranged-by>
+	      <p:title original="true" xml:lang="fr">
+		<p:mainTitle>Sur Le pont D'Avignon</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -42,12 +53,20 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Fermi</p:composed-by>
-	    <p:piece>Primavera</p:piece>
+	    <p:piece>
+	      <p:composed-by>Fermi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Primavera</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Fermi</p:composed-by>
-	    <p:piece>Fu-fu</p:piece>
+	    <p:piece>
+	      <p:composed-by>Fermi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Fu-fu</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -57,19 +76,31 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>フォスター</p:composed-by>
-	    <p:arranged-by>鎌田典三郎</p:arranged-by>
-	    <p:piece>My Old Kentucky Home</p:piece>
+	    <p:piece>
+	      <p:composed-by>フォスター</p:composed-by>
+	      <p:arranged-by>鎌田典三郎</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>My Old Kentucky Home</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>フォスター</p:composed-by>
-	    <p:arranged-by>河西保郎</p:arranged-by>
-	    <p:piece>Old Black Joe</p:piece>
+	    <p:piece>
+	      <p:composed-by>フォスター</p:composed-by>
+	      <p:arranged-by>河西保郎</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>Old Black Joe</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:originated-from>アメリカ民謡</p:originated-from>
-	    <p:arranged-by>河西保郎</p:arranged-by>
-	    <p:piece>Shenandoah</p:piece>
+	    <p:piece>
+	      <p:originated-from>アメリカ民謡</p:originated-from>
+	      <p:arranged-by>河西保郎</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>Shenandoah</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -79,12 +110,20 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>ハーライン</p:composed-by>
-	    <p:piece>When you wish upon a star</p:piece>
+	    <p:piece>
+	      <p:composed-by>ハーライン</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>When you wish upon a star</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:originated-from>黒人霊歌</p:originated-from>
-	    <p:piece>Rock-a My Soul</p:piece>
+	    <p:piece>
+	      <p:originated-from>黒人霊歌</p:originated-from>
+	      <p:title original="true">
+		<p:mainTitle>Rock-a My Soul</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -94,14 +133,22 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:words-by>永六輔</p:words-by>
-	    <p:composed-by>中村八大</p:composed-by>
-	    <p:arranged-by>武庫川女子大学付属高校コーラス部</p:arranged-by>
-	    <p:piece>上を向いて歩こう</p:piece>
+	    <p:piece>
+	      <p:words-by>永六輔</p:words-by>
+	      <p:composed-by>中村八大</p:composed-by>
+	      <p:arranged-by>武庫川女子大学付属高校コーラス部</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>上を向いて歩こう</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:originated-from>黒人霊歌</p:originated-from>
-	    <p:piece>Amazing grace</p:piece>
+	    <p:piece>
+	      <p:originated-from>黒人霊歌</p:originated-from>
+	      <p:title original="true">
+		<p:mainTitle>Amazing grace</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -111,14 +158,22 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:originated-from>黒人霊歌</p:originated-from>
-	    <p:piece>You got a right</p:piece>
+	    <p:piece>
+	      <p:originated-from>黒人霊歌</p:originated-from>
+	      <p:title original="true">
+		<p:mainTitle>You got a right</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:originated-from>ドイツ民謡</p:originated-from>
-	    <p:words-by>吉丸一昌</p:words-by>
-	    <p:arranged-by>荻久保和明</p:arranged-by>
-	    <p:piece>故郷を離るる歌</p:piece>
+	    <p:piece>
+	      <p:originated-from>ドイツ民謡</p:originated-from>
+	      <p:words-by>吉丸一昌</p:words-by>
+	      <p:arranged-by>荻久保和明</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>故郷を離るる歌</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -132,14 +187,24 @@
 	<special-prize>総合三位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Rheinberger</p:composed-by>
 	    <p:suite>
-	      <p:piece>Cantus Missa in Es op 109</p:piece>
+	      <p:composed-by>Rheinberger</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Cantus Missa in Es op 109</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -151,8 +216,12 @@
 	<special-prize>総合二位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>ジャヌカン</p:composed-by>
-	    <p:piece>マリニャンの戦い</p:piece>
+	    <p:piece>
+	      <p:composed-by>ジャヌカン</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>マリニャンの戦い</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -161,16 +230,24 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:words-by>西条八十</p:words-by>
-	    <p:composed-by>服部良一</p:composed-by>
-	    <p:arranged-by>貞國公洋</p:arranged-by>
-	    <p:piece>蘇州夜曲</p:piece>
+	    <p:piece>
+	      <p:words-by>西条八十</p:words-by>
+	      <p:composed-by>服部良一</p:composed-by>
+	      <p:arranged-by>貞國公洋</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>蘇州夜曲</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>永六輔</p:words-by>
-	    <p:composed-by>中村八大</p:composed-by>
-	    <p:arranged-by>多胡淳</p:arranged-by>
-	    <p:piece>上を向いて歩こう</p:piece>
+	    <p:piece>
+	      <p:words-by>永六輔</p:words-by>
+	      <p:composed-by>中村八大</p:composed-by>
+	      <p:arranged-by>多胡淳</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>上を向いて歩こう</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -180,16 +257,28 @@
 	<special-prize>総合一位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Victoria</p:composed-by>
-	    <p:piece>Ave Maria</p:piece>
+	    <p:piece>
+	      <p:composed-by>Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Victoria</p:composed-by>
-	    <p:piece>Gaudent in coelis</p:piece>
+	    <p:piece>
+	      <p:composed-by>Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Gaudent in coelis</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Victoria</p:composed-by>
-	    <p:piece>O quem gloriosum</p:piece>
+	    <p:piece>
+	      <p:composed-by>Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>O quem gloriosum</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>

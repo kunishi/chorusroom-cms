@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: contest-result.rxm,v 1.7 2001/01/09 16:36:39 kunishi Exp $ -->
-<!DOCTYPE module SYSTEM "relaxCore.dtd">
+<!-- $Id: contest-result.rxm,v 1.8 2001/01/22 06:45:37 kunishi Exp $ -->
+<!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
 	targetNamespace="http://www.chorusroom.org/xml"
@@ -166,12 +166,16 @@
   </tag>
   <attPool role="representativeAttr"/>
   <attPool role="seedAttr"/>
+  <hedgeRule label="numberOfParts">
+    <empty/>
+  </hedgeRule>
   <elementRule role="choir">
     <sequence>
       <ref label="choir-name"/>
       <ref label="prefecture" occurs="?"/>
       <ref label="choir-type" occurs="?"/>
       <ref label="number-of-members" occurs="?"/>
+      <hedgeRef label="numberOfParts" occurs="?"/>
       <ref label="conductor" occurs="*"/>
       <hedgeRef label="players-list" occurs="?"/>
       <ref label="prize"/>
@@ -183,6 +187,7 @@
   </elementRule>
   <hedgeRule label="players-list">
     <sequence>
+      <ref label="conductor" occurs="?"/>
       <ref label="piano" occurs="*"/>
       <ref label="accompaniment" occurs="*"/>
     </sequence>
@@ -213,7 +218,10 @@
   <tag name="number-of-members"/>
   <elementRule role="number-of-members" type="positiveInteger"/>
 
+  <attPool role="condAttr">
+  </attPool>
   <tag name="conductor">
+    <ref role="condAttr" occurs="?"/>
     <attribute name="xml:lang" type="language"/>
     <attribute name="instrument" type="string"/>
   </tag>
@@ -223,7 +231,9 @@
     </mixed>
   </elementRule>
 
+  <attPool role="pianoAttr"/>
   <tag name="piano">
+    <ref role="pianoAttr" occurs="?"/>
     <attribute name="xml:lang" type="language"/>
   </tag>
   <elementRule role="piano">
@@ -291,22 +301,26 @@
   <tag name="choir-note"/>
   <elementRule role="choir-note" type="string"/>
 
-  <attPool role="given-program-list"/>
   <tag name="given-program">
-    <ref role="given-program-list"/>
-    <attribute name="href" type="uriReference"/>
   </tag>
   <elementRule role="given-program">
     <sequence>
-      <hedgeRef label="given-program-piece"/>
+      <hedgeRef label="players-list" occurs="?"/>
+      <choice>
+	<ref label="pieceRef"/>
+	<importedLabelRef label="choirPiece"/>
+      </choice>
     </sequence>
   </elementRule>
-  <hedgeRule label="given-program-piece">
-    <sequence>
-      <hedgeRef label="players-list" occurs="?"/>
-      <importedLabelRef label="choirPiece"/>
-    </sequence>
-  </hedgeRule>
+
+  <attPool role="given-program-list"/>
+  <tag name="pieceRef">
+    <ref role="given-program-list"/>
+    <attribute name="href" required="true" type="uriReference"/>
+  </tag>
+  <elementRule role="pieceRef">
+    <empty/>
+  </elementRule>
 
   <tag name="free-program"/>
   <elementRule role="free-program">

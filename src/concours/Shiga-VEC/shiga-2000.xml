@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: shiga-2000.xml,v 1.3 2001/01/12 12:03:12 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: shiga-2000.xml,v 1.4 2001/01/22 06:45:38 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第5回しが・ヴォーカル・アンサンブル・コンテスト</competition-name>
   <result output="shiga-2000">
     <date day-of-week="sun" holiday="false">2000-08-20</date>
@@ -25,16 +25,28 @@
 	<special-prize>滋賀県芸術文化祭奨励賞</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Morley</p:composed-by>
-	    <p:piece>Sing we and chant it</p:piece>
+	    <p:piece>
+	      <p:composed-by>Morley</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sing we and chant it</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Lasso</p:composed-by>
-	    <p:piece>Matona mia cara</p:piece>
+	    <p:piece>
+	      <p:composed-by>Lasso</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Matona mia cara</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Byrd</p:composed-by>
-	    <p:piece>Though Amaryllis dance in green</p:piece>
+	    <p:piece>
+	      <p:composed-by>Byrd</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Though Amaryllis dance in green</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -44,12 +56,20 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Alfven</p:composed-by>
-	    <p:piece>Papillon</p:piece>
+	    <p:piece>
+	      <p:composed-by>Alfven</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Papillon</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Busto</p:composed-by>
-	    <p:piece>Joseph fili David</p:piece>
+	    <p:piece>
+	      <p:composed-by>Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Joseph fili David</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -59,12 +79,20 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Andriessen</p:composed-by>
-	    <p:piece>Ave Maria</p:piece>
+	    <p:piece>
+	      <p:composed-by>Andriessen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Kocsar</p:composed-by>
-	    <p:piece>Salve Regina</p:piece>
+	    <p:piece>
+	      <p:composed-by>Kocsar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -74,12 +102,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>三善晃</p:composed-by>
-	    <p:piece>音あそび</p:piece>
+	    <p:piece>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>音あそび</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Morley</p:composed-by>
-	    <p:piece>おみなよ、そなたのそのまなこ</p:piece>
+	    <p:piece>
+	      <p:composed-by>Morley</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>おみなよ、そなたのそのまなこ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -89,12 +125,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>木下牧子</p:composed-by>
-	    <p:piece>夢見たものは</p:piece>
+	    <p:piece>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>夢見たものは</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>M. Jackson</p:composed-by>
-	    <p:piece>Heal The World</p:piece>
+	    <p:piece>
+	      <p:composed-by>M. Jackson</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Heal The World</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -104,14 +148,24 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Poulenc</p:composed-by>
 	    <p:suite>
-	      <p:piece>クリスマスのための４つのモテット</p:piece>
+	      <p:composed-by>Poulenc</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>クリスマスのための４つのモテット</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>O Magnum Mysterium</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>O Magnum Mysterium</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Quem vidistis pastres</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Quem vidistis pastres</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -123,17 +177,31 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Britten</p:composed-by>
 	    <p:suite>
-	      <p:piece>Missa Brevis in D</p:piece>
+	      <p:composed-by>Britten</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Brevis in D</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Agnus Dei</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -145,13 +213,21 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Victoria</p:composed-by>
-	    <p:piece>O Magnum Mysterium</p:piece>
+	    <p:piece>
+	      <p:composed-by>Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>O Magnum Mysterium</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Foster</p:composed-by>
-	    <p:arranged-by>Roger Wagner</p:arranged-by>
-	    <p:piece>My Old Kentucky home</p:piece>
+	    <p:piece>
+	      <p:composed-by>Foster</p:composed-by>
+	      <p:arranged-by>Roger Wagner</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>My Old Kentucky home</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>

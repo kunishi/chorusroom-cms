@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: tvec-1998.xml,v 1.2 2001/01/12 12:03:13 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: tvec-1998.xml,v 1.3 2001/01/22 06:45:38 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第13回東京ヴォーカルアンサンブルコンテスト(TVEC)</competition-name>
   <result output="tvec-1998">
     <date day-of-week="sat" holiday="false">1998-02-14</date>
@@ -21,12 +21,20 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Orlandus Lassus</p:composed-by>
-	    <p:piece>Tutto lo di</p:piece>
+	    <p:piece>
+	      <p:composed-by>Orlandus Lassus</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Tutto lo di</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Claudio Monteverdi</p:composed-by>
-	    <p:piece>Si ch'io vorrei morire</p:piece>
+	    <p:piece>
+	      <p:composed-by>Claudio Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Si ch'io vorrei morire</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -36,20 +44,36 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>D. Carlo Gesualdo</p:composed-by>
-	    <p:piece>Or, che in gioia</p:piece>
+	    <p:piece>
+	      <p:composed-by>D. Carlo Gesualdo</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Or, che in gioia</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>D. Carlo Gesualdo</p:composed-by>
-	    <p:piece>Sospirava il mio core</p:piece>
+	    <p:piece>
+	      <p:composed-by>D. Carlo Gesualdo</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sospirava il mio core</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>D. Carlo Gesualdo</p:composed-by>
-	    <p:piece>Meraviglia d'Amore</p:piece>
+	    <p:piece>
+	      <p:composed-by>D. Carlo Gesualdo</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Meraviglia d'Amore</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>D. Carlo Gesualdo</p:composed-by>
-	    <p:piece>Se piange, oime</p:piece>
+	    <p:piece>
+	      <p:composed-by>D. Carlo Gesualdo</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Se piange, oime</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -60,20 +84,32 @@
 	<special-prize>東京都知事賞</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>T. L. de Victoria</p:composed-by>
 	    <p:suite>
-	      <p:piece>Tenebrae Responsorium</p:piece>
+	      <p:composed-by>T. L. de Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Tenebrae Responsorium</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Sepulto Domino</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sepulto Domino</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>T. L. de Victoria</p:composed-by>
 	    <p:suite>
-	      <p:piece>Requiem</p:piece>
+	      <p:composed-by>T. L. de Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Requiem</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -84,8 +120,12 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Clement Janequin</p:composed-by>
-	    <p:piece>Le chant des oyseaux</p:piece>
+	    <p:piece>
+	      <p:composed-by>Clement Janequin</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Le chant des oyseaux</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -95,12 +135,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>John Dowland</p:composed-by>
-	    <p:piece>Come heavy sleep</p:piece>
+	    <p:piece>
+	      <p:composed-by>John Dowland</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Come heavy sleep</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>John Dowland</p:composed-by>
-	    <p:piece>Shall I sue</p:piece>
+	    <p:piece>
+	      <p:composed-by>John Dowland</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Shall I sue</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -109,12 +157,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Claudio Monteverdi</p:composed-by>
-	    <p:piece>Anima mia perdona</p:piece>
+	    <p:piece>
+	      <p:composed-by>Claudio Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Anima mia perdona</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Claudio Monteverdi</p:composed-by>
-	    <p:piece>Che se tu se'il cor mio</p:piece>
+	    <p:piece>
+	      <p:composed-by>Claudio Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Che se tu se'il cor mio</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -123,12 +179,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Robert Parsons</p:composed-by>
-	    <p:piece>Ave Maria</p:piece>
+	    <p:piece>
+	      <p:composed-by>Robert Parsons</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Peter Phillips</p:composed-by>
-	    <p:piece>Ascendit Deus</p:piece>
+	    <p:piece>
+	      <p:composed-by>Peter Phillips</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ascendit Deus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -138,12 +202,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Heinrich schutz</p:composed-by>
-	    <p:piece>Feritevi, ferite, viperette mordaci SWV 9</p:piece>
+	    <p:piece>
+	      <p:composed-by>Heinrich schutz</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Feritevi, ferite, viperette mordaci SWV 9</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Heinrich schutz</p:composed-by>
-	    <p:piece>Quella damma son io SWV 11</p:piece>
+	    <p:piece>
+	      <p:composed-by>Heinrich schutz</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Quella damma son io SWV 11</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -153,11 +225,17 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>William Byrd</p:composed-by>
 	    <p:suite>
-	      <p:piece>Mass for three voices</p:piece>
+	      <p:composed-by>William Byrd</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass for three voices</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Credo</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Credo</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -169,14 +247,24 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Tomas Luis de Victoria</p:composed-by>
 	    <p:suite>
-	      <p:piece>MESSE &quot;QUARTI TONI&quot;</p:piece>
+	      <p:composed-by>Tomas Luis de Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>MESSE &quot;QUARTI TONI&quot;</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>KYRIE, ELEISON</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>KYRIE, ELEISON</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>GLORIA IN EXCELSIS DEO</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>GLORIA IN EXCELSIS DEO</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -188,12 +276,20 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Fransisco Guererro</p:composed-by>
-	    <p:piece>Pastor, quien madre virgen a mirado</p:piece>
+	    <p:piece>
+	      <p:composed-by>Fransisco Guererro</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Pastor, quien madre virgen a mirado</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Fransisco Guererro</p:composed-by>
-	    <p:piece>Sanctissima Maria</p:piece>
+	    <p:piece>
+	      <p:composed-by>Fransisco Guererro</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sanctissima Maria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -203,20 +299,32 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Robert Jones</p:composed-by>
 	    <p:suite>
-	      <p:piece>A MUSICALL DREAM</p:piece>
+	      <p:composed-by>Robert Jones</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>A MUSICALL DREAM</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>SWEETE KATE</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>SWEETE KATE</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Bartolomeo Spighi da Prato</p:composed-by>
 	    <p:suite>
-	      <p:piece>MUSICAL CONCERTO</p:piece>
+	      <p:composed-by>Bartolomeo Spighi da Prato</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>MUSICAL CONCERTO</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>O PIAGGIA FELICE</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>O PIAGGIA FELICE</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -229,8 +337,12 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>Claudio Mobteverdi</p:composed-by>
-	    <p:piece>Lamento della Ninfa</p:piece>
+	    <p:piece>
+	      <p:composed-by>Claudio Mobteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Lamento della Ninfa</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -239,16 +351,28 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>T. L. de Victoria</p:composed-by>
-	    <p:piece>Jesu Dulcis Memoria</p:piece>
+	    <p:piece>
+	      <p:composed-by>T. L. de Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Jesu Dulcis Memoria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Luca Marenzio</p:composed-by>
-	    <p:piece>Vezzosi augelli</p:piece>
+	    <p:piece>
+	      <p:composed-by>Luca Marenzio</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Vezzosi augelli</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Francis Pikington</p:composed-by>
-	    <p:piece>Rest, sweet nymphs</p:piece>
+	    <p:piece>
+	      <p:composed-by>Francis Pikington</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Rest, sweet nymphs</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -259,18 +383,32 @@
 	<special-prize>奨励賞</special-prize>
 	<program>
 	  <free-program>
-	    <p:originated-from>Gregorian Chant</p:originated-from>
-	    <p:piece>Ave Maria</p:piece>
+	    <p:piece>
+	      <p:originated-from>Gregorian Chant</p:originated-from>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>G. P. da Palestrina</p:composed-by>
 	    <p:suite>
-	      <p:piece>MISSA &quot;AETERNA CHRISTI NUMERA&quot;</p:piece>
+	      <p:composed-by>G. P. da Palestrina</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>MISSA &quot;AETERNA CHRISTI NUMERA&quot;</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -283,14 +421,24 @@
 	<special-prize>奨励賞</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>William Byrd</p:composed-by>
 	    <p:suite>
-	      <p:piece>Mass for three voices</p:piece>
+	      <p:composed-by>William Byrd</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass for three voices</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Sanctus &amp; Benedictus</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus &amp; Benedictus</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Agnus Dei</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
