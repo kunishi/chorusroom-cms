@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="1.0"
   xmlns:c="http://www.chorusroom.org/choir"
   xmlns="http://www.w3.org/1999/xhtml"
   exclude-result-prefixes="c">
 
+  <xsl:param name="linkDbDir"/>
+
   <xsl:template match="c:choir-list">
+    <xsl:apply-templates select="c:choirIdRef"/>
     <xsl:call-template name="choir-list">
       <xsl:with-param name="pref">北海道</xsl:with-param>
     </xsl:call-template>
@@ -179,6 +182,15 @@
         <xsl:value-of select="c:comment"/>
       </xsl:if>
     </li>
+  </xsl:template>
+
+  <xsl:template match="c:choirIdRef">
+    <xsl:variable name="url"
+		  select="document(
+		  concat($linkDbDir,'/',substring(@id,0,3),'/',
+		  @id,'/',@id,'.xml'))"/>
+    <xsl:message><xsl:value-of select="@id"/></xsl:message>
+    <xsl:apply-templates select="$url"/>
   </xsl:template>
 
 </xsl:stylesheet>

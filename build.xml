@@ -176,7 +176,15 @@
   <target name='prepare.xml'
           depends='prepare.xml.xhtml, prepare.xml.concours'/>
 
-  <target name='prepare.xml.xhtml'/>
+  <target name='prepare.xml.xhtml'>
+    <xslt basedir='xhtml' destdir='${xhtml}'
+	  style='${lib}/xslt/extract-all.xsl'
+	  extension='.xml' processor='trax'
+	  includes='**/*.xml' classpathref='xalan2.class.path'>
+      <xmlcatalog refid='chorusroom.dtd'/>
+      <param name='choirDbDir' expression='${basedir}/db/choir/'/>
+    </xslt>
+  </target>
 
   <target name='prepare.xml.concours'
     depends='prepare.xml.jca, prepare.xml.nhk, prepare.xml.generic'/>
@@ -278,6 +286,7 @@
       <param name='bgimage' expression='background.png'/>
       <param name='styledir' expression='/style'/>
       <param name='stylesheet' expression='default.css'/>
+      <param name='linkDbDir' expression='${basedir}/db/choir'/>
     </xslt>
   </target>
 
@@ -344,7 +353,7 @@
   <!-- copy necessary files other than HTML and XML -->
   <target name="finalize.copysrc">
     <copy todir="${build.xhtml}">
-      <fileset dir="${xhtml}">
+      <fileset dir="xhtml">
         <include name="**/*"/>
         <exclude name="**/*.xml"/>
       </fileset>
