@@ -19,7 +19,9 @@
 	  <xsl:when test="c:date">
 	    <xsl:value-of select="c:date"/>
 	    <xsl:if test="c:date/@dayOfWeek">
-	      (<xsl:value-of select="c:date/@dayOfWeek"/>)
+	      <xsl:text>(</xsl:text>
+	      <xsl:value-of select="c:date/@dayOfWeek"/>
+	      <xsl:text>)</xsl:text>
 	    </xsl:if>
 	  </xsl:when>
 	  <xsl:otherwise>
@@ -45,13 +47,17 @@
 	    <dd>
 	      <xsl:value-of select="."/>
 	      <xsl:if test="@job">
-		(<xsl:value-of select="@job"/>)
+		<xsl:text> (</xsl:text>
+		<xsl:value-of select="@job"/>
+		<xsl:text>)</xsl:text>
 	      </xsl:if>
 	    </dd>
 	  </xsl:for-each>
 	</xsl:when>
 	<xsl:otherwise>
-	  <dd><xsl:text>登録データなし</xsl:text></dd>
+	  <dd>
+	    <xsl:text>登録データなし</xsl:text>
+	  </dd>
 	</xsl:otherwise>
       </xsl:choose>
     </dl>
@@ -91,6 +97,11 @@
 	  </xsl:for-each>
 	</div>
       </xsl:if>
+      <xsl:if test="c:note">
+	<div class="note">
+	  <xsl:apply-templates select="c:note/node()"/>
+	</div>
+      </xsl:if>
       <xsl:if test="c:assignedNumber|c:freeNumber">
 	<ul>
 	  <xsl:for-each select="c:assignedNumber|c:freeNumber">
@@ -112,29 +123,66 @@
   <xsl:template match="c:players">
     <xsl:choose>
       <xsl:when test="@list">
-	<xsl:apply-templates select="c:conductor"/>
-	<xsl:apply-templates select="c:piano"/>
-	<xsl:apply-templates select="c:accompaniment"/>
+	<xsl:apply-templates select="c:conductor" mode="list"/>
+	<xsl:if test="c:piano|c:accompaniment">
+	  <xsl:text>, </xsl:text>
+	</xsl:if>
+	<xsl:apply-templates select="c:piano" mode="list"/>
+	<xsl:if test="c:accompaniment">
+	  <xsl:text>, </xsl:text>
+	</xsl:if>
+	<xsl:apply-templates select="c:accompaniment" mode="list"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:value-of select="."/>
+	<xsl:apply-templates select="node()"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  <xsl:template match="c:conductor">
+  <xsl:template match="c:conductor|c:piano|c:accompaniment">
+    <xsl:value-of select="."/>
+    <xsl:if test="@note">
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="@note"/>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template match="c:conductor" mode="list">
     <xsl:if test="position()=1">
       <xsl:text>指揮: </xsl:text>
     </xsl:if>
     <xsl:value-of select="."/>
+    <xsl:if test="@note">
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="@note"/>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
     <xsl:if test="position()!=last()">
       <xsl:text>・</xsl:text>
     </xsl:if>
   </xsl:template>
-  <xsl:template match="c:piano">
+  <xsl:template match="c:piano" mode="list">
     <xsl:if test="position()=1">
       <xsl:text>ピアノ: </xsl:text>
     </xsl:if>
     <xsl:value-of select="."/>
+    <xsl:if test="@note">
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="@note"/>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
+    <xsl:if test="position()!=last()">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template match="c:accompaniment">
+    <xsl:value-of select="@kind"/>
+    <xsl:text>: </xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:if test="@note">
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="@note"/>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
     <xsl:if test="position()!=last()">
       <xsl:text>・</xsl:text>
     </xsl:if>
@@ -146,6 +194,7 @@
   <xsl:template match="c:freeNumber">
     <xsl:apply-templates select="node()"/>
   </xsl:template>
+  <!-- piece -->
   <xsl:template match="p:arrangedBy|p:composedBy|p:originatedFrom|p:translatedBy|p:wordsBy">
     <xsl:value-of select="node()"/>
   </xsl:template>
@@ -154,6 +203,7 @@
     <xsl:value-of select="node()"/>
     <xsl:text>」</xsl:text>
   </xsl:template>
+  <!-- XHTML elements -->
   <xsl:template match="h:*">
     <xsl:copy/>
   </xsl:template>
