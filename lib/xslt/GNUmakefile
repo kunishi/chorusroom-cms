@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.5 2001/02/06 08:20:44 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/10/03 05:16:19 kunishi Exp $
 #
 
 CHAR_ENT_GEN_FILES=	${SRCTOPDIR}/tech/iso-lat1.xml \
@@ -33,7 +33,7 @@ char-conv-traditional.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 char-conv-utf8.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 	${SCRIPTDIR}/xalan.sh -xml -in $< -xsl $(addprefix gen-,$@) ${XSLT_OUT} ${XSLT_PARAMS}
 
-%.traditional.xsl:	XSLT_PARAMS=-param "output-encoding" "euc-jp"
+%.traditional.xsl:	XSLT_PARAMS=-param "output-encoding" "iso-2022-jp"
 %.traditional.xsl:	%.src.xsl
 	${SCRIPTDIR}/xalan.sh -xml -in $< -xsl gen-xsl-with-encoding.xsl ${XSLT_OUT} ${XSLT_PARAMS}
 
