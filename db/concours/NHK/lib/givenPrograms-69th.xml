@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE givenPrograms PUBLIC "-//CHORUSROOM//DTD Contest GivenProg 1.0//JA" "http://localhost/DTD/given-programs.dtd">
+<givenPrograms xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+ <contestName>平成14年度(第69回) NHK 全国学校音楽コンクール</contestName>
+ <contestYear>2002</contestYear>
+ <givenProgram>
+  <givenProgramNumber>elementary-school</givenProgramNumber>
+  <!-- one of (p:piece p:suite) -->
+  <p:piece>
+   <p:words-by>角野栄子</p:words-by>
+   <p:composed-by>新実徳英</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>おさんぽぽいぽい</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>junior-highschool</givenProgramNumber>
+  <!-- one of (p:piece p:suite) -->
+  <p:piece>
+   <p:words-by>片岡輝</p:words-by>
+   <p:composed-by>大熊崇子</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>予感</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>senior-highschool</givenProgramNumber>
+  <!-- one of (p:piece p:suite) -->
+  <p:piece>
+   <p:words-by>大岡信</p:words-by>
+   <p:composed-by>木下牧子</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>なぎさの地球</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+</givenPrograms>
