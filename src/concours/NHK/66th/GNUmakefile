@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.5 2001/02/17 23:59:47 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/02/23 03:22:26 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -13,6 +13,7 @@ INSTFILES_TRADITIONAL=	asahikawa.html \
 
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
+INSTFILES+=	index.html
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
 
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/nhk-contest-result.traditional.xsl
