@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
-<!ENTITY % global-ent SYSTEM "../global.ent">
-%global-ent;
 ]>
-<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1/strict">
   <head>
     <title>51st All Japan Chorus Contest/Gifu (High School)</title>
     <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
@@ -43,6 +40,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sun Sep 13 12:07:21 JST 1998 -->
-    $Date: 1999/09/27 01:50:32 $
+    $Date: 1999/11/02 13:51:01 $
   </body>
 </html>

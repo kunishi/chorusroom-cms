@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-                      "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!DOCTYPE html SYSTEM "xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
-<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
 ]>
-<html xmlns="http://www.w3.org/TR/xhtml1">
+<html xmlns="http://www.w3.org/TR/xhtml1/strict">
   <head>
     <link href="style/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
@@ -25,7 +23,7 @@
       <li><a href="CDShop.html" shape="rect">合唱のCDはどうやって手に入れる?</a></li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
-    $Id: faq.xml,v 1.4 1999/09/27 01:50:15 kunishi Exp $
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Id: faq.xml,v 1.5 1999/11/02 13:50:45 kunishi Exp $
   </body>
 </html>

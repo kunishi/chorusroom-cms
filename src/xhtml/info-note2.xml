@@ -4,7 +4,7 @@
 <!-- borrowed the necessary entity definitions from global.ent. -->
 <!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
 ]>
-<html xml:lang="en" xmlns="http://www.w3.org/TR/xhtml1">
+<html xml:lang="en" xmlns="http://www.w3.org/TR/xhtml1/strict">
   <head>
     <link href="style/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
@@ -34,6 +34,6 @@
     and so on.
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo</a>&lt;&kunishi-email;&gt;</address>
-    $Id: info-note2.xml,v 1.5 1999/09/27 01:50:16 kunishi Exp $
+    $Id: info-note2.xml,v 1.6 1999/11/02 13:50:46 kunishi Exp $
   </body>
 </html>

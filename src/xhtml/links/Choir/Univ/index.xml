@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
-<!ENTITY % global-ent SYSTEM "../../../global.ent">
-%global-ent;
 ]>
-<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1/strict">
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
@@ -252,6 +249,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 1999/10/25 07:07:14 $
+    $Date: 1999/11/02 13:51:12 $
   </body>
 </html>

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
-<!ENTITY % global-ent SYSTEM "../global.ent">
-%global-ent;
 ]>
-<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1/strict">
   <head>
-    <!-- $Id: senior-highschool.xml,v 1.6 1999/09/27 01:50:36 kunishi Exp $ -->
+    <!-- $Id: senior-highschool.xml,v 1.7 1999/11/02 13:51:04 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Senior High School</title>
     <meta http-equiv="content-type" content="text/html;charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
@@ -317,6 +314,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sun Nov  8 12:02:11 JST 1998 -->
-    $Date: 1999/09/27 01:50:36 $
+    $Date: 1999/11/02 13:51:04 $
   </body>
 </html>
