@@ -6,7 +6,7 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.12 2000/09/13 10:48:28 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.13 2000/10/03 10:36:03 kunishi Exp $ -->
     <title>Links about Chorus Music</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
@@ -58,9 +58,9 @@
     <h2><a href="Library/" shape="rect">ライブラリ</a></h2>
     <h2><a href="Concour/" shape="rect">コンクール</a></h2>
     <hr/>
-    [ <a href="%%TOPDIR%%/" shape="rect">「合唱の部屋」ホームページ</a> ]
-    <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/09/13 10:48:28 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 10:36:03 $ GMT</p>
+    </div>
   </body>
 </html>
