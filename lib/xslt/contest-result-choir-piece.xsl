@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-choir-piece.xsl,v 1.3 2001/01/03 14:12:21 kunishi Exp $ -->
+<!-- $Id: contest-result-choir-piece.xsl,v 1.4 2001/01/09 16:36:41 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:p="http://www.chorusroom.org/piece"
@@ -18,8 +18,8 @@
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
-    <xsl:apply-templates select="p:piece"/>
-    <xsl:apply-templates select="p:suite"/>
+    <xsl:apply-templates select="$piece-top/p:piece"/>
+    <xsl:apply-templates select="$piece-top/p:suite"/>
   </xsl:template>
 
   <xsl:template match="p:originated-from">

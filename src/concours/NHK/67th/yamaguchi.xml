@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: yamaguchi.xml,v 1.3 2001/01/05 04:24:15 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.4 2001/01/09 16:36:41 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度（第65回）NHK全国学校音楽コンクール山口県大会</competition-name>
   <result output="yamaguchi">
     <date day-of-week="tue" holiday="false">2000-08-08</date>
@@ -27,8 +27,7 @@
 	<piano>中村早織</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school">
-	    <p:piece>大すき</p:piece>
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:piece>夢をのせて</p:piece>
@@ -40,9 +39,8 @@
 	<conductor>兼行洋子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school">
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	    <piano>原仁美</piano>
-	    <p:piece>大すき</p:piece>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -62,9 +60,8 @@
 	<conductor>竹内礼子</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school">
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	    <piano>堀江由希</piano>
-	    <p:piece>大すき</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>芳西なつき</piano>
@@ -77,9 +74,8 @@
 	<conductor>森池博子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school">
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	    <piano>杉浦博香</piano>
-	    <p:piece>大すき</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>平田修子</piano>
@@ -98,8 +94,7 @@
 	<piano>瀬川もゆる</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school">
-	    <p:piece>大すき</p:piece>
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -117,8 +112,7 @@
 	<piano>峰松佳乃子</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school">
-	    <p:piece>大すき</p:piece>
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:piece>満月の不思議ポロロッカ</p:piece>
@@ -131,8 +125,7 @@
 	<piano>増田真由美</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school">
-	    <p:piece>大すき</p:piece>
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:piece>上見れば(二部合唱のための主題と変奏)</p:piece>
@@ -144,9 +137,8 @@
 	<conductor>福田哲朗</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school">
+	  <given-program number="elementary-school" href="givenPrograms.xml">
 	    <piano>西岡亜紀</piano>
-	    <p:piece>大すき</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>國井理江</piano>
@@ -168,9 +160,8 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>NHK山口放送局長賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>難波瑠里</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>阿武紗矢</piano>
@@ -184,9 +175,8 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>教育長賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>松田美耶</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -204,9 +194,8 @@
 	<conductor>山本真紀</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>山内治香</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <p:piece>ヘンルーダの花が咲いたら</p:piece>
@@ -218,9 +207,8 @@
 	<conductor>中野幸郎</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>清水倫子</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>満岡孝美</piano>
@@ -240,8 +228,7 @@
 	<piano>渡邉秀行</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
-	    <p:piece>こうしていよう</p:piece>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:piece>二十億光年の孤独</p:piece>
@@ -253,9 +240,8 @@
 	<conductor>阿部由起子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>奥真美</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>福井一九惠</piano>
@@ -268,9 +254,8 @@
 	<conductor>上田良夫</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>原田隆太郎</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -287,9 +272,8 @@
 	<conductor>弘中裕次</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>松岡絵美</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>西川千代野</piano>
@@ -302,9 +286,8 @@
 	<conductor>山本恵美</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	    <piano>山近綾香</piano>
-	    <p:piece>こうしていよう</p:piece>
 	  </given-program>
 	  <free-program>
 	    <piano>木嶋友里</piano>
@@ -326,8 +309,7 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>NHK山口放送局長賞</special-prize>
 	<program>
-	  <given-program number="senior-highschool">
-	    <p:piece>はじめに…</p:piece>
+	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -346,8 +328,7 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>教育長賞</special-prize>
 	<program>
-	  <given-program number="senior-highschool">
-	    <p:piece>はじめに…</p:piece>
+	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>

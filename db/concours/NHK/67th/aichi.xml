@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/nhk-contest-result.dtd">
-<competition>
-  <cvs-id>$Id: aichi.xml,v 1.1 2001/01/09 13:23:30 kunishi Exp $</cvs-id>
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
+  <cvs-id>$Id: aichi.xml,v 1.2 2001/01/09 16:36:40 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回)ＮＨＫ全国学校音楽コンクール愛知県コンクール</competition-name>
   <result output="aichi">
     <reporter anonymous="false">
@@ -16,7 +16,7 @@
 	<piano>田嶋みゆき</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -37,7 +37,7 @@
 	<piano>中野栄美</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:piece>地球へ寄り添って−センスオブワンダー−</p:piece>
@@ -50,7 +50,7 @@
 	<piano>福士久美子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -68,7 +68,7 @@
 	<piano>平田幸</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -91,7 +91,7 @@
 	<piano>森嶌泰至</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -109,7 +109,7 @@
 	<piano>森明香</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool">
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
 	  </given-program>
 	  <free-program>
 	    <p:piece>あいや節幻想曲〜津軽民謡風俗めぐり</p:piece>
