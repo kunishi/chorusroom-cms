@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title>49th AJCL Chorus Contest/Chubu: High School</title>
   </head>
   <body>
@@ -13,7 +18,7 @@
       <dt> 情報提供者</dt>
       <dd> 若園智美さん(<tt>htty@he.mirai.or.jp</tt>)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>中学校部門・同声</h2>
     <h3>金賞</h3>
     <ul>
@@ -49,7 +54,7 @@
       <li> 長野市犀陵中学校合唱部(長野)</li>
       <li> 長野市立柳町中学校合唱専門部(長野)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高等学校部門・Aグループ</h2>
     <h3>シード</h3>
     <ul>
@@ -94,10 +99,11 @@
       <li> 岐阜県立岐阜北高校コーラス部(岐阜)</li>
       <li> 富山県立井波孝行音楽部(富山)</li>
     </ul>
-    <hr>
-    [ <a href="./">第49回全日本合唱コンクールのページ</a>
-    | <a href="../">「合唱の部屋」ホームページ</a> ]
-    <hr>
-    <address> KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
+    <hr/>
+    [ <a href="./" shape="rect">第49回全日本合唱コンクールのページ</a>
+    | <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 11:00:31 $
   </body>
 </html>
