@@ -58,13 +58,6 @@
     </classpath>
   </taskdef>
 
-<!-- 
-  <dependset>
-    <srcfilelist dir="${basedir}/db/links" files="**/*.xml"/>
-    <targetfileset dir="${build.xhtml}/links" includes="**/*.xml"/>
-  </dependset>
--->
-
   <!-- whole build process -->
   <target name='wholebuild' depends='prepare, build, finalize'/>
 
@@ -290,6 +283,10 @@
   <target name='build.xhtml.ja'
           depends='prepare.xslt.common, prepare.xslt.xhtml1,
                    prepare.xml.xhtml'>
+    <dependset>
+      <srcfilelist dir="${basedir}/db/links" files="**/*.xml"/>
+      <targetfileset dir="${build.xhtml}/links" includes="**/*.xml"/>
+    </dependset>
     <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
       extension='.xml' processor='trax'
