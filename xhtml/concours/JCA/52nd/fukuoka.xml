@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
-<!ENTITY % utfspecial "IGNORE">
-<!ENTITY % ascspecial "INCLUDE">
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
 ]>
 <大会 略称="fukuoka">
-  <CVSID>$Id: fukuoka.xml,v 1.12 1999/09/26 02:19:38 kunishi Exp $</CVSID>
+  <CVSID>$Id: fukuoka.xml,v 1.13 1999/09/26 16:40:02 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第54回九州合唱コンクール福岡県予選</大会名>
   <開催日別結果>
     <開催日 曜日="日">1999-08-01</開催日>
