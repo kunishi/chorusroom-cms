@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
+<!ENTITY % utfspecial "IGNORE">
+<!ENTITY % ascspecial "INCLUDE">
+<!ENTITY common-doc SYSTEM "aichi-common.xml">
+]>
+<大会 略称="tohoku">
+  <CVSID>$Id: tohoku.xml,v 1.1 1999/09/26 01:47:08 kunishi Exp $</CVSID>
+&common-doc;
+</大会>
