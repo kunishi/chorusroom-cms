@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1106/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1102/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1029/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1025/concours.html"></rdf:li>
@@ -24,10 +25,18 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/notice.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1012/kansai.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1009/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/chubu.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1106/links.html">
+    <title>本日のリンク更新(11/06)</title>
+    <link>http://www.chorusroom.org/info/2003/1106/links.html</link>
+    <description>以下のリンクを更新しました: 松川郁子コーラスグループ
+    (一般・沖縄、新規)、大阪新音フロイデ合唱団(一般・大阪、URL変更)、
+    船橋フィルハーモニー合唱団(一般・千葉、新規)</description>
+    <dc:date>2003-11-06T00:44</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1102/concours.html">
     <title>全日本合唱コンクール(中学・高校)結果速報</title>
