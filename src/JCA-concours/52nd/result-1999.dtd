@@ -39,7 +39,7 @@
 
 <!ELEMENT 報告者 (#PCDATA)>
 <!ATTLIST 報告者
-          email CDATA #REQUIRED
+          email CDATA #IMPLIED
           匿名希望 CDATA #IMPLIED>
 <!ELEMENT 注記 (注記事項+)>
 <!ELEMENT 注記事項 (#PCDATA)>
