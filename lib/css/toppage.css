@@ -1,4 +1,4 @@
-/* $Id: toppage.css,v 1.9 2000/09/13 04:45:51 kunishi Exp $ */
+/* $Id: toppage.css,v 1.10 2000/10/09 03:38:50 kunishi Exp $ */
 
 h1 {
      text-align: right;
@@ -41,10 +41,10 @@ div.topic h2 a:link { color: white; }
 div.topic h2 a:visited { color: #CCCCFF; }
 div.topic p { margin-left: 1.5em; }
 
-div.footnote { text-align: right; }
-div.footnote p { margin-top: 0em;
+div.footer { text-align: right; }
+div.footer p { margin-top: 0em;
                  margin-bottom: 0em; }
-hr.footnote {
+hr.footer {
 	width: 100%;
 	align: center;
 }
