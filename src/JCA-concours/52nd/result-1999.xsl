@@ -137,6 +137,7 @@
       <xsl:apply-templates select="形態"/>
       <xsl:apply-templates select="登録人数"/>
       <xsl:apply-templates select="指揮者"/>
+      <xsl:apply-templates select="ピアノ"/>
       <xsl:apply-templates select="共演者"/>)
       <xsl:call-template name="特別賞リスト"/>
       <xsl:apply-templates select="曲目"/>
@@ -168,7 +169,16 @@
   </xsl:template>
 
   <xsl:template match="指揮者">
-    指揮: <xsl:value-of select="."/>
+    <xsl:if test="not(preceding-sibling::指揮者)">指揮: </xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:if test="following-sibling::指揮者">・</xsl:if>
+    <xsl:if test="following-sibling::ピアノ|following-sibling::共演者">, </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="ピアノ">
+    <xsl:if test="not(preceding-sibling::ピアノ)">ピアノ: </xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:if test="following-sibling::ピアノ">・</xsl:if>
     <xsl:if test="following-sibling::共演者">, </xsl:if>
   </xsl:template>
 
