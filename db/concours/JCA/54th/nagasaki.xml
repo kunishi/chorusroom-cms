@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns='http://www.chorusroom.org/xml' xmlns:p='http://www.chorusroom.org/piece' xmlns:cr='http://www.chorusroom.org/character'>
-  <cvs-id>$Id: nagasaki.xml,v 1.1 2001/08/12 12:45:47 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: nagasaki.xml,v 1.2 2001/08/19 16:46:18 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">第56回九州合唱コンクール長崎県予選</competition-name>
   <result output="nagasaki">
     <date day-of-week="sun" holiday="false">2001-07-15</date>
@@ -136,6 +136,258 @@
 		<p:mainTitle>Salve Regina</p:mainTitle>
 	      </p:title>
 	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>聖和女子高等学校合唱団</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>清水綾子</conductor>
+	<piano>田島美帆</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>生きる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>活水高等学校コーラス部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>斉藤幸一</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>D.Nighieri</p:words-by>
+	      <p:composed-by>G.ヴェルディ</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>4つの聖歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Laudi alla virgine Maria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長崎県立川棚高等学校コーラス部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>柳本ますみ</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>工藤直子</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための組曲</p:titlePrefix>
+		<p:mainTitle>あいたくて</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>あいたくて</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>蟻の夏</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長崎県立佐世保西高等学校コーラス部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>山南雄一</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>金沢智恵子</p:words-by>
+	      <p:composed-by>橋本祥路</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための</p:titlePrefix>
+		<p:mainTitle>まざあぐうす組曲</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ひとつの小石</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ねんねこうた</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長崎県立長崎南高等学校コーラス部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>山下陽平</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>関根栄一</p:words-by>
+	      <p:composed-by>寺島尚彦</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>景色がわたしを見た</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長崎県立長崎東高等学校コーラス部</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>谷村直樹</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>江口泰央</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>九州地方の民謡による</p:titlePrefix>
+		<p:mainTitle>南日本のわらべうた風土記</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>長崎ぶらぶら節</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>ヴォーカルμ</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>井出尾文子</conductor>
+	<piano>大野陽子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>秀村愛子</p:words-by>
+	      <p:composed-by>佐藤</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>花のなかにねむる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>イトウ・キネン・シンガーズ</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>猿渡健二</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>I. Pizzetti</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Messa di Requiem</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Requiem</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>ほたて児童合唱団</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>土肥章一</conductor>
+	<piano>小松千津</piano>
+	<accompaniment instrument="語り">杉原正城</accompaniment>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>会田綱雄</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>童声合唱・語り(バス)・ピアノのための</p:titlePrefix>
+		<p:mainTitle>狐のうた</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>訓戒</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
 	  </free-program>
 	</program>
       </choir>
