@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.31 1999/09/28 11:44:43 kunishi Exp $
+# $Id: Makefile,v 1.32 1999/09/29 12:36:17 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -19,6 +19,7 @@ INSTFILES+=	hyogo.html hyogo.utfhtml
 INSTFILES+=	kagoshima.html kagoshima.utfhtml
 INSTFILES+=	kanagawa.html kanagawa.utfhtml
 INSTFILES+=	kansai-09-23.html kansai-09-23.utfhtml
+INSTFILES+=	kansai-09-23-saiten.html kansai-09-23-saiten.utfhtml
 INSTFILES+=	kyushu.html kyushu.utfhtml
 INSTFILES+=	mie.html mie.utfhtml
 INSTFILES+=	miyagi.html miyagi.utfhtml
@@ -60,3 +61,4 @@ kansai-09-23.utfhtml kansai-10-17.utfhtml:	kansai.utfxml
 ## dummy target.
 ## *-saiten.{html,utfhtml} is actually generated from *.xml.
 chubu-saiten.utfhtml:
+kansai-09-23-saiten.utfhtml:
