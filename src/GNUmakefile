@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.46 2000/11/09 07:23:42 kunishi Exp $
+# $Id: GNUmakefile,v 1.47 2000/11/09 07:34:02 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -16,13 +16,13 @@ INSTFILES+=	CDShop.html \
 		misc.html \
 		profile.html \
 		notice.html \
-		.htaccess
+		.htaccess \
+		robots.txt
 
 INSTFILES_NOBUILD+=	panaMusica-map.txt \
 			panaMusica.png \
 			panaMusica.ps \
-			panaMusica.ps.gz \
-			robots.txt
+			panaMusica.ps.gz
 
 SUBDIR+=	ajcl \
 		concours \
@@ -52,6 +52,9 @@ info-note2.html: override DEFAULT_XSL=${XHTML10_XSL_ASCII}
 info-note2.html: override TIDY_ENCODING=-ascii
 
 .htaccess:	conf/htaccess
+	${CP} $< $@
+
+robots.txt:	conf/robots.txt
 	${CP} $< $@
 
 install-namazu:	${INSTTOPDIR}search.cgi
