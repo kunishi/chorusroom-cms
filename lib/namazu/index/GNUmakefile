@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.3 1999/12/18 14:25:37 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2000/10/10 15:40:37 kunishi Exp $
 #
 
 INSTFILES_NOBUILD=	NMZ.head.en NMZ.head.ja NMZ.body.en NMZ.body.ja \

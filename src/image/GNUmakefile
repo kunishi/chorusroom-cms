@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.4 2000/08/29 10:08:52 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2000/10/10 15:40:38 kunishi Exp $
 # 
 
 INSTFILES_NOBUILD+=	background.png \

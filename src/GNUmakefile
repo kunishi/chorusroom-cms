@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.41 2000/10/08 23:37:37 kunishi Exp $
+# $Id: GNUmakefile,v 1.42 2000/10/10 15:40:37 kunishi Exp $
 #
 
 RELPATH=	# ./

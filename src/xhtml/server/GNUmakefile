@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.1 2000/09/11 11:04:57 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 2000/10/10 15:40:38 kunishi Exp $
 #
 
 INSTFILES=	index.html

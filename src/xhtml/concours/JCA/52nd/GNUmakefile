@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.63 2000/10/10 00:40:02 kunishi Exp $
+# $Id: GNUmakefile,v 1.64 2000/10/10 15:40:45 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \

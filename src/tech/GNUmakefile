@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.5 2000/08/23 05:06:58 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2000/10/10 15:40:45 kunishi Exp $
 # 
 
 ENT2XML=	./gen-tbl.pl
