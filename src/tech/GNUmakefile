@@ -1,18 +1,14 @@
 # 
-# $Id: GNUmakefile,v 1.6 2000/10/10 15:40:45 kunishi Exp $
+# $Id: GNUmakefile,v 1.7 2000/12/25 14:24:02 kunishi Exp $
 # 
 
-ENT2XML=	./gen-tbl.pl
+ENT2XML=	${SCRIPTDIR}/gen-char-table.pl
 
+DOCBOOK_ENTDIR=	/usr/local/share/xml/dtd/docbook/ent
 ENTXMLFILES=	iso-lat1.xml iso-lat2.xml iso-cyr1.xml iso-cyr2.xml
 
-INSTFILES+=	char-ent.utfhtml
-
 include ${SRCTOPDIR}/config.mk
-
-char-ent.utfhtml:	char-ent.xml ${ENTXMLFILES}
-
 include ${SRCTOPDIR}/rule.mk
 
-%.xml:	%.ent
-	${ENT2XML} < $< > $@
+%.xml:	${DOCBOOK_ENTDIR}/%.ent
+	${ENT2XML} $< > $@

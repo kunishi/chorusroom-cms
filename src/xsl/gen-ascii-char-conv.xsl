@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-ascii-char-conv.xsl,v 1.3 2000/12/24 03:05:39 kunishi Exp $ -->
+<!-- $Id: gen-ascii-char-conv.xsl,v 1.4 2000/12/25 14:24:31 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:cr="http://www.chorusroom.org/chars"
+  xmlns:cr="http://www.chorusroom.org/xml"
   xmlns="http://www.w3.org/1999/xhtml">
 
   <xsl:output method="xml"
@@ -21,6 +21,7 @@
   <xsl:template match="cr:character">
     <xsl:element name="xsl:template">
       <xsl:attribute name="match">
+	<xsl:text>cr:</xsl:text>
 	<xsl:value-of select="@cr:nickname"/>
       </xsl:attribute>
       <xsl:element name="xsl:text">
