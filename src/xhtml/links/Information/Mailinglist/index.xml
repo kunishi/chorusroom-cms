@@ -6,7 +6,7 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.10 2000/09/13 10:48:33 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.11 2000/10/03 10:47:41 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <style type="text/css" xml:space="preserve">
@@ -21,10 +21,12 @@
       <li><a href="http://web.kyoto-inet.or.jp/people/yutaka70/naiskuoro.html" shape="rect">女声合唱メーリングリスト naiskuoro</a> 前川裕さんが管理しています。</li>
       <li><a href="http://member.nifty.ne.jp/amabile/amabile.html" shape="rect">児童合唱メイリングリスト</a> by 山本哲さん。</li>
       <li><a href="http://www.na.rim.or.jp/~kkawai/jamca/jamca.htm" shape="rect">日本男声合唱協会(JAMCA)メーリングリスト</a> 誰でも参加できます。</li>
-      <li><a href="/chorusRoom/hml/" shape="rect">ハーモニーメーリングリスト(HML)</a></li>
+      <li><a href="%%TOPDIR%%hml/" shape="rect">ハーモニーメーリングリスト(HML)</a></li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    Last updated: $Date: 2000/09/13 10:48:33 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 10:47:41 $ GMT</p>
+    </div>
   </body>
 </html>
