@@ -1,12 +1,12 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.25 2000/07/11 11:48:25 kunishi Exp $
+# $Id: config.mk,v 1.26 2000/08/06 02:44:13 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
-ifdef USE_JAVA2
-JDK_TOPDIR=	${LOCALBASE}/jdk1.2.2
-else
+ifdef USE_JDK11
 JDK_TOPDIR=	${LOCALBASE}/jdk1.1.8
+else
+JDK_TOPDIR=	${LOCALBASE}/jdk1.2.2
 endif
 JDK_LIBDIR=	${JDK_TOPDIR}/lib
 
@@ -20,12 +20,12 @@ JAVA=		${LOCALBASE}/bin/kaffe
 JDK_CLASSPATH=	${LOCALBASE}/share/kaffe/kjc.jar:${LOCALBASE}/share/kaffe/Klasses.jar
 else
 JAVA=		${JDK_TOPDIR}/bin/java
-ifdef USE_JAVA2
-JAVA_COMPILER?=	tya
-JDK_CLASSPATH=	
-else
+ifdef USE_JDK11
 JAVA_COMPILER?=	tya
 JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip
+else
+JAVA_COMPILER?=	tya
+JDK_CLASSPATH=	
 endif
 endif
 
