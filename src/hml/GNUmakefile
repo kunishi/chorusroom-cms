@@ -1,9 +1,6 @@
 # 
-# $Id: GNUmakefile,v 1.1 1999/08/24 12:38:46 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 1999/12/18 14:24:47 kunishi Exp $
 # 
-
-RELPATH=	hml
-SRCTOPDIR=	../
 
 INSTFILES+=	choir.html \
 		index.html \

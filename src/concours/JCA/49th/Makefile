@@ -1,9 +1,6 @@
 # 
-# $Id: Makefile,v 1.1 1999/08/24 01:56:24 kunishi Exp $
+# $Id: Makefile,v 1.2 1999/12/18 14:24:39 kunishi Exp $
 # 
-
-RELPATH=	49th
-SRCTOPDIR=	../
 
 INSTFILES+=	aichi.html \
 		aomori.html \

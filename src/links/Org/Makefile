@@ -1,9 +1,6 @@
 # 
-# $Id: Makefile,v 1.1 1999/08/22 16:07:28 kunishi Exp $
+# $Id: Makefile,v 1.2 1999/12/18 14:25:17 kunishi Exp $
 # 
-
-RELPATH=	links/Org
-SRCTOPDIR=	../../
 
 INSTFILES+=	index.html
 

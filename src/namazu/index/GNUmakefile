@@ -1,9 +1,6 @@
 #
-# $Id: GNUmakefile,v 1.2 1999/09/17 01:40:09 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 1999/12/18 14:25:37 kunishi Exp $
 #
-
-RELPATH=	namazu/index
-SRCTOPDIR=	../../
 
 INSTFILES_NOBUILD=	NMZ.head.en NMZ.head.ja NMZ.body.en NMZ.body.ja \
 			NMZ.foot.en NMZ.foot.ja

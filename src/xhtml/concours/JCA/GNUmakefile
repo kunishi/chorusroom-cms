@@ -1,9 +1,6 @@
 # 
-# $Id: GNUmakefile,v 1.4 1999/08/30 02:45:02 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 1999/12/18 14:24:43 kunishi Exp $
 #
-
-RELPATH=	JCA-concours
-SRCTOPDIR=	../
 
 INSTFILES+=	index.html
 INSTFILES+=	info-note.html

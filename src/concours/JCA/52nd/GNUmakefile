@@ -1,10 +1,8 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.42 1999/11/20 21:56:48 kunishi Exp $
+# $Id: GNUmakefile,v 1.43 1999/12/18 14:24:44 kunishi Exp $
 
-RELPATH=	JCA-concours/52nd
-SRCTOPDIR=	../../
 UTFTOEUC=	hutrans | tcs -f utf -t ujis
 EUCTOJIS=	nkf
 
@@ -55,36 +53,36 @@ SPECIAL_RULES=		yes
 include ${SRCTOPDIR}/rule.mk
 
 %.html:	%.xml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
 %.utfhtml: %.utfxml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ###
 
 index.html: %.html : %.xml ${XHTML10_XSL}
-	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
+	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
 
 index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
-	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
+	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 
 ${CHUBU_HTML}:	chubu.xml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
 ${CHUBU_HTML:%.html=%.utfhtml}:	chubu.utfxml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ${KANSAI_HTML}:	kansai.xml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
 ${KANSAI_HTML:%.html=%.utfhtml}:	kansai.utfxml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ${NATIONAL_HTML}: national.xml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
 ${NATIONAL_HTML:%.html=%.utfhtml}: national.utfxml
-	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ## dummy target.
 ## *-saiten.{html,utfhtml} is actually generated from *.xml.

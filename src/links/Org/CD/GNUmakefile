@@ -1,9 +1,6 @@
 # 
+# $Id: GNUmakefile,v 1.2 1999/12/18 14:25:20 kunishi Exp $
 # 
-# 
-
-RELPATH=	links/Org/CD
-SRCTOPDIR=	../../../
 
 INSTFILES+=	index.html
 

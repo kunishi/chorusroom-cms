@@ -1,9 +1,6 @@
 # 
-# $Id: GNUmakefile,v 1.1 1999/08/22 16:22:54 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 1999/12/18 14:25:38 kunishi Exp $
 # 
-
-RELPATH=	style
-SRCTOPDIR=	../
 
 INSTFILES_NOBUILD=	default.css \
 			jca-concour.css \

@@ -1,9 +1,6 @@
 # 
-# $Id: Makefile,v 1.1 1999/08/24 12:37:32 kunishi Exp $
+# $Id: Makefile,v 1.2 1999/12/18 14:24:46 kunishi Exp $
 #
-
-RELPATH=	ajcl
-SRCTOPDIR=	../
 
 INSTFILES+=	calendar97.html \
 		index.html \

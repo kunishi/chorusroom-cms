@@ -1,9 +1,6 @@
 # 
-# $Id: GNUmakefile,v 1.2 1999/09/10 14:53:34 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 1999/12/18 14:24:48 kunishi Exp $
 # 
-
-RELPATH=	image
-SRCTOPDIR=	../
 
 INSTFILES_NOBUILD+=	background.png \
 			bg.png

@@ -1,9 +1,6 @@
 # 
-# $Id: GNUmakefile,v 1.1 1999/08/23 10:44:43 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 1999/12/18 14:24:36 kunishi Exp $
 # 
-
-RELPATH=	48th
-SRCTOPDIR=	../
 
 INSTFILES+=	48th-chubu.html \
 		48th-chugaku.html \
