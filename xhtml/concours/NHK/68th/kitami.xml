@@ -3,7 +3,7 @@
 <competition xmlns='http://www.chorusroom.org/xml'
   xmlns:p='http://www.chorusroom.org/piece'
   xmlns:cr='http://www.chorusroom.org/character'>
-  <cvs-id>$Id: kitami.xml,v 1.3 2001/10/22 11:32:53 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kitami.xml,v 1.4 2002/03/09 11:03:24 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成13年度(第68回) NHK全国学校音楽コンクール北見地区大会</competition-name>
   <result output="kitami">
     <reporter anonymous="false">
@@ -296,7 +296,7 @@
 	<number-of-members>29</number-of-members>
 	<number-of-parts>3</number-of-parts>
 	<conductor>原中久美子</conductor>
-	<prize nickname="silver">銀賞</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <piano grade="2">藤田祐美</piano>
@@ -327,7 +327,7 @@
 	<number-of-members>22</number-of-members>
 	<number-of-parts>3</number-of-parts>
 	<conductor>真部さや</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <piano grade="3">芦沢里依</piano>
@@ -377,13 +377,13 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>北見市立北光小学校</choir-name>
+	<choir-name>北見市立北光中学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>22</number-of-members>
 	<number-of-parts>3</number-of-parts>
 	<conductor>宮野晴美</conductor>
 	<piano grade="1">村山麻由</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
