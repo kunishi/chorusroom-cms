@@ -1,9 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>50th AJCL Chorus Contest/Hokkaido</title>
   </head>
 
@@ -17,12 +21,12 @@
       <dt>審査員</dt>
       <dd>長谷川冴子(合唱指揮者)・平吉毅州(作曲家)・鈴木捺香子(声楽家)・中村隆夫(北海道教育大学札幌校教授)・石田久大(北海道教育大学旭川校教授)</dd>
       <dt>情報提供者</dt>
-      <dd>Michio KONDO さん (kondmich@interlink.or.jp)<br>
+      <dd>Michio KONDO さん (kondmich@interlink.or.jp)<br/>
 	また、小嶋隆史さん(kojima@opt.ts.fujitsu.co.jp)からも同様の情報をいただきました。
       </dd>
     </dl>
     <p>各部門の順位順に並べています。また、◎印が代表です。</p>
-    <hr>
+    <hr/>
     <h2>一般Ａ部門</h2>
     <h3>金賞</h3>
     <ul>
@@ -74,7 +78,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般Ｂ部門</h2>
     <h3>金賞</h3>
     <ul>
@@ -108,7 +112,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学Ｂ部門</h2>
     <h3>金賞</h3>
     <ul>
@@ -139,7 +143,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場部門</h2>
     <h3>金賞</h3>
     <ul>
@@ -160,11 +164,8 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- Created: Wed Oct 15 22:29:21 JST 1997 -->
-<!-- hhmts start -->
-Last modified: Tue Dec 16 23:03:15 JST 1997
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 16:22:30 $
   </body>
 </html>

@@ -1,9 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>50th AJCL Chorus Contest/Junior High School</title>
   </head>
 
@@ -15,7 +19,7 @@
       <dt>場所</dt>
       <dd>東京・昭和女子大学人見記念講堂</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>混声の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -38,7 +42,7 @@
       <li>新居浜市立西中学校合唱部(愛媛)</li>
       <li>須賀川市立第二中学校合唱部(福島)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>同声の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -73,11 +77,8 @@
       <li>郡山市立郡山第三中学校合唱部(福島)</li>
     </ul>
 
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- Created: Mon Nov  3 23:53:08 JST 1997 -->
-<!-- hhmts start -->
-Last modified: Sun Dec 28 11:17:11 JST 1997
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 16:31:21 $
   </body>
 </html>
