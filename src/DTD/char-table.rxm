@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- $Id: char-table.rxm,v 1.4 2000/12/11 17:02:29 kunishi Exp $ -->
+<!-- $Id: char-table.rxm,v 1.5 2000/12/25 03:58:07 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
@@ -7,7 +7,12 @@
     <export label="characters"/>
   </interface>
 
-  <tag name="characters"/>
+  <tag name="characters">
+    <annotation>
+      <documentation>Namespace should be http://www.chorusroom.org/xml.</documentation>
+    </annotation>
+    <attribute name="xmlns" required="true" type="uri-reference"/>
+  </tag>
   <elementRule role="characters">
     <sequence>
       <ref label="character" occurs="+"/>

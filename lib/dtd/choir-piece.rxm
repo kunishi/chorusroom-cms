@@ -1,84 +1,119 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: choir-piece.rxm,v 1.2 2000/12/08 00:59:29 kunishi Exp $ -->
+<?xml version="1.0"?>
+<!-- $Id: choir-piece.rxm,v 1.3 2000/12/25 03:58:07 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface/>
 
-  <hedgeRule label="合唱曲">
+  <hedgeRule label="choir-piece">
     <sequence>
-      <ref label="出典" occurs="?"/>
-      <ref label="作詩" occurs="?"/>
-      <ref label="訳詩" occurs="?"/>
-      <ref label="作曲" occurs="?"/>
-      <ref label="編曲" occurs="?"/>
+      <ref label="originated-from" occurs="?"/>
+      <ref label="words-by" occurs="?"/>
+      <ref label="translated-by" occurs="?"/>
+      <ref label="composed-by" occurs="?"/>
+      <ref label="arranged-by" occurs="?"/>
       <choice>
-	<ref label="曲名"/>
-	<ref label="組曲"/>
+	<ref label="piece"/>
+	<ref label="suite"/>
       </choice>
+      <ref label="piece-note" occurs="?"/>
     </sequence>
   </hedgeRule>
 
   <attPool role="lang.att">
-    <attribute name="xml:lang" type="string"/>
+    <attribute name="xml:lang" type="language"/>
   </attPool>
 
-  <tag name="作詩">
+  <tag name="originated-from">
     <ref role="lang.att"/>
   </tag>
-  <elementRule role="作詩" type="string"/>
+  <elementRule role="originated-from">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
-  <tag name="訳詩">
+  <tag name="words-by">
     <ref role="lang.att"/>
   </tag>
-  <elementRule role="訳詩" type="string"/>
+  <elementRule role="words-by">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
-  <tag name="出典">
+  <tag name="translated-by">
     <ref role="lang.att"/>
   </tag>
-  <elementRule role="出典" type="string"/>
+  <elementRule role="translated-by">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
-  <tag name="編曲">
+  <tag name="composed-by">
     <ref role="lang.att"/>
   </tag>
-  <elementRule role="編曲" type="string"/>
+  <elementRule role="composed-by">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
-  <tag name="作曲">
+  <tag name="arranged-by">
     <ref role="lang.att"/>
   </tag>
-  <elementRule role="作曲" type="string"/>
+  <elementRule role="arranged-by">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
-  <tag name="曲名">
+  <tag name="piece">
     <ref role="lang.att"/>
   </tag>
-  <elementRule role="曲名" type="string"/>
+  <elementRule role="piece">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
-  <tag name="組曲">
-    <attribute name="抜粋" required="true" type="NMTOKEN">
-      <enumeration value="yes"/>
-      <enumeration value="no"/>
-    </attribute>
-  </tag>
-  <elementRule role="組曲">
+  <tag name="suite"/>
+  <elementRule role="suite">
     <sequence>
-      <ref label="曲名"/>
-      <ref label="構成曲" occurs="+"/>
+      <ref label="piece"/>
+      <ref label="suite-piece" occurs="+"/>
     </sequence>
   </elementRule>
 
-  <tag name="構成曲"/>
-  <elementRule role="構成曲">
+  <tag name="suite-piece"/>
+  <elementRule role="suite-piece">
     <sequence>
-      <ref label="出典" occurs="?"/>
-      <ref label="作詩" occurs="?"/>
-      <ref label="訳詩" occurs="?"/>
-      <ref label="作曲" occurs="?"/>
-      <ref label="構成曲番号" occurs="?"/>
-      <ref label="曲名"/>
-      <ref label="構成曲" occurs="*"/>
+      <ref label="originated-from" occurs="?"/>
+      <ref label="words-by" occurs="?"/>
+      <ref label="translated-by" occurs="?"/>
+      <ref label="composed-by" occurs="?"/>
+      <ref label="piece-number" occurs="?"/>
+      <ref label="piece"/>
+      <ref label="suite-piece" occurs="*"/>
     </sequence>
   </elementRule>
 
-  <tag name="構成曲番号"/>
-  <elementRule role="構成曲番号" type="string"/>
+  <tag name="piece-number"/>
+  <elementRule role="piece-number">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
+
+  <tag name="piece-note"/>
+  <elementRule role="piece-note">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
+
+  <hedgeRule label="character">
+    <empty/>
+  </hedgeRule>
 
 </module>

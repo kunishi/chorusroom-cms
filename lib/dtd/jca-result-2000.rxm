@@ -1,223 +1,244 @@
 <?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: jca-result-2000.rxm,v 1.2 2000/12/08 00:59:34 kunishi Exp $ -->
+<!-- $Id: jca-result-2000.rxm,v 1.3 2000/12/25 03:58:07 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
-<module
-        moduleVersion="1.0"
+<module moduleVersion="1.0"
         relaxCoreVersion="1.0"
         xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
-    <export label="大会"/>
+    <export label="competition"/>
   </interface>
 
-  <tag name="大会">
-    <attribute name="xml:lang" type="string"/>
+  <tag name="competition">
+    <annotation>
+      <documentation>namespace should be http://www.chorusroom.org/xml.</documentation>
+    </annotation>
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="xmlns" required="true" type="uri-reference">
+    </attribute>
   </tag>
-  <elementRule role="大会">
+  <elementRule role="competition">
     <sequence>
-      <ref label="CVSID"/>
-      <ref label="大会名"/>
-      <ref label="開催日別結果" occurs="+"/>
+      <ref label="cvs-id"/>
+      <ref label="competition-name"/>
+      <ref label="result" occurs="+"/>
     </sequence>
   </elementRule>
 
-  <tag name="CVSID"/>
-  <elementRule role="CVSID" type="string"/>
+  <tag name="cvs-id"/>
+  <elementRule role="cvs-id" type="string"/>
 
-  <tag name="大会名">
-    <attribute name="県大会" type="NMTOKEN">
+  <tag name="competition-name">
+    <attribute name="pref" type="NMTOKEN">
+      <enumeration value="yes"/>
+    </attribute>
+    <attribute name="area" type="NMTOKEN">
+      <enumeration value="yes"/>
+    </attribute>
+  </tag>
+  <elementRule role="competition-name" type="string"/>
+
+  <tag name="result">
+    <attribute name="output" required="true" type="string"/>
+  </tag>
+  <elementRule role="result">
+    <sequence>
+      <ref label="date" occurs="*"/>
+      <ref label="startTime" occurs="?"/>
+      <ref label="hall" occurs="?"/>
+      <ref label="referee" occurs="*"/>
+      <ref label="reporter" occurs="+"/>
+      <ref label="notices" occurs="?"/>
+      <ref label="section" occurs="+"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="date">
+    <attribute name="day-of-week" required="true" type="NMTOKEN">
+      <enumeration value="mon"/>
+      <enumeration value="tue"/>
+      <enumeration value="wed"/>
+      <enumeration value="thu"/>
+      <enumeration value="fri"/>
+      <enumeration value="sat"/>
+      <enumeration value="sun"/>
+    </attribute>
+    <attribute name="holiday" type="NMTOKEN">
+      <enumeration value="true"/>
+    </attribute>
+  </tag>
+  <elementRule role="date" type="date"/>
+
+  <tag name="startTime"/>
+  <elementRule role="startTime" type="time"/>
+
+  <tag name="hall"/>
+  <elementRule role="hall" type="string"/>
+
+  <tag name="referee">
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="shortname" required="true" type="string"/>
+    <attribute name="job" type="string"/>
+    <attribute name="referred-date" type="string"/>
+    <attribute name="country" type="string"/>
+  </tag>
+  <elementRule role="referee" type="string"/>
+
+  <tag name="reporter">
+    <attribute name="anonymous" type="NMTOKEN">
+      <enumeration value="yes"/>
+    </attribute>
+  </tag>
+  <elementRule role="reporter">
+    <sequence>
+      <ref label="reporter-name"/>
+      <ref label="reporter-email"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="reporter-name">
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="penname" type="string"/>
+  </tag>
+  <elementRule role="reporter-name" type="string"/>
+
+  <tag name="reporter-email">
+    <attribute name="anonymous" type="NMTOKEN">
+      <enumeration value="yes"/>
+    </attribute>
+  </tag>
+  <elementRule role="reporter-email" type="string"/>
+
+  <tag name="notices"/>
+  <elementRule role="notices">
+    <ref label="notice" occurs="+"/>
+  </elementRule>
+
+  <tag name="notice"/>
+  <elementRule role="notice" type="string"/>
+
+  <tag name="section"/>
+  <elementRule role="section">
+    <sequence>
+      <ref label="section-name"/>
+      <ref label="choir" occurs="+"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="section-name">
+    <attribute name="date" type="string"/>
+  </tag>
+  <elementRule role="section-name" type="string"/>
+
+  <tag name="choir">
+    <attribute name="playing-order" type="positive-integer"/>
+    <attribute name="representative" type="NMTOKEN">
       <enumeration value="yes"/>
       <enumeration value="no"/>
     </attribute>
-    <attribute name="支部大会" type="NMTOKEN">
-      <enumeration value="yes"/>
-      <enumeration value="no"/>
-    </attribute>
-  </tag>
-  <elementRule role="大会名" type="string"/>
-
-  <tag name="開催日別結果">
-    <attribute name="出力" required="true" type="string"/>
-  </tag>
-  <elementRule role="開催日別結果">
-    <sequence>
-      <ref label="開催日" occurs="*"/>
-      <ref label="開催時刻" occurs="?"/>
-      <ref label="開催場所" occurs="?"/>
-      <ref label="審査員" occurs="*"/>
-      <ref label="報告者" occurs="+"/>
-      <ref label="注記" occurs="?"/>
-      <ref label="部門結果" occurs="+"/>
-    </sequence>
-  </elementRule>
-
-  <tag name="開催日">
-    <attribute name="曜日" required="true" type="string"/>
-  </tag>
-  <elementRule role="開催日" type="string"/>
-
-  <tag name="開催時刻"/>
-  <elementRule role="開催時刻" type="string"/>
-
-  <tag name="開催場所"/>
-  <elementRule role="開催場所" type="string"/>
-
-  <tag name="審査員">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="省略名" required="true" type="string"/>
-    <attribute name="肩書" type="string"/>
-    <attribute name="備考" type="string"/>
-  </tag>
-  <elementRule role="審査員" type="string"/>
-
-  <tag name="報告者">
-    <attribute name="匿名希望" type="NMTOKEN">
-      <enumeration value="yes"/>
-      <enumeration value="no"/>
-    </attribute>
-  </tag>
-  <elementRule role="報告者">
-    <sequence>
-      <ref label="報告者氏名"/>
-      <ref label="email"/>
-    </sequence>
-  </elementRule>
-
-  <tag name="報告者氏名">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="ペンネーム" type="string"/>
-  </tag>
-  <elementRule role="報告者氏名" type="string"/>
-
-  <tag name="email">
-    <attribute name="email匿名" type="NMTOKEN">
-      <enumeration value="yes"/>
-      <enumeration value="no"/>
-    </attribute>
-  </tag>
-  <elementRule role="email" type="string"/>
-
-  <tag name="注記"/>
-  <elementRule role="注記">
-    <ref label="注記事項" occurs="+"/>
-  </elementRule>
-
-  <tag name="注記事項"/>
-  <elementRule role="注記事項" type="string"/>
-
-  <tag name="部門結果"/>
-  <elementRule role="部門結果">
-    <sequence>
-      <ref label="部門名"/>
-      <ref label="団体" occurs="+"/>
-    </sequence>
-  </elementRule>
-
-  <tag name="部門名">
-    <attribute name="開催日" type="string"/>
-  </tag>
-  <elementRule role="部門名" type="string"/>
-
-  <tag name="団体">
-    <attribute name="出演順" type="string"/>
-    <attribute name="大会代表" type="NMTOKEN">
-      <enumeration value="yes"/>
-      <enumeration value="no"/>
-    </attribute>
-    <attribute name="来年度シード" type="NMTOKEN">
+    <attribute name="next-sheed" type="NMTOKEN">
       <enumeration value="yes"/>
     </attribute>
   </tag>
-  <elementRule role="団体">
+  <elementRule role="choir">
     <sequence>
-      <ref label="団体名"/>
-      <ref label="所属県" occurs="?"/>
-      <ref label="形態" occurs="?"/>
-      <ref label="登録人数" occurs="?"/>
-      <ref label="指揮者" occurs="*"/>
-      <ref label="ピアノ" occurs="*"/>
-      <ref label="共演者" occurs="*"/>
-      <ref label="賞" occurs="*"/>
-      <ref label="特別賞" occurs="*"/>
-      <ref label="曲目" occurs="?"/>
-      <ref label="採点結果" occurs="?"/>
-      <ref label="団体備考" occurs="?"/>
+      <ref label="choir-name"/>
+      <ref label="prefecture" occurs="?"/>
+      <ref label="choir-type" occurs="?"/>
+      <ref label="number-of-members" occurs="?"/>
+      <ref label="conductor" occurs="*"/>
+      <ref label="piano" occurs="*"/>
+      <ref label="accompaniment" occurs="*"/>
+      <ref label="prize" occurs="*"/>
+      <ref label="special-prize" occurs="*"/>
+      <ref label="program" occurs="?"/>
+      <ref label="scores" occurs="?"/>
+      <ref label="choir-note" occurs="?"/>
     </sequence>
   </elementRule>
 
-  <tag name="団体名">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="url" type="string"/>
+  <tag name="choir-name">
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="url" type="uriReference"/>
   </tag>
-  <elementRule role="団体名" type="string"/>
+  <elementRule role="choir-name" type="string"/>
 
-  <tag name="所属県"/>
-  <elementRule role="所属県" type="string"/>
+  <tag name="prefecture"/>
+  <elementRule role="prefecture" type="string"/>
 
-  <tag name="形態"/>
-  <elementRule role="形態" type="string"/>
+  <tag name="choir-type"/>
+  <elementRule role="choir-type" type="NMTOKEN">
+    <enumeration value="mixed"/>
+    <enumeration value="male"/>
+    <enumeration value="female"/>
+    <enumeration value="children"/>
+    <enumeration value="same-voice"/>
+  </elementRule>
 
-  <tag name="登録人数"/>
-  <elementRule role="登録人数" type="string"/>
+  <tag name="number-of-members"/>
+  <elementRule role="number-of-members" type="positive-integer"/>
 
-  <tag name="指揮者">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="兼任" type="string"/>
+  <tag name="conductor">
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="instrument" type="string"/>
   </tag>
-  <elementRule role="指揮者" type="string"/>
+  <elementRule role="conductor" type="string"/>
 
-  <tag name="ピアノ">
-    <attribute name="xml:lang" type="string"/>
+  <tag name="piano">
+    <attribute name="xml:lang" type="language"/>
   </tag>
-  <elementRule role="ピアノ" type="string"/>
+  <elementRule role="piano" type="string"/>
 
-  <tag name="共演者">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="演奏楽器" required="true" type="string"/>
+  <tag name="accompaniment">
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="instrument" required="true" type="string"/>
   </tag>
-  <elementRule role="共演者" type="string"/>
+  <elementRule role="accompaniment" type="string"/>
 
-  <tag name="曲目"/>
-  <elementRule role="曲目">
+  <tag name="program"/>
+  <elementRule role="program">
     <sequence>
-      <ref label="課題曲" occurs="?"/>
-      <ref label="自由曲" occurs="+"/>
+      <ref label="given-program" occurs="?"/>
+      <ref label="free-program" occurs="+"/>
     </sequence>
   </elementRule>
 
-  <tag name="賞"/>
-  <elementRule role="賞" type="string"/>
+  <tag name="prize"/>
+  <elementRule role="prize" type="NMTOKEN">
+    <enumeration value="gold"/>
+    <enumeration value="silver"/>
+    <enumeration value="blonze"/>
+    <enumeration value="sheed"/>
+  </elementRule>
 
-  <tag name="特別賞"/>
-  <elementRule role="特別賞" type="string"/>
+  <tag name="special-prize"/>
+  <elementRule role="special-prize" type="string"/>
 
-  <tag name="採点結果"/>
-  <elementRule role="採点結果">
+  <tag name="scores"/>
+  <elementRule role="scores">
     <sequence>
-      <ref label="採点" occurs="+"/>
-      <ref label="総合評価"/>
-      <ref label="採点備考"/>
+      <ref label="score" occurs="+"/>
+      <ref label="total-score"/>
+      <ref label="score-note"/>
     </sequence>
   </elementRule>
 
-  <tag name="採点">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="採点者" required="true" type="string"/>
+  <tag name="score">
+    <attribute name="referee" required="true" type="string"/>
   </tag>
-  <elementRule role="採点" type="string"/>
+  <elementRule role="score" type="string"/>
 
-  <tag name="総合評価"/>
-  <elementRule role="総合評価" type="string"/>
+  <tag name="total-score"/>
+  <elementRule role="total-score" type="string"/>
 
-  <tag name="採点備考"/>
-  <elementRule role="採点備考" type="string"/>
+  <tag name="score-note"/>
+  <elementRule role="score-note" type="string"/>
 
-  <tag name="団体備考"/>
-  <elementRule role="団体備考" type="string"/>
+  <tag name="choir-note"/>
+  <elementRule role="choir-note" type="string"/>
 
-  <tag name="課題曲">
-    <attribute name="xml:lang" type="string"/>
-    <attribute name="番号" required="true" type="NMTOKEN">
+  <tag name="given-program">
+    <attribute name="number" required="true" type="NMTOKEN">
       <enumeration value="G1"/>
       <enumeration value="G2"/>
       <enumeration value="G3"/>
@@ -232,14 +253,14 @@
       <enumeration value="F4"/>
     </attribute>
   </tag>
-  <elementRule role="課題曲">
+  <elementRule role="given-program">
     <empty/>
   </elementRule>
 
-  <tag name="自由曲"/>
-  <elementRule role="自由曲">
+  <tag name="free-program"/>
+  <elementRule role="free-program">
     <sequence>
-      <hedgeRef label="合唱曲"/>
+      <hedgeRef label="choir-piece"/>
     </sequence>
   </elementRule>
 

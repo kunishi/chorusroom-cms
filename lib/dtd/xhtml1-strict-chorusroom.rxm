@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE module SYSTEM "relaxCore.dtd">
+<!-- $Id: xhtml1-strict-chorusroom.rxm,v 1.1 2000/12/25 03:58:08 kunishi Exp $ -->
+<module relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+  <interface/>
+
+  <include moduleLocation="xhtml1-strict.rlx"/>
+  <include moduleLocation="iso-lat1.rlx"/>
+  <include moduleLocation="iso-lat2.rlx"/>
+  <include moduleLocation="iso-cyr1.rlx"/>
+  <include moduleLocation="iso-cyr2.rlx"/>
+  <include moduleLocation="roman-numeral.rlx"/>
+  <include moduleLocation="circled-number.rlx"/>
+
+</module>

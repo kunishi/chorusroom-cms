@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
-<!-- $Id: utf8-char.rxm,v 1.1 2000/12/24 03:00:14 kunishi Exp $ -->
+<!-- $Id: utf8-char.rxm,v 1.2 2000/12/25 03:58:07 kunishi Exp $ -->
 <module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface/>
+
+  <hedgeRule label="char-reference">
+    <ref label="utf8-char"/>
+  </hedgeRule>
 
   <tag name="utf8-char">
     <attribute name="codepoint" type="string"/>
