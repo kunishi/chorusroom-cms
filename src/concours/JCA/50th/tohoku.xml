@@ -1,17 +1,23 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title lang="en">50th AJCL Chorus Contest/Tohoku</title>
   </head>
   <body>
     <h1>第50回 全日本合唱コンクール東北支部大会</h1>
     <dl>
       <dt>日時</dt>
-      <dd>平成9年9月26日(金)〜28日(日)<br>
-	26日(金) 中学校の部(混声, 同声)<br>
-	27日(土) 高等学校の部(A, B)<br>
+      <dd>平成9年9月26日(金)〜28日(日)<br/>
+	26日(金) 中学校の部(混声, 同声)<br/>
+	27日(土) 高等学校の部(A, B)<br/>
 	28日(日) 大学の部・職場の部・一般の部(A, B)</dd>
       <dt>会場</dt>
       <dd>秋田県民会館</dd>
@@ -20,13 +26,12 @@
       <dt>情報提供者</dt>
       <dd>小野敏嗣さん(<tt> onot@rdma.rme.sony.co.jp</tt>)</dd>
     </dl>
-    <hr>
-    <h2><a href="tohoku-junior.html">中学校の部</a></h2>
-    <h2><a href="tohoku-senior.html">高等学校の部</a></h2>
-    <h2><a href="tohoku-other.html">大学・職場・一般の部</a></h2>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- hhmts start -->
-Last modified: Sat Jan  3 21:53:48 JST 1998
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <h2><a href="tohoku-junior.html" shape="rect">中学校の部</a></h2>
+    <h2><a href="tohoku-senior.html" shape="rect">高等学校の部</a></h2>
+    <h2><a href="tohoku-other.html" shape="rect">大学・職場・一般の部</a></h2>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/24 05:03:34 $
+  </body>
+</html>
