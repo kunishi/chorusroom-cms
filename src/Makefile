@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.31 2000/08/30 09:10:57 kunishi Exp $
+# $Id: Makefile,v 1.32 2000/08/30 09:21:17 kunishi Exp $
 #
 
 RELPATH=	.
@@ -59,7 +59,7 @@ upload:
 	rsync -Cavu --delete -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
-info-note2.html: %.html : %.xml ${XHTML10_XSL_ISO8859_1}
-	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_ASCII} > $@
+info-note2.html: %.html : %.xml ${XHTML10_XSL_UTF8}
+	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
