@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <html>
   <head>
-    <!-- $Id: kansai2.xml,v 1.9 1998/11/08 14:02:52 kunishi Exp $ -->
+    <!-- $Id: kansai2.xml,v 1.10 1998/11/20 06:46:04 kunishi Exp $ -->
     <title>51th AJCL Chorus Contest/General</title>
     <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
     <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <h1>第53回関西合唱コンクール(第51回全日本合唱コンクール関西支部大会) おかあさん・一般の部</h1>
+    <h1 class="ajclcontest">第53回関西合唱コンクール
+      (第51回全日本合唱コンクール関西支部大会) おかあさん・一般の部</h1>
     <dl>
       <dt>開催日</dt>
       <dd>1998年10月17日(土)……おかあさんの部</dd>
@@ -38,7 +39,7 @@
     </p>
     <hr>
     <h2>おかあさんの部Aグループ</h2>
-    <h3>金賞</h3>
+    <h3 class="gold">金賞</h3>
     <ul>
       <li>女声合唱団はづき (兵庫・女声31, 指揮: 岸信介, ピアノ: 絹田直子)
 	<ul>
@@ -55,7 +56,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銀賞</h3>
+    <h3 class="silver">銀賞</h3>
     <ul>
       <li>エコーきさらぎ (大阪・女声32, 指揮: 花井進, ピアノ: 谷口敦子)
 	<ul>
@@ -78,7 +79,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銅賞</h3>
+    <h3 class="blonze">銅賞</h3>
     <ul>
       <li>女声合唱団はな (京都・女声30, 指揮: 北村雅彦, ピアノ: 加藤崇子)
 	<ul>
@@ -124,7 +125,7 @@
     </ul>
     <hr>
     <h2>おかあさんの部Bグループ</h2>
-    <h3>金賞</h3>
+    <h3 class="gold">金賞</h3>
     <ul>
       <li>女声合唱 栗東カレンヂュラ (滋賀・女声50, 指揮: 伊藤光子)
 	<ul>
@@ -142,7 +143,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銀賞</h3>
+    <h3 class="silver">銀賞</h3>
     <ul>
       <li>女声アンサンブル・アトリエ (大阪・女声42, 指揮: 須賀敬一, 
 	ピアノ: 木島美紗子)
@@ -155,10 +156,10 @@
     </ul>
     <hr>
     <h2>一般の部Aグループ</h2>
-    <h3>金賞</h3>
+    <h3 class="gold">金賞</h3>
     <ul>
-      <li>◎創価学会関西男声合唱団 (大阪・男声32, 指揮: 金山顕博, 
-	ピアノ: 橋本尚)
+      <li><span class="win">◎</span>
+	創価学会関西男声合唱団 (大阪・男声32, 指揮: 金山顕博, ピアノ: 橋本尚)
 	<ul>
 	  <li>M4</li>
 	  <li>大岡信作詩・鈴木輝昭作曲/男声合唱とピアノのための組曲
@@ -197,7 +198,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銀賞</h3>
+    <h3 class="silver">銀賞</h3>
     <ul>
       <li>ヤング・リーヴズ (兵庫・女声12)
 	<ul>
@@ -222,7 +223,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銅賞</h3>
+    <h3 class="blonze">銅賞</h3>
     <ul>
       <li>混声合唱団 CADENZA (京都・混声23, 指揮: 池田貴宣・中村恭之)
 	<ul>
@@ -293,7 +294,8 @@
     <h2>一般の部Bグループ</h2>
     <h3>シード</h3>
     <ul>
-      <li>◎合唱団京都エコー (京都・混声85, 指揮: 浅井敬壹, 
+      <li><span class="win">◎</span>
+	合唱団京都エコー (京都・混声85, 指揮: 浅井敬壹, 
 	ピアノ: 久邇之宣・藤沢篤子)
 	<ul>
 	  <li>G2</li>
@@ -302,23 +304,26 @@
 	</ul>
       </li>
     </ul>
-    <h3>金賞</h3>
+    <h3 class="gold">金賞</h3>
     <ul>
-      <li>◎豊中混声合唱団 (大阪・混声64, 指揮: 西岡茂樹)
+      <li><span class="win">◎</span>
+	豊中混声合唱団 (大阪・混声64, 指揮: 西岡茂樹)
 	<ul>
 	  <li>G3</li>
 	  <li>谷川俊太郎作詩・三善晃作曲/混声合唱組曲「宇宙への手紙」から
 	    渇き</li>
 	</ul>
       </li>
-      <li>◎混声合唱団はもーるKOBE (兵庫・混声43, 指揮: 平田勝)
+      <li><span class="win">◎</span>
+	混声合唱団はもーるKOBE (兵庫・混声43, 指揮: 平田勝)
 	<ul>
 	  <li>G3</li>
 	  <li>P. Kostiainen 作曲/MISSA IN DEO SALUTARE MEUM から Kyrie;
 	    Sanctus</li>
 	</ul>
       </li>
-      <li>◎伊丹混声合唱団 (兵庫・混声45, 指揮: 清水有作)
+      <li><span class="win">◎</span>
+	伊丹混声合唱団 (兵庫・混声45, 指揮: 清水有作)
 	<ul>
 	  <li>G1</li>
 	  <li>J. Busto 作曲/Ave maris stella</li>
@@ -333,7 +338,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銀賞</h3>
+    <h3 class="silver">銀賞</h3>
     <ul>
       <li>男声合唱団 ARCHER (京都・男声33, 指揮: 北田尚, ピアノ: 伊吹元子)
 	<ul>
@@ -343,7 +348,7 @@
 	</ul>
       </li>
     </ul>
-    <h3>銅賞</h3>
+    <h3 class="blonze">銅賞</h3>
     <ul>
       <li>淀川混声合唱団 (大阪・混声39, 指揮: 伊東恵司)
 	<ul>
@@ -377,7 +382,7 @@
     <hr>
     <h2>採点表</h2>
     <h3>おかあさんの部Aグループ</h3>
-    <table>
+    <table class="ajclresult">
       <thead>
 	<tr>
 	  <th></th>
@@ -597,7 +602,7 @@
       </tbody>
     </table>
     <h3>おかあさんの部Bグループ</h3>
-    <table>
+    <table class="ajclresult">
       <thead>
 	<tr>
 	  <th></th>
@@ -680,7 +685,7 @@
       </tbody>
     </table>
     <h3>一般の部Aグループ</h3>
-    <table>
+    <table class="ajclresult">
       <thead>
 	<tr>
 	  <th></th>
@@ -961,7 +966,7 @@
       </tbody>
     </table>
     <h3>一般の部Bグループ</h3>
-    <table>
+    <table class="ajclresult">
       <thead>
 	<tr>
 	  <th></th>
@@ -1101,7 +1106,7 @@
     <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
 <!-- Created: Mon Oct 19 10:52:24 JST 1998 -->
 <!-- hhmts start -->
-Last modified: Sun Nov  8 23:02:32 JST 1998
+Last modified: Fri Nov 20 15:45:55 JST 1998
 <!-- hhmts end -->
   </body>
 </html>
