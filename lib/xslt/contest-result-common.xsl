@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.12 2001/04/02 06:49:01 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.13 2001/08/30 11:44:10 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -282,6 +282,11 @@
       <h3>シード団体</h3>
       <ul>
         <xsl:for-each select="$seed-choir-list">
+          <xsl:if test="not(cr:prize/text()='シード')">
+            <xsl:message>
+              Prize mismatch at <xsl:value-of select="cr:choir-name"/>.
+            </xsl:message>
+          </xsl:if>
           <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
@@ -294,6 +299,11 @@
       <h3>金賞</h3>
       <ul>
         <xsl:for-each select="$gold-choir-list">
+          <xsl:if test="not(cr:prize/text()='金賞')">
+            <xsl:message>
+              Prize mismatch at <xsl:value-of select="cr:choir-name"/>.
+            </xsl:message>
+          </xsl:if>
           <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
@@ -306,6 +316,11 @@
       <h3>銀賞</h3>
       <ul>
         <xsl:for-each select="$silver-choir-list">
+          <xsl:if test="not(cr:prize/text()='銀賞')">
+            <xsl:message>
+              Prize mismatch at <xsl:value-of select="cr:choir-name"/>.
+            </xsl:message>
+          </xsl:if>
           <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
@@ -318,6 +333,11 @@
       <h3>銅賞</h3>
       <ul>
         <xsl:for-each select="$blonze-choir-list">
+          <xsl:if test="not(cr:prize/text()='銅賞')">
+            <xsl:message>
+              Prize mismatch at <xsl:value-of select="cr:choir-name"/>.
+            </xsl:message>
+          </xsl:if>
           <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
@@ -332,6 +352,11 @@
       </xsl:if>
       <ul>
         <xsl:for-each select="$other-choir-list">
+          <xsl:if test="not(cr:prize/text()='')">
+            <xsl:message>
+              Prize mismatch at <xsl:value-of select="cr:choir-name"/>.
+            </xsl:message>
+          </xsl:if>
           <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
