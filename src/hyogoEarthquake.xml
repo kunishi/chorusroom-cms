@@ -9,6 +9,9 @@
     <title xml:lang="en">Damages to Kansai Music Halls by the Hyogo South Earthquake</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>兵庫県南部地震による関西地区音楽ホールの被害状況</h1>
@@ -74,7 +77,9 @@
     <hr/>
     <a href="%%TOPDIR%%/" shape="rect">「合唱の部屋」ホームページ</a>へ
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Id: hyogoEarthquake.xml,v 1.7 2000/08/26 02:15:48 kunishi Exp $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.8 $ $Date: 2000/08/29 10:08:51 $ GMT</p>
+    </div>
   </body>
 </html>

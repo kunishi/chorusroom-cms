@@ -8,6 +8,9 @@
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title xml:lang="en">Chorus Room: Notes for Information Providers</title>
   </head>
   <body>
@@ -90,7 +93,9 @@
       頂ければ、HTML 編集時に正しい記法にこちらで直させて頂きます。
     </p>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a>&lt;&kunishi-email;&gt;</address>
-    $Id: info-note.xml,v 1.8 2000/08/26 02:15:48 kunishi Exp $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a>&lt;&kunishi-email;&gt;</address>
+      <p>$Revision: 1.9 $ $Date: 2000/08/29 10:08:51 $ GMT</p>
+    </div>
   </body>
 </html>

@@ -8,6 +8,9 @@
   <head>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>AJCL All Japan Junior Chorus Festival '97</title>
   </head>
   <body>
@@ -63,7 +66,9 @@
       <li>神奈川県・小田原少年少女合唱隊……あおぞら賞</li>
     </ol>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:15:49 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.7 $ $Date: 2000/08/29 10:08:52 $ GMT</p>
+    </div>
   </body>
 </html>

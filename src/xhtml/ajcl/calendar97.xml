@@ -7,6 +7,9 @@
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>AJCL Calendar 1997</title>
   </head>
   <body>
@@ -133,7 +136,9 @@
     [ <a href="./" shape="rect">全日本合唱連盟関係のページ</a> ]
     [ <a href="%%TOPDIR%%/" shape="rect">「合唱の部屋」ホームページ</a> ]
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:15:49 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.7 $ $Date: 2000/08/29 10:08:51 $ GMT</p>
+    </div>
   </body>
 </html>

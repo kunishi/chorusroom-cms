@@ -9,6 +9,9 @@
     <title>Chorus CD Shop</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>合唱のCDを手に入れるには?</h1>
@@ -105,7 +108,9 @@
     <hr/>
     <a href="%%TOPDIR%%/" shape="rect">「合唱の部屋」ホームページ</a>へ
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:15:47 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.8 $ $Date: 2000/08/29 10:08:50 $ GMT</p>
+    </div>
   </body>
 </html>
