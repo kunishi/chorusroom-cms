@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result.src.xsl,v 1.5 2002/10/16 17:36:44 kunishi Exp $ -->
+<!-- $Id: contest-result.src.xsl,v 1.6 2002/12/01 16:46:29 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -473,8 +473,11 @@
   </xsl:template>
 
   <xsl:template name="choir-attr-list">
-    <xsl:if test="@representative='true' or @seed='true'">
+    <xsl:if test="@representative='true'">
       <xsl:text> [代表] </xsl:text>
+    </xsl:if>
+    <xsl:if test="@seed='true'">
+      <xsl:text> [シード団体] </xsl:text>
     </xsl:if>
   </xsl:template>
 
