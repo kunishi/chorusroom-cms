@@ -8,6 +8,9 @@
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>47th All Japan Chorus Contest Results</title>
   </head>
   <body>
@@ -159,7 +162,9 @@
       <dd>宮崎コール・フロイント</dd>
     </dl>
     <hr/>
-    <address>&kunishi-signature; <a href="mailto:&kunishi-email;" shape="rect">&lt;&kunishi-email;&gt;</a></address>
-    $Date: 2000/08/26 02:15:50 $
+    <div class="footer">
+      <address>&kunishi-signature; <a href="mailto:&kunishi-email;" shape="rect">&lt;&kunishi-email;&gt;</a></address>
+      <p>$Date: 2000/09/05 10:40:26 $ GMT</p>
+    </div>
   </body>
 </html>
