@@ -26,6 +26,7 @@
   </xsl:template>
   
   <xsl:template name="footer">
+    <xml:element name="hr">
     <address><a href="mailto:kunishi@c.oka-pu.ac.jp">国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</a></address>
     <p>この文書は<xsl:value-of select="/大会/CVSID"/>から自動的に生成されました。</p>
   </xsl:template>
