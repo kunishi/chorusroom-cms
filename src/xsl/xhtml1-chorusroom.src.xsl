@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.6 2001/02/06 02:30:00 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.7 2001/02/06 05:14:32 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -42,7 +42,8 @@
 
   <xsl:template match="*">
     <xsl:element name="{name(.)}">
-      <xsl:apply-templates select="node()|@*"/>
+      <xsl:apply-templates select="@*[not(name(.)='xmlns:*')]"/>
+      <xsl:apply-templates select="node()"/>
     </xsl:element>
   </xsl:template>
 
