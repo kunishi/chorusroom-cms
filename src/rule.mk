@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.5 1999/08/22 15:53:11 kunishi Exp $
+# $Id: rule.mk,v 1.6 1999/08/22 16:39:06 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html
@@ -24,8 +24,10 @@ install:	install-subdir
 install-subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
-	  if ! test -d $${dir} && mkdir -p $${dir}; \
-	  (cd $${dir} && ${MAKE} install) \
+	  if ! test -d $${dir}; then \
+	    mkdir -p $${dir}; \
+	  fi; \
+	  (cd $${dir} && ${MAKE} install); \
 	done
 endif
 
