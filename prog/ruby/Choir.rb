@@ -12,13 +12,13 @@ class Choir
     file = File.new(f)
     @doc = REXML::Document.new file
     root = @doc.root
-    root.elements.each("urn") { |e| @urn = e.text }
-    root.elements.each("name") { |e| @name = e.text }
-    root.elements.each("url") { |e| @url = e.text }
-    root.elements.each("prefecture") { |e| @pref = e.text }
-    root.elements.each("choir-type") { |e| @type = e.text }
-    root.elements.each("kind") { |e| @kind = e.text }
-    root.elements.each("comment") { |e| @comment = e.text }
+    root.elements.each("c:urn or urn") { |e| @urn = e.text }
+    root.elements.each("c:name or name") { |e| @name = e.text }
+    root.elements.each("c:url or url") { |e| @url = e.text }
+    root.elements.each("c:prefecture or prefecture") { |e| @pref = e.text }
+    root.elements.each("c:choir-type or choir-type") { |e| @type = e.text }
+    root.elements.each("c:kind or kind") { |e| @kind = e.text }
+    root.elements.each("c:comment or comment") { |e| @comment = e.text }
     genUrn
     @doc
   end
@@ -27,8 +27,9 @@ class Choir
     if @urn == nil
       @urn = ChoirId.generate(@kind)
     end
-    if @doc.root.elements["urn"].text == nil
-      @doc.root.elements["urn"].text = @urn
+    node = @doc.root.elements["c:urn or urn"]
+    if node.text == nil
+      node.text = @urn
     end
     @urn
   end

@@ -23,7 +23,7 @@ class ChoirTable
     tuple =
       [c.urn, c.name, c.url, Pref.name(c.pref), c.type, 
       c.kind, c.comment].map { |v|
-        sprintf("'%s'", Mysql.quote(v))
+        sprintf("'%s'", (v != nil ? Mysql.quote(v): ""))
       }.join(",")
     if ((ans = get(c.urn)).num_rows() == 0)
       tuple += sprintf(",'%s'", Time.new().strftime("%Y%m%d%H%M%S"))
@@ -39,7 +39,7 @@ class ChoirTable
   def list
     ans = @db.query('SELECT * FROM ' + TABLE + ';')
     ans.each_hash { |t|
-      puts t['url']
+      puts t['name']
     }
   end
 
@@ -58,7 +58,12 @@ class ChoirTable
 end
 
 ct = ChoirTable.create('localhost', 'root', 'chorusroom2706')
-c = Choir.new(ARGV[0])
-ct.update(c)
-ct.list
+
+ARGV.each {
+  |entry|
+  c = Choir.new(entry)
+  ct.update(c)
+  puts "register " + c.name
+}
+# ct.list
 ct.db().close
