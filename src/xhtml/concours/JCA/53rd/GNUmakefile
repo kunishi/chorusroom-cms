@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.62 2000/11/30 17:14:30 kunishi Exp $
+# $Id: GNUmakefile,v 1.63 2000/12/01 10:30:38 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -60,6 +60,7 @@ INSTFILES_HTML_SAITEN+=	kansai-highschool-saiten.html \
 			kansai-general-saiten.html \
 			kansai-univ-company-saiten.html
 INSTFILES_HTML_SAITEN+=	mie-saiten.html
+INSTFILES_HTML_SAITEN+=	nagano-saiten.html
 
 INSTFILES_NOBUILD+=	hyogo.xml
 
@@ -78,7 +79,8 @@ RESULT_XSL_COMMON=	${XSLDIR}/jca-result-2000-common.xsl
 DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
-CSSFILE=		jca-concour.css
+CSSFILE=	jca-concour.css
+XSLT_OUT=	-param "output-base" "'$(basename $@)'"
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
@@ -104,9 +106,6 @@ index.html:	CSSFILE=default.css
 
 index.utfhtml:	DEFAULT_XSL_UTF8=${XHTML10_XSL_UTF8}
 index.utfhtml:	CSSFILE=default.css
-
-${REDIRECT_HTML}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
-${REDIRECT_HTML:%.html=%.utfhtml}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
 
 ${HIGHSCHOOL_HTML:%.html=%.xml}: highschool.xml
 	${LN_S} $< $@
