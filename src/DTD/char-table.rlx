@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- $Id: char-table.rlx,v 1.3 2000/12/11 16:59:01 kunishi Exp $ -->
+<!-- $Id: char-table.rlx,v 1.4 2000/12/11 17:02:29 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
@@ -20,6 +20,6 @@
     <attribute name="description" type="string"/>
     <attribute name="alternative" type="string"/>
   </tag>
-  <elementRule role="character"/>
+  <elementRule role="character" type="emptyString"/>
 
 </module>
