@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
-		xmlns="http://www.w3.org/TR/REC-html40"
+		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefix="xt">
   <xsl:variable name="output-encoding">iso-2022-jp</xsl:variable>
   <xsl:variable name="suffix">.html</xsl:variable>
