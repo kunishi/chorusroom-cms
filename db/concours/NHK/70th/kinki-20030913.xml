@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<competition xmlns="http://www.chorusroom.org/xml"
+	     xml:lang="ja">
+  <competition-name>平成15年度(第70回)NHK全国学校音楽コンクール 近畿ブロックコンクール</competition-name>
+  <result output="kinki-20030913">
+    <date day-of-week="sat">2003-09-13</date>
+    <hall>NHK大阪ホール</hall>
+    <referee job="全日本音楽教育研究会常任理事・千葉大学名誉教授" shortname="山本">山本敬</referee>
+    <referee job="東京音楽大学専任講師" shortname="小山">小山昌治</referee>
+    <referee job="全日本合唱連盟理事" shortname="松浦">松浦周吉</referee>
+    <referee job="声楽家" shortname="飯沼">飯沼京子</referee>
+    <referee job="NHK大阪放送局文化部チーフプロデューサー" shortname="福田">福田哲夫</referee>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>岸和田市立久米田中学校</choir-name>
+	<prefecture>大阪府</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor grade="3">西野麻耶</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <piano grade="2">池田早希</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:words-by>工藤直子</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための組曲</p:titlePrefix>
+		<p:mainTitle>あいたくて</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>あいたくて</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>田辺市立東陽中学校</choir-name>
+	<prefecture>和歌山県</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>西本記子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:words-by>Mikka Waltari</p:words-by>
+	      <p:composed-by>Jukka Kankainen</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための</p:titlePrefix>
+		<p:mainTitle>ミッカ・ワルタリの詩による組曲</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>鷹がとぶよ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夕ぐれ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false" playing-order="3">
+	<choir-name>武庫川女子大学附属中学校</choir-name>
+	<prefecture>兵庫県</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>山口英樹</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <piano>市原理絵</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>Zoltán Kodály</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>詩篇第150番</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Daemon Irrepit Callidus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>聖母学院中学校</choir-name>
+	<prefecture>京都府</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>橋本利嗣</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <piano>堀田紗礼</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>道之島唄</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>海ぬ笹草</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>神戸市立長峰中学校</choir-name>
+	<prefecture>兵庫県</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>森瀬智子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <piano grade="2">佐藤彩子</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:words-by>Viili Luik</p:words-by>
+	      <p:composed-by>Veljo Tormis</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sügismaastikud</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>秋の風景</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夏の終わり</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>5.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>荒野を駆ける風</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>7.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ヒース</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="6">
+	<choir-name>大阪府立白鷺中学校</choir-name>
+	<prefecture>大阪府</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>沢村智美</conductor>
+	<piano>加藤崇子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mundi renovatio</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass No.6</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="7">
+	<choir-name>日野町立日野中学校</choir-name>
+	<prefecture>滋賀県</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>大前てるみ</conductor>
+	<piano grade="2">中西麻菜</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声三部合唱組曲</p:titlePrefix>
+		<p:mainTitle>遥かな時の彼方へと</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>この愛を &#x2161;</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="8">
+	<choir-name>下市町立下市中学校</choir-name>
+	<prefecture>奈良県</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>大谷一仁</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>南島歌遊び</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>その1</p:piece-number>
+		<p:suite>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>版画</p:mainTitle>
+		  </p:title>
+		  <p:suite-piece>
+		    <p:piece>
+		      <p:title original="true" xml:lang="ja">
+			<p:mainTitle>朝の祈り</p:mainTitle>
+		      </p:title>
+		    </p:piece>
+		  </p:suite-piece>
+		  <p:suite-piece>
+		    <p:piece>
+		      <p:title original="true" xml:lang="ja">
+			<p:mainTitle>収穫</p:mainTitle>
+		      </p:title>
+		    </p:piece>
+		  </p:suite-piece>
+		  <p:suite-piece>
+		    <p:piece>
+		      <p:title original="true" xml:lang="ja">
+			<p:mainTitle>陽気な娘たち</p:mainTitle>
+		      </p:title>
+		    </p:piece>
+		  </p:suite-piece>
+		</p:suite>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="9">
+	<choir-name>綾部町立綾部中学校</choir-name>
+	<prefecture>京都府</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>徳島早与合</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <piano>村尾さつき</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:piece xmlns:p="http://www.chorusroom.org/piece">
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="10">
+	<choir-name>香芝市立香芝東中学校</choir-name>
+	<prefecture>奈良県</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>佐竹智津子</conductor>
+	<piano>瓜生祥子</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms-70th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite xmlns:p="http://www.chorusroom.org/piece">
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>宇宙の果物</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>宇宙の果物</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>

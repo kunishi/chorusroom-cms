@@ -1,0 +1,87 @@
+default namespace = "http://www.chorusroom.org/piece"
+
+start = (piece | suite)
+
+piece =
+  element piece {
+    originated-from?,
+    words-by?,
+    translated-by?,
+    composed-by?,
+    arranged-by?,
+    title+,
+    piece-note?
+  }
+
+suite =
+  element suite {
+    originated-from?,
+    words-by?,
+    translated-by?,
+    composed-by?,
+    arranged-by?,
+    title+,
+    element suite-piece {
+      (element piece-number {
+         mixed { utf8-char* }
+       }
+       | piece
+       | suite)+
+    }+,
+    piece-note?
+  }
+
+# \string = xsd:string
+
+title =
+  element title {
+    attribute original { xsd:string "true" | xsd:string "false" }?,
+    attribute xml:lang { xsd:language }?,
+    element titlePrefix {
+      mixed { utf8-char* }
+    }?,
+    element mainTitle {
+      mixed { utf8-char* }
+    },
+    element titleSuffix {
+      mixed { utf8-char* }
+    }?
+  }
+
+originated-from =
+  element originated-from {
+    attribute xml:lang { xsd:language }?,
+    mixed { utf8-char* }
+  }
+
+words-by =
+  element words-by {
+    attribute xml:lang { xsd:language }?,
+    attribute kind { xsd:string }?,
+    mixed { utf8-char* }
+  }
+
+arranged-by =
+  element arranged-by {
+    attribute xml:lang { xsd:language }?,
+    mixed { utf8-char* }
+  }
+
+composed-by =
+  element composed-by {
+    attribute xml:lang { xsd:language }?,
+    mixed { utf8-char* }
+  }
+
+translated-by =
+  element translated-by {
+    attribute xml:lang { xsd:language }?,
+    mixed { utf8-char* }
+  }
+
+piece-note =
+  element piece-note {
+    mixed { utf8-char* }
+  }
+
+utf8-char = external "utf8-char.rnc"
