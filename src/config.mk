@@ -1,8 +1,9 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.6 1999/08/29 03:16:55 kunishi Exp $
+# $Id: config.mk,v 1.7 1999/09/09 10:02:37 kunishi Exp $
 #
 
 XSLT_PROC=	java \
+		-Djava.compiler=tya \
 		-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser \
 		com.jclark.xsl.sax.Driver
 UTF2ASCII=	hutrans
