@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.36 1999/10/17 16:36:25 kunishi Exp $
+# $Id: Makefile,v 1.37 1999/10/26 14:53:28 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -27,6 +27,7 @@ INSTFILES+=	kansai-09-23.html kansai-09-23.utfhtml
 INSTFILES+=	kansai-09-23-saiten.html kansai-09-23-saiten.utfhtml
 INSTFILES+=	kansai-10-17.html kansai-10-17.utfhtml \
 		kansai-10-17-saiten.html kansai-10-17-saiten.utfhtml
+INSTFILES+=	kansai-10-24.html kansai-10-24.utfhtml
 INSTFILES+=	kanto.html kanto.utfhtml \
 		kanto-saiten.html kanto-saiten.utfhtml
 INSTFILES+=	kyushu.html kyushu.utfhtml
