@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:choir xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
+<c:choir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.chorusroom.org/choir file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/choir-full.xsd"
+    xmlns:cr="http://www.chorusroom.org/character" xmlns:c="http://www.chorusroom.org/choir" moduleVersion="1.0">
     <c:urn>CG20000001003C</c:urn>
-    <c:name>合唱団 Foresta</c:name>
+    <c:name yomi="がっしょうだんForesta">合唱団 Foresta</c:name>
     <c:url>http://www.concertijp.com/foresta/</c:url>
     <c:prefecture>北海道</c:prefecture>
     <c:kind>general</c:kind>
     <c:comment>主にアカペラ宗教曲を歌う、少人数のアンサンブルです。掲示版は全国各地の合唱愛好者の交流の場を目指しています。</c:comment>
-  </c:choir>
+</c:choir>

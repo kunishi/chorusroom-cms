@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:choir xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
+<c:choir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.chorusroom.org/choir file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/choir-full.xsd"
+    xmlns:cr="http://www.chorusroom.org/character" xmlns:c="http://www.chorusroom.org/choir" moduleVersion="1.0">
     <c:urn>CG200000010076</c:urn>
-    <c:name>日本・イタリア合唱交流使節団</c:name>
+    <c:name yomi="にほんいたりあがっしょうこうりゅうしせつだん">日本・イタリア合唱交流使節団</c:name>
     <c:url>http://inchor.ncjoho.co.jp/</c:url>
     <c:prefecture>北海道</c:prefecture>
     <c:kind>general</c:kind>
     <c:comment>ヴェルディの１００回目の命日にあたる２００１年１月２７日。私たちはヴェルディ生誕の地ブッセートで開かれる記念演奏会に招待され、彼の遺作である「聖歌四篇」を歌います。また、それに先立つ１月２４日にバチカンのサン・ピエトロ寺院でローマ法王（ヨハネ・パウロ2世）の前での御前演奏を行います。あなたも参加してみませんか？</c:comment>
-  </c:choir>
+</c:choir>

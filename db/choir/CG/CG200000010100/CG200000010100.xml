@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:choir xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
+<c:choir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.chorusroom.org/choir file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/choir-full.xsd"
+    xmlns:cr="http://www.chorusroom.org/character" xmlns:c="http://www.chorusroom.org/choir" moduleVersion="1.0">
     <c:urn>CG200000010100</c:urn>
-    <c:name>奏愛会合唱団</c:name>
+    <c:name yomi="そうあいかいがっしょうだん">奏愛会合唱団</c:name>
     <c:url>http://sendai.cool.ne.jp/gold3/</c:url>
     <c:prefecture>宮城県</c:prefecture>
     <c:kind>general</c:kind>
     <c:comment/>
-  </c:choir>
+</c:choir>

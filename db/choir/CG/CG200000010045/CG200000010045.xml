@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:choir xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
+<c:choir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.chorusroom.org/choir file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/choir-full.xsd"
+    xmlns:cr="http://www.chorusroom.org/character" xmlns:c="http://www.chorusroom.org/choir" moduleVersion="1.0">
     <c:urn>CG200000010045</c:urn>
-    <c:name>北見男声合唱団</c:name>
+    <c:name yomi="きたみだんせいがっしょうだん">北見男声合唱団</c:name>
     <c:url>http://www01.u-page.so-net.ne.jp/ba2/gappa/kitamidansei</c:url>
     <c:prefecture>北海道</c:prefecture>
     <c:kind>general</c:kind>
     <c:comment/>
-  </c:choir>
+</c:choir>

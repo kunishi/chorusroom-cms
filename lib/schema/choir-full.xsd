@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.chorusroom.org/choir" xmlns:ns1="http://www.chorusroom.org/character" xmlns:choir="http://www.chorusroom.org/choir">
+  <xs:import namespace="http://www.chorusroom.org/character" schemaLocation="ns1rnc"/>
+  <xs:element name="choir">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choir:include"/>
+        <xs:element ref="choir:urn"/>
+        <xs:element ref="choir:name"/>
+        <xs:element ref="choir:url"/>
+        <xs:element ref="choir:prefecture"/>
+        <xs:element minOccurs="0" ref="choir:choir-type"/>
+        <xs:element ref="choir:kind"/>
+        <xs:element minOccurs="0" ref="choir:comment"/>
+        <xs:element minOccurs="0" ref="choir:contact"/>
+        <xs:element minOccurs="0" ref="choir:created"/>
+        <xs:element minOccurs="0" ref="choir:modified"/>
+      </xs:sequence>
+      <xs:attribute name="moduleVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="1.0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="include">
+    <xs:complexType>
+      <xs:attribute name="href" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="urn" type="xs:string"/>
+  <xs:element name="choir-type">
+    <xs:simpleType>
+      <xs:restriction base="xs:NMTOKEN">
+        <xs:enumeration value="same-voice"/>
+        <xs:enumeration value="female"/>
+        <xs:enumeration value="male"/>
+        <xs:enumeration value="children"/>
+        <xs:enumeration value="mixed"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="kind">
+    <xs:simpleType>
+      <xs:restriction base="xs:NMTOKEN">
+        <xs:enumeration value="univ"/>
+        <xs:enumeration value="junior-highschool"/>
+        <xs:enumeration value="senior-highschool"/>
+        <xs:enumeration value="highschool"/>
+        <xs:enumeration value="general"/>
+        <xs:enumeration value="children"/>
+        <xs:enumeration value="company"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="comment">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:utf8-char"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="choir:name"/>
+        <xs:element ref="choir:email"/>
+        <xs:element minOccurs="0" ref="choir:url"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="created" type="xs:date"/>
+  <xs:element name="modified" type="xs:date"/>
+  <xs:element name="name">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:utf8-char"/>
+      </xs:sequence>
+      <xs:attribute name="yomi" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="url" type="xs:anyURI"/>
+  <xs:element name="prefecture">
+    <xs:simpleType>
+      <xs:restriction base="xs:NMTOKEN">
+        <xs:enumeration value="北海道"/>
+        <xs:enumeration value="青森県"/>
+        <xs:enumeration value="秋田県"/>
+        <xs:enumeration value="岩手県"/>
+        <xs:enumeration value="山形県"/>
+        <xs:enumeration value="宮城県"/>
+        <xs:enumeration value="福島県"/>
+        <xs:enumeration value="茨城県"/>
+        <xs:enumeration value="千葉県"/>
+        <xs:enumeration value="栃木県"/>
+        <xs:enumeration value="群馬県"/>
+        <xs:enumeration value="埼玉県"/>
+        <xs:enumeration value="東京都"/>
+        <xs:enumeration value="神奈川県"/>
+        <xs:enumeration value="山梨県"/>
+        <xs:enumeration value="新潟県"/>
+        <xs:enumeration value="富山県"/>
+        <xs:enumeration value="石川県"/>
+        <xs:enumeration value="福井県"/>
+        <xs:enumeration value="長野県"/>
+        <xs:enumeration value="岐阜県"/>
+        <xs:enumeration value="静岡県"/>
+        <xs:enumeration value="愛知県"/>
+        <xs:enumeration value="三重県"/>
+        <xs:enumeration value="滋賀県"/>
+        <xs:enumeration value="京都府"/>
+        <xs:enumeration value="大阪府"/>
+        <xs:enumeration value="兵庫県"/>
+        <xs:enumeration value="奈良県"/>
+        <xs:enumeration value="和歌山県"/>
+        <xs:enumeration value="鳥取県"/>
+        <xs:enumeration value="島根県"/>
+        <xs:enumeration value="岡山県"/>
+        <xs:enumeration value="広島県"/>
+        <xs:enumeration value="山口県"/>
+        <xs:enumeration value="香川県"/>
+        <xs:enumeration value="愛媛県"/>
+        <xs:enumeration value="徳島県"/>
+        <xs:enumeration value="高知県"/>
+        <xs:enumeration value="福岡県"/>
+        <xs:enumeration value="佐賀県"/>
+        <xs:enumeration value="長崎県"/>
+        <xs:enumeration value="大分県"/>
+        <xs:enumeration value="熊本県"/>
+        <xs:enumeration value="宮崎県"/>
+        <xs:enumeration value="鹿児島県"/>
+        <xs:enumeration value="沖縄県"/>
+        <xs:enumeration value="海外"/>
+        <xs:enumeration value="その他"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+</xs:schema>

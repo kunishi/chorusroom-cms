@@ -35,7 +35,9 @@ choir =
          name?,
          element email { xsd:string },
          url?
-      }?
+      }?,
+      element created { xsd:date }?,
+      element modified { xsd:date }?
    }
 name =
    element name {

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:choir xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
-<c:urn>CC200000010066</c:urn>
-<c:name>東芝フィルハーモニー合唱団</c:name>
-<c:url>http://www2.toshiba.co.jp/group/tpc/</c:url>
-<c:prefecture>神奈川県</c:prefecture>
-<c:kind>company</c:kind>
-<c:comment/>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/choir.rnc" type="compact"?>
+<c:choir moduleVersion="1.0" xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
+    <c:urn>CC200000010066</c:urn>
+    <c:name yomi="とうしばふぃるはーもにーがっしょうだん">東芝フィルハーモニー合唱団</c:name>
+    <c:url>http://www2.toshiba.co.jp/group/tpc/</c:url>
+    <c:prefecture>神奈川県</c:prefecture>
+    <c:kind>company</c:kind>
+    <c:comment/>
 </c:choir>

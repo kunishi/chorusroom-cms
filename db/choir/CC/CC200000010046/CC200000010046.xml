@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:choir xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
-<c:urn>CC200000010046</c:urn>
-<c:name>ソニー混声合唱団</c:name>
-<c:url>http://ux01.so-net.ne.jp/~tabuchi/</c:url>
-<c:prefecture>東京都</c:prefecture>
-<c:kind>company</c:kind>
-<c:comment/>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/choir.rnc" type="compact"?>
+<c:choir moduleVersion="1.0" xmlns:c="http://www.chorusroom.org/choir" xmlns:cr="http://www.chorusroom.org/character">
+    <c:urn>CC200000010046</c:urn>
+    <c:name yomi="そにーこんせいがっしょうだん">ソニー混声合唱団</c:name>
+    <c:url>http://ux01.so-net.ne.jp/~tabuchi/</c:url>
+    <c:prefecture>東京都</c:prefecture>
+    <c:kind>company</c:kind>
+    <c:comment/>
 </c:choir>
