@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.55 2001/09/21 06:27:27 kunishi Exp $
+# $Id: config.mk,v 1.56 2001/10/03 05:15:44 kunishi Exp $
 #
 
 PUBLIC_SERVER=	chorusroom.c.oka-pu.ac.jp
@@ -56,7 +56,7 @@ NAMAZU_SRC=	/usr/local/libexec/namazu.cgi
 NAMAZU_INSTDIR=	/usr/local/www/cgi-bin/
 GCNMZ=		/usr/local/bin/gcnmz
 endif
-NAMAZU_INDEX_DIR=	/usr/local/var/namazu/index/
+NAMAZU_INDEX_DIR=	/home/www/namazu/index/
 
 DEFAULT_CSS=	default.css
 DEFAULT_BGIMG=	background.png
