@@ -75,7 +75,7 @@
 	<a href="/links/Choir/">合唱団リンク</a>
 	<a href="/links/">リンク</a>
       </p>
-      <p>
+      <p class="notice">
 	If you see full of funny characters, try the latest versions
 	of your WWW browsers, or the ones which support UTF-8
 	(ex. Internet Explorer, Netscape 7).

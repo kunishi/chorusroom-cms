@@ -19,10 +19,10 @@ div.logo a img { border: none; }
 
 /* banner */
 div.banner { position: absolute;
-             width: auto;
+             width: 30em;
              height: 5em; 
              overflow: auto; 
-             top: 0em; right: 0em; bottom: auto; left: 0em;
+             top: 0em; right: 0em; bottom: auto; left: auto;
              margin: 0em 14em 0em 8em;
              padding: 1em 1em 1em 2em; 
              line-height: 1.2;
@@ -30,6 +30,9 @@ div.banner { position: absolute;
 div.banner p { font-size: 0.9em;
                margin: 0 0 0.3em 0; 
                text-align: right; }
+div.banner p.notice { font-size: 0.7em;
+                      margin: 0.3em 0 0 5em; 
+                      text-align: right; }
 
 /* map */
 div.map { position: absolute;
