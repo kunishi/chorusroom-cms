@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.7 2001/03/03 04:09:05 kunishi Exp $
+# $Id: GNUmakefile,v 1.8 2001/04/02 06:59:19 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -17,11 +17,9 @@ INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
 
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/contest-result-generic.traditional.xsl
 ${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
-${INSTFILES_TRADITIONAL}: XSLT_OUT=-out /dev/null
 
 ${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/contest-result-generic.utf8.xsl
 ${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
-${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 include config.mk
 include rule.mk
