@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.16 1999/08/31 14:45:43 kunishi Exp $
+# $Id: GNUmakefile,v 1.17 1999/09/01 15:55:02 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -19,6 +19,7 @@ INSTFILES+=	fukushima.html
 INSTFILES+=	hyogo.html
 INSTFILES+=	kagoshima.html
 INSTFILES+=	miyagi.html
+INSTFILES+=	yamagata.html
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
@@ -45,4 +46,7 @@ kagoshima.html: %.html : %.xml ${RESULT_XSL}
 	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
 
 miyagi.html: %.html : %.xml ${RESULT_XSL}
+	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
+
+yamagata.html: %.html : %.xml ${RESULT_XSL}
 	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
