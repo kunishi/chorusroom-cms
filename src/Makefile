@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.23 2000/01/01 14:38:33 kunishi Exp $
+# $Id: Makefile,v 1.24 2000/01/24 01:59:09 kunishi Exp $
 #
 
 RELPATH=	.
@@ -58,7 +58,7 @@ index:
 	cd ${NAMAZU_INDEX_DIR} && mknmz "" "${INSTTOPDIR}"
 
 sync-upload:
-	rsync -Cavuz --delete -e ssh --exclude="search.cgi" \
+	rsync -Cavu --delete -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_ISO8859_1}
