@@ -2,7 +2,7 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.34 2000/08/23 04:07:48 kunishi Exp $
+  $Id: result-2000.dtd,v 1.35 2000/08/25 08:31:34 kunishi Exp $
   -->
 
 <![%utfdoc;[
@@ -12,18 +12,23 @@
 <!ENTITY % HTMLspecial PUBLIC
    "-//W3C//ENTITIES Special for XHTML//EN//HTML"
    "http://localhost/DTD/xhtml/1.0/xhtml-special.ent">
-<!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local.ent">
+<!ENTITY % SpecialCharacterEnts SYSTEM
+   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/special-local.ent">
 ]]>
 <![%ascdoc;[
-<!ENTITY % HTMLlat1 SYSTEM "../../latin1-iso2022jp.ent">
-<!ENTITY % HTMLspecial SYSTEM "../../special-iso2022jp.ent">
-<!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local-ascii.ent">
+<!ENTITY % HTMLlat1 SYSTEM
+   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/latin1-iso2022jp.ent">
+<!ENTITY % HTMLspecial SYSTEM
+   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/special-iso2022jp.ent">
+<!ENTITY % SpecialCharacterEnts SYSTEM
+   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/special-local-ascii.ent">
 ]]>
 %HTMLlat1;
 %HTMLspecial;
 %SpecialCharacterEnts;
 
-<!ENTITY % global-ent SYSTEM "../../global.ent">
+<!ENTITY % global-ent SYSTEM
+   "file://home/kunishi/cvs/xml/www/chorusRoom/DTD/global.ent">
 %global-ent;
 
 <!ENTITY % LanguageCode "CDATA">
