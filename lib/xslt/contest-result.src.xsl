@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result.src.xsl,v 1.2 2002/06/20 05:47:32 kunishi Exp $ -->
+<!-- $Id: contest-result.src.xsl,v 1.3 2002/06/20 15:09:41 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -179,35 +179,8 @@
   </xsl:template>
   <xsl:template match="c:reporter">
     <dd>
-      <xsl:choose>
-        <xsl:when test="@anonymous='true'">
-          <xsl:text>匿名希望</xsl:text>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates select="c:reporter-name"/>
-          <!-- <xsl:apply-templates select="c:reporter-email"/> -->
-        </xsl:otherwise>
-      </xsl:choose>
-    </dd>
-  </xsl:template>
-
-  <xsl:template match="c:reporter-name">
-    <xsl:choose>
-      <xsl:when test="@penname">
-	<xsl:value-of select="@penname"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-  <xsl:template match="c:reporter-email">
-    <xsl:if test="not(@anonymous='true')">
-      <xsl:text> (</xsl:text>
       <xsl:value-of select="."/>
-      <xsl:text>)</xsl:text>
-    </xsl:if>
+    </dd>
   </xsl:template>
 
   <xsl:template match="c:notices">

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- $Id: contest-result-build.xsl,v 1.2 2002/06/19 10:56:56 kunishi Exp $ -->
+<!-- $Id: contest-result-build.xsl,v 1.3 2002/06/20 15:09:46 kunishi Exp $ -->
 <xsl:stylesheet version='1.0'
   xmlns:xsl='http://www.w3.org/1999/XSL/Transform'
   xmlns:lxslt='http://xml.apache.org/xslt'
@@ -78,7 +78,7 @@
   <xsl:template match='c:reporter' mode='result' priority='1.0'>
     <xsl:choose>
       <xsl:when test='@anonymous="true"'>
-        <c:repoter-name><xsl:text>匿名希望</xsl:text></c:repoter-name>
+        <c:repoter><xsl:text>匿名希望</xsl:text></c:repoter>
       </xsl:when>
       <xsl:otherwise>
         <xsl:element name='{concat("c:", local-name())}'>
