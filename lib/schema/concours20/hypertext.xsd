@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xhtml" xmlns:x="http://www.chorusroom.org/xml" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:p="http://www.chorusroom.org/piece">
+  <xs:import schemaLocation="attrib.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/piece" schemaLocation="result.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/xml" schemaLocation="x.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <!-- Hypertext Module -->
+  <!-- Depends on text module. -->
+  <xs:element name="a" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:a.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="a.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+    <xs:attribute name="href" type="p:URI.datatype"/>
+    <xs:attribute name="charset"/>
+    <xs:attribute name="type"/>
+    <xs:attribute name="hreflang" type="p:LanguageCode.datatype"/>
+    <xs:attribute name="rel" type="p:LinkTypes.datatype"/>
+    <xs:attribute name="rev" type="p:LinkTypes.datatype"/>
+    <xs:attribute name="accesskey"/>
+    <xs:attribute name="tabindex"/>
+  </xs:attributeGroup>
+</xs:schema>

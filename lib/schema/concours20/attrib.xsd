@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:x="http://www.chorusroom.org/xml" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:p="http://www.chorusroom.org/piece">
+  <xs:import namespace="http://www.chorusroom.org/piece" schemaLocation="result.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/xml" schemaLocation="x.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="xhtml1.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <!-- Common Attributes Module -->
+  <xs:attributeGroup name="id.attrib">
+    <xs:attribute name="id" type="p:ID.datatype"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="class.attrib">
+    <xs:attribute name="class" type="p:NMTOKENS.datatype"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="title.attrib">
+    <xs:attribute name="title"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="Core.attrib">
+    <xs:attributeGroup ref="id.attrib"/>
+    <xs:attributeGroup ref="class.attrib"/>
+    <xs:attributeGroup ref="title.attrib"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="lang.attrib">
+    <xs:attributeGroup ref="xml:lang1"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="I18n.attrib">
+    <xs:attributeGroup ref="lang.attrib"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="Common.attrib">
+    <xs:attributeGroup ref="Core.attrib"/>
+    <xs:attributeGroup ref="I18n.attrib"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="CommonIdRequired.attrib">
+    <xs:attribute name="id" use="required" type="p:ID.datatype"/>
+    <xs:attributeGroup ref="class.attrib"/>
+    <xs:attributeGroup ref="title.attrib"/>
+    <xs:attributeGroup ref="I18n.attrib"/>
+  </xs:attributeGroup>
+</xs:schema>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xhtml" xmlns:x="http://www.chorusroom.org/xml" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:p="http://www.chorusroom.org/piece">
+  <xs:import schemaLocation="attrib.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/piece" schemaLocation="result.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/xml" schemaLocation="x.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <!-- Text Module -->
+  <xs:element name="br" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:attributeGroup ref="xhtml:br.attlist"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="br.attlist">
+    <xs:attributeGroup ref="Core.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="span" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:span.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="span.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="abbr" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:abbr.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="abbr.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="acronym" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:acronym.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="acronym.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="cite" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:cite.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="cite.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="code" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:code.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="code.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="dfn" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:dfn.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="dfn.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="em" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:em.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="em.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="kbd" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:kbd.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="kbd.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="q" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:q.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="q.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+    <xs:attribute name="cite" type="p:URI.datatype"/>
+  </xs:attributeGroup>
+  <xs:element name="samp" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:samp.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="samp.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="strong" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:strong.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="strong.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="var" substitutionGroup="xhtml:Inline.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:var.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="var.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="div" substitutionGroup="xhtml:Block.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Flow.model">
+          <xs:attributeGroup ref="xhtml:div.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="div.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="p" substitutionGroup="xhtml:Block.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:p.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="p.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="address" substitutionGroup="xhtml:Block.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:address.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="address.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:element name="blockquote" substitutionGroup="xhtml:Block.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Block.model">
+          <xs:attributeGroup ref="xhtml:blockquote.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="blockquote.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+    <xs:attribute name="cite" type="p:URI.datatype"/>
+  </xs:attributeGroup>
+  <xs:element name="pre" substitutionGroup="xhtml:Block.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Inline.model">
+          <xs:attributeGroup ref="xhtml:pre.attlist"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="pre.attlist">
+    <xs:attributeGroup ref="Common.attrib"/>
+    <xs:attribute ref="xml:space"/>
+  </xs:attributeGroup>
+  <xs:element name="h1" substitutionGroup="xhtml:Heading.class"/>
+  <xs:element name="h2" substitutionGroup="xhtml:Heading.class"/>
+  <xs:element name="h3" substitutionGroup="xhtml:Heading.class"/>
+  <xs:element name="h4" substitutionGroup="xhtml:Heading.class"/>
+  <xs:element name="h5" substitutionGroup="xhtml:Heading.class"/>
+  <xs:element name="h6" substitutionGroup="xhtml:Heading.class"/>
+  <xs:attributeGroup name="Heading.attrib">
+    <xs:attributeGroup ref="Common.attrib"/>
+  </xs:attributeGroup>
+  <xs:complexType name="Heading.content">
+    <xs:complexContent>
+      <xs:extension base="xhtml:Inline.model"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Heading.class" abstract="true" substitutionGroup="xhtml:Block.class">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="xhtml:Heading.content">
+          <xs:attributeGroup ref="xhtml:Heading.attrib"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Block.class" abstract="true" substitutionGroup="xhtml:Block.mix"/>
+  <xs:element name="Inline.class" abstract="true"/>
+  <xs:complexType name="Inline.model" mixed="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="xhtml:Inline.class"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!-- This is redefined by the legacy module to include inlines. -->
+  <xs:element name="Block.mix" abstract="true"/>
+  <xs:complexType name="Block.model">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="xhtml:Block.mix"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Flow.model" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="xhtml:Inline.class"/>
+      <xs:element ref="xhtml:Block.class"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>
