@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: jca-comp-result.rxm,v 1.6 2001/01/30 13:26:58 kunishi Exp $ -->
+<!-- $Id: jca-comp-result.rxm,v 1.7 2001/02/02 11:39:46 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
@@ -19,6 +19,27 @@
       <enumeration value="true"/>
     </attribute>
   </attPool>
+  <tag role="choirJCACompetition" name="choir">
+    <ref role="representativeAttr"/>
+    <ref role="seedAttr"/>
+    <attribute name="playing-order" type="positiveInteger"/>
+  </tag>
+  <elementRule role="choirJCACompetition" label="choir">
+    <sequence>
+      <ref label="choir-name"/>
+      <ref label="prefecture" occurs="?"/>
+      <ref label="choir-type" occurs="?"/>
+      <ref label="number-of-members" occurs="?"/>
+      <hedgeRef label="numberOfParts" occurs="?"/>
+      <ref label="conductor" occurs="*"/>
+      <hedgeRef label="players-list" occurs="?"/>
+      <ref label="prize"/>
+      <ref label="special-prize" occurs="*"/>
+      <ref label="program" occurs="?"/>
+      <ref label="scores" occurs="?"/>
+      <ref label="choir-note" occurs="?"/>
+    </sequence>
+  </elementRule>
 
   <hedgeRule label="givenProgramRule">
     <ref label="given-program" occurs="?"/>
@@ -40,5 +61,12 @@
       <enumeration value="F4"/>
     </attribute>
   </attPool>
+  <tag role="pieceJCACompetition" name="pieceRef">
+    <ref role="given-program-list"/>
+    <attribute name="href" required="true" type="uriReference"/>
+  </tag>
+  <elementRule role="pieceJCACompetition" label="pieceRef">
+    <empty/>
+  </elementRule>
 
 </module>

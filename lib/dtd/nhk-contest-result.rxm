@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: nhk-contest-result.rxm,v 1.4 2001/01/30 13:26:58 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.rxm,v 1.5 2001/02/02 11:39:46 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
@@ -12,13 +12,32 @@
     <element name="number-of-parts" type="positiveInteger"/>
   </hedgeRule>
 
+  <tag role="conductorNHKConcours" name="conductor">
+    <ref role="condAttr"/>
+    <attribute name="xml:lang" type="language"/>
+    <attribute name="instrument" type="string"/>
+  </tag>
   <attPool role="condAttr">
     <attribute name="grade" type="positiveInteger"/>
   </attPool>
+  <elementRule role="conductorNHKConcours" label="conductor">
+    <mixed>
+      <importedLabelRef label="specialCharacters"/>
+    </mixed>
+  </elementRule>
 
   <attPool role="pianoAttr">
     <attribute name="grade" type="positiveInteger"/>
   </attPool>
+  <tag role="pianoNHKConcours" name="piano">
+    <ref role="pianoAttr" occurs="?"/>
+    <attribute name="xml:lang" type="language"/>
+  </tag>
+  <elementRule role="pianoNHKConcours" label="piano">
+    <mixed>
+      <importedLabelRef label="specialCharacters"/>
+    </mixed>
+  </elementRule>
 
   <attPool role="representativeAttr">
     <attribute name="representative" type="NMTOKEN">
@@ -26,6 +45,26 @@
       <enumeration value="true"/>
     </attribute>
   </attPool>
+  <tag role="choirNHKConcours" name="choir">
+    <ref role="representativeAttr"/>
+    <attribute name="playing-order" type="positiveInteger"/>
+  </tag>
+  <elementRule role="choirNHKConcours" label="choir">
+    <sequence>
+      <ref label="choir-name"/>
+      <ref label="prefecture" occurs="?"/>
+      <ref label="choir-type" occurs="?"/>
+      <ref label="number-of-members" occurs="?"/>
+      <hedgeRef label="numberOfParts" occurs="?"/>
+      <ref label="conductor" occurs="*"/>
+      <hedgeRef label="players-list" occurs="?"/>
+      <ref label="prize"/>
+      <ref label="special-prize" occurs="*"/>
+      <ref label="program" occurs="?"/>
+      <ref label="scores" occurs="?"/>
+      <ref label="choir-note" occurs="?"/>
+    </sequence>
+  </elementRule>
 
   <hedgeRule label="givenProgramRule">
     <ref label="given-program"/>
@@ -42,5 +81,12 @@
       <enumeration value="elementary-school"/>
     </attribute>
   </attPool>
+  <tag role="pieceRefNHKConcours" name="pieceRef">
+    <ref role="given-program-list"/>
+    <attribute name="href" required="true" type="uriReference"/>
+  </tag>
+  <elementRule role="pieceRefNHKConcours" label="pieceRef">
+    <empty/>
+  </elementRule>
 
 </module>
