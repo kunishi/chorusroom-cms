@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/contest-result-v20.rnc" type="compact"?>
-<result xmlns="http://www.chorusroom.org/xml" moduleVersion="2.0" xmlns:p="http://www.chorusroom.org/piece">
+<result moduleVersion="2.0" xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.chorusroom.org/xml http://www.chorusroom.org/schema/concours20/x.xsd">
     <competitionName>平成15年度(第70回) NHK全国学校音楽コンクール栃木県コンクール</competitionName>
     <date dayOfWeek="sun">2003-08-24</date>
     <hall>宇都宮市立文化会館大ホール</hall>
     <section>
         <sectionName>小学校の部</sectionName>
         <choir>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
             <name>小山市立中小学校・国文寺町立国分寺小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>薄井雅彦</conductor>
                 <piano>大塚由里子</piano>
@@ -18,9 +17,9 @@
             <freeNumber><p:title>若返りの水</p:title> （<p:wordsBy>宮沢章二</p:wordsBy>作詩・<p:composedBy>福井文彦</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
             <name>茂木町立茂木小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>櫻井美由紀</conductor>
                 <piano note="課題曲">中田貴弘</piano>
@@ -29,19 +28,19 @@
         </choir>
         <choir>
             <name>真岡市立真岡西小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>秋山祥子</conductor>
                 <piano note="課題曲">中村ののか</piano>
                 <piano note="自由曲">小松崎友紀</piano>
             </players>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
             <freeNumber><p:title>若返りの水</p:title> （<p:wordsBy>宮沢章二</p:wordsBy>作詩・<p:composedBy>福井文彦</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
             <name>小山市立大谷東小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>大出恵美子</conductor>
                 <piano note="課題曲">鳥飼美那</piano>
@@ -51,28 +50,28 @@
         </choir>
         <choir>
             <name>鹿沼市立菊沢東小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>山本治子</conductor>
                 <piano>小野涼香</piano>
             </players>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
             <freeNumber>少年少女合唱組曲「<p:suiteTitle>町の子の五つの歌</p:suiteTitle>」から <p:title>月夜のけやきの木</p:title> （<p:wordsBy>大木実</p:wordsBy>作詩・<p:composedBy>岩河三郎</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
             <name>河内町立岡本西小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>横井由美子</conductor>
                 <piano>櫻井由美子</piano>
             </players>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
             <freeNumber><p:title>山があって 海がいて</p:title> （<p:wordsBy>山川啓介</p:wordsBy>作詩・<p:composedBy>南安雄</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
-            <prize nickname="none">奨励賞</prize>
+            <prize>奨励賞</prize>
             <name>宇都宮市立御幸が原小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>平船恵美子</conductor>
                 <piano>高倉典子</piano>
@@ -81,43 +80,43 @@
         </choir>
         <choir>
             <name>壬生町立壬生小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>高田康子</conductor>
                 <piano>広瀬とし</piano>
             </players>
-            <prize nickname="none">奨励賞</prize>
+            <prize>奨励賞</prize>
             <freeNumber><p:title>体育館</p:title> （<p:wordsBy>岩井典子</p:wordsBy>作詩・<p:composedBy>松下耕</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
             <name>鹿沼市立中央小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>渡辺和子</conductor>
                 <piano>田中偉子</piano>
             </players>
-            <prize nickname="none">奨励賞</prize>
+            <prize>奨励賞</prize>
             <freeNumber><p:title>くじらの歌</p:title> （<p:wordsBy>門倉?/谷川健</p:wordsBy>作詩・<p:composedBy>熊谷賢一</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
             <name>田沼町立野上小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>大塚由美</conductor>
                 <piano>宮田英夫</piano>
             </players>
-            <prize nickname="none">奨励賞</prize>
+            <prize>奨励賞</prize>
             <freeNumber><p:title>ほたる たんじょう</p:title> （<p:wordsBy>くどうなおこ</p:wordsBy>作詩・<p:composedBy>木下牧子</p:composedBy>作曲）</freeNumber>
         </choir>
         <choir>
             <name>宇都宮市立西小学校</name>
-            <type nickname="same-voice">同声</type>
+            <type>同声</type>
             <players>
                 <conductor>村上倫子</conductor>
                 <piano note="課題曲">小野崎奏</piano>
                 <piano note="自由曲">仲山舞香</piano>
             </players>
-            <prize nickname="none">奨励賞</prize>
+            <prize>奨励賞</prize>
             <freeNumber><p:title>コスモス</p:title> （<p:wordsBy>蓬莱泰三</p:wordsBy>作詩・<p:composedBy>若松正司</p:composedBy>作曲）</freeNumber>
         </choir>
     </section>

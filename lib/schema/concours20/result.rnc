@@ -1,43 +1,43 @@
-default namespace = "http://www.chorusroom.org/xml"
+namespace c = "http://www.chorusroom.org/xml"
 namespace p = "http://www.chorusroom.org/piece"
-namespace xhtml = "http://www.w3.org/1999/xhtml"
+default namespace = "http://www.w3.org/1999/xhtml"
 
-include "xhtml.rnc"
+include "../xhtml-core.rnc"
 
 start = result
 result =
-    element result {
+    element c:result {
         attribute moduleVersion { "2.0" },
-        element competitionName {
+        element c:competitionName {
             attribute pref { "true" }?,
             attribute area { "true" }?,
             xsd:string
         },
-        element date {
+        element c:date {
             attribute dayOfWeek { "sun" | "mon" | "tue" | "wed" | "thu" | "fri" | "sat" },
             text
         }*,
-        element hall { text }?,
-        element referee {
+        element c:hall { text }?,
+        element c:referee {
             attribute job { text }?,
             attribute shortname { text }?,
             attribute note { text }?,
             text
         }*,
-        element notice { Flow.model }?,
-        element section {
-            element sectionName { xsd:string },
+        element c:notice { Flow.model }?,
+        element c:section {
+            element c:sectionName { xsd:string },
             choir+
         }+
     }
 choir =
-    element choir {
-        element name {
+    element c:choir {
+        element c:name {
             attribute id { text }?,
             xsd:string
         }
-        & element playingOrder { xsd:integer }?
-        & element type {
+        & element c:playingOrder { xsd:integer }?
+        & element c:type {
               # attribute nickname  { "mixed" | "male" | "female" | "same-voice" | "children" },
               "混声"
               | "男声"
@@ -45,34 +45,34 @@ choir =
               | "同声"
               | "童声"
           }?
-        & element prefecture { text }?
-        & element number { xsd:integer }?
-        & element players { playersList }?
-        & element prize {
+        & element c:prefecture { text }?
+        & element c:number { xsd:integer }?
+        & element c:players { playersList }?
+        & element c:prize {
               # attribute nickname { "seed" | "gold" | "silver" | "blonze" | "none" },
               text
           }
-        & element special-prize { text }?
-        & element note { text }?
+        & element c:special-prize { text }?
+        & element c:note { text }?
         & playing-number?
     }
 playersList =
-    (element conductor {
+    (element c:conductor {
          attribute note { text }?,
          text
      }
-     | element piano {
+     | element c:piano {
            attribute note { text }?,
            text
        }
-     | element instrument {
+     | element c:instrument {
            attribute kind { text },
            attribute note { text },
            text
        })+
 playing-number =
-    element freeNumber { free-playing-number }+
-    & element assignedNumber {
+    element c:freeNumber { free-playing-number }+
+    & element c:assignedNumber {
           attribute ref { xsd:anyURI },
           attribute number {
               "G1"
@@ -102,11 +102,9 @@ free-playing-number =
          | element p:translatedBy { xsd:string }
          | element p:originatedFrom { xsd:string }
          | element p:title {
-               attribute xml:lang { xsd:language }?,
                xsd:string
            }
          | element p:suiteTitle {
-               attribute xml:lang { xsd:language }?,
                xsd:string
            })*
     }

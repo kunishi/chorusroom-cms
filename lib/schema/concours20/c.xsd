@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.chorusroom.org/xml" xmlns:x="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <xs:include schemaLocation="text.xsd"/>
-  <xs:include schemaLocation="hypertext.xsd"/>
-  <xs:include schemaLocation="list.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.chorusroom.org/xml" xmlns:c="http://www.chorusroom.org/xml" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:p="http://www.chorusroom.org/piece">
   <xs:import schemaLocation="attrib.xsd"/>
-  <xs:import namespace="http://www.chorusroom.org/piece" schemaLocation="contest-result-v20.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/piece" schemaLocation="result.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="xhtml.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <xs:element name="result">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="x:competitionName"/>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:date"/>
-        <xs:element minOccurs="0" ref="x:hall"/>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:referee"/>
-        <xs:element minOccurs="0" ref="x:notice"/>
-        <xs:element maxOccurs="unbounded" ref="x:section"/>
+        <xs:element ref="c:competitionName"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="c:date"/>
+        <xs:element minOccurs="0" ref="c:hall"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="c:referee"/>
+        <xs:element minOccurs="0" ref="c:notice"/>
+        <xs:element maxOccurs="unbounded" ref="c:section"/>
       </xs:sequence>
       <xs:attribute name="moduleVersion" use="required">
         <xs:simpleType>
@@ -72,12 +70,12 @@
       <xs:attribute name="note"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="notice" type="x:Flow.model"/>
+  <xs:element name="notice" type="xhtml:Flow.model"/>
   <xs:element name="section">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="x:sectionName"/>
-        <xs:element maxOccurs="unbounded" ref="x:choir"/>
+        <xs:element ref="c:sectionName"/>
+        <xs:element maxOccurs="unbounded" ref="c:choir"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -85,15 +83,15 @@
   <xs:element name="choir">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element ref="x:name"/>
-        <xs:element ref="x:playingOrder"/>
-        <xs:element ref="x:type"/>
-        <xs:element ref="x:prefecture"/>
-        <xs:element ref="x:number"/>
-        <xs:element ref="x:players"/>
-        <xs:element ref="x:prize"/>
-        <xs:element ref="x:special-prize"/>
-        <xs:element ref="x:note"/>
+        <xs:element ref="c:name"/>
+        <xs:element ref="c:playingOrder"/>
+        <xs:element ref="c:type"/>
+        <xs:element ref="c:prefecture"/>
+        <xs:element ref="c:number"/>
+        <xs:element ref="c:players"/>
+        <xs:element ref="c:prize"/>
+        <xs:element ref="c:special-prize"/>
+        <xs:element ref="c:note"/>
         <xs:group ref="p:playing-number"/>
       </xs:choice>
     </xs:complexType>

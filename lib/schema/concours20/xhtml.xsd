@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.chorusroom.org/piece" xmlns:x="http://www.chorusroom.org/xml" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:p="http://www.chorusroom.org/piece">
-  <xs:include schemaLocation="datatypes.xsd"/>
-  <xs:import schemaLocation="attrib.xsd"/>
-  <xs:import namespace="http://www.chorusroom.org/xml" schemaLocation="x.xsd"/>
-  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="xhtml1.xsd"/>
-  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
-</xs:schema>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/contest-result-v20.rnc" type="compact"?>
-<result xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" moduleVersion="2.0">
+<result moduleVersion="2.0" xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.chorusroom.org/xml http://www.chorusroom.org/schema/concours20/x.xsd">
     <competitionName>第8回神戸ボーカルアンサンブルコンテスト</competitionName>
     <date dayOfWeek="sun">2003-03-23</date>
     <hall>甲南女子学園芦原講堂</hall>
@@ -26,7 +25,7 @@
                 <p:title>ゆりかごの歌</p:title>(<p:wordsBy>北原白秋</p:wordsBy>作詩、<p:composedBy>草川信</p:composedBy>作曲、<p:arrangedBy>坪野春枝</p:arrangedBy>編曲)</freeNumber>
             <freeNumber>
                 <p:title>汽車ポッポ</p:title>(<p:wordsBy>富原薫</p:wordsBy>作詩、<p:composedBy>草川信</p:composedBy>作曲、<p:arrangedBy>坪野春枝</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>2</playingOrder>
@@ -40,7 +39,7 @@
                 <p:title>ふるさと</p:title>(<p:wordsBy>高野辰之</p:wordsBy>作詩、<p:composedBy>岡野貞一</p:composedBy>作曲、<p:arrangedBy>小林光雄</p:arrangedBy>編曲)</freeNumber>
             <freeNumber>
                 <p:title>Ave verum corpus</p:title>(<p:composedBy>W.A.Mozart</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>3</playingOrder>
@@ -52,7 +51,7 @@
                 <p:title>Reponsorio de Navidad</p:title>(<p:composedBy>Javier Busto</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>O sacrum convivium</p:title>(<p:composedBy>T.L.de Victoria</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>4</playingOrder>
@@ -67,21 +66,21 @@
                 <p:title>Den Tot Niemand twingen Kund</p:title>(<p:composedBy>J.S.Bach</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Ricevete, o pardoncina</p:title>(<p:composedBy>W.A.Mozart</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>5</playingOrder>
             <name>ミルフェ</name>
             <freeNumber>
                 <p:title>夢見たものは</p:title>(<p:wordsBy>立原道造</p:wordsBy>作詩、<p:composedBy>木下牧子</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>6</playingOrder>
             <name>猪名川町立猪名川中学校合唱部</name>
             <freeNumber>
                 <p:title>峠の我が家</p:title>(<p:originatedFrom>アメリカ民謡</p:originatedFrom>、<p:translatedBy>岩谷時子</p:translatedBy>訳詩、<p:arrangedBy>吉田多満子</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>7</playingOrder>
@@ -93,7 +92,7 @@
                 <p:title>あいたくて</p:title>(<p:wordsBy>工藤直子</p:wordsBy>作詩、<p:composedBy>松下耕</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>蟻の夏</p:title>(<p:wordsBy>工藤直子</p:wordsBy>作詩、<p:composedBy>松下耕</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>8</playingOrder>
@@ -104,7 +103,7 @@
                 <p:title>Agnus dei</p:title>(<p:composedBy>H. Strategier</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>てぃんさぐぬ花</p:title>(<p:originatedFrom>沖縄わらべ歌</p:originatedFrom>、<p:arrangedBy>信長貴富</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>9</playingOrder>
@@ -113,7 +112,7 @@
                 <conductor>剱宝功</conductor>
             </players>
             <freeNumber>混声合唱組曲「<p:suiteTitle>ティオの夜の旅</p:suiteTitle>」より、<p:title>I.祝福</p:title>、<p:title>IV.ローラビーチ</p:title>(<p:wordsBy>池澤夏樹</p:wordsBy>作詩、<p:composedBy>木下牧子</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>10</playingOrder>
@@ -125,7 +124,7 @@
                 <p:title>O vos omnes</p:title>(<p:composedBy>Miklos Kocsar</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>なにをさがしに</p:title>(<p:wordsBy>岸田衿子</p:wordsBy>作詩、<p:composedBy>木下牧子</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>11</playingOrder>
@@ -139,7 +138,7 @@
                 <p:title>村の鍛冶屋</p:title>(<p:originatedFrom>小学唱歌</p:originatedFrom>、<p:arrangedBy>信長貴富</p:arrangedBy>編曲)</freeNumber>
             <freeNumber>
                 <p:title>オーラリー</p:title>(<p:wordsBy>フォスディック</p:wordsBy>作詩、<p:composedBy>プールトン</p:composedBy>作曲、<p:arrangedBy>橋本祥路</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>12</playingOrder>
@@ -157,7 +156,7 @@
                 <p:title>秋になると</p:title>(<p:wordsBy>工藤直子</p:wordsBy>作詩、<p:composedBy>松下耕</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>ちいさなゆき</p:title>(<p:wordsBy>まどみちお</p:wordsBy>作詩、<p:composedBy>松下耕</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>13</playingOrder>
@@ -168,7 +167,7 @@
                 <p:title>Himnus</p:title>(<p:composedBy>Fermi</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>みかんの花咲く丘</p:title>(<p:wordsBy>加藤省吾</p:wordsBy>作詩、<p:composedBy>海沼実</p:composedBy>作曲、<p:arrangedBy>信長貴富</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>14</playingOrder>
@@ -179,7 +178,7 @@
             <freeNumber>
                 <p:title>Adorna thalamus</p:title>(<p:composedBy>William Byrd</p:composedBy>作曲)</freeNumber>
             <freeNumber>「<p:suiteTitle>女に 第2集</p:suiteTitle>」より、<p:title>ここ</p:title>(<p:wordsBy>谷川俊太郎</p:wordsBy>作詩、<p:composedBy>鈴木輝昭</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>15</playingOrder>
@@ -191,7 +190,7 @@
                 <p:title>Matona mia cara</p:title>(<p:composedBy>Orland de Lasso</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Fine knacks for ladies</p:title>(<p:composedBy>John Dowland</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>16</playingOrder>
@@ -205,7 +204,7 @@
             <freeNumber>
                 <p:title>I've Got Six Pence</p:title>(<p:originatedFrom>Sea chantee</p:originatedFrom>、<p:arrangedBy>福永陽一郎</p:arrangedBy>編曲)</freeNumber>
             <freeNumber>男声合唱組曲「<p:suiteTitle>雨</p:suiteTitle>」より、<p:title>武蔵野の雨</p:title>(<p:wordsBy>大木惇夫</p:wordsBy>作詩、<p:composedBy>多田武彦</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>17</playingOrder>
@@ -217,7 +216,7 @@
                 <p:title>水路</p:title>(<p:wordsBy>北原白秋</p:wordsBy>作詩、<p:composedBy>多田武彦</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>しょうがない</p:title>(<p:wordsBy>シュヌヴィエール</p:wordsBy>作詩、<p:translatedBy>柴田南雄</p:translatedBy>訳詩・<p:composedBy>柴田南雄</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
         <choir>
             <playingOrder>18</playingOrder>
@@ -228,7 +227,7 @@
             <freeNumber>Missa Brevisより、<p:title>Gloria</p:title>(<p:composedBy>C.Camilleri</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Angels We Have Heart on High</p:title>(<p:arrangedBy>G. Dumitrescu</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>19</playingOrder>
@@ -237,7 +236,7 @@
                 <p:title>峠の我が家</p:title>(<p:originatedFrom>アメリカ民謡</p:originatedFrom>、<p:translatedBy>岩谷時子</p:translatedBy>訳詩、<p:arrangedBy>吉田多満子</p:arrangedBy>編曲)</freeNumber>
             <freeNumber>
                 <p:title>こきりこ</p:title>(<p:originatedFrom>富山県民謡</p:originatedFrom>、<p:arrangedBy>荻久保和明</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>20</playingOrder>
@@ -249,7 +248,7 @@
                 <p:title>大きな古時計</p:title>(<p:composedBy>W.C.Work</p:composedBy>作曲、<p:translatedBy>保富康午</p:translatedBy>訳詩、<p:arrangedBy>川西保郎</p:arrangedBy>編曲)</freeNumber>
             <freeNumber>
                 <p:title>グローリア</p:title>(<p:composedBy>C.スタイン</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>21</playingOrder>
@@ -261,7 +260,7 @@
                 <p:title>The Huron Carol</p:title>(<p:composedBy>R.Anderson</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>A Choral Fanfare</p:title>(<p:composedBy>John Rutter</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
             <special-prize>総合2位</special-prize>
         </choir>
         <choir>
@@ -273,7 +272,7 @@
             <freeNumber>
                 <p:title>Amodioa</p:title>(<p:composedBy>Javier Busto</p:composedBy>作曲)</freeNumber>
             <freeNumber>「<p:suiteTitle>女に 第1集</p:suiteTitle>」より、<p:title>なめる</p:title>(<p:wordsBy>谷川俊太郎</p:wordsBy>作詞、<p:composedBy>鈴木輝昭</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
             <special-prize>総合1位</special-prize>
         </choir>
     </section>
@@ -286,7 +285,7 @@
                 <conductor>竹上孝子</conductor>
             </players>
             <freeNumber>混声合唱組曲「<p:suiteTitle>わがふるき日のうた</p:suiteTitle>」より、<p:title>甍のうえ</p:title>、<p:title>鐘鳴りぬ</p:title>(<p:wordsBy>三好達治</p:wordsBy>作詩、<p:composedBy>多田武彦</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>2</playingOrder>
@@ -297,7 +296,7 @@
                 <p:title>Ave Maria gratia plena</p:title>(<p:composedBy>Jovier Busto</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Hodie Christus natus est</p:title>(<p:composedBy>J. Karai</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>3</playingOrder>
@@ -306,7 +305,7 @@
                 <p:title>Amasing Grace</p:title>(<p:originatedFrom>Traditional</p:originatedFrom>)</freeNumber>
             <freeNumber>「<p:suiteTitle>天使にラブソング</p:suiteTitle>」より、<p:title>Hail Holy
                     Queen</p:title>(<p:composedBy>M.Huff</p:composedBy>作曲、<p:arrangedBy>L. Yoshizumi</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>4</playingOrder>
@@ -318,7 +317,7 @@
                 <p:title>Salve Regina</p:title>(<p:composedBy>Miklos Koscar</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>田の草取り唄</p:title>(<p:originatedFrom>秋田県民謡</p:originatedFrom>、<p:composedBy>間宮芳生</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>5</playingOrder>
@@ -328,7 +327,7 @@
             <freeNumber>
                 <p:title>O happy eyes</p:title>(<p:wordsBy>C. A.
                     Elgar</p:wordsBy>作詩、<p:composedBy>E. Elgar</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>6</playingOrder>
@@ -341,7 +340,7 @@
             <freeNumber>
                 <p:title>There rolls the deep</p:title>(<p:wordsBy>A. L.
                     Tennyson</p:wordsBy>作詩、<p:composedBy>C. H. Parry</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>7</playingOrder>
@@ -352,7 +351,7 @@
             <freeNumber>
                 <p:title>Smilin' Through</p:title>(<p:wordsBy>A. A.
                     Penn</p:wordsBy>作詩・<p:composedBy>A. A. Penn</p:composedBy>作曲、<p:arrangedBy>L. Perry</p:arrangedBy>編曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
             <special-prize>総合3位</special-prize>
         </choir>
         <choir>
@@ -365,7 +364,7 @@
                 <p:title>星の話し</p:title>(<p:wordsBy>今成敏夫</p:wordsBy>作詩、<p:composedBy>木下牧子</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>最上川舟歌</p:title>(<p:originatedFrom>山形県民謡</p:originatedFrom>、<p:composedBy>清水脩</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>9</playingOrder>
@@ -376,7 +375,7 @@
             <freeNumber>
                 <p:title>O vos omnes</p:title>(<p:composedBy>Miklos Kocsar</p:composedBy>作曲)</freeNumber>
             <freeNumber>「<p:suiteTitle>日本の民謡I</p:suiteTitle>」より、<p:title>八木節</p:title>(<p:composedBy>松下耕</p:composedBy>作曲)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>10</playingOrder>
@@ -389,7 +388,7 @@
                 <p:title>Ave Maria</p:title>(<p:composedBy>W. Andriessen</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Ave Regina Coelorum</p:title>(<p:composedBy>J. Rheinberger</p:composedBy>作曲)</freeNumber>
-            <prize nickname="blonze">銅賞</prize>
+            <prize>銅賞</prize>
         </choir>
         <choir>
             <playingOrder>11</playingOrder>
@@ -401,7 +400,7 @@
                 <p:title>Beati quorum via</p:title>(<p:composedBy>C. V. Stanford</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Abendlied</p:title>(<p:composedBy>J. Rheinberger</p:composedBy>)</freeNumber>
-            <prize nickname="silver">銀賞</prize>
+            <prize>銀賞</prize>
         </choir>
         <choir>
             <playingOrder>12</playingOrder>
@@ -413,7 +412,7 @@
                 <p:title>Crucifixus</p:title>(<p:composedBy>Antonio Lotti</p:composedBy>作曲)</freeNumber>
             <freeNumber>
                 <p:title>Fyer! Fyer!</p:title>(<p:composedBy>Thomas Morley</p:composedBy>作曲)</freeNumber>
-            <prize nickname="gold">金賞</prize>
+            <prize>金賞</prize>
         </choir>
     </section>
 </result>
