@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML i18n//EN">
+<html> <head>
+<title lang="en">Chorus Room HTML 2.x Version</title>
+</head>
+<body lang="ja">
+<h1>HTML 2.x 実験ページ</h1>
+<hr>
+<h2>はじめにお読みください</h2>
+<p>
+本ページは、HTML の国際化拡張である HTML 2.x (RFC 2070)に準拠し、
+合唱関係のページの今後を考える(おおげさ?)実験として行うものです。
+</p>
+<p>
+合唱のページを書く場合、日本語の文章の中にフランス語やドイツ語、
+イタリア語、マジャール語などなど、
+いろんな言語をまじえて書きたいことがよくあります。しかし、
+そもそもの HTML 2.0 の仕様(RFC 1866)では、
+文書全体を ASCII もしくは ISO-8859-1 で書くことしか許されていません。
+これだと、欧米系の言語に使われる文字(<span lang="de">umlaut</span>
+とか<span lang="fr">accent</span>とか)はなんとか表現できます。
+しかし、キリル文字など、
+ASCII でも ISO-8859-1 でも表現できない文字はたくさんあります。
+日本語(ISO-2022-JP)なんてもちろんだめです。
+Netscape その他のブラウザで日本語が見えているのは、ある意味で、
+独自拡張にしかすぎないのです。
+</p>
+<p>
+また、たとえ日本語のための独自拡張を許容するとしても、
+現状のブラウザの多くは、日本語の中に ISO-8859-1 の文字を含めた
+ページをまともに表示できません。
+たとえば、あなたは <span lang="de">&auml;</span> が正しく見えているでしょうか。
+ここには<tt>&amp;auml;</tt>と書いてあって、
+本来は a のウムラウトが表示されるべきものです。でも、
+Netscape を含む大半のブラウザでは、これは単なる文字化けにしか見えないでしょう。
+合唱のページを作成する人にとって、これは致命的です。
+</p>
+<p>
+最近になって、<a href="http://www.ietf.org/">IETF</a>によって、
+HTML の国際化対応の規格がようやくまとめられました(RFC 2070)。
+これを使うと、上記のような問題が全部解決するはずです。
+このページ群は、この規格を用いて書いています。
+</p>
+<p>
+こんなすばらしい規格を用いているのに、なぜ「実験」なんでしょうか。
+それは、大部分のブラウザが、
+このページを意図通りに表示できないであろうからです。
+それでも、あえて、HTML 2.x を使った実験をやってみます。
+</p>
+<p>
+能書きはこれくらいにして、
+<a href="index2.html">実際のページ</a>をご覧ください。
+</p>
+<hr>
+<h2>HTML 2.x が表示できるブラウザの一覧</h2>
+<p>
+私が知っている範囲で、HTML 2.x に対応しているブラウザを挙げてみます。
+もしここにない情報をお持ちでしたら、ご一報ください。
+</p>
+<ul>
+ <li> <a href="http://www.cs.indiana.edu/elisp/w3/docs.html">
+       W3, Emacs World Wide Web Browser</a><br>
+      これを Mule 上で用いることによって、HTML 2.x を正しく表示できます。
+      現状では、唯一の HTML 2.x 対応ブラウザだと思います。     
+</ul>
+<hr>
+<h2>関連ページ</h2>
+<ul>
+ <li> <a href="http://saturn.aichi-u.ac.jp/%7Emimasa/jweblint/">
+      jweblint のホームページ</a><br>
+      すぐれた HTML チェッカ、weblint の日本語化を手がけておられる
+      石川雅康さんのページです。HTML 2.x 用のチェッカ、weblint 97 も
+      ここから入手できます。
+</ul>
+<hr>
+<address>
+<a href="/~kunishi/index.html">KUNISHIMA Takeo</a>
+<a href="mailto:kunishi@c.oka-pu.ac.jp">
+&lt;kunishi@c.oka-pu.ac.jp&gt;</a>
+</address>
+<!--#echo var="LAST_MODIFIED"-->
+</body> </html>

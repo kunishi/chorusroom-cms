@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
+    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <title>Notices for attending HML</title>
+  </head>
+
+  <body>
+    <h1>HML に参加されるにあたってのお願い</h1>
+    <p>
+      HML は、現在の参加人数200人以上という、大規模なメーリングリストになっ
+    ています。当然いろいろな環境でメールを読んでおられる方がいらっしゃいま
+    す。そこで、参加してメールを出すにあたっては、次のような点に御留意いた
+    だければ幸いです。
+    </p>
+    <ul>
+      <li> 35字程度で明示的に改行を入れる<br>
+	<p>折り返し表示がされない環境の場合、改行が入るまでが1行(!)で表
+	  示されてしまい、画面からはみ出した部分は、カーソルを移動したり
+	  しないと読めないことがある。</p></li>
+
+      <li> Subject に日本語を使わない<br>
+	<p>
+	  日本語 Subject が入っていると文字化けが起こり、最悪の場合端末を
+	  立ち上げ直さないといけないことがあります。また、MIME encoding 
+	  を行っている場合でも、MIME decoding が行えない環境でメールを読
+	  んでいる場合は意味不明の文字列が並ぶことになります。さらに、
+	  MIME encoding された文字列では、HML で用意しているバックナンバー
+	  の取り寄せの際の検索も行いにくくなります。
+	</p></li>
+      <li> いわゆる「半角カナ」は使わない<br>
+	<p>
+	  Internet でメールをやりとりする際には、JISを用いる(EUC や SJIS 
+	  は使わない)ことがルールとなっています。いわゆる「半角カナ」が使
+	  われていると、文字化けはもちろん、端末が hang up することもあり
+	  ます。
+	</p>
+	<p>
+	  その他、機種依存文字を用いると、他人は読めないことが容易に起こり
+	  得ます。詳しくは
+	  <a href="http://www.plaza.hitachi-sk.co.jp/~masa-k/doc/jis-x-0208.html">
+	    JIS X 0208 に関する解説ページ
+	  </a>を御覧下さい。
+	</p></li>
+      <li> 同じ話題が続いている限り、Subject はむやみに変えない。逆に、違
+	う話題になったら、適切な Subject に変える。<br>
+	HML で用意している summary 機能でバックナンバーを検索する場合、
+	Subject がメールの内容を適切に反映していないと、検索がしにくく
+	なります。</li>
+      <li>Netscape でメールを読んでおられる方は、<a href="http://www.etl.go.jp/~yamana/www-clients-for-mac.html">
+	  WWW Clients for Mac</a>を一読されることをお勧めします。Netscape 
+	にはまだいろいろとバグが残っていまして、変な設定をしていると、メー
+	ルが文字化けして届けられることがあります。</li>
+    </ul>
+    <hr>
+    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
+<!-- Created: Sun Dec 14 11:41:44 JST 1997 -->
+<!-- hhmts start -->
+Last modified: Tue Jan  6 00:05:24 JST 1998
+<!-- hhmts end -->
+  </body>
+</html>
