@@ -17,27 +17,31 @@ class ChoirTable
   def update(c)
     schema = ['urn', 'name', 'url', 'pref', 'type', 'kind', 'yomi',
       'comment', 'created']
-    tuple = [c.urn, c.name, c.url, c.pref, c.type, c.kind, c.yomi, c.comment]
+    tuple = [
+      Mysql.quote(c.urn.to_s),
+      Mysql.quote(c.name.to_s),
+      Mysql.quote(c.url.to_s),
+      Pref.idByName(c.pref),
+      Mysql.quote(c.type.to_s),
+      Mysql.quote(c.kind.to_s), 
+      Mysql.quote(c.yomi.to_s),
+      Mysql.quote(c.comment.to_s)]
     if ((ans = get(c.urn)).num_rows() == 0)
       tuple.insert(tuple.length, Time.new().strftime("%Y%m%d%H%M%S"))
       @db.query('INSERT INTO ' + TABLE +
-		sprintf("(%s)", schema.join(",")) +
-		' VALUES ' + sprintf("(%s)",
-				     tuple.map {
-				       |v|
-				       sprintf("'%s'", (v != nil ? Mysql.quote(v) : ""))
-				     }.join(",")) +
-		';')
+		sprintf("(%s)", schema.join(",")) + ' VALUES ' +
+		sprintf("(%s)", tuple.map {
+			  |v|
+			  v.instance_of?(String) ? ("'" + v + "'") : v
+			}.join(",")) + ';')
     else
       tuple.insert(tuple.length, ans.fetch_hash()['created'])
       @db.query('REPLACE INTO ' + TABLE +
-		sprintf("(%s)", schema.join(",")) +
-		' VALUES ' + sprintf("(%s)",
-				     tuple.map {
-				       |v|
-				       sprintf("'%s'", (v != nil ? Mysql.quote(v) : ""))
-				     }.join(",")) +
-		';')
+		sprintf("(%s)", schema.join(",")) + ' VALUES ' +
+		sprintf("(%s)", tuple.map {
+			  |v|
+			  v.instance_of?(String) ? ("'" + v + "'") : v
+			}.join(",")) + ';')
     end
   end
 
