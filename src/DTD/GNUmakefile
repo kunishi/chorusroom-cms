@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.6 2001/01/12 12:03:06 kunishi Exp $
+# $Id: GNUmakefile,v 1.7 2001/01/12 13:01:33 kunishi Exp $
 #
 
 GEN_DTDS_NONS=	char-table.dtd
@@ -41,8 +41,8 @@ resource.dtd:	resource.rxm
 characters.rxm:	../tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ../xsl/gen-char-relax.xsl ${XSLT_OUT} ${XSLT_PARAMS}
 
-clean:
-	${RM} ${GEN_RELAX_MODULES} ${GEN_DTDS_NONS} ${GEN_DTDS_NS}
+realclean:	clean
+	${RM} ${GEN_RELAX_MODULES}
 
 include config.mk
 include rule.mk

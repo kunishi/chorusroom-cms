@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.52 2001/01/12 12:03:04 kunishi Exp $
+# $Id: GNUmakefile,v 1.53 2001/01/12 13:01:33 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -38,10 +38,10 @@ SUBDIR+=	ajcl \
 		whatsnew \
 		DTD
 
+.PHONY: index gcindex upload clean
+
 include config.mk
 include rule.mk
-
-.PHONY: index gcindex upload
 
 index.html:	CSSFILE=toppage.css
 
