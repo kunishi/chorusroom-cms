@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.52 2000/08/29 05:04:55 kunishi Exp $
+# $Id: Makefile,v 1.53 2000/08/30 11:40:49 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -22,7 +22,7 @@ INSTFILES_HTML+=	${CHUBU_HTML}
 INSTFILES_HTML+=	chugoku.html
 INSTFILES_HTML+=	fukuoka.html
 INSTFILES_HTML+=	fukushima.html
-INSTFILES_HTML+=	hokkaido.html hokkaido-saiten.html
+INSTFILES_HTML+=	hokkaido.html hokkaido-saiten.html hokkaido-1999-09-12.html
 INSTFILES_HTML+=	hyogo.html
 INSTFILES_HTML+=	kagoshima.html
 INSTFILES_HTML+=	kanagawa.html
@@ -104,6 +104,8 @@ ${NATIONAL_HTML:%.html=%.uhtml}: national.utfxml ${RESULT_XSL_COMMON}
 ## *-saiten.{jhtml,uhtml} is actually generated from *.xml.
 hokkaido-saiten.jhtml: hokkaido.xml
 hokkaido-saiten.uhtml: hokkaido.utfxml
+hokkaido-1999-09-12.jhtml: hokkaido.xml
+hokkaido-1999-09-12.uhtml: hokkaido.utfxml
 kanto-saiten.jhtml: kanto.xml
 kanto-saiten.uhtml: kanto.utfxml
 nagano-saiten.jhtml: nagano.xml
