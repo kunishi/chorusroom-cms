@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-                      "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
-<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "./global.ent">
+%global-ent;
 ]>
 <html xml:lang="en" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
@@ -14,9 +15,10 @@
     <p>
       This page uses ISO-8859-1 characters.  
       <strong>
-	Please, set Document Encoding into Western (Latin-1).  At
-	Netscape, this option can be set from the &quot;Document
-	Encoding&quot; menu, in the &quot;Options&quot; menu.
+	When you read this page, set Document Encoding into Western
+	(Latin-1).  At Netscape, this option can be set from the
+	&quot;Document Encoding&quot; menu, in the &quot;Options&quot;
+	menu.
       </strong>
     </p>
     <ul>
@@ -33,6 +35,6 @@
     and so on.
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo</a>&lt;&kunishi-email;&gt;</address>
-    $Id: info-note2.xml,v 1.3 1999/08/06 23:38:58 kunishi Exp $
+    $Id: info-note2.xml,v 1.4 1999/08/14 02:00:54 kunishi Exp $
   </body>
 </html>
