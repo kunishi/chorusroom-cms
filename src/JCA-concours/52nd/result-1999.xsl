@@ -3,7 +3,7 @@
 		xmlns:xt="http://www.jclark.com/xt"
 		xmlns="http://www.w3.org/TR/REC-html40"
 		extension-element-prefix="xt">
-  <xsl:output method="html" encoding="iso-2022-jp"/>
+  <xsl:output method="html"/>
 
   <xsl:template match="大会">
     <html>
@@ -43,7 +43,6 @@
     </dl>
     <xsl:element name="hr"/>
     <xsl:apply-templates select="注記"/>
-    <xsl:element name="hr"/>
     <xsl:apply-templates select="部門結果"/>
   </xsl:template>
 
@@ -87,6 +86,7 @@
     <ul>
       <xsl:apply-templates/>
     </ul>
+    <xsl:element name="hr"/>
   </xsl:template>
   <xsl:template match="注記事項">
     <li><p><xsl:value-of select="."/></p></li>
