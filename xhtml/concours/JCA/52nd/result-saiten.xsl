@@ -25,10 +25,12 @@
 
   <xsl:template name="採点表全体">
     <xsl:for-each select="部門結果">
-      <xsl:element name="h2">
-	<xsl:value-of select="部門名"/>
-      </xsl:element>
-      <xsl:call-template name="採点表"/>
+      <xsl:if test=".//採点結果">
+	<xsl:element name="h2">
+	  <xsl:value-of select="部門名"/>
+	</xsl:element>
+	<xsl:call-template name="採点表"/>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
 
@@ -41,15 +43,6 @@
     </xsl:element>
   </xsl:template>
 
-  <xsl:template name="採点表ボディ">
-    <xsl:element name="tbody">
-      <xsl:for-each select="団体/採点結果">
-	<xsl:sort order="ascending" data-type="number" select="../@出演順"/>
-	<xsl:call-template name="採点表エントリ"/>
-      </xsl:for-each>
-    </xsl:element>
-  </xsl:template>
-
   <xsl:template name="採点表ヘッダ">
     <xsl:element name="thead">
       <xsl:element name="tr">
@@ -57,7 +50,7 @@
 	  <xsl:attribute name="rowspan">1</xsl:attribute>
 	  <xsl:attribute name="colspan">1</xsl:attribute>
 	</xsl:element>
-	<xsl:for-each select="//審査員">
+	<xsl:for-each select="..//審査員">
 	  <xsl:element name="th">
 	    <xsl:attribute name="rowspan">1</xsl:attribute>
 	    <xsl:attribute name="colspan">1</xsl:attribute>
@@ -75,6 +68,15 @@
 	  <xsl:text>備考</xsl:text>
 	</xsl:element>
       </xsl:element>
+    </xsl:element>
+  </xsl:template>
+
+  <xsl:template name="採点表ボディ">
+    <xsl:element name="tbody">
+      <xsl:for-each select="団体/採点結果">
+	<xsl:sort order="ascending" data-type="number" select="../@出演順"/>
+	<xsl:call-template name="採点表エントリ"/>
+      </xsl:for-each>
     </xsl:element>
   </xsl:template>
 
@@ -101,7 +103,7 @@
 	</xsl:if>
 	<xsl:value-of select="../団体名"/>
       </xsl:element>
-      <xsl:for-each select="//審査員">
+      <xsl:for-each select="../../..//審査員">
 	<xsl:apply-templates select="$現エントリ/採点[@採点者=current()/@省略名]"/>
       </xsl:for-each>
       <xsl:apply-templates select="総合評価"/>
