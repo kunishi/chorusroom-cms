@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: ehime.xml,v 1.1 2001/06/29 12:50:13 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: ehime.xml,v 1.2 2001/06/29 12:52:45 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">平成12年度(第67回) NHK全国学校音楽コンクール愛媛県コンクール</competition-name>
   <result output="ehime">
     <date day-of-week="mon" holiday="false">2000-08-07</date>
@@ -141,6 +141,8 @@
 		<p:mainTitle>よるのさかな</p:mainTitle>
 	      </p:title>
 	    </p:piece>
+	  </free-program>
+	  <free-program>
 	    <p:piece>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>三原ヤッサ節</p:mainTitle>
