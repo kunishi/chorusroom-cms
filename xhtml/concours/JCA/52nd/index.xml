@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	       "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd">
+	       "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
+]>
 <html xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
     <title>52nd Concours of Japan Choral Association</title>
   </head>
@@ -24,7 +27,7 @@
       <li>
 	お寄せいただいた情報は、こちらで HTML 形式に編集させていただき、
 	掲載させていただきます。なお、その編集作業を円滑に行うため、
-	「<a href="../../info-note.html">情報をお寄せ頂く際の書き方に関す
+	「<a href="../../info-note.html" shape="rect">情報をお寄せ頂く際の書き方に関す
 	るお願い</a>」をご一読下さるようお願いします。
       </li>
       <li>
@@ -95,16 +98,18 @@
     <hr/>
     <h2>コンクール関連情報へのリンク</h2>
     <ul>
-      <li><a href="http://village.infoweb.ne.jp/~ajcl/concour/52nyuujoukenn.htm">入場券販売方法</a></li>
+      <li><a href="http://village.infoweb.ne.jp/~ajcl/concour/52nyuujoukenn.htm" shape="rect">入場券販売方法</a></li>
     </ul>
     <hr/>
     <h2>大会結果</h2>
     <dl>
+      <dt>関西支部</dt>
+      <dd><a href="hyogo.html" shape="rect">兵庫県大会(中学・高校)</a> (1999.08.21.)</dd>
       <dt>九州支部</dt>
-      <dd><a href="fukuoka.html">福岡県大会</a> (1999.08.01.)</dd>
+      <dd><a href="fukuoka.html" shape="rect">福岡県大会</a> (1999.08.01.)</dd>
     </dl>
     <hr/>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-    <p>このファイルは$Id: index.xml,v 1.9 1999/08/06 11:53:38 kunishi Exp $から自動生成されました。</p>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    <p>このファイルは$Id: index.xml,v 1.10 1999/08/22 13:17:04 kunishi Exp $から自動生成されました。</p>
   </body>
 </html>
