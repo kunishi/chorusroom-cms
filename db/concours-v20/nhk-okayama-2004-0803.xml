@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <result moduleVersion="2.0" xmlns="http://www.chorusroom.org/xml"
-	xmlns:p="http://www.chorusroom.org/piece"
-	xmlns:h="http://www.w3.org/TR/xhtml1/strict">
+	xmlns:p="http://www.chorusroom.org/piece">
   <competitionName pref="true">平成16年度（第71回）NHK全国学校音楽コンクール岡山県大会</competitionName>
   <date dayOfWeek="tue">2004-08-03</date>
   <hall>岡山市立市民文化ホール</hall>
@@ -11,13 +10,13 @@
   <referee job="日本教育音楽協会岡山県支部長、岡山大学名誉教授">菱川欣三郎</referee>
   <referee job="NHK岡山放送局　放送部長">橋本明久</referee>
   <notice>
-    <h:p>課題曲は以下の通り。</h:p>
-    <h:ul>
-      <h:li>小学校の部…未来を旅するハーモニー(作詞・作曲・コーラスアレンジ：吉田美和／編曲：寺島尚彦)</h:li>
-      <h:li>中学校の部…信じる (作詩：谷川俊太郎／作曲：松下　耕)</h:li>
-      <h:li>高等学校の部…「新しい人」に (作詩：大江健三郎／作曲：信長貴富)</h:li>
-    </h:ul>
-    <h:p>同一賞内の掲載順は、高等学校の部のみ順位順、ほかは演奏順。</h:p>
+    <p xmlns="http://www.w3.org/1999/xhtml">課題曲は以下の通り。</p>
+    <ul xmlns="http://www.w3.org/1999/xhtml">
+      <li>小学校の部…未来を旅するハーモニー(作詞・作曲・コーラスアレンジ：吉田美和／編曲：寺島尚彦)</li>
+      <li>中学校の部…信じる (作詩：谷川俊太郎／作曲：松下　耕)</li>
+      <li>高等学校の部…「新しい人」に (作詩：大江健三郎／作曲：信長貴富)</li>
+    </ul>
+    <p xmlns="http://www.w3.org/1999/xhtml">同一賞内の掲載順は、高等学校の部のみ順位順、ほかは演奏順。</p>
   </notice>
   <section>
     <sectionName>小学校の部</sectionName>
