@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: hyogo.xml,v 1.6 2001/02/04 10:06:16 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: hyogo.xml,v 1.7 2001/02/04 10:47:23 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール兵庫県コンクール</competition-name>
   <result output="hyogo">
     <date day-of-week="sat" holiday="false">2000-08-18</date>
@@ -274,11 +274,19 @@
 	  <free-program>
 	    <piano>酒井友香里</piano>
 	    <p:suite>
+	      <p:words-by>伊藤海彦</p:words-by>
+	      <p:composed-by>大中恩</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱曲</p:titlePrefix>
 		<p:mainTitle>島よ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>波の果て</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
