@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.2 1999/09/01 16:15:50 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 1999/10/05 04:51:23 kunishi Exp $
 # 
 
 RELPATH=	whatsnew
@@ -11,7 +11,7 @@ INSTFILES+=	index.html \
 		199812.html \
 		199901.html 199902.html 199903.html 199904.html \
 		199905.html 199906.html 199907.html 199908.html \
-		199909.html
+		199909.html 199910.html
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
