@@ -2,7 +2,7 @@
 <!--
   JCAコンクール結果文書用DTD (1999年版)
 
-  $Id: result-1999.dtd,v 1.28 1999/11/14 01:48:45 kunishi Exp $
+  $Id: result-1999.dtd,v 1.29 1999/11/14 01:51:42 kunishi Exp $
   -->
 
 <![%utfdoc;[
@@ -159,8 +159,7 @@
           %i18n;>
 <!ELEMENT 曲名 (#PCDATA)>
 <!ATTLIST 曲名
-          %i18n;
-          番号 CDATA #IMPLIED>
+          %i18n;>
 <!ELEMENT 組曲 (曲名, 構成曲+)>
 <!ATTLIST 組曲
           抜粋 (yes|no) #REQUIRED>
