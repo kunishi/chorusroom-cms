@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.34 2000/09/12 02:26:19 kunishi Exp $
+# $Id: config.mk,v 1.35 2000/09/19 10:09:18 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -12,7 +12,7 @@ JDK_LIBDIR=	${JDK_TOPDIR}/lib
 
 JAVA_CLASSES_DIR=	${LOCALBASE}/share/java/classes
 XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
-XML4J_CLASSPATH= ${JAVA_CLASSES_DIR}/xml4j.jar:${JAVA_CLASSES_DIR}/xerces.jar
+XERCES_CLASSPATH= ${JAVA_CLASSES_DIR}/xerces.jar
 LOTUSXSL_CLASSPATH= ${JAVA_CLASSES_DIR}/lotusxsl.jar:${JAVA_CLASSES_DIR}/lotusxslbsf.jar:${JAVA_CLASSES_DIR}/js.jar
 
 ifdef USE_KAFFE
@@ -37,14 +37,14 @@ XSLT_CLASSPATH=	${LOTUSXSL_CLASSPATH}
 XSLT_CLASS=	com.lotus.xsl.Process
 else
 XSLT_CLASSPATH=	${XT_CLASSPATH}
-XSLT_OPTS+=	-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser
+XSLT_OPTS+=	-Dcom.jclark.xsl.sax.parser=org.apache.xerces.parsers.SAXParser
 XSLT_CLASS=	com.jclark.xsl.sax.Driver
 endif
 
 ifdef JDK_CLASSPATH
-CLASSPATH=	${XSLT_CLASSPATH}:${XML4J_CLASSPATH}:${JDK_CLASSPATH}
+CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}:${JDK_CLASSPATH}
 else
-CLASSPATH=	${XSLT_CLASSPATH}:${XML4J_CLASSPATH}
+CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}
 endif
 XSLT_PROC=	${JAVA} -classpath ${CLASSPATH} ${XSLT_OPTS} ${XSLT_CLASS}
 
