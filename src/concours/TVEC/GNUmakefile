@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.6 2001/02/17 23:37:49 kunishi Exp $
+# $Id: GNUmakefile,v 1.7 2001/03/03 04:09:05 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -8,7 +8,8 @@ INSTFILES_TRADITIONAL=	tvec-1998.html \
 			tvec-1999.html \
 			tvec-2001-02-04.html \
 			tvec-2001-02-10.html \
-			tvec-2001-02-11.html
+			tvec-2001-02-11.html \
+			tvec-2001-02-12.html
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
 INSTFILES+=	index.html
