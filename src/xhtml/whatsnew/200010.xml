@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
+    <title>新着情報(2000年10月分)</title>
+  </head>
+  <body>
+    <h1>新着情報(2000年10月分)</h1>
+    <p>
+      先月までの新着情報は<a href="index.html" shape="rect">こちらのペー
+      ジ</a>からたどってください。
+    </p>
+    <dl>
+      <dt>2000-10-01</dt>
+      <dd>[JCAコンクール(第53回)] <a href="%%TOPDIR%%concours/JCA/53rd/kansai-highschool.html" shape="rect">関西支部大会(中学・高校)</a></dd>
+    </dl>
+    <hr/>
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Id: 200010.xml,v 1.1 2000/10/01 13:56:27 kunishi Exp $</p>
+    </div>
+  </body>
+</html>
