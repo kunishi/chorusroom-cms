@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-utf8-char-conv.xsl,v 1.5 2001/01/03 05:20:26 kunishi Exp $ -->
+<!-- $Id: gen-utf8-char-conv.xsl,v 1.6 2001/01/03 07:05:31 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:axsl="http://www.w3.org/1999/XSL/TransformAlias"
@@ -13,7 +13,7 @@
 	      omit-xml-declaration="no"/>
 
   <xsl:template match="cr:all-characters">
-    <axsl:stylesheet>
+    <axsl:stylesheet version="1.0">
       <xsl:apply-templates/>
     </axsl:stylesheet>
   </xsl:template>
