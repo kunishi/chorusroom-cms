@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: mie.xml,v 1.1 2001/01/22 03:11:46 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: mie.xml,v 1.2 2001/01/23 02:53:39 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール三重県コンクール</competition-name>
   <result output="mie">
     <date day-of-week="wed" holiday="false">2000-08-09</date>
@@ -17,10 +17,15 @@
 	<conductor>上村美保</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>トゥモロー</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>トゥモロー</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -29,13 +34,21 @@
 	<conductor>中川笑子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「みち」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>みち</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>みち１２</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>みち１２</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -46,10 +59,15 @@
 	<conductor>伊藤ふじ子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>山があって海がいて</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>山があって海がいて</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -58,10 +76,15 @@
 	<conductor>森眞希</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>すてきな友達</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>すてきな友達</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -70,10 +93,15 @@
 	<conductor>神田昌子</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>この木なんの気</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>この木なんの気</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -85,10 +113,15 @@
 	<conductor>木村真奈美</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>砂丘</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>砂丘</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -97,13 +130,21 @@
 	<conductor>紀太令子</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenProgramsx.ml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「地平線のかなたへ」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>二十億光年の孤独</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -114,10 +155,15 @@
 	<conductor>工藤麻美</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>ほたるこい</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ほたるこい</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -126,13 +172,21 @@
 	<conductor>中村悦子</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「風に鳴る笛」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>風に鳴る笛</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>未来</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>未来</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -143,10 +197,15 @@
 	<conductor>浅生裕子</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>さくら</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>さくら</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -155,13 +214,21 @@
 	<conductor>服部佐喜子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「小さなホメロスたち」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>小さなホメロスたち</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>風よ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>風よ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -172,10 +239,15 @@
 	<conductor>斉藤薫</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenProgramsx.ml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>狩り人アレン</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>狩り人アレン</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -184,14 +256,21 @@
 	<conductor>田中博基</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>&quot;H<cr:Aacute/>ROM N<cr:Otilde/>IKAR&quot;</p:piece>
+	      <p:title original="true">
+		<p:mainTitle>H<cr:Aacute/>ROM N<cr:Otilde/>IKAR</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
-		<p:piece>ああ、雪の森の静寂</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ああ、雪の森の静寂</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -202,10 +281,15 @@
 	<conductor>曽根和美</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>さくら</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>さくら</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -214,13 +298,21 @@
 	<conductor>越賀敦子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「地平線のかなたへ」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>春に</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>春に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -231,13 +323,21 @@
 	<conductor>松川由佳</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「風に鳴る笛」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>風に鳴る笛</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>未来</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>未来</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -248,10 +348,18 @@
 	<conductor>足代万紀子</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece japaneseTitle="ガムラン">GAMERAN</p:piece>
+	    <p:piece>
+	      <p:title original="true">
+		<p:mainTitle>GAMERAN</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>ガムラン</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -263,13 +371,21 @@
 	<conductor>向井正雄</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「やさしさは愛じゃない」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>やさしさは愛じゃない</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>まだ私になれる</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>まだ私になれる</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
