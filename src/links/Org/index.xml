@@ -1,31 +1,35 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../../style/default.css" type="text/css" rel="stylesheet">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/links:Org</title>
   </head>
   <body>
-    <h1><a href="../../">合唱の部屋</a>:<a href="..">リンク集</a>:組織</h1>
+    <h1><a href="../../" shape="rect">合唱の部屋</a>:<a href=".." shape="rect">リンク集</a>:組織</h1>
     <ul>
-      <li><a href="Assoc/">法人など</a></li>
-      <li><a href="CD/">CD製作・販売</a></li>
-      <li><a href="Camp/">宿泊施設</a></li>
-      <li><a href="Hall/">ホール</a></li>
-      <li><a href="Score/">楽譜販売</a></li>
+      <li><a href="Assoc/" shape="rect">法人など</a></li>
+      <li><a href="CD/" shape="rect">CD製作・販売</a></li>
+      <li><a href="Camp/" shape="rect">宿泊施設</a></li>
+      <li><a href="Hall/" shape="rect">ホール</a></li>
+      <li><a href="Score/" shape="rect">楽譜販売</a></li>
     </ul>
-    <hr>
+    <hr/>
     <ul>
-      <li><a href="http://www.panamusica.co.jp/">Pana Musica</a>
+      <li><a href="http://www.panamusica.co.jp/" shape="rect">Pana Musica</a>
 	合唱関係者なら知らない人はいない、合唱楽譜・CD 販売業者。
 	ついにホームページを開設されました。E-mail での楽譜注文も
 	できるようになった模様。その他、さまざまな情報発信を考えて
 	おられるようです。
-	<a href="../gakufuShop.html">合唱楽譜の購入方法</a>、
-	<a href="../CDShop.html">合唱CDの購入方法</a>もご覧下さい。
+	<a href="../gakufuShop.html" shape="rect">合唱楽譜の購入方法</a>、
+	<a href="../CDShop.html" shape="rect">合唱CDの購入方法</a>もご覧下さい。
       </li>
-      <li><a href="http://village.infoweb.ne.jp/~fwik5037/coro.html">(有)こーろころころ</a>
+      <li><a href="http://village.infoweb.ne.jp/~fwik5037/coro.html" shape="rect">(有)こーろころころ</a>
 	合唱・アカペラに関する楽譜・CDの通販ショップ。
 	先方からの紹介文:「ネット上での専門店としてはおそらく日本初！
 	毎月在庫が増えているため、まずはお問い合わせを。
@@ -34,11 +38,8 @@
 	応じさせていただきます。」
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-<!-- Created: Fri May  1 11:29:38 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Tue Aug 25 17:31:34 JST 1998
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/22 14:49:16 $
   </body>
 </html>
