@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.44 2000/11/16 16:36:38 kunishi Exp $
+# $Id: config.mk,v 1.45 2000/12/01 10:31:04 kunishi Exp $
 #
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
@@ -74,7 +74,7 @@ XSLT_PARAMS+=	-param "imagedir" "'${IMAGEDIR}'" \
 		-param "bgimage" "'${BGIMG}'" \
 		-param "styledir" "'${STYLEDIR}'" \
 		-param "stylesheet" "'${CSSFILE}'"
-XSLT_OUT=	-out $@
+XSLT_OUT?=	-out $@
 
 UTF2ASCII=	hutrans
 ASCII2EUC=	iconv -f utf-8 -t euc-jp
