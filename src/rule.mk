@@ -1,21 +1,32 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.2 1999/08/17 06:11:35 kunishi Exp $
+# $Id: rule.mk,v 1.3 1999/08/22 15:07:28 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html
 
-.PHONY:		all install clean
+.PHONY:		all install clean subdir install-subdir
 
 %.html:	%.xml
 	${XSLT_PROC} $< ${DEFAULT_XSL} > $@
  
-# %.html:		%.utfhtml
-# 	${UTF2ASCII} < $< | ${ASCII2EUC} | ${EUC2JIS} | ${HTML_FORMAT} > $@
- 
-all:	${INSTFILES}
+all:	${INSTFILES} subdir
 
-install:
+subdir:
+ifdef SUBDIR
+	for dir in "${SUBDIR}"; do \
+	  (cd $${dir} && ${MAKE} all) \
+	done
+endif
+
+install:	install-subdir
 	${SYNC_TOOL} ${INSTFILES} ${INSTTOPDIR}${RELPATH}
- 
+
+install-subdir:
+ifdef SUBDIR
+	for dir in "${SUBDIR}"; do \
+	  (cd $${dir} && ${MAKE} install) \
+	done
+endif
+
 clean:
 	-rm -rf *.html
