@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.18 2000/09/02 01:12:09 kunishi Exp $ -->
+<!-- $Id: result-common.xsl,v 1.19 2000/10/03 11:35:00 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns:xt="http://www.jclark.com/xt"
-		xmlns="http://www.w3.org/1999/xhtml"
-		extension-element-prefix="xt">
+		xmlns="http://www.w3.org/1999/xhtml">
 
   <xsl:template match="大会">
     <xsl:apply-templates select="開催日別結果"/>
@@ -103,18 +101,23 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
 
   <xsl:template name="footer">
     <xsl:element name="hr"/>
-    <xsl:element name="address">
-      <xsl:element name="a">
-	<xsl:attribute name="href">
-	  <xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
-	</xsl:attribute>
-        <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+    <xsl:element name="div">
+      <xsl:attribute name="clsss">
+        <xsl:text>footer</xsl:text>
+      </xsl:attribute>
+      <xsl:element name="address">
+        <xsl:element name="a">
+          <xsl:attribute name="href">
+            <xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
+          </xsl:attribute>
+          <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+        </xsl:element>
       </xsl:element>
-    </xsl:element>
-    <xsl:element name="p">
-      <xsl:text>この文書は</xsl:text>
-      <xsl:value-of select="/大会/CVSID"/>
-      <xsl:text>から自動的に生成されました。</xsl:text>
+      <xsl:element name="p">
+        <xsl:text>この文書は</xsl:text>
+        <xsl:value-of select="/大会/CVSID"/>
+        <xsl:text>から自動的に生成されました。</xsl:text>
+      </xsl:element>
     </xsl:element>
   </xsl:template>
 
