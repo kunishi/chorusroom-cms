@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.5 1999/08/22 15:59:58 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 1999/08/22 16:20:31 kunishi Exp $
 #
 
 RELPATH=	.
@@ -25,6 +25,7 @@ INSTFILES_NOBUILD+=	panaMusica-map.txt \
 
 SUBDIR+=	JCA-concours \
 		image \
+		links \
 		style \
 		whatsnew
 
