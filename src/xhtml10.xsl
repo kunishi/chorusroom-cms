@@ -4,6 +4,7 @@
 		xmlns="http://www.w3.org/TR/REC-html40">
   <xsl:output method="html"
 	      encoding="iso-2022-jp"
-	      doctype-public="-//W3C//DTD HTML 4.0//EN"/>
+	      doctype-public="-//W3C//DTD HTML 4.01//EN"
+              doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
   <xsl:include href="xhtml10-common.xsl"/>
 </xsl:stylesheet>

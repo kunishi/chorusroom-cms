@@ -2,16 +2,16 @@
 <!--
   JCAコンクール結果文書用DTD (1999年版)
 
-  $Id: result-1999.dtd,v 1.30 1999/11/14 01:52:35 kunishi Exp $
+  $Id: result-1999.dtd,v 1.31 2000/02/09 11:55:38 kunishi Exp $
   -->
 
 <![%utfdoc;[
 <!ENTITY % HTMLlat1 PUBLIC
    "-//W3C//ENTITIES Latin1//EN//HTML"
-   "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLlat1x.ent">
+   "http://localhost/DTD/xhtml/1.0/xhtml-lat1.ent">
 <!ENTITY % HTMLspecial PUBLIC
    "-//W3C//ENTITIES Special//EN//HTML"
-   "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLspecialx.ent">
+   "http://localhost/DTD/xhtml/1.0/xhtml-special.ent">
 <!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local.ent">
 ]]>
 <![%ascdoc;[

@@ -3,14 +3,14 @@
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="ja" lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title xml:lang="en">Chorus Room</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="toppage.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
-    <h1><img src="chorusroom-logo.png" alt="合唱の部屋"/></h1>
+    <h1><img src="chorusroom-logo.png" width="417" height="108" alt="合唱の部屋"/></h1>
     <div class="heading">
       <p class="heading">
 	「合唱の部屋」は、合唱に関するいろいろな話題を集めた WWW ページです。
@@ -86,6 +86,6 @@
     </div>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a> &lt;&kunishi-email;&gt;</address>
     <hr/>
-    $Id: index.xml,v 1.31 2000/02/06 13:43:56 kunishi Exp $
+    <p>$Id: index.xml,v 1.32 2000/02/09 11:55:38 kunishi Exp $</p>
   </body>
 </html>
