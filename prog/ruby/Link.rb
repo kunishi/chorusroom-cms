@@ -21,7 +21,7 @@ class Link
 		 e.elements["*[local-name()='name']"].text,
 		 e.elements["*[local-name()='name']"].attributes["yomi"],
 		 e.elements["*[local-name()='url']"].text,
-		 e.elements["*[local-name()='kind']/text()"],
+		 e.elements["*[local-name()='kind']/text()"].to_a,
 		 e.elements["*[local-name()='comment']"].text,
 		 nil,
 		 nil)

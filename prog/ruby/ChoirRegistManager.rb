@@ -15,14 +15,15 @@ class ChoirRegistManager
       new = true
       Dir.mkdir(path)
     end
-    c.write(path + "/" + c.urn + ".xml")
 
     pwd = Dir.pwd
     Dir.chdir(dir)
 
-    ref = File.new("idref" + c.urn, File::CREAT|File::TRUNC|File::RDWR)
-    ref.puts(linkentry(c))
-    ref.close
+    c.write(c.urn + ".xml")
+
+#    ref = File.new(c.urn + ".xml", File::CREAT|File::TRUNC|File::RDWR)
+#    ref.puts(linkentry(c))
+#    ref.close
 
     list = File.new("list", "a")
     list.puts(newsentry(c, new))
