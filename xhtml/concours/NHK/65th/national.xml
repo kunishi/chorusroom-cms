@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: national.xml,v 1.1 2001/01/28 12:11:27 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: national.xml,v 1.2 2001/01/29 02:59:26 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">平成10年度(第65回)NHK全国学校音楽コンクール全国コンクール</competition-name>
   <result output="national">
     <date day-of-week="sun" holiday="false">1998-10-25</date>
@@ -238,7 +238,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
