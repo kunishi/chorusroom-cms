@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.69 2001/04/02 06:51:07 kunishi Exp $
+# $Id: GNUmakefile,v 1.70 2001/10/03 05:16:51 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -31,6 +31,7 @@ INSTFILES_TRADITIONAL+=	okayama.html
 INSTFILES_TRADITIONAL+=	saga.html
 INSTFILES_TRADITIONAL+=	${SHIKOKU_HTML}
 INSTFILES_TRADITIONAL+=	shimane.html
+INSTFILES_TRADITIONAL+=	tochigi.html
 INSTFILES_TRADITIONAL+=	tokyo.html
 INSTFILES_TRADITIONAL+=	${TOHOKU_HTML}
 INSTFILES_TRADITIONAL+=	yamagata.html
