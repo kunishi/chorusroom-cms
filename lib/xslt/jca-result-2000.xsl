@@ -70,8 +70,14 @@
   </xsl:template>
   <xsl:template match="審査員">
     <xsl:value-of select="."/>
-    <xsl:if test="@肩書">
-      (<xsl:value-of select="@肩書"/>)
+    <xsl:if test="@肩書 or @備考">
+      (
+      <xsl:if test="@肩書">
+	<xsl:value-of select="@肩書"/>
+	<xsl:if test="@備考">、</xsl:if>
+      </xsl:if>
+      <xsl:if test="@備考"><xsl:value-of select="@備考"/></xsl:if>
+      )
     </xsl:if>
     <xsl:if test="following-sibling::審査員">
       、
@@ -140,7 +146,7 @@
 
   <xsl:template match="団体">
     <li>
-      <xsl:if test="@大会代表">◎</xsl:if>
+      <xsl:if test="@大会代表[.='yes']">◎</xsl:if>
       <xsl:apply-templates select="団体名"/>
       (<xsl:apply-templates select="所属県"/>
       <xsl:apply-templates select="形態"/>
