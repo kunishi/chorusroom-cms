@@ -392,6 +392,7 @@
   <!-- clean -->
   <target name="clean">
     <delete dir="${build.html.iso}"/>
+    <delete dir="${build.html.utf8}"/>
     <delete dir="${build.lib}"/>
     <delete dir="${build.concours}"/>
     <delete dir="${build.genxml}"/>
