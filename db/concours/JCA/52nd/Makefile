@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.33 1999/10/01 11:36:14 kunishi Exp $
+# $Id: Makefile,v 1.34 1999/10/05 04:43:53 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -11,7 +11,10 @@ EUCTOJIS=	nkf
 INSTFILES+=	index.html index.utfhtml
 INSTFILES+=	aichi.html aichi.utfhtml
 INSTFILES+=	chiba.html chiba.utfhtml
-INSTFILES+=	chubu.html chubu.utfhtml chubu-saiten.html chubu-saiten.utfhtml
+INSTFILES+=	chubu-09-25.html chubu-09-25.utfhtml \
+		chubu-09-25-saiten.html chubu-09-25-saiten.utfhtml \
+		chubu-09-26.html chubu-09-26.utfhtml \
+		chubu-09-26-saiten.html chubu-09-26-saiten.utfhtml
 INSTFILES+=	chugoku.html chugoku.utfhtml
 INSTFILES+=	fukuoka.html fukuoka.utfhtml
 INSTFILES+=	fukushima.html fukushima.utfhtml
@@ -52,13 +55,22 @@ index.html: %.html : %.xml ${XHTML10_XSL}
 index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 
-kansai-09-23.html kansai-10-17.html:	kansai.xml
+chubu-09-25.html chubu-09-26.html:	chubu.xml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-kansai-09-23.utfhtml kansai-10-17.utfhtml:	kansai.utfxml
+chubu-09-25.utfhtml chubu-09-26.utfhtml:	chubu.utfxml
+	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+
+kansai-09-23.html kansai-10-17.html kansai-10-24.html:	kansai.xml
+	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+
+kansai-09-23.utfhtml kansai-10-17.utfhtml kansai-10-24.utfhtml:	kansai.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ## dummy target.
 ## *-saiten.{html,utfhtml} is actually generated from *.xml.
-chubu-saiten.utfhtml:
+chubu-09-25.utfhtml:
+chubu-09-25-saiten.utfhtml:
+chubu-09-26.utfhtml:
+chubu-09-26-saiten.utfhtml:
 kansai-09-23-saiten.utfhtml:
