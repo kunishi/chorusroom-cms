@@ -1,11 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 3)</title>
   </head>
-
   <body>
     <h1>第48回全日本合唱コンクール全国大会の結果(その3)</h1>
     指揮、伴奏、演奏曲目などのデータを添えたバージョンです。各部門ごとに
@@ -33,7 +37,7 @@
 	<ul>
 	  <li> 指揮:倉橋亮介/Piano:村岡生子</li>
 	  <li> G4</li>
-	  <li> S\"avel(作詩:Lauri Pohjanp\"a\"a/作曲:Toivo Kuula)</li>
+	  <li> S&auml;vel(作詩:Lauri Pohjanp&auml;&auml;/作曲:Toivo Kuula)</li>
 	  <li> Auringon Noustessa(作詩:V.A.Koskenniemi/作曲:Tovo
 	    Kuula)</li>
 	</ul></li>
@@ -77,8 +81,8 @@
 	<ul>
 	  <li> 指揮: 藤井宏樹</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> 「S\"ugismaastikud」(作詩:Viivi Luik/作曲:Veljo
-	    Tormis)から K\'ulm S\"ugis\"o\"o</li>
+	  <li> 「S&uuml;gismaastikud」(作詩:Viivi Luik/作曲:Veljo
+	    Tormis)から K&uacute;lm S&uuml;gis&ouml;&ouml;</li>
 	  <li> Benedictio(作曲:Urmas sisask)</li>
 	</ul></li>
       <li> 愛媛大学合唱団(愛媛県:四国支部、銅賞)
@@ -89,13 +93,10 @@
 	    下牧子)から V. ティオの夜の旅</li>
 	</ul></li>
     </ul>
-
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
-
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Sun Dec 14 12:21:25 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 04:27:25 $
+  </body>
+ </html>
