@@ -1,38 +1,42 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html lang="ja">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: index.xml,v 1.9 1999/06/15 04:44:10 kunishi Exp $ -->
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../../../style/default.css" type="text/css" rel="stylesheet">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <title>Chorus Room/Links:Information:Genre</title>
+    <!-- $Id: index.xml,v 1.10 1999/08/22 13:43:38 kunishi Exp $ -->
+    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <title>Chorus Room/Links:Information:Genre</title></link>
   </head>
   <body>
-    <h1><a href="../../../">合唱の部屋</a>:<a href="../../">リンク集</a>:<a href="../">情報</a>:分野</h1>
+    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">情報</a>:分野</h1>
     <ul>
-      <li><a href="http://member.nifty.ne.jp/amabile/childrenschoir.html">児童合唱頁</a> 山本哲さん。</li>
-      <li><a href="http://ai-www.aist-nara.ac.jp/~tomohi-f/Bulgaria/bulgarian_voice.html">ブルガリアの女声合唱</a> 福原知宏さん。フィリップ・クーテフ(Philip Koutev) の創設した女声合唱団演奏によるアルバムを中心としたCD 情報や，クーテフ編曲による合唱曲や他の作曲家によるブルガリア少年少女合唱曲の MIDI ファイルなど。</li>
-      <li><a href="http://www.icpc.fukui-u.ac.jp/~q010190/chorus.htm">CHORUS ROOM</a> 京岡成典さん作。合唱情報について交歓するページ。(国島注: 名前が似ていますが、この「合唱の部屋」とは違うページです)</li>
-      <li><a href="http://www.ne.jp/asahi/jurassic/page/">ジュラシック・ページ</a> 山江晶さん作。「仙台ニューフィルハーモニー管弦楽団」が発行している会報「かいほうげん」の WWW ページ版。ページ中の「合唱の森」には、合唱に関するさまざまなテーマに関する詳細な文章が書かれている。</li>
-      <li><a href="http://village.infoweb.or.jp/~fwht1967/index.htm">&lt;エニグマ&gt;のホームページ</a>
+      <li><a href="http://member.nifty.ne.jp/amabile/childrenschoir.html" shape="rect">児童合唱頁</a> 山本哲さん。</li>
+      <li><a href="http://ai-www.aist-nara.ac.jp/~tomohi-f/Bulgaria/bulgarian_voice.html" shape="rect">ブルガリアの女声合唱</a> 福原知宏さん。フィリップ・クーテフ(Philip Koutev) の創設した女声合唱団演奏によるアルバムを中心としたCD 情報や，クーテフ編曲による合唱曲や他の作曲家によるブルガリア少年少女合唱曲の MIDI ファイルなど。</li>
+      <li><a href="http://www.icpc.fukui-u.ac.jp/~q010190/chorus.htm" shape="rect">CHORUS ROOM</a> 京岡成典さん作。合唱情報について交歓するページ。(国島注: 名前が似ていますが、この「合唱の部屋」とは違うページです)</li>
+      <li><a href="http://www.ne.jp/asahi/jurassic/page/" shape="rect">ジュラシック・ページ</a> 山江晶さん作。「仙台ニューフィルハーモニー管弦楽団」が発行している会報「かいほうげん」の WWW ページ版。ページ中の「合唱の森」には、合唱に関するさまざまなテーマに関する詳細な文章が書かれている。</li>
+      <li><a href="http://village.infoweb.or.jp/~fwht1967/index.htm" shape="rect">&lt;エニグマ&gt;のホームページ</a>
 	エドワード・エルガーを中心とする、イギリス近現代の作曲家の紹介。日本の絶版/未出版男声合唱曲。など。
       </li>
-      <li><a href="http://www.tky.3web.ne.jp/~yusano/classic.html">クラシックマガジン</a>
+      <li><a href="http://www.tky.3web.ne.jp/~yusano/classic.html" shape="rect">クラシックマガジン</a>
 	さのゆたかさん作。クラシックに関するメールマガジン。
       </li>
-      <li><a href="http://www.tky.3web.ne.jp/~cfujita/">藤田音楽室</a>
+      <li><a href="http://www.tky.3web.ne.jp/~cfujita/" shape="rect">藤田音楽室</a>
 	藤田千加志さん作。声楽をはじめとする主要楽器の専門家による
 	オンラインヘルプのページ。楽器では東京都響(Fg.岡本氏、首席)、
 	日フィル(Vn.Trb)などの現役奏者が参加しています。
       </li>
-      <li><a href="http://sakura.kek.jp/~taira/music/">Early Music Information (by 平舘優さん)</a><br>
+      <li><a href="http://sakura.kek.jp/~taira/music/" shape="rect">Early Music Information (by 平舘優さん)</a><br/>
 	古楽とその周辺に関する情報発信ページ。古楽コンサートのリポート、
 	古楽作曲家の紹介、古楽演奏会情報、リンク集など、
 	ルネッサンス期以前の音楽に興味のある方は一度訪ねてみる価値のあるページです。
-	その他、全国各地のホールのページへのリンク集もあります。</li>
+	その他、全国各地のホールのページへのリンク集もあります。</br></li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-Last modified: $Date: 1999/06/15 04:44:10 $
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    Last modified: $Date: 1999/08/22 13:43:38 $
   </body>
 </html>

@@ -1,20 +1,24 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../../../style/default.css" type="text/css" rel="stylesheet">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
     <title>Chorus Room/Links:Information:Halls</title>
   </head>
   <body>
-    <h1><a href="../../../">合唱の部屋</a>:<a href="../../">リンク集</a>:<a href="../">情報</a>:ホール情報</h1>
+    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">情報</a>:ホール情報</h1>
     <ul>
-      <li><a href="http://member.nifty.ne.jp/bonbon/hall/index.html">愛知岐阜三重のコンサートホールの紹介</a></li>
+      <li><a href="http://member.nifty.ne.jp/bonbon/hall/index.html" shape="rect">愛知岐阜三重のコンサートホールの紹介</a></li>
       <li>平舘優さんによる、音楽ホールホームページリスト
-	(<a href="http://sakura.kek.jp/~taira/music/">Early Music Information</a>内)</li>
+	(<a href="http://sakura.kek.jp/~taira/music/" shape="rect">Early Music Information</a>内)</li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-    $Date: 1999/06/05 00:05:51 $
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/22 13:46:37 $
   </body>
 </html>

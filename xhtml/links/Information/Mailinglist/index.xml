@@ -1,29 +1,27 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
-<head>
-<!-- $Id: index.xml,v 1.4 1999/06/15 04:41:14 kunishi Exp $ -->
-<meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-<link href="mailto:<kunishi@c.oka-pu.ac.jp>" rev="made">
-<link href="../../../style/default.css" type="text/css" rel="stylesheet">
-<title>Chorus Room/Links:Information:Mailinglist</title>
-</head>
-<body>
-<h1><a href="../../../">合唱の部屋</a>:<a href="../../">リンク集</a>:<a href="../">情報</a>:メーリングリスト</h1>
-<ul>
-<li><a href="http://village.infoweb.ne.jp/~abeken/gassyo_ml_f3.html">中高生のための合唱メーリングリスト</a></li>
-<li><a href="http://web.kyoto-inet.or.jp/people/yutaka70/naiskuoro.html">女声合唱メーリングリスト naiskuoro</a> 前川裕さんが管理しています。</li>
-<li><a href="http://member.nifty.ne.jp/amabile/amabile.html">児童合唱メイリングリスト</a> by 山本哲さん。</li>
-<li><a href="http://www.na.rim.or.jp/~kkawai/jamca/jamca.htm">日本男声合唱協会(JAMCA)メーリングリスト</a> 誰でも参加できます。</li>
-<li><a href="/chorusRoom/hml/">ハーモニーメーリングリスト(HML)</a></li>
-</ul>
-<hr>
-<address><a href="mailto:<kunishi@c.oka-pu.ac.jp>">KUNISHIMA Takeo/国島丈生</a></address>
-Last updated: $Date: 1999/06/15 04:41:14 $
-</body>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <!-- $Id: index.xml,v 1.5 1999/08/22 13:50:08 kunishi Exp $ -->
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
+    <title>Chorus Room/Links:Information:Mailinglist</title>
+  </head>
+  <body>
+    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">情報</a>:メーリングリスト</h1>
+    <ul>
+      <li><a href="http://village.infoweb.ne.jp/~abeken/gassyo_ml_f3.html" shape="rect">中高生のための合唱メーリングリスト</a></li>
+      <li><a href="http://web.kyoto-inet.or.jp/people/yutaka70/naiskuoro.html" shape="rect">女声合唱メーリングリスト naiskuoro</a> 前川裕さんが管理しています。</li>
+      <li><a href="http://member.nifty.ne.jp/amabile/amabile.html" shape="rect">児童合唱メイリングリスト</a> by 山本哲さん。</li>
+      <li><a href="http://www.na.rim.or.jp/~kkawai/jamca/jamca.htm" shape="rect">日本男声合唱協会(JAMCA)メーリングリスト</a> 誰でも参加できます。</li>
+      <li><a href="/chorusRoom/hml/" shape="rect">ハーモニーメーリングリスト(HML)</a></li>
+    </ul>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    Last updated: $Date: 1999/08/22 13:50:08 $
+  </body>
 </html>
-<!--
-Local Variables:
-mode: sgml
-sgml-indent-step: nil
-End:
--->
