@@ -73,6 +73,7 @@ start =
           element choir-name {
             attribute xml:lang { xsd:string }?,
             attribute url { xsd:anyURI }?,
+             attribute choidref { xsd:string }?,
             mixed { utf8-char? }
           },
           element prefecture { xsd:string }?,

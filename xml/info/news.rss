@@ -9,10 +9,50 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml"></rdf:li>
+	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml"></rdf:li>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0925/renewal.html"></rdf:li>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0924/linkupdate.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml">
+    <title>第42回中国合唱コンクール(第2日)</title>
+    <link>http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml</link>
+    <description>
+      9月21日に行われた中国支部大会(中学・一般)の結果です。島根大学附属中、島根第三中、出雲第一中、女声合唱団フィオーリ、ゾリステン・アンサンブル、合唱団あるが代表になりました。賞のみ。
+    </description>
+    <dc:date>2003-09-26</dc:date>
+  </item>
+
+  <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml">
+    <title>第42回中国合唱コンクール(第1日)</title>
+    <link>http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml</link>
+    <description>
+      9月20日に行われた中国支部大会(高校・大学・職場)の結果です。出雲高、安田女子高、松江北高、山口大、広島市役所合唱団が代表になりました。賞のみ。
+    </description>
+    <dc:date>2003-09-26</dc:date>
+  </item>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/0926/renewal.html">
+    <title>合唱団リンク集の改良</title>
+    <link>http://www.chorusroom.org/links/Choir/index.xhtml</link>
+    <description>
+      合唱団ごとに個別のページを作り、Google検索の機能を追加しました。リンク切れ、サイト内検索などにご利用ください。
+    </description>
+    <dc:date>2003-09-25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/0925/linkupdate.html">
+    <title>本日のリンク更新情報</title>
+    <link>http://www.chorusroom.org/links/Choir/index.xhtml</link>
+    <description>
+      東京大学柏葉会合唱団(大学・東京、URL変更)、男声合唱団イル・カンパニーレ(一般・埼玉、URL変更)
+    </description>
+    <dc:date>2003-09-24</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml">
     <title>第56回関西コンクール(中学校・高等学校部門)</title>

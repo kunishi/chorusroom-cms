@@ -181,7 +181,7 @@
     <xslt basedir='xhtml' destdir='${xhtml}'
 	  style='${lib}/xslt/extract-all.xsl'
 	  extension='.xml' processor='trax'
-	  includes='**/*.xml' classpathref='xalan2.class.path'>
+	  includes='**/*.xhtml' classpathref='xalan2.class.path'>
       <xmlcatalog refid='chorusroom.dtd'/>
       <param name='choirDbDir' expression='${basedir}/db/choir/'/>
     </xslt>

@@ -329,10 +329,10 @@
   <xsl:template match="c:choir-name">
     <span class="choir-name">
       <xsl:choose>
-        <xsl:when test="@url">
+        <xsl:when test="@choidref">
           <xsl:element name="a">
             <xsl:attribute name="href">
-              <xsl:value-of select="@url"/>
+              <xsl:value-of select="concat('/choir/',substring(@choidref,0,3),'/',@choidref,'/',@choidref,'.html')"/>
             </xsl:attribute>
             <xsl:apply-templates/>
           </xsl:element>
