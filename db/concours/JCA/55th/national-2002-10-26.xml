@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://www.chorusroom.org/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: national-2002-10-26.xml,v 1.2 2002/10/28 04:04:38 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: national-2002-10-26.xml,v 1.3 2002/10/28 04:15:26 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第55回全日本合唱コンクール全国大会</competition-name>
   <result output="national-2002-10-26">
     <date day-of-week="sat" holiday="false">2002-10-26</date>
@@ -1030,7 +1030,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Ambtož Čopi</p:composed-by>
+	      <p:composed-by>Ambto<cr:utf8-char nickname="zcaron">ž</cr:utf8-char> <cr:utf8-char nickname="Ccaron">Č</cr:utf8-char>opi</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>De Maria Virgine</p:mainTitle>
 	      </p:title>
