@@ -22,7 +22,7 @@
 
 <!ELEMENT 大会名 (#PCDATA)>
 
-<!ELEMENT 開催日別結果 (開催日?, 開催時刻?, 開催場所?, 審査員*, 報告者+, 注記?, 部門結果+)>
+<!ELEMENT 開催日別結果 (開催日*, 開催時刻?, 開催場所?, 審査員*, 報告者+, 注記?, 部門結果+)>
 <!ELEMENT 開催日 (#PCDATA)>
 <!-- 開催日のフォーマットは YYYY-MM-DD -->
 <!ATTLIST 開催日
@@ -34,7 +34,8 @@
 
 <!ELEMENT 審査員 (#PCDATA)>
 <!ATTLIST 審査員
-          肩書 CDATA #IMPLIED>
+          肩書 CDATA #IMPLIED
+          備考 CDATA #IMPLIED>
 
 <!ELEMENT 報告者 (#PCDATA)>
 <!ATTLIST 報告者
