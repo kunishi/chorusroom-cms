@@ -4,7 +4,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <xsl:template match="xi:include">
-    <xsl:apply-templates select="document(@href)/"/>
+    <xsl:apply-templates select="document(@href)"/>
   </xsl:template>
 
 </xsl:stylesheet>
