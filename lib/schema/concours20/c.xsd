@@ -151,7 +151,7 @@
   <xs:element name="instrument">
     <xs:complexType mixed="true">
       <xs:attribute name="kind" use="required"/>
-      <xs:attribute name="note" use="required"/>
+      <xs:attribute name="note"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="freeNumber" type="p:free-playing-number"/>
