@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/contest-result-v20.rnc" type="compact"?>
+<result xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" moduleVersion="2.0">
+    <competitionName pref="true">平成15年度(第70回) NHK全国学校音楽コンクール栃木県コンクール</competitionName>
+    <date dayOfWeek="sat">2003-08-23</date>
+    <hall>宇都宮市立文化会館大ホール</hall>
+    <section>
+        <sectionName>高等学校の部</sectionName>
+        <choir>
+            <prize nickname="gold">金賞</prize>
+            <name>栃木県立栃木女子高等学校</name>
+            <type nickname="female">女声</type>
+            <special-prize>代表</special-prize>
+            <players>
+                <conductor>須藤礼子</conductor>
+                <piano>高岩利恵</piano>
+            </players>
+            <freeNumber>女声合唱とピアノのための「<p:suiteTitle>女に 第2集</p:suiteTitle>」から 「<p:title>ともに—……</p:title>」 （<p:wordsBy>谷川 俊太郎</p:wordsBy>作詩・<p:composedBy>鈴木輝昭</p:composedBy>作曲）</freeNumber>
+        </choir>
+        <choir>
+            <prize nickname="silver">銀賞</prize>
+            <name>栃木県立真岡女子高等学校</name>
+            <type nickname="female">女声</type>
+            <players>
+                <conductor>川田明良</conductor>
+                <piano performed="assigned">高濱絵里子</piano>
+            </players>
+            <freeNumber>女声合唱のための無伴奏小品集「<p:suiteTitle>愛のとき</p:suiteTitle>」から <p:title>４．霧明け</p:title> （<p:wordsBy>木島始</p:wordsBy>作詩・<p:composedBy>高嶋みどり</p:composedBy>作曲）</freeNumber>
+        </choir>
+        <choir>
+            <prize nickname="blonze">銅賞</prize>
+            <name>栃木県立矢板東高等学校</name>
+            <type nickname="mixed">混声</type>
+            <players>
+                <conductor>手塚淳雄</conductor>
+                <piano>阿久津正行</piano>
+            </players>
+            <freeNumber>混声合唱組曲「<p:suiteTitle>かみさまへのてがみ</p:suiteTitle>」から 「<p:title>かみさまへのてがみ</p:title>」 （<p:wordsBy>谷川俊太郎</p:wordsBy>作詩・<p:composedBy>高嶋みどり</p:composedBy>作曲）</freeNumber>
+        </choir>
+    </section>
+</result>
