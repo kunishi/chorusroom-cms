@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.39 2000/10/03 11:34:57 kunishi Exp $
+# $Id: GNUmakefile,v 1.40 2000/10/04 15:46:04 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -61,10 +61,6 @@ upload:
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_UTF8}
-ifdef USE_XALAN
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} -in $< -xsl ${XHTML10_XSL_UTF8} -out $@
-else
-	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
-endif
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
