@@ -1,0 +1,117 @@
+namespace c = "http://www.chorusroom.org/xml"
+namespace p = "http://www.chorusroom.org/piece"
+default namespace = "http://www.w3.org/1999/xhtml"
+
+include "xhtml-modules/datatypes.rnc"
+include "xhtml-modules/attrib.rnc"
+include "xhtml-modules/text.rnc"
+include "xhtml-modules/hypertext.rnc"
+include "xhtml-modules/list.rnc"
+
+start =
+    element c:result {
+        attribute moduleVersion { "2.0" },
+        element c:competitionName {
+            attribute pref { "true" }?,
+            attribute area { "true" }?,
+            xsd:string
+        },
+        element c:date {
+            attribute dayOfWeek { "sun" | "mon" | "tue" | "wed" | "thu" | "fri" | "sat" },
+            text
+        }*,
+        element c:hall { text }?,
+        element c:referee {
+            attribute job { text }?,
+            attribute shortname { text }?,
+            attribute note { text }?,
+            text
+        }*,
+        element c:notice { Flow.model }?,
+        element c:section {
+            element c:sectionName { xsd:string },
+            choir+
+        }+
+    }
+choir =
+    element c:choir {
+        element c:name {
+            attribute id { text }?,
+            xsd:string
+        }
+        & element c:playingOrder { xsd:integer }?
+        & element c:type { "general" | "male" | "female" | "same-voice" | "children" }?
+        & element c:prefecture { text }?
+        & element c:number { xsd:integer }?
+        & element c:players { players }?
+        & element c:prize {
+              attribute nickname { "seed" | "gold" | "silver" | "blonze" | "none" },
+              text
+          }
+        & element c:special-prize { text }?
+        & element c:note { text }?
+        & playing-number?
+    }
+players =
+    (element c:conductor {
+         attribute grade { xsd:integer }?,
+         attribute performed { "assigned" | "free" }?,
+         text
+     }
+     | element c:piano {
+           attribute id { text }?,
+           attribute grade { xsd:integer }?,
+           attribute performed { "assigned" | "free" }?,
+           text
+       }
+     | element c:instrument {
+           attribute kind { text },
+           attribute grade { xsd:integer }?,
+           attribute performed { "assigned" | "free" }?,
+           text
+       })+
+playing-number =
+    (element c:freeNumber {
+        free-playing-number
+        }+
+    & element c:assignedNumber {
+                attribute ref { xsd:anyURI },
+               attribute number {
+                  "G1"
+                  | "G2"
+                  | "G3"
+                  | "G4"
+                  | "M1"
+                  | "M2"
+                  | "M3"
+                  | "M4"
+                  | "F1"
+                  | "F2"
+                  | "F3"
+                  | "F4"
+                  | "elementary"
+                  | "junior"
+                  | "senior"
+              },
+              empty
+         }?
+    )
+free-playing-number =
+    attribute part { xsd:string }?,
+    (text
+     | piece
+     | element p:suiteTitle {
+           attribute xml:lang { xsd:language }?,
+           xsd:string
+       })*
+piece =
+    (text
+     | element p:wordsBy { xsd:string }
+     | element p:composedBy { xsd:string }
+     | element p:arrangedBy { xsd:string }
+     | element p:translatedBy { xsd:string }
+     | element p:originatedFrom { xsd:string }
+     | element p:title {
+           attribute xml:lang { xsd:language }?,
+           xsd:string
+       })*
