@@ -5,8 +5,6 @@ CLASSPATH=${XALAN_HOME}/bin/xerces.jar:${XALAN_HOME}/bin/xalan.jar:${XALAN_HOME}
 export CLASSPATH
 XALAN_CLASS=org.apache.xalan.xslt.Process
 
-JAVA_HOME=/usr/local/linux-jdk1.3.1; export JAVA_HOME
-JAVA=${JAVA_HOME}/bin/java
+JAVA=/usr/local/bin/javavm
 
-echo ${JAVA} ${XALAN_CLASS} $*
 ${JAVA} ${XALAN_CLASS} $*

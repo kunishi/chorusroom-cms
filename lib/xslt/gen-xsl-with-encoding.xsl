@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-xsl-with-encoding.xsl,v 1.1 2001/01/03 05:20:26 kunishi Exp $ -->
+<!-- $Id: gen-xsl-with-encoding.xsl,v 1.2 2001/12/16 11:30:50 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -7,7 +7,8 @@
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:char="http://www.chorusroom.org/character"
-		xmlns="http://www.w3.org/1999/xhtml">
+		xmlns="http://www.w3.org/1999/xhtml"
+		extension-element-prefixes="redirect">
 
   <xsl:param name="output-encoding">utf-8</xsl:param>
 
