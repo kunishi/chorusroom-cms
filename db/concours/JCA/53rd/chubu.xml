@@ -4,7 +4,7 @@
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <大会>
-  <CVSID>$Id: chubu.xml,v 1.7 2000/10/06 15:32:54 kunishi Exp $</CVSID>
+  <CVSID>$Id: chubu.xml,v 1.8 2000/10/06 15:35:41 kunishi Exp $</CVSID>
   <大会名>第53回中部合唱コンクール</大会名>
   <開催日別結果 出力="chubu">
     <開催日 曜日="土">2000-09-23</開催日>
@@ -606,7 +606,7 @@
 	<曲目>
 	  <自由曲>
 	    <作詩>L&aacute;szl&oacute; Nagy</作詩>
-	    <作曲>Mikl&oacute;s Kocs&acute;r</作曲>
+	    <作曲>Mikl&oacute;s Kocs&aacute;r</作曲>
 	    <組曲 抜粋="no">
 	      <曲名>三つの女声合唱曲</曲名>
 	      <構成曲>
@@ -1471,13 +1471,13 @@
 	    <組曲 抜粋="yes">
 	      <曲名>組曲「Requiem」</曲名>
 	      <構成曲>
-		<作曲>INTROIT</作曲>
+		<曲名>INTROIT</曲名>
 	      </構成曲>
 	      <構成曲>
-		<作曲>REX TRMENDAE</作曲>
+		<曲名>REX TRMENDAE</曲名>
 	      </構成曲>
 	      <構成曲>
-		<作曲>SANCTUS</作曲>
+		<曲名>SANCTUS</曲名>
 	      </構成曲>
 	    </組曲>
 	  </自由曲>
