@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.57 2000/10/27 13:38:19 kunishi Exp $
+# $Id: GNUmakefile,v 1.58 2000/10/29 01:39:44 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -31,6 +31,7 @@ INSTFILES_HTML+=	tokyo.html
 INSTFILES_HTML+=	${TOHOKU_HTML}
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
+INSTFILES_HTML+=	${HIGHSCHOOL_HTML}
 
 KANSAI_HTML=		kansai-highschool.html \
 			kansai-general.html \
@@ -43,6 +44,7 @@ HOKKAIDO_HTML=		hokkaido-2000-09-24.html hokkaido-2000-10-08.html
 TOHOKU_HTML=		tohoku-2000-09-29.html \
 			tohoku-2000-09-30.html \
 			tohoku-2000-10-01.html
+HIGHSCHOOL_HTML=	highschool-2000-10-28.html
 
 INSTFILES_HTML_SAITEN+=	chiba-saiten.html
 INSTFILES_HTML_SAITEN+=	chubu-saiten.html
@@ -97,6 +99,12 @@ index.utfhtml:	CSSFILE=default.css
 
 ${REDIRECT_HTML}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
 ${REDIRECT_HTML:%.html=%.utfhtml}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
+
+${HIGHSCHOOL_HTML:%.html=%.xml}: highschool.xml
+	${LN_S} $< $@
+
+${HIGHSCHOOL_HTML:%.html=%.utfxml}: highschool.utfxml
+	${LN_S} $< $@
 
 ${HOKKAIDO_HTML:%.html=%.xml}: hokkaido.xml
 	${LN_S} $< $@
