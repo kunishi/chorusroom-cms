@@ -45,7 +45,7 @@
 
 <!ELEMENT 部門結果 (部門名, 団体+, 採点表?)>
 <!ELEMENT 部門名 (#PCDATA)>
-<!ELEMENT 団体 (団体名, 所属県?, 形態?, 登録人数?, 指揮者*, 共演者*, 賞*, 特別賞*, 曲目?)>
+<!ELEMENT 団体 (団体名, 所属県?, 形態?, 登録人数?, 指揮者*, ピアノ*, 共演者*, 賞*, 特別賞*, 曲目?)>
 <!ATTLIST 団体
           大会代表 (yes) #IMPLIED
           来年度シード (yes) #IMPLIED>
@@ -59,6 +59,7 @@
 <!ELEMENT 登録人数 (#PCDATA)>
 <!-- 登録人数は数字だけ書く。単位(人)は書かない。 -->
 <!ELEMENT 指揮者 (#PCDATA)>
+<!ELEMENT ピアノ (#PCDATA)>
 <!ELEMENT 共演者 (#PCDATA)>
 <!ATTLIST 共演者
           演奏楽器 CDATA #REQUIRED>
@@ -69,7 +70,7 @@
 
 <!ELEMENT 課題曲 (#PCDATA)>
 <!-- 課題曲は記号で表記する。G[1-4], M[1-4], F[1-4] のいずれか。 -->
-<!ELEMENT 自由曲 (作詩?, 訳詩?, 出典?, 編曲?, 作曲?, (曲名|組曲))>
+<!ELEMENT 自由曲 (出典?, 作詩?, 訳詩?, 作曲?, 編曲?, (曲名|組曲))>
 <!ELEMENT 作詩 (#PCDATA)>
 <!ELEMENT 訳詩 (#PCDATA)>
 <!ELEMENT 出典 (#PCDATA)>
