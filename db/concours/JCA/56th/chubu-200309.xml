@@ -667,7 +667,7 @@
       </choir>
     </section>
     <section>
-      <section-name>高等学校部門 Aグループ</section-name>
+      <section-name date="2003-09-27">高等学校部門 Aグループ</section-name>
       <choir representative="true" seed="false" playing-order="13">
 	<choir-name>岐阜県立岐阜高等学校音楽部</choir-name>
 	<prefecture>岐阜</prefecture>
@@ -1077,11 +1077,37 @@
       </choir>
     </section>
     <section>
-      <section-name>高等学校部門 Bグループ</section-name>
-      <choir representative="true" seed="false">
+      <section-name date="2003-09-27">高等学校部門 Bグループ</section-name>
+      <choir representative="true" seed="false" playing-order="3">
 	<choir-name>愛知県立岡崎高等学校コーラス部</choir-name>
 	<prefecture>愛知</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-members>88</number-of-members>
+	<conductor>近藤惠子</conductor>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>宇宙への手紙</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>渇き</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
       <choir representative="true" seed="false">
 	<choir-name>石川県立金沢ニ水高等学校合唱部</choir-name>
@@ -1209,7 +1235,7 @@
 	<prize nickname="gold">金賞</prize>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ぎふジュニアヴォーカルアンサンブル</choir-name>
+	<choir-name choidref="CH200310051101">ぎふジュニアヴォーカルアンサンブル</choir-name>
 	<prefecture>岐阜</prefecture>
 	<prize nickname="gold">金賞</prize>
       </choir>
