@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: contest-result.rxm,v 1.4 2000/12/26 16:12:17 kunishi Exp $ -->
+<!-- $Id: contest-result.rxm,v 1.5 2001/01/02 05:47:02 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -157,16 +157,10 @@
     </mixed>
   </elementRule>
 
+  <attPool role="representative-attr-list"/>
   <tag name="choir">
+    <ref role="representative-attr-list"/>
     <attribute name="playing-order" type="positiveInteger"/>
-    <attribute name="representative" type="NMTOKEN">
-      <enumeration value="false"/>
-      <enumeration value="true"/>
-    </attribute>
-    <attribute name="seed" type="NMTOKEN">
-      <enumeration value="false"/>
-      <enumeration value="true"/>
-    </attribute>
   </tag>
   <elementRule role="choir">
     <sequence>
