@@ -20,12 +20,12 @@
       <dt> 会場</dt>
       <dd> 茨城県立県民文化センター</dd>
       <dt> 情報提供者</dt>
-      <dd> <a href="%%TOPDIR%%/hml/whatishml.html" shape="rect">HML</a>に流れた情報を元に、国島が再構成しました。<br/>
+      <dd> <a href="%%TOPDIR%%hml/whatishml.html" shape="rect">HML</a>に流れた情報を元に、国島が再構成しました。<br/>
 	河野慎治さん(<tt>ia6031@ia.inf.shizuoka.ac.jp</tt>)による情報を補
 	足。</dd>
     </dl>
     <hr/>
-    掲載順序はポイント(減点数)順と、同点の場合は演奏順となっています。
+    <p>掲載順序はポイント(減点数)順と、同点の場合は演奏順となっています。</p>
     <hr/>
     <h2>中学校の部</h2>
     <h3>
@@ -168,7 +168,9 @@
       <li> 都留文科大学合唱団 (山梨, 混・19)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:15:53 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 02:40:18 $ GMT</p>
+    </div>
   </body>
 </html>
