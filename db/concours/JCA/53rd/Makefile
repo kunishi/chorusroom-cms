@@ -1,13 +1,12 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.16 2000/08/30 07:53:08 kunishi Exp $
+# $Id: Makefile,v 1.17 2000/08/30 11:39:26 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
 INSTFILES_HTML+=	ehime.html
 INSTFILES_HTML+=	fukuoka.html
 INSTFILES_HTML+=	gunma.html
-INSTFILES_HTML+=	${INSTFILES_HTML_HOKKAIDO}
 INSTFILES_HTML+=	hyogo.html
 INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
 INSTFILES_HTML+=	kagawa.html
@@ -16,8 +15,6 @@ INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
-
-INSTFILES_HTML_HOKKAIDO=	hokkaido-2000-09-12.html
 
 INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
 
@@ -62,12 +59,6 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
-
-${INSTFILES_HTML_HOKKAIDO:%.html=%.jhtml}: hokkaido.xml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
-
-${INSTFILES_HTML_HOKKAIDO:%.html=%.uhtml}: hokkaido.utfxml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ###
 ishikawa-saiten.jhtml: ishikawa.xml
