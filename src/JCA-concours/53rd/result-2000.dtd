@@ -37,11 +37,16 @@
           肩書 CDATA #IMPLIED
           備考 CDATA #IMPLIED>
 
-<!ELEMENT 報告者 (#PCDATA)>
+<!ELEMENT 報告者 (報告者氏名, email)>
 <!ATTLIST 報告者
-          email CDATA #REQUIRED
-          匿名希望 (yes|no) #IMPLIED
+          匿名希望 (yes|no) #IMPLIED>
+<!ELEMENT 報告者氏名 (#PCDATA)>
+<!ATTLIST 報告者氏名
+          ペンネーム CDATA #IMPLIED>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
           email匿名 (yes|no) #IMPLIED>
+
 <!ELEMENT 注記 (注記事項+)>
 <!ELEMENT 注記事項 (#PCDATA)>
 
