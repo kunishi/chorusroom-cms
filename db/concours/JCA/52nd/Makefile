@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.62 2000/10/09 17:06:18 kunishi Exp $
+# $Id: Makefile,v 1.63 2000/10/10 00:40:02 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -69,7 +69,7 @@ include ${SRCTOPDIR}/rule.mk
 %-saiten.html: %.html
 	$(fixhtml)
 
-%-saiten.utfhtml: TIDY_ENCODING=utf8
+%-saiten.utfhtml: TIDY_ENCODING=-utf8
 %-saiten.utfhtml: %.utfhtml
 	$(fixhtml)
 

@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.27 2000/10/09 17:06:18 kunishi Exp $
+# $Id: rule.mk,v 1.28 2000/10/10 00:40:01 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -26,14 +26,14 @@ ifndef SPECIAL_RULES
 	$(xslt-transform)
 	${SLEEP} 1
 	$(fixhtml)
-%.utfhtml: TIDY_ENCODING=utf8
+%.utfhtml: TIDY_ENCODING=-utf8
 %.utfhtml: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
 
 %.u8.html: %.utfxml ${DEFAULT_XSL_UTF8}
 	$(xslt-transform)
 	${SLEEP} 1
 	$(fixhtml)
-%.u8.html: TIDY_ENCODING=utf8
+%.u8.html: TIDY_ENCODING=-utf8
 %.u8.html: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
 
 %.style: %.xsl
@@ -54,12 +54,7 @@ ifdef SUBDIR
 endif
 
 install:	install-subdir
-ifdef INSTFILES
-	${SYNC_TOOL} ${INSTFILES} ${INSTTOPDIR}${RELPATH}
-endif
-ifdef INSTFILES_NOBUILD
-	${SYNC_TOOL} ${INSTFILES_NOBUILD} ${INSTTOPDIR}${RELPATH}
-endif
+	${SYNC_TOOL} ${INSTFILES} ${INSTFILES_NOBUILD} ${INSTTOPDIR}${RELPATH}
 
 install-subdir:
 ifdef SUBDIR
