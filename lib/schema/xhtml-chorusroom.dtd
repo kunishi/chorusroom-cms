@@ -1,0 +1,26 @@
+<!--
+
+     DTD for chorusRoom WWW site.
+     1999 (c) Takeo Kunishima, all rights reserved.
+
+     This DTD is actually a wrapper on XHTML DTD.  The purpose is
+     to add some necessary entity declaration, including conditinal
+     section, into the external subset.
+
+     $Id: xhtml-chorusroom.dtd,v 1.1 1999/11/02 06:55:37 kunishi Exp $
+ 
+  -->
+
+<!--
+  XHTML 1.0 Strict DTD.  Note that its public URL is changed to
+  localhost's URL, in order to avoid any external connections 
+  during XML processings.
+ -->
+<!ENTITY % xhtml-dtd PUBLIC
+  "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd">
+%xhtml-dtd;
+
+<!-- entity definitions for chorusRoom WWW. -->
+<!ENTITY % global-ent SYSTEM "global.ent">
+%global-ent;
