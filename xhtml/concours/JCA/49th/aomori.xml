@@ -1,9 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
     <title>49th AJCL Chorus Contest/Aomori</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
   </head>
   <body>
     <h1>
@@ -19,7 +24,7 @@
       <dt> 情報提供者</dt>
       <dd> 今岡和志さん(<tt>imaoka@mb.infoaomori.or.jp</tt>)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>
       高校の部
     </h2>
@@ -95,7 +100,7 @@
 	    「子守歌」「定期市の商人」</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部</h2>
     <h3>
       銀賞
@@ -107,7 +112,7 @@
 	  <li> Cimarosa/Requiemより Lacrimosa; Sanctus; Benedictus</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -140,10 +145,10 @@
 	  <li> G.Faure/Requiemより「Agnus Dei」</li>
 	</ul></li>
     </ul>
-    <hr>
-    [ <a href="./">第49回全日本合唱コンクールのページ</a>
-    | <a href="../">「合唱の部屋」ホームページ</a> ]
-    <hr>
-    <address> KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
+    <hr/>
+    [ <a href="./" shape="rect">第49回全日本合唱コンクールのページ</a>
+    | <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
   </body>
 </html>

@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title>49th AJCL Chorus Contest/Chubu</title>
   </head>
   <body>
@@ -15,10 +20,10 @@
       <dt> 会場</dt>
       <dd> 金沢市観光会館</dd>
       <dt> 情報提供者</dt>
-      <dd> 松園 正さん(<tt>matuzono@inaei.cti.co.jp</tt>)<br>
-	匿名希望氏(先方の希望により、お名前は伏せさせて頂きます)</dd>
+      <dd> 松園 正さん(<tt>matuzono@inaei.cti.co.jp</tt>)</dd>
+      <dd>匿名希望氏(先方の希望により、お名前は伏せさせて頂きます)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>大学の部</h2>
     <h3>
       金賞
@@ -61,7 +66,7 @@
     <ul>
       <li> 新日鐵名古屋合唱団(愛知)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部A</h2>
     <h3>
       シード団体
@@ -113,9 +118,9 @@
       <li> 敦賀市民合唱団(福井)
 	<ul>
 	  <li> G1</li>
-	  <li> M. Durufle/QUATRE MOTETS SUR DES THEMES GREGORIENS<br>
+	  <li> M. Durufle/QUATRE MOTETS SUR DES THEMES GREGORIENS<br/>
 	    1. Ubi caritas; 2. Tota pulchra es; 3. Tu es Petrus;
-	    4. Tantum ergo</li>
+	    4. Tantum ergo</br></li>
 	</ul></li>
       <li> コールONE(岐阜)
 	<ul>
@@ -174,9 +179,9 @@
       <li> 合唱団「あるも」(富山)
 	<ul>
 	  <li> G2</li>
-	  <li> E. Rautavaara/&quot;Suite&quot; de Lorca(ロルカ組曲)<br>
+	  <li> E. Rautavaara/&quot;Suite&quot; de Lorca(ロルカ組曲)<br/>
 	    1. Cancion de jinete(騎馬行); 2. El Grito(叫び声); 3. La
-	    luna asoma(月の出); 4. Malaguena(マラゲーニャ)</li>
+	    luna asoma(月の出); 4. Malaguena(マラゲーニャ)</br></li>
 	</ul></li>
     </ul>
     <h3>銅賞</h3>
@@ -199,10 +204,10 @@
 	</ul></li>
 	
     </ul>
-    <hr>
-    [ <a href="./">第49回全日本合唱コンクールのページ</a>
-    | <a href="../">「合唱の部屋」ホームページ</a> ]
-    <hr>
-    <address> KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
+    <hr/>
+    [ <a href="./" shape="rect">第49回全日本合唱コンクールのページ</a>
+    | <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
   </body>
 </html>
