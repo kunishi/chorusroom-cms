@@ -6,9 +6,12 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.15 2000/08/26 02:16:13 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.16 2000/09/13 10:48:28 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>Links Page to Other Choirs/Company</title>
   </head>
   <body>
@@ -68,6 +71,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:13 $
+    $Date: 2000/09/13 10:48:28 $
   </body>
 </html>

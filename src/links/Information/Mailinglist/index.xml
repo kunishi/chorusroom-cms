@@ -6,9 +6,12 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.9 2000/08/26 02:16:17 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.10 2000/09/13 10:48:33 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>Chorus Room/Links:Information:Mailinglist</title>
   </head>
   <body>
@@ -22,6 +25,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    Last updated: $Date: 2000/08/26 02:16:17 $
+    Last updated: $Date: 2000/09/13 10:48:33 $
   </body>
 </html>
