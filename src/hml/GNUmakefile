@@ -1,13 +1,10 @@
 # 
-# $Id: GNUmakefile,v 1.5 2001/01/12 12:03:14 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/01/20 10:49:58 kunishi Exp $
 # 
 
 USE_NEW_SCHEME=	yes
 
-INSTFILES+=	choir.html \
-		index.html \
-		member-homepage.html \
-		notice.html \
+INSTFILES+=	index.html \
 		whatishml.html
 
 include config.mk
