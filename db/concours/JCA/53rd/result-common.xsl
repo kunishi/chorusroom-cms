@@ -33,6 +33,8 @@
 	</xsl:element>
 	<xsl:element name="hr"/>
 	<xsl:apply-templates select="注記"/>
+	<xsl:call-template name="採点結果リンク"/>
+	<xsl:element name="hr"/>
 	<xsl:apply-templates select="部門結果"/>
 	<xsl:call-template name="footer"/>
       </xsl:element>
@@ -169,11 +171,27 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template name="採点結果リンク">
+    <xsl:if test="//採点結果">
+      <xsl:element name="li">
+	<xsl:element name="p">
+	  <xsl:text>採点表を</xsl:text>
+	  <xsl:element name="a">
+	    <xsl:attribute name="href">
+	      <xsl:value-of select="concat(@出力, '-saiten', $suffix)"/>
+	    </xsl:attribute>
+	    <xsl:text>別ページ</xsl:text>
+	  </xsl:element>
+	  <xsl:text>にまとめてあります。</xsl:text>
+	</xsl:element>
+      </xsl:element>
+    </xsl:if>
+  </xsl:template>
+
   <xsl:template match="注記">
     <xsl:element name="ul">
       <xsl:apply-templates/>
     </xsl:element>
-    <xsl:element name="hr"/>
   </xsl:template>
   <xsl:template match="注記事項">
     <xsl:element name="li">
