@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.6 2001/01/30 13:27:20 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.7 2001/01/31 10:33:45 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -718,6 +718,10 @@
   <xsl:template match="cr:score-note">
     <xsl:param name="current-choir"/>
     <td rowspan="1" colspan="1">
+      <xsl:if test="not(.='')">
+	<xsl:value-of select="."/>
+	<xsl:text> </xsl:text>
+      </xsl:if>
       <xsl:value-of select="$current-choir/cr:prize"/>
       <xsl:call-template name="choir-attr-saiten-list">
 	<xsl:with-param name="current-choir" select="$current-choir"/>
@@ -729,9 +733,6 @@
 	    <xsl:text>、</xsl:text>
 	  </xsl:if>
 	</xsl:for-each>
-      </xsl:if>
-      <xsl:if test="not(.='')">
-	<xsl:value-of select="."/>
       </xsl:if>
     </td>
   </xsl:template>
