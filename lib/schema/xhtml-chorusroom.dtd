@@ -7,9 +7,15 @@
      to add some necessary entity declaration, including conditinal
      section, into the external subset.
 
-     $Id: xhtml-chorusroom.dtd,v 1.3 2000/08/26 02:15:49 kunishi Exp $
+     $Id: xhtml-chorusroom.dtd,v 1.4 2000/08/28 00:09:35 kunishi Exp $
  
   -->
+
+<![%ascdoc;[
+<!ENTITY % latin1-ent SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/latin1-iso2022jp.ent">
+%latin1-ent;
+]]>
 
 <!--
   XHTML 1.0 Strict DTD.  Note that its public URL is changed to

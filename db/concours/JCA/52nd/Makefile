@@ -1,10 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.48 2000/08/26 02:16:08 kunishi Exp $
-
-UTFTOEUC=	hutrans | tcs -f utf -t ujis
-EUCTOJIS=	nkf
+# $Id: Makefile,v 1.49 2000/08/28 00:09:36 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -56,11 +53,18 @@ SPECIAL_RULES=		yes
 
 include ${SRCTOPDIR}/rule.mk
 
-%.html:	%.xml ${RESULT_XSL_COMMON}
+%.jhtml: %.xml ${RESULT_XSL_COMMON}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-%.utfhtml: %.utfxml ${RESULT_XSL_COMMON}
+%.html:	%.jhtml
+	${ASCII2EUC} $< | ${EUC2JIS} > $@
+	${HTML_FORMAT} -m -iso2022 $@
+
+%.uhtml: %.utfxml ${RESULT_XSL_COMMON}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+
+%.utfhtml: %.uhtml
+	${HTML_FORMAT} -utf8 < $< > $@
 
 ###
 
@@ -70,40 +74,35 @@ ${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" ${RESULT_XSL_COMMON}
 
 index.html: %.html : %.xml ${XHTML10_XSL}
-	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
+	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@
 	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
+	${HTML_FORMAT} -m -iso2022 $@
 
 index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
-
-${CHUBU_HTML}:	chubu.xml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
-
-${CHUBU_HTML:%.html=%.utfhtml}:	chubu.utfxml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
-
-${KANSAI_HTML}:	kansai.xml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
-
-${KANSAI_HTML:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
-
-${NATIONAL_HTML}: national.xml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
-
-${NATIONAL_HTML:%.html=%.utfhtml}: national.utfxml ${RESULT_XSL_COMMON}
-	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+	${HTML_FORMAT} -m -utf8 $@
 
 ## dummy target.
-## *-saiten.{html,utfhtml} is actually generated from *.xml.
-chubu-09-25.utfhtml:
-chubu-09-25-saiten.utfhtml:
-chubu-09-26.utfhtml:
-chubu-09-26-saiten.utfhtml:
-hokkaido-saiten.utfhtml:
-kansai-09-23-saiten.utfhtml:
-kansai-10-17-saiten.utfhtml:
-kanto-saiten.utfhtml:
+## *-saiten.{jhtml,uhtml} is actually generated from *.xml.
+hokkaido-saiten.jhtml: hokkaido.xml
+hokkaido-saiten.uhtml: hokkaido.utfxml
+kanto-saiten.jhtml: kanto.xml
+kanto-saiten.uhtml: kanto.utfxml
+nagano-saiten.jhtml: nagano.xml
+nagano-saiten.uhtml: nagano.utfxml
+${CHUBU_HTML:%.html=%.jhtml}:	chubu.xml ${RESULT_XSL_COMMON}
+#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+${CHUBU_HTML:%.html=%.uhtml}:	chubu.utfxml ${RESULT_XSL_COMMON}
+#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+${KANSAI_HTML:%.html=%.jhtml}:	kansai.xml ${RESULT_XSL_COMMON}
+#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+${KANSAI_HTML:%.html=%.uhtml}: kansai.utfxml ${RESULT_XSL_COMMON}
+#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+${NATIONAL_HTML:%.html=%.jhtml}: national.xml ${RESULT_XSL_COMMON}
+#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+${NATIONAL_HTML:%.html=%.uhtml}: national.utfxml ${RESULT_XSL_COMMON}
+#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+

@@ -1,12 +1,11 @@
 # 
-# $Id: Makefile,v 1.26 2000/08/26 02:15:47 kunishi Exp $
+# $Id: Makefile,v 1.27 2000/08/28 00:09:34 kunishi Exp $
 #
 
 RELPATH=	.
 SRCTOPDIR=	.
 
 INSTFILES+=	CDShop.html \
-		ajcl-contest.html \
 		asian960518.html \
 		faq.html \
 		gakufuShop.html \
@@ -14,9 +13,7 @@ INSTFILES+=	CDShop.html \
 		index.html \
 		info-note.html \
 		info-note2.html \
-		kovox.html \
 		misc.html \
-		47thajcl.html
 
 INSTFILES_NOBUILD+=	chorusroom-logo.png \
 			panaMusica-map.txt \
@@ -25,12 +22,7 @@ INSTFILES_NOBUILD+=	chorusroom-logo.png \
 			panaMusica.ps.gz \
 			toppage.css
 
-SUBDIR+=	48th \
-		49th \
-		50th \
-		51st \
-		JCA-concours \
-		ajcl \
+SUBDIR+=	ajcl \
 		concours \
 		hml \
 		image \
@@ -65,3 +57,4 @@ sync-upload:
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_ISO8859_1}
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_ASCII} > $@
+	${HTML_FORMAT} -m -utf8 $@

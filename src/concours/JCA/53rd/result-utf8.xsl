@@ -4,24 +4,24 @@
 		xmlns:xt="http://www.jclark.com/xt"
 		xmlns="http://www.w3.org/TR/REC-html40"
 		extension-element-prefix="xt">
-  <xsl:variable name="suffix">.utfhtml</xsl:variable>
+  <xsl:variable name="suffix">.uhtml</xsl:variable>
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
 
   <xsl:template match="開催日別結果">
-    <xt:document method="html"
+    <xt:document method="xml"
 		 href="{concat(@出力, $suffix)}"
 		 encoding="utf-8"
-		 doctype-public="-//W3C//DTD HTML 4.01//EN"
-                 doctype-system="http://www.w3.org/TR/html4/strict.dtd">
+		 doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
       <xsl:call-template name="main"/>
     </xt:document>
     <xsl:if test=".//採点結果">
-      <xt:document method="html"
+      <xt:document method="xml"
 		   href="{concat(@出力, '-saiten', $suffix)}"
 		   encoding="utf-8"
-		   doctype-public="-//W3C//DTD HTML 4.01//EN"
-                   doctype-system="http://www.w3.org/TR/html4/strict.dtd">
+		   doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+                   doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 	<xsl:call-template name="saiten"/>
       </xt:document>
     </xsl:if>

@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.28 2000/08/26 02:15:48 kunishi Exp $
+# $Id: config.mk,v 1.29 2000/08/28 00:09:34 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -47,8 +47,9 @@ XSLT_PROC=	${JAVA} -classpath ${CLASSPATH} ${XSLT_OPTS} ${XSLT_CLASS}
 
 UTF2ASCII=	hutrans
 ASCII2EUC=	tcs -f utf -t ujis
+#ASCII2EUC=	iconv -f utf-8 -t euc-jp
 EUC2JIS=	nkf
-HTML_FORMAT=	tidy -i -n -iso2022
+HTML_FORMAT=	tidy -q -xml -asxml
 SYNC_TOOL=	rsync -au
 
 CP=		cp

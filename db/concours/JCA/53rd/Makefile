@@ -1,9 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.10 2000/08/27 00:48:35 kunishi Exp $
-
-UTFTOEUC=	hutrans | tcs -f utf -t ujis
-EUCTOJIS=	nkf
+# $Id: Makefile,v 1.11 2000/08/28 00:09:36 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -32,11 +29,18 @@ SPECIAL_RULES=		yes
 
 include ${SRCTOPDIR}/rule.mk
 
-%.html:	%.xml ${RESULT_XSL_COMMON}
+%.jhtml: %.xml ${RESULT_XSL_COMMON}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-%.utfhtml: %.utfxml ${RESULT_XSL_COMMON}
+%.html: %.jhtml
+	${ASCII2EUC} $< | ${EUC2JIS} > $@
+	${HTML_FORMAT} -m -iso2022 $@
+
+%.uhtml: %.utfxml ${RESULT_XSL_COMMON}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+
+%.utfhtml: %.uhtml
+	${HTML_FORMAT} -utf8 < $< > $@
 
 ###
 
@@ -46,11 +50,13 @@ ${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" ${RESULT_XSL_COMMON}
 
 index.html:	%.html : %.xml ${XHTML10_XSL}
-	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
+	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@
 	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
+	${HTML_FORMAT} -m -iso2022 $@
 
 index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
+	${HTML_FORMAT} -m -utf8 $@
