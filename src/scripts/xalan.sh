@@ -7,7 +7,7 @@ else
 	JAVA=${JAVA_HOME}/bin/java
 fi
 
-XERCES_CLASSPATH=/usr/local/share/java/classes/xerces.jar
+XERCES_CLASSPATH=/usr/local/xalan-j2.1.0/bin/xerces.jar
 XALAN_CLASSPATH=/usr/local/xalan-j2.1.0/bin/xalan.jar:/usr/local/xalan-j2.1.0/bin/bsf.jar
 XALAN_CLASS=org.apache.xalan.xslt.Process
 
