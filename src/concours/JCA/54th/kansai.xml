@@ -3,7 +3,7 @@
 <competition xmlns='http://www.chorusroom.org/xml'
   xmlns:p='http://www.chorusroom.org/piece'
   xmlns:cr='http://www.chorusroom.org/character'>
-  <cvs-id>$Id: kansai.xml,v 1.7 2001/10/22 11:32:33 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kansai.xml,v 1.8 2001/10/23 02:24:18 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="true">第56回関西合唱コンクール</competition-name>
   <result output="kansai-2001-09-23">
     <date day-of-week="sun" holiday="false">2001-09-23</date>
@@ -3306,7 +3306,7 @@
     </section>
   </result>
   <result output="kansai-2001-10-21">
-    <date day-of-week="sun" holiday="false">2001-10-14</date>
+    <date day-of-week="sun" holiday="false">2001-10-21</date>
     <hall>池田市民文化会館アゼリアホール</hall>
     <referee shortname="片山" job="合唱指揮者">片山みゆき</referee>
     <referee shortname="関屋" job="合唱指揮者">関屋晋</referee>
@@ -3328,7 +3328,7 @@
 	<number-of-members>32</number-of-members>
 	<conductor>植田裕次</conductor>
 	<accompaniment instrument="ティンパニー">越川雅之</accompaniment>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M2" href="givenPrograms.xml"/>
@@ -3350,7 +3350,7 @@
 	<choir-type>female</choir-type>
 	<number-of-members>20</number-of-members>
 	<conductor>井坂麻美</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms.xml"/>
@@ -3386,7 +3386,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>25</number-of-members>
 	<conductor>佐藤あさみ</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms.xml"/>
@@ -3416,14 +3416,14 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false" seed="false" playing-order="4">
+      <choir representative="true" seed="false" playing-order="4">
 	<choir-name>京都産業大学グリークラブ</choir-name>
 	<prefecture>京都</prefecture>
 	<choir-type>male</choir-type>
 	<number-of-members>25</number-of-members>
 	<conductor>石原祐介</conductor>
 	<piano>嶋田理恵</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M3" href="givenPrograms.xml"/>
@@ -3448,7 +3448,7 @@
 	<number-of-members>34</number-of-members>
 	<conductor>春名一生</conductor>
 	<piano>加藤崇子</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M4" href="givenPrograms.xml"/>
@@ -3479,7 +3479,7 @@
 	<number-of-members>50</number-of-members>
 	<conductor>広瀬康夫</conductor>
 	<piano>島田稔也</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M4" href="givenPrograms.xml"/>
@@ -3510,7 +3510,7 @@
 	<number-of-members>66</number-of-members>
 	<conductor>田末勝志</conductor>
 	<piano>井出悟</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G4" href="givenPrograms.xml"/>
@@ -3548,7 +3548,7 @@
 	<number-of-members>34</number-of-members>
 	<conductor>森内厚志</conductor>
 	<piano>溝口かんな</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M2" href="givenPrograms.xml"/>
@@ -3578,7 +3578,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>79</number-of-members>
 	<conductor>石田英二</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms.xml"/>
@@ -3599,7 +3599,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>53</number-of-members>
 	<conductor>宮澤暢彦</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms.xml"/>
@@ -3650,7 +3650,7 @@
 	<number-of-members>61</number-of-members>
 	<conductor>石井正道</conductor>
 	<piano>清水知子</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms.xml"/>
@@ -3681,14 +3681,14 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false" seed="false" playing-order="8">
+      <choir representative="true" seed="false" playing-order="8">
 	<choir-name>同志社混声合唱団こまくさ</choir-name>
 	<prefecture>京都</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>77</number-of-members>
 	<conductor>高嶋昌二</conductor>
 	<piano>藤澤篤子</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms.xml"/>
@@ -3717,7 +3717,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>33</number-of-members>
 	<conductor>飯沼京子</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms.xml"/>
@@ -3772,7 +3772,7 @@
 	<number-of-members>25</number-of-members>
 	<conductor>石原哲</conductor>
 	<piano>金澤佳代子</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M4" href="givenPrograms.xml"/>
@@ -3814,7 +3814,7 @@
 	<number-of-members>40</number-of-members>
 	<conductor>寺尾正</conductor>
 	<piano>藤井智文</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms.xml"/>
@@ -3890,13 +3890,13 @@
 	</program>
 	<choir-note>棄権</choir-note>
       </choir>
-      <choir representative="false" seed="false" playing-order="3">
+      <choir representative="true" seed="false" playing-order="3">
 	<choir-name>大和銀行合唱団</choir-name>
 	<prefecture>大阪</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>49</number-of-members>
 	<conductor>辻正喜</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G3" href="givenPrograms.xml"/>
@@ -3961,7 +3961,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>90</number-of-members>
 	<conductor>本城正博</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="seeded">シード</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms.xml"/>
