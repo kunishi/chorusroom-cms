@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.13 1999/08/24 14:46:18 kunishi Exp $
+# $Id: GNUmakefile,v 1.14 1999/08/25 11:49:38 kunishi Exp $
 #
 
 RELPATH=	.
@@ -46,4 +46,4 @@ PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
 
 sync-upload:
 	rsync -Cavuz --delete -e ssh \
-	  ${INSTTOPDIR} "${PUBLIC_SERVER}:${PUBLIC_DIR}"
+	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
