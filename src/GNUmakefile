@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.2 1999/08/16 01:00:29 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 1999/08/16 02:50:57 kunishi Exp $
 #
 
 RELPATH=	.
@@ -15,7 +15,8 @@ INSTFILES+=	CDShop.html \
 		info-note.html \
 		info-note2.html \
 		kovox.html \
-		misc.html
+		misc.html \
+		47thajcl.html
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
