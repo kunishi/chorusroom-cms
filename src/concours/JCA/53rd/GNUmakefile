@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.43 2000/10/05 14:29:04 kunishi Exp $
+# $Id: GNUmakefile,v 1.44 2000/10/05 16:40:06 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -27,6 +27,7 @@ INSTFILES_HTML+=	saga.html
 INSTFILES_HTML+=	${INSTFILES_HTML_SHIKOKU}
 INSTFILES_HTML+=	shimane.html
 INSTFILES_HTML+=	tokyo.html
+INSTFILES_HTML+=	${TOHOKU_HTML}
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
 
@@ -34,6 +35,9 @@ INSTFILES_HTML_KANSAI=	kansai-highschool.html
 INSTFILES_HTML_KUMAMOTO= kumamoto.html kumamoto2.html
 INSTFILES_HTML_KYUSHU=	kyushu-2000-09-10.html
 INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
+TOHOKU_HTML=		tohoku-2000-09-29.html \
+			tohoku-2000-09-30.html \
+			tohoku-2000-10-01.html
 
 INSTFILES_HTML_SAITEN+=	chiba-saiten.html
 INSTFILES_HTML_SAITEN+=	chubu-saiten.html
@@ -157,6 +161,22 @@ ${INSTFILES_HTML_SHIKOKU}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${SLEEP} 1 && ${TOUCH} $@
 
 ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
+	  -param "output-base" "'$(basename $@)'"
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
+
+${TOHOKU_HTML}: tohoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
+	  -param "output-base" "'$(basename $@)'"
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -iso2022 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
+
+${TOHOKU_HTML:%.html=%.utfhtml}: tohoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} $@
