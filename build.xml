@@ -331,7 +331,7 @@
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
       <param name='styledir' expression='/style'/>
-      <param name='stylesheet' expression='default.css'/>
+      <param name='stylesheet' expression='competition.css'/>
       <param name='outDir' expression='${build.xhtml}/concours/'/>
     </xslt>
   </target>

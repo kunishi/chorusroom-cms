@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.12 2002/09/24 09:03:13 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.13 2002/09/24 14:56:26 kunishi Exp $ -->
 
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -46,6 +46,18 @@
       <xsl:text>); }</xsl:text>
     </style>
     -->
+  </xsl:template>
+
+  <xsl:template name="body-header">
+    <p>
+      <div class="logo">
+        <img alt="Chorus Room/合唱の部屋">
+          <xsl:attribute name="src">
+            <xsl:value-of select="concat($imagedir, '/chorusroom-toplogo.png')"/>
+          </xsl:attribute>
+        </img>
+      </div>
+    </p>
   </xsl:template>
 
   <xsl:template name="footer">

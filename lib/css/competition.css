@@ -1,4 +1,4 @@
-/* $Id: competition.css,v 1.1 2002/09/24 09:23:35 kunishi Exp $ */
+/* $Id: competition.css,v 1.2 2002/09/24 14:56:26 kunishi Exp $ */
 
 body { background-color: #FFFBF0;
        color: black;
@@ -11,6 +11,8 @@ h1 { margin-left: -8%; }
 h2 { margin-left: -4%; }
 h3 { margin-left: -2%; }
 
+div.logo { text-align: right;
+           margin-left: 0em; }
 div.footer { text-align: right; }
 div.footer p { margin-top: 0em;
                margin-bottom: 0em; }

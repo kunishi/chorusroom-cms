@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result.src.xsl,v 1.3 2002/06/20 15:09:41 kunishi Exp $ -->
+<!-- $Id: contest-result.src.xsl,v 1.4 2002/09/24 14:56:26 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -18,9 +18,7 @@
   <xsl:param name="with-score">true</xsl:param>
   <xsl:param name="suffix"/>
 
-  <!--  <xsl:include href="character.xsl"/> -->
   <xsl:include href="contest-result-choir-piece.xsl"/>
-  <!--  <xsl:include href="dummy-char-conv.xsl"/> -->
 
   <xsl:output method="xml" indent="yes"/>
 
@@ -60,10 +58,10 @@
 	</title>
       </head>
       <body>
+        <xsl:call-template name="body-header" />
         <h1>
 	  <xsl:value-of select="$competition-name"/>
 	</h1>
-        <hr/>
 	<dl>
 	  <xsl:call-template name="date-list"/>
 	  <xsl:apply-templates select="c:hall"/>
@@ -74,7 +72,6 @@
         <xsl:if test='c:scoreTableRef'>
           <xsl:apply-templates select='c:scoreTableRef'/>
         </xsl:if>
-        <hr/>
 	<xsl:apply-templates select="c:section">
 	  <xsl:with-param name="top" select="$top"/>
 	</xsl:apply-templates>
@@ -84,9 +81,6 @@
   </xsl:template>
 
   <xsl:template name="additional-footer">
-    <!--     <p> -->
-    <!--  <xsl:value-of select="/c:competition/c:cvs-id"/> -->
-    <!-- </p> -->
   </xsl:template>
 
   <xsl:template name="date-list">
@@ -241,73 +235,57 @@
     </xsl:if>
     <xsl:if test="$gold-choir-list">
       <h3>金賞</h3>
-      <ul>
-        <xsl:for-each select="$gold-choir-list">
-          <xsl:if test="not(c:prize/text()='金賞')">
-            <xsl:message>
-              Prize mismatch at <xsl:value-of select="c:choir-name"/>.
-            </xsl:message>
-          </xsl:if>
-          <li>
-            <xsl:apply-templates select=".">
-	      <xsl:with-param name="top" select="$top"/>
-	    </xsl:apply-templates>
-          </li>
-        </xsl:for-each>
-      </ul>
+      <xsl:for-each select="$gold-choir-list">
+        <xsl:if test="not(c:prize/text()='金賞')">
+          <xsl:message>
+            Prize mismatch at <xsl:value-of select="c:choir-name"/>.
+          </xsl:message>
+        </xsl:if>
+        <xsl:apply-templates select=".">
+          <xsl:with-param name="top" select="$top"/>
+        </xsl:apply-templates>
+      </xsl:for-each>
     </xsl:if>
     <xsl:if test="$silver-choir-list">
       <h3>銀賞</h3>
-      <ul>
         <xsl:for-each select="$silver-choir-list">
           <xsl:if test="not(c:prize/text()='銀賞')">
             <xsl:message>
               Prize mismatch at <xsl:value-of select="c:choir-name"/>.
             </xsl:message>
           </xsl:if>
-          <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
 	    </xsl:apply-templates>
-          </li>
         </xsl:for-each>
-      </ul>
     </xsl:if>
     <xsl:if test="$blonze-choir-list">
       <h3>銅賞</h3>
-      <ul>
         <xsl:for-each select="$blonze-choir-list">
           <xsl:if test="not(c:prize/text()='銅賞')">
             <xsl:message>
               Prize mismatch at <xsl:value-of select="c:choir-name"/>.
             </xsl:message>
           </xsl:if>
-          <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
 	    </xsl:apply-templates>
-          </li>
         </xsl:for-each>
-      </ul>
     </xsl:if>
     <xsl:if test="$other-choir-list">
       <xsl:if test="$seed-choir-list or $gold-choir-list or $silver-choir-list or $blonze-choir-list">
 	<h3>そのほか</h3>
       </xsl:if>
-      <ul>
         <xsl:for-each select="$other-choir-list">
           <xsl:if test="c:prize/text()">
             <xsl:message>
               Prize mismatch at <xsl:value-of select="c:choir-name"/>.
             </xsl:message>
           </xsl:if>
-          <li>
             <xsl:apply-templates select=".">
 	      <xsl:with-param name="top" select="$top"/>
 	    </xsl:apply-templates>
-          </li>
         </xsl:for-each>
-      </ul>
     </xsl:if>
   </xsl:template>
 
@@ -324,20 +302,16 @@
 
   <xsl:template match="c:choir">
     <xsl:param name="top" select="/"/>
-    <xsl:call-template name="choir-attr-list"/>
     <xsl:apply-templates select="c:choir-name"/>
     <xsl:call-template name="choir-data">
       <xsl:with-param name="top" select="$top"/>
     </xsl:call-template>
-    <xsl:call-template name="special-prize-list"/>
     <xsl:apply-templates select="c:choir-note"/>
+    <p>
+      <xsl:call-template name="choir-attr-list"/>
+      <xsl:call-template name="special-prize-list"/>
+    </p>
     <xsl:apply-templates select="c:program"/>
-  </xsl:template>
-
-  <xsl:template name="choir-attr-list">
-    <xsl:if test="@representative='true' or @seed='true'">
-      <xsl:text>◎</xsl:text>
-    </xsl:if>
   </xsl:template>
 
   <xsl:template match="c:number-of-parts">
@@ -352,19 +326,21 @@
   </xsl:template>
 
   <xsl:template match="c:choir-name">
-    <xsl:choose>
-      <xsl:when test="@url">
-        <xsl:element name="a">
-          <xsl:attribute name="href">
-            <xsl:value-of select="@url"/>
-          </xsl:attribute>
+    <h4>
+      <xsl:choose>
+        <xsl:when test="@url">
+          <xsl:element name="a">
+            <xsl:attribute name="href">
+              <xsl:value-of select="@url"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+          </xsl:element>
+        </xsl:when>
+        <xsl:otherwise>
           <xsl:apply-templates/>
-        </xsl:element>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
+    </h4>
   </xsl:template>
 
   <xsl:template name="choir-data">
@@ -377,7 +353,6 @@
     <xsl:choose>
       <xsl:when test="$top/c:competition-name/@pref[.='true']">
 	<xsl:if test="$choir-member or $player-data">
-	  <xsl:text> (</xsl:text>
 	  <xsl:call-template name="choir-data-1">
 	    <xsl:with-param name="pref"/>
 	    <xsl:with-param name="member" select="$choir-member"/>
@@ -386,12 +361,10 @@
 	    <xsl:text>、</xsl:text>
 	  </xsl:if>
 	  <xsl:call-template name="players-data"/>
-	  <xsl:text>)</xsl:text>
 	</xsl:if>
       </xsl:when>
       <xsl:when test="$top/c:competition-name/@pref[.='false']">
 	<xsl:if test="$choir-pref or $choir-member or $player-data">
-	  <xsl:text> (</xsl:text>
 	  <xsl:call-template name="choir-data-1">
 	    <xsl:with-param name="pref" select="$choir-pref"/>
 	    <xsl:with-param name="member" select="$choir-member"/>
@@ -400,7 +373,6 @@
 	    <xsl:text>、</xsl:text>
 	  </xsl:if>
 	  <xsl:call-template name="players-data"/>
-	  <xsl:text>)</xsl:text>
 	</xsl:if>
       </xsl:when>
     </xsl:choose>
@@ -502,6 +474,12 @@
   </xsl:template>
 
   <xsl:template match="c:prize">
+  </xsl:template>
+
+  <xsl:template name="choir-attr-list">
+    <xsl:if test="@representative='true' or @seed='true'">
+      <xsl:text> [代表] </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="special-prize-list">

@@ -1,37 +1,16 @@
-/* $Id: jca-concour.css,v 1.3 2000/09/05 04:28:35 kunishi Exp $ */
+/* $Id: jca-concour.css,v 1.4 2002/09/24 14:56:26 kunishi Exp $ */
 
-body { background-color: rgb(204,204,204);
+body { background-color: #FFFBF0;
        color: black;
-       margin-left: 1em;
-       margin-right: 1em;
+       margin-left: 10%;
+       margin-right: 10%;
        line-height: 130%;
        }
-h1 { text-align: center;
-     margin-top: 1em;
-     margin-bottom: 0.5em; }
-a:link { color: rgb(0,0,204); }
-a:visited { color: rgb(102, 0, 0); }
+h1, h2, h3 { color: #005A9C; }
+h1 { margin-left: -8%; }
+h2 { margin-left: -4%; }
+h3 { margin-left: -2%; }
 
-/* for AJCL contest results pages */
-h1.ajclcontest { text-align: left; }
-h3.gold { background-color: gold; }
-h3.silver { background-color: silver; }
-h3.blonze { background-color: #993333; }
-span.win { color: red; }
-table.ajclresult { border-style: solid thin; }
-table.ajclresult thead tr th { text-align: center; }
-table.ajclresult tbody tr th { text-align: left; }
-table.ajclresult tbody tr td { text-align: center; }
-
-/* for link pages */
-span.new { color: rgb(204, 0, 0);
-           background: rgb(255,255,255); }
-ul li.mar1998 { }
-ul li.mar1998-update { }
-ul li.feb1998 { }
-ul li.feb1998-update { }
-ul li.jan1998 { }
-ul li.jan1998-update { }
 div.footer { text-align: right; }
 div.footer p { margin-top: 0em;
                margin-bottom: 0em; }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.12 2002/06/18 15:22:15 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.13 2002/09/24 14:56:26 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -33,6 +33,7 @@
 
   <xsl:template match="*[name()='body']" priority="1.0">
     <body>
+      <xsl:call-template name="body-header" />
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="node()"/>
       <xsl:call-template name="footer"/>
