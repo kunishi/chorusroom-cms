@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.10 1999/09/14 11:34:38 kunishi Exp $
+# $Id: config.mk,v 1.11 1999/09/14 11:42:57 kunishi Exp $
 #
 
 XSLT_PROC=	java \
@@ -21,4 +21,4 @@ RELPATH!=	.
 INSTTOPDIR=	/usr/home/kunishi/www/chorusRoom/
 
 XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
-DEFAULT_XSL?=	${XHTML10_XSL}
+DEFAULT_XSL=	${XHTML10_XSL}
