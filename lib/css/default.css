@@ -1,4 +1,4 @@
-/* $Id: default.css,v 1.3 2000/08/29 09:34:07 kunishi Exp $ */
+/* $Id: default.css,v 1.4 2000/08/29 09:57:16 kunishi Exp $ */
 
 body { background-color: rgb(204,204,204);
        color: black;
@@ -30,3 +30,5 @@ ul li.feb1998-update { }
 ul li.jan1998 { }
 ul li.jan1998-update { }
 div.footer { text-align: right; }
+div.footer p { margin-top: 0em;
+               margin-bottom: 0em; }
