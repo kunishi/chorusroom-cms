@@ -10,13 +10,17 @@
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
 
   <xsl:template match="開催日別結果">
-    <xt:document method="html" href="{concat(@出力, $suffix)}"
-		 encoding="euc-jp">
+    <xt:document method="html"
+		 href="{concat(@出力, $suffix)}"
+		 encoding="euc-jp"
+		 doctype-public="-//W3C//DTD HTML 4.0//EN">
       <xsl:call-template name="main"/>
     </xt:document>
     <xsl:if test=".//採点結果">
-      <xt:document method="html" href="{concat(@出力, '-saiten', $suffix)}"
-		   encoding="euc-jp">
+      <xt:document method="html"
+		   href="{concat(@出力, '-saiten', $suffix)}"
+		   encoding="euc-jp"
+		   doctype-public="-//W3C//DTD HTML 4.0//EN">
 	<xsl:call-template name="saiten"/>
       </xt:document>
     </xsl:if>
