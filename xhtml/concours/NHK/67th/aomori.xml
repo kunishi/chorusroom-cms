@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: aomori.xml,v 1.1 2001/01/10 15:24:55 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">平成12年度(第67回)NHK全国学校音楽コンクール青森県コンクール</competition-name>
+  <result output="aomori">
+    <date day-of-week="thu" holiday="false">2000-08-31</date>
+    <hall>青森市民文化ホール</hall>
+    <reporter anonymous="false">
+      <reporter-name>なおや</reporter-name>
+      <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="true" playing-order="1">
+	<choir-name>八戸市立根城中学校</choir-name>
+	<conductor>佐藤久美子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	    <piano>山道かさね</piano>
+	  </given-program>
+	  <free-program>
+	    <p:words-by>ガルシア・ロルカ</p:words-by>
+	    <p:translated-by>峯陽</p:translated-by>
+	    <p:composed-by>エイノユニハ・ラウタヴァーラ</p:composed-by>
+	    <p:suite>
+	      <p:piece>女声合唱のための「ガルシア・ロルカの詩による組曲」</p:piece>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>馬に乗って</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>叫び声</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>マラゲーニャ</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="2">
+	<choir-name>弘前市立第三中学校</choir-name>
+	<conductor>今廣志</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	    <piano>正井清子</piano>
+	  </given-program>
+	  <free-program>
+	    <p:composed-by>福島雄次郎</p:composed-by>
+	    <p:suite>
+	      <p:piece>無伴奏女声合唱のための「道之島唄」</p:piece>
+	      <p:suite-piece>
+		<p:piece>色白女童</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" playing-order="3">
+	<choir-name>八戸市立白銀南中学校</choir-name>
+	<conductor>野村律子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	    <piano>佐々木優子</piano>
+	  </given-program>
+	  <free-program>
+	    <p:composed-by>バルトーク・ベーラ</p:composed-by>
+	    <p:suite>
+	      <p:piece>「27の合唱曲」</p:piece>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>Banat</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>Isten veled!</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="4">
+	<choir-name>鶴田町立鶴田中学校</choir-name>
+	<conductor>坂本香織</conductor>
+	<piano>佐々木聡子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:translated-by>峯陽</p:translated-by>
+	    <p:composed-by>ラヨシュ・バルドシュ</p:composed-by>
+	    <p:suite>
+	      <p:piece>「ヘンルーダの花が咲いたら」</p:piece>
+	      <p:suite-piece>
+		<p:piece><cr:romanI/></p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece><cr:romanII/></p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="5">
+	<choir-name>平内町立東平内中学校</choir-name>
+	<conductor>岡本尚子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	    <piano>戸田亜都美</piano>
+	  </given-program>
+	  <free-program>
+	    <piano>八戸麻利奈</piano>
+	    <p:words-by>谷川俊太郎</p:words-by>
+	    <p:composed-by>木下牧子</p:composed-by>
+	    <p:suite>
+	      <p:piece>組曲「地平線のかなたへ」</p:piece>
+	      <p:suite-piece>
+		<p:piece>二十億光年の孤独</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
