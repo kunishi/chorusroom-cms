@@ -53,12 +53,12 @@
               </td>
             </tr>
           </tbody>
-          <xsl:call-template name='google-search'>
-            <xsl:with-param name='name'>
-              <xsl:value-of select='c:choir/c:name'/>
-            </xsl:with-param>
-          </xsl:call-template>
         </table>
+        <xsl:call-template name='google-search'>
+          <xsl:with-param name='name'>
+            <xsl:value-of select='c:choir/c:name'/>
+          </xsl:with-param>
+        </xsl:call-template>
       </body>
     </html>
   </xsl:template>
@@ -88,7 +88,7 @@
 
   <xsl:template name='google-search'>
     <xsl:param name='name'></xsl:param>
-    <xsl:comment>SiteSearch Google</xsl:comment>
+    <xsl:comment> SiteSearch Google </xsl:comment>
     <form method='GET' action='http://www.google.co.jp/search'>
       <table bgcolor='#FFFFFF'>
         <tr valign='top'>
@@ -119,6 +119,6 @@
         </tr>
       </table>
     </form>
-    <xsl:comment>SiteSearch Google</xsl:comment>
+    <xsl:comment> SiteSearch Google </xsl:comment>
   </xsl:template>
 </xsl:stylesheet>

@@ -313,6 +313,14 @@
     </xslt>
   </target>
 
+  <target name='build.xhtml.choir'>
+    <xslt basedir='db/choir' destdir='${build}/choir'
+	  style='lib/xslt/choir2xhtml.xsl'
+	  extension='.xhtml' processor='trax'
+	  includes='**/*.xml' classpathref='xalan2.class.path'>
+    </xslt>
+  </target>
+
   <!-- finalize -->
   <target name='finalize'
           depends='finalize.html, finalize.copysrc'/>
