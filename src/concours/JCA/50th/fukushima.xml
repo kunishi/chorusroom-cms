@@ -1,16 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja"><head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title lang="en">50th AJCL Chorus Contest/Fukushima</title>
   </head>
   <body>
     <h1>第51回福島県合唱コンク-ル</h1>
     <dl>
       <dt>日時</dt>
-      <dd>平成9年8月29日(金)10:00〜 中学校の部<br>
-	同30日(土)10:00〜 高校の部<br>
+      <dd>平成9年8月29日(金)10:00〜 中学校の部<br/>
+	同30日(土)10:00〜 高校の部<br/>
 	同31日(日)10:00〜 大学の部、職場の部、一般の部</dd>
       <dt>会場</dt>
       <dd>福島県文化センター大ホール</dd>
@@ -41,7 +46,7 @@
 	若松女子高校合唱部、福島県庁混声合唱団「きびたき」、会津混声合唱団</dd> 
     </dl>
   </p>
-    <hr>
+    <hr/>
     <h2>中学校の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -170,7 +175,7 @@
 	      Adam lay i-bounden</span></li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -223,7 +228,7 @@
 	<ul>
 	  <li>F1</li>
 	  <li><span lang="de">WALDEMAR BLOCH</span>/
-	    <span lang="la">&quot;MISSA BREVIS&</span>quot;より
+	    <span lang="la">&quot;MISSA BREVIS&quot;</span>より
 	    <span lang="la">Kyrie; Gloria</span></li>
 	</ul></li>
       <li>○会津高等学校(男声38・B、指揮: 堀内清治)
@@ -303,7 +308,7 @@
 	    <span lang="la">GLORIA</span></li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部</h2>
     <h3>銀賞(代表)</h3>
     <ul>
@@ -323,7 +328,7 @@
 	      4.CHARMONE-SYNTYCHIA</span></li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -333,7 +338,7 @@
 	  <li><span lang="it">C.G.di Venosa/ In monte Oliveti</span></li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -400,12 +405,11 @@
 	  <li><span lang="se">Arne Mellnas/ Aglepta</span></li>
 	</ul></li>
     </ul>
-    <hr>
-    [ <a href="./">第50回全日本合唱コンクールのページ</a> ]
-    [ <a href="../">「合唱の部屋」ホームページ</a> ]
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</a></address>
-<!-- hhmts start -->
-Last modified: Tue Dec 16 23:01:13 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    [ <a href="./" shape="rect">第50回全日本合唱コンクールのページ</a> ]
+    [ <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 16:01:28 $
+  </body>
+</html>
