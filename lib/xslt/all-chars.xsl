@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: all-chars.xsl,v 1.1 2001/01/04 01:09:01 kunishi Exp $ -->
+<!-- $Id: all-chars.xsl,v 1.2 2001/02/06 03:03:39 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:cr="http://www.chorusroom.org/character"
 		xmlns:xlink="http://www.w3.org/1999/xlink"
-		xmlns="http://www.w3.org/1999/xhtml">
+		xmlns="http://www.w3.org/1999/xhtml"
+		exclude-result-prefixes="cr xlink">
 
   <xsl:output encoding="utf-8"
 	      method="xml"
