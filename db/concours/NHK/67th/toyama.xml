@@ -1,34 +1,32 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: toyama.xml,v 1.3 2002/06/18 15:21:56 kunishi Exp $</cvs-id>
-  <competition-name pref="true" area="false">$BJ?@.(B12$BG/EY(B($BBh(B67$B2s(B) NHK$BA49q3X9;2;3Z%3%s%/!<%kIY;38)%3%s%/!<%k(B</competition-name>
+  <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール富山県コンクール</competition-name>
   <result output="toyama">
     <date day-of-week="thu" holiday="false">2000-08-10</date>
-    <hall>$BIY;38)9b2,J82=%[!<%kBg%[!<%k(B</hall>
-    <referee shortname="$B@6?e(B">$B@6?e2mI'(B</referee>
-    <referee shortname="$BCfB<(B">$BCfB<5AO/(B</referee>
-    <referee shortname="$B>>K\(B">$B>>K\@6(B</referee>
-    <referee shortname="$B@u2,(B">$B@u2,@aIW(B</referee>
-    <referee shortname="$B55;3(B">$B55;3@5?M(B</referee>
+    <hall>富山県高岡文化ホール大ホール</hall>
+    <referee shortname="清水">清水雅彦</referee>
+    <referee shortname="中村">中村義朗</referee>
+    <referee shortname="松本">松本清</referee>
+    <referee shortname="浅岡">浅岡節夫</referee>
+    <referee shortname="亀山">亀山正人</referee>
     <reporter anonymous="false">
-      <reporter-name>$B$J$*$d(B</reporter-name>
+      <reporter-name>なおや</reporter-name>
       <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
     </reporter>
     <section>
-      <section-name>$B>.3X9;$NIt(B</section-name>
+      <section-name>小学校の部</section-name>
       <choir representative="false" playing-order="1">
-	<choir-name>$BJ!LnD.N)J!Ln>.3X9;(B</choir-name>
-	<conductor>$B;3EDOBH~(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<choir-name>福野町立福野小学校</choir-name>
+	<conductor>山田和美</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <piano grade="6">$BEDEg@i3(h=(B</piano>
+	    <piano grade="6">田島千絵莉</piano>
 	    <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zoltan Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly</p:composed-by>
+	      <p:composed-by>Zoltan Kodály</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>
@@ -41,53 +39,53 @@
 		<p:mainTitle>Hodie Christus Natus Est</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B%-%j%9%H$O$-$g$&$*@8$^$l$K$J$C$?(B</p:mainTitle>
+		<p:mainTitle>キリストはきょうお生まれになった</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" playing-order="2">
-	<choir-name>$BIY;3;TN)KY@n>.3X9;(B</choir-name>
-	<conductor>$B5WED=a(B</conductor>
-	<piano grade="4">$B>.5\;3M}:;(B</piano>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<choir-name>富山市立堀川小学校</choir-name>
+	<conductor>久田潤</conductor>
+	<piano grade="4">小宮山理沙</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>$B@P0f5|(B</p:composed-by>
+	      <p:composed-by>石井亨</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$BN9N)$A(B</p:mainTitle>
+		<p:mainTitle>旅立ち</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" playing-order="3">
-	<choir-name>$BEWGH;TN)=PD.>.3X9;(B</choir-name>
-	<conductor>$BF#0f0!5](B</conductor>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<choir-name>砺波市立出町小学校</choir-name>
+	<conductor>藤井亜弓</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <piano grade="6">$BL@F;2D?%(B</piano>
+	    <piano grade="6">明道可織</piano>
 	    <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="6">$BEZEDCM2N(B</piano>
+	    <piano grade="6">土田値歌</piano>
 	    <p:suite>
-	      <p:words-by>$BC+@n=SB@O:(B</p:words-by>
-	      <p:composed-by>$BLZ2<KR;R(B</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<!JF1@<!K9g>'6J=8(B</p:titlePrefix>
-		<p:mainTitle>$BCOJ?@~$N$+$J$?$X(B</p:mainTitle>
+		<p:titlePrefix>女声（同声）合唱曲集</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$BFs==2/8wG/$N8IFH(B</p:mainTitle>
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->
@@ -97,26 +95,26 @@
 	</program>
       </choir>
       <choir representative="true" playing-order="4">
-	<choir-name>$B0fGHD.N)0fGH>.3X9;(B</choir-name>
-	<conductor>$B>.@>M35*;R(B</conductor>
-	<piano grade="6">$B>>D9N$:;(B</piano>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<choir-name>井波町立井波小学校</choir-name>
+	<conductor>小西由紀子</conductor>
+	<piano grade="6">松長里沙</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BLZEg;O(B</p:words-by>
-	      <p:composed-by>$B9bEh$_$I$j(B</p:composed-by>
+	      <p:words-by>木島始</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$BF1@<!J=w@<!K9g>'$H%T%"%N$N$?$a$N(B</p:titlePrefix>
-		<p:mainTitle>$B%$%0%"%J$N$f$a(B</p:mainTitle>
+		<p:titlePrefix>同声（女声）合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>イグアナのゆめ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B$_$g$&$J$J$+$^(B</p:mainTitle>
+		    <p:mainTitle>みょうななかま</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->
@@ -127,28 +125,28 @@
       </choir>
     </section>
     <section>
-      <section-name>$BCf3X9;$NIt(B</section-name>
+      <section-name>中学校の部</section-name>
       <choir representative="false" playing-order="1">
-	<choir-name>$BIY;3;TN)1|EDCf3X9;(B</choir-name>
-	<conductor>$BL@L@H~(B</conductor>
-	<piano>$BMj@.F`!93((B</piano>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<choir-name>富山市立奥田中学校</choir-name>
+	<conductor>明明美</conductor>
+	<piano>頼成奈々絵</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$B4X:,\F0l(B</p:words-by>
-	      <p:composed-by>$B;{Eg>0I'(B</p:composed-by>
+	      <p:words-by>関根榮一</p:words-by>
+	      <p:composed-by>寺島尚彦</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'AH6J(B</p:titlePrefix>
-		<p:mainTitle>$B@D$$G~(B</p:mainTitle>
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>青い麦</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B7J?'$,$o$?$7$r8+$?(B</p:mainTitle>
+		    <p:mainTitle>景色がわたしを見た</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->
@@ -158,101 +156,101 @@
 	</program>
       </choir>
       <choir representative="true" playing-order="2">
-	<choir-name>$BIY;3Bg3X650i3XItImB0Cf3X9;(B</choir-name>
-	<conductor>$BKY9>1Q0l(B</conductor>
-	<piano grade="2">$B2#;3OBLi(B</piano>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<choir-name>富山大学教育学部附属中学校</choir-name>
+	<conductor>堀江英一</conductor>
+	<piano grade="2">横山和也</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BApLn?4J?(B</p:words-by>
-	      <p:composed-by>$BEr;3><(B</p:composed-by>
+	      <p:words-by>草野心平</p:words-by>
+	      <p:composed-by>湯山昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B2OF8$H3?(B</p:mainTitle>
+		<p:mainTitle>河童と蛙</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" playing-order="3">
-	<choir-name>$B>.?yD.N)>.?yFnCf3X9;(B</choir-name>
-	<conductor>$BKLM5H~;R(B</conductor>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<choir-name>小杉町立小杉南中学校</choir-name>
+	<conductor>北裕美子</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <piano grade="2">$B?7N$0!5((B</piano>
+	    <piano grade="2">新里亜季</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="3">$B5~C+CR;R(B</piano>
+	    <piano grade="3">京谷智子</piano>
 	    <p:piece>
-	      <p:words-by>$BC+@n=SB@O:(B</p:words-by>
-	      <p:composed-by>$BLZ2<KR;R(B</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B=U$K(B</p:mainTitle>
+		<p:mainTitle>春に</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" playing-order="4">
-	<choir-name>$BIY;3;TN)??1)Cf3X9;(B</choir-name>
-	<conductor>$BD4::Cf(B</conductor>
-	<piano grade="3">$B;3K\:L2C(B</piano>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<choir-name>富山市立真羽中学校</choir-name>
+	<conductor>調査中</conductor>
+	<piano grade="3">山本彩加</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$B8fLZGrF|(B</p:words-by>
-	      <p:composed-by>$BBg7'?r;R(B</p:composed-by>
+	      <p:words-by>御木白日</p:words-by>
+	      <p:composed-by>大熊崇子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B$5$/$i(B</p:mainTitle>
+		<p:mainTitle>さくら</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" playing-order="5">
-	<choir-name>$BIY;3;TN)KY@nCf3X9;(B</choir-name>
-	<conductor>$BHx;3CR;R(B</conductor>
-	<piano grade="2">$BI[B<M*(B</piano>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<choir-name>富山市立堀川中学校</choir-name>
+	<conductor>尾山智子</conductor>
+	<piano grade="2">布村悠</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$B8fLZGrF|(B</p:words-by>
-	      <p:composed-by>$BBg7'?r;R(B</p:composed-by>
+	      <p:words-by>御木白日</p:words-by>
+	      <p:composed-by>大熊崇子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B$5$/$i(B</p:mainTitle>
+		<p:mainTitle>さくら</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" playing-order="6">
-	<choir-name>$B>.?yD.N)>.?yCf3X9;(B</choir-name>
-	<conductor>$B?eEg$O$.$N(B</conductor>
-	<piano grade="2">$BF|2<@E9a(B</piano>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<choir-name>小杉町立小杉中学校</choir-name>
+	<conductor>水島はぎの</conductor>
+	<piano grade="2">日下静香</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BJR2,51(B</p:words-by>
-	      <p:composed-by>$BJ?5H5#=#(B</p:composed-by>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B$o$,N$DxI8(B</p:mainTitle>
+		<p:mainTitle>わが里程標</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -260,11 +258,11 @@
       </choir>
     </section>
     <section>
-      <section-name>$B9bEy3X9;$NIt(B</section-name>
+      <section-name>高等学校の部</section-name>
       <choir representative="false" playing-order="1">
-	<choir-name>$BIY;38)N)9b;3@>9bEy3X9;(B</choir-name>
-	<conductor>$BGr6dM5;R(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<choir-name>富山県立高山西高等学校</choir-name>
+	<conductor>白銀裕子</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-67th.xml"/>
@@ -288,26 +286,26 @@
 	</program>
       </choir>
       <choir representative="true" playing-order="2">
-	<choir-name>$BIY;38)N)IY;3CfIt9bEy3X9;(B</choir-name>
-	<conductor>$B@PED@iJf(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<choir-name>富山県立富山中部高等学校</choir-name>
+	<conductor>石田千穂</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="3">$B3$O786$R$+$k(B</piano>
+	    <piano grade="3">海老原ひかる</piano>
 	    <p:suite>
-	      <p:words-by>$B=!:86a(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B:.@<9g>'$H%T%"%N$N$?$a$NAH6J(B</p:titlePrefix>
-		<p:mainTitle>$B1'Ch$N2LJ*(B</p:mainTitle>
+		<p:titlePrefix>混声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>宇宙の果物</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B1'Ch$N2LJ*(B</p:mainTitle>
+		    <p:mainTitle>宇宙の果物</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->
@@ -317,25 +315,25 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="3">
-	<choir-name>$BIY;38)N)IY;3=w;R9bEy3X9;(B</choir-name>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<choir-name>富山県立富山女子高等学校</choir-name>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="3">$B5\@>0&(B</piano>
+	    <piano grade="3">宮西愛</piano>
 	    <p:suite>
-	      <p:words-by>$BN)86F;B$(B</p:words-by>
-	      <p:composed-by>$BLZ2<KR;R(B</p:composed-by>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'AH6J(B</p:titlePrefix>
-		<p:mainTitle>$B6G$HM<$N;m(B</p:mainTitle>
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>暁と夕の詩</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B>.k};m(B</p:mainTitle>
+		    <p:mainTitle>小譚詩</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->
@@ -345,26 +343,26 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="4">
-	<choir-name>$BIY;38)N)IY;3El9bEy3X9;(B</choir-name>
-	<conductor>$B>.>>M3H~;R(B</conductor>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<choir-name>富山県立富山東高等学校</choir-name>
+	<conductor>小松由美子</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="3">$BKRLn9a:Z(B</piano>
+	    <piano grade="3">牧野香菜</piano>
 	    <p:suite>
-	      <p:words-by>$B?7@nOB9>(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>新川和江</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B:.@<9g>'$H%T%"%N$N$?$a$N(B</p:titlePrefix>
-		<p:mainTitle>$BBgCO$O$^$@(B</p:mainTitle>
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>大地はまだ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B8^7n$NIw$O!D(B</p:mainTitle>
+		    <p:mainTitle>五月の風は…</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->
@@ -374,9 +372,9 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="5">
-	<choir-name>$BIY;38)N)9b2,Fn9bEy3X9;(B</choir-name>
-	<conductor>$BDM86AaID(B</conductor>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<choir-name>富山県立高岡南高等学校</choir-name>
+	<conductor>塚原早苗</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-67th.xml"/>
@@ -392,23 +390,23 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="6">
-	<choir-name>$BIY;38)N)EWGH9bEy3X9;(B</choir-name>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<choir-name>富山県立砺波高等学校</choir-name>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-67th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BC+@n=SB@O:(B</p:words-by>
-	      <p:composed-by>$B>>2<9L(B</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B;RG-J*8l(B</p:mainTitle>
+		<p:mainTitle>子猫物語</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B<i$k(B</p:mainTitle>
+		    <p:mainTitle>守る</p:mainTitle>
 		  </p:title>
 		</p:piece>
 		<!-- one of (p:piece-number p:piece p:suite) -->

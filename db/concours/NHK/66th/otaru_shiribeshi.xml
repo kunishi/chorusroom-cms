@@ -1,21 +1,19 @@
-<?xml version="1.0" encoding="euc-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: otaru_shiribeshi.xml,v 1.2 2002/06/18 15:21:52 kunishi Exp $</cvs-id>
-  <competition-name pref="true" area="false">ʿ��11ǯ��(��66��) NHK����ع����ڥ��󥯡��뾮î������϶襳�󥯡���</competition-name>
+  <competition-name pref="true" area="false">平成11年度(第66回) NHK全国学校音楽コンクール小樽・後志地区コンクール</competition-name>
   <result output="otaru_shiribeshi">
     <reporter anonymous="false">
-      <reporter-name>�ʤ���</reporter-name>
+      <reporter-name>なおや</reporter-name>
       <reporter-email anonymous="false">naoya-ez@ezweb.ne.jp</reporter-email>
     </reporter>
     <section>
-      <section-name>���ع�����</section-name>
+      <section-name>小学校の部</section-name>
       <choir representative="false" seed="false" playing-order="1">
-	<choir-name>�˥���ĮΩ�˥������ع�</choir-name>
+	<choir-name>ニセコ町立ニセコ小学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-parts>2</number-of-parts>
-	<conductor>�������»�</conductor>
-	<piano>����˾��</piano>
+	<conductor>菅原美和子</conductor>
+	<piano>曽我望美</piano>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
@@ -23,21 +21,21 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�а��</p:words-by>
-	      <p:composed-by>�а��</p:composed-by>
+	      <p:words-by>石井亨</p:words-by>
+	      <p:composed-by>石井亨</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ͧã�ˤʤä���</p:mainTitle>
+		<p:mainTitle>友達になった日</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="2">
-	<choir-name>����ĮΩ����������ع�</choir-name>
+	<choir-name>岩内町立岩内中央小学校</choir-name>
 	<choir-type>same-voice</choir-type>
 	<number-of-parts>3</number-of-parts>
-	<conductor>���������</conductor>
-	<piano>�Ҳ�����</piano>
+	<conductor>山戸比奈古</conductor>
+	<piano>倉岡綾子</piano>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
@@ -61,23 +59,23 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="3">
-	<choir-name>���ΰ�ĮΩ���ΰ¾��ع�</choir-name>
+	<choir-name>倶知安町立倶知安小学校</choir-name>
 	<choir-type>same-voice</choir-type>
 	<number-of-parts>2</number-of-parts>
-	<conductor>��¼��</conductor>
+	<conductor>中村泉</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <piano grade="6">�������</piano>
+	    <piano grade="6">財前那央</piano>
 	    <pieceRef number="elementary-school" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="6">������ͳ</piano>
+	    <piano grade="6">鎌田麻由</piano>
 	    <p:piece>
-	      <p:words-by>����Ź�</p:words-by>
-	      <p:composed-by>���ڷ���</p:composed-by>
+	      <p:words-by>金子静江</p:words-by>
+	      <p:composed-by>鈴木憲夫</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ʿ�¤Ȥ����̼�</p:mainTitle>
+		<p:mainTitle>平和という果実</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -85,84 +83,84 @@
       </choir>
     </section>
     <section>
-      <section-name>��ع�����</section-name>
+      <section-name>中学校の部</section-name>
       <choir representative="false" seed="false" playing-order="1">
-	<choir-name>��î��Ω�ı���ع�</choir-name>
+	<choir-name>小樽市立青園中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-parts>3</number-of-parts>
-	<conductor>��ƣ����</conductor>
+	<conductor>加藤孝子</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <piano grade="3">����ͧ��</piano>
+	    <piano grade="3">真屋友美</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="2">��������</piano>
+	    <piano grade="2">熊木摩理</piano>
 	    <p:piece>
-	      <p:words-by>ʿ��¿����</p:words-by>
-	      <p:composed-by>�з��߼�</p:composed-by>
+	      <p:words-by>平井多美子</p:words-by>
+	      <p:composed-by>石桁冬樹</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��</p:mainTitle>
+		<p:mainTitle>川</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="2">
-	<choir-name>��î��Ω��ȡ��ع�</choir-name>
+	<choir-name>小樽市立銭函中学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-parts>3</number-of-parts>
-	<conductor>���ĸ���</conductor>
+	<conductor>川田絹恵</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <piano grade="3">�滳��ǵ</piano>
+	    <piano grade="3">中山紫乃</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:translated-by>�緧�ʻ�</p:translated-by>
-	      <p:composed-by>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly</p:composed-by>
+	      <p:translated-by>大熊進子</p:translated-by>
+	      <p:composed-by>Zoltán Kodály</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Angyalok <cr:utf8-char nickname="eacute">e</cr:utf8-char>s P<cr:utf8-char nickname="aacute">a</cr:utf8-char>sztorok</p:mainTitle>
+		<p:mainTitle>Angyalok és Pásztorok</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>ŷ�Ȥ��ӻ���</p:mainTitle>
+		<p:mainTitle>天使と羊飼い</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="3">
-	<choir-name>;��ĮΩ����ع�</choir-name>
+	<choir-name>余市町立西中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-parts>3</number-of-parts>
-	<conductor>���Ľ��</conductor>
+	<conductor>内田純一</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <piano grade="2">��������</piano>
+	    <piano grade="2">亀山佳奈</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano grade="3">��ëͪ</piano>
+	    <piano grade="3">高谷悠</piano>
 	    <p:piece>
-	      <p:words-by>���ľ</p:words-by>
-	      <p:composed-by>��ϻ�Ϻ</p:composed-by>
+	      <p:words-by>金井直</p:words-by>
+	      <p:composed-by>岩河三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�ڶ�</p:mainTitle>
+		<p:mainTitle>木琴</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="4">
-	<choir-name>��î��Ω˾������ع�</choir-name>
+	<choir-name>小樽市立望洋台中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-parts>3</number-of-parts>
-	<conductor>����ͳ����</conductor>
-	<piano grade="3">��ƣ��</piano>
+	<conductor>上野由美子</conductor>
+	<piano grade="3">権藤泉</piano>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
@@ -170,10 +168,10 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>��ƣľ��</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>工藤直子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�Ϥ��ޤ�</p:mainTitle>
+		<p:mainTitle>はじまり</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>

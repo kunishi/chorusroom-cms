@@ -1,32 +1,30 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: tvec-2001-02-10.xml,v 1.3 2001/07/02 09:10:42 kunishi Exp $</cvs-id>
-  <competition-name pref="false" area="false">$BBh(B16$B2sEl5~%t%)!<%+%k%"%s%5%s%V%k%3%s%F%9%H(B</competition-name>
+  <competition-name pref="false" area="false">第16回東京ヴォーカルアンサンブルコンテスト</competition-name>
   <result output="tvec-2001-02-10">
     <date day-of-week="sat" holiday="false">2001-02-10</date>
-    <hall>$BKL$H$T$"!!$5$/$i%[!<%k(B</hall>
-    <referee shortname="$BM-B<(B" job="$B;X4x<T(B">$BM-B<M4Je(B</referee>
-    <referee shortname="$B:#C+(B" job="$B2;3Z;K2H(B">$B:#C+OBFA(B</referee>
-    <referee shortname="$BLZ2<(B" job="$B:n6J2H(B">$BLZ2<KR;R(B</referee>
-    <referee shortname="$B@%;3(B" job="$B@<3Z2H(B">$B@%;31S;R(B</referee>
-    <referee shortname="$BEDCf(B" job="$B;X4x<T(B">$BEDCfEP;V@8(B</referee>
+    <hall>北とぴあ　さくらホール</hall>
+    <referee shortname="有村" job="指揮者">有村祐輔</referee>
+    <referee shortname="今谷" job="音楽史家">今谷和徳</referee>
+    <referee shortname="木下" job="作曲家">木下牧子</referee>
+    <referee shortname="瀬山" job="声楽家">瀬山詠子</referee>
+    <referee shortname="田中" job="指揮者">田中登志生</referee>
     <reporter anonymous="true">
-      <reporter-name>$BDMK\N4(B</reporter-name>
+      <reporter-name>塚本隆</reporter-name>
       <reporter-email anonymous="false">taka4@t.toshima.ne.jp</reporter-email>
     </reporter>
     <notices>
-      <notice>$B;22CCDBN?t(B: $B0lHLItLg(B35$BCDBN(B</notice>
+      <notice>参加団体数: 一般部門35団体</notice>
     </notices>
     <section>
-      <section-name>$B0lHLItLg(B</section-name>
+      <section-name>一般部門</section-name>
       <choir representative="false" seed="false" playing-order="6">
-	<choir-name>$B2V$N4D%3!<%i%9(B</choir-name>
+	<choir-name>花の環コーラス</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>21</number-of-members>
-	<conductor>$BEDB<LP(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
-	<special-prize>$BEl5~ETCN;v>^(B</special-prize>
+	<conductor>田村茂</conductor>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>東京都知事賞</special-prize>
 	<program>
 	  <free-program>
 	    <p:suite>
@@ -55,23 +53,23 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="22">
-	<choir-name>$BB?K`%j%t%#%(!<%k(B</choir-name>
+	<choir-name>多摩リヴィエール</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>22</number-of-members>
-	<conductor>$BDT@59T(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<conductor>辻正行</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BBg<jBs<!(B</p:words-by>
-	      <p:composed-by>$B?7<BFA1Q(B</p:composed-by>
+	      <p:words-by>大手拓次</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$BIw$NSq$-(B</p:mainTitle>
+		<p:mainTitle>風の囁き</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B$_$E$$$m$NIw$h(B</p:mainTitle>
+		    <p:mainTitle>みづいろの風よ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -80,11 +78,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="23">
-	<choir-name>$B%k!&%5!<%8%e(B</choir-name>
+	<choir-name>ル・サージュ</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>8</number-of-members>
-	<conductor>$B0MED9@(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<conductor>依田浩</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -97,89 +95,89 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="24">
-	<choir-name>$BIY;N9g>'CD(B</choir-name>
+	<choir-name>富士合唱団</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>$BD9:d9,CK(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<conductor>長坂幸男</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>$BCfB<F)(B</p:composed-by>
+	      <p:composed-by>中村透</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B@8$-$b$N$L2N(B</p:mainTitle>
+		<p:mainTitle>生きものぬ歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>$BCfB<F)(B</p:composed-by>
+	      <p:composed-by>中村透</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$BJL$l$N2N(B</p:mainTitle>
+		<p:mainTitle>別れの歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="32">
-	<choir-name>$B%(%U%'%a!<%k(B</choir-name>
+	<choir-name>エフェメール</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>15</number-of-members>
-	<conductor>$BEDB<LP(B</conductor>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<conductor>田村茂</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Le<cr:utf8-char nickname="aacute">a</cr:utf8-char>nyk<cr:utf8-char nickname="eacute">e</cr:utf8-char>r<cr:utf8-char nickname="oacute">o</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>Leánykéró</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B2GC5$7(B</p:mainTitle>
+		<p:mainTitle>嫁探し</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>H<cr:utf8-char nickname="eacute">e</cr:utf8-char>jja, h<cr:utf8-char nickname="eacute">e</cr:utf8-char>jja, karah<cr:utf8-char nickname="eacute">e</cr:utf8-char>jja!</p:mainTitle>
+		<p:mainTitle>Héjja, héjja, karahéjja!</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$BBgBk$h(B</p:mainTitle>
+		<p:mainTitle>大鷹よ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>nat</p:mainTitle>
+		<p:mainTitle>Bánat</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B6l$7$_(B</p:mainTitle>
+		<p:mainTitle>苦しみ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Isten veled!</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B?@$H6&$K$$$^$;(B</p:mainTitle>
+		<p:mainTitle>神と共にいませ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="7">
-	<choir-name>$B%Z%s%?%3%i%j%"!<%:(B</choir-name>
+	<choir-name>ペンタコラリアーズ</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>10</number-of-members>
-	<conductor>$BB<>>8-<#(B</conductor>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<conductor>村松賢治</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -200,11 +198,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="9">
-	<choir-name>Coro Lino$B!J%3!<%m!!%j%N!K(B</choir-name>
+	<choir-name>Coro Lino（コーロ　リノ）</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>$BAR2,E5;R(B</conductor>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<conductor>倉岡典子</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
@@ -238,12 +236,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="10">
-	<choir-name>PRO MUSICA VIVA$B!J%W%m!!%`%8%+!!%t%#!<%t%!!<!K(B</choir-name>
+	<choir-name>PRO MUSICA VIVA（プロ　ムジカ　ヴィーヴァー）</choir-name>
 	<choir-type>same-voice</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>$B1+?9J8Li(B</conductor>
-	<piano>$B@>B<FX;R(B</piano>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<conductor>雨森文也</conductor>
+	<piano>西村敦子</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -265,25 +263,25 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="25">
-	<choir-name>$BF|N)%3!<%k%7%9%F%`%W%i%6(B</choir-name>
+	<choir-name>日立コールシステムプラザ</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>16</number-of-members>
-	<conductor>$BDT;VO/(B</conductor>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<conductor>辻志朗</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$B$^$I!&$_$A$*(B</p:words-by>
-	      <p:composed-by>$B?.D95.IY(B</p:composed-by>
+	      <p:words-by>まど・みちお</p:words-by>
+	      <p:composed-by>信長貴富</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B:.@<9g>'6J(B</p:titlePrefix>
-		<p:mainTitle>$B$;$s$M$s!!$^$s$M$s(B</p:mainTitle>
+		<p:titlePrefix>混声合唱曲</p:titlePrefix>
+		<p:mainTitle>せんねん　まんねん</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B1@(B</p:mainTitle>
+		    <p:mainTitle>雲</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -291,7 +289,7 @@
 		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B$/$5$O$i(B</p:mainTitle>
+		    <p:mainTitle>くさはら</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -300,11 +298,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="28">
-	<choir-name>$B$+$?$P$_%"%s%5%s%V%k(B</choir-name>
+	<choir-name>かたばみアンサンブル</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>7</number-of-members>
-	<conductor>$B@.@%Ev@5(B</conductor>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<conductor>成瀬当正</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
@@ -324,12 +322,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="29">
-	<choir-name>$B=w@<9g>'!V$l$s!W(B</choir-name>
+	<choir-name>女声合唱「れん」</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>17</number-of-members>
-	<conductor>$B1+?9J8Li(B</conductor>
-	<piano>$B@>B<FX;R(B</piano>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<conductor>雨森文也</conductor>
+	<piano>西村敦子</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -341,17 +339,17 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BB<>eGn;R(B</p:words-by>
-	      <p:composed-by>$B9bED;0O:(B</p:composed-by>
+	      <p:words-by>村上博子</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'AH6J(B</p:titlePrefix>
-		<p:mainTitle>$Bt#$+$JJb$_(B</p:mainTitle>
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>遙かな歩み</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B2VLn(B</p:mainTitle>
+		    <p:mainTitle>花野</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -360,11 +358,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="5">
-	<choir-name>Tokyo Chamber Choir$B!J%H%&%-%g%&!!%A%'%`%P!<!!%/%o%$%"!K(B</choir-name>
+	<choir-name>Tokyo Chamber Choir（トウキョウ　チェムバー　クワイア）</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>16</number-of-members>
-	<conductor>$B7,86L/;R(B</conductor>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<conductor>桑原妙子</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -376,7 +374,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>$B4V5\K'@8(B</p:composed-by>
+	      <p:composed-by>間宮芳生</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Etudes for Chorus</p:mainTitle>
 	      </p:title>
@@ -409,17 +407,17 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="13">
-	<choir-name>ENSEMBLE EVER GREEN$B!J%"%s%5%s%V%k!!%(%P!<%0%j!<%s!K(B</choir-name>
+	<choir-name>ENSEMBLE EVER GREEN（アンサンブル　エバーグリーン）</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>15</number-of-members>
-	<conductor>$BFs3,F29'(B</conductor>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<conductor>二階堂孝</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Veljo Tormis</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B%(%9%H%K%"$N(B17$B$N7k:'$N2N(B</p:mainTitle>
+		<p:mainTitle>エストニアの17の結婚の歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>4.</p:piece-number>
@@ -474,18 +472,18 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="16">
-	<choir-name>$B$O$k$+(B</choir-name>
+	<choir-name>はるか</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>10</number-of-members>
-	<conductor>$BF#0f9(<y(B</conductor>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<conductor>藤井宏樹</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$B6b;R$_$9!6(B</p:words-by>
-	      <p:composed-by>$B>>2<9L(B</p:composed-by>
+	      <p:words-by>金子みすゞ</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B$f$aGd$j(B</p:mainTitle>
+		<p:mainTitle>ゆめ売り</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -500,11 +498,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="21">
-	<choir-name>Brilliant Harmony$B!J%V%j%j%"%s%H!!%O!<%b%K!<!K(B</choir-name>
+	<choir-name>Brilliant Harmony（ブリリアント　ハーモニー）</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>15</number-of-members>
-	<conductor>$B?91J=_0l(B</conductor>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<conductor>森永淳一</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -548,7 +546,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly</p:composed-by>
+	      <p:composed-by>Zoltán Kodály</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Egyetem, begyetem</p:mainTitle>
 	      </p:title>
@@ -557,21 +555,21 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="31">
-	<choir-name>$B!J3t!KC]Cf9)L3E9%3!<%i%9It(B</choir-name>
+	<choir-name>（株）竹中工務店コーラス部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>16</number-of-members>
-	<conductor>$BNkLZ<w;R(B</conductor>
+	<conductor>鈴木寿子</conductor>
 	<prize nickname="none"></prize>
-	<special-prize>$B>)Ne>^(B</special-prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre Motets pour le temps de No<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
+		<p:mainTitle>Quatre Motets pour le temps de Noël</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B%/%j%9%^%9$N(B4$B$D$N%b%F%C%H(B</p:mainTitle>
+		<p:mainTitle>クリスマスの4つのモテット</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
@@ -580,7 +578,7 @@
 		    <p:mainTitle>O magnum mysterium</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
-		    <p:mainTitle>$B$*$*Bg$$$J$k?@Hk(B</p:mainTitle>
+		    <p:mainTitle>おお大いなる神秘</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -591,7 +589,7 @@
 		    <p:mainTitle>Quem vidistis pastores dicite</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
-		    <p:mainTitle>$BMS;t$?$A$hFr$i8+$?$b$N$r8l$l(B</p:mainTitle>
+		    <p:mainTitle>羊飼たちよ汝ら見たものを語れ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -600,11 +598,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="1">
-	<choir-name>$B9g>'CD%W%l%"%s%V%k%`(B</choir-name>
+	<choir-name>合唱団プレアンブルム</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>$BD+ARIYH~(B</conductor>
-	<piano>$BD+ARIYH~(B</piano>
+	<conductor>朝倉富美</conductor>
+	<piano>朝倉富美</piano>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -618,11 +616,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="2">
-	<choir-name>$B:.@<9g>'CD$j$Y$k$F(B</choir-name>
+	<choir-name>混声合唱団りべるて</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>$B3a<h90>;(B</conductor>
-	<piano>$B>e2m;R(B</piano>
+	<conductor>梶取弘昌</conductor>
+	<piano>上雅子</piano>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -655,27 +653,27 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="3">
-	<choir-name>NTT$B9g>'CD(B</choir-name>
+	<choir-name>NTT合唱団</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>$B1|B<?-<y(B</conductor>
+	<conductor>奥村伸樹</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Maurice Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char></p:composed-by>
+	      <p:composed-by>Maurice Duruflé</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre Motets sur des th<cr:utf8-char nickname="egrave">e</cr:utf8-char>mes Gr<cr:utf8-char nickname="eacute">e</cr:utf8-char>gorien</p:mainTitle>
+		<p:mainTitle>Quatre Motets sur des thèmes Grégorien</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="4">
-	<choir-name>$B%i!&%U%!%*%s%F!<%L(B</choir-name>
+	<choir-name>ラ・ファオンテーヌ</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>9</number-of-members>
-	<conductor>$B:,4_0lO:(B</conductor>
+	<conductor>根岸一郎</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -697,10 +695,10 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="8">
-	<choir-name>$B7DXf5A=NBg3X9g>'CD(BKG</choir-name>
+	<choir-name>慶應義塾大学合唱団KG</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>$BF#865,@8(B</conductor>
+	<conductor>藤原規生</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -725,21 +723,21 @@
 	<choir-name>M.T</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>8</number-of-members>
-	<conductor>$B=;EDJ~5W(B</conductor>
+	<conductor>住田朋久</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:originated-from>$B$o$i$Y$&$?(B</p:originated-from>
-	      <p:arranged-by>$B2.5WJ]OBL@(B</p:arranged-by>
+	      <p:originated-from>わらべうた</p:originated-from>
+	      <p:arranged-by>荻久保和明</p:arranged-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$BL5H<AU=w@<!&F1@<9g>'$N$?$a$N(B</p:titlePrefix>
-		<p:mainTitle>$B$J$D$+$7$$$&$?(B</p:mainTitle>
+		<p:titlePrefix>無伴奏女声・同声合唱のための</p:titlePrefix>
+		<p:mainTitle>なつかしいうた</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B$:$$$:$$$:$C$3$m$P$7(B</p:mainTitle>
+		    <p:mainTitle>ずいずいずっころばし</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -747,82 +745,82 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BN)86F;B$(B</p:words-by>
-	      <p:composed-by>$BB<1@$"$d;R(B</p:composed-by>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>村雲あや子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B2N$R$H$D(B</p:mainTitle>
+		<p:mainTitle>歌ひとつ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="12">
-	<choir-name>$B$^$a$>$&$H$f$+$$$J$J$+$^$?$A(B</choir-name>
+	<choir-name>まめぞうとゆかいななかまたち</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>10</number-of-members>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BIpK~E0(B</p:words-by>
-	      <p:composed-by>$BIpK~E0(B</p:composed-by>
+	      <p:words-by>武満徹</p:words-by>
+	      <p:composed-by>武満徹</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B>.$5$J6u(B</p:mainTitle>
+		<p:mainTitle>小さな空</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BIpK~E0(B</p:words-by>
-	      <p:composed-by>$BIpK~E0(B</p:composed-by>
+	      <p:words-by>武満徹</p:words-by>
+	      <p:composed-by>武満徹</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$BMc(B WINGS</p:mainTitle>
+		<p:mainTitle>翼 WINGS</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="14">
-	<choir-name>$B0BED%3%s%T%e!<%?!<%5!<%S%93t<02q<R9g>'It(B</choir-name>
+	<choir-name>安田コンピューターサービス株式会社合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>6</number-of-members>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BN)86F;B$(B</p:words-by>
-	      <p:composed-by>$BLZ2<KR;R(B</p:composed-by>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$BL4$_$?$b$N$O!D!D(B</p:mainTitle>
+		<p:mainTitle>夢みたものは……</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$B;09%C#<#(B</p:words-by>
+	      <p:words-by>三好達治</p:words-by>
 	      <p:composed-by></p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle><cr:utf8-char nickname="none" codepoint="x9DD7">$B2*(B</cr:utf8-char></p:mainTitle>
+		<p:mainTitle><cr:utf8-char nickname="none" codepoint="x9DD7">鴎</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="15">
-	<choir-name>Chor June$B!J%3!<%k!!%8%e!<%s!K(B</choir-name>
+	<choir-name>Chor June（コール　ジューン）</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>22</number-of-members>
-	<conductor>$B9CED=a(B</conductor>
+	<conductor>甲田潤</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Andr<cr:utf8-char nickname="eacute">e</cr:utf8-char> Caplet</p:composed-by>
+	      <p:composed-by>André Caplet</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Messe <cr:utf8-char nickname="agrave">a</cr:utf8-char> trois voix</p:mainTitle>
+		<p:mainTitle>Messe à trois voix</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B;0@<$N%_%56J(B</p:mainTitle>
+		<p:mainTitle>三声のミサ曲</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -843,63 +841,63 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="17">
-	<choir-name>$B%/!<%k!&%t%'%k%G%e!<%k(B</choir-name>
+	<choir-name>クール・ヴェルデュール</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>9</number-of-members>
-	<conductor>$B@6?e><(B</conductor>
+	<conductor>清水昭</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Le<cr:utf8-char nickname="aacute">a</cr:utf8-char>nyn<cr:utf8-char nickname="eacute">e</cr:utf8-char>z<cr:utf8-char nickname="oacute">o</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>Leánynézó</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B8+9g$$(B</p:mainTitle>
+		<p:mainTitle>見合い</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Keserves</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$BHa$7$_(B</p:mainTitle>
+		<p:mainTitle>悲しみ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Mad<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdal</p:mainTitle>
+		<p:mainTitle>Madárdal</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$BD;$N2N(B</p:mainTitle>
+		<p:mainTitle>鳥の歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k</p:composed-by>
+	      <p:composed-by>Béla Bartók</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Csujogat<cr:utf8-char nickname="oacute">o</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>Csujogató</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$BM6OG$N2N(B</p:mainTitle>
+		<p:mainTitle>誘惑の歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="18">
-	<choir-name>Goldbacher Ensemble$B!J%4!<%k%I%Y%C%R%c!<!!%"%s%5%s%V%k!K(B</choir-name>
+	<choir-name>Goldbacher Ensemble（ゴールドベッヒャー　アンサンブル）</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>8</number-of-members>
-	<conductor>$B6b@nL@M5(B</conductor>
+	<conductor>金川明裕</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -910,27 +908,27 @@
 		<p:mainTitle>Laudi alla virgine Maria</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B@;Jl%^%j%"$Nl-2N(B</p:mainTitle>
+		<p:mainTitle>聖母マリアの讚歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="19">
-	<choir-name>$B9g>'CD(BMORZ$B!J%b%k%D!K(B</choir-name>
+	<choir-name>合唱団MORZ（モルツ）</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>16</number-of-members>
-	<conductor>$B@PLn7rFs(B</conductor>
+	<conductor>石野健二</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre Motets pour le temps de No<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
+		<p:mainTitle>Quatre Motets pour le temps de Noël</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B%/%j%9%^%9$N(B4$B$D$N%b%F%C%H(B</p:mainTitle>
+		<p:mainTitle>クリスマスの4つのモテット</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
@@ -939,7 +937,7 @@
 		    <p:mainTitle>O magnum mysterium</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
-		    <p:mainTitle>$B$*$*Bg$$$J$k?@Hk(B</p:mainTitle>
+		    <p:mainTitle>おお大いなる神秘</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -950,7 +948,7 @@
 		    <p:mainTitle>Quem vidistis pastores dicite</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
-		    <p:mainTitle>$BMS;t$$$?$A$hFr$i8+$?$b$N$r8l$l(B</p:mainTitle>
+		    <p:mainTitle>羊飼いたちよ汝ら見たものを語れ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -983,25 +981,25 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="26">
-	<choir-name>$BEl5~%a%s%M%k%3!<%k(B</choir-name>
+	<choir-name>東京メンネルコール</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>14</number-of-members>
-	<conductor>$B=oJ}=(@/(B</conductor>
+	<conductor>緒方秀政</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BKY8}BgU\(B</p:words-by>
-	      <p:composed-by>$B@6?ef{(B</p:composed-by>
+	      <p:words-by>堀口大學</p:words-by>
+	      <p:composed-by>清水脩</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$BCK@<9g>'AH6J(B</p:titlePrefix>
-		<p:mainTitle>$B7n8w$H%T%(%m(B</p:mainTitle>
+		<p:titlePrefix>男声合唱組曲</p:titlePrefix>
+		<p:mainTitle>月光とピエロ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B=)$N%T%(%m(B</p:mainTitle>
+		    <p:mainTitle>秋のピエロ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1009,7 +1007,7 @@
 		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B%T%(%m$NC2$-(B</p:mainTitle>
+		    <p:mainTitle>ピエロの嘆き</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1017,7 +1015,7 @@
 		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B7n8w$H%T%(%m$H%T%(%l%C%H$NEbApLOMM(B</p:mainTitle>
+		    <p:mainTitle>月光とピエロとピエレットの唐草模様</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1026,37 +1024,37 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="27">
-	<choir-name>$BCK@<9g>'CD%(%k%G(B</choir-name>
+	<choir-name>男声合唱団エルデ</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>25</number-of-members>
-	<conductor>$BAR2,?.(B</conductor>
+	<conductor>倉岡信</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BLyED5AM:(B</p:words-by>
-	      <p:composed-by>$B>.;3>O;0(B</p:composed-by>
+	      <p:words-by>薮田義雄</p:words-by>
+	      <p:composed-by>小山章三</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B%Q%j%s%+(B</p:mainTitle>
+		<p:mainTitle>パリンカ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$BLyED5AM:(B</p:words-by>
-	      <p:composed-by>$B>.;3>O;0(B</p:composed-by>
+	      <p:words-by>薮田義雄</p:words-by>
+	      <p:composed-by>小山章三</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$BGr$$2V$S$i(B</p:mainTitle>
+		<p:mainTitle>白い花びら</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="30">
-	<choir-name>$B%k!&%7%c%s!&%G!&%U%k!<%k(B</choir-name>
+	<choir-name>ル・シャン・デ・フルール</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>6</number-of-members>
-	<conductor>$BJRLn=(=S(B</conductor>
+	<conductor>片野秀俊</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -1085,10 +1083,10 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="33">
-	<choir-name>$B6p>l%0%j!<%/%i%V(B</choir-name>
+	<choir-name>駒場グリークラブ</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>8</number-of-members>
-	<conductor>$B>>:jBY<#(B</conductor>
+	<conductor>松崎泰治</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
@@ -1118,14 +1116,14 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="34">
-	<choir-name>$B%T%(%m9g>'Bb(B</choir-name>
+	<choir-name>ピエロ合唱隊</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>13</number-of-members>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>$B>>2<9L(B</p:composed-by>
+	      <p:composed-by>松下耕</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>
@@ -1133,21 +1131,21 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>$B:dB<??L1(B</p:words-by>
-	      <p:composed-by>$BEDCf><FA(B</p:composed-by>
+	      <p:words-by>坂村真民</p:words-by>
+	      <p:composed-by>田中昭徳</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$BL5H<AU:.@<9g>'AH6J(B</p:titlePrefix>
-		<p:mainTitle>$BG0$:$l$P2V$R$i$/(B</p:mainTitle>
+		<p:titlePrefix>無伴奏混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>念ずれば花ひらく</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="35">
-	<choir-name>$B%/!<%k!!%W%j%(!<%k(B</choir-name>
+	<choir-name>クール　プリエール</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>$B66K\8wW"(B</conductor>
+	<conductor>橋本光廣</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <free-program>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
- <cvs-id>$Id: okayama.xml,v 1.1 2002/08/11 17:18:16 kunishi Exp $</cvs-id>
  <competition-name pref="true" area="false">第55回岡山県合唱コンクール</competition-name>
  <result output="okayama">
   <date day-of-week="sun" holiday="false">2002-08-11</date>
@@ -594,7 +592,7 @@
      <free-program>
       <p:piece>
        <p:words-by>Jean Racine</p:words-by>
-       <p:composed-by>Gabriel Faur<cr:utf8-char nickname="eacute">e</cr:utf8-char></p:composed-by>
+       <p:composed-by>Gabriel Fauré</p:composed-by>
        <p:title original="true">
 	<p:mainTitle>Cantique de Jean Racine</p:mainTitle>
        </p:title>
@@ -689,9 +687,7 @@
      </given-program>
      <free-program>
       <p:piece>
-       <p:composed-by>Gy<cr:utf8-char
-       nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char
-       nickname="aacute">a</cr:utf8-char>n</p:composed-by>
+       <p:composed-by>György Orbán</p:composed-by>
        <p:title original="true">
 	<p:mainTitle>Lauda Sion</p:mainTitle>
        </p:title>
@@ -699,9 +695,7 @@
      </free-program>
      <free-program>
       <p:piece>
-       <p:composed-by>Mikl<cr:utf8-char
-       nickname="oacute">o</cr:utf8-char>s Kocs<cr:utf8-char
-       nickname="aacute">a</cr:utf8-char>r</p:composed-by>
+       <p:composed-by>Miklós Kocsár</p:composed-by>
        <p:title original="true">
 	<p:mainTitle>Salve Regina</p:mainTitle>
        </p:title>

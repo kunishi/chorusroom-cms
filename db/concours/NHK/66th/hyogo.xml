@@ -1,28 +1,26 @@
-<?xml version='1.0' encoding='euc-jp'?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
+<?xml version='1.0' encoding='utf-8'?>
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: hyogo.xml,v 1.2 2002/06/18 15:21:52 kunishi Exp $</cvs-id>
-  <competition-name pref="false" area="false">ʿ��11ǯ��(��66��) NHK����ع����ڥ��󥯡���ʼ�˸����󥯡���</competition-name>
+  <competition-name pref="false" area="false">平成11年度(第66回) NHK全国学校音楽コンクール兵庫県コンクール</competition-name>
   <result output="hyogo">
     <reporter anonymous="false">
-      <reporter-name>��¼����</reporter-name>
+      <reporter-name>上村正継</reporter-name>
       <reporter-email anonymous="false">kam@mxr.mesh.ne.jp</reporter-email>
     </reporter>
     <section>
-      <section-name>�����ع�����</section-name>
+      <section-name>高等学校の部</section-name>
       <choir representative="true" seed="false">
-	<choir-name>�������������°�����ع�</choir-name>
+	<choir-name>武庫川女子大学附属高等学校</choir-name>
 	<choir-type>female</choir-type>
-	<prize nickname="gold">���</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Andr<cr:utf8-char nickname="eacute">e</cr:utf8-char> Caplet</p:composed-by>
+	      <p:composed-by>André Caplet</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Messe <cr:utf8-char nickname="agrave">a</cr:utf8-char> trois voix</p:mainTitle>
+		<p:mainTitle>Messe à trois voix</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -35,18 +33,18 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef Karai</p:composed-by>
+	      <p:composed-by>József Karai</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Sark<cr:utf8-char nickname="ouml">o</cr:utf8-char>zi Karik<cr:utf8-char nickname="aacute">a</cr:utf8-char>z<cr:utf8-char nickname="oacute">o</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>Sarközi Karikázó</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>ʼ�˸�Ω���͹����ع�</choir-name>
+	<choir-name>兵庫県立神戸高等学校</choir-name>
 	<choir-type>mixed</choir-type>
-	<prize nickname="gold">���</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
@@ -70,9 +68,9 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�ΩĹ�Ĺ����ع�</choir-name>
+	<choir-name>兵庫県立長田高等学校</choir-name>
 	<choir-type>mixed</choir-type>
-	<prize nickname="silver">���</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
@@ -80,14 +78,14 @@
 	  <free-program>
 	    <p:piece>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�ޥꥢ����ߤ�</p:mainTitle>
+		<p:mainTitle>マリアは歩みぬ</p:mainTitle>
 		<p:titleSuffix>SALMO150</p:titleSuffix>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:originated-from>�ɥ���̱��</p:originated-from>
+	      <p:originated-from>ドイツ民謡</p:originated-from>
 	      <p:title original="true">
 		<p:mainTitle>Ernami Aguiar</p:mainTitle>
 	      </p:title>
@@ -96,25 +94,25 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�����ر�������</choir-name>
+	<choir-name>関西学院高等部</choir-name>
 	<choir-type>male</choir-type>
-	<prize nickname="blonze">Ƽ��</prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>������ͺ</p:words-by>
-	      <p:composed-by>���Ļ�Ϻ</p:composed-by>
+	      <p:words-by>高野喜久雄</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>�Ҥ������ƻ</p:mainTitle>
+		<p:titlePrefix>男声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ひたすらな道</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>��</p:mainTitle>
+		    <p:mainTitle>弦</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -123,9 +121,9 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>������ҹ����ع�</choir-name>
+	<choir-name>甲南女子高等学校</choir-name>
 	<choir-type>female</choir-type>
-	<prize nickname="blonze">Ƽ��</prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
@@ -155,10 +153,10 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ω�̿�������ع�</choir-name>
+	<choir-name>兵庫県立北須磨高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
-	<special-prize>�����</special-prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
@@ -181,32 +179,32 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ω��������ع�</choir-name>
+	<choir-name>兵庫県立赤穂高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<prize nickname="none"></prize>
-	<special-prize>�����</special-prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms-66th.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>̵ȼ�ս����羧�Τ����</p:titlePrefix>
-		<p:mainTitle>5�Ĥε���</p:mainTitle>
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>5つの祈り</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����3</p:mainTitle>
+		    <p:mainTitle>祈り3</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����5</p:mainTitle>
+		    <p:mainTitle>祈り5</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -215,7 +213,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ω�𸶹����ع�</choir-name>
+	<choir-name>兵庫県立柏原高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -224,16 +222,16 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ʽ�</p:titlePrefix>
-		<p:mainTitle>��ʿ���Τ��ʤ���</p:mainTitle>
+		<p:titlePrefix>混声合唱曲集</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�󽽲���ǯ�θ���</p:mainTitle>
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -242,7 +240,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ωʡ������ع�</choir-name>
+	<choir-name>兵庫県立福崎高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -251,16 +249,16 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����¹�</p:words-by>
-	      <p:composed-by>���ڵ���</p:composed-by>
+	      <p:words-by>新川和江</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȥԥ��ΤΤ����</p:titlePrefix>
-		<p:mainTitle>���ϤϤޤ�</p:mainTitle>
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>大地はまた</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���������餷��</p:mainTitle>
+		    <p:mainTitle>日々あたらしく</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -269,7 +267,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ω�Ļ�˱�Ĺ����ع�</choir-name>
+	<choir-name>兵庫県立篠山鳳鳴高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -278,16 +276,16 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>���</p:words-by>
-	      <p:composed-by>���Ļ�Ϻ</p:composed-by>
+	      <p:words-by>吉野弘</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>���λ͵�</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>心の四季</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����</p:mainTitle>
+		    <p:mainTitle>風が</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -296,7 +294,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ωɱϩ������ع�</choir-name>
+	<choir-name>兵庫県立姫路南高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -305,17 +303,17 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����ٹ�</p:words-by>
-	      <p:composed-by>��������</p:composed-by>
+	      <p:words-by>星野富弘</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>�֤˴󤻤�</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>花に寄せて</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanVII">VII</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�Ф顢�������ʤ��ʡ��������</p:mainTitle>
+		    <p:mainTitle>ばら、きく、なずな−母に捧ぐ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -324,7 +322,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>���ͻ�Ω��������ع�</choir-name>
+	<choir-name>神戸市立葺合高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -333,19 +331,19 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>��Ǽ����</p:words-by>
-	      <p:composed-by>��Ǽ����</p:composed-by>
-	      <p:arranged-by>���ʤ��Ť�</p:arranged-by>
+	      <p:words-by>喜納昌吉</p:words-by>
+	      <p:composed-by>喜納昌吉</p:composed-by>
+	      <p:arranged-by>松永ちづる</p:arranged-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��</p:mainTitle>
-		<p:titleSuffix>�����٤Ƥοͤο��˲֤��</p:titleSuffix>
+		<p:mainTitle>花</p:mainTitle>
+		<p:titleSuffix>〜すべての人の心に花を〜</p:titleSuffix>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�Ω˭�������ع�</choir-name>
+	<choir-name>兵庫県立豊岡高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -354,17 +352,17 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��ë����</p:words-by>
-	      <p:composed-by>�а洿</p:composed-by>
+	      <p:words-by>岩谷時子</p:words-by>
+	      <p:composed-by>石井歓</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>����</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>風紋</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number>�����</p:piece-number>
+		<p:piece-number>第二章</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���ʤ�����</p:mainTitle>
+		    <p:mainTitle>あなたは風</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -373,7 +371,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>ʼ�˸�ΩȬ�������ع�</choir-name>
+	<choir-name>兵庫県立八鹿高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<prize nickname="none"></prize>
 	<program>
@@ -382,16 +380,16 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����</p:words-by>
-	      <p:composed-by>��������</p:composed-by>
+	      <p:words-by>川崎洋</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>�䤵������</p:mainTitle>
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>やさしい魚</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�䤵������</p:mainTitle>
+		    <p:mainTitle>やさしい魚</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
