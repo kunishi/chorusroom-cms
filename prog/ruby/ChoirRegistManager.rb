@@ -44,7 +44,7 @@ class ChoirRegistManager
     "<li>" +
       category(choir) + ' ' +
       ahref(choir.name, choir.url) + "  " +
-      enthref(internaluri(c)) +
+      enthref(internaluri(choir)) +
       (new ? " (新規)" : " (変更)") +
       "</li>"
   end
