@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-ascii-char-conv.xsl,v 1.1 2000/12/22 06:51:24 kunishi Exp $ -->
+<!-- $Id: gen-ascii-char-conv.xsl,v 1.2 2000/12/22 08:04:24 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns="http://www.chorusroom.org/chars">
@@ -26,9 +26,7 @@
 	<xsl:value-of select="@nickname"/>
       </xsl:attribute>
       <xsl:element name="xsl:text">
-	<xsl:text>&amp;#</xsl:text>
 	<xsl:value-of select="@alternative"/>
-	<xsl:text>;</xsl:text>
       </xsl:element>
     </xsl:element>
   </xsl:template>
