@@ -1,120 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<result moduleVersion="2.0" xmlns="http://www.chorusroom.org/xml"
-	xmlns:p="http://www.chorusroom.org/piece">
-  <competitionName pref="true">平成16年度（第71回）NHK全国学校音楽コンクール岡山県大会</competitionName>
-  <date dayOfWeek="tue">2004-08-03</date>
-  <hall>岡山市立市民文化ホール</hall>
-  <referee job="ノートルダム清心女子大学人間生活学部教授">近藤安个</referee>
-  <referee job="岡山大学教育学部助教授">虫明眞砂子</referee>
-  <referee job="旭川荘厚生専門学院児童福祉課主任研究員">矢内淑子</referee>
-  <referee job="日本教育音楽協会岡山県支部長、岡山大学名誉教授">菱川欣三郎</referee>
-  <referee job="NHK岡山放送局　放送部長">橋本明久</referee>
-  <notice>
-    <p xmlns="http://www.w3.org/1999/xhtml">課題曲は以下の通り。</p>
-    <ul xmlns="http://www.w3.org/1999/xhtml">
+<c:result moduleVersion="2.0" xmlns:c="http://www.chorusroom.org/xml"
+	xmlns:p="http://www.chorusroom.org/piece"
+	xmlns="http://www.w3.org/1999/xhtml">
+  <c:competitionName pref="true">平成16年度（第71回）NHK全国学校音楽コンクール岡山県大会</c:competitionName>
+  <c:date dayOfWeek="tue">2004-08-03</c:date>
+  <c:hall>岡山市立市民文化ホール</c:hall>
+  <c:referee job="ノートルダム清心女子大学人間生活学部教授">近藤安个</c:referee>
+  <c:referee job="岡山大学教育学部助教授">虫明眞砂子</c:referee>
+  <c:referee job="旭川荘厚生専門学院児童福祉課主任研究員">矢内淑子</c:referee>
+  <c:referee job="日本教育音楽協会岡山県支部長、岡山大学名誉教授">菱川欣三郎</c:referee>
+  <c:referee job="NHK岡山放送局　放送部長">橋本明久</c:referee>
+  <c:notice>
+    <p>課題曲は以下の通り。</p>
+    <ul>
       <li>小学校の部…未来を旅するハーモニー(作詞・作曲・コーラスアレンジ：吉田美和／編曲：寺島尚彦)</li>
       <li>中学校の部…信じる (作詩：谷川俊太郎／作曲：松下　耕)</li>
       <li>高等学校の部…「新しい人」に (作詩：大江健三郎／作曲：信長貴富)</li>
     </ul>
-    <p xmlns="http://www.w3.org/1999/xhtml">同一賞内の掲載順は、高等学校の部のみ順位順、ほかは演奏順。</p>
-  </notice>
-  <section>
-    <sectionName>小学校の部</sectionName>
-    <choir>
-      <name>倉敷市立茶屋町小学校</name>
-      <prize>金賞</prize>
-      <special-prize>代表</special-prize>
-      <players>指揮:<conductor>吉村鈴代</conductor>, ピアノ:<piano>高坂美智子</piano></players>
-      <freeNumber>少年少女のための合唱組曲<p:suiteTitle>祭りと子ども</p:suiteTitle>から<p:title>雪の祭り</p:title> (作詩：<p:wordsBy>中村千栄子</p:wordsBy>／作曲：<p:composedBy>岩河三郎</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山市立津島小学校</name>
-      <prize>金賞</prize>
-      <special-prize>代表</special-prize>
-      <players>指揮:<conductor>安藤彰子</conductor>, ピアノ:<piano>植山智恵</piano></players>
-      <freeNumber><p:title>満月の不思議ポロロッカ</p:title> (作詩：<p:wordsBy>飛鳥章子</p:wordsBy>／作曲：<p:composedBy>橋本祥路</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山市立御南小学校</name>
-      <prize>銀賞</prize>
-      <players>指揮:<conductor>黒田育子</conductor>, ピアノ:<piano>高塚寛子</piano>・<piano>三谷健太</piano></players>
-      <freeNumber><p:title>出発の朝</p:title> (作詩：<p:wordsBy>山川啓介</p:wordsBy>／作曲：<p:composedBy>福田和禾子</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山市立可知小学校</name>
-      <prize>銅賞</prize>
-      <players>指揮:<conductor>乙倉寧子</conductor>, ピアノ:<piano>杉本果穂</piano></players>
-      <freeNumber><p:title>君をのせて</p:title> (作詩：<p:wordsBy>宮崎　駿</p:wordsBy>／作曲：<p:composedBy>久石譲</p:composedBy>・編曲：<p:arrangedBy>富澤裕</p:arrangedBy>)</freeNumber>
-    </choir>
-  </section>
-  <section>
-    <sectionName>中学校の部</sectionName>
-    <choir>
-      <name>高梁市立高梁中学校</name>
-      <prize>金賞</prize>
-      <special-prize>代表</special-prize>
-      <players>指揮:<conductor>大島由紀</conductor>, ピアノ:<piano>松本匡世</piano></players>
-      <freeNumber part="同声三部">同声合唱のためのコンポジション<p:suiteTitle>日本の民謡1</p:suiteTitle>から　<p:title>八木節</p:title> (<p:originatedFrom>関東地方民謡</p:originatedFrom>／作曲：<p:composedBy>松下  耕</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>総社市外二箇村中学校組合立総社西中学校</name>
-      <prize>金賞</prize>
-      <special-prize>代表</special-prize>
-      <players>指揮:<conductor>大山敬子</conductor>, ピアノ:<piano>竹内律子</piano></players>
-      <freeNumber part="女声三部">無伴奏童声（女声）合唱のための<p:suiteTitle>Seven Songs of Nonsense</p:suiteTitle>から　<p:title>&#x2163; Before Falling Asleep（ねむるまえ）</p:title> (作詩：<p:wordsBy>谷川俊太郎</p:wordsBy>／訳詩：<p:translatedBy>W.I.Elliott・川村和夫</p:translatedBy>／作曲:<p:composedBy>鈴木輝昭</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山市立操南中学校</name>
-      <prize>銀賞</prize>
-      <players>指揮:<conductor>大野耐子</conductor>, ピアノ:<piano>齋藤文美</piano></players>
-      <freeNumber part="女声二部"><p:title>今をそして未来を</p:title> (作詩：<p:wordsBy>松井孝夫</p:wordsBy>／作曲：<p:composedBy>松井孝夫</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>神郷町立神郷中学校</name>
-      <prize>銀賞</prize>
-      <players>指揮:<conductor>大森功資</conductor>, ピアノ:<piano>中桐あや</piano></players>
-      <freeNumber part="混声三部"><p:title>聞こえる</p:title> (作詩：<p:wordsBy>岩間芳樹</p:wordsBy>／作曲：<p:composedBy>新実徳英</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山市立足守中学校</name>
-      <prize>銅賞</prize>
-      <players>指揮:<conductor>安藤孝子</conductor>, ピアノ:<piano>岡部佳苗</piano>・<piano>川崎由佳</piano></players>
-      <freeNumber part="女声三部"><p:suiteTitle>僕は雲雀</p:suiteTitle>から　<p:title>ふたりで</p:title>・<p:title>わらべが丘</p:title> (作詩：<p:wordsBy>谷川　雁</p:wordsBy>／作曲：<p:composedBy>新実徳英</p:composedBy>)</freeNumber>
-    </choir>
-  </section>
-  <section>
-    <sectionName>高等学校の部</sectionName>
-    <choir>
-      <name>岡山県立高梁高等学校</name>
-      <prize>金賞</prize>
-      <special-prize>代表</special-prize>
-      <players>指揮:<conductor>狩谷紀久子</conductor>, ピアノ:<piano>松本匡世</piano></players>
-      <freeNumber part="女声四部">女声（同声）合唱のためのコンポジション<p:suiteTitle>日本の民謡2</p:suiteTitle>から　<p:title>五木の子守唄</p:title> (<p:originatedFrom>熊本県民謡</p:originatedFrom>／作曲：<p:composedBy>松下  耕</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山県立岡山城東高等学校</name>
-      <prize>金賞</prize>
-      <special-prize>代表</special-prize>
-      <players>指揮:<conductor>森野啓司</conductor>, ピアノ:<piano>佐藤真美</piano>・<piano>齋藤祐子</piano></players>
-      <freeNumber part="混声四部">混声合唱曲集<p:suiteTitle>うたよ！</p:suiteTitle>から　<p:title>うたよ！</p:title> (作詩：<p:wordsBy>まど・みちお</p:wordsBy>／作曲：<p:composedBy>木下牧子</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山県立総社高等学校</name>
-      <prize>銀賞</prize>
-      <players>指揮:<conductor note="2年">藤原　努</conductor>, ピアノ:<piano note="2年">渡邉はるか</piano></players>
-      <freeNumber part="混声四部">混声合唱組曲<p:suiteTitle>ティオの夜の旅</p:suiteTitle>から　<p:title>&#x2160; 祝福</p:title> (作詩：<p:wordsBy>池澤夏樹</p:wordsBy>／作曲：<p:composedBy>木下牧子</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>山陽女子高等学校</name>
-      <prize>銀賞</prize>
-      <players>指揮:<conductor>中村芳弘</conductor>, ピアノ:<piano>近藤邦彦</piano></players>
-      <freeNumber part="女声四部">女声合唱とピアノのための<p:suiteTitle>四つの愛のかたち</p:suiteTitle>から　<p:title>&#x2161; 彼方にあると</p:title> (作詩：<p:wordsBy>新川和江</p:wordsBy>／作曲：<p:composedBy>三善  晃</p:composedBy>)</freeNumber>
-    </choir>
-    <choir>
-      <name>岡山県立津山高等学校</name>
-      <prize>銅賞</prize>
-      <players>指揮:<conductor>秋山  貴</conductor>, ピアノ:<piano note="1年">牧野友美</piano></players>
-      <freeNumber part="女声四部">女声合唱組曲<p:suiteTitle>水のいのち</p:suiteTitle>から　<p:title>海よ</p:title> (作詩：<p:wordsBy>高野喜久雄</p:wordsBy>／作曲：<p:composedBy>高田三郎</p:composedBy>)</freeNumber>
-    </choir>
-  </section>
-</result>
+    <p>同一賞内の掲載順は、高等学校の部のみ順位順、ほかは演奏順。</p>
+  </c:notice>
+  <c:section>
+    <c:sectionName>小学校の部</c:sectionName>
+    <c:choir>
+      <c:name>倉敷市立茶屋町小学校</c:name>
+      <c:prize>金賞</c:prize>
+      <c:special-prize>代表</c:special-prize>
+      <c:players>指揮:<c:conductor>吉村鈴代</c:conductor>, ピアノ:<c:piano>高坂美智子</c:piano></c:players>
+      <c:freeNumber>少年少女のための合唱組曲<p:suiteTitle>祭りと子ども</p:suiteTitle>から<p:title>雪の祭り</p:title> (作詩：<p:wordsBy>中村千栄子</p:wordsBy>／作曲：<p:composedBy>岩河三郎</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山市立津島小学校</c:name>
+      <c:prize>金賞</c:prize>
+      <c:special-prize>代表</c:special-prize>
+      <c:players>指揮:<c:conductor>安藤彰子</c:conductor>, ピアノ:<c:piano>植山智恵</c:piano></c:players>
+      <c:freeNumber><p:title>満月の不思議ポロロッカ</p:title> (作詩：<p:wordsBy>飛鳥章子</p:wordsBy>／作曲：<p:composedBy>橋本祥路</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山市立御南小学校</c:name>
+      <c:prize>銀賞</c:prize>
+      <c:players>指揮:<c:conductor>黒田育子</c:conductor>, ピアノ:<c:piano>高塚寛子</c:piano>・<c:piano>三谷健太</c:piano></c:players>
+      <c:freeNumber><p:title>出発の朝</p:title> (作詩：<p:wordsBy>山川啓介</p:wordsBy>／作曲：<p:composedBy>福田和禾子</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山市立可知小学校</c:name>
+      <c:prize>銅賞</c:prize>
+      <c:players>指揮:<c:conductor>乙倉寧子</c:conductor>, ピアノ:<c:piano>杉本果穂</c:piano></c:players>
+      <c:freeNumber><p:title>君をのせて</p:title> (作詩：<p:wordsBy>宮崎　駿</p:wordsBy>／作曲：<p:composedBy>久石譲</p:composedBy>・編曲：<p:arrangedBy>富澤裕</p:arrangedBy>)</c:freeNumber>
+    </c:choir>
+  </c:section>
+  <c:section>
+    <c:sectionName>中学校の部</c:sectionName>
+    <c:choir>
+      <c:name>高梁市立高梁中学校</c:name>
+      <c:prize>金賞</c:prize>
+      <c:special-prize>代表</c:special-prize>
+      <c:players>指揮:<c:conductor>大島由紀</c:conductor>, ピアノ:<c:piano>松本匡世</c:piano></c:players>
+      <c:freeNumber part="同声三部">同声合唱のためのコンポジション<p:suiteTitle>日本の民謡1</p:suiteTitle>から　<p:title>八木節</p:title> (<p:originatedFrom>関東地方民謡</p:originatedFrom>／作曲：<p:composedBy>松下  耕</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>総社市外二箇村中学校組合立総社西中学校</c:name>
+      <c:prize>金賞</c:prize>
+      <c:special-prize>代表</c:special-prize>
+      <c:players>指揮:<c:conductor>大山敬子</c:conductor>, ピアノ:<c:piano>竹内律子</c:piano></c:players>
+      <c:freeNumber part="女声三部">無伴奏童声（女声）合唱のための<p:suiteTitle>Seven Songs of Nonsense</p:suiteTitle>から　<p:title>&#x2163; Before Falling Asleep（ねむるまえ）</p:title> (作詩：<p:wordsBy>谷川俊太郎</p:wordsBy>／訳詩：<p:translatedBy>W.I.Elliott・川村和夫</p:translatedBy>／作曲:<p:composedBy>鈴木輝昭</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山市立操南中学校</c:name>
+      <c:prize>銀賞</c:prize>
+      <c:players>指揮:<c:conductor>大野耐子</c:conductor>, ピアノ:<c:piano>齋藤文美</c:piano></c:players>
+      <c:freeNumber part="女声二部"><p:title>今をそして未来を</p:title> (作詩：<p:wordsBy>松井孝夫</p:wordsBy>／作曲：<p:composedBy>松井孝夫</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>神郷町立神郷中学校</c:name>
+      <c:prize>銀賞</c:prize>
+      <c:players>指揮:<c:conductor>大森功資</c:conductor>, ピアノ:<c:piano>中桐あや</c:piano></c:players>
+      <c:freeNumber part="混声三部"><p:title>聞こえる</p:title> (作詩：<p:wordsBy>岩間芳樹</p:wordsBy>／作曲：<p:composedBy>新実徳英</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山市立足守中学校</c:name>
+      <c:prize>銅賞</c:prize>
+      <c:players>指揮:<c:conductor>安藤孝子</c:conductor>, ピアノ:<c:piano>岡部佳苗</c:piano>・<c:piano>川崎由佳</c:piano></c:players>
+      <c:freeNumber part="女声三部"><p:suiteTitle>僕は雲雀</p:suiteTitle>から　<p:title>ふたりで</p:title>・<p:title>わらべが丘</p:title> (作詩：<p:wordsBy>谷川　雁</p:wordsBy>／作曲：<p:composedBy>新実徳英</p:composedBy>)</c:freeNumber>
+    </c:choir>
+  </c:section>
+  <c:section>
+    <c:sectionName>高等学校の部</c:sectionName>
+    <c:choir>
+      <c:name>岡山県立高梁高等学校</c:name>
+      <c:prize>金賞</c:prize>
+      <c:special-prize>代表</c:special-prize>
+      <c:players>指揮:<c:conductor>狩谷紀久子</c:conductor>, ピアノ:<c:piano>松本匡世</c:piano></c:players>
+      <c:freeNumber part="女声四部">女声（同声）合唱のためのコンポジション<p:suiteTitle>日本の民謡2</p:suiteTitle>から　<p:title>五木の子守唄</p:title> (<p:originatedFrom>熊本県民謡</p:originatedFrom>／作曲：<p:composedBy>松下  耕</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山県立岡山城東高等学校</c:name>
+      <c:prize>金賞</c:prize>
+      <c:special-prize>代表</c:special-prize>
+      <c:players>指揮:<c:conductor>森野啓司</c:conductor>, ピアノ:<c:piano>佐藤真美</c:piano>・<c:piano>齋藤祐子</c:piano></c:players>
+      <c:freeNumber part="混声四部">混声合唱曲集<p:suiteTitle>うたよ！</p:suiteTitle>から　<p:title>うたよ！</p:title> (作詩：<p:wordsBy>まど・みちお</p:wordsBy>／作曲：<p:composedBy>木下牧子</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山県立総社高等学校</c:name>
+      <c:prize>銀賞</c:prize>
+      <c:players>指揮:<c:conductor note="2年">藤原　努</c:conductor>, ピアノ:<c:piano note="2年">渡邉はるか</c:piano></c:players>
+      <c:freeNumber part="混声四部">混声合唱組曲<p:suiteTitle>ティオの夜の旅</p:suiteTitle>から　<p:title>&#x2160; 祝福</p:title> (作詩：<p:wordsBy>池澤夏樹</p:wordsBy>／作曲：<p:composedBy>木下牧子</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>山陽女子高等学校</c:name>
+      <c:prize>銀賞</c:prize>
+      <c:players>指揮:<c:conductor>中村芳弘</c:conductor>, ピアノ:<c:piano>近藤邦彦</c:piano></c:players>
+      <c:freeNumber part="女声四部">女声合唱とピアノのための<p:suiteTitle>四つの愛のかたち</p:suiteTitle>から　<p:title>&#x2161; 彼方にあると</p:title> (作詩：<p:wordsBy>新川和江</p:wordsBy>／作曲：<p:composedBy>三善  晃</p:composedBy>)</c:freeNumber>
+    </c:choir>
+    <c:choir>
+      <c:name>岡山県立津山高等学校</c:name>
+      <c:prize>銅賞</c:prize>
+      <c:players>指揮:<c:conductor>秋山  貴</c:conductor>, ピアノ:<c:piano note="1年">牧野友美</c:piano></c:players>
+      <c:freeNumber part="女声四部">女声合唱組曲<p:suiteTitle>水のいのち</p:suiteTitle>から　<p:title>海よ</p:title> (作詩：<p:wordsBy>高野喜久雄</p:wordsBy>／作曲：<p:composedBy>高田三郎</p:composedBy>)</c:freeNumber>
+    </c:choir>
+  </c:section>
+</c:result>
