@@ -1,8 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja"><head>
-    <meta http-equiv="Content-Type" content="text/html;charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title lang="en">50th AJCL Chorus Contest/Kanagawa-Ippan</title>
   </head>
   <body>
@@ -21,7 +27,7 @@
       <dt>情報提供者</dt>
       <dd>小田切信彦さん (<tt>nodagiri@mth.biglobe.ne.jp</tt>)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>一般の部 A</h2>
     <h3>金賞</h3>
     <ul>
@@ -49,7 +55,6 @@
 	  <li>新実徳英/男声合唱とピアノのための「ことばあそびうた II」より 4.さる</li>
 	</ul></li>
     </ul>
-    <br>
     <h3>銀賞</h3>
     <ul>
       <li> ステラ マリス (女声 16名、指揮:田村茂)
@@ -80,8 +85,9 @@
 	  <li><span lang="fi">Bengt Johansson</span>/
 	    「<span lang="it">MISSA A QUATTRO VOCI</span>」より
 	    <span lang="la">Kyrie;Gloria;Agnus Dei</span></li>
-	</ul></li></ul>
-    <br>
+	</ul>
+      </li>
+    </ul>
     <h3>銅賞</h3>
     <ul>
       <li> マルベリー・メール・クワイア (男声 12名、指揮:桑原妙子)
@@ -95,7 +101,7 @@
 	  <li>F2</li>
 	  <li><span lang="hu">Lajos B&aacute;rdos/Cantemus!; Magos a rutafa</span></li>
 	</ul></li></ul>
-    <hr>
+    <hr/>
     <h2>一般の部 B</h2>
     <h3>金賞</h3>
     <ul>
@@ -133,9 +139,8 @@
 	  <li>三善晃/混声合唱のための「地球へのバラード」より II. 沈黙の名;
 	    IV. 地球へのピクニック</li>
 	</ul></li></ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- hhmts start -->
-Last modified: Tue Dec 16 23:12:05 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/24 01:58:47 $
+  </body>
+</html>

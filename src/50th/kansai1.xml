@@ -1,8 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title lang="en">50th AJCL Chorus Contest/Kansai, High School</title>
   </head>
   <body>
@@ -14,7 +20,7 @@
       <dd>池田市民会館アゼリアホール</dd>
     </dl>
     ○印は全国大会出場団体を表します。また、同一順位内は演奏順に記しています。
-    <hr>
+    <hr/>
     <h2>高校A</h2>
     <h3>金賞</h3>
     <ul>
@@ -98,7 +104,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校B</h2>
     <h3>金賞</h3>
     <ul>
@@ -159,9 +165,8 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- hhmts start -->
-Last modified: Sat Dec 27 20:27:39 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/24 02:01:04 $
+  </body>
+</html>

@@ -1,9 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>50th AJCL Chorus Contest/Kansai</title>
   </head>
 
@@ -23,7 +28,7 @@
     元に全国大会出場団体が決定されます。その際、おかあさんの部出場団体は
     一般団体として扱われます。○が全国大会出場団体です。</p>
     <p>シードの合唱団京都エコーの演奏は10/19の大学・職場の部の時に行われます。</p>
-    <hr>
+    <hr/>
     <h2>おかあさんの部Aグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -101,7 +106,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>おかあさんの部Bグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -143,7 +148,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部Aグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -225,7 +230,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部Bグループ</h2>
     <h3>シード団体</h3>
     <ul>
@@ -283,11 +288,8 @@
       </li>
     </ul>
 
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- Created: Mon Oct 13 00:20:47 JST 1997 -->
-<!-- hhmts start -->
-Last modified: Tue Dec 16 23:14:21 JST 1997
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/24 02:04:48 $
   </body>
 </html>

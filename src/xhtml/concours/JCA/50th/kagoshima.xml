@@ -1,7 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja"> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title lang="en">50th AJCL Chorus Contest/Kagoshima</title>
   </head>
   <body>
@@ -16,7 +23,7 @@
       <dt>情報提供者</dt>
       <dd>田原博幸さん (<tt>tahara@khosp2.kufm.kagoshima-u.ac.jp</tt>)</dd>
     </dl>
-    <hr>
+    <hr/>
     <dl>
       <dt>鹿児島県知事賞</dt>
       <dd>鹿児島混声合唱団</dd>
@@ -30,7 +37,7 @@
       <dd>鹿児島大学ポリフォニー・コール</dd>
     </dl>
     同賞内は一般を除き出演順に記載しています。
-    <hr>
+    <hr/>
     <h2>中学校の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -97,7 +104,7 @@
 	  <li>飯沼信義/名づけられた葉</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -136,7 +143,7 @@
 	    <span lang="fr">LE CHANT DES OYSEAUX</span>(鳥の歌)</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校の部</h2>
     <h3>シード</h3>
     <ul>
@@ -216,7 +223,7 @@
 	    <span lang="it">Intermezzo</span>; III</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -244,7 +251,8 @@
 	  <li>木下牧子/男声合唱組曲「ティオの夜の旅」より 海神; ローラ・ビーチ</li>
 	</ul></li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-    <!--#echo var="LAST_MODIFIED"-->
-  </body> </html>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/24 01:54:03 $
+  </body>
+</html>
