@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.5 2000/11/16 16:36:39 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/01/12 12:03:39 kunishi Exp $
 #
 
 INSTFILES_NOBUILD=	NMZ.body \
@@ -15,5 +15,5 @@ INSTFILES_NOBUILD=	NMZ.body \
 			NMZ.tips \
 			NMZ.tips.ja
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+include config.mk
+include rule.mk

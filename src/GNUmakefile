@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.51 2001/01/09 10:12:14 kunishi Exp $
+# $Id: GNUmakefile,v 1.52 2001/01/12 12:03:04 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -35,10 +35,11 @@ SUBDIR+=	ajcl \
 		namazu \
 		server \
 		style \
-		whatsnew
+		whatsnew \
+		DTD
 
-include ${SRCTOPDIR}config.mk
-include ${SRCTOPDIR}rule.mk
+include config.mk
+include rule.mk
 
 .PHONY: index gcindex upload
 

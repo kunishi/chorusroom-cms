@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.5 2001/01/09 10:12:16 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/01/12 12:03:06 kunishi Exp $
 #
 
 GEN_DTDS_NONS=	char-table.dtd
@@ -10,6 +10,8 @@ GEN_DTDS_NS=	contest-result-generic.dtd \
 		given-programs.dtd \
 		resource.dtd
 GEN_RELAX_MODULES=	characters.rxm
+
+INSTFILES=	${GEN_DTDS_NONS} ${GEN_DTDS_NS}
 
 all:
 

@@ -1,8 +1,8 @@
 #
-# $Id: GNUmakefile,v 1.3 2000/10/10 15:40:38 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/12 12:03:39 kunishi Exp $
 #
 
 SUBDIR+=	index
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+include config.mk
+include rule.mk

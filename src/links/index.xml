@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:r="http://www.chorusroom.org/resource">
   <head>
-    <!-- $Id: index.xml,v 1.14 2000/10/08 23:37:55 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.15 2001/01/12 12:03:16 kunishi Exp $ -->
     <title>Links about Chorus Music</title>
   </head>
   <body>
     <h1>合唱関係のリンク集</h1>
     <p>
       合唱に関わりの深いページへのリンクを集めたページです。これ以外に
-      面白いページをご存じの方、<a href="mailto:&kunishi-email;"
-      shape="rect">私(<tt>&kunishi-email;</tt>)</a> までお教えください。
+      面白いページをご存じの方、国島(<tt><r:resourceRef name="maintainerEmail"/></tt>)までお教えください。
       自薦・他薦、日本・海外を問いません。よろしくお願いします。
     </p>
     <hr/>

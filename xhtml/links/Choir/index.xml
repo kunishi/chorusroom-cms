@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:r="http://www.chorusroom.org/resource">
   <head>
     <title>Chorus Room/Links:Choir</title>
   </head>
@@ -20,8 +16,7 @@
     <hr/>
     <p>
       「自分の合唱団へのリンクも張って！」というような御希望がありまし
-      たら、<a href="mailto:&kunishi-email;" shape="rect">国島 
-      (&kunishi-email;)</a>まで御一報下さい。また、これ以外の合唱団の
+      たら、国島 (<r:resourceRef name="maintainerEmail"/>)まで御一報下さい。また、これ以外の合唱団の
       ページをご存知の場合も御一報いただければ幸いです。
     </p>
     <hr/>

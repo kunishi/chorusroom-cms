@@ -1,6 +1,8 @@
 # 
-# $Id: GNUmakefile,v 1.3 2000/10/10 15:40:45 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/12 12:03:16 kunishi Exp $
 #
+
+USE_NEW_SCHEME=	yes
 
 INSTFILES+=	index.html
 

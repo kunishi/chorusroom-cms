@@ -1,6 +1,8 @@
 # 
-# $Id: GNUmakefile,v 1.4 2000/10/10 15:40:42 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2001/01/12 12:03:34 kunishi Exp $
 # 
+
+USE_NEW_SCHEME=	yes
 
 INSTFILES+=	index.html
 
@@ -9,5 +11,5 @@ SUBDIR+=	Composer \
 		Misc \
 		Poet
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+include config.mk
+include rule.mk

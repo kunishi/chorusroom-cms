@@ -1,10 +1,10 @@
 # 
-# $Id: GNUmakefile,v 1.3 2000/10/10 15:40:45 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/12 12:03:40 kunishi Exp $
 # 
 
 INSTFILES_NOBUILD=	default.css \
 			jca-concour.css \
 			toppage.css
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+include config.mk
+include rule.mk

@@ -1,8 +1,10 @@
 # 
-# $Id: GNUmakefile,v 1.3 2000/10/10 15:40:39 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/12 12:03:24 kunishi Exp $
 # 
+
+USE_NEW_SCHEME=	yes
 
 INSTFILES+=	index.html
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+include config.mk
+include rule.mk
