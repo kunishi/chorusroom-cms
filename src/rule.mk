@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.12 1999/09/23 06:38:25 kunishi Exp $
+# $Id: rule.mk,v 1.13 1999/09/26 16:27:32 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml
@@ -8,6 +8,9 @@
 
 %.html:	%.xml
 	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} > $@
+
+%.utfxml: %.xml
+	${XML2UTFXML} $< > $@
 
 %.utfhtml: %.utfxml
 	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
