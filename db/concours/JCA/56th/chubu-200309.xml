@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<competition xmlns="http://www.chorusroom.org/xml"
+	     xmlns:p="http://www.chorusroom.org/piece"
+	     xmlns:c="http://www.chorusroom.org/character"
+	     xml:lang="ja">
+  <cvs-id></cvs-id>
+  <competition-name area="true" pref="false">第56回中部合唱コンクール</competition-name>
+  <result output="chubu-200309">
+    <date day-of-week="sat">2003-09-27</date>
+    <date day-of-week="sun">2003-09-28</date>
+    <hall>金沢観光会館</hall>
+    <referee job="声楽家" shortname="大志万">大志万明子</referee>
+    <referee job="合唱指揮者" shortname="清水">清水敬一</referee>
+    <referee job="作曲家" shortname="高嶋">高嶋みどり</referee>
+    <referee job="指揮者" shortname="堀">堀俊輔</referee>
+    <referee job="合唱指揮者" shortname="吉村">吉村信良</referee>
+    <reporter anonymous="true">
+      <reporter-name>りんちゃん</reporter-name>
+      <reporter-email>frikka@inter7.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校部門 混声合唱の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>名古屋市立香流中学校合唱部</choir-name>
+	<prefecture>愛知</prefecture>
+	<choir-type>mixed</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>大垣市立興文中学校合唱部</choir-name>
+	<prefecture>岐阜</prefecture>
+	<choir-type>mixed</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>信州大学付属長野中学校合唱部</choir-name>
+	<prefecture>長野</prefecture>
+	<choir-type>mixed</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>福井市成和中学校合唱部</choir-name>
+	<prefecture>福井</prefecture>
+	<choir-type>mixed</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>三重大学教育学部付属中学校</choir-name>
+	<prefecture>三重</prefecture>
+	<choir-type>mixed</choir-type>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>中学校部門 同声の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>野々市町立布水中学校合唱部</choir-name>
+	<prefecture>石川</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>長野市立東部中学校合唱部</choir-name>
+	<prefecture>長野</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>名古屋市立桜山中学校コーラス部</choir-name>
+	<prefecture>愛知</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>武豊町立富貴中学校合唱部</choir-name>
+	<prefecture>愛知</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>鯖江市立中央中学校合唱部</choir-name>
+	<prefecture>福井</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長野市立篠ノ井東中学校</choir-name>
+	<prefecture>長野</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>三重大学教育学部付属中学校音楽部</choir-name>
+	<prefecture>三重</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>近嬢学院中学校グリークラブ</choir-name>
+	<prefecture>愛知</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長野市立犀陵学校合唱部</choir-name>
+	<prefecture>長野</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>高岡市立国吉中学校合唱部</choir-name>
+	<prefecture>富山</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>鈴鹿市立鼓ヶ浦中学校</choir-name>
+	<prefecture>三重</prefecture>
+	<choir-type>same-voice</choir-type>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校部門 Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>岐阜県立岐阜高等学校音楽部</choir-name>
+	<prefecture>岐阜</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>三重県立宇治山田高等学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>岐阜県立大垣桜高等学校合唱部</choir-name>
+	<prefecture>岐阜</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>富山県立高岡西高等学校合唱部</choir-name>
+	<prefecture>富山</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>桜花学園高等学校合唱団</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>三重県立津高等学校音楽部</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長野県長野高等学校合唱班</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>暁高等学校音楽部</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>安城学園高等学校合唱部</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>福井県立美方高等学校合唱部</choir-name>
+	<prefecture>福井</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>富山県立高岡南高等学校合唱部</choir-name>
+	<prefecture>富山</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長野県塩尻志学館高等学校音楽部</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校部門 Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>愛知県立岡崎高等学校コーラス部</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>石川県立金沢ニ水高等学校合唱部</choir-name>
+	<prefecture>石川</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>石川県立金沢泉丘高等学校合唱部</choir-name>
+	<prefecture>石川</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>岐阜県立大垣北高等学校音楽部</choir-name>
+	<prefecture>岐阜</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>長野県小諸高等学校音楽部</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>三重県立伊勢高等学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>富山県立富山いずみ高等学校合唱部</choir-name>
+	<prefecture>富山</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>大学部門 Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>富山大学合唱団</choir-name>
+	<prefecture>富山</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>大学部門 Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>金沢大学合唱団</choir-name>
+	<prefecture>石川</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>信州大学グリークラブ</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>岐阜大学コーラスクラブ</choir-name>
+	<prefecture>岐阜</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>三重大学合唱団</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>職場部門</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>トヨタ自動車</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門 Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>合唱団まい</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>岡崎混声合唱団</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>合唱団まりもあ</choir-name>
+	<prefecture>岐阜</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>合唱団あじろべー</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>女声合唱団　杏</choir-name>
+	<prefecture>石川</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>コーロ　カンパーニャ</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>男声合唱団ダンネリオン</choir-name>
+	<prefecture>福井</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>ヴォーカルアンサンブル《ＥＳＴ》</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="seeded">シード</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門 Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>三重ヴォークスボーナ</choir-name>
+	<prefecture>三重</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>合唱団ノース・エコー</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>ぎふジュニアヴォーカルアンサンブル</choir-name>
+	<prefecture>岐阜</prefecture>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>ベーレンコール</choir-name>
+	<prefecture>長野</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>うたうた</choir-name>
+	<prefecture>福井</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>石川市中央公民館合唱団</choir-name>
+	<prefecture>石川</prefecture>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>混声合唱団 Vox MEA</choir-name>
+	<prefecture>愛知</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>金沢混声合唱団</choir-name>
+	<prefecture>石川</prefecture>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+  </result>
+</competition>
