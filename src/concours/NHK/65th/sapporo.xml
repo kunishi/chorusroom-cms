@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: sapporo.xml,v 1.2 2001/01/29 02:56:23 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: sapporo.xml,v 1.3 2001/08/19 14:20:06 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成 10 年度 (第 65 回) NHK 全国学校音楽コンクール札幌地区コンクール</competition-name>
   <result output="sapporo">
     <reporter anonymous="false">
       <reporter-name>なおや</reporter-name>
       <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <reporter anonymous="false">
+      <reporter-name>みかづき</reporter-name>
+      <reporter-email anonymous="false">naoya118@seagreen.ocn.ne.jp</reporter-email>
     </reporter>
     <section>
       <section-name>小学校の部</section-name>
@@ -374,7 +378,7 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="8">
-	<choir-name>札幌市市立前田中学校</choir-name>
+	<choir-name>札幌市立前田中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-parts>3</number-of-parts>
 	<conductor>堀田留美子</conductor>
