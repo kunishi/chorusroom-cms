@@ -1,0 +1,4042 @@
+default namespace = "http://www.w3.org/1999/xhtml"
+namespace ns1 = "http://www.chorusroom.org/character"
+namespace ns2 = "http://www.chorusroom.org/resource"
+
+start =
+  element html {
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute xmlns { xsd:string }?,
+    element head {
+      attribute lang { xsd:string }?,
+      attribute xml:lang { xsd:string }?,
+      attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+      attribute profile { xsd:string }?,
+      (script | style | meta | link | object)*,
+      ((title,
+        (script | style | meta | link | object)*,
+        (base, (script | style | meta | link | object)*)?)
+       | (base,
+          (script | style | meta | link | object)*,
+          title,
+          (script | style | meta | link | object)*))
+    },
+    element body {
+      attribute id { xsd:ID }?,
+      attribute class { xsd:string }?,
+      attribute style { xsd:string }?,
+      attribute title { xsd:string }?,
+      attribute lang { xsd:string }?,
+      attribute xml:lang { xsd:string }?,
+      attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+      attribute onclick { xsd:string }?,
+      attribute ondblclick { xsd:string }?,
+      attribute onmousedown { xsd:string }?,
+      attribute onmouseup { xsd:string }?,
+      attribute onmouseover { xsd:string }?,
+      attribute onmousemove { xsd:string }?,
+      attribute onmouseout { xsd:string }?,
+      attribute onkeypress { xsd:string }?,
+      attribute onkeydown { xsd:string }?,
+      attribute onkeyup { xsd:string }?,
+      attribute onload { xsd:string }?,
+      attribute onunload { xsd:string }?,
+      (p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+span =
+  element span {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+resourceRef =
+  element ns2:resourceRef {
+    attribute name { xsd:string }?
+  }
+code =
+  element code {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+table =
+  element table {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute summary { xsd:string }?,
+    attribute width { xsd:string }?,
+    attribute border { xsd:string }?,
+    attribute frame {
+      xsd:NMTOKEN "lhs"
+      | xsd:NMTOKEN "above"
+      | xsd:NMTOKEN "box"
+      | xsd:NMTOKEN "void"
+      | xsd:NMTOKEN "vsides"
+      | xsd:NMTOKEN "border"
+      | xsd:NMTOKEN "below"
+      | xsd:NMTOKEN "rhs"
+      | xsd:NMTOKEN "hsides"
+    }?,
+    attribute rules {
+      xsd:NMTOKEN "cols"
+      | xsd:NMTOKEN "groups"
+      | xsd:NMTOKEN "rows"
+      | xsd:NMTOKEN "none"
+      | xsd:NMTOKEN "all"
+    }?,
+    attribute cellspacing { xsd:string }?,
+    attribute cellpadding { xsd:string }?,
+    element caption {
+      attribute id { xsd:ID }?,
+      attribute class { xsd:string }?,
+      attribute style { xsd:string }?,
+      attribute title { xsd:string }?,
+      attribute lang { xsd:string }?,
+      attribute xml:lang { xsd:string }?,
+      attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+      attribute onclick { xsd:string }?,
+      attribute ondblclick { xsd:string }?,
+      attribute onmousedown { xsd:string }?,
+      attribute onmouseup { xsd:string }?,
+      attribute onmouseover { xsd:string }?,
+      attribute onmousemove { xsd:string }?,
+      attribute onmouseout { xsd:string }?,
+      attribute onkeypress { xsd:string }?,
+      attribute onkeydown { xsd:string }?,
+      attribute onkeyup { xsd:string }?,
+      mixed {
+        (utf8-char
+         | resourceRef
+         | a
+         | br
+         | span
+         | bdo
+         | object
+         | img
+         | map
+         | tt
+         | i
+         | b
+         | big
+         | small
+         | em
+         | strong
+         | dfn
+         | code
+         | q
+         | sub
+         | sup
+         | samp
+         | kbd
+         | var
+         | cite
+         | abbr
+         | acronym
+         | input
+         | select
+         | textarea
+         | label
+         | button
+         | ins
+         | del
+         | script
+         | noscript)*
+      }
+    }?,
+    (col+
+     | empty
+     | element colgroup {
+         attribute id { xsd:ID }?,
+         attribute class { xsd:string }?,
+         attribute style { xsd:string }?,
+         attribute title { xsd:string }?,
+         attribute lang { xsd:string }?,
+         attribute xml:lang { xsd:string }?,
+         attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+         attribute onclick { xsd:string }?,
+         attribute ondblclick { xsd:string }?,
+         attribute onmousedown { xsd:string }?,
+         attribute onmouseup { xsd:string }?,
+         attribute onmouseover { xsd:string }?,
+         attribute onmousemove { xsd:string }?,
+         attribute onmouseout { xsd:string }?,
+         attribute onkeypress { xsd:string }?,
+         attribute onkeydown { xsd:string }?,
+         attribute onkeyup { xsd:string }?,
+         attribute span { xsd:string }?,
+         attribute width { xsd:string }?,
+         attribute align {
+           xsd:NMTOKEN "right"
+           | xsd:NMTOKEN "char"
+           | xsd:NMTOKEN "left"
+           | xsd:NMTOKEN "center"
+           | xsd:NMTOKEN "justify"
+         }?,
+         attribute char { xsd:string }?,
+         attribute charoff { xsd:string }?,
+         attribute valign {
+           xsd:NMTOKEN "middle"
+           | xsd:NMTOKEN "top"
+           | xsd:NMTOKEN "baseline"
+           | xsd:NMTOKEN "bottom"
+         }?,
+         col*
+       }+),
+    element thead {
+      attribute id { xsd:ID }?,
+      attribute class { xsd:string }?,
+      attribute style { xsd:string }?,
+      attribute title { xsd:string }?,
+      attribute lang { xsd:string }?,
+      attribute xml:lang { xsd:string }?,
+      attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+      attribute onclick { xsd:string }?,
+      attribute ondblclick { xsd:string }?,
+      attribute onmousedown { xsd:string }?,
+      attribute onmouseup { xsd:string }?,
+      attribute onmouseover { xsd:string }?,
+      attribute onmousemove { xsd:string }?,
+      attribute onmouseout { xsd:string }?,
+      attribute onkeypress { xsd:string }?,
+      attribute onkeydown { xsd:string }?,
+      attribute onkeyup { xsd:string }?,
+      attribute align {
+        xsd:NMTOKEN "right"
+        | xsd:NMTOKEN "char"
+        | xsd:NMTOKEN "left"
+        | xsd:NMTOKEN "center"
+        | xsd:NMTOKEN "justify"
+      }?,
+      attribute char { xsd:string }?,
+      attribute charoff { xsd:string }?,
+      attribute valign {
+        xsd:NMTOKEN "middle"
+        | xsd:NMTOKEN "top"
+        | xsd:NMTOKEN "baseline"
+        | xsd:NMTOKEN "bottom"
+      }?,
+      tr+
+    }?,
+    element tfoot {
+      attribute id { xsd:ID }?,
+      attribute class { xsd:string }?,
+      attribute style { xsd:string }?,
+      attribute title { xsd:string }?,
+      attribute lang { xsd:string }?,
+      attribute xml:lang { xsd:string }?,
+      attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+      attribute onclick { xsd:string }?,
+      attribute ondblclick { xsd:string }?,
+      attribute onmousedown { xsd:string }?,
+      attribute onmouseup { xsd:string }?,
+      attribute onmouseover { xsd:string }?,
+      attribute onmousemove { xsd:string }?,
+      attribute onmouseout { xsd:string }?,
+      attribute onkeypress { xsd:string }?,
+      attribute onkeydown { xsd:string }?,
+      attribute onkeyup { xsd:string }?,
+      attribute align {
+        xsd:NMTOKEN "right"
+        | xsd:NMTOKEN "char"
+        | xsd:NMTOKEN "left"
+        | xsd:NMTOKEN "center"
+        | xsd:NMTOKEN "justify"
+      }?,
+      attribute char { xsd:string }?,
+      attribute charoff { xsd:string }?,
+      attribute valign {
+        xsd:NMTOKEN "middle"
+        | xsd:NMTOKEN "top"
+        | xsd:NMTOKEN "baseline"
+        | xsd:NMTOKEN "bottom"
+      }?,
+      tr+
+    }?,
+    (element tbody {
+       attribute id { xsd:ID }?,
+       attribute class { xsd:string }?,
+       attribute style { xsd:string }?,
+       attribute title { xsd:string }?,
+       attribute lang { xsd:string }?,
+       attribute xml:lang { xsd:string }?,
+       attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+       attribute onclick { xsd:string }?,
+       attribute ondblclick { xsd:string }?,
+       attribute onmousedown { xsd:string }?,
+       attribute onmouseup { xsd:string }?,
+       attribute onmouseover { xsd:string }?,
+       attribute onmousemove { xsd:string }?,
+       attribute onmouseout { xsd:string }?,
+       attribute onkeypress { xsd:string }?,
+       attribute onkeydown { xsd:string }?,
+       attribute onkeyup { xsd:string }?,
+       attribute align {
+         xsd:NMTOKEN "right"
+         | xsd:NMTOKEN "char"
+         | xsd:NMTOKEN "left"
+         | xsd:NMTOKEN "center"
+         | xsd:NMTOKEN "justify"
+       }?,
+       attribute char { xsd:string }?,
+       attribute charoff { xsd:string }?,
+       attribute valign {
+         xsd:NMTOKEN "middle"
+         | xsd:NMTOKEN "top"
+         | xsd:NMTOKEN "baseline"
+         | xsd:NMTOKEN "bottom"
+       }?,
+       tr+
+     }+
+     | tr+)
+  }
+map =
+  element map {
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute id { xsd:ID },
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute name { xsd:NMTOKEN }?,
+    ((p
+      | h1
+      | h2
+      | h3
+      | h4
+      | h5
+      | h6
+      | \div
+      | ul
+      | ol
+      | dl
+      | pre
+      | hr
+      | blockquote
+      | address
+      | fieldset
+      | table
+      | form
+      | ins
+      | del
+      | script
+      | noscript)+
+     | element area {
+         attribute id { xsd:ID }?,
+         attribute class { xsd:string }?,
+         attribute style { xsd:string }?,
+         attribute title { xsd:string }?,
+         attribute lang { xsd:string }?,
+         attribute xml:lang { xsd:string }?,
+         attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+         attribute onclick { xsd:string }?,
+         attribute ondblclick { xsd:string }?,
+         attribute onmousedown { xsd:string }?,
+         attribute onmouseup { xsd:string }?,
+         attribute onmouseover { xsd:string }?,
+         attribute onmousemove { xsd:string }?,
+         attribute onmouseout { xsd:string }?,
+         attribute onkeypress { xsd:string }?,
+         attribute onkeydown { xsd:string }?,
+         attribute onkeyup { xsd:string }?,
+         attribute shape {
+           xsd:NMTOKEN "default"
+           | xsd:NMTOKEN "circle"
+           | xsd:NMTOKEN "rect"
+           | xsd:NMTOKEN "poly"
+         }?,
+         attribute coords { xsd:string }?,
+         attribute href { xsd:anyURI }?,
+         attribute nohref { xsd:NMTOKEN "nohref" }?,
+         attribute alt { xsd:string },
+         attribute tabindex { xsd:string }?,
+         attribute accesskey { xsd:string }?,
+         attribute onfocus { xsd:string }?,
+         attribute onblur { xsd:string }?
+       }+)
+  }
+sup =
+  element sup {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+utf8-char =
+  element ns1:utf8-char {
+    attribute nickname {
+      xsd:string "Uacute"
+      | xsd:string "THORN"
+      | xsd:string "romanII"
+      | xsd:string "ubrcy"
+      | xsd:string "shcy"
+      | xsd:string "maru1"
+      | xsd:string "romanVII"
+      | xsd:string "udblac"
+      | xsd:string "Imacr"
+      | xsd:string "romanii"
+      | xsd:string "KHcy"
+      | xsd:string "lcedil"
+      | xsd:string "ljcy"
+      | xsd:string "romanI"
+      | xsd:string "aelig"
+      | xsd:string "maru20"
+      | xsd:string "Nacute"
+      | xsd:string "Ubrcy"
+      | xsd:string "ENG"
+      | xsd:string "maru19"
+      | xsd:string "Tcedil"
+      | xsd:string "dscy"
+      | xsd:string "Zdot"
+      | xsd:string "Cdot"
+      | xsd:string "scy"
+      | xsd:string "Ccaron"
+      | xsd:string "none"
+      | xsd:string "uogon"
+      | xsd:string "napos"
+      | xsd:string "Wcirc"
+      | xsd:string "Tstrok"
+      | xsd:string "omacr"
+      | xsd:string "iukcy"
+      | xsd:string "djcy"
+      | xsd:string "oslash"
+      | xsd:string "ETH"
+      | xsd:string "numero"
+      | xsd:string "Abreve"
+      | xsd:string "Gdot"
+      | xsd:string "eth"
+      | xsd:string "ijlig"
+      | xsd:string "rcaron"
+      | xsd:string "lcaron"
+      | xsd:string "Scedil"
+      | xsd:string "Yacute"
+      | xsd:string "YAcy"
+      | xsd:string "acy"
+      | xsd:string "Oslash"
+      | xsd:string "atilde"
+      | xsd:string "romanviii"
+      | xsd:string "TSHcy"
+      | xsd:string "Lmidot"
+      | xsd:string "NJcy"
+      | xsd:string "Jsercy"
+      | xsd:string "edot"
+      | xsd:string "dcy"
+      | xsd:string "zdot"
+      | xsd:string "DJcy"
+      | xsd:string "IEcy"
+      | xsd:string "kgreen"
+      | xsd:string "ccirc"
+      | xsd:string "ugrave"
+      | xsd:string "IOcy"
+      | xsd:string "otilde"
+      | xsd:string "euml"
+      | xsd:string "eng"
+      | xsd:string "romanM"
+      | xsd:string "Vcy"
+      | xsd:string "Ycirc"
+      | xsd:string "ecaron"
+      | xsd:string "icirc"
+      | xsd:string "OElig"
+      | xsd:string "romanL"
+      | xsd:string "Ncaron"
+      | xsd:string "abreve"
+      | xsd:string "Egrave"
+      | xsd:string "Rcy"
+      | xsd:string "oacute"
+      | xsd:string "Scy"
+      | xsd:string "uuml"
+      | xsd:string "Idot"
+      | xsd:string "Ocirc"
+      | xsd:string "Euml"
+      | xsd:string "scedil"
+      | xsd:string "ecy"
+      | xsd:string "Acy"
+      | xsd:string "thorn"
+      | xsd:string "Ccedil"
+      | xsd:string "maru5"
+      | xsd:string "Fcy"
+      | xsd:string "ccedil"
+      | xsd:string "romanX"
+      | xsd:string "auml"
+      | xsd:string "gcy"
+      | xsd:string "uacute"
+      | xsd:string "Iukcy"
+      | xsd:string "gacute"
+      | xsd:string "romanm"
+      | xsd:string "cdot"
+      | xsd:string "pcy"
+      | xsd:string "Gcy"
+      | xsd:string "Agrave"
+      | xsd:string "Gcirc"
+      | xsd:string "Tcy"
+      | xsd:string "Ecaron"
+      | xsd:string "ccaron"
+      | xsd:string "ograve"
+      | xsd:string "romaniii"
+      | xsd:string "romanD"
+      | xsd:string "Scirc"
+      | xsd:string "Dstrok"
+      | xsd:string "Igrave"
+      | xsd:string "romanIII"
+      | xsd:string "chcy"
+      | xsd:string "Bcy"
+      | xsd:string "Hcirc"
+      | xsd:string "rcy"
+      | xsd:string "romanxii"
+      | xsd:string "Ugrave"
+      | xsd:string "Iogon"
+      | xsd:string "fcy"
+      | xsd:string "Acirc"
+      | xsd:string "Ccirc"
+      | xsd:string "romanXII"
+      | xsd:string "Iuml"
+      | xsd:string "Gcedil"
+      | xsd:string "maru6"
+      | xsd:string "romanl"
+      | xsd:string "maru7"
+      | xsd:string "Ucy"
+      | xsd:string "rcedil"
+      | xsd:string "ecirc"
+      | xsd:string "zcaron"
+      | xsd:string "oelig"
+      | xsd:string "maru13"
+      | xsd:string "Udblac"
+      | xsd:string "ncedil"
+      | xsd:string "jsercy"
+      | xsd:string "lmidot"
+      | xsd:string "zcy"
+      | xsd:string "Racute"
+      | xsd:string "aacute"
+      | xsd:string "dzcy"
+      | xsd:string "Icy"
+      | xsd:string "ocirc"
+      | xsd:string "Rcaron"
+      | xsd:string "romanV"
+      | xsd:string "ubreve"
+      | xsd:string "wcirc"
+      | xsd:string "Lacute"
+      | xsd:string "Kcy"
+      | xsd:string "TScy"
+      | xsd:string "ouml"
+      | xsd:string "SHCHcy"
+      | xsd:string "lacute"
+      | xsd:string "Utilde"
+      | xsd:string "lstrok"
+      | xsd:string "iecy"
+      | xsd:string "Ucirc"
+      | xsd:string "mcy"
+      | xsd:string "Lcedil"
+      | xsd:string "tshcy"
+      | xsd:string "Jukcy"
+      | xsd:string "CHcy"
+      | xsd:string "Lstrok"
+      | xsd:string "AElig"
+      | xsd:string "maru4"
+      | xsd:string "Hstrok"
+      | xsd:string "iacute"
+      | xsd:string "Aacute"
+      | xsd:string "ntilde"
+      | xsd:string "romani"
+      | xsd:string "inodot"
+      | xsd:string "szlig"
+      | xsd:string "romanXI"
+      | xsd:string "Itilde"
+      | xsd:string "dcaron"
+      | xsd:string "Amacr"
+      | xsd:string "kcy"
+      | xsd:string "Sacute"
+      | xsd:string "hcirc"
+      | xsd:string "Jcirc"
+      | xsd:string "Odblac"
+      | xsd:string "eogon"
+      | xsd:string "Ecirc"
+      | xsd:string "Iacute"
+      | xsd:string "maru10"
+      | xsd:string "maru3"
+      | xsd:string "cacute"
+      | xsd:string "Ouml"
+      | xsd:string "tcedil"
+      | xsd:string "maru2"
+      | xsd:string "amacr"
+      | xsd:string "yucy"
+      | xsd:string "ncy"
+      | xsd:string "tscy"
+      | xsd:string "itilde"
+      | xsd:string "romanVI"
+      | xsd:string "Yuml"
+      | xsd:string "Jcy"
+      | xsd:string "aogon"
+      | xsd:string "ucirc"
+      | xsd:string "romanvi"
+      | xsd:string "Ubreve"
+      | xsd:string "Umacr"
+      | xsd:string "ucy"
+      | xsd:string "Zcaron"
+      | xsd:string "Ntilde"
+      | xsd:string "Oacute"
+      | xsd:string "imacr"
+      | xsd:string "YIcy"
+      | xsd:string "romanxi"
+      | xsd:string "Uuml"
+      | xsd:string "Icirc"
+      | xsd:string "Dcaron"
+      | xsd:string "Uogon"
+      | xsd:string "SOFTcy"
+      | xsd:string "kcedil"
+      | xsd:string "GJcy"
+      | xsd:string "ncaron"
+      | xsd:string "SHcy"
+      | xsd:string "yacute"
+      | xsd:string "romanc"
+      | xsd:string "HARDcy"
+      | xsd:string "Ycy"
+      | xsd:string "iuml"
+      | xsd:string "kjcy"
+      | xsd:string "DZcy"
+      | xsd:string "acirc"
+      | xsd:string "scaron"
+      | xsd:string "Cacute"
+      | xsd:string "iogon"
+      | xsd:string "Rcedil"
+      | xsd:string "maru15"
+      | xsd:string "nacute"
+      | xsd:string "romaniv"
+      | xsd:string "maru8"
+      | xsd:string "agrave"
+      | xsd:string "maru14"
+      | xsd:string "sacute"
+      | xsd:string "hstrok"
+      | xsd:string "Edot"
+      | xsd:string "LJcy"
+      | xsd:string "gjcy"
+      | xsd:string "Ocy"
+      | xsd:string "jcirc"
+      | xsd:string "dstrok"
+      | xsd:string "maru9"
+      | xsd:string "racute"
+      | xsd:string "igrave"
+      | xsd:string "KJcy"
+      | xsd:string "zacute"
+      | xsd:string "Gbreve"
+      | xsd:string "romanv"
+      | xsd:string "romanIV"
+      | xsd:string "iocy"
+      | xsd:string "maru16"
+      | xsd:string "gcirc"
+      | xsd:string "shchcy"
+      | xsd:string "vcy"
+      | xsd:string "romand"
+      | xsd:string "aring"
+      | xsd:string "gbreve"
+      | xsd:string "jcy"
+      | xsd:string "romanC"
+      | xsd:string "romanIX"
+      | xsd:string "Atilde"
+      | xsd:string "Tcaron"
+      | xsd:string "romanx"
+      | xsd:string "Otilde"
+      | xsd:string "yuml"
+      | xsd:string "romanvii"
+      | xsd:string "tstrok"
+      | xsd:string "maru17"
+      | xsd:string "Aogon"
+      | xsd:string "hardcy"
+      | xsd:string "Zacute"
+      | xsd:string "gdot"
+      | xsd:string "egrave"
+      | xsd:string "romanVIII"
+      | xsd:string "lcy"
+      | xsd:string "njcy"
+      | xsd:string "odblac"
+      | xsd:string "khcy"
+      | xsd:string "utilde"
+      | xsd:string "Lcaron"
+      | xsd:string "DScy"
+      | xsd:string "yacy"
+      | xsd:string "ycy"
+      | xsd:string "maru11"
+      | xsd:string "Eacute"
+      | xsd:string "emacr"
+      | xsd:string "Zcy"
+      | xsd:string "maru12"
+      | xsd:string "Eogon"
+      | xsd:string "Aring"
+      | xsd:string "Pcy"
+      | xsd:string "romanix"
+      | xsd:string "YUcy"
+      | xsd:string "softcy"
+      | xsd:string "tcaron"
+      | xsd:string "Ecy"
+      | xsd:string "icy"
+      | xsd:string "Kcedil"
+      | xsd:string "IJlig"
+      | xsd:string "ocy"
+      | xsd:string "tcy"
+      | xsd:string "zhcy"
+      | xsd:string "Scaron"
+      | xsd:string "Auml"
+      | xsd:string "maru18"
+      | xsd:string "yicy"
+      | xsd:string "Ncy"
+      | xsd:string "Uring"
+      | xsd:string "ycirc"
+      | xsd:string "bcy"
+      | xsd:string "Dcy"
+      | xsd:string "Emacr"
+      | xsd:string "eacute"
+      | xsd:string "Ograve"
+      | xsd:string "scirc"
+      | xsd:string "Ncedil"
+      | xsd:string "uring"
+      | xsd:string "Omacr"
+      | xsd:string "jukcy"
+      | xsd:string "Lcy"
+      | xsd:string "umacr"
+      | xsd:string "Mcy"
+      | xsd:string "ZHcy"
+    }?,
+    attribute codepoint { xsd:string }?,
+    xsd:string
+  }
+img =
+  element img {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute src { xsd:string },
+    attribute alt { xsd:string },
+    attribute longdesc { xsd:string }?,
+    attribute height { xsd:string }?,
+    attribute width { xsd:string }?,
+    attribute usemap { xsd:string }?,
+    attribute ismap { xsd:NMTOKEN "ismap" }?
+  }
+title =
+  element title {
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    xsd:string
+  }
+link =
+  element link {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute charset { xsd:string }?,
+    attribute href { xsd:anyURI }?,
+    attribute hreflang { xsd:NMTOKEN }?,
+    attribute type { xsd:string }?,
+    attribute rel { xsd:string }?,
+    attribute rev { xsd:string }?,
+    attribute media { xsd:string }?
+  }
+li =
+  element li {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+i =
+  element i {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+label =
+  element label {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute for { xsd:IDREF }?,
+    attribute accesskey { xsd:string }?,
+    attribute onfocus { xsd:string }?,
+    attribute onblur { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+dfn =
+  element dfn {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+tt =
+  element tt {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+small =
+  element small {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+hr =
+  element hr {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?
+  }
+script =
+  element script {
+    attribute charset { xsd:string }?,
+    attribute type { xsd:string },
+    attribute src { xsd:string }?,
+    attribute defer { xsd:NMTOKEN "defer" }?,
+    attribute xml:space { xsd:NMTOKEN "preserve" }?,
+    xsd:string
+  }
+em =
+  element em {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+form =
+  element form {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute action { xsd:string },
+    attribute method { xsd:NMTOKEN "get" | xsd:NMTOKEN "post" }?,
+    attribute enctype { xsd:string }?,
+    attribute onsubmit { xsd:string }?,
+    attribute onreset { xsd:string }?,
+    attribute accept { xsd:string }?,
+    attribute accept-charset { xsd:string }?,
+    (p
+     | h1
+     | h2
+     | h3
+     | h4
+     | h5
+     | h6
+     | \div
+     | ul
+     | ol
+     | dl
+     | pre
+     | hr
+     | blockquote
+     | address
+     | fieldset
+     | table
+     | ins
+     | del
+     | script
+     | noscript)*
+  }
+big =
+  element big {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+ins =
+  element ins {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute cite { xsd:string }?,
+    attribute datetime { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+b =
+  element b {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+option =
+  element option {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute selected { xsd:NMTOKEN "selected" }?,
+    attribute disabled { xsd:NMTOKEN "disabled" }?,
+    attribute label { xsd:string }?,
+    attribute value { xsd:string }?,
+    xsd:string
+  }
+h1 =
+  element h1 {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+pre =
+  element pre {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute xml:space { xsd:NMTOKEN "preserve" }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | map
+       | tt
+       | i
+       | b
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button)*
+    }
+  }
+textarea =
+  element textarea {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute name { xsd:string }?,
+    attribute rows { xsd:string },
+    attribute cols { xsd:string },
+    attribute disabled { xsd:NMTOKEN "disabled" }?,
+    attribute readonly { xsd:NMTOKEN "readonly" }?,
+    attribute tabindex { xsd:string }?,
+    attribute accesskey { xsd:string }?,
+    attribute onfocus { xsd:string }?,
+    attribute onblur { xsd:string }?,
+    attribute onselect { xsd:string }?,
+    attribute onchange { xsd:string }?,
+    xsd:string
+  }
+samp =
+  element samp {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+h6 =
+  element h6 {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+a =
+  element a {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute charset { xsd:string }?,
+    attribute type { xsd:string }?,
+    attribute name { xsd:NMTOKEN }?,
+    attribute href { xsd:anyURI }?,
+    attribute hreflang { xsd:NMTOKEN }?,
+    attribute rel { xsd:string }?,
+    attribute rev { xsd:string }?,
+    attribute accesskey { xsd:string }?,
+    attribute shape {
+      xsd:NMTOKEN "default"
+      | xsd:NMTOKEN "circle"
+      | xsd:NMTOKEN "rect"
+      | xsd:NMTOKEN "poly"
+    }?,
+    attribute coords { xsd:string }?,
+    attribute tabindex { xsd:string }?,
+    attribute onfocus { xsd:string }?,
+    attribute onblur { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+cite =
+  element cite {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+col =
+  element col {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute span { xsd:string }?,
+    attribute width { xsd:string }?,
+    attribute align {
+      xsd:NMTOKEN "right"
+      | xsd:NMTOKEN "char"
+      | xsd:NMTOKEN "left"
+      | xsd:NMTOKEN "center"
+      | xsd:NMTOKEN "justify"
+    }?,
+    attribute char { xsd:string }?,
+    attribute charoff { xsd:string }?,
+    attribute valign {
+      xsd:NMTOKEN "middle"
+      | xsd:NMTOKEN "top"
+      | xsd:NMTOKEN "baseline"
+      | xsd:NMTOKEN "bottom"
+    }?
+  }
+bdo =
+  element bdo {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" },
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+\div =
+  element div {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+ol =
+  element ol {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    li+
+  }
+acronym =
+  element acronym {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+p =
+  element p {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+address =
+  element address {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+meta =
+  element meta {
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute http-equiv { xsd:string }?,
+    attribute name { xsd:string }?,
+    attribute content { xsd:string },
+    attribute scheme { xsd:string }?
+  }
+base =
+  element base {
+    attribute href { xsd:anyURI }?
+  }
+del =
+  element del {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute cite { xsd:string }?,
+    attribute datetime { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+fieldset =
+  element fieldset {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | element legend {
+           attribute id { xsd:ID }?,
+           attribute class { xsd:string }?,
+           attribute style { xsd:string }?,
+           attribute title { xsd:string }?,
+           attribute lang { xsd:string }?,
+           attribute xml:lang { xsd:string }?,
+           attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+           attribute onclick { xsd:string }?,
+           attribute ondblclick { xsd:string }?,
+           attribute onmousedown { xsd:string }?,
+           attribute onmouseup { xsd:string }?,
+           attribute onmouseover { xsd:string }?,
+           attribute onmousemove { xsd:string }?,
+           attribute onmouseout { xsd:string }?,
+           attribute onkeypress { xsd:string }?,
+           attribute onkeydown { xsd:string }?,
+           attribute onkeyup { xsd:string }?,
+           attribute accesskey { xsd:string }?,
+           mixed {
+             (utf8-char
+              | resourceRef
+              | a
+              | br
+              | span
+              | bdo
+              | object
+              | img
+              | map
+              | tt
+              | i
+              | b
+              | big
+              | small
+              | em
+              | strong
+              | dfn
+              | code
+              | q
+              | sub
+              | sup
+              | samp
+              | kbd
+              | var
+              | cite
+              | abbr
+              | acronym
+              | input
+              | select
+              | textarea
+              | label
+              | button
+              | ins
+              | del
+              | script
+              | noscript)*
+           }
+         }
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+select =
+  element select {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute name { xsd:string }?,
+    attribute size { xsd:string }?,
+    attribute multiple { xsd:NMTOKEN "multiple" }?,
+    attribute disabled { xsd:NMTOKEN "disabled" }?,
+    attribute tabindex { xsd:string }?,
+    attribute onfocus { xsd:string }?,
+    attribute onblur { xsd:string }?,
+    attribute onchange { xsd:string }?,
+    (element optgroup {
+       attribute id { xsd:ID }?,
+       attribute class { xsd:string }?,
+       attribute style { xsd:string }?,
+       attribute title { xsd:string }?,
+       attribute lang { xsd:string }?,
+       attribute xml:lang { xsd:string }?,
+       attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+       attribute onclick { xsd:string }?,
+       attribute ondblclick { xsd:string }?,
+       attribute onmousedown { xsd:string }?,
+       attribute onmouseup { xsd:string }?,
+       attribute onmouseover { xsd:string }?,
+       attribute onmousemove { xsd:string }?,
+       attribute onmouseout { xsd:string }?,
+       attribute onkeypress { xsd:string }?,
+       attribute onkeydown { xsd:string }?,
+       attribute onkeyup { xsd:string }?,
+       attribute disabled { xsd:NMTOKEN "disabled" }?,
+       attribute label { xsd:string },
+       option+
+     }
+     | option)+
+  }
+h5 =
+  element h5 {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+abbr =
+  element abbr {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+style =
+  element style {
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute type { xsd:string },
+    attribute media { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute xml:space { xsd:NMTOKEN "preserve" }?,
+    xsd:string
+  }
+tr =
+  element tr {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute align {
+      xsd:NMTOKEN "right"
+      | xsd:NMTOKEN "char"
+      | xsd:NMTOKEN "left"
+      | xsd:NMTOKEN "center"
+      | xsd:NMTOKEN "justify"
+    }?,
+    attribute char { xsd:string }?,
+    attribute charoff { xsd:string }?,
+    attribute valign {
+      xsd:NMTOKEN "middle"
+      | xsd:NMTOKEN "top"
+      | xsd:NMTOKEN "baseline"
+      | xsd:NMTOKEN "bottom"
+    }?,
+    (element th {
+       attribute id { xsd:ID }?,
+       attribute class { xsd:string }?,
+       attribute style { xsd:string }?,
+       attribute title { xsd:string }?,
+       attribute lang { xsd:string }?,
+       attribute xml:lang { xsd:string }?,
+       attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+       attribute onclick { xsd:string }?,
+       attribute ondblclick { xsd:string }?,
+       attribute onmousedown { xsd:string }?,
+       attribute onmouseup { xsd:string }?,
+       attribute onmouseover { xsd:string }?,
+       attribute onmousemove { xsd:string }?,
+       attribute onmouseout { xsd:string }?,
+       attribute onkeypress { xsd:string }?,
+       attribute onkeydown { xsd:string }?,
+       attribute onkeyup { xsd:string }?,
+       attribute abbr { xsd:string }?,
+       attribute axis { xsd:string }?,
+       attribute headers { xsd:IDREFS }?,
+       attribute scope {
+         xsd:NMTOKEN "colgroup"
+         | xsd:NMTOKEN "rowgroup"
+         | xsd:NMTOKEN "row"
+         | xsd:NMTOKEN "col"
+       }?,
+       attribute rowspan { xsd:string }?,
+       attribute colspan { xsd:string }?,
+       attribute align {
+         xsd:NMTOKEN "right"
+         | xsd:NMTOKEN "char"
+         | xsd:NMTOKEN "left"
+         | xsd:NMTOKEN "center"
+         | xsd:NMTOKEN "justify"
+       }?,
+       attribute char { xsd:string }?,
+       attribute charoff { xsd:string }?,
+       attribute valign {
+         xsd:NMTOKEN "middle"
+         | xsd:NMTOKEN "top"
+         | xsd:NMTOKEN "baseline"
+         | xsd:NMTOKEN "bottom"
+       }?,
+       mixed {
+         (utf8-char
+          | resourceRef
+          | p
+          | h1
+          | h2
+          | h3
+          | h4
+          | h5
+          | h6
+          | \div
+          | ul
+          | ol
+          | dl
+          | pre
+          | hr
+          | blockquote
+          | address
+          | fieldset
+          | table
+          | form
+          | a
+          | br
+          | span
+          | bdo
+          | object
+          | img
+          | map
+          | tt
+          | i
+          | b
+          | big
+          | small
+          | em
+          | strong
+          | dfn
+          | code
+          | q
+          | sub
+          | sup
+          | samp
+          | kbd
+          | var
+          | cite
+          | abbr
+          | acronym
+          | input
+          | select
+          | textarea
+          | label
+          | button
+          | ins
+          | del
+          | script
+          | noscript)*
+       }
+     }
+     | element td {
+         attribute id { xsd:ID }?,
+         attribute class { xsd:string }?,
+         attribute style { xsd:string }?,
+         attribute title { xsd:string }?,
+         attribute lang { xsd:string }?,
+         attribute xml:lang { xsd:string }?,
+         attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+         attribute onclick { xsd:string }?,
+         attribute ondblclick { xsd:string }?,
+         attribute onmousedown { xsd:string }?,
+         attribute onmouseup { xsd:string }?,
+         attribute onmouseover { xsd:string }?,
+         attribute onmousemove { xsd:string }?,
+         attribute onmouseout { xsd:string }?,
+         attribute onkeypress { xsd:string }?,
+         attribute onkeydown { xsd:string }?,
+         attribute onkeyup { xsd:string }?,
+         attribute abbr { xsd:string }?,
+         attribute axis { xsd:string }?,
+         attribute headers { xsd:IDREFS }?,
+         attribute scope {
+           xsd:NMTOKEN "colgroup"
+           | xsd:NMTOKEN "rowgroup"
+           | xsd:NMTOKEN "row"
+           | xsd:NMTOKEN "col"
+         }?,
+         attribute rowspan { xsd:string }?,
+         attribute colspan { xsd:string }?,
+         attribute align {
+           xsd:NMTOKEN "right"
+           | xsd:NMTOKEN "char"
+           | xsd:NMTOKEN "left"
+           | xsd:NMTOKEN "center"
+           | xsd:NMTOKEN "justify"
+         }?,
+         attribute char { xsd:string }?,
+         attribute charoff { xsd:string }?,
+         attribute valign {
+           xsd:NMTOKEN "middle"
+           | xsd:NMTOKEN "top"
+           | xsd:NMTOKEN "baseline"
+           | xsd:NMTOKEN "bottom"
+         }?,
+         mixed {
+           (utf8-char
+            | resourceRef
+            | p
+            | h1
+            | h2
+            | h3
+            | h4
+            | h5
+            | h6
+            | \div
+            | ul
+            | ol
+            | dl
+            | pre
+            | hr
+            | blockquote
+            | address
+            | fieldset
+            | table
+            | form
+            | a
+            | br
+            | span
+            | bdo
+            | object
+            | img
+            | map
+            | tt
+            | i
+            | b
+            | big
+            | small
+            | em
+            | strong
+            | dfn
+            | code
+            | q
+            | sub
+            | sup
+            | samp
+            | kbd
+            | var
+            | cite
+            | abbr
+            | acronym
+            | input
+            | select
+            | textarea
+            | label
+            | button
+            | ins
+            | del
+            | script
+            | noscript)*
+         }
+       })+
+  }
+ul =
+  element ul {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    li+
+  }
+kbd =
+  element kbd {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+h3 =
+  element h3 {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+input =
+  element input {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute type {
+      xsd:NMTOKEN "password"
+      | xsd:NMTOKEN "checkbox"
+      | xsd:NMTOKEN "submit"
+      | xsd:NMTOKEN "text"
+      | xsd:NMTOKEN "hidden"
+      | xsd:NMTOKEN "file"
+      | xsd:NMTOKEN "reset"
+      | xsd:NMTOKEN "image"
+      | xsd:NMTOKEN "radio"
+      | xsd:NMTOKEN "button"
+    }?,
+    attribute name { xsd:string }?,
+    attribute value { xsd:string }?,
+    attribute checked { xsd:NMTOKEN "checked" }?,
+    attribute disabled { xsd:NMTOKEN "disabled" }?,
+    attribute readonly { xsd:NMTOKEN "readonly" }?,
+    attribute size { xsd:string }?,
+    attribute maxlength { xsd:string }?,
+    attribute src { xsd:string }?,
+    attribute alt { xsd:string }?,
+    attribute usemap { xsd:string }?,
+    attribute tabindex { xsd:string }?,
+    attribute accesskey { xsd:string }?,
+    attribute onfocus { xsd:string }?,
+    attribute onblur { xsd:string }?,
+    attribute onselect { xsd:string }?,
+    attribute onchange { xsd:string }?,
+    attribute accept { xsd:string }?
+  }
+h2 =
+  element h2 {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+q =
+  element q {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute cite { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+button =
+  element button {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute name { xsd:string }?,
+    attribute value { xsd:string }?,
+    attribute type {
+      xsd:NMTOKEN "submit" | xsd:NMTOKEN "reset" | xsd:NMTOKEN "button"
+    }?,
+    attribute disabled { xsd:NMTOKEN "disabled" }?,
+    attribute tabindex { xsd:string }?,
+    attribute accesskey { xsd:string }?,
+    attribute onfocus { xsd:string }?,
+    attribute onblur { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | table
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+sub =
+  element sub {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+blockquote =
+  element blockquote {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute cite { xsd:string }?,
+    (p
+     | h1
+     | h2
+     | h3
+     | h4
+     | h5
+     | h6
+     | \div
+     | ul
+     | ol
+     | dl
+     | pre
+     | hr
+     | blockquote
+     | address
+     | fieldset
+     | table
+     | form
+     | ins
+     | del
+     | script
+     | noscript)*
+  }
+var =
+  element var {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+h4 =
+  element h4 {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+noscript =
+  element noscript {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    (p
+     | h1
+     | h2
+     | h3
+     | h4
+     | h5
+     | h6
+     | \div
+     | ul
+     | ol
+     | dl
+     | pre
+     | hr
+     | blockquote
+     | address
+     | fieldset
+     | table
+     | form
+     | ins
+     | del
+     | script
+     | noscript)*
+  }
+object =
+  element object {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    attribute declare { xsd:NMTOKEN "declare" }?,
+    attribute classid { xsd:string }?,
+    attribute codebase { xsd:string }?,
+    attribute data { xsd:string }?,
+    attribute type { xsd:string }?,
+    attribute codetype { xsd:string }?,
+    attribute archive { xsd:string }?,
+    attribute standby { xsd:string }?,
+    attribute height { xsd:string }?,
+    attribute width { xsd:string }?,
+    attribute usemap { xsd:string }?,
+    attribute name { xsd:NMTOKEN }?,
+    attribute tabindex { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | element param {
+           attribute id { xsd:ID }?,
+           attribute name { xsd:string }?,
+           attribute value { xsd:string }?,
+           attribute valuetype {
+             xsd:NMTOKEN "object"
+             | xsd:NMTOKEN "ref"
+             | xsd:NMTOKEN "data"
+           }?,
+           attribute type { xsd:string }?
+         }
+       | p
+       | h1
+       | h2
+       | h3
+       | h4
+       | h5
+       | h6
+       | \div
+       | ul
+       | ol
+       | dl
+       | pre
+       | hr
+       | blockquote
+       | address
+       | fieldset
+       | table
+       | form
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+strong =
+  element strong {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    mixed {
+      (utf8-char
+       | resourceRef
+       | a
+       | br
+       | span
+       | bdo
+       | object
+       | img
+       | map
+       | tt
+       | i
+       | b
+       | big
+       | small
+       | em
+       | strong
+       | dfn
+       | code
+       | q
+       | sub
+       | sup
+       | samp
+       | kbd
+       | var
+       | cite
+       | abbr
+       | acronym
+       | input
+       | select
+       | textarea
+       | label
+       | button
+       | ins
+       | del
+       | script
+       | noscript)*
+    }
+  }
+dl =
+  element dl {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?,
+    attribute lang { xsd:string }?,
+    attribute xml:lang { xsd:string }?,
+    attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+    attribute onclick { xsd:string }?,
+    attribute ondblclick { xsd:string }?,
+    attribute onmousedown { xsd:string }?,
+    attribute onmouseup { xsd:string }?,
+    attribute onmouseover { xsd:string }?,
+    attribute onmousemove { xsd:string }?,
+    attribute onmouseout { xsd:string }?,
+    attribute onkeypress { xsd:string }?,
+    attribute onkeydown { xsd:string }?,
+    attribute onkeyup { xsd:string }?,
+    (element dt {
+       attribute id { xsd:ID }?,
+       attribute class { xsd:string }?,
+       attribute style { xsd:string }?,
+       attribute title { xsd:string }?,
+       attribute lang { xsd:string }?,
+       attribute xml:lang { xsd:string }?,
+       attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+       attribute onclick { xsd:string }?,
+       attribute ondblclick { xsd:string }?,
+       attribute onmousedown { xsd:string }?,
+       attribute onmouseup { xsd:string }?,
+       attribute onmouseover { xsd:string }?,
+       attribute onmousemove { xsd:string }?,
+       attribute onmouseout { xsd:string }?,
+       attribute onkeypress { xsd:string }?,
+       attribute onkeydown { xsd:string }?,
+       attribute onkeyup { xsd:string }?,
+       mixed {
+         (utf8-char
+          | resourceRef
+          | a
+          | br
+          | span
+          | bdo
+          | object
+          | img
+          | map
+          | tt
+          | i
+          | b
+          | big
+          | small
+          | em
+          | strong
+          | dfn
+          | code
+          | q
+          | sub
+          | sup
+          | samp
+          | kbd
+          | var
+          | cite
+          | abbr
+          | acronym
+          | input
+          | select
+          | textarea
+          | label
+          | button
+          | ins
+          | del
+          | script
+          | noscript)*
+       }
+     }
+     | element dd {
+         attribute id { xsd:ID }?,
+         attribute class { xsd:string }?,
+         attribute style { xsd:string }?,
+         attribute title { xsd:string }?,
+         attribute lang { xsd:string }?,
+         attribute xml:lang { xsd:string }?,
+         attribute dir { xsd:NMTOKEN "ltr" | xsd:NMTOKEN "rtl" }?,
+         attribute onclick { xsd:string }?,
+         attribute ondblclick { xsd:string }?,
+         attribute onmousedown { xsd:string }?,
+         attribute onmouseup { xsd:string }?,
+         attribute onmouseover { xsd:string }?,
+         attribute onmousemove { xsd:string }?,
+         attribute onmouseout { xsd:string }?,
+         attribute onkeypress { xsd:string }?,
+         attribute onkeydown { xsd:string }?,
+         attribute onkeyup { xsd:string }?,
+         mixed {
+           (utf8-char
+            | resourceRef
+            | p
+            | h1
+            | h2
+            | h3
+            | h4
+            | h5
+            | h6
+            | \div
+            | ul
+            | ol
+            | dl
+            | pre
+            | hr
+            | blockquote
+            | address
+            | fieldset
+            | table
+            | form
+            | a
+            | br
+            | span
+            | bdo
+            | object
+            | img
+            | map
+            | tt
+            | i
+            | b
+            | big
+            | small
+            | em
+            | strong
+            | dfn
+            | code
+            | q
+            | sub
+            | sup
+            | samp
+            | kbd
+            | var
+            | cite
+            | abbr
+            | acronym
+            | input
+            | select
+            | textarea
+            | label
+            | button
+            | ins
+            | del
+            | script
+            | noscript)*
+         }
+       })+
+  }
+br =
+  element br {
+    attribute id { xsd:ID }?,
+    attribute class { xsd:string }?,
+    attribute style { xsd:string }?,
+    attribute title { xsd:string }?
+  }

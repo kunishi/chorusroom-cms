@@ -1,0 +1,887 @@
+<?xml version="1.0"?>
+<grammar ns="http://www.chorusroom.org/xml"
+    xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="competition">
+            <optional>
+                <attribute name="xml:lang">
+                    <data type="string"/>
+                </attribute>
+            </optional>
+            <element name="cvs-id">
+                <data type="string"/>
+            </element>
+            <element name="competition-name">
+                <optional>
+                    <attribute name="pref">
+                        <choice>
+                            <value type="NMTOKEN">true</value>
+                            <value type="NMTOKEN">false</value>
+                        </choice>
+                    </attribute>
+                </optional>
+                <optional>
+                    <attribute name="area">
+                        <choice>
+                            <value type="NMTOKEN">true</value>
+                            <value type="NMTOKEN">false</value>
+                        </choice>
+                    </attribute>
+                </optional>
+                <mixed>
+                    <optional>
+                        <ref name="utf8-char"/>
+                    </optional>
+                </mixed>
+            </element>
+            <oneOrMore>
+                <element name="result">
+                    <attribute name="output">
+                        <data type="string"/>
+                    </attribute>
+                    <zeroOrMore>
+                        <element name="date">
+                            <attribute name="day-of-week">
+                                <choice>
+                                    <value type="NMTOKEN">wed</value>
+                                    <value type="NMTOKEN">sat</value>
+                                    <value type="NMTOKEN">fri</value>
+                                    <value type="NMTOKEN">sun</value>
+                                    <value type="NMTOKEN">thu</value>
+                                    <value type="NMTOKEN">tue</value>
+                                    <value type="NMTOKEN">mon</value>
+                                </choice>
+                            </attribute>
+                            <optional>
+                                <attribute name="holiday">
+                                    <choice>
+                                    <value type="NMTOKEN">true</value>
+                                    <value type="NMTOKEN">false</value>
+                                    </choice>
+                                </attribute>
+                            </optional>
+                            <data type="date"/>
+                        </element>
+                    </zeroOrMore>
+                    <optional>
+                        <element name="startTime">
+                            <data type="time"/>
+                        </element>
+                    </optional>
+                    <optional>
+                        <element name="hall">
+                            <mixed>
+                                <optional>
+                                    <ref name="utf8-char"/>
+                                </optional>
+                            </mixed>
+                        </element>
+                    </optional>
+                    <zeroOrMore>
+                        <element name="referee">
+                            <optional>
+                                <attribute name="xml:lang">
+                                    <data type="string"/>
+                                </attribute>
+                            </optional>
+                            <attribute name="shortname">
+                                <data type="string"/>
+                            </attribute>
+                            <optional>
+                                <attribute name="job">
+                                    <data type="string"/>
+                                </attribute>
+                            </optional>
+                            <optional>
+                                <attribute name="referred-date">
+                                    <data type="string"/>
+                                </attribute>
+                            </optional>
+                            <optional>
+                                <attribute name="country">
+                                    <data type="string"/>
+                                </attribute>
+                            </optional>
+                            <mixed>
+                                <optional>
+                                    <ref name="utf8-char"/>
+                                </optional>
+                            </mixed>
+                        </element>
+                    </zeroOrMore>
+                    <oneOrMore>
+                        <element name="reporter">
+                            <optional>
+                                <attribute name="anonymous">
+                                    <choice>
+                                    <value type="NMTOKEN">true</value>
+                                    <value type="NMTOKEN">false</value>
+                                    </choice>
+                                </attribute>
+                            </optional>
+                            <element name="reporter-name">
+                                <optional>
+                                    <attribute name="xml:lang">
+                                    <data type="string"/>
+                                    </attribute>
+                                </optional>
+                                <optional>
+                                    <attribute name="penname">
+                                    <data type="string"/>
+                                    </attribute>
+                                </optional>
+                                <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                </mixed>
+                            </element>
+                            <element name="reporter-email">
+                                <optional>
+                                    <attribute name="anonymous">
+                                    <choice>
+                                    <value type="NMTOKEN">true</value>
+                                    <value type="NMTOKEN">false</value>
+                                    </choice>
+                                    </attribute>
+                                </optional>
+                                <data type="string"/>
+                            </element>
+                        </element>
+                    </oneOrMore>
+                    <optional>
+                        <element name="notices">
+                            <oneOrMore>
+                                <element name="notice">
+                                    <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                    </mixed>
+                                </element>
+                            </oneOrMore>
+                        </element>
+                    </optional>
+                    <oneOrMore>
+                        <element name="section">
+                            <element name="section-name">
+                                <optional>
+                                    <attribute name="date">
+                                    <data type="string"/>
+                                    </attribute>
+                                </optional>
+                                <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                </mixed>
+                            </element>
+                            <oneOrMore>
+                                <element name="choir">
+                                    <attribute name="representative">
+                                    <choice>
+                                    <value type="NMTOKEN">true</value>
+                                    <value type="NMTOKEN">false</value>
+                                    </choice>
+                                    </attribute>
+                                    <attribute name="seed">
+                                    <choice>
+                                    <value type="NMTOKEN">true</value>
+                                    <value type="NMTOKEN">false</value>
+                                    </choice>
+                                    </attribute>
+                                    <optional>
+                                    <attribute name="playing-order">
+                                    <data type="positiveInteger"/>
+                                    </attribute>
+                                    </optional>
+                                    <element name="choir-name">
+                                    <optional>
+                                    <attribute name="xml:lang">
+                                    <data type="string"/>
+                                    </attribute>
+                                    </optional>
+                                    <optional>
+                                    <attribute name="url">
+                                    <data type="anyURI"/>
+                                    </attribute>
+                                    </optional>
+                                    <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                    </mixed>
+                                    </element>
+                                    <optional>
+                                    <element name="prefecture">
+                                    <data type="string"/>
+                                    </element>
+                                    </optional>
+                                    <optional>
+                                    <element name="choir-type">
+                                    <choice>
+                                    <value type="NMTOKEN">same-voice</value>
+                                    <value type="NMTOKEN">female</value>
+                                    <value type="NMTOKEN">male</value>
+                                    <value type="NMTOKEN">children</value>
+                                    <value type="NMTOKEN">mixed</value>
+                                    </choice>
+                                    </element>
+                                    </optional>
+                                    <optional>
+                                    <element name="number-of-members">
+                                    <data type="positiveInteger"/>
+                                    </element>
+                                    </optional>
+                                    <zeroOrMore>
+                                    <choice>
+                                    <element name="conductor">
+                                    <optional>
+                                    <attribute name="xml:lang">
+                                    <data type="string"/>
+                                    </attribute>
+                                    </optional>
+                                    <optional>
+                                    <attribute name="instrument">
+                                    <data type="string"/>
+                                    </attribute>
+                                    </optional>
+                                    <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                    </mixed>
+                                    </element>
+                                    <element name="piano">
+                                    <optional>
+                                    <attribute name="xml:lang">
+                                    <data type="string"/>
+                                    </attribute>
+                                    </optional>
+                                    <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                    </mixed>
+                                    </element>
+                                    <element name="accompaniment">
+                                    <optional>
+                                    <attribute name="xml:lang">
+                                    <data type="string"/>
+                                    </attribute>
+                                    </optional>
+                                    <attribute name="instrument">
+                                    <data type="string"/>
+                                    </attribute>
+                                    <mixed>
+                                    <optional>
+                                    <ref name="utf8-char"/>
+                                    </optional>
+                                    </mixed>
+                                    </element>
+                                    </choice>
+                                    </zeroOrMore>
+                                    <element name="prize">
+                                    <attribute name="nickname">
+                                    <choice>
+                                    <value type="NMTOKEN">blonze</value>
+                                    <value type="NMTOKEN">seeded</value>
+                                    <value type="NMTOKEN">silver</value>
+                                    <value type="NMTOKEN">none</value>
+                                    <value type="NMTOKEN">gold</value>
+                                    </choice>
+                                    </attribute>
+                                    <data type="string"/>
+                                    </element>
+                                    <zeroOrMore>
+                                    <element name="special-prize">
+                                    <data type="string"/>
+                                    </element>
+                                    </zeroOrMore>
+                                    <optional>
+                                    <element name="program">
+                                    <oneOrMore>
+                                    <element name="free-program">
+                                    <optional>
+                                    <choice>
+                                    <ref name="piece"/>
+                                    <ref name="suite"/>
+                                    </choice>
+                                    </optional>
+                                    <optional>
+                                    <element name="programNote">
+                                    <data type="string"/>
+                                    </element>
+                                    </optional>
+                                    </element>
+                                    </oneOrMore>
+                                    </element>
+                                    </optional>
+                                    <optional>
+                                    <element name="scores">
+                                    <oneOrMore>
+                                    <element name="score">
+                                    <attribute name="referee">
+                                    <data type="string"/>
+                                    </attribute>
+                                    <data type="string"/>
+                                    </element>
+                                    </oneOrMore>
+                                    <element name="total-score">
+                                    <data type="string"/>
+                                    </element>
+                                    <element name="score-note">
+                                    <data type="string"/>
+                                    </element>
+                                    </element>
+                                    </optional>
+                                    <optional>
+                                    <element name="choir-note">
+                                    <data type="string"/>
+                                    </element>
+                                    </optional>
+                                </element>
+                            </oneOrMore>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </oneOrMore>
+        </element>
+    </start>
+    <define name="title">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">title</name>
+            <optional>
+                <attribute name="original">
+                    <choice>
+                        <value type="string">true</value>
+                        <value type="string">false</value>
+                    </choice>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="xml:lang">
+                    <ref name="string"/>
+                </attribute>
+            </optional>
+            <optional>
+                <element>
+                    <name ns="http://www.chorusroom.org/piece">titlePrefix</name>
+                    <mixed>
+                        <ref name="utf8-char"/>
+                    </mixed>
+                </element>
+            </optional>
+            <element>
+                <name ns="http://www.chorusroom.org/piece">mainTitle</name>
+                <mixed>
+                    <ref name="utf8-char"/>
+                </mixed>
+            </element>
+            <optional>
+                <element>
+                    <name ns="http://www.chorusroom.org/piece">titleSuffix</name>
+                    <mixed>
+                        <ref name="utf8-char"/>
+                    </mixed>
+                </element>
+            </optional>
+        </element>
+    </define>
+    <define name="originated-from">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">originated-from</name>
+            <optional>
+                <attribute name="xml:lang">
+                    <ref name="string"/>
+                </attribute>
+            </optional>
+            <mixed>
+                <ref name="utf8-char"/>
+            </mixed>
+        </element>
+    </define>
+    <define name="suite">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">suite</name>
+            <optional>
+                <ref name="originated-from"/>
+            </optional>
+            <optional>
+                <ref name="words-by"/>
+            </optional>
+            <optional>
+                <ref name="translated-by"/>
+            </optional>
+            <optional>
+                <ref name="composed-by"/>
+            </optional>
+            <optional>
+                <ref name="arranged-by"/>
+            </optional>
+            <oneOrMore>
+                <ref name="title"/>
+            </oneOrMore>
+            <oneOrMore>
+                <element>
+                    <name ns="http://www.chorusroom.org/piece">suite-piece</name>
+                    <oneOrMore>
+                        <choice>
+                            <element>
+                                <name ns="http://www.chorusroom.org/piece">piece-number</name>
+                                <mixed>
+                                    <ref name="utf8-char"/>
+                                </mixed>
+                            </element>
+                            <ref name="piece"/>
+                            <ref name="suite"/>
+                        </choice>
+                    </oneOrMore>
+                </element>
+            </oneOrMore>
+            <optional>
+                <ref name="piece-note"/>
+            </optional>
+        </element>
+    </define>
+    <define name="string">
+        <data type="string"/>
+    </define>
+    <define name="piece">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">piece</name>
+            <optional>
+                <ref name="originated-from"/>
+            </optional>
+            <optional>
+                <ref name="words-by"/>
+            </optional>
+            <optional>
+                <ref name="translated-by"/>
+            </optional>
+            <optional>
+                <ref name="composed-by"/>
+            </optional>
+            <optional>
+                <ref name="arranged-by"/>
+            </optional>
+            <oneOrMore>
+                <ref name="title"/>
+            </oneOrMore>
+            <optional>
+                <ref name="piece-note"/>
+            </optional>
+        </element>
+    </define>
+    <define name="words-by">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">words-by</name>
+            <optional>
+                <attribute name="xml:lang">
+                    <ref name="string"/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="kind">
+                    <data type="string"/>
+                </attribute>
+            </optional>
+            <mixed>
+                <ref name="utf8-char"/>
+            </mixed>
+        </element>
+    </define>
+    <define name="utf8-char">
+        <element>
+            <name ns="http://www.chorusroom.org/character">utf8-char</name>
+            <optional>
+                <attribute name="nickname">
+                    <choice>
+                        <value type="string">Uacute</value>
+                        <value type="string">THORN</value>
+                        <value type="string">romanII</value>
+                        <value type="string">ubrcy</value>
+                        <value type="string">shcy</value>
+                        <value type="string">maru1</value>
+                        <value type="string">romanVII</value>
+                        <value type="string">udblac</value>
+                        <value type="string">Imacr</value>
+                        <value type="string">romanii</value>
+                        <value type="string">KHcy</value>
+                        <value type="string">lcedil</value>
+                        <value type="string">ljcy</value>
+                        <value type="string">romanI</value>
+                        <value type="string">aelig</value>
+                        <value type="string">maru20</value>
+                        <value type="string">Nacute</value>
+                        <value type="string">Ubrcy</value>
+                        <value type="string">ENG</value>
+                        <value type="string">maru19</value>
+                        <value type="string">Tcedil</value>
+                        <value type="string">dscy</value>
+                        <value type="string">Zdot</value>
+                        <value type="string">Cdot</value>
+                        <value type="string">scy</value>
+                        <value type="string">Ccaron</value>
+                        <value type="string">none</value>
+                        <value type="string">uogon</value>
+                        <value type="string">napos</value>
+                        <value type="string">Wcirc</value>
+                        <value type="string">Tstrok</value>
+                        <value type="string">omacr</value>
+                        <value type="string">iukcy</value>
+                        <value type="string">djcy</value>
+                        <value type="string">oslash</value>
+                        <value type="string">ETH</value>
+                        <value type="string">numero</value>
+                        <value type="string">Abreve</value>
+                        <value type="string">Gdot</value>
+                        <value type="string">eth</value>
+                        <value type="string">ijlig</value>
+                        <value type="string">rcaron</value>
+                        <value type="string">lcaron</value>
+                        <value type="string">Scedil</value>
+                        <value type="string">Yacute</value>
+                        <value type="string">YAcy</value>
+                        <value type="string">acy</value>
+                        <value type="string">Oslash</value>
+                        <value type="string">atilde</value>
+                        <value type="string">romanviii</value>
+                        <value type="string">TSHcy</value>
+                        <value type="string">Lmidot</value>
+                        <value type="string">NJcy</value>
+                        <value type="string">Jsercy</value>
+                        <value type="string">edot</value>
+                        <value type="string">dcy</value>
+                        <value type="string">zdot</value>
+                        <value type="string">DJcy</value>
+                        <value type="string">IEcy</value>
+                        <value type="string">kgreen</value>
+                        <value type="string">ccirc</value>
+                        <value type="string">ugrave</value>
+                        <value type="string">IOcy</value>
+                        <value type="string">otilde</value>
+                        <value type="string">euml</value>
+                        <value type="string">eng</value>
+                        <value type="string">romanM</value>
+                        <value type="string">Vcy</value>
+                        <value type="string">Ycirc</value>
+                        <value type="string">ecaron</value>
+                        <value type="string">icirc</value>
+                        <value type="string">OElig</value>
+                        <value type="string">romanL</value>
+                        <value type="string">Ncaron</value>
+                        <value type="string">abreve</value>
+                        <value type="string">Egrave</value>
+                        <value type="string">Rcy</value>
+                        <value type="string">oacute</value>
+                        <value type="string">Scy</value>
+                        <value type="string">uuml</value>
+                        <value type="string">Idot</value>
+                        <value type="string">Ocirc</value>
+                        <value type="string">Euml</value>
+                        <value type="string">scedil</value>
+                        <value type="string">ecy</value>
+                        <value type="string">Acy</value>
+                        <value type="string">thorn</value>
+                        <value type="string">Ccedil</value>
+                        <value type="string">maru5</value>
+                        <value type="string">Fcy</value>
+                        <value type="string">ccedil</value>
+                        <value type="string">romanX</value>
+                        <value type="string">auml</value>
+                        <value type="string">gcy</value>
+                        <value type="string">uacute</value>
+                        <value type="string">Iukcy</value>
+                        <value type="string">gacute</value>
+                        <value type="string">romanm</value>
+                        <value type="string">cdot</value>
+                        <value type="string">pcy</value>
+                        <value type="string">Gcy</value>
+                        <value type="string">Agrave</value>
+                        <value type="string">Gcirc</value>
+                        <value type="string">Tcy</value>
+                        <value type="string">Ecaron</value>
+                        <value type="string">ccaron</value>
+                        <value type="string">ograve</value>
+                        <value type="string">romaniii</value>
+                        <value type="string">romanD</value>
+                        <value type="string">Scirc</value>
+                        <value type="string">Dstrok</value>
+                        <value type="string">Igrave</value>
+                        <value type="string">romanIII</value>
+                        <value type="string">chcy</value>
+                        <value type="string">Bcy</value>
+                        <value type="string">Hcirc</value>
+                        <value type="string">rcy</value>
+                        <value type="string">romanxii</value>
+                        <value type="string">Ugrave</value>
+                        <value type="string">Iogon</value>
+                        <value type="string">fcy</value>
+                        <value type="string">Acirc</value>
+                        <value type="string">Ccirc</value>
+                        <value type="string">romanXII</value>
+                        <value type="string">Iuml</value>
+                        <value type="string">Gcedil</value>
+                        <value type="string">maru6</value>
+                        <value type="string">romanl</value>
+                        <value type="string">maru7</value>
+                        <value type="string">Ucy</value>
+                        <value type="string">rcedil</value>
+                        <value type="string">ecirc</value>
+                        <value type="string">zcaron</value>
+                        <value type="string">oelig</value>
+                        <value type="string">maru13</value>
+                        <value type="string">Udblac</value>
+                        <value type="string">ncedil</value>
+                        <value type="string">jsercy</value>
+                        <value type="string">lmidot</value>
+                        <value type="string">zcy</value>
+                        <value type="string">Racute</value>
+                        <value type="string">aacute</value>
+                        <value type="string">dzcy</value>
+                        <value type="string">Icy</value>
+                        <value type="string">ocirc</value>
+                        <value type="string">Rcaron</value>
+                        <value type="string">romanV</value>
+                        <value type="string">ubreve</value>
+                        <value type="string">wcirc</value>
+                        <value type="string">Lacute</value>
+                        <value type="string">Kcy</value>
+                        <value type="string">TScy</value>
+                        <value type="string">ouml</value>
+                        <value type="string">SHCHcy</value>
+                        <value type="string">lacute</value>
+                        <value type="string">Utilde</value>
+                        <value type="string">lstrok</value>
+                        <value type="string">iecy</value>
+                        <value type="string">Ucirc</value>
+                        <value type="string">mcy</value>
+                        <value type="string">Lcedil</value>
+                        <value type="string">tshcy</value>
+                        <value type="string">Jukcy</value>
+                        <value type="string">CHcy</value>
+                        <value type="string">Lstrok</value>
+                        <value type="string">AElig</value>
+                        <value type="string">maru4</value>
+                        <value type="string">Hstrok</value>
+                        <value type="string">iacute</value>
+                        <value type="string">Aacute</value>
+                        <value type="string">ntilde</value>
+                        <value type="string">romani</value>
+                        <value type="string">inodot</value>
+                        <value type="string">szlig</value>
+                        <value type="string">romanXI</value>
+                        <value type="string">Itilde</value>
+                        <value type="string">dcaron</value>
+                        <value type="string">Amacr</value>
+                        <value type="string">kcy</value>
+                        <value type="string">Sacute</value>
+                        <value type="string">hcirc</value>
+                        <value type="string">Jcirc</value>
+                        <value type="string">Odblac</value>
+                        <value type="string">eogon</value>
+                        <value type="string">Ecirc</value>
+                        <value type="string">Iacute</value>
+                        <value type="string">maru10</value>
+                        <value type="string">maru3</value>
+                        <value type="string">cacute</value>
+                        <value type="string">Ouml</value>
+                        <value type="string">tcedil</value>
+                        <value type="string">maru2</value>
+                        <value type="string">amacr</value>
+                        <value type="string">yucy</value>
+                        <value type="string">ncy</value>
+                        <value type="string">tscy</value>
+                        <value type="string">itilde</value>
+                        <value type="string">romanVI</value>
+                        <value type="string">Yuml</value>
+                        <value type="string">Jcy</value>
+                        <value type="string">aogon</value>
+                        <value type="string">ucirc</value>
+                        <value type="string">romanvi</value>
+                        <value type="string">Ubreve</value>
+                        <value type="string">Umacr</value>
+                        <value type="string">ucy</value>
+                        <value type="string">Zcaron</value>
+                        <value type="string">Ntilde</value>
+                        <value type="string">Oacute</value>
+                        <value type="string">imacr</value>
+                        <value type="string">YIcy</value>
+                        <value type="string">romanxi</value>
+                        <value type="string">Uuml</value>
+                        <value type="string">Icirc</value>
+                        <value type="string">Dcaron</value>
+                        <value type="string">Uogon</value>
+                        <value type="string">SOFTcy</value>
+                        <value type="string">kcedil</value>
+                        <value type="string">GJcy</value>
+                        <value type="string">ncaron</value>
+                        <value type="string">SHcy</value>
+                        <value type="string">yacute</value>
+                        <value type="string">romanc</value>
+                        <value type="string">HARDcy</value>
+                        <value type="string">Ycy</value>
+                        <value type="string">iuml</value>
+                        <value type="string">kjcy</value>
+                        <value type="string">DZcy</value>
+                        <value type="string">acirc</value>
+                        <value type="string">scaron</value>
+                        <value type="string">Cacute</value>
+                        <value type="string">iogon</value>
+                        <value type="string">Rcedil</value>
+                        <value type="string">maru15</value>
+                        <value type="string">nacute</value>
+                        <value type="string">romaniv</value>
+                        <value type="string">maru8</value>
+                        <value type="string">agrave</value>
+                        <value type="string">maru14</value>
+                        <value type="string">sacute</value>
+                        <value type="string">hstrok</value>
+                        <value type="string">Edot</value>
+                        <value type="string">LJcy</value>
+                        <value type="string">gjcy</value>
+                        <value type="string">Ocy</value>
+                        <value type="string">jcirc</value>
+                        <value type="string">dstrok</value>
+                        <value type="string">maru9</value>
+                        <value type="string">racute</value>
+                        <value type="string">igrave</value>
+                        <value type="string">KJcy</value>
+                        <value type="string">zacute</value>
+                        <value type="string">Gbreve</value>
+                        <value type="string">romanv</value>
+                        <value type="string">romanIV</value>
+                        <value type="string">iocy</value>
+                        <value type="string">maru16</value>
+                        <value type="string">gcirc</value>
+                        <value type="string">shchcy</value>
+                        <value type="string">vcy</value>
+                        <value type="string">romand</value>
+                        <value type="string">aring</value>
+                        <value type="string">gbreve</value>
+                        <value type="string">jcy</value>
+                        <value type="string">romanC</value>
+                        <value type="string">romanIX</value>
+                        <value type="string">Atilde</value>
+                        <value type="string">Tcaron</value>
+                        <value type="string">romanx</value>
+                        <value type="string">Otilde</value>
+                        <value type="string">yuml</value>
+                        <value type="string">romanvii</value>
+                        <value type="string">tstrok</value>
+                        <value type="string">maru17</value>
+                        <value type="string">Aogon</value>
+                        <value type="string">hardcy</value>
+                        <value type="string">Zacute</value>
+                        <value type="string">gdot</value>
+                        <value type="string">egrave</value>
+                        <value type="string">romanVIII</value>
+                        <value type="string">lcy</value>
+                        <value type="string">njcy</value>
+                        <value type="string">odblac</value>
+                        <value type="string">khcy</value>
+                        <value type="string">utilde</value>
+                        <value type="string">Lcaron</value>
+                        <value type="string">DScy</value>
+                        <value type="string">yacy</value>
+                        <value type="string">ycy</value>
+                        <value type="string">maru11</value>
+                        <value type="string">Eacute</value>
+                        <value type="string">emacr</value>
+                        <value type="string">Zcy</value>
+                        <value type="string">maru12</value>
+                        <value type="string">Eogon</value>
+                        <value type="string">Aring</value>
+                        <value type="string">Pcy</value>
+                        <value type="string">romanix</value>
+                        <value type="string">YUcy</value>
+                        <value type="string">softcy</value>
+                        <value type="string">tcaron</value>
+                        <value type="string">Ecy</value>
+                        <value type="string">icy</value>
+                        <value type="string">Kcedil</value>
+                        <value type="string">IJlig</value>
+                        <value type="string">ocy</value>
+                        <value type="string">tcy</value>
+                        <value type="string">zhcy</value>
+                        <value type="string">Scaron</value>
+                        <value type="string">Auml</value>
+                        <value type="string">maru18</value>
+                        <value type="string">yicy</value>
+                        <value type="string">Ncy</value>
+                        <value type="string">Uring</value>
+                        <value type="string">ycirc</value>
+                        <value type="string">bcy</value>
+                        <value type="string">Dcy</value>
+                        <value type="string">Emacr</value>
+                        <value type="string">eacute</value>
+                        <value type="string">Ograve</value>
+                        <value type="string">scirc</value>
+                        <value type="string">Ncedil</value>
+                        <value type="string">uring</value>
+                        <value type="string">Omacr</value>
+                        <value type="string">jukcy</value>
+                        <value type="string">Lcy</value>
+                        <value type="string">umacr</value>
+                        <value type="string">Mcy</value>
+                        <value type="string">ZHcy</value>
+                    </choice>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="codepoint">
+                    <data type="string"/>
+                </attribute>
+            </optional>
+            <data type="string"/>
+        </element>
+    </define>
+    <define name="arranged-by">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">arranged-by</name>
+            <optional>
+                <attribute name="xml:lang">
+                    <ref name="string"/>
+                </attribute>
+            </optional>
+            <mixed>
+                <ref name="utf8-char"/>
+            </mixed>
+        </element>
+    </define>
+    <define name="composed-by">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">composed-by</name>
+            <optional>
+                <attribute name="xml:lang">
+                    <ref name="string"/>
+                </attribute>
+            </optional>
+            <mixed>
+                <ref name="utf8-char"/>
+            </mixed>
+        </element>
+    </define>
+    <define name="piece-note">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">piece-note</name>
+            <mixed>
+                <ref name="utf8-char"/>
+            </mixed>
+        </element>
+    </define>
+    <define name="translated-by">
+        <element>
+            <name ns="http://www.chorusroom.org/piece">translated-by</name>
+            <optional>
+                <attribute name="xml:lang">
+                    <ref name="string"/>
+                </attribute>
+            </optional>
+            <mixed>
+                <ref name="utf8-char"/>
+            </mixed>
+        </element>
+    </define>
+</grammar>
