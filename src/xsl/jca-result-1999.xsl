@@ -225,6 +225,11 @@
   <xsl:template match="部門名">
     <xsl:element name="h2">
       <xsl:value-of select="."/>
+      <xsl:if match="@開催日">
+	<xsl:text> (</xsl:text>
+	<xsl:value-of select="@開催日"/>
+	<xsl:text>)</xsl:text>
+      </xsl:if>
     </xsl:element>
   </xsl:template>
 
