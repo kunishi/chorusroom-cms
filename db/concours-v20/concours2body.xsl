@@ -5,8 +5,8 @@
 		xmlns:c="http://www.chorusroom.org/xml"
 		xmlns:xh="http://www.w3.org/TR/xhtml1/strict"
 		xmlns:h="http://www.w3.org/1999/xhtml"
-		exclude-result-prefixes="h c p">
-  <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"
+		exclude-result-prefixes="xh h c p">
+  <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="yes"
 	      indent="yes"/>
   <xsl:template match="/">
     <xsl:apply-templates select="c:result"/>
@@ -206,6 +206,8 @@
   </xsl:template>
   <!-- XHTML elements -->
   <xsl:template match="h:*|xh:*">
-    <xsl:copy/>
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
   </xsl:template>
 </xsl:stylesheet>
