@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.20 2000/08/31 14:02:38 kunishi Exp $
+# $Id: GNUmakefile,v 1.21 2000/09/01 23:54:23 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	iwate.html
@@ -14,6 +14,7 @@ INSTFILES_HTML+=	hyogo.html
 INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	kumamoto.html kumamoto2.html
+INSTFILES_HTML+=	miyagi.html
 INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
 INSTFILES_HTML+=	yamagata.html
