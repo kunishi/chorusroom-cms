@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
+<competition xmlns='http://www.chorusroom.org/xml' xmlns:p='http://www.chorusroom.org/piece' xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: shiga-2001.xml,v 1.1 2001/08/19 14:19:31 kunishi Exp $</cvs-id>
+  <competition-name pref="false" area="false">第6回しが・ヴォーカル・アンサンブル・コンテスト</competition-name>
+  <result output="shiga-2001">
+    <date day-of-week="sat" holiday="false">2001-08-11</date>
+    <hall>滋賀県栗東町・町立栗東芸術文化会館さきら 大ホール</hall>
+    <referee shortname="向井" job="合唱指揮者・三重県立宇治山田高等学校教諭">向井正雄</referee>
+    <referee shortname="鈴木" job="京都府合唱連盟副理事長">鈴木捺香子</referee>
+    <referee shortname="伊藤" job="滋賀県合唱連盟理事長">伊藤光子</referee>
+    <reporter anonymous="false">
+      <reporter-name>長谷部健</reporter-name>
+      <reporter-email anonymous="false">HGC02467@nifty.ne.jp</reporter-email>
+    </reporter>
+    <notices>
+      <notice>出演: 9団体 (混声4、女声4、同声1)</notice>
+    </notices>
+    <section>
+      <section-name>結果(共通)</section-name>
+      <choir representative="false" seed="false">
+	<choir-name>あふみヴォーカルアンサンブル</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>10</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>William Byrd</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Verum Corpus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Josquin des Prez</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Pange Lingua</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>Coro Estrela</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>12</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Thomas Morley</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>My bonny lass</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Orlando Gibbons</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ah dear heart</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Claudio Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Non piu guerral Pietatel</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>イル・リゾナーレ</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>12</number-of-members>
+	<conductor>前川裕</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>P. J. Hannikainen</p:words-by>
+	      <p:composed-by>P. J. Hannikainen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Kevatlaulu</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:originated-from>「旧約聖書イザヤ書」より</p:originated-from>
+	      <p:composed-by>Knut Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sing and Rejoice</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>Ever Green</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>7</number-of-members>
+	<conductor>林美紀</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>高野辰之</p:words-by>
+	      <p:composed-by>岡野貞一</p:composed-by>
+	      <p:arranged-by>信長貴富</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>故郷</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Malotte</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>The Lord's Prayer</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>

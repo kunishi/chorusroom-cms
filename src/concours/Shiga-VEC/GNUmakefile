@@ -1,12 +1,13 @@
 #
-# $Id: GNUmakefile,v 1.5 2001/08/07 02:12:33 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/08/19 14:19:20 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
 
 INSTFILES_TRADITIONAL=	shiga-1998.html \
 			shiga-1999.html \
-			shiga-2000.html
+			shiga-2000.html \
+			shiga-2001.html
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
 INSTFILES+=	index.html
