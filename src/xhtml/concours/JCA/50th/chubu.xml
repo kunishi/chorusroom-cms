@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title lang="en">50th AJCL Chorus Contest/Chubu</title>
   </head>
   <body>
@@ -20,11 +25,10 @@
       <dd>古川裕樹さん(<tt>yuki-f@po2.nsknet.or.jp</tt>)、
 	杉本健さん (<tt>cantemus@tcp-ip.or.jp</tt>)</dd>
     </dl>
-    <h2><a href="chubu1.html">高等学校・大学・職場部門</a></h2>
-    <h2><a href="chubu2.html">中学校・一般部門</a></h2>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</a></address>
-<!-- hhmts start -->
-Last modified: Sat Jan  3 22:02:03 JST 1998
-<!-- hhmts end -->
-  </body> </html>
+    <h2><a href="chubu1.html" shape="rect">高等学校・大学・職場部門</a></h2>
+    <h2><a href="chubu2.html" shape="rect">中学校・一般部門</a></h2>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 15:46:50 $
+  </body>
+</html>

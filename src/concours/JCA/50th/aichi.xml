@@ -1,9 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="ja">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title lang="en">50th AJCL Chorus Contest/Aichi</title>
   </head>
   <body>
@@ -19,7 +23,7 @@
       <dt>情報提供者</dt>
       <dd>木下義範さん(<tt>delta@bishop.avexnet.or.jp</tt>)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>大学部門Aグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -39,7 +43,7 @@
 	    鴎どり; ある橋上にて</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学部門Bグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -51,7 +55,7 @@
 	    <span lang="la">Magnificat</span>; <span lang="la">Nunc Dimittis</span></li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場部門</h2>
     <h3>シード団体</h3>
     <ul>
@@ -70,7 +74,7 @@
 	    混声合唱組曲「季節へのまなざし」より ひらく</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般部門Aグループ</h2>
     <h3>シード団体</h3>
     <ul>
@@ -113,7 +117,7 @@
 	    毀れた窓</li>
 	</ul></li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般部門Bグループ</h2>
     <h3>シード団体</h3>
     <ul>
@@ -143,9 +147,8 @@
 	    じゃあね</li>
 	</ul></li>                    
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- hhmts start -->
-Last modified: Tue Dec 16 22:52:51 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 15:42:35 $
+  </body>
+</html>
