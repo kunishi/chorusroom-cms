@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.2 1999/08/05 22:11:54 kunishi Exp $
+# $Id: Makefile,v 1.3 1999/08/06 00:26:23 kunishi Exp $
 
 XSLT_PROC=	java \
 		-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser \
@@ -12,18 +12,19 @@ EUC2JIS=	nkf
 HTML_FORMAT=	tidy -iso2022
 SYNC_TOOL=	rsync -avuz
 
-RESULT_XSL_FILE=	result-1999.xsl
-
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
 INSTTOPDIR=	/usr/home/kunishi/cvs/html/hobby-root/chorusRoom/
+
+DEFAULT_XSL=	${SRCTOPDIR}xhtml10.xsl
+RESULT_XSL=	result-1999.xsl
 
 INSTFILES+=	fukuoka.html
 
 .SUFFIXES:	.xml .utfhtml .html
 
 .xml.utfhtml:
-	${XSLT_PROC} $< ${RESULT_XSL_FILE} > $@
+	${XSLT_PROC} $< ${DEFAULT_XSL} > $@
 
 .utfhtml.html:
 	${UTF2ASCII} < $< | ${ASCII2EUC} | ${EUC2JIS} | ${HTML_FORMAT} > $@
