@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.67 2001/11/03 02:33:20 kunishi Exp $ -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: index.xml,v 1.68 2001/11/28 09:53:25 kunishi Exp $ -->
 <!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:r="http://www.chorusroom.org/resource" xml:lang="ja" lang="ja">
   <head>
@@ -10,56 +10,56 @@
       <img src="%%IMAGEDIR%%/chorusroom-toplogo.png" alt="CHORUS ROOM"/>
       <hr/>
     </div>
-    <h1>$B9g>'$NIt20(B</h1>
+    <h1>合唱の部屋</h1>
     <div class="comment">
       <p>
-	$B$4MxMQ$$$?$@$/A0$K!"$<$R(B<a href="notice.html" shape="rect">$B$3(B
-	$B$A$i(B</a>$B$r$40lFI2<$5$$!#(B
+	ご利用いただく前に、ぜひ<a href="notice.html" shape="rect">こ
+	ちら</a>をご一読下さい。
       </p>
     </div>
     <hr class="comment-topic-sep"/>
     <div class="topic">
       <h2><a href="whatsnew/200111.html" shape="rect">What's new of this page?</a></h2>
       <p>
-	$B?7Ce>pJs$O!"$^$:$3$3$r8fMw$/$@$5$$!#(B
+	新着情報は、まずここを御覧ください。
       </p>
     </div>
     <div class="topic">
-      <h2><a href="concours/" shape="rect">$B9g>'4XO"%3%s%/!<%k(B</a></h2>
+      <h2><a href="concours/" shape="rect">合唱関連コンクール</a></h2>
       <p>
-	$B8=:_F|K\$G$O$5$^$6$^$J9g>'%3%s%/!<%k$,9T$o$l$F$$$^$9$,!"$=$N7k(B
-	$B2L$O;22C<T$G$J$$$H$J$+$J$+CN$k$3$H$,$G$-$^$;$s!#$3$l$i$N7k2L$r(B
-	$B<}=8$7!"?o;~7G:\$7$F$$$-$^$9!#B.Js!&;qNA!"$$$:$l$K$b;H$($k%Z!<(B
-	$B%8$@$H;W$C$F$$$^$9!#%G!<%?$N<}=8$K$46(NO$/$@$5$$!#(B($B$3$l$^$GA4(B
-	$BF|K\9g>'%3%s%/!<%k$N$_9T$C$F$-$^$7$?$,!"HO0O$r3HBg$7$^$9(B)
+	現在日本ではさまざまな合唱コンクールが行われていますが、その結
+	果は参加者でないとなかなか知ることができません。これらの結果を
+	収集し、随時掲載していきます。速報・資料、いずれにも使えるペー
+	ジだと思っています。データの収集にご協力ください。(これまで全
+	日本合唱コンクールのみ行ってきましたが、範囲を拡大します)
       </p>
     </div>
     <div class="topic">
-      <h2><a href="links/" shape="rect">$B9g>'4X78$N%j%s%/=8(B</a></h2>
+      <h2><a href="links/" shape="rect">合唱関係のリンク集</a></h2>
       <p>
-	$B9g>'4X78$N(B WWW $B%Z!<%8$X$N%j%s%/$r=8$a$F$$$^$9!#(B
-	$B%j%s%/$rD%$C$F$[$7$$$H$$$&J}$O(B
-	$B9qEg(B(<r:resourceRef name="maintainerEmail"/>)$B$^$G$4O"Mm$/$@$5$$!#(B
+	合唱関係の WWW ページへのリンクを集めています。
+	リンクを張ってほしいという方は
+	国島(<r:resourceRef name="maintainerEmail"/>)までご連絡ください。
       </p>
     </div>
     <div class="topic">
-      <h2><a href="faq.html" shape="rect">$B<*4s$j>pJs(B</a></h2>
+      <h2><a href="faq.html" shape="rect">耳寄り情報</a></h2>
       <p>
-	$B9g>'0&9%<T$J$i!"3ZIh$d(BCD$B$NF~<j$K0lEY$O:$$C$?;v$,$"$k$N$G$O$J$$(B
-	$B$G$7$g$&$+!#$=$s$JJ}!9$KAw$k<*4s$j>pJs$r=8$a$F$_$^$7$?!#(BHML
-	(Harmony Mailing List) $B$N0FFb$b$"$j$^$9!#(B
+	合唱愛好者なら、楽譜やCDの入手に一度は困った事があるのではない
+	でしょうか。そんな方々に送る耳寄り情報を集めてみました。HML
+	(Harmony Mailing List) の案内もあります。
       </p>
     </div>
     <div class="topic">
-      <h2><a href="/cgi-bin/namazu.cgi" shape="rect">$BA4J88!:w%7%9%F%`(B</a></h2>
+      <h2><a href="/cgi-bin/namazu.cgi" shape="rect">全文検索システム</a></h2>
       <p>
-	$B!V9g>'$NIt20!WFb$N%Z!<%8$KBP$9$kA4J88!:w%7%9%F%`$r8x3+$7$^$9!#(B
+	「合唱の部屋」内のページに対する全文検索システムを公開します。
       </p>
     </div>
     <div class="topic">
-      <h2><a href="misc.html" shape="rect">$B$$$m$$$m(B</a></h2>
+      <h2><a href="misc.html" shape="rect">いろいろ</a></h2>
       <p>
-	$B$=$NB>!"9g>'$K4X$9$k$$$m$$$m$J>pJs$r(B WWW $B%Z!<%8$H$7$F$^$H$a$F$_$^$7$?!#(B
+	その他、合唱に関するいろいろな情報を WWW ページとしてまとめてみました。
       </p>
     </div>
   </body>
