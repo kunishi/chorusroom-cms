@@ -9,6 +9,9 @@
     <title>What's new in 1998/10</title>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>What's new in 1998/10</h1>
@@ -110,7 +113,9 @@
       </li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:22 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.19 $ $Date: 2000/08/29 15:00:31 $ GMT</p>
+    </div>
   </body>
 </html>

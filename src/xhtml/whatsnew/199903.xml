@@ -8,6 +8,9 @@
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>What's new in 1999/03</title>
   </head>
   <body>
@@ -28,7 +31,9 @@
       <li>[リンク集:合唱団:一般]<a href="http://www02.so-net.ne.jp/~jcac/" shape="rect">日本コンサートアカデミー合唱団</a>(アドレス変更、1999.03.07.)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    Last updated: $Date: 2000/08/26 02:16:23 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.11 $ $Date: 2000/08/29 15:00:32 $ GMT</p>
+    </div>
   </body>
 </html>

@@ -9,6 +9,9 @@
     <title>新着情報 (1999年9月分)</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>新着情報 (1999年9月分)</h1>
@@ -79,7 +82,9 @@
       <dd>[リンク集:合唱団:一般]<a href="http://www.ne.jp/asahi/hp/atsukon/index.html" shape="rect">厚木混声合唱団</a></dd>
     </dl>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:23 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.34 $ $Date: 2000/08/29 15:00:32 $ GMT</p>
+    </div>
   </body>
 </html>

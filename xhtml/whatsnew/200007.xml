@@ -8,6 +8,9 @@
   <head>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>新着情報 (2000年7月分)</title>
   </head>
   <body>
@@ -44,7 +47,9 @@
       <dd>[リンク集:合唱団:一般(愛知)] <a href="http://www.i-chubu.ne.jp/~jl2rhk/index.htm" shape="rect">名古屋コール・ハーモニア</a></dd>
     </dl>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Date: 2000/08/26 02:16:24 $</p>
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.9 $ $Date: 2000/08/29 15:00:32 $ GMT</p>
+    </div>
   </body>
 </html>

@@ -8,6 +8,9 @@
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>What's new in 1999.04</title>
   </head>
   <body>
@@ -37,7 +40,9 @@
       ハイマート合唱団</a> (木野千晶さん) (1999.04.02.)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:23 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.14 $ $Date: 2000/08/29 15:00:32 $ GMT</p>
+    </div>
   </body>
 </html>

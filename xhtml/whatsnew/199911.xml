@@ -9,6 +9,9 @@
     <title>新着情報 (1999年11月分)</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>新着情報 (1999年11月分)</h1>
@@ -42,7 +45,9 @@
       <dd>[リンク集:合唱団:一般]<a href="http://www.asahi-net.or.jp/~ky5s-mti/" shape="rect">金沢メンネルコール</a> (URL変更)</dd>
     </dl>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:24 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.12 $ $Date: 2000/08/29 15:00:32 $ GMT</p>
+    </div>
   </body>
 </html>

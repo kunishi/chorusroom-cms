@@ -9,6 +9,9 @@
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>What's new in Jan 1999</title>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>新着情報(1999年1月)</h1>
@@ -35,7 +38,9 @@
       <li>サーバ計算機を入れ替えました。URL アドレスは変更ありません。(1999.01.04.)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Id: 199901.xml,v 1.17 2000/08/26 02:16:23 kunishi Exp $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.18 $ $Date: 2000/08/29 15:00:31 $ GMT</p>
+    </div>
   </body>
 </html>

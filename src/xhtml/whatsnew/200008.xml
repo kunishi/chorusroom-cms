@@ -8,6 +8,9 @@
   <head>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>新着情報 (2000年8月分)</title>
   </head>
   <body>
@@ -66,7 +69,9 @@
       <dd>[リンク集:合唱団:職場(東京)] <a href="http://plaza9.mbn.or.jp/~enk/" shape="rect">ＮＴＴ合唱団</a></dd>
     </dl>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Date: 2000/08/29 03:41:07 $</p>
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.19 $ $Date: 2000/08/29 15:00:33 $ GMT</p>
+    </div>
   </body>
 </html>

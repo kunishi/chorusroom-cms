@@ -9,6 +9,9 @@
     <title>Chorus Room/What's new in 1998/08</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>What's new in 1998/08</h1>
@@ -33,7 +36,9 @@
       <li>[リンク集:合唱団:一般]<a href="http://member.nifty.ne.jp/AIZUKONSEI/" shape="rect">会津混声合唱団</a>(1998.8.5.)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:22 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.8 $ $Date: 2000/08/29 15:00:31 $ GMT</p>
+    </div>
   </body>
 </html>

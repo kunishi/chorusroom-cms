@@ -9,6 +9,9 @@
     <title>Chorus Room/What's new in 1998/05</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>Chorus Room/What's new in 1998/05</h1>
@@ -45,7 +48,9 @@
       <li>[リンク集:合唱団:一般]<a href="http://member.nifty.ne.jp/eolian/" shape="rect">エオリアン・コール</a>(アドレス変更、1998.5.1.)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/26 02:16:22 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Revision: 1.9 $ $Date: 2000/08/29 15:00:30 $ GMT</p>
+    </div>
   </body>
 </html>
