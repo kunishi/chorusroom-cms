@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.2 2001/08/19 16:01:13 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 2001/08/20 16:39:25 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -13,7 +13,8 @@ INSTFILES+=		index.html
 INSTFILES+=		${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
 
 HYOGO_HTML=		hyogo-preliminary-hanshin.html \
-			hyogo-preliminary-himeji.html
+			hyogo-preliminary-himeji.html \
+			hyogo-main.html
 
 .INTERMEDIATE:		${HYOGO_HTML:%.html=%.xml}
 
