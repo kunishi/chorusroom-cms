@@ -14,12 +14,17 @@
   </givenProgram>
   <givenProgram>
     <givenProgramNumber>G2</givenProgramNumber>
-    <p:piece>
+    <p:suite>
       <p:composed-by>Josef Rheinberger</p:composed-by>
       <p:title original="true">
-	<p:mainTitle>Salve Regina</p:mainTitle>
+	<p:mainTitle>F<cr:utf8-char nickname="uuml">u</cr:utf8-char>nf Hymnen</p:mainTitle>
       </p:title>
-    </p:piece>
+      <p:suite-piece>
+	<p:title original="true">
+	  <p:mainTitle>Salve Regina</p:mainTitle>
+	</p:title>
+      </p:suite-piece>
+    </p:suite>
   </givenProgram>
   <givenProgram>
     <givenProgramNumber>G3</givenProgramNumber>
@@ -85,8 +90,8 @@
     <p:suite>
       <p:composed-by>間宮芳生</p:composed-by>
       <p:title original="true" xml:lang="ja">
-	<p:titlePrefix>男声合唱のための</p:titlePrefix>
-	<p:mainTitle>コンポジション6番</p:mainTitle>
+	<p:titlePrefix>合唱のためのコンポジション第6番</p:titlePrefix>
+	<p:mainTitle>男声合唱のためのコンポジション</p:mainTitle>
       </p:title>
       <p:suite-piece>
 	<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
@@ -121,13 +126,18 @@
   </givenProgram>
   <givenProgram>
     <givenProgramNumber>F2</givenProgramNumber>
-    <p:piece>
-      <p:words-by>M<cr:utf8-char nickname="ouml">o</cr:utf8-char>rike</p:words-by>
+    <p:suite>
+      <p:words-by>Eduard M<cr:utf8-char nickname="ouml">o</cr:utf8-char>rike</p:words-by>
       <p:composed-by>Heinrich Herzogenberg</p:composed-by>
       <p:title original="true">
-	<p:mainTitle>Untreue</p:mainTitle>
+	<p:mainTitle>Lieder und Romanzen</p:mainTitle>
       </p:title>
-    </p:piece>
+      <p:suite-piece>
+	<p:title original="true">
+	  <p:mainTitle>Untreue</p:mainTitle>
+	</p:title>
+      </p:suite-piece>
+    </p:suite>
   </givenProgram>
   <givenProgram>
     <givenProgramNumber>F3</givenProgramNumber>
