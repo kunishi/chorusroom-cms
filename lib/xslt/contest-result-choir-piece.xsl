@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-choir-piece.xsl,v 1.1 2001/01/03 05:20:25 kunishi Exp $ -->
+<!-- $Id: contest-result-choir-piece.xsl,v 1.2 2001/01/03 13:40:12 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:p="http://www.chorusroom.org/piece"
@@ -27,7 +27,12 @@
   </xsl:template>
   <xsl:template match="p:words-by">
     <xsl:apply-templates/>
-    <xsl:text>作詩</xsl:text>
+    <xsl:if test="@kind">
+      <xsl:value-of select="@kind"/>
+    </xsl:if>
+    <xsl:if test="not(@kind)">
+      <xsl:text>作詩</xsl:text>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="p:translated-by">
     <xsl:apply-templates/>
