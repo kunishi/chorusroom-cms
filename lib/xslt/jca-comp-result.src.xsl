@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-comp-result.src.xsl,v 1.5 2001/02/06 08:18:29 kunishi Exp $ -->
+<!-- $Id: jca-comp-result.src.xsl,v 1.6 2002/06/11 04:49:45 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
-		xmlns:redirect="org.apache.xalan.lib.Redirect"
+		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:char="http://www.chorusroom.org/character"

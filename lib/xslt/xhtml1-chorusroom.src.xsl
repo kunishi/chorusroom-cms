@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.10 2002/04/30 14:56:46 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.11 2002/06/11 04:49:50 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
-		xmlns:redirect="org.apache.xalan.lib.Redirect"
+		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:r="http://www.chorusroom.org/resource"

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: contest-result-generic.src.xsl,v 1.5 2001/04/02 06:49:25 kunishi Exp $ -->
+<!-- $Id: contest-result-generic.src.xsl,v 1.6 2002/06/11 04:49:44 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
-		xmlns:redirect="org.apache.xalan.lib.Redirect"
+		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:char="http://www.chorusroom.org/character"
