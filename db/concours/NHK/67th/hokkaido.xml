@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: hokkaido.xml,v 1.1 2001/01/13 16:50:14 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: hokkaido.xml,v 1.2 2001/01/15 03:38:10 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="true">平成12年度(第67回) NHK全国学校音楽コンクール北海道ブロックコンクール</competition-name>
   <result output="hokkaido">
     <date day-of-week="sat" holiday="false">2000-09-16</date>
@@ -20,7 +20,7 @@
 	<number-of-parts>3</number-of-parts>
 	<conductor>斉藤孝子</conductor>
 	<piano>田村幸恵</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -38,7 +38,7 @@
 	<number-of-parts>3</number-of-parts>
 	<conductor>米津理臣</conductor>
 	<piano>米津郁子</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -61,7 +61,7 @@
 	<number-of-parts>3</number-of-parts>
 	<conductor>竹原ゆかり</conductor>
 	<piano grade="6">桑原康輔</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -79,7 +79,7 @@
 	<number-of-parts>3</number-of-parts>
 	<conductor>瀬川香</conductor>
 	<piano>和田知子</piano>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -103,6 +103,7 @@
 	<conductor>久富徴子</conductor>
 	<piano>中居雅恵</piano>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -113,13 +114,13 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false" playing-order="6">
+      <choir representative="true" playing-order="6">
 	<choir-name>札幌市立美しが丘小学校</choir-name>
 	<prefecture>札幌地区</prefecture>
 	<choir-type>same-voice</choir-type>
 	<number-of-parts>3</number-of-parts>
 	<conductor>向出彰</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	    <piano grade="6">廣瀬かすみ</piano>
@@ -150,6 +151,7 @@
 	<conductor>佐々木徴</conductor>
 	<piano>渡辺好恵</piano>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -166,7 +168,7 @@
 	<choir-type>same-voice</choir-type>
 	<number-of-parts>3</number-of-parts>
 	<conductor>吉川千穂</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	    <piano grade="5">山神壮平</piano>
@@ -192,6 +194,7 @@
 	<conductor>山戸比奈古</conductor>
 	<piano>倉岡綾子</piano>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program number="elementary-school" href="givenPrograms.xml">
 	  </given-program>
@@ -498,13 +501,13 @@
     </section>
     <section>
       <section-name date="2000-09-17">高等学校の部</section-name>
-      <choir representative="false" playing-order="1">
+      <choir representative="true" playing-order="1">
 	<choir-name>北海道札幌北高等学校</choir-name>
 	<prefecture>札幌地区</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-parts>4</number-of-parts>
 	<conductor>平田稔夫</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
@@ -526,7 +529,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-parts>4</number-of-parts>
 	<conductor>水野雅文</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
@@ -550,6 +553,7 @@
 	<number-of-parts>3</number-of-parts>
 	<conductor>荻原美子</conductor>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
@@ -572,7 +576,7 @@
 	<choir-type>female</choir-type>
 	<number-of-parts>3</number-of-parts>
 	<conductor>加藤静一</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
@@ -593,10 +597,11 @@
       </choir>
       <choir representative="false" playing-order="5">
 	<choir-name>遺愛女子高等学校</choir-name>
+	<prefecture>道南地区</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-parts>3</number-of-parts>
 	<conductor>亀川真理</conductor>
-	<prize nickname="none"></prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
@@ -615,6 +620,7 @@
 	<number-of-parts>3</number-of-parts>
 	<conductor>藪田乃笛子</conductor>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
@@ -633,6 +639,7 @@
 	<number-of-parts>4</number-of-parts>
 	<conductor>浜坂裕樹</conductor>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program number="senior-highschool" href="givenPrograms.xml">
 	  </given-program>
