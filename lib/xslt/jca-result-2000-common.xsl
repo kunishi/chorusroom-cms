@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-2000-common.xsl,v 1.25 2000/10/07 03:39:52 kunishi Exp $ -->
+<!-- $Id: jca-result-2000-common.xsl,v 1.26 2000/10/08 02:21:30 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -35,73 +35,55 @@
       <xsl:attribute name="xml:lang">
         <xsl:text>ja</xsl:text>
       </xsl:attribute>
-      <xsl:element name="head">
+      <head>
 	<xsl:call-template name="additional-header"/>
-	<xsl:element name="title">
+	<title>
 	  <xsl:value-of select="/大会/大会名"/>
-	</xsl:element>
-      </xsl:element>
-      <xsl:element name="body">
+	</title>
+      </head>
+      <body>
 	<xsl:call-template name="encodinglink"/>
-	<xsl:element name="h1">
+        <h1>
 	  <xsl:value-of select="/大会/大会名"/>
-	</xsl:element>
-	<xsl:element name="hr"/>
-	<xsl:element name="dl">
+	</h1>
+        <hr/>
+	<dl>
 	  <xsl:call-template name="開催日リスト"/>
 	  <xsl:apply-templates select="開催場所"/>
 	  <xsl:call-template name="審査員リスト"/>
 	  <xsl:call-template name="報告者リスト"/>
-	</xsl:element>
+	</dl>
 	<xsl:apply-templates select="注記"/>
 	<xsl:call-template name="採点結果リンク"/>
-	<xsl:element name="hr"/>
+        <hr/>
 	<xsl:apply-templates select="部門結果"/>
 	<xsl:call-template name="footer"/>
-      </xsl:element>
+      </body>
     </xsl:element>
   </xsl:template>
 
   <xsl:template name="additional-header">
-    <xsl:element name="link">
-      <xsl:attribute name="href">
-	<xsl:text>%%STYLEDIR%%/jca-concour.css</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="type">
-	<xsl:text>text/css</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="rel">
-	<xsl:text>stylesheet</xsl:text>
-      </xsl:attribute>
-    </xsl:element>
-    <xsl:element name="link">
-      <xsl:attribute name="href">
-	<xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="rev">
-	<xsl:text>made</xsl:text>
-      </xsl:attribute>
-    </xsl:element>
-    <xsl:element name="meta">
-      <xsl:attribute name="http-equiv">
-        <xsl:text>Content-Stype-Type</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="content">
-        <xsl:text>text/css</xsl:text>
-      </xsl:attribute>
-    </xsl:element>
-    <xsl:element name="style">
-      <xsl:attribute name="type">
-        <xsl:text>text/css</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="xml:space">
-        <xsl:text>preserve</xsl:text>
-      </xsl:attribute>
+    <link>
+      <xsl:attribute name="href">%%STYLEDIR%%/jca-concours.css</xsl:attribute>
+      <xsl:attribute name="type">text/css</xsl:attribute>
+      <xsl:attribute name="rel">stylesheet</xsl:attribute>
+    </link>
+    <link>
+      <xsl:attribute name="href">mailto:kunishi@c.oka-pu.ac.jp</xsl:attribute>
+      <xsl:attribute name="rev">made</xsl:attribute>
+    </link>
+    <meta>
+      <xsl:attribute name="http-equiv">Content-Style-Type</xsl:attribute>
+      <xsl:attribute name="content">text/css</xsl:attribute>
+    </meta>
+    <style>
+      <xsl:attribute name="type">text/css</xsl:attribute>
+      <xsl:attribute name="xml:space">preserve</xsl:attribute>
       <xsl:text>
 body { background-image: url(%%IMAGEDIR%%/background.png); }
       </xsl:text>
-    </xsl:element>
-    <xsl:element name="meta">
+    </style>
+    <meta>
       <xsl:attribute name="http-equiv">
 	<xsl:text>Content-Type</xsl:text>
       </xsl:attribute>
@@ -109,63 +91,57 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
 	<xsl:text>text/html; charset=</xsl:text>
 	<xsl:value-of select="$output-encoding" />
       </xsl:attribute>
-    </xsl:element>
+    </meta>
   </xsl:template>
   
   <xsl:template name="encodinglink">
-    <xsl:element name="p">
+    <p>
       <xsl:if test="$suffix=$utfhtmlsuffix">
-	<xsl:element name="a">
+	<a>
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="concat(@出力, $htmlsuffix)" />
 	  </xsl:attribute>
 	  <xsl:text>JISページ</xsl:text>
-	</xsl:element>
+	</a>
       </xsl:if>
       <xsl:if test="$suffix=$htmlsuffix">
-	<xsl:element name="a">
+	<a>
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="concat(@出力, $utfhtmlsuffix)"/>
 	  </xsl:attribute>
 	  <xsl:text>UTF-8ページ</xsl:text>
-	</xsl:element>
+	</a>
       </xsl:if>
-    </xsl:element>
+    </p>
   </xsl:template>
 
   <xsl:template name="footer">
-    <xsl:element name="hr"/>
-    <xsl:element name="div">
-      <xsl:attribute name="class">
-        <xsl:text>footer</xsl:text>
-      </xsl:attribute>
-      <xsl:element name="address">
-        <xsl:element name="a">
-          <xsl:attribute name="href">
-            <xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
-          </xsl:attribute>
+    <hr/>
+    <div>
+      <xsl:attribute name="class">footer</xsl:attribute>
+      <address>
+        <a>
+          <xsl:attribute name="href">mailto:kunishi@c.oka-pu.ac.jp</xsl:attribute>
           <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
-        </xsl:element>
-      </xsl:element>
-      <xsl:element name="p">
+        </a>
+      </address>
+      <p>
         <xsl:text>この文書は</xsl:text>
         <xsl:value-of select="/大会/CVSID"/>
         <xsl:text>から自動的に生成されました。</xsl:text>
-      </xsl:element>
-      <xsl:element name="p">
+      </p>
+      <p>
         <xsl:text>Copyright (C) 2000 Takeo Kunishima.  All rights reserved.</xsl:text>
-      </xsl:element>
-    </xsl:element>
+      </p>
+    </div>
   </xsl:template>
 
   <xsl:template name="開催日リスト">
     <xsl:if test="child::開催日">
-      <xsl:element name="dt">
-	<xsl:text>開催日</xsl:text>
-      </xsl:element>
-      <xsl:element name="dd">
+      <dt>開催日</dt>
+      <dd>
 	<xsl:apply-templates select="開催日"/>
-      </xsl:element>
+      </dd>
     </xsl:if>
   </xsl:template>
 
@@ -180,22 +156,18 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   </xsl:template>
 
   <xsl:template match="開催場所">
-    <xsl:element name="dt">
-      <xsl:text>開催場所</xsl:text>
-    </xsl:element>
-    <xsl:element name="dd">
+    <dt>開催場所</dt>
+    <dd>
       <xsl:apply-templates/>
-    </xsl:element>
+    </dd>
   </xsl:template>
 
   <xsl:template name="審査員リスト">
     <xsl:if test="child::審査員">
-      <xsl:element name="dt">
-	<xsl:text>審査員</xsl:text>
-      </xsl:element>
-      <xsl:element name="dd">
+      <dt>審査員</dt>
+      <dd>
 	<xsl:apply-templates select="審査員"/>
-      </xsl:element>
+      </dd>
     </xsl:if>
   </xsl:template>
   <xsl:template match="審査員">
@@ -215,13 +187,11 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   </xsl:template>
 
   <xsl:template name="報告者リスト">
-    <xsl:element name="dt">
-      <xsl:text>報告者</xsl:text>
-    </xsl:element>
+    <dt>報告者</dt>
     <xsl:apply-templates select="報告者"/>
   </xsl:template>
   <xsl:template match="報告者">
-    <xsl:element name="dd">
+    <dd>
       <xsl:choose>
         <xsl:when test="@匿名希望[.='yes']">
           <xsl:text>匿名希望</xsl:text>
@@ -231,7 +201,7 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
           <xsl:apply-templates select="email"/>
         </xsl:otherwise>
       </xsl:choose>
-    </xsl:element>
+    </dd>
   </xsl:template>
 
   <xsl:template match="報告者氏名">
@@ -255,109 +225,99 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
 
   <xsl:template name="採点結果リンク">
     <xsl:if test=".//採点結果">
-      <xsl:element name="ul">
-	<xsl:element name="li">
-	  <xsl:element name="p">
+      <ul>
+	<li>
+	  <p>
 	    <xsl:text>採点表を</xsl:text>
-	    <xsl:element name="a">
+	    <a>
 	      <xsl:attribute name="href">
 		<xsl:value-of select="concat(@出力, '-saiten', $suffix)"/>
 	      </xsl:attribute>
 	      <xsl:text>別ページ</xsl:text>
-	    </xsl:element>
+	    </a>
 	    <xsl:text>にまとめてあります。</xsl:text>
-	  </xsl:element>
-	</xsl:element>
-      </xsl:element>
+	  </p>
+	</li>
+      </ul>
     </xsl:if>
   </xsl:template>
 
   <xsl:template match="注記">
-    <xsl:element name="ul">
+    <ul>
       <xsl:apply-templates/>
-    </xsl:element>
+    </ul>
   </xsl:template>
   <xsl:template match="注記事項">
-    <xsl:element name="li">
-      <xsl:element name="p">
+    <li>
+      <p>
 	<xsl:value-of select="."/>
-      </xsl:element>
-    </xsl:element>
+      </p>
+    </li>
   </xsl:template>
 
   <xsl:template match="部門結果">
     <xsl:apply-templates select="部門名"/>
     <xsl:if test="団体[賞[.='シード']]">
-      <xsl:element name="h3">
-        <xsl:text>シード団体</xsl:text>
-      </xsl:element>
-      <xsl:element name="ul">
+      <h3>シード団体</h3>
+      <ul>
         <xsl:for-each select="団体[賞[.='シード']]">
-          <xsl:element name="li">
+          <li>
             <xsl:apply-templates select="."/>
-          </xsl:element>
+          </li>
         </xsl:for-each>
-      </xsl:element>
+      </ul>
     </xsl:if>
     <xsl:if test="団体[賞[.='金賞']]">
-      <xsl:element name="h3">
-	<xsl:text>金賞</xsl:text>
-      </xsl:element>
-      <xsl:element name="ul">
+      <h3>金賞</h3>
+      <ul>
         <xsl:for-each select="団体[賞[.='金賞']]">
-          <xsl:element name="li">
+          <li>
             <xsl:apply-templates select="."/>
-          </xsl:element>
+          </li>
         </xsl:for-each>
-      </xsl:element>
+      </ul>
     </xsl:if>
     <xsl:if test="団体[賞[.='銀賞']]">
-      <xsl:element name="h3">
-	<xsl:text>銀賞</xsl:text>
-      </xsl:element>
-      <xsl:element name="ul">
+      <h3>銀賞</h3>
+      <ul>
         <xsl:for-each select="団体[賞[.='銀賞']]">
-          <xsl:element name="li">
+          <li>
             <xsl:apply-templates select="."/>
-          </xsl:element>
+          </li>
         </xsl:for-each>
-      </xsl:element>
+      </ul>
     </xsl:if>
     <xsl:if test="団体[賞[.='銅賞']]">
-      <xsl:element name="h3">
-	<xsl:text>銅賞</xsl:text>
-      </xsl:element>
-      <xsl:element name="ul">
+      <h3>銅賞</h3>
+      <ul>
         <xsl:for-each select="団体[賞[.='銅賞']]">
-          <xsl:element name="li">
+          <li>
             <xsl:apply-templates select="."/>
-          </xsl:element>
+          </li>
         </xsl:for-each>
-      </xsl:element>
+      </ul>
     </xsl:if>
     <xsl:if test="団体[not(賞)]">
-      <xsl:element name="h3">
-	<xsl:text>そのほか</xsl:text>
-      </xsl:element>
-      <xsl:element name="ul">
+      <h3>そのほか</h3>
+      <ul>
         <xsl:for-each select="団体[not(賞)]">
-          <xsl:element name="li">
+          <li>
             <xsl:apply-templates select="."/>
-          </xsl:element>
+          </li>
         </xsl:for-each>
-      </xsl:element>
+      </ul>
     </xsl:if>
   </xsl:template>
 
   <xsl:template match="部門名">
-    <xsl:element name="h2">
+    <h2>
       <xsl:value-of select="."/>
       <xsl:if test="@開催日">
 	<xsl:text> (</xsl:text>
 	<xsl:value-of select="@開催日"/>
 	<xsl:text>)</xsl:text>
       </xsl:if>
-    </xsl:element>
+    </h2>
   </xsl:template>
 
   <xsl:template match="団体">
@@ -391,12 +351,15 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   </xsl:template>
 
   <xsl:template name="団体データ">
-    <xsl:if test="(所属県 and not(//大会名[@県大会])) or 形態 or 登録人数
-	    or 指揮者 or ピアノ or 共演者">
+    <xsl:if test="(所属県 and not(//大会名[@県大会]))
+                  or 形態 or 登録人数 or 指揮者 or ピアノ or 共演者">
       <xsl:text> (</xsl:text>
-      <xsl:call-template name="団体データその1"/>
+      <xsl:for-each select="child::*[name()='所属県' or name()='形態'
+                            or name()='登録人数']">
+        <xsl:call-template name="団体データその1"/>
+      </xsl:for-each>
       <xsl:if test="((所属県 and not(//大会名[@県大会])) or 形態 or 登録人数)
-	      and (指揮者 or ピアノ or 共演者)">
+                    and (指揮者 or ピアノ or 共演者)">
 	<xsl:text>、</xsl:text>
       </xsl:if>
       <xsl:call-template name="演奏者データ"/>
@@ -405,18 +368,27 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   </xsl:template>
 
   <xsl:template name="団体データその1">
-    <xsl:if test="not(//大会名[@県大会='yes'])">
-      <xsl:apply-templates select="所属県"/>
-    </xsl:if>
-    <xsl:apply-templates select="形態"/>
-    <xsl:apply-templates select="登録人数"/>
+    <xsl:choose>
+      <xsl:when test="name()='所属県'">
+        <xsl:if test="not(//大会名[@県大会='yes'])">
+          <xsl:apply-templates select="current()"/>
+          <xsl:if test="following-sibling::形態
+                        or following-sibling::登録人数">
+            <xsl:text>・</xsl:text>
+          </xsl:if>
+        </xsl:if>
+      </xsl:when>
+      <xsl:when test="name()='形態'">
+        <xsl:apply-templates select="current()"/>
+      </xsl:when>
+      <xsl:when test="name()='登録人数'">
+        <xsl:apply-templates select="current()"/>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="所属県">
     <xsl:apply-templates/>
-    <xsl:if test="following-sibling::形態 or following-sibling::登録人数">
-      <xsl:text>・</xsl:text>
-    </xsl:if>
   </xsl:template>
 
   <xsl:template match="形態">
@@ -504,64 +476,56 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   </xsl:template>
 
   <xsl:template match="曲目">
-    <xsl:element name="ul">
+    <ul>
       <xsl:apply-templates select="課題曲"/>
       <xsl:apply-templates select="自由曲"/>
-    </xsl:element>
+    </ul>
   </xsl:template>
 
   <xsl:template match="課題曲">
-    <xsl:element name="li">
+    <li>
       <xsl:value-of select="@番号"/>
-    </xsl:element>
+    </li>
   </xsl:template>
 
   <xsl:template match="自由曲">
-    <xsl:element name="li">
-      <xsl:apply-templates select="出典"/>
-      <xsl:apply-templates select="作詩"/>
-      <xsl:apply-templates select="訳詩"/>
-      <xsl:apply-templates select="作曲"/>
-      <xsl:apply-templates select="編曲"/>
-      <xsl:if test="出典 or 作詩 or 訳詩 or 作曲 or 編曲">
-  	<xsl:text>: </xsl:text>
-      </xsl:if>
-      <xsl:if test="曲名"><xsl:apply-templates select="曲名"/></xsl:if>
-      <xsl:if test="組曲"><xsl:apply-templates select="組曲"/></xsl:if>
-    </xsl:element>
+    <li>
+      <xsl:for-each select="child::*[name()='出典' or name()='作詩'
+                            or name()='訳詩' or name()='作曲'
+                            or name()='編曲']">
+        <xsl:apply-templates select="current()"/>
+        <xsl:choose>
+          <xsl:when test="position()=last()">
+            <xsl:text>: </xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>・</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+      <xsl:apply-templates select="曲名"/>
+      <xsl:apply-templates select="組曲"/>
+    </li>
   </xsl:template>
 
   <xsl:template match="出典">
-    <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::作詩 or following-sibling::作曲
-                  or following-sibling::編曲 or following-sibling::訳詩">
-      <xsl:text>・</xsl:text>
-    </xsl:if>
+    <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="作詩">
     <xsl:apply-templates/>
     <xsl:text>作詩</xsl:text>
-    <xsl:if test="following-sibling::作曲">
-      <xsl:text>・</xsl:text>
-    </xsl:if>
-  </xsl:template>
-  <xsl:template match="作曲">
-    <xsl:apply-templates/>
-    <xsl:text>作曲</xsl:text>
-    <xsl:if test="following-sibling::編曲">
-      <xsl:text>・</xsl:text>
-    </xsl:if>
-  </xsl:template>
-  <xsl:template match="編曲">
-    <xsl:apply-templates/>
-    <xsl:text>編曲</xsl:text>
   </xsl:template>
   <xsl:template match="訳詩">
     <xsl:apply-templates/>
     <xsl:text>訳詩</xsl:text>
-    <xsl:if test="following-sibling::作曲">
-      <xsl:text>・</xsl:text>
-    </xsl:if>
+  </xsl:template>
+  <xsl:template match="作曲">
+    <xsl:apply-templates/>
+    <xsl:text>作曲</xsl:text>
+  </xsl:template>
+  <xsl:template match="編曲">
+    <xsl:apply-templates/>
+    <xsl:text>編曲</xsl:text>
   </xsl:template>
 
   <xsl:template match="曲名">
@@ -580,9 +544,7 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
     <xsl:if test="not(構成曲)">
       <xsl:text>「</xsl:text>
     </xsl:if>
-    <xsl:if test="構成曲番号">
-      <xsl:apply-templates select="構成曲番号" />
-    </xsl:if>
+    <xsl:apply-templates select="構成曲番号"/>
     <xsl:apply-templates select="曲名"/>
     <xsl:if test="作詩 or 出典 or 訳詩 or 作曲">
       <xsl:text> (</xsl:text>
