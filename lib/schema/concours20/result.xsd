@@ -5,7 +5,7 @@
   <xs:import namespace="http://www.chorusroom.org/xml" schemaLocation="c.xsd"/>
   <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="xhtml.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
-  <xs:complexType name="playersList">
+  <xs:complexType name="playersList" mixed="true">
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="c:conductor"/>
       <xs:element ref="c:piano"/>
