@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.29 2000/09/06 04:56:35 kunishi Exp $
+# $Id: Makefile,v 1.30 2000/09/08 04:20:06 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -15,7 +15,7 @@ INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
 INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	kumamoto.html kumamoto2.html
-INSTFILES_HTML+=	mie.html
+INSTFILES_HTML+=	mie.html mie-saiten.html
 INSTFILES_HTML+=	miyagi.html
 INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
@@ -86,3 +86,5 @@ ishikawa-saiten.jhtml: ishikawa.xml
 ishikawa-saiten.uhtml: ishikawa.utfxml
 kumamoto2.jhtml: kumamoto.xml
 kumamoto2.uhtml: kumamoto.utfxml
+mie-saiten.jhtml: mie.xml
+mie-saiten.uhtml: mie.utfxml
