@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-char-relax.xsl,v 1.1 2000/12/22 11:38:37 kunishi Exp $ -->
+<!-- $Id: gen-char-relax.xsl,v 1.2 2000/12/22 11:49:51 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:output method="xml"
 	      indent="yes"
 	      omit-xml-declaration="no"/>
+
+  <xsl:template match="/">
+    <xsl:apply-templates/>
+  </xsl:apply-templates>
 
   <xsl:template match="characters">
     <xsl:element name="module">
