@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.1 2001/01/03 05:20:25 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.2 2001/01/03 08:23:12 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -37,18 +37,22 @@
   <xsl:template match="cr:result">
     <xsl:param name="top" select="/"/>
     <xsl:variable name="result-top" select="."/>
-    <redirect:write file="{concat(@output, $suffix)}">
+    <redirect:open select="concat(@output, $suffix)"/>
+    <redirect:write select="concat(@output, $suffix)">
       <xsl:call-template name="main">
 	<xsl:with-param name="top" select="$top"/>
       </xsl:call-template>
     </redirect:write>
+    <redirect:close select="concat(@output, $suffix)"/>
     <xsl:if test=".//cr:scores">
+      <redirect:open file="{concat(@output, '-saiten', $suffix)}"/>
       <redirect:write file="{concat(@output, '-saiten', $suffix)}">
         <xsl:call-template name="saiten">
 	  <xsl:with-param name="top" select="$top"/>
 	  <xsl:with-param name="result-top" select="$result-top"/>
 	</xsl:call-template>
       </redirect:write>
+      <redirect:close file="{concat(@output, '-saiten', $suffix)}"/>
     </xsl:if>
   </xsl:template>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.2 2001/01/03 06:39:00 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.3 2001/01/03 08:23:12 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -19,8 +19,7 @@
   <xsl:output method="xml"
 	      indent="yes"
 	      doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-	      doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
-	      omit-xml-declaration="no"/>
+	      doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
 
   <xsl:template match="*[name()='head']" priority="1.0">
     <head>
