@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.1 2001/01/03 11:28:12 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 2001/01/03 11:39:36 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -20,4 +20,4 @@ ${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
 ${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 include config.mk
-include rules.mk
+include rule.mk
