@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.7 2000/08/23 05:11:47 kunishi Exp $ -->
-<!DOCTYPE html SYSTEM "../../xhtml-chorusroom.dtd" [
+<!-- $Id: index.xml,v 1.8 2000/08/25 08:23:58 kunishi Exp $ -->
+<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
@@ -75,5 +75,8 @@
       <dd><a href="kumamoto.html" shape="rect">熊本県大会(中学校の部)</a></dd>
       <dd><a href="kumamoto2.html" shape="rect">熊本県大会(一般の部)</a></dd>
     </dl>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    <p>$Revision: 1.8 $ $Date: 2000/08/25 08:23:58 $ GMT</p>
   </body>
 </html>
