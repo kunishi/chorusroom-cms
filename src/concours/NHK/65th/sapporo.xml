@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: sapporo.xml,v 1.1 2001/01/28 12:11:27 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: sapporo.xml,v 1.2 2001/01/29 02:56:23 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成 10 年度 (第 65 回) NHK 全国学校音楽コンクール札幌地区コンクール</competition-name>
   <result output="sapporo">
     <reporter anonymous="false">
@@ -656,7 +656,7 @@
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="junior-highschool" href="givenProgram.smxl"/>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
