@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.22 1999/12/18 14:27:24 kunishi Exp $
+# $Id: GNUmakefile,v 1.23 2000/01/01 14:38:33 kunishi Exp $
 #
 
 RELPATH=	.
@@ -22,7 +22,8 @@ INSTFILES_NOBUILD+=	chorusroom-logo.png \
 			panaMusica-map.txt \
 			panaMusica.png \
 			panaMusica.ps \
-			panaMusica.ps.gz
+			panaMusica.ps.gz \
+			toppage.css
 
 SUBDIR+=	48th \
 		49th \
