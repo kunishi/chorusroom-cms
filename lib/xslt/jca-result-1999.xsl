@@ -90,9 +90,12 @@
   </xsl:template>
   <xsl:template match="報告者">
     <dd>
-      <xsl:value-of select="."/>
-      <xsl:if test="not(@匿名希望)">
-	(<xsl:value-of select="@email"/>)
+      <xsl:if test="@匿名希望[.='yes']">匿名希望さん</xsl:if>
+      <xsl:if test="not(@匿名希望[.='yes'])">
+	<xsl:value-of select="."/>
+	<xsl:if test="not(@email匿名[.='yes'])">
+	  (<xsl:value-of select="@email"/>)
+	</xsl:if>
       </xsl:if>
     </dd>
   </xsl:template>
@@ -241,7 +244,8 @@
       <xsl:apply-templates select="出典"/>
       <xsl:apply-templates select="作詩"/>
       <xsl:apply-templates select="作曲"/>
-      <xsl:apply-templates select="編曲"/>: 
+      <xsl:apply-templates select="編曲"/>
+      <xsl:if test="出典 or 作詩 or 作曲 or 編曲">: </xsl:if>
       <xsl:if test="曲名"><xsl:apply-templates select="曲名"/></xsl:if>
       <xsl:if test="組曲"><xsl:apply-templates select="組曲"/></xsl:if>
     </li>
