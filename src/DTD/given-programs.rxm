@@ -3,17 +3,16 @@
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
-    <export label="givenPrograms"/>
     <import label="choirPiece"/>
+    <export label="givenPrograms"/>
   </interface>
 
-  <tag name="givenPrograms">
-  </tag>
+  <tag name="givenPrograms"/>
   <elementRule role="givenPrograms">
     <sequence>
-      <ref role="contestName"/>
-      <ref role="contestYear"/>
-      <ref role="givenProgram" occurs="+"/>
+      <ref label="contestName"/>
+      <ref label="contestYear"/>
+      <ref label="givenProgram" occurs="+"/>
     </sequence>
   </elementRule>
 
@@ -26,7 +25,7 @@
   <tag name="givenProgram"/>
   <elementRule role="givenProgram">
     <sequence>
-      <ref role="givenProgramNumber"/>
+      <ref label="givenProgramNumber"/>
       <importedLabelRef label="choirPiece"/>
     </sequence>
   </elementRule>
