@@ -8,6 +8,9 @@
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
     <title>KOVOX 97 Results</title>
   </head>
   <body>
@@ -90,6 +93,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a>&lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-      $Id: kovox-1997.xml,v 1.8 2000/08/26 02:16:10 kunishi Exp $
+      $Id: kovox-1997.xml,v 1.9 2000/09/13 04:49:28 kunishi Exp $
   </body>
 </html>
