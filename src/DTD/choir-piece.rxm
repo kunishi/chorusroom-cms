@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: choir-piece.rxm,v 1.1 2000/12/08 00:35:19 kunishi Exp $ -->
+<!-- $Id: choir-piece.rxm,v 1.2 2000/12/08 00:59:29 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface/>
 
   <hedgeRule label="合唱曲">
-    <ref label="出典" occurs="?"/>
-    <ref label="作詩" occurs="?"/>
-    <ref label="訳詩" occurs="?"/>
-    <ref label="作曲" occurs="?"/>
-    <ref label="編曲" occurs="?"/>
-    <choice>
-      <ref label="曲名"/>
-      <ref label="組曲"/>
-    </choice>
+    <sequence>
+      <ref label="出典" occurs="?"/>
+      <ref label="作詩" occurs="?"/>
+      <ref label="訳詩" occurs="?"/>
+      <ref label="作曲" occurs="?"/>
+      <ref label="編曲" occurs="?"/>
+      <choice>
+	<ref label="曲名"/>
+	<ref label="組曲"/>
+      </choice>
+    </sequence>
   </hedgeRule>
 
   <attPool role="lang.att">

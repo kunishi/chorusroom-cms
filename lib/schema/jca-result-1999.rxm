@@ -216,10 +216,12 @@
   <elementRule role="²ÝÂê¶Ê" type="string"/>
 
   <tag name="¼«Í³¶Ê"/>
-  <elementRule role="¼«Í³¶Ê" label="¹ç¾§¶Ê">
+  <elementRule role="¼«Í³¶Ê">
+    <sequence>
+      <hedgeRef label="¹ç¾§¶Ê"/>
+    </sequence>
   </elementRule>
 
-  <include moduleLocation="choir-piece.rlx">
-  </include>
+  <include moduleLocation="choir-piece.rlx"/>
 
 </module>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: jca-result-2000.rlx,v 1.1 2000/12/08 00:35:23 kunishi Exp $ -->
+<!-- $Id: jca-result-2000.rlx,v 1.2 2000/12/08 00:59:34 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module
         moduleVersion="1.0"
         relaxCoreVersion="1.0"
         xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+
   <interface>
     <export label="大会"/>
   </interface>
@@ -236,7 +237,10 @@
   </elementRule>
 
   <tag name="自由曲"/>
-  <elementRule role="自由曲" label="合唱曲">
+  <elementRule role="自由曲">
+    <sequence>
+      <hedgeRef label="合唱曲"/>
+    </sequence>
   </elementRule>
 
   <include moduleLocation="choir-piece.rlx"/>
