@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.2 2001/02/28 01:27:49 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 2001/02/28 01:28:24 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -9,7 +9,7 @@ INSTFILES_TRADITIONAL+=	asahikawa.html \
 			${NATIONAL_HTML}
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
-NATIONAL_HTML=		nationa-1997-10-12.html
+NATIONAL_HTML=		national-1997-10-12.html
 
 INSTFILES+=	index.html
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
