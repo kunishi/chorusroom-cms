@@ -4,7 +4,7 @@
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <大会>
-  <CVSID>$Id: kansai.xml,v 1.9 2000/10/21 11:12:49 kunishi Exp $</CVSID>
+  <CVSID>$Id: kansai.xml,v 1.10 2000/10/21 14:36:17 kunishi Exp $</CVSID>
   <大会名>第55回関西合唱コンクール</大会名>
   <開催日別結果 出力="kansai-highschool">
     <開催日 曜日="土・祝">2000-09-23</開催日>
@@ -3071,6 +3071,15 @@
 	      <構成曲>
 		<作詩>R. Chalupt</作詩>
 		<曲名>LE BRICK</曲名>
+	      </構成曲>
+	    </組曲>
+	  </自由曲>
+	  <自由曲>
+	    <編曲>J. G. Ropartz</編曲>
+	    <組曲 抜粋="yes">
+	      <曲名>「SIX CHANSONS POPULAIRES DU BOURBONNAIS」</曲名>
+	      <構成曲>
+		<曲名>Rossignolet du Bois...</曲名>
 	      </構成曲>
 	    </組曲>
 	  </自由曲>
