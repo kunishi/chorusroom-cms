@@ -29,11 +29,13 @@
     <dtd location="/usr/local/share/xml/xhtml/1.0/xhtml1-strict.dtd" publicId="-//W3C//DTD XHTML 1.0 Strict//EN"/>
   </xmlcatalog>
 
+  <!--
   <taskdef name='relaxerDtd' classname='org.chorusroom.ant.RelaxerDTD'>
     <classpath>
       <pathelement path='prog/java'/>
     </classpath>
   </taskdef>
+  -->
 
   <!-- whole build process -->
   <target name='wholebuild' depends='prepare, build, finalize'/>
@@ -45,6 +47,7 @@
   </target>
 
   <!-- build DTDs using Relaxer -->
+  <!--
   <target name='prepare.dtd'
     depends='prepare.dtd.contest-result-generic, prepare.dtd.jca-comp-result,
              prepare.dtd.nhk-contest-result, prepare.dtd.xhtml1-chorusroom,
@@ -88,6 +91,7 @@
       </fileset>
     </copy>
   </target>
+  -->
 
   <!-- prepare XSLT styesheet -->
   <target name='prepare.xslt'
