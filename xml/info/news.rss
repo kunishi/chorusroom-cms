@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0929/kansai.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0929/chubu.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0927/hokkaido.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0927/freetalk.html"></rdf:li>
@@ -21,6 +22,16 @@
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/0929/kansai.html">
+    <title>第56回関西合唱コンクール(中高)の採点表</title>
+    <link>http://www.chorusroom.org/info/2003/0929/kansai.html</link>
+    <description>
+      9月23日に行われた第56回関西合唱コンクール(中高)の採点表を掲載し
+      ました。
+    </description>
+    <dc:date>2003-09-29T23:30</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/0929/chubu.html">
     <title>第56回中部合唱コンクールの結果</title>
