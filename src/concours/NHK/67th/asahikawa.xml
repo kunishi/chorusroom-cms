@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: asahikawa.xml,v 1.1 2001/01/10 16:09:40 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール旭川地区コンクール</competition-name>
+  <result output="asahikawa">
+    <date day-of-week="sun" holiday="false">2000-08-20</date>
+    <hall>旭川大雪クリスタルホール音楽堂</hall>
+    <reporter anonymous="false">
+      <reporter-name>なおや</reporter-name>
+      <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="false" playing-order="1">
+	<choir-name>東川町立東川中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>泉田誠</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>組曲「地平線のかなたへ」</p:piece>
+	      <p:suite-piece>
+		<p:piece>春に</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="2">
+	<choir-name>稚内市立稚内南中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>道政瑞恵</conductor>
+	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>青い花</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="3">
+	<choir-name>美瑛町立美瑛中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>長友幸司</conductor>
+	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>聞こえる</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="4">
+	<choir-name>旭川市立東明中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>目黒幸子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>女声合唱とピアノのための組曲「宇宙の果物」</p:piece>
+	      <p:suite-piece>
+		<p:piece>宇宙の果物</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" playing-order="5">
+	<choir-name>枝幸町立枝幸中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>藤岡直美</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>&quot;A Ceremony of Carols&quot;</p:piece>
+	      <p:suite-piece>
+		<p:piece>Balulalow</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>This Littele Babe</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="6">
+	<choir-name>士別市立温根別中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>梅津理架子</conductor>
+	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>未来</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="7">
+	<choir-name>北海道教育大学教育学部附属旭川中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>小林和俊</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>聞こえる</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="8">
+	<choir-name>旭川市立春光台中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>菅野哲也</conductor>
+	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>春に</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="9">
+	<choir-name>旭川市立忠和中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>薦田幸恵</conductor>
+	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>天使と羊飼い</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="10">
+	<choir-name>旭川市立神居中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>板東裕美</conductor>
+	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>聞こえる</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="11">
+	<choir-name>旭川市立緑が丘中学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>井上淳子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>海はなかった</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" playing-order="12">
+	<choir-name>旭川市立愛宕中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>児玉かおり</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>混声合唱とピアノのための「ひみつ」</p:piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece>ひみつ</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
