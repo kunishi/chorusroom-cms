@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE grammar SYSTEM "/home/kunishi/share/xml/relax/relaxNamespace.dtd">
+<grammar relaxNamespaceVersion="1.0" grammarVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace">
+
+  <topLevel>
+    <hedgeRef label="html" namespace="http://www.w3.org/1999/xhtml"/>
+  </topLevel>
+
+  <module location="xhtml1-strict.rxm" namespace="http://www.w3.org/1999/xhtml"/>
+  <module location="utf8-char.rxm" namespace="http://www.chorusroom.org/character"/>
+
+  <hedgeRule label="specialCharacters" namespace="http://www.w3.org/1999/xhtml">
+    <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+  </hedgeRule>
+
+</grammar>

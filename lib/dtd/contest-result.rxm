@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: jca-result-2000.rxm,v 1.3 2000/12/25 03:58:07 kunishi Exp $ -->
+<!-- $Id: contest-result.rxm,v 1.1 2000/12/25 14:23:20 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0"
-        relaxCoreVersion="1.0"
-        xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+	relaxCoreVersion="1.0"
+	targetNamespace="http://www.chorusroom.org/xml"
+	xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
     <export label="competition"/>
   </interface>
 
   <tag name="competition">
-    <annotation>
-      <documentation>namespace should be http://www.chorusroom.org/xml.</documentation>
-    </annotation>
     <attribute name="xml:lang" type="language"/>
-    <attribute name="xmlns" required="true" type="uri-reference">
-    </attribute>
   </tag>
   <elementRule role="competition">
     <sequence>
@@ -36,7 +32,11 @@
       <enumeration value="yes"/>
     </attribute>
   </tag>
-  <elementRule role="competition-name" type="string"/>
+  <elementRule role="competition-name">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="result">
     <attribute name="output" required="true" type="string"/>
@@ -73,7 +73,11 @@
   <elementRule role="startTime" type="time"/>
 
   <tag name="hall"/>
-  <elementRule role="hall" type="string"/>
+  <elementRule role="hall">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="referee">
     <attribute name="xml:lang" type="language"/>
@@ -82,7 +86,11 @@
     <attribute name="referred-date" type="string"/>
     <attribute name="country" type="string"/>
   </tag>
-  <elementRule role="referee" type="string"/>
+  <elementRule role="referee">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="reporter">
     <attribute name="anonymous" type="NMTOKEN">
@@ -100,7 +108,11 @@
     <attribute name="xml:lang" type="language"/>
     <attribute name="penname" type="string"/>
   </tag>
-  <elementRule role="reporter-name" type="string"/>
+  <elementRule role="reporter-name">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="reporter-email">
     <attribute name="anonymous" type="NMTOKEN">
@@ -115,7 +127,11 @@
   </elementRule>
 
   <tag name="notice"/>
-  <elementRule role="notice" type="string"/>
+  <elementRule role="notice">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="section"/>
   <elementRule role="section">
@@ -128,7 +144,11 @@
   <tag name="section-name">
     <attribute name="date" type="string"/>
   </tag>
-  <elementRule role="section-name" type="string"/>
+  <elementRule role="section-name">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="choir">
     <attribute name="playing-order" type="positive-integer"/>
@@ -136,7 +156,7 @@
       <enumeration value="yes"/>
       <enumeration value="no"/>
     </attribute>
-    <attribute name="next-sheed" type="NMTOKEN">
+    <attribute name="seed" type="NMTOKEN">
       <enumeration value="yes"/>
     </attribute>
   </tag>
@@ -161,7 +181,11 @@
     <attribute name="xml:lang" type="language"/>
     <attribute name="url" type="uriReference"/>
   </tag>
-  <elementRule role="choir-name" type="string"/>
+  <elementRule role="choir-name">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="prefecture"/>
   <elementRule role="prefecture" type="string"/>
@@ -182,18 +206,30 @@
     <attribute name="xml:lang" type="language"/>
     <attribute name="instrument" type="string"/>
   </tag>
-  <elementRule role="conductor" type="string"/>
+  <elementRule role="conductor">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="piano">
     <attribute name="xml:lang" type="language"/>
   </tag>
-  <elementRule role="piano" type="string"/>
+  <elementRule role="piano">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="accompaniment">
     <attribute name="xml:lang" type="language"/>
     <attribute name="instrument" required="true" type="string"/>
   </tag>
-  <elementRule role="accompaniment" type="string"/>
+  <elementRule role="accompaniment">
+    <mixed>
+      <hedgeRef label="character"/>
+    </mixed>
+  </elementRule>
 
   <tag name="program"/>
   <elementRule role="program">
@@ -237,21 +273,9 @@
   <tag name="choir-note"/>
   <elementRule role="choir-note" type="string"/>
 
+  <attPool role="given-program-list"/>
   <tag name="given-program">
-    <attribute name="number" required="true" type="NMTOKEN">
-      <enumeration value="G1"/>
-      <enumeration value="G2"/>
-      <enumeration value="G3"/>
-      <enumeration value="G4"/>
-      <enumeration value="M1"/>
-      <enumeration value="M2"/>
-      <enumeration value="M3"/>
-      <enumeration value="M4"/>
-      <enumeration value="F1"/>
-      <enumeration value="F2"/>
-      <enumeration value="F3"/>
-      <enumeration value="F4"/>
-    </attribute>
+    <ref label="given-program-list"/>
   </tag>
   <elementRule role="given-program">
     <empty/>

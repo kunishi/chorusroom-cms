@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<!-- $Id: jca-comp-result.rxm,v 1.1 2000/12/25 14:23:20 kunishi Exp $ -->
+<!DOCTYPE module SYSTEM "relaxCore.dtd">
+<module moduleVersion="1.0"
+	relaxCoreVersion="1.0"
+	targetNamespace="http://www.chorusroom.org/xml"
+	xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+
+  <interface>
+    <export label="competition"/>
+  </interface>
+
+  <attPool role="given-program-list">
+    <attribute name="number" required="true" type="NMTOKEN">
+      <enumeration value="G1"/>
+      <enumeration value="G2"/>
+      <enumeration value="G3"/>
+      <enumeration value="G4"/>
+      <enumeration value="M1"/>
+      <enumeration value="M2"/>
+      <enumeration value="M3"/>
+      <enumeration value="M4"/>
+      <enumeration value="F1"/>
+      <enumeration value="F2"/>
+      <enumeration value="F3"/>
+      <enumeration value="F4"/>
+    </attribute>
+  </attPool>
+
+</module>
