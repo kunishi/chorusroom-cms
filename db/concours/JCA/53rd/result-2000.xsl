@@ -36,7 +36,7 @@
 
   <xsl:template match="開催日別結果">
     <dl>
-      <xsl:apply-templates select="開催日"/>
+      <xsl:call-template name="開催日リスト"/>
       <xsl:apply-templates select="開催場所"/>
       <xsl:call-template name="審査員リスト"/>
       <xsl:call-template name="報告者リスト"/>
@@ -46,10 +46,17 @@
     <xsl:apply-templates select="部門結果"/>
   </xsl:template>
 
-  <xsl:template match="開催日">
-    <dt>開催日</dt>
-    <dd><xsl:value-of select="."/>(<xsl:value-of select="./@曜日"/>)</dd>
+  <xsl:template name="開催日リスト">
+    <xsl:if test="child::開催日">
+      <dt>開催日</dt>
+      <dd><xsl:apply-templates select="開催日"/></dd>
+    </xsl:if>
   </xsl:template>
+  <xsl:template match="開催日">
+    <xsl:value-of select="."/>(<xsl:value-of select="./@曜日"/>)
+    <xsl:if test="following-sibling::開催日">・</xsl:if>
+  </xsl:template>
+
   <xsl:template match="開催場所">
     <dt>開催場所</dt>
     <dd><xsl:value-of select="."/></dd>
