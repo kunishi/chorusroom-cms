@@ -368,7 +368,7 @@
 	  <xsl:call-template name="players-data"/>
 	</xsl:if>
       </xsl:when>
-      <xsl:when test="$top/c:competition-name/@pref[.='false']">
+      <xsl:otherwise>
 	<xsl:if test="$choir-pref or $choir-member or $player-data">
 	  <xsl:call-template name="choir-data-1">
 	    <xsl:with-param name="pref" select="$choir-pref"/>
@@ -379,7 +379,7 @@
 	  </xsl:if>
 	  <xsl:call-template name="players-data"/>
 	</xsl:if>
-      </xsl:when>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
