@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.33 2000/09/11 11:06:06 kunishi Exp $
+# $Id: config.mk,v 1.34 2000/09/12 02:26:19 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -59,10 +59,12 @@ CP=		cp
 ENV?=		env
 PERL?=		perl
 RELPATH!=	./
-INSTTOPDIR=	${LOCALBASE}/www/data/chorusRoom/
+INSTTOPDIR=	${LOCALBASE}/www/data/
 
-IMAGEDIR=	${SRCTOPDIR}image
-STYLEDIR=	${SRCTOPDIR}style
+#IMAGEDIR=	${SRCTOPDIR}image
+IMAGEDIR=	/image
+#STYLEDIR=	${SRCTOPDIR}style
+STYLEDIR=	/style
 SCRIPTDIR=	${SRCTOPDIR}scripts
 
 XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl

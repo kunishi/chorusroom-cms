@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.35 2000/09/11 11:06:06 kunishi Exp $
+# $Id: GNUmakefile,v 1.36 2000/09/12 02:26:19 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -38,7 +38,7 @@ include ${SRCTOPDIR}config.mk
 include ${SRCTOPDIR}rule.mk
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
-PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
+PUBLIC_DIR=	/usr/local/www/data/
 
 NAMAZU_SRC=	/usr/local/namazu/bin/namazu
 NAMAZU_INDEX_DIR=	${INSTTOPDIR}namazu/index/
@@ -57,7 +57,7 @@ gcindex:
 	cd ${NAMAZU_INDEX_DIR} && /usr/local/namazu/bin/gcnmz
 
 upload:
-	rsync -Cavu --delete -e ssh --exclude="search.cgi" \
+	rsync -Cavu -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_UTF8}
