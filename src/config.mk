@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.30 2000/08/29 05:04:55 kunishi Exp $
+# $Id: config.mk,v 1.31 2000/09/04 04:09:01 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -13,7 +13,7 @@ JDK_LIBDIR=	${JDK_TOPDIR}/lib
 JAVA_CLASSES_DIR=	${LOCALBASE}/share/java/classes
 XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
 XML4J_CLASSPATH= ${JAVA_CLASSES_DIR}/xml4j.jar:${JAVA_CLASSES_DIR}/xerces.jar
-LOTUSXSL_CLASSPATH=	${JAVA_CLASSES_DIR}/lotusxsl.jar:${JAVA_CLASSES_DIR}/lotusxslbsf.jar:${JAVA_CLASSES_DIR}/js.jar
+LOTUSXSL_CLASSPATH= ${JAVA_CLASSES_DIR}/lotusxsl.jar:${JAVA_CLASSES_DIR}/lotusxslbsf.jar:${JAVA_CLASSES_DIR}/js.jar
 
 ifdef USE_KAFFE
 JAVA=		${LOCALBASE}/bin/kaffe
@@ -25,7 +25,6 @@ JAVA_COMPILER?=	tya
 JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip
 else
 JAVA_COMPILER?=	tya
-JDK_CLASSPATH=	
 endif
 endif
 
@@ -42,7 +41,11 @@ XSLT_OPTS+=	-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser
 XSLT_CLASS=	com.jclark.xsl.sax.Driver
 endif
 
+ifdef JDK_CLASSPATH
 CLASSPATH=	${XSLT_CLASSPATH}:${XML4J_CLASSPATH}:${JDK_CLASSPATH}
+else
+CLASSPATH=	${XSLT_CLASSPATH}:${XML4J_CLASSPATH}
+endif
 XSLT_PROC=	${JAVA} -classpath ${CLASSPATH} ${XSLT_OPTS} ${XSLT_CLASS}
 
 UTF2ASCII=	hutrans

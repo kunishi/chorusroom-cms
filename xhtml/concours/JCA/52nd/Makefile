@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.53 2000/08/30 11:40:49 kunishi Exp $
+# $Id: Makefile,v 1.54 2000/09/04 04:09:02 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -58,19 +58,22 @@ include ${SRCTOPDIR}/rule.mk
 
 %.html:	%.jhtml
 	${ASCII2EUC} $< | ${EUC2JIS} > $@
+	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -iso2022 $@
 
 %.uhtml: %.utfxml ${RESULT_XSL_COMMON}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 %.utfhtml: %.uhtml
+	${CP} $< $@
+	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -utf8 < $< > $@
 
 ###
 
-${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
-	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
-	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
+#${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
+#	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
+#	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
 
 index.html: %.html : %.xml ${XHTML10_XSL}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@
