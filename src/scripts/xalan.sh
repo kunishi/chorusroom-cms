@@ -1,5 +1,10 @@
 #!/bin/sh
 
+XALAN_HOME=/usr/local/xalan-j2.1.0
+CLASSPATH=${XALAN_HOME}/bin/xerces.jar:${XALAN_HOME}/bin/xalan.jar:${XALAN_HOME}/bin/bsf.jar
+export CLASSPATH
+XALAN_CLASS=org.apache.xalan.xslt.Process
+
 if [ -f /usr/local/bin/javavm ]; then
 	JAVA=/usr/local/bin/javavm
 else
@@ -7,8 +12,4 @@ else
 	JAVA=${JAVA_HOME}/bin/java
 fi
 
-XERCES_CLASSPATH=/usr/local/xalan-j2.1.0/bin/xerces.jar
-XALAN_CLASSPATH=/usr/local/xalan-j2.1.0/bin/xalan.jar:/usr/local/xalan-j2.1.0/bin/bsf.jar
-XALAN_CLASS=org.apache.xalan.xslt.Process
-
-${JAVA} -classpath ${XERCES_CLASSPATH}:${XALAN_CLASSPATH} ${XALAN_CLASS} $*
+${JAVA} ${XALAN_CLASS} $*
