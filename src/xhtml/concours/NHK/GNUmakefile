@@ -1,12 +1,12 @@
 #
-# $Id: GNUmakefile,v 1.3 2001/01/04 15:55:10 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/29 02:51:24 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
 
 INSTFILES+=	index.html
 
-SUBDIR+=	67th
+SUBDIR+=	65th 67th
 
 include config.mk
 include rule.mk
