@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl.in,v 1.19 2000/08/28 11:31:48 kunishi Exp $ -->
+<!-- $Id: result-common.xsl.in,v 1.20 2000/08/29 10:31:51 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
-		xmlns="http://www.w3.org/TR/REC-html40"
+		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefix="xt">
 
   <xsl:template match="大会">
@@ -64,6 +64,11 @@
 	<xsl:text>made</xsl:text>
       </xsl:attribute>
     </xsl:element>
+    <xsl:element name="style">
+      <xsl:text>
+body { background-image: url(%%IMAGEDIR%%/background.png); }
+      </xsl:text>
+    </xsl:element>
     <xsl:element name="meta">
       <xsl:attribute name="http-equiv">
 	<xsl:text>Content-Type</xsl:text>
@@ -82,7 +87,7 @@
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="concat(@出力, $htmlsuffix)" />
 	  </xsl:attribute>
-	  <xsl:text>EUC-JPページ</xsl:text>
+	  <xsl:text>JISページ</xsl:text>
 	</xsl:element>
       </xsl:if>
       <xsl:if test="$suffix=$htmlsuffix">
