@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.14 2003/02/04 11:55:34 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.15 2003/02/05 11:40:04 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -12,9 +12,9 @@
 		extension-element-prefixes="redirect"
 		exclude-result-prefixes="c p r">
 
+  <xsl:import href="common.xsl"/>
   <xsl:param name="output-encoding"/>
   <xsl:param name="suffix"/>
-  <xsl:include href="common.xsl"/>
   <!-- <xsl:include href="dummy-char-conv.xsl"/> -->
   <xsl:include href="resource.xsl"/>
   <xsl:include href="xinclude.xsl"/>
@@ -23,7 +23,7 @@
 
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:template match="head" priority="1.0">
+  <xsl:template match="*[local-name()='head']" priority='1.0'>
     <head>
       <xsl:apply-templates select="@*"/>
       <xsl:call-template name="additional-header"/>
@@ -31,24 +31,24 @@
     </head>
   </xsl:template>
 
-  <xsl:template match="body" priority="1.0">
+  <xsl:template match="*[local-name()='body']" priority='1.0'>
     <body>
-      <xsl:call-template name="body-header" />
       <xsl:apply-templates select="@*"/>
+      <xsl:call-template name="body-header" />
       <xsl:apply-templates select="node()"/>
       <xsl:call-template name="footer"/>
     </body>
   </xsl:template>
 
   <xsl:template match="*">
-    <xsl:element name="{name(.)}" namespace="{namespace-uri(.)}">
-      <xsl:apply-templates select="*|text()"/>
-      <xsl:apply-templates select="@*[not(name(.)='xmlns:*')]"/>
+    <xsl:element name="{local-name(.)}" namespace="{namespace-uri(.)}">
+      <xsl:apply-templates select="@*[not(name()='xmlns:*')]"/>
+      <xsl:apply-templates select="node()"/>
     </xsl:element>
   </xsl:template>
 
   <xsl:template match="@*">
-    <xsl:attribute name="{name(.)}" namespace="{namespace-uri(.)}">
+    <xsl:attribute name="{local-name()}" namespace="{namespace-uri()}">
       <xsl:choose>
         <xsl:when test="contains(., '%%TOPDIR%%')">
           <xsl:value-of select="concat(substring-before(., '%%TOPDIR%%'),
@@ -66,5 +66,4 @@
       </xsl:choose>
     </xsl:attribute>
   </xsl:template>
-
 </xsl:stylesheet>
