@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml1-chorusroom.dtd">
+<html lang="ja" xml:lang="ja" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Chorus Concours: KOVOX</title>
   </head>
@@ -12,6 +8,7 @@
     <h1>KOVOX (神戸ヴォーカルアンサンブルコンテスト)</h1>
     <ul>
       <li><a href="kovox-1997.html" shape="rect">第2回(1997年)</a></li>
+      <li dir="ltr"><a dir="ltr" href="kovox-2000.html" shape="rect">第5回(2000年)</a></li>
     </ul>
   </body>
 </html>
