@@ -1,20 +1,21 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.9 2000/08/26 02:16:09 kunishi Exp $
+# $Id: GNUmakefile,v 1.10 2000/08/27 00:48:35 kunishi Exp $
 
 UTFTOEUC=	hutrans | tcs -f utf -t ujis
 EUCTOJIS=	nkf
 
 INSTFILES_HTML+=	index.html
-INSTFILES_HTML+=	saga.html
+INSTFILES_HTML+=	aichi.html
+INSTFILES_HTML+=	fukuoka.html
 INSTFILES_HTML+=	gunma.html
+INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	kumamoto.html kumamoto2.html
-INSTFILES_HTML+=	fukuoka.html
 INSTFILES_HTML+=	okayama.html
-INSTFILES_HTML+=	aichi.html
+INSTFILES_HTML+=	saga.html
 INSTFILES_HTML+=	yamagata.html
-INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
+INSTFILES_HTML+=	yamaguchi.html
 
 INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
 
