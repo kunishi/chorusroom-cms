@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.30 2000/08/29 10:08:50 kunishi Exp $
+# $Id: Makefile,v 1.31 2000/08/30 09:10:57 kunishi Exp $
 #
 
 RELPATH=	.
@@ -42,7 +42,7 @@ PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
 NAMAZU_SRC=	/usr/local/namazu/bin/namazu
 NAMAZU_INDEX_DIR=	${INSTTOPDIR}namazu/index/
 
-.PHONY: sync-upload
+.PHONY: index gcindex upload
 
 install-namazu:	${INSTTOPDIR}search.cgi
 
@@ -61,6 +61,5 @@ upload:
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_ISO8859_1}
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_ASCII} > $@
-	${PERL} -pi -e "s@%%TOPDIR%%@${TOPDIR}@g; \
-			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
+	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
