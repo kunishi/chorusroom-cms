@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns='http://www.chorusroom.org/xml' xmlns:p='http://www.chorusroom.org/piece' xmlns:cr='http://www.chorusroom.org/character'>
-  <cvs-id>$Id: fukuoka.xml,v 1.1 2001/08/19 14:18:03 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: fukuoka.xml,v 1.2 2001/08/21 08:59:48 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">第56回九州合唱コンクール福岡県予選</competition-name>
   <result output="fukuoka">
     <date day-of-week="sun" holiday="false">2001-08-05</date>
@@ -795,7 +795,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>15</number-of-members>
 	<conductor>後藤孝史</conductor>
-	<prize nickname="none">銀賞</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms.xml"/>
