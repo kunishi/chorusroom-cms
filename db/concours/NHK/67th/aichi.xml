@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
-  <cvs-id>$Id: aichi.xml,v 1.3 2001/01/12 12:03:11 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: aichi.xml,v 1.4 2001/01/22 06:56:07 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回)ＮＨＫ全国学校音楽コンクール愛知県コンクール</competition-name>
   <result output="aichi">
     <reporter anonymous="false">
@@ -16,16 +16,36 @@
 	<piano>田嶋みゆき</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <!-- one of (pieceRef p:piece p:suite) -->
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>女声合唱のための「ミッカ・ワルタリの詩による組曲」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための</p:titlePrefix>
+		<p:mainTitle>ミッカ・ワルタリの詩による組曲</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="鷹がとぶよ">Haukkani</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Haukkani</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>鷹がとぶよ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="夕暮れ">Ilta</p:piece>
+		<!-- one of (p:suite p:piece) -->
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Ilta</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>夕暮れ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -37,10 +57,16 @@
 	<piano>中野栄美</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <!-- one of (pieceRef p:piece p:suite) -->
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>地球へ寄り添って−センスオブワンダー−</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>地球へ寄り添って−センスオブワンダー−</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -50,13 +76,22 @@
 	<piano>福士久美子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <!-- one of (pieceRef p:piece p:suite) -->
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>&quot;Missa in Discantu&quot;</p:piece>
+	      <p:title original="true">
+		<p:mainTitle>Missa in Discantu</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+		<!-- one of (p:suite p:piece) -->
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -68,18 +103,41 @@
 	<piano>平田幸</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <!-- one of (pieceRef p:piece p:suite) -->
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece japaneseTitle="キャロルの祭典">&quot;A Ceremony of Carols&quot;</p:piece>
+	      <p:title original="true" xml:lang="en">
+		<p:mainTitle>A Ceremony of Carols</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>キャロルの祭典</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>2.</p:piece-number>
-		<p:piece japaneseTitle="来たれ喜びよ">Wolcum Yole!</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="en">
+		    <p:mainTitle>Wolcum Yole!</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>来たれ喜びよ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+		<!-- one of (p:suite p:piece) -->
 	      </p:suite-piece>
 	      <p:suite-piece>
+		<!-- one of (p:suite p:piece) -->
 		<p:piece-number>4.</p:piece-number>
-		<p:piece japaneseTitle="この小さな嬰児">This little Babe</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="en">
+		    <p:mainTitle>This little Babe</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>この小さな嬰児</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -91,13 +149,23 @@
 	<piano>森嶌泰至</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <!-- one of (pieceRef p:piece p:suite) -->
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「地平線のかなたへ」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>二十億光年の孤独</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
+		  </p:title>
+		</p:piece>
+		<!-- one of (p:suite p:piece) -->
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -109,10 +177,16 @@
 	<piano>森明香</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <!-- one of (pieceRef p:piece p:suite) -->
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>あいや節幻想曲〜津軽民謡風俗めぐり</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>あいや節幻想曲〜津軽民謡風俗めぐり</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
