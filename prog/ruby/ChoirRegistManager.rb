@@ -20,7 +20,7 @@ class ChoirRegistManager
     pwd = Dir.pwd
     Dir.chdir(dir)
 
-    ref = File.new("idref" + c.urn, File::CREAT|File::TRUNK|File::RDWR)
+    ref = File.new("idref" + c.urn, File::CREAT|File::RDWR)
     ref.puts(linkentry(c))
     ref.close
 

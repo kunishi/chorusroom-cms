@@ -4,7 +4,7 @@ class KindTag
     "univ" => "CU",
     "company" => "CC",
     "highschool" => "CS",
-    "children" => "CS"
+    "children" => "CH"
   }
 
   @@jlist = {

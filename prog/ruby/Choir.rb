@@ -47,8 +47,8 @@ class Choir
       @urn = ChoirId.generate(@kind)
       @doc.root.elements.each {
 	|e|
-	if e.name == "urn" && ! node.has_text?
-	  node.text = @urn
+	if e.name == "urn" && ! e.has_text?
+	  e.text = @urn
 	end
       }
     end
