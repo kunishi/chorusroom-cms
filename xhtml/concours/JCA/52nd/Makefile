@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.54 2000/09/04 04:09:02 kunishi Exp $
+# $Id: Makefile,v 1.55 2000/09/05 10:03:53 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -40,12 +40,14 @@ INSTFILES_HTML+=	${NATIONAL_HTML}
 
 INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
 
+GENFILES+=	${INSTFILES_HTML:%.html=%.jhtml}
+GENFILES+=	${INSTFILES_HTML:%.html=%.uhtml}
+
 include ${SRCTOPDIR}/config.mk
 
 RESULT_XSL=		result-eucjp.xsl
 RESULT_XSL_UTF8=	result-utf8.xsl
 RESULT_XSL_COMMON=	result-common.xsl
-RESULT_XSL_COMMON_IN=	result-common.xsl.in
 DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
@@ -70,10 +72,6 @@ include ${SRCTOPDIR}/rule.mk
 	${HTML_FORMAT} -utf8 < $< > $@
 
 ###
-
-#${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
-#	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
-#	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
 
 index.html: %.html : %.xml ${XHTML10_XSL}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@

@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.27 2000/09/04 06:43:36 kunishi Exp $
+# $Id: Makefile,v 1.28 2000/09/05 10:03:48 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -29,12 +29,14 @@ INSTFILES_NOBUILD+=	hyogo.xml
 
 INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
 
+GENFILES+=	${INSTFILES_HTML:%.html=%.jhtml}
+GENFILES+=	${INSTFILES_HTML:%.html=%.uhtml}
+
 include ${SRCTOPDIR}/config.mk
 
 RESULT_XSL=		result-eucjp.xsl
 RESULT_XSL_UTF8=	result-utf8.xsl
 RESULT_XSL_COMMON=	result-common.xsl
-RESULT_XSL_COMMON_IN=	result-common.xsl.in
 DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
