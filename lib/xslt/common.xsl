@@ -22,10 +22,19 @@
   <xsl:param name="styledir">/style</xsl:param>
   <xsl:param name="stylesheet">default.css</xsl:param>
 
+  <!-- 
   <xsl:variable name="resource.xml">../../../lib/dtd/resource.xml</xsl:variable>
-  <xsl:variable name="maintainerName" select="document($resource.xml)/r:resources/r:resource[@name='maintainerName']/@value"/>
-  <xsl:variable name="maintainerJName" select="document($resource.xml)/r:resources/r:resource[@name='maintainerJName']/@value"/>
-  <xsl:variable name="maintainerEmail" select="document($resource.xml)/r:resources/r:resource[@name='maintainerEmail']/@value"/>
+  -->
+
+  <xsl:variable name="maintainerName">
+    <xsl:text>KUNISHIMA Takeo</xsl:text>
+  </xsl:variable>
+  <xsl:variable name="maintainerJName">
+    <xsl:text>国島丈生</xsl:text>
+  </xsl:variable>
+  <xsl:variable name="maintainerEmail">
+    <xsl:text>kunishi@chorusroom.org</xsl:text>
+  </xsl:variable>
 
   <xsl:template name="additional-header">
     <link type="text/css" rel="stylesheet">

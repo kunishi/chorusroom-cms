@@ -107,6 +107,7 @@
 	<include name='common.xsl'/>
 	<include name='contest-result-choir-piece.xsl'/>
 	<include name='resource.xsl'/>
+	<include name='rss2xhtml.xsl'/>
         <include name='xhtml1-choir-links.xsl'/>
         <include name='xhtml1-links.xsl'/>
         <include name='xhtml1-finalize-iso.xsl'/>
@@ -175,7 +176,7 @@
        prepare xml files
     -->
   <target name='prepare.xml'
-          depends='prepare.xml.xhtml, prepare.xml.concours'/>
+          depends='prepare.xml.xhtml, prepare.xml.news, prepare.xml.concours'/>
 
   <target name='prepare.xml.xhtml'>
     <xslt basedir='xhtml' destdir='${xhtml}'
@@ -184,6 +185,14 @@
 	  includes='**/*.xhtml' classpathref='xalan2.class.path'>
       <xmlcatalog refid='chorusroom.dtd'/>
       <param name='choirDbDir' expression='${basedir}/db/choir/'/>
+    </xslt>
+  </target>
+
+  <target name="prepare.xml.news">
+    <xslt basedir='xml/info' destdir='${xhtml}/info'
+	  style='${lib}/xslt/rss2xhtml.xsl'
+	  extension='.xml' processor='trax'
+	  includes='**/*.rss' classpathref='xalan2.class.path'>
     </xslt>
   </target>
 
@@ -271,7 +280,7 @@
 
   <target name='build.xhtml.ja'
           depends='prepare.xslt.common, prepare.xslt.xhtml1,
-                   prepare.xml.xhtml'>
+                   prepare.xml.xhtml, prepare.xml.news'>
     <dependset>
       <srcfilelist dir="${basedir}/db/links" files="**/*.xml"/>
       <targetfileset dir="${build.xhtml}/links" includes="**/*.xml"/>
