@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.68 2001/02/12 07:51:06 kunishi Exp $
+# $Id: GNUmakefile,v 1.69 2001/04/02 06:51:07 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -89,12 +89,10 @@ WITH_SCORE=	true
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.traditional.xsl
 ${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)" \
 					-param "with-score" "${WITH_SCORE}"
-${INSTFILES_TRADITIONAL}: XSLT_OUT=-out /dev/null
 
 ${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
 ${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)" \
 				-param "with-score" "${WITH_SCORE}"
-${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 ${HIGHSCHOOL_HTML}: WITH_SCORE=false
 ${NATIONAL_HTML}: WITH_SCORE=false
