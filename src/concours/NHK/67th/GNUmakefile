@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.6 2001/01/23 11:56:43 kunishi Exp $
+# $Id: GNUmakefile,v 1.7 2001/01/24 02:49:35 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -33,7 +33,10 @@ INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
 
 HTML_KUMAMOTO=		kumamoto-preliminary.html kumamoto-main.html
 HTML_TOKYO=		tokyo-preliminary-a.html \
-			tokyo-preliminary-b.html
+			tokyo-preliminary-b.html \
+			tokyo-elementary-school-main.html \
+			tokyo-junior-highschool-main.html \
+			tokyo-senior-highschool-main.html
 .INTERMEDIATE:		${HTML_KUMAMOTO:%.html=%.xml}
 .INTERMEDIATE:		${HTML_TOKYO:%.html=%.xml}
 
