@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.15 1999/09/10 14:53:34 kunishi Exp $
+# $Id: GNUmakefile,v 1.16 1999/09/17 01:01:35 kunishi Exp $
 #
 
 RELPATH=	.
@@ -33,6 +33,7 @@ SUBDIR+=	48th \
 		hml \
 		image \
 		links \
+		namazu \
 		style \
 		whatsnew
 
