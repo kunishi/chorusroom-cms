@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.50 2001/02/08 16:06:58 kunishi Exp $
+# $Id: config.mk,v 1.51 2001/02/09 03:41:07 kunishi Exp $
 #
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
@@ -107,9 +107,8 @@ XML2UTFXML=	${SCRIPTDIR}/gen-utfxml.sed
 XMLDECL_FIX=	${SCRIPTDIR}/fix-xmldecl-duplication.rb
 PATH_CONFIGURE=	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g;"
 
-XHTML10_XSL=	${XSLDIR}/xhtml10-eucjp.xsl
-XHTML10_XSL_UTF8=	${XSLDIR}/xhtml10-utf8.xsl
-XHTML10_XSL_ASCII=	${XSLDIR}/xhtml10-ascii.xsl
+XHTML10_XSL=	${XSLDIR}/xhtml1-chorusroom.traditional.xsl
+XHTML10_XSL_UTF8=	${XSLDIR}/xhtml1-chorusroom.utf8.xsl
 DEFAULT_XSL?=	${XHTML10_XSL}
 DEFAULT_XSL_UTF8?=	${XHTML10_XSL_UTF8}
 
