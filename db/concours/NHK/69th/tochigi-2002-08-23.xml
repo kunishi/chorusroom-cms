@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://www.chorusroom.org/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: tochigi-2002-08-23.xml,v 1.1 2002/09/29 12:33:40 kunishi Exp $</cvs-id>
+  <competition-name pref="false" area="false">平成14年度(第69回) NHK全国学校音楽コンクール栃木県コンクール</competition-name>
+  <result output="tochigi-2002-08-23">
+    <date day-of-week="fri" holiday="false">2002-08-23</date>
+    <hall>宇都宮市立文化会館大ホール</hall>
+    <reporter anonymous="false">
+      <reporter-name>重田陽</reporter-name>
+      <reporter-email anonymous="false"></reporter-email>
+    </reporter>
+    <section>
+      <section-name>高等学校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>栃木県立栃木女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>須藤礼子</conductor>
+	<piano>高岩利恵</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool"
+	    href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>女に 第2集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>未来−墓</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>栃木県立宇都宮中央女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>江面誠子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <piano grade="3">篠原由記</piano>
+	    <pieceRef number="senior-highschool"
+	    href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Rolf Lukowsky</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa vocale Romanum</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>栃木県立真岡女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>川田明良</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <piano grade="3">高濱絵里子</piano>
+	    <pieceRef number="senior-highschool"
+	    href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:originated-from>ヴァロア地方の伝説より</p:originated-from>
+	      <p:composed-by>Florent Schmitt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>DE VIVE VOIX</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>La tour d&apos;amour</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
