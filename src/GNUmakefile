@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.54 2001/02/06 08:18:26 kunishi Exp $
+# $Id: GNUmakefile,v 1.55 2001/02/09 03:40:29 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -46,8 +46,7 @@ include rule.mk
 
 index.html:	CSSFILE=toppage.css
 
-info-note2.html: override DEFAULT_XSL=${XHTML10_XSL_ASCII}
-info-note2.html: override TIDY_ENCODING=-ascii
+info-note2.html: override DEFAULT_XSL=${XHTML10_XSL_UTF8}
 
 .htaccess:	conf/htaccess
 	${CP} $< $@
