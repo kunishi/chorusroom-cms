@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://www.chorusroom.org/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: hyogo-2002-08-27.xml,v 1.1 2002/09/04 16:44:26 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: hyogo-2002-08-27.xml,v 1.2 2002/09/05 01:49:10 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">兵庫県コンクール</competition-name>
   <result output="hyogo-2002-08-27">
     <date day-of-week="tue" holiday="false">2002-08-27</date>
@@ -192,7 +192,7 @@
 	</program>
       </choir>
       <choir representative="true" seed="false" playing-order="6">
-	<choir-name>甲南女子大学コーラス部</choir-name>
+	<choir-name>甲南女子高等学校コーラス部</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>32</number-of-members>
 	<conductor>森啓一</conductor>
@@ -588,6 +588,7 @@
 	  <free-program>
 	    <p:suite>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
 		<p:mainTitle>南島歌遊び<cr:utf8-char
 		nickname="romanII">II</cr:utf8-char></p:mainTitle>
 	      </p:title>
@@ -696,7 +697,7 @@
 	    <p:piece>
 	      <p:words-by>小倉尚継</p:words-by>
 	      <p:composed-by>小倉尚継</p:composed-by>
-	      <p:title original="true">
+	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>あいや節幻想曲</p:mainTitle>
 		<p:titleSuffix>〜津軽民謡風俗めぐり〜</p:titleSuffix>
 	      </p:title>
