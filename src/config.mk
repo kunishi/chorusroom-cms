@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.56 2001/10/03 05:15:44 kunishi Exp $
+# $Id: config.mk,v 1.57 2002/04/03 11:23:03 kunishi Exp $
 #
 
 PUBLIC_SERVER=	chorusroom.c.oka-pu.ac.jp
@@ -7,32 +7,20 @@ PUBLIC_DIR=	/home/www/data/chorusRoom/
 TOP_URL=	http://www.chorusroom.org/
 
 LOCALBASE=	/usr/local
-ifdef USE_JDK11
-JDK_TOPDIR=	${LOCALBASE}/jdk1.1.8
-else
 JDK_TOPDIR=	${LOCALBASE}/jdk1.2.2
-endif
 JDK_LIBDIR=	${JDK_TOPDIR}/lib
 
-JAVA_CLASSES_DIR=	${LOCALBASE}/share/java/classes
-XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
-XERCES_CLASSPATH= ${JAVA_CLASSES_DIR}/xerces.jar
-XALAN_CLASSPATH= ${JAVA_CLASSES_DIR}/xalan/xalan.jar:${JAVA_CLASSES_DIR}/xalan/bsf.jar
+JAVALIBDIR=	${LOCALBASE}/share/java
+XALANLIBDIR=	${JAVALIBDIR}/xalan-j-2.2.0/bin
+XERCES_CLASSPATH= ${XALANLIBDIR}/xerces.jar
+XALAN_CLASSPATH= ${XALANLIBDIR}xalan.jar:${XALANLIBDIR}/bsf.jar
 
-ifdef USE_KAFFE
-JAVA=		${LOCALBASE}/bin/kaffe
-JDK_CLASSPATH=	${LOCALBASE}/share/kaffe/kjc.jar:${LOCALBASE}/share/kaffe/Klasses.jar
-else
-JAVA=		${JDK_TOPDIR}/bin/java
-ifdef USE_JDK11
-JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip
-endif
-endif
+JAVA=		javavm
+#JAVA=		${JDK_TOPDIR}/bin/java
 
+ifdef USE_JIT
 JAVA_COMPILER?=	tya
 JAVA_OPTS+=	-Djava.compiler=${JAVA_COMPILER}
-
-ifdef USE_JDK11
 ifeq (${JAVA_COMPILER},tya)
 JAVA_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/tya
 endif
@@ -41,11 +29,7 @@ JAVA_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/shujit
 endif
 endif
 
-ifdef JDK_CLASSPATH
-CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}:${JDK_CLASSPATH}
-else
 CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}
-endif
 
 ifeq (${USE_NAMAZU1},yes)
 NAMAZU_SRC=	/usr/local/namazu/bin/namazu
@@ -79,7 +63,7 @@ XSLT_PARAMS+=	-param "topdir" "${SRCTOPDIR}" \
 XSLT_OUT?=	-out $@
 
 UTF2ASCII=	hutrans
-ASCII2EUC=	iconv -f utf-8 -t euc-jp
+ASCII2EUC=	biconv -f utf-8 -t euc-jp
 EUC2JIS=	nkf
 HTML_FORMAT=	tidy -q -xml -asxml
 TIDY_ENCODING?=	-iso2022
