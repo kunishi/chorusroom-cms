@@ -1,34 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="style/toppage.css" type="text/css" rel="stylesheet">
-    <title>Chorus Room</title>
+    <title xml:lang="en">Chorus Room</title>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="style/toppage.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
-    <h1><img src="chorusroom-logo.gif" alt="合唱の部屋"></h1>
+    <h1><img src="chorusroom-logo.gif" alt="合唱の部屋"/></h1>
     <div class="heading">
       <p class="heading">
 	「合唱の部屋」は、合唱に関するいろいろな話題を集めた WWW ページです。
       </p>
     </div>
     <div class="topicleft">
-      <h2><a href="whatsnew/199908.html">What's new of this page?</a></h2>
+      <h2><a href="whatsnew/199908.html" shape="rect">What's new of this page?</a></h2>
       <p>
 	新着情報は、まずここを御覧ください。
       </p>
     </div>
     <div class="topicright">
-      <h2><a href="faq.html">耳寄り情報</a></h2>
+      <h2><a href="faq.html" shape="rect">耳寄り情報</a></h2>
       <p>
-	合唱愛好者なら、楽譜やCDの入手に一度は困った事があるのではないでしょうか。
-	そんな方々に送る耳寄り情報を集めてみました。
-	HML (Harmony Mailing List) の案内もあります。
+	合唱愛好者なら、楽譜やCDの入手に一度は困った事があるのではない
+	でしょうか。そんな方々に送る耳寄り情報を集めてみました。HML
+	(Harmony Mailing List) の案内もあります。
       </p>
     </div>
     <div class="topicleft">
-      <h2><a href="JCA-concours/">全日本合唱コンクール</a></h2>
+      <h2><a href="JCA-concours/" shape="rect">全日本合唱コンクール</a></h2>
       <p>
 	良くも悪くも、日本の合唱界での最大の年中行事の一つが、
 	全日本合唱連盟の主催する「全日本合唱コンクール」です。
@@ -37,26 +40,28 @@
       </p>
     </div>
     <div class="topicright">
-      <h2><a href="links/">合唱関係のリンク集</a></h2>
+      <h2><a href="links/" shape="rect">合唱関係のリンク集</a></h2>
       <p>
 	合唱関係の WWW ページへのリンクを集めています。
 	リンクを張ってほしいという方は
-	<a href="mailto:kunishi@c.oka-pu.ac.jp">私</a>まで
+	<a href="mailto:&kunishi-email;" shape="rect">私</a>まで
 	御連絡ください。
       </p>
     </div>
     <div class="topicleft">
-      <h2><a href="misc.html">いろいろ</a></h2>
+      <h2><a href="misc.html" shape="rect">いろいろ</a></h2>
       <p>
 	その他、合唱に関するいろいろな情報を WWW ページとしてまとめてみました。
       </p>
     </div>
-    <hr class="footnote">
+    <hr class="footnote"/>
     <div class="comment">
       <p>
-	「合唱の部屋」へのリンクは、私に連絡なく張っていただいて構いません。
-	ただし、ページ構成の変更により、
-	トップページ<a href="http://psi.c.oka-pu.ac.jp/chorusRoom/">http://psi.c.oka-pu.ac.jp/chorusRoom/</a>以外のページの URL アドレスは予告なく変更することがあります。
+	「合唱の部屋」へのリンクは、私に連絡なく張っていただいて構いま
+	せん。ただし、ページ構成の変更により、トップページ<a
+	href="http://psi.c.oka-pu.ac.jp/chorusRoom/"
+	shape="rect">http://psi.c.oka-pu.ac.jp/chorusRoom/</a>以外のペー
+	ジの URL アドレスは予告なく変更することがあります。
       </p>
       <p>
 	なおこの WWW ページは、NIFTY SERVE クラシックフォーラム(FCLAS)中の
@@ -73,8 +78,8 @@
 	その点をご考慮の上、読んで頂ければさいわいです。
       </p>
     </div>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a> &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <hr>
-    $Id: index.xml,v 1.16 1999/08/05 07:45:02 kunishi Exp $
+    <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo/国島丈生</a> &lt;&kunishi-email;&gt;</address>
+    <hr/>
+    $Id: index.xml,v 1.17 1999/08/06 23:22:04 kunishi Exp $</hr>
   </body>
 </html>
