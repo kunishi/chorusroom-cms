@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.9 2001/09/06 02:37:37 kunishi Exp $
+# $Id: GNUmakefile,v 1.10 2001/09/13 03:12:00 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -14,6 +14,7 @@ INSTFILES_TRADITIONAL=	chiba.html \
 			oita.html \
 			okayama.html \
 			okinawa.html \
+			osaka.html \
 			saga.html \
 			tochigi.html
 
@@ -30,6 +31,9 @@ ${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)" \
 ${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
 ${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)" \
 				-param "with-score" "${WITH_SCORE}"
+
+osaka.html:	WITH_SCORE=false
+osaka.utfhtml:	WITH_SCORE=false
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
