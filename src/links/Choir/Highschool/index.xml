@@ -6,7 +6,7 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.19 2000/09/13 10:48:29 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.20 2000/10/03 10:41:19 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <style type="text/css" xml:space="preserve">
@@ -72,7 +72,9 @@
       </li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/09/13 10:48:29 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 10:41:19 $ GMT</p>
+    </div>
   </body>
 </html>

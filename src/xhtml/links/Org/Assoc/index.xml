@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html SYSTEM
-  "/home/kunishi//cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
@@ -26,7 +26,9 @@
       <li> <a href="http://www.choralnet.org/" shape="rect">ChoralNet: International Federation for Choral Music</a></li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/09/13 10:48:35 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 10:50:07 $ GMT</p>
+    </div>
   </body>
 </html>

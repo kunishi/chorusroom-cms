@@ -6,7 +6,7 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.20 2000/09/13 10:48:33 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.21 2000/10/03 10:45:58 kunishi Exp $ -->
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <style type="text/css" xml:space="preserve">
@@ -40,7 +40,9 @@
 	その他、全国各地のホールのページへのリンク集もあります。</li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    Last modified: $Date: 2000/09/13 10:48:33 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <p>$Date: 2000/10/03 10:45:58 $ GMT</p>
+    </div>
   </body>
 </html>
