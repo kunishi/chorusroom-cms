@@ -1,10 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="style/default.css" rel="stylesheet" type="text/css">
-    <title>Chorus Room: Notes for Information Providers</title>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="style/default.css" type="text/css" rel="stylesheet"/>
+    <title xml:lang="en">Chorus Room: Notes for Information Providers</title>
   </head>
   <body>
     <h1>情報をご提供下さる方へのお願い</h1>
@@ -14,47 +17,47 @@
       情報を下さった方々には本当に感謝しております。
     </p>
     <p>
-      ただ、一方で、情報編集者として、
-      最近ちょっと困ったことがよく起こるようになっています。
-      以下に書く通り、ほんとにちょっとしたことですが、
-      これによって私の負担が大きく減るのです。
-      情報をご提供下さる方には余計な負担を強いることになるかもしれませんが、
-      是非ご協力をお願いします。
+      ただ、一方で、情報編集者として、最近ちょっと困ったことがよく起こ
+      るようになっています。以下に書く通り、ほんとにちょっとしたことで
+      すが、これによって私の負担が大きく減るのです。情報をご提供下さる
+      方には余計な負担を強いることになるかもしれませんが、是非ご協力を
+      お願いします。
     </p>
-    <hr>
+    <hr/>
     <h2>機種依存文字を使わないでください</h2>
     <p>
-      普段ご自身のパソコンしかお使いになっていないと分からないかもしれませんが、
-      いくつかの文字は、
-      ある機種や OS では表示されるが、
-      他の機種や OS では表示されなかったり文字化けしたりします。
+      普段ご自身のパソコンしかお使いになっていないと分からないかもしれ
+      ませんが、いくつかの文字は、ある機種や OS では表示されるが、他の
+      機種や OS では表示されなかったり文字化けしたりします。
     </p>
     <p>
-      具体的にどんな文字が該当するかは
-      <a href="http://www.plaza.hitachi-sk.co.jp/~masa-k/doc/jis-x-0208.html">
-	JIS X 0208 に関する解説ページ
-      </a>をご覧頂きたいのですが、合唱関係で最近目立つのは、
-      ローマ数字(I, II, III ……)をいわゆる全角で書いたものです。
+      具体的にどんな文字が該当するかは<a
+      href="http://www.plaza.hitachi-sk.co.jp/~masa-k/doc/jis-x-0208.html"
+      shape="rect">JIS X 0208 に関する解説ページ</a>をご覧頂きたいので
+      すが、合唱関係で最近目立つのは、ローマ数字(I, II, III ……)をい
+      わゆる全角で書いたものです。
     </p>
     <p>
-      こういう文字が含まれていますと、手元でアクセスできる可能な限りの機種で
-      頂いた情報のファイルを開いて眺めるという作業を行わなければなりません。
-      Windows on IBM コンパチマシン, MacOS についてはなんとか手元で確認できますが、
-      PC98 に関しては確認のしようがありません。
+      こういう文字が含まれていますと、手元でアクセスできる可能な限りの
+      機種で頂いた情報のファイルを開いて眺めるという作業を行わなければ
+      なりません。Windows on IBM コンパチマシン, MacOS についてはなん
+      とか手元で確認できますが、PC98 に関しては確認のしようがありませ
+      ん。
     </p>
     <p>
-      上記のページを一度ご確認の上、機種依存文字を使わないよう、お願いいたします。
-      とくに、ローマ数字に関しては、I(i の大文字)、V(v の大文字)、
-      X(x の大文字)などを用いてくださいますよう、お願いいたします。
+      上記のページを一度ご確認の上、機種依存文字を使わないよう、お願い
+      いたします。とくに、ローマ数字に関しては、I(i の大文字)、V(v の
+      大文字)、X(x の大文字)などを用いてくださいますよう、お願いいたし
+      ます。
     </p>
-    <hr>
+    <hr/>
     <h2>いわゆる半角カナを使わないでください</h2>
     <p>
-      これについては、耳にされた方が多いのではないかと思います。
-      ページを編集する際、気が付く範囲で直してはおりますが、
-      見落としもありますので、まず情報を入力される段階で気をつけてくださいますよう、
-      お願いいたします。特に、記号(・ 、  。などの半角)は見落としやすいので、
-      お気をつけ下さいませ。
+      これについては、耳にされた方が多いのではないかと思います。ページ
+      を編集する際、気が付く範囲で直してはおりますが、見落としもありま
+      すので、まず情報を入力される段階で気をつけてくださいますよう、お
+      願いいたします。特に、記号(・ 、 。などの半角)は見落としやすいの
+      で、お気をつけ下さいませ。
     </p>
     <h2>ウムラウトなどの表記について</h2>
     <p>
@@ -80,15 +83,13 @@
       </li>
     </ul>
     <p>
-      というわけで、ウムラウト等に関しては、
-      <a href="info-note2.html">このような記法</a>
-      <strong>(皆様からお寄せ頂いたご意見をふまえ、
-	昨年の記法から変更しました)</strong>でメールに書いて頂ければ、
-      HTML 編集時に正しい記法にこちらで直させて頂きます。
+      というわけで、ウムラウト等に関しては、<a href="info-note2.html"
+      shape="rect">このような記法</a><strong>(皆様からお寄せ頂いたご意
+      見をふまえ、昨年の記法から変更しました)</strong>でメールに書いて
+      頂ければ、HTML 編集時に正しい記法にこちらで直させて頂きます。
     </p>
-    <hr>
-    <address> <a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a>&lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Fri Jan  2 16:05:37 JST 1998
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo</a>&lt;&kunishi-email;&gt;</address>
+    $Id: info-note.xml,v 1.2 1999/08/06 23:33:29 kunishi Exp $
+  </body>
+</html>
