@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.18 2001/10/14 22:49:32 kunishi Exp $
+# $Id: GNUmakefile,v 1.19 2001/10/17 02:59:45 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -23,7 +23,8 @@ INSTFILES_TRADITIONAL=	chiba.html \
 			osaka.html \
 			saga.html \
 			shimane.html \
-			tochigi.html
+			tochigi.html \
+			tohoku.html
 
 INSTFILES_TRADITIONAL_SAITEN+=	chubu-saiten.html
 INSTFILES_TRADITIONAL+=		${INSTFILES_TRADITIONAL_SAITEN}
