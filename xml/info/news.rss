@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1025/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1018/links.html"></rdf:li>
@@ -23,10 +24,17 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/chubu.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/kanto.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/links.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1025/links.html">
+    <title>本日のリンク更新(10/25)</title>
+    <link>http://www.chorusroom.org/info/2003/1025/links.html</link>
+    <description>以下のリンクを更新しました: 福島大学混声合唱団(大学・
+    福島、新規)、混声合唱団メンタル・ハーモニー(一般・福島、新規)</description>
+    <dc:date>2003-10-25T10:23</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1019/links.html">
     <title>本日のリンク更新</title>
@@ -36,6 +44,7 @@
     海道、新規)、北海道岩見沢東高等学校合唱部OB会(OB・OG、カテゴリ移動)、
     深谷混声合唱団(一般・埼玉、新規)、混声合唱団 漣(一般・東京、URL変
     更)、大阪すみよし少年少女合唱団(少年少女・大阪、URL変更)</description>
+    <dc:date>2003-10-19</dc:date>
   </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1019/concours.html">
