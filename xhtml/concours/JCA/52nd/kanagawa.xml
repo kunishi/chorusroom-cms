@@ -4,7 +4,7 @@
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <大会>
-  <CVSID>$Id: kanagawa.xml,v 1.7 1999/11/02 06:29:28 kunishi Exp $</CVSID>
+  <CVSID>$Id: kanagawa.xml,v 1.8 1999/11/14 02:28:23 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第52回全日本合唱コンクール神奈川県大会(第42回神奈川県合唱コンクール)</大会名>
   <開催日別結果 出力="kanagawa">
     <開催日 曜日="土">1999-09-11</開催日>
@@ -34,13 +34,13 @@
 	  <自由曲>
 	    <作曲>C. V. Stanford</作曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>Three MOTETS op.38</組曲名>
-	      <組曲ピース>
-		<ピース曲名>Justorum animae</ピース曲名>
-	      </組曲ピース>
-	      <組曲ピース>
-		<ピース曲名>Beati quorum via</ピース曲名>
-	      </組曲ピース>
+	      <曲名>Three MOTETS op.38</曲名>
+	      <構成曲>
+		<曲名>Justorum animae</曲名>
+	      </構成曲>
+	      <構成曲>
+		<曲名>Beati quorum via</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	</曲目>
@@ -136,10 +136,10 @@
 	  <課題曲>F1</課題曲>
 	  <自由曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>「Regina Caeli」</組曲名>
-	      <組曲ピース>
-		<ピース曲名>Missa Gloria</ピース曲名>
-	      </組曲ピース>
+	      <曲名>「Regina Caeli」</曲名>
+	      <構成曲>
+		<曲名>Missa Gloria</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	</曲目>
@@ -156,13 +156,15 @@
 	  <自由曲>
 	    <作曲>Francis Poulenc</作曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>「Quatre Motets pour un temps de p'entence」</組曲名>
-	      <組曲ピース>
-		<ピース曲名 ピース番号="I">Timor et tremor</ピース曲名>
-	      </組曲ピース>
-	      <組曲ピース>
-		<ピース曲名 ピース番号="II">Vinea mea electa</ピース曲名>
-	      </組曲ピース>
+	      <曲名>「Quatre Motets pour un temps de p'entence」</曲名>
+	      <構成曲>
+		<構成曲番号>I</構成曲番号>
+		<曲名>Timor et tremor</曲名>
+	      </構成曲>
+	      <構成曲>
+		<構成曲番号>II</構成曲番号>
+		<曲名>Vinea mea electa</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	</曲目>
@@ -179,10 +181,11 @@
 	  <自由曲>
 	    <作曲>Petr Eben</作曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>「Medicamina Sempiterna」</組曲名>
-	      <組曲ピース>
-		<ピース曲名 ピース番号="4">De pulchritudine sempiterna</ピース曲名>
-	      </組曲ピース>
+	      <曲名>「Medicamina Sempiterna」</曲名>
+	      <構成曲>
+		<構成曲番号>4</構成曲番号>
+		<曲名>De pulchritudine sempiterna</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	  <自由曲>
@@ -192,10 +195,11 @@
 	  <自由曲>
 	    <作曲>Otmar M&aacute;cha</作曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>「La&scaron;sk&eacute; heleka&ccaron;hy」</組曲名>
-	      <組曲ピース>
-		<ピース曲名 ピース番号="5">Hojaja, hojaja</ピース曲名>
-	      </組曲ピース>
+	      <曲名>「La&scaron;sk&eacute; heleka&ccaron;hy」</曲名>
+	      <構成曲>
+		<構成曲番号>5</構成曲番号>
+		<曲名>Hojaja, hojaja</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	</曲目>
@@ -212,16 +216,16 @@
 	  <自由曲>
 	    <作曲>Francis Poulenc</作曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>「Messe en Sol Majeur」</組曲名>
-	      <組曲ピース>
-		<ピース曲名>Kyrie</ピース曲名>
-	      </組曲ピース>
-	      <組曲ピース>
-		<ピース曲名>Gloria</ピース曲名>
-	      </組曲ピース>
-	      <組曲ピース>
-		<ピース曲名>Sanctus</ピース曲名>
-	      </組曲ピース>
+	      <曲名>「Messe en Sol Majeur」</曲名>
+	      <構成曲>
+		<曲名>Kyrie</曲名>
+	      </構成曲>
+	      <構成曲>
+		<曲名>Gloria</曲名>
+	      </構成曲>
+	      <構成曲>
+		<曲名>Sanctus</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	</曲目>
@@ -289,10 +293,10 @@
 	  <自由曲>
 	    <作曲>高嶋みどり</作曲>
 	    <組曲 抜粋="yes">
-	      <組曲名>女声合唱とピアノのための「女の肖像」</組曲名>
-	      <組曲ピース>
-		<ピース曲名>わたしが一番きれいだったとき</ピース曲名>
-	      </組曲ピース>
+	      <曲名>女声合唱とピアノのための「女の肖像」</曲名>
+	      <構成曲>
+		<曲名>わたしが一番きれいだったとき</曲名>
+	      </構成曲>
 	    </組曲>
 	  </自由曲>
 	</曲目>
