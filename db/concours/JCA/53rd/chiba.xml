@@ -1,398 +1,527 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE 大会 SYSTEM "result-2000.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<大会>
-  <CVSID>$Id: chiba.xml,v 1.2 2000/09/03 01:04:40 kunishi Exp $</CVSID>
-  <大会名>第５５回千葉県合唱コンクール</大会名>
-  <開催日別結果 出力="chiba">
-    <開催日 曜日="日">2000-08-27</開催日>
-    <開催場所>千葉県文化会館大ホール</開催場所>
-    <審査員 省略名="小畑">小畑恒夫</審査員>
-    <審査員 省略名="片山">片山みゆき</審査員>
-    <審査員 省略名="木下">木下牧子</審査員>
-    <審査員 省略名="松下">松下耕</審査員>
-    <審査員 省略名="宮寺">宮寺勇</審査員>
-    <報告者>
-      <報告者氏名>松下史恵</報告者氏名>
-      <email>irachan@din.or.jp</email>
-    </報告者>
-    <部門結果>
-      <部門名>高等学校部門A</部門名>
-      <団体 出演順="1" 大会代表="no">
-	<団体名>千葉市立千葉高等学校合唱部</団体名>
-	<形態>女声</形態>
-	<指揮者>中川知夫</指揮者>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作曲>J. Busto</作曲>
-	    <曲名>Salve Regina</曲名>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">6</採点>
-	  <採点 採点者="片山">6</採点>
-	  <採点 採点者="木下">5</採点>
-	  <採点 採点者="松下">6</採点>
-	  <採点 採点者="宮寺">5</採点>
-	  <総合評価>6</総合評価>
-	  <採点備考>減点78, 銅</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="2" 大会代表="no">
-	<団体名>八千代松陰高等学校合唱部</団体名>
-	<形態>混声</形態>
-	<指揮者>山本慎一</指揮者>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>松下耕</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「混声合唱のための八重山、宮古の三つの島歌」</曲名>
-	      <構成曲>
-		<曲名>狩俣ぬくいちゃ</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">4</採点>
-	  <採点 採点者="片山">2</採点>
-	  <採点 採点者="木下">6</採点>
-	  <採点 採点者="松下">5</採点>
-	  <採点 採点者="宮寺">1</採点>
-	  <総合評価>4</総合評価>
-	  <採点備考>減点68, 銀</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="3" 大会代表="yes">
-	<団体名>千葉県立木更津東高等学校音楽部</団体名>
-	<形態>女声</形態>
-	<指揮者>青木美和子</指揮者>
-	<ピアノ>矜田鮎美</ピアノ>
-	<ピアノ>北村美喜</ピアノ>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作曲>Benjamin Britten</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「Missa Brevis in D」</曲名>
-	      <構成曲>
-		<構成曲番号>1.</構成曲番号>
-		<曲名>KYRIE</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>2.</構成曲番号>
-		<曲名>GLORIA</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">3</採点>
-	  <採点 採点者="片山">1</採点>
-	  <採点 採点者="木下">3</採点>
-	  <採点 採点者="松下">1</採点>
-	  <採点 採点者="宮寺">4</採点>
-	  <総合評価>2</総合評価>
-	  <採点備考>減点62, 金, 関東支部</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="4" 大会代表="no">
-	<団体名>千葉県立千葉高等学校合唱部</団体名>
-	<形態>混声</形態>
-	<指揮者>椙山由美子</指揮者>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="G1"/>
-	  <自由曲>
-	    <作曲>千原英喜</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>混声合唱のための「おらしょ」（カクレキリシタン３つの歌）</曲名>
-	      <構成曲>
-		<構成曲番号>&romanII;</構成曲番号>
-		<曲名>第２楽章</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">2</採点>
-	  <採点 採点者="片山">5</採点>
-	  <採点 採点者="木下">1</採点>
-	  <採点 採点者="松下">3</採点>
-	  <採点 採点者="宮寺">3</採点>
-	  <総合評価>3</総合評価>
-	  <採点備考>減点64, 銀</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="5" 大会代表="no">
-	<団体名>千葉県立安房南高等学校音楽部</団体名>
-	<形態>女声</形態>
-	<指揮者>石井のぶ子</指揮者>
-	<ピアノ>鶴天理</ピアノ>
-	<ピアノ>吉野望壬</ピアノ>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作曲>小林秀雄</作曲>
-	    <曲名>どんたくばやし　九州民謡によるコンポジション</曲名>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">5</採点>
-	  <採点 採点者="片山">3</採点>
-	  <採点 採点者="木下">4</採点>
-	  <採点 採点者="松下">4</採点>
-	  <採点 採点者="宮寺">6</採点>
-	  <総合評価>5</総合評価>
-	  <採点備考>減点72, 銅</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="6" 大会代表="yes">
-	<団体名>千葉県立千葉女子高等学校合唱部</団体名>
-	<形態>女声</形態>
-	<指揮者>川又清</指揮者>
-	<ピアノ>今井亜希子</ピアノ>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作曲>KOCS&Aacute;R MIKL&Oacute;S</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>Missa in A</曲名>
-	      <構成曲>
-		<曲名>GLORIA</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">1</採点>
-	  <採点 採点者="片山">4</採点>
-	  <採点 採点者="木下">2</採点>
-	  <採点 採点者="松下">2</採点>
-	  <採点 採点者="宮寺">2</採点>
-	  <総合評価>1</総合評価>
-	  <採点備考>減点61, 金, 関東支部</採点備考>
-	</採点結果>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>高等学校部門Ｂ</部門名>
-      <団体 出演順="1" 大会代表="no">
-	<団体名>千葉県立千葉東高等学校音楽部</団体名>
-	<形態>混声</形態>
-	<指揮者>小川巧</指揮者>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="G1"/>
-	  <自由曲>
-	    <作曲>BOB CHILCOTT</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「Fragments from his dish」</曲名>
-	      <構成曲>
-		<構成曲番号>3.</構成曲番号>
-		<曲名>Harvest in my croft</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>4.</構成曲番号>
-		<曲名>Whines from the wood</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">2</採点>
-	  <採点 採点者="片山">2</採点>
-	  <採点 採点者="木下">2</採点>
-	  <採点 採点者="松下">2</採点>
-	  <採点 採点者="宮寺">2</採点>
-	  <総合評価>2</総合評価>
-	  <採点備考>減点60, 銀</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="2" 大会代表="yes">
-	<団体名>千葉県立幕張総合高等学校合唱団</団体名>
-	<形態>混声</形態>
-	<指揮者>井辻紀一</指揮者>
-	<ピアノ>高尾愛子</ピアノ>
-	<賞>金賞</賞>
-	<特別賞>教育長賞</特別賞>
-	<曲目>
-	  <課題曲 番号="G4"/>
-	  <自由曲>
-	    <作曲>Claudio Monteverdi</作曲>
-	    <曲名>S'andasse amor a caccia</曲名>
-	  </自由曲>
-	  <自由曲>
-	    <作曲>Luca Marenzio</作曲>
-	    <曲名>Scendi dal Paradiso</曲名>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">1</採点>
-	  <採点 採点者="片山">1</採点>
-	  <採点 採点者="木下">1</採点>
-	  <採点 採点者="松下">1</採点>
-	  <採点 採点者="宮寺">1</採点>
-	  <総合評価>1</総合評価>
-	  <採点備考>減点55, 金・教育長賞, 関東支部</採点備考>
-	</採点結果>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>職場部門</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>ちば興銀コールコスモス</団体名>
-	<形態>混声</形態>
-	<指揮者>粕谷宏美</指揮者>
-	<ピアノ>木下景子</ピアノ>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="G3"/>
-	  <自由曲>
-	    <作詩>高野喜久雄</作詩>
-	    <作曲>高田三郎</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「水のいのち」</曲名>
-	      <構成曲>
-		<曲名>雨</曲名>
-	      </構成曲>
-	      <構成曲>
-		<曲名>川</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>一般部門Ａ</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>アンサンブル・シャロン</団体名>
-	<形態>混声</形態>
-	<指揮者>井辻紀一</指揮者>
-	<賞>金賞</賞>
-	<特別賞>秋山賞・理事長賞</特別賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>John Rutter</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「Five Childhood Lyrics」</曲名>
-	      <構成曲>
-		<構成曲番号>2.</構成曲番号>
-		<曲名>The Owl and the Pussy-cat</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>4.</構成曲番号>
-		<曲名>Mattew, Mark, Luke and John</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>5.</構成曲番号>
-		<曲名>Sing a song of sixpence</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">1</採点>
-	  <採点 採点者="片山">1</採点>
-	  <採点 採点者="木下">2</採点>
-	  <採点 採点者="松下">1</採点>
-	  <採点 採点者="宮寺">1</採点>
-	  <総合評価>1</総合評価>
-	  <採点備考>減点56, 金・秋山賞・理事長賞, 関東支部</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="2" 大会代表="no">
-	<団体名>千葉ユンゲルハーモニー</団体名>
-	<形態>混声</形態>
-	<指揮者>池田知行</指揮者>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>Arnold Bax</作曲>
-	    <曲名>This worlds Joie</曲名>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">2</採点>
-	  <採点 採点者="片山">3</採点>
-	  <採点 採点者="木下">3</採点>
-	  <採点 採点者="松下">3</採点>
-	  <採点 採点者="宮寺">3</採点>
-	  <総合評価>3</総合評価>
-	  <採点備考>減点64, 銅</採点備考>
-	</採点結果>
-      </団体>
-      <団体 出演順="3" 大会代表="no">
-	<団体名>Luna Voce</団体名>
-	<形態>女声</形態>
-	<指揮者>粕谷宏美</指揮者>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作詩>秋山邦晴</作詩>
-	    <作曲>武満徹</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>混声合唱のための「風の馬」</曲名>
-	      <構成曲>
-		<構成曲番号>1.</構成曲番号>
-		<曲名>第１ヴォカリーズ</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>2.</構成曲番号>
-		<曲名>指の呪文</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-	<採点結果>
-	  <採点 採点者="小畑">3</採点>
-	  <採点 採点者="片山">2</採点>
-	  <採点 採点者="木下">1</採点>
-	  <採点 採点者="松下">2</採点>
-	  <採点 採点者="宮寺">2</採点>
-	  <総合評価>2</総合評価>
-	  <採点備考>減点60, 銀</採点備考>
-	</採点結果>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>一般部門Ｂ</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>佐倉混声合唱団</団体名>
-	<形態>混声</形態>
-	<指揮者>粟飯原栄子</指揮者>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>LENNOX BERKLEY</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>THREE LATIN MOTETS</曲名>
-	      <構成曲>
-		<構成曲番号>1.</構成曲番号>
-		<曲名>Eripe me, Domine</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>3.</構成曲番号>
-		<曲名>Regina coeli Laetare</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-    </部門結果>
-  </開催日別結果>
-</大会>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: chiba.xml,v 1.3 2001/01/29 06:21:07 kunishi Exp $</cvs-id>
+  <competition-name>第５５回千葉県合唱コンクール</competition-name>
+  <result output="chiba">
+    <date day-of-week="sun" holiday="false">2000-08-27</date>
+    <hall>千葉県文化会館大ホール</hall>
+    <referee shortname="小畑">小畑恒夫</referee>
+    <referee shortname="片山">片山みゆき</referee>
+    <referee shortname="木下">木下牧子</referee>
+    <referee shortname="松下">松下耕</referee>
+    <referee shortname="宮寺">宮寺勇</referee>
+    <reporter anonymous="false">
+      <reporter-name>松下史恵</reporter-name>
+      <reporter-email anonymous="false">irachan@din.or.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>高等学校部門A</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>千葉市立千葉高等学校合唱部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>中川知夫</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>J. Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">6</score>
+	  <score referee="片山">6</score>
+	  <score referee="木下">5</score>
+	  <score referee="松下">6</score>
+	  <score referee="宮寺">5</score>
+	  <total-score>6</total-score>
+	  <score-note>減点78, 銅</score-note>
+	</scores>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>八千代松陰高等学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>山本慎一</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>混声合唱のための八重山、宮古の三つの島歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>狩俣ぬくいちゃ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">4</score>
+	  <score referee="片山">2</score>
+	  <score referee="木下">6</score>
+	  <score referee="松下">5</score>
+	  <score referee="宮寺">1</score>
+	  <total-score>4</total-score>
+	  <score-note>減点68, 銀</score-note>
+	</scores>
+      </choir>
+      <choir representative="true" seed="false" playing-order="3">
+	<choir-name>千葉県立木更津東高等学校音楽部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>青木美和子</conductor>
+	<piano>矜田鮎美</piano>
+	<piano>北村美喜</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Benjamin Britten</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Brevis in D</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>KYRIE</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>GLORIA</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">3</score>
+	  <score referee="片山">1</score>
+	  <score referee="木下">3</score>
+	  <score referee="松下">1</score>
+	  <score referee="宮寺">4</score>
+	  <total-score>2</total-score>
+	  <score-note>減点62, 金, 関東支部</score-note>
+	</scores>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>千葉県立千葉高等学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>椙山由美子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>千原英喜</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>おらしょ</p:mainTitle>
+		<p:titleSuffix>（カクレキリシタン３つの歌）</p:titleSuffix>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>第２楽章</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">2</score>
+	  <score referee="片山">5</score>
+	  <score referee="木下">1</score>
+	  <score referee="松下">3</score>
+	  <score referee="宮寺">3</score>
+	  <total-score>3</total-score>
+	  <score-note>減点64, 銀</score-note>
+	</scores>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>千葉県立安房南高等学校音楽部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>石井のぶ子</conductor>
+	<piano>鶴天理</piano>
+	<piano>吉野望壬</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>小林秀雄</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>どんたくばやし</p:mainTitle>
+		<p:titleSuffix>九州民謡によるコンポジション</p:titleSuffix>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">5</score>
+	  <score referee="片山">3</score>
+	  <score referee="木下">4</score>
+	  <score referee="松下">4</score>
+	  <score referee="宮寺">6</score>
+	  <total-score>5</total-score>
+	  <score-note>減点72, 銅</score-note>
+	</scores>
+      </choir>
+      <choir representative="true" seed="false" playing-order="6">
+	<choir-name>千葉県立千葉女子高等学校合唱部</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>川又清</conductor>
+	<piano>今井亜希子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>KOCS<cr:Aacute/>R MIKL<cr:Oacute/>S</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa in A</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>GLORIA</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">1</score>
+	  <score referee="片山">4</score>
+	  <score referee="木下">2</score>
+	  <score referee="松下">2</score>
+	  <score referee="宮寺">2</score>
+	  <total-score>1</total-score>
+	  <score-note>減点61, 金, 関東支部</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校部門Ｂ</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>千葉県立千葉東高等学校音楽部</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>小川巧</conductor>
+	<prize nickname="blonze">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>BOB CHILCOTT</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Fragments from his dish</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Harvest in my croft</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Whines from the wood</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">2</score>
+	  <score referee="片山">2</score>
+	  <score referee="木下">2</score>
+	  <score referee="松下">2</score>
+	  <score referee="宮寺">2</score>
+	  <total-score>2</total-score>
+	  <score-note>減点60, 銀</score-note>
+	</scores>
+      </choir>
+      <choir representative="true" seed="false" playing-order="2">
+	<choir-name>千葉県立幕張総合高等学校合唱団</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>井辻紀一</conductor>
+	<piano>高尾愛子</piano>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>教育長賞</special-prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Claudio Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>S'andasse amor a caccia</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Luca Marenzio</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Scendi dal Paradiso</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">1</score>
+	  <score referee="片山">1</score>
+	  <score referee="木下">1</score>
+	  <score referee="松下">1</score>
+	  <score referee="宮寺">1</score>
+	  <total-score>1</total-score>
+	  <score-note>減点55, 金・教育長賞, 関東支部</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>職場部門</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>ちば興銀コールコスモス</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>粕谷宏美</conductor>
+	<piano>木下景子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>高野喜久雄</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>水のいのち</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>雨</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>川</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門Ａ</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>アンサンブル・シャロン</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>井辻紀一</conductor>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>秋山賞・理事長賞</special-prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>John Rutter</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Five Childhood Lyrics</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>The Owl and the Pussy-cat</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Mattew, Mark, Luke and John</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>5.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sing a song of sixpence</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">1</score>
+	  <score referee="片山">1</score>
+	  <score referee="木下">2</score>
+	  <score referee="松下">1</score>
+	  <score referee="宮寺">1</score>
+	  <total-score>1</total-score>
+	  <score-note>減点56, 金・秋山賞・理事長賞, 関東支部</score-note>
+	</scores>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>千葉ユンゲルハーモニー</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>池田知行</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Arnold Bax</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>This worlds Joie</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">2</score>
+	  <score referee="片山">3</score>
+	  <score referee="木下">3</score>
+	  <score referee="松下">3</score>
+	  <score referee="宮寺">3</score>
+	  <total-score>3</total-score>
+	  <score-note>減点64, 銅</score-note>
+	</scores>
+      </choir>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>Luna Voce</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>粕谷宏美</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>秋山邦晴</p:words-by>
+	      <p:composed-by>武満徹</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>風の馬</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>第１ヴォカリーズ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>指の呪文</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="小畑">3</score>
+	  <score referee="片山">2</score>
+	  <score referee="木下">1</score>
+	  <score referee="松下">2</score>
+	  <score referee="宮寺">2</score>
+	  <total-score>2</total-score>
+	  <score-note>減点60, 銀</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門Ｂ</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>佐倉混声合唱団</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>粟飯原栄子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>LENNOX BERKLEY</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>THREE LATIN MOTETS</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Eripe me, Domine</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Regina coeli Laetare</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>

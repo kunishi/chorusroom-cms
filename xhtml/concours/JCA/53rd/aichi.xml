@@ -1,491 +1,699 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE 大会 SYSTEM "result-2000.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<大会>
-  <CVSID>$Id: aichi.xml,v 1.1 2000/08/23 03:09:27 kunishi Exp $</CVSID>
-  <大会名>第53回全日本合唱コンクール愛知県大会(第40回愛知県合唱コンクール)
-  </大会名>
-  <開催日別結果 出力="aichi">
-    <開催日 曜日="日">2000-08-20</開催日>
-    <開催場所>愛知県立勤労会館講堂</開催場所>
-    <審査員 省略名="岩本" 肩書="指揮者">岩本渡</審査員>
-    <審査員 省略名="加藤" 肩書="合唱指揮者">加藤典子</審査員>
-    <審査員 省略名="玉川" 肩書="静岡県合唱連盟理事長">玉川昌幸</審査員>
-    <審査員 省略名="藤井" 肩書="評論家">藤井知昭</審査員>
-    <審査員 省略名="松波" 肩書="声楽家">松波千津子</審査員>
-    <報告者>
-      <報告者氏名 ペンネーム="gakichan">Takashi Ishigaki</報告者氏名>
-      <email>gakichan@owari.ne.jp</email>
-    </報告者>
-    <報告者>
-      <報告者氏名>松園正</報告者氏名>
-      <email>matuzono@tcp-ip.or.jp</email>
-    </報告者>
-    <部門結果>
-      <部門名>中学校の部(混声)</部門名>
-      <団体 出演順="6" 大会代表="yes">
-	<団体名>名古屋市立原中学校合唱部</団体名>
-	<形態>混声</形態>
-	<登録人数>45</登録人数>
-	<指揮者>水田泰子</指揮者>
-	<ピアノ>井上明日海</ピアノ>
-	<賞>金賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>島潟明美</作詩>
-	    <作曲>松下耕</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>混声三部合唱組曲「風の夏」</曲名>
-	      <構成曲>
-		<曲名>送り火</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="3" 大会代表="no">
-	<団体名>名古屋市立高針台中学校合唱部</団体名>
-	<形態>混声</形態>
-	<登録人数>45</登録人数>
-	<指揮者>原田照明</指揮者>
-	<ピアノ>高木彩加</ピアノ>
-	<賞>銀賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>立原道造</作詩>
-	    <作曲>木下牧子</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>混声合唱組曲「夢みたものは」</曲名>
-	      <構成曲>
-		<曲名>夢みたものは・・</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	  <自由曲>
-	    <作詩>工藤直子</作詩>
-	    <作曲>木下牧子</作曲>
-	    <曲名>はじまり</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="7" 大会代表="no">
-	<団体名>岡崎市立南中学校ＭＣＬ</団体名>
-	<形態>混声</形態>
-	<登録人数>44</登録人数>
-	<指揮者>二村帆波</指揮者>
-	<ピアノ>石原知佳</ピアノ>
-	<賞>銀賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>鶴見正夫</作詩>
-	    <作曲>荻久保和明</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>組曲「In Terra Pax」</曲名>
-	      <構成曲>
-		<曲名>花をさがす少女</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="2" 大会代表="no">
-	<団体名>豊田市立朝日丘中学校合唱部</団体名>
-	<形態>混声</形態>
-	<登録人数>45</登録人数>
-	<指揮者>山本弘子</指揮者>
-	<ピアノ>森嶌泰至</ピアノ>
-	<賞>銅賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>谷川俊太郎</作詩>
-	    <作曲>木下牧子</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>組曲「地平線のかなたへ」</曲名>
-	      <構成曲>
-		<曲名>二十億光年の孤独</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="4" 大会代表="no">
-	<団体名>名古屋市立牧の池中学校合唱部</団体名>
-	<形態>混声</形態>
-	<登録人数>45</登録人数>
-	<指揮者>小笠原寿美</指揮者>
-	<ピアノ>庄司梨沙</ピアノ>
-	<賞>銅賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>金沢智恵子</作詩>
-	    <作曲>黒沢吉徳</作曲>
-	    <曲名>走る川</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="1" 大会代表="no">
-	<団体名>名古屋市立藤森中学校合唱部</団体名>
-      </団体>
-      <団体 出演順="5" 大会代表="no">
-	<団体名>名古屋市立冨士中学校合唱部</団体名>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>中学校の部(同声)</部門名>
-      <団体 出演順="4" 大会代表="yes">
-	<団体名>名古屋市立振甫中学校合唱部</団体名>
-	<形態>女声</形態>
-	<登録人数>22</登録人数>
-	<指揮者>松村剛志</指揮者>
-	<賞>金賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作曲>C.B. Agnestig</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>Missa in Discantu</曲名>
-	      <構成曲>
-		<曲名>Gloria</曲名>
-	      </構成曲>
-	      <構成曲>
-		<曲名>Sanctus</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="6" 大会代表="yes">
-	<団体名>名古屋市立神沢中学校合唱部</団体名>
-	<形態>女声</形態>
-	<登録人数>37</登録人数>
-	<指揮者>中村恭子</指揮者>
-	<ピアノ>平田幸</ピアノ>
-	<賞>金賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作曲>Benjamin Britten</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「A Ceremony of Carols(キャロルの祭典)」</曲名>
-	      <構成曲>
-		<構成曲番号>1.</構成曲番号>
-		<曲名>Procession</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>2.</構成曲番号>
-		<曲名>Wolcum Yole!</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>3.</構成曲番号>
-		<曲名>There is no Rose</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>4.</構成曲番号>
-		<曲名>This little Babe</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="7" 大会代表="yes">
-	<団体名>岡崎市立六ツ美北中学校合唱部</団体名>
-	<形態>女声</形態>
-	<登録人数>38</登録人数>
-	<指揮者>長坂麻奈美</指揮者>
-	<賞>金賞</賞>
-	<特別賞>全日本合唱連盟理事長賞</特別賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>Mika Waltari</作詩>
-	    <作曲>Jukka Kankainen</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>女声合唱のためのミッカ・ワルタリの詩による組曲</曲名>
-	      <構成曲>
-		<構成曲番号>1.</構成曲番号>
-		<曲名>Haukkani(鷹がとぶよ)</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>2.</構成曲番号>
-		<曲名>Ilta(夕暮れ)</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>3.</構成曲番号>
-		<曲名>Ekstassi(エクスタシー)</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="2" 大会代表="no">
-	<団体名>金城学院中学校グリークラブ</団体名>
-	<形態>女声</形態>
-	<登録人数>40</登録人数>
-	<指揮者>小原恒久</指揮者>
-	<ピアノ>山内聖子</ピアノ>
-	<賞>銀賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作曲>Antonio Lotti</作曲>
-	    <曲名>Sanctus-Benedictus サンクトゥス(聖なるかな)−ベネディクトゥス(祝せられる)</曲名>
-	  </自由曲>
-	  <自由曲>
-	    <作詩>立原道造</作詩>
-	    <作曲>加藤學</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>女声合唱曲集「黄昏に」</曲名>
-	      <構成曲>
-		<構成曲番号>1.</構成曲番号>
-		<曲名>草に寝て・・六月の或る日曜日に</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="8" 大会代表="no">
-	<団体名>名古屋市立桜山中学校コーラス部</団体名>
-	<形態>女声</形態>
-	<登録人数>45</登録人数>
-	<指揮者>栗本洋子</指揮者>
-	<賞>銀賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作曲>Javier Busto</作曲>
-	    <曲名>Salve Regina</曲名>
-	  </自由曲>
-	  <自由曲>
-	    <作曲>Kocsar Miklos</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>Missa in A</曲名>
-	      <構成曲>
-		<曲名>SANCTUS</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="9" 大会代表="no">
-	<団体名>名古屋市立守山東中学校合唱部</団体名>
-	<形態>女声</形態>
-	<登録人数>30</登録人数>
-	<指揮者>小林美也子</指揮者>
-	<ピアノ>奥野文香</ピアノ>
-	<賞>銅賞</賞>
-	<曲目>
-	  <自由曲>
-	    <作詩>木坂涼</作詩>
-	    <作曲>寺島尚彦</作曲>
-	    <曲名>小さな協奏曲</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="1" 大会代表="no">
-	<団体名>岡崎市立矢作北中学校音楽部</団体名>
-      </団体>
-      <団体 出演順="5" 大会代表="no">
-	<団体名>岡崎市立南中学校合唱部</団体名>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>高等学校の部 Aグループ</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>聖カタリナ学園光ケ丘女子高等学校合唱部</団体名>
-	<形態>女声</形態>
-	<登録人数>32</登録人数>
-	<指揮者>白鳥清子</指揮者>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作曲>西村朗</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>無伴奏女声合唱組曲「浮舟」</曲名>
-	      <構成曲>
-		<曲名>浮舟〜源氏物語の和歌による</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="2" 大会代表="no">
-	<団体名>金城学院高等学校グリークラブ</団体名>
-	<形態>女声</形態>
-	<登録人数>30</登録人数>
-	<指揮者>小原恒久</指揮者>
-	<ピアノ>山内聖子</ピアノ>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作詩>宮沢賢治</作詩>
-	    <作曲>鈴木輝昭</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>無伴奏女声合唱組曲「星翠譜」</曲名>
-	      <構成曲>
-		<構成曲番号>IV.</構成曲番号>
-		<曲名>南天の蝎よもしなれ</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>V.</構成曲番号>
-		<曲名>双子座のあわきひかりは・・・</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="3" 大会代表="no">
-	<団体名>桜花学園高等学校合唱団</団体名>
-	<形態>女声</形態>
-	<登録人数>24</登録人数>
-	<指揮者>石黒伸吾</指揮者>
-	<ピアノ>中岡祐子</ピアノ>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作詩>吉野弘</作詩>
-	    <作曲>高田三郎</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「心の四季」</曲名>
-	      <構成曲>
-		<曲名>風が</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="4" 大会代表="no">
-	<団体名>岡崎城西高等学校合唱団</団体名>
-	<形態>男声</形態>
-	<登録人数>24</登録人数>
-	<指揮者>加藤政雄</指揮者>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="M2"/>
-	  <自由曲>
-	    <作詩>谷川雁</作詩>
-	    <作曲>新実徳英</作曲>
-	    <曲名>アルデバラン</曲名>
-	  </自由曲>
-	  <自由曲>
-	    <作詩>谷川雁</作詩>
-	    <作曲>新実徳英</作曲>
-	    <曲名>北極星の子守歌</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>高等学校の部 Bグループ</部門名>
-      <団体 出演順="2" 大会代表="yes">
-	<団体名>愛知県立岡崎高等学校合唱部</団体名>
-	<形態>混声</形態>
-	<登録人数>78</登録人数>
-	<指揮者>近藤恵子</指揮者>
-	<ピアノ>長坂聡</ピアノ>
-	<賞>シード</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作詩>谷川俊太郎</作詩>
-	    <作曲>三善晃</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>混声合唱とピアノのための「愛の歌」</曲名>
-	      <構成曲>
-		<曲名>くりかえし</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>名古屋市立北高等学校音楽部</団体名>
-	<形態>混声</形態>
-	<登録人数>80</登録人数>
-	<指揮者>友森美文</指揮者>
-	<ピアノ>甚目祐夫</ピアノ>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作詩>帆村荘児</作詩>
-	    <作曲>尾形敏幸</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>混声合唱とピアノのための「肖像」</曲名>
-	      <構成曲>
-		<構成曲番号>II.</構成曲番号>
-		<曲名>前兆</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>大学部門Bグループ</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>名古屋大学グリーンハーモニー</団体名>
-	<賞>金賞</賞>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>職場部門</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>トヨタ自動車合唱部</団体名>
-	<賞>シード</賞>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>一般部門Aグループ</部門名>
-      <団体 出演順="1" 大会代表="yes">
-	<団体名>岡崎混声合唱団</団体名>
-	<形態>混声</形態>
-	<賞>金賞</賞>
-      </団体>
-      <団体 出演順="2" 大会代表="no">
-	<団体名>混声合唱団Vox MEA</団体名>
-	<形態>混声</形態>
-	<賞>銀賞</賞>
-      </団体>
-      <団体 出演順="3" 大会代表="yes">
-	<団体名>ヴォーチ・アミーケ</団体名>
-	<形態>女声</形態>
-	<賞>金賞</賞>
-      </団体>
-      <団体 出演順="4" 大会代表="no">
-	<団体名>男声合唱団「響」</団体名>
-	<形態>男声</形態>
-	<賞>銅賞</賞>
-      </団体>
-      <団体 出演順="5" 大会代表="no">
-	<団体名>かえる合唱団</団体名>
-	<形態>混声</形態>
-      </団体>
-      <団体 出演順="6" 大会代表="no">
-	<団体名>ゴンドラ合唱団</団体名>
-	<形態>女声</形態>
-      </団体>
-      <団体 出演順="7" 大会代表="yes">
-	<団体名>名古屋混声合唱団</団体名>
-	<形態>混声</形態>
-	<賞>シード</賞>
-      </団体>
-    </部門結果>
-    <部門結果>
-      <部門名>一般部門Bグループ</部門名>
-      <団体 出演順="1" 大会代表="no">
-	<団体名>豊川コールアカデミー</団体名>
-	<形態>混声</形態>
-	<賞>銀賞</賞>
-      </団体>
-      <団体 出演順="2" 大会代表="yes">
-	<団体名>合唱団ノース・エコー</団体名>
-	<形態>混声</形態>
-	<賞>金賞</賞>
-      </団体>
-      <団体 出演順="3" 大会代表="no">
-	<団体名>創価学会中部男声合唱団</団体名>
-	<形態>男声</形態>
-      </団体>
-    </部門結果>
-  </開催日別結果>
-</大会>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition>
+  <cvs-id>$Id: aichi.xml,v 1.2 2001/01/29 06:21:02 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第53回全日本合唱コンクール愛知県大会(第40回愛知県合唱コンクール)
+  </competition-name>
+  <result output="aichi">
+    <date day-of-week="sun" holiday="false">2000-08-20</date>
+    <hall>愛知県立勤労会館講堂</hall>
+    <referee shortname="岩本" job="指揮者">岩本渡</referee>
+    <referee shortname="加藤" job="合唱指揮者">加藤典子</referee>
+    <referee shortname="玉川" job="静岡県合唱連盟理事長">玉川昌幸</referee>
+    <referee shortname="藤井" job="評論家">藤井知昭</referee>
+    <referee shortname="松波" job="声楽家">松波千津子</referee>
+    <reporter anonymous="false">
+      <reporter-name penname="gakichan">Takashi Ishigaki</reporter-name>
+      <reporter-email>gakichan@owari.ne.jp</reporter-email>
+    </reporter>
+    <reporter anonymous="false">
+      <reporter-name>松園正</reporter-name>
+      <reporter-email>matuzono@tcp-ip.or.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校の部(混声)</section-name>
+      <choir representative="true" seed="false" playing-order="6">
+	<choir-name>名古屋市立原中学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>水田泰子</conductor>
+	<piano>井上明日海</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>島潟明美</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声三部合唱組曲</p:titlePrefix>
+		<p:mainTitle>風の夏</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>送り火</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>名古屋市立高針台中学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>原田照明</conductor>
+	<piano>高木彩加</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>夢みたものは</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夢みたものは・・</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>工藤直子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>はじまり</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="7">
+	<choir-name>岡崎市立南中学校ＭＣＬ</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>44</number-of-members>
+	<conductor>二村帆波</conductor>
+	<piano>石原知佳</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>鶴見正夫</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>IN TERRA PAX</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>花をさがす少女</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>豊田市立朝日丘中学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>山本弘子</conductor>
+	<piano>森嶌泰至</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>名古屋市立牧の池中学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>小笠原寿美</conductor>
+	<piano>庄司梨沙</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>金沢智恵子</p:words-by>
+	      <p:composed-by>黒沢吉徳</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>走る川</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>名古屋市立藤森中学校合唱部</choir-name>
+	<prize nickname="none"></prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>やがて虹がかかる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>名古屋市立冨士中学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="none"></prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>平井多美子</p:words-by>
+	      <p:composed-by>石桁冬樹</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>川</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>中学校の部(同声)</section-name>
+      <choir representative="true" seed="false" playing-order="4">
+	<choir-name>名古屋市立振甫中学校合唱部</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>22</number-of-members>
+	<conductor>松村剛志</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <p:suite>
+	      <p:composed-by>C. B. Agnestig</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa in Discantu</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </given-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false" playing-order="6">
+	<choir-name>名古屋市立神沢中学校合唱部</choir-name>
+	<prefecture>female</prefecture>
+	<number-of-members>37</number-of-members>
+	<conductor>中村恭子</conductor>
+	<piano>平田幸</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Benjamin Britten</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>A Ceremony of Carols</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>キャロルの祭典</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Procession</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Wolcum Yole!</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>There is no Rose</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>This little Babe</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false" playing-order="7">
+	<choir-name>岡崎市立六ツ美北中学校合唱部</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>38</number-of-members>
+	<conductor>長坂麻奈美</conductor>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>全日本合唱連盟理事長賞</special-prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Mika Waltari</p:words-by>
+	      <p:composed-by>Jukka Kankainen</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>女声合唱のためのミッカ・ワルタリの詩による組曲</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Haukkani</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>鷹がとぶよ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Ilta</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>夕暮れ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Ekstassi</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>エクスタシー</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>金城学院中学校グリークラブ</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>40</number-of-members>
+	<conductor>小原恒久</conductor>
+	<piano>山内聖子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Antonio Lotti</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sanctus-Benedictus</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>サンクトゥス(聖なるかな)−ベネディクトゥス(祝せられる)</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>加藤學</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱曲集</p:titlePrefix>
+		<p:mainTitle>黄昏に</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>草に寝て・・六月の或る日曜日に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="8">
+	<choir-name>名古屋市立桜山中学校コーラス部</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>栗本洋子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Kocsar Miklos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa in A</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>SANCTUS</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="9">
+	<choir-name>名古屋市立守山東中学校合唱部</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>小林美也子</conductor>
+	<piano>奥野文香</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>木坂涼</p:words-by>
+	      <p:composed-by>寺島尚彦</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>小さな協奏曲</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>岡崎市立矢作北中学校音楽部</choir-name>
+	<prize nickname="none"></prize>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>岡崎市立南中学校合唱部</choir-name>
+	<prize nickname="none"></prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校の部 Aグループ</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>聖カタリナ学園光ケ丘女子高等学校合唱部</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>白鳥清子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>西村朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>浮舟</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>浮舟〜源氏物語の和歌による</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>金城学院高等学校グリークラブ</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>小原恒久</conductor>
+	<piano>山内聖子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>宮沢賢治</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>星翠譜</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>南天の蝎よもしなれ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>双子座のあわきひかりは・・・</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>桜花学園高等学校合唱団</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>24</number-of-members>
+	<conductor>石黒伸吾</conductor>
+	<piano>中岡祐子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>吉野弘</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>心の四季</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>風が</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>岡崎城西高等学校合唱団</choir-name>
+	<choir-type>male</choir-type>
+	<number-of-members>24</number-of-members>
+	<conductor>加藤政雄</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川雁</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>壁きえた</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>アルデバラン</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>北極星の子守歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校の部 Bグループ</section-name>
+      <choir representative="true" seed="false" playing-order="2">
+	<choir-name>愛知県立岡崎高等学校合唱部</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>78</number-of-members>
+	<conductor>近藤恵子</conductor>
+	<piano>長坂聡</piano>
+	<prize nickname="seeded">シード</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>愛の歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>くりかえし</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>名古屋市立北高等学校音楽部</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>80</number-of-members>
+	<conductor>友森美文</conductor>
+	<piano>甚目祐夫</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>帆村荘児</p:words-by>
+	      <p:composed-by>尾形敏幸</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>前兆</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>大学部門Bグループ</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>名古屋大学グリーンハーモニー</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>職場部門</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>トヨタ自動車合唱部</choir-name>
+	<prize nickname="seeded">シード</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門Aグループ</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>岡崎混声合唱団</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>混声合唱団Vox MEA</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="true" seed="false" playing-order="3">
+	<choir-name>ヴォーチ・アミーケ</choir-name>
+	<choir-type>female</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>男声合唱団「響」</choir-name>
+	<choir-type>male</choir-type>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>かえる合唱団</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="none"></prize>
+      </choir>
+      <choir representative="false" seed="false" playing-order="6">
+	<choir-name>ゴンドラ合唱団</choir-name>
+	<choir-type>female</choir-type>
+	<prize nickname="none"></prize>
+      </choir>
+      <choir representative="true" seed="false" playing-order="7">
+	<choir-name>名古屋混声合唱団</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="seeded">シード</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門Bグループ</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>豊川コールアカデミー</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="true" seed="false" playing-order="2">
+	<choir-name>合唱団ノース・エコー</choir-name>
+	<choir-type>mixed</choir-type>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>創価学会中部男声合唱団</choir-name>
+	<choir-type>male</choir-type>
+	<prize nickname="none"></prize>
+      </choir>
+    </section>
+  </result>
+</competition>
