@@ -1,8 +1,8 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.15 1999/10/17 16:36:19 kunishi Exp $
+# $Id: rule.mk,v 1.16 1999/11/20 23:41:41 kunishi Exp $
 #
 
-.SUFFIXES:	.xml .html .utfxml .utfhtml
+.SUFFIXES:	.xml .html .utfxml .utfhtml .ent
 
 .PHONY:		all install clean subdir install-subdir
 
