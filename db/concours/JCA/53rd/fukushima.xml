@@ -1,39 +1,37 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: fukushima.xml,v 1.9 2002/06/18 15:21:41 kunishi Exp $</cvs-id>
-  <competition-name>$BBh(B54$B2sJ!Eg8)9g>'%3%s%/!<%k(B</competition-name>
+  <competition-name>第54回福島県合唱コンクール</competition-name>
   <result output="fukushima">
     <date day-of-week="fri" holiday="false">2000-08-25</date>
-    <hall>$B2qDEIw2mF2(B</hall>
+    <hall>会津風雅堂</hall>
     <reporter anonymous="false">
       <reporter-name></reporter-name>
       <reporter-email anonymous="false"></reporter-email>
     </reporter>
     <section>
-      <section-name>$B9b9;$NIt(B</section-name>
+      <section-name>高校の部</section-name>
       <choir representative="true" seed="false">
-	<choir-name>$B0B@Q=w;R9bEy3X9;(B</choir-name>
+	<choir-name>安積女子高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>127</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F3" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BC+@n=SB@O:(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'$H%T%"%N$N$?$a$NAH6J(B</p:titlePrefix>
-		<p:mainTitle>$B=w$K(B $BBhFs=8(B</p:mainTitle>
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$BL$Mh!]Jh(B</p:mainTitle>
+		    <p:mainTitle>未来−墓</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -42,26 +40,26 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B2qDE=w;R9bEy3X9;(B</choir-name>
+	<choir-name>会津女子高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>63</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$B@$0$Lo85@6(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>世阿弥元清</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$BL5H<AU=w@<9g>'$N$?$a$N(B</p:titlePrefix>
-		<p:mainTitle>$B8EMX;0>O(B</p:mainTitle>
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>古謡三章</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$BGC(B</p:mainTitle>
+		    <p:mainTitle>巴</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -70,26 +68,26 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B74;3=w;RBg3XIUB09bEy3X9;(B</choir-name>
+	<choir-name>郡山女子大学付属高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>73</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F3" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BM?<ULn>=;R(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>与謝野晶子</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'$H%T%"%N$N$?$a$N(B</p:titlePrefix>
-		<p:mainTitle>$B>SA|2h!&3(;U$h(B</p:mainTitle>
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像画・絵師よ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B3(;U$h(B</p:mainTitle>
+		    <p:mainTitle>絵師よ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -98,10 +96,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B74;3El9bEy3X9;(B</choir-name>
+	<choir-name>郡山東高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>48</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
@@ -113,7 +111,7 @@
 		<p:mainTitle>De vives voix</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
-		<p:mainTitle>$B855$$J@<$G(B</p:mainTitle>
+		<p:mainTitle>元気な声で</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
@@ -128,27 +126,27 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$BJ!Eg=w;R9bEy3X9;(B</choir-name>
+	<choir-name>福島女子高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>69</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BC+@n=SB@O:(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'$H%T%"%N$N$?$a$NAH6J(B</p:titlePrefix>
-		<p:mainTitle>$B=w$K(B $BBhFs=8(B</p:mainTitle>
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B7l!&OS(B</p:mainTitle>
+		    <p:mainTitle>血・腕</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -157,10 +155,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B0B@Q9bEy3X9;(B</choir-name>
+	<choir-name>安積高等学校</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>42</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M1" href="givenPrograms-53rd.xml"/>
@@ -177,26 +175,26 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B<c>>=w;R9bEy3X9;(B</choir-name>
+	<choir-name>若松女子高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>78</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$BM?<ULn>=;R(B</p:words-by>
-	      <p:composed-by>$BNkLZ51><(B</p:composed-by>
+	      <p:words-by>与謝野晶子</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$B=w@<9g>'$H%T%"%N$N$?$a$N(B</p:titlePrefix>
-		<p:mainTitle>$B>SA|2h!&3(;U$h(B</p:mainTitle>
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像画・絵師よ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$B3(;U$h(B</p:mainTitle>
+		    <p:mainTitle>絵師よ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -205,10 +203,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$BJ!Eg@>9bEy3X9;(B</choir-name>
+	<choir-name>福島西高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>30</number-of-members>
-	<prize nickname="gold">$B6b>^(B</prize>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
@@ -224,10 +222,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$BHX>k=w;R9bEy3X9;(B</choir-name>
+	<choir-name>磐城女子高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>39</number-of-members>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
@@ -244,10 +242,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$BJ!Eg9bEy3X9;(B</choir-name>
+	<choir-name>福島高等学校</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>39</number-of-members>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M3" href="givenPrograms-53rd.xml"/>
@@ -266,10 +264,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$BJ!EgEl9bEy3X9;(B</choir-name>
+	<choir-name>福島東高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>43</number-of-members>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
@@ -293,26 +291,26 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$BHX>k9bEy3X9;(B</choir-name>
+	<choir-name>磐城高等学校</choir-name>
 	<choir-type>male</choir-type>
 	<number-of-members>32</number-of-members>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M4" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>$B@62,Bn9T(B</p:words-by>
-	      <p:composed-by>$BLZ2<KR;R(B</p:composed-by>
+	      <p:words-by>清岡卓行</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>$BCK@<9g>'AH6J(B</p:titlePrefix>
-		<p:mainTitle>$B??LkCf(B</p:mainTitle>
+		<p:titlePrefix>男声合唱組曲</p:titlePrefix>
+		<p:mainTitle>真夜中</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>$BL{2w$J%7%M%+%a%i(B</p:mainTitle>
+		    <p:mainTitle>愉快なシネカメラ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -321,10 +319,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B4nB?J}9bEy3X9;(B</choir-name>
+	<choir-name>喜多方高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>27</number-of-members>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
@@ -333,7 +331,7 @@
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour Le Temps de No<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
+		<p:mainTitle>Quatre motets pour Le Temps de Noël</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
@@ -356,10 +354,10 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>$B86D.9bEy3X9;(B</choir-name>
+	<choir-name>原町高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>22</number-of-members>
-	<prize nickname="silver">$B6d>^(B</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
@@ -375,10 +373,10 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>$B?\2l@n6MM[9bEy3X9;(B</choir-name>
+	<choir-name>須賀川桐陽高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>40</number-of-members>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
@@ -387,7 +385,7 @@
 	    <p:suite>
 	      <p:composed-by>R. Schumann</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>$B%m%^%s%9!!BhFs=8(B</p:mainTitle>
+		<p:mainTitle>ロマンス　第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
@@ -397,7 +395,7 @@
 		    <p:mainTitle>Der Wassermann</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
-		    <p:mainTitle>$B?e$N@:(B</p:mainTitle>
+		    <p:mainTitle>水の精</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -409,7 +407,7 @@
 		    <p:mainTitle>Meeres Mitten</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
-		    <p:mainTitle>$B?<$-3$$K(B</p:mainTitle>
+		    <p:mainTitle>深き海に</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -418,10 +416,10 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>$BGr2O009bEy3X9;(B</choir-name>
+	<choir-name>白河旭高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>29</number-of-members>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
@@ -437,10 +435,10 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>$B0BC#9bEy3X9;(B</choir-name>
+	<choir-name>安達高等学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>66</number-of-members>
-	<prize nickname="blonze">$BF<>^(B</prize>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>

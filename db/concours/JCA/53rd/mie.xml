@@ -1,44 +1,42 @@
-<?xml version="1.0" encoding="euc-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: mie.xml,v 1.6 2002/06/18 15:21:43 kunishi Exp $</cvs-id>
-  <competition-name area="false" pref="false">�裴���󻰽Ÿ��羧���󥯡���</competition-name>
+  <competition-name area="false" pref="false">第４０回三重県合唱コンクール</competition-name>
   <result output="mie">
     <date day-of-week="sun" holiday="false">2000-08-20</date>
-    <hall>���Ÿ�ʸ�������ۡ���</hall>
-    <referee shortname="��ƣ" job="�羧�ش���">��ƣ����</referee>
-    <referee shortname="����" job="���ڲ�">���Ļ�ϯ</referee>
-    <referee shortname="�ӿ�" job="�羧�ش���">�ӿ��λ�</referee>
-    <referee shortname="��" job="��ʲ�">�Ӥ����</referee>
-    <referee shortname="Ȫ" job="���ڲ�">Ȫ��ʸ</referee>
+    <hall>三重県文化会館大ホール</hall>
+    <referee shortname="伊藤" job="合唱指揮者">伊藤光子</referee>
+    <referee shortname="神田" job="声楽家">神田詩朗</referee>
+    <referee shortname="柘植" job="合唱指揮者">柘植洋子</referee>
+    <referee shortname="錦" job="作曲家">錦かよ子</referee>
+    <referee shortname="畑" job="声楽家">畑儀文</referee>
     <reporter>
-      <reporter-name>��ƣ��ƻ</reporter-name>
+      <reporter-name>伊藤正道</reporter-name>
       <reporter-email>PXM02526@nifty.ne.jp</reporter-email>
     </reporter>
     <notices>
-      <notice>�����ܹ羧Ϣ������Ĺ�ޡ����磱�̡ˡġ�Vocal Ensemble��EST��</notice>
+      <notice>全日本合唱連盟理事長賞（総合１位）……Vocal Ensemble《EST》</notice>
     </notices>
     <section>
-      <section-name>��ع�����Ʊ��</section-name>
+      <section-name>中学校部門同声</section-name>
       <choir playing-order="1" representative="true" seed="false">
-	<choir-name>������ض��������°��ع�������</choir-name>
+	<choir-name>三重大学教育学部附属中学校音楽部</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>�������</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>田中博基</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�顼���������ʥ�</p:words-by>
-	      <p:composed-by>�ߥ��������塦�����㡼��</p:composed-by>
+	      <p:words-by>ラースロー・ナジ</p:words-by>
+	      <p:composed-by>ミクローシュ・コチャール</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���Ĥν����羧��</p:mainTitle>
+		<p:mainTitle>三つの女声合唱曲</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�����ۤ���</p:mainTitle>
+		    <p:mainTitle>愛の想い出</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -46,7 +44,7 @@
 		<p:piece-number>2.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����</p:mainTitle>
+		    <p:mainTitle>幻想</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -54,7 +52,7 @@
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>������ο����ż�</p:mainTitle>
+		    <p:mainTitle>ああ雪の森の静寂</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -62,34 +60,34 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">3</score>
-	  <score referee="����">4</score>
-	  <score referee="�ӿ�">3</score>
-	  <score referee="��">2</score>
-	  <score referee="Ȫ">2</score>
+	  <score referee="伊藤">3</score>
+	  <score referee="神田">4</score>
+	  <score referee="柘植">3</score>
+	  <score referee="錦">2</score>
+	  <score referee="畑">2</score>
 	  <total-score>3</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="3" representative="false" seed="false">
-	<choir-name>�Ż�Ω������ع�������</choir-name>
+	<choir-name>津市立西郊中学校音楽部</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>�������</conductor>
-	<piano>�������ŵ�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>紀太令子</conductor>
+	<piano>上田奈津季</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��ʿ����������</p:mainTitle>
+		<p:mainTitle>地平線の彼方へ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�󽽲���ǯ�θ���</p:mainTitle>
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -97,34 +95,34 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">9</score>
-	  <score referee="����">8</score>
-	  <score referee="�ӿ�">7</score>
-	  <score referee="��">6</score>
-	  <score referee="Ȫ">7</score>
+	  <score referee="伊藤">9</score>
+	  <score referee="神田">8</score>
+	  <score referee="柘植">7</score>
+	  <score referee="錦">6</score>
+	  <score referee="畑">7</score>
 	  <total-score>7</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="2" representative="false" seed="false">
-	<choir-name>������Ω�޽�����ع��羧��</choir-name>
+	<choir-name>伊勢市立五十鈴中学校合唱部</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>19</number-of-members>
-	<conductor>�۲��ػ�</conductor>
-	<piano>�����ٲ�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>越賀敦子</conductor>
+	<piano>松尾泰介</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��ʿ����������</p:mainTitle>
+		<p:mainTitle>地平線の彼方へ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�դ�</p:mainTitle>
+		    <p:mainTitle>春に</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -132,27 +130,27 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">6</score>
-	  <score referee="����">11</score>
-	  <score referee="�ӿ�">8</score>
-	  <score referee="��">9</score>
-	  <score referee="Ȫ">4</score>
+	  <score referee="伊藤">6</score>
+	  <score referee="神田">11</score>
+	  <score referee="柘植">8</score>
+	  <score referee="錦">9</score>
+	  <score referee="畑">4</score>
 	  <total-score>8</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="4" representative="false" seed="false">
-	<choir-name>������Ω������ع�</choir-name>
+	<choir-name>伊勢市立宮川中学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>���Ŀ���</conductor>
-	<piano>��¼����</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>奥田信江</conductor>
+	<piano>野村幸恵</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Gabriel Faur<cr:utf8-char nickname="eacute">e</cr:utf8-char></p:composed-by>
-	      <p:arranged-by>�븶��ɧ</p:arranged-by>
+	      <p:composed-by>Gabriel Fauré</p:composed-by>
+	      <p:arranged-by>萩原英彦</p:arranged-by>
 	      <p:title original="true">
 		<p:mainTitle>Messe basse</p:mainTitle>
 	      </p:title>
@@ -181,25 +179,25 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">5</score>
-	  <score referee="����">10</score>
-	  <score referee="�ӿ�">11</score>
-	  <score referee="��">10</score>
-	  <score referee="Ȫ">11</score>
+	  <score referee="伊藤">5</score>
+	  <score referee="神田">10</score>
+	  <score referee="柘植">11</score>
+	  <score referee="錦">10</score>
+	  <score referee="畑">11</score>
 	  <total-score>11</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
     </section>
     <section>
-      <section-name>��ع����纮��</section-name>
+      <section-name>中学校部門混声</section-name>
       <choir playing-order="9" representative="true" seed="false">
-	<choir-name>������Ω����ع��羧��</choir-name>
+	<choir-name>伊勢市立港中学校合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>35</number-of-members>
-	<conductor>­��������</conductor>
-	<piano>�������</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>足代万紀子</conductor>
+	<piano>大口亜耶</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
@@ -211,23 +209,23 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>������</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>���������羧�ȥԥ��ΤΤ�����ȶ�</p:titlePrefix>
-		<p:mainTitle>���졼�γ����裱��</p:mainTitle>
+		<p:titlePrefix>混声三部合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>クレーの絵本第１集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���Ф줿���</p:mainTitle>
+		    <p:mainTitle>選ばれた場所</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>������Ļ�Τ�������</p:mainTitle>
+		    <p:mainTitle>黄色い鳥のいる風景</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -235,28 +233,28 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">7</score>
-	  <score referee="����">2</score>
-	  <score referee="�ӿ�">1</score>
-	  <score referee="��">1</score>
-	  <score referee="Ȫ">1</score>
+	  <score referee="伊藤">7</score>
+	  <score referee="神田">2</score>
+	  <score referee="柘植">1</score>
+	  <score referee="錦">1</score>
+	  <score referee="畑">1</score>
 	  <total-score>1</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="8" representative="true" seed="false">
-	<choir-name>������Ω������ع��羧��</choir-name>
+	<choir-name>伊勢市立厚生中学校合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>35</number-of-members>
-	<conductor>��¼������</conductor>
-	<piano>ç�̰�</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>木村真奈美</conductor>
+	<piano>巽耕一</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�ߥޥ�</p:words-by>
-	      <p:composed-by>�ߥޥ�</p:composed-by>
-	      <p:arranged-by>��߷͵</p:arranged-by>
+	      <p:words-by>ミマス</p:words-by>
+	      <p:composed-by>ミマス</p:composed-by>
+	      <p:arranged-by>富澤裕</p:arranged-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>COSMOS</p:mainTitle>
 	      </p:title>
@@ -264,53 +262,53 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>���ķû�</p:words-by>
-	      <p:composed-by>����������</p:composed-by>
+	      <p:words-by>園田恵子</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>����</p:mainTitle>
+		<p:mainTitle>砂丘</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">1</score>
-	  <score referee="����">3</score>
-	  <score referee="�ӿ�">2</score>
-	  <score referee="��">3</score>
-	  <score referee="Ȫ">5</score>
+	  <score referee="伊藤">1</score>
+	  <score referee="神田">3</score>
+	  <score referee="柘植">2</score>
+	  <score referee="錦">3</score>
+	  <score referee="畑">5</score>
 	  <total-score>2</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="7" representative="false" seed="false">
-	<choir-name>�����Ի�Ω��������ع�</choir-name>
+	<choir-name>四日市市立西笹川中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>30</number-of-members>
-	<conductor>���������</conductor>
-	<piano>��Ȫ���</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>服部佐喜子</conductor>
+	<piano>川畑麻衣</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�������</p:words-by>
-	      <p:composed-by>��ë����</p:composed-by>
+	      <p:words-by>小森香子</p:words-by>
+	      <p:composed-by>熊谷賢一</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���դβ�</p:mainTitle>
+		<p:mainTitle>青葉の歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�Ҳ���</p:words-by>
-	      <p:composed-by>�����</p:composed-by>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>水野修孝</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>�����ʥۥ��������</p:mainTitle>
+		<p:titlePrefix>合唱組曲</p:titlePrefix>
+		<p:mainTitle>小さなホメロスたち</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����</p:mainTitle>
+		    <p:mainTitle>風よ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -318,207 +316,207 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">2</score>
-	  <score referee="����">1</score>
-	  <score referee="�ӿ�">4</score>
-	  <score referee="��">8</score>
-	  <score referee="Ȫ">3</score>
+	  <score referee="伊藤">2</score>
+	  <score referee="神田">1</score>
+	  <score referee="柘植">4</score>
+	  <score referee="錦">8</score>
+	  <score referee="畑">3</score>
 	  <total-score>4</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="10" representative="false" seed="false">
-	<choir-name>������Ω���Ļ���ع�</choir-name>
+	<choir-name>伊勢市立倉田山中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>45</number-of-members>
-	<conductor>�����»�</conductor>
-	<piano>����ͥ��</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>河俣和子</conductor>
+	<piano>米田優子</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�丫����Ϻ</p:words-by>
-	      <p:composed-by>��������</p:composed-by>
+	      <p:words-by>岩見俊太郎</p:words-by>
+	      <p:composed-by>黒沢吉徳</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ή��椯��</p:mainTitle>
+		<p:mainTitle>流れゆく川</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�����¹�</p:words-by>
-	      <p:composed-by>�Ӿ¿���</p:composed-by>
+	      <p:words-by>新川和江</p:words-by>
+	      <p:composed-by>飯沼信義</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>̾�Ť���줿��</p:mainTitle>
+		<p:mainTitle>名づけられた葉</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">4</score>
-	  <score referee="����">5</score>
-	  <score referee="�ӿ�">5</score>
-	  <score referee="��">5</score>
-	  <score referee="Ȫ">6</score>
+	  <score referee="伊藤">4</score>
+	  <score referee="神田">5</score>
+	  <score referee="柘植">5</score>
+	  <score referee="錦">5</score>
+	  <score referee="畑">6</score>
 	  <total-score>5</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="11" representative="false" seed="false">
-	<choir-name>���¼Ω�����ع�</choir-name>
+	<choir-name>御薗村立御薗中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>34</number-of-members>
-	<conductor>����ͳ��</conductor>
-	<piano>���Ĥ��Ĥ�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>松川由佳</conductor>
+	<piano>山田えつこ</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>����ߤɤ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>̤��</p:mainTitle>
+		<p:mainTitle>未来</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">10</score>
-	  <score referee="����">9</score>
-	  <score referee="�ӿ�">6</score>
-	  <score referee="��">4</score>
-	  <score referee="Ȫ">8</score>
+	  <score referee="伊藤">10</score>
+	  <score referee="神田">9</score>
+	  <score referee="柘植">6</score>
+	  <score referee="錦">4</score>
+	  <score referee="畑">8</score>
 	  <total-score>6</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="5" representative="false" seed="false">
-	<choir-name>����ĮΩ������ع�</choir-name>
+	<choir-name>小俣町立小俣中学校</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>35</number-of-members>
-	<conductor>����������</conductor>
-	<piano>ʿ�о�Ƿ</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>古布眞奈美</conductor>
+	<piano>平石尚之</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>����ߤɤ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>̤��</p:mainTitle>
+		<p:mainTitle>未来</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">8</score>
-	  <score referee="����">6</score>
-	  <score referee="�ӿ�">10</score>
-	  <score referee="��">7</score>
-	  <score referee="Ȫ">9</score>
+	  <score referee="伊藤">8</score>
+	  <score referee="神田">6</score>
+	  <score referee="柘植">10</score>
+	  <score referee="錦">7</score>
+	  <score referee="畑">9</score>
 	  <total-score>9</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="6" representative="false" seed="false">
-	<choir-name>�����Ω��Į��ع�������</choir-name>
+	<choir-name>松阪市立殿町中学校声楽部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>24</number-of-members>
-	<conductor>���ľ���</conductor>
-	<piano>�����</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>深田尚美</conductor>
+	<piano>上野真弓</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�緧���</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>大熊崇子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ī</p:mainTitle>
+		<p:mainTitle>朝</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">11</score>
-	  <score referee="����">7</score>
-	  <score referee="�ӿ�">9</score>
-	  <score referee="��">11</score>
-	  <score referee="Ȫ">10</score>
+	  <score referee="伊藤">11</score>
+	  <score referee="神田">7</score>
+	  <score referee="柘植">9</score>
+	  <score referee="錦">11</score>
+	  <score referee="畑">10</score>
 	  <total-score>10</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
     </section>
     <section>
-      <section-name>�⹻�����</section-name>
+      <section-name>高校部門Ａ</section-name>
       <choir playing-order="8" representative="true" seed="false">
-	<choir-name>��Ω�Ź����ع�������</choir-name>
+	<choir-name>県立津高等学校音楽部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>28</number-of-members>
-	<conductor>��������</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>小林正美</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>We<cr:utf8-char nickname="ouml">o</cr:utf8-char>res S<cr:utf8-char nickname="aacute">a</cr:utf8-char>ndor</p:words-by>
-	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>y Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
+	      <p:words-by>Weöres Sándor</p:words-by>
+	      <p:composed-by>Kodály Zoltán</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>NORV<cr:utf8-char nickname="Eacute">E</cr:utf8-char>G LE<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NYOK</p:mainTitle>
+		<p:mainTitle>NORVÉG LEÁNYOK</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
 	      <p:words-by>Ady Endre</p:words-by>
-	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
+	      <p:composed-by>Kodály Zoltán</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>F<cr:utf8-char nickname="Ouml">O</cr:utf8-char>LSZ<cr:utf8-char nickname="Aacute">A</cr:utf8-char>LLOOT A P<cr:utf8-char nickname="Aacute">A</cr:utf8-char>VA</p:mainTitle>
+		<p:mainTitle>FÖLSZÁLLOOT A PÁVA</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">1</score>
-	  <score referee="����">1</score>
-	  <score referee="�ӿ�">1</score>
-	  <score referee="��">1</score>
-	  <score referee="Ȫ">1</score>
+	  <score referee="伊藤">1</score>
+	  <score referee="神田">1</score>
+	  <score referee="柘植">1</score>
+	  <score referee="錦">1</score>
+	  <score referee="畑">1</score>
 	  <total-score>1</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="6" representative="true" seed="false">
-	<choir-name>��Ω�������Ĺ����ع��羧��</choir-name>
+	<choir-name>県立宇治山田高等学校合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>32</number-of-members>
-	<conductor>������ͺ</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>向井正雄</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>������</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�Τ����</p:titlePrefix>
-		<p:mainTitle>�䤵�����ϰ�����ʤ�</p:mainTitle>
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>やさしさは愛じゃない</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�䤵�����ϰ�����ʤ�</p:mainTitle>
+		    <p:mainTitle>やさしさは愛じゃない</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�ޤ���ˤʤ��</p:mainTitle>
+		    <p:mainTitle>まだ私になれる</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -526,21 +524,21 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">2</score>
-	  <score referee="����">2</score>
-	  <score referee="�ӿ�">2</score>
-	  <score referee="��">2</score>
-	  <score referee="Ȫ">2</score>
+	  <score referee="伊藤">2</score>
+	  <score referee="神田">2</score>
+	  <score referee="柘植">2</score>
+	  <score referee="錦">2</score>
+	  <score referee="畑">2</score>
 	  <total-score>2</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="4" representative="false" seed="false">
-	<choir-name>��Ω������������ع�������</choir-name>
+	<choir-name>県立四日市南高等学校音楽部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>13</number-of-members>
-	<conductor>��ƣ��ƻ</conductor>
-	<prize nickname="silver">���</prize>
+	<conductor>伊藤正道</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-53rd.xml"/>
@@ -569,38 +567,38 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">3</score>
-	  <score referee="����">3</score>
-	  <score referee="�ӿ�">5</score>
-	  <score referee="��">4</score>
-	  <score referee="Ȫ">7</score>
+	  <score referee="伊藤">3</score>
+	  <score referee="神田">3</score>
+	  <score referee="柘植">5</score>
+	  <score referee="錦">4</score>
+	  <score referee="畑">7</score>
 	  <total-score>3</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="5" representative="false" seed="false">
-	<choir-name>�����ر��������ع��羧��</choir-name>
+	<choir-name>日生学園第一高等学校合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>32</number-of-members>
-	<conductor>���ڷ�</conductor>
-	<piano>���칬��</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>青木薫</conductor>
+	<piano>佐伯幸恵</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��ƣ��ɧ</p:words-by>
-	      <p:composed-by>����������</p:composed-by>
+	      <p:words-by>伊藤海彦</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>����ؤΤޤʤ���</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>季節へのまなざし</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���ߤ�</p:mainTitle>
+		    <p:mainTitle>ゆめみる</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -608,43 +606,43 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">4</score>
-	  <score referee="����">4</score>
-	  <score referee="�ӿ�">4</score>
-	  <score referee="��">6</score>
-	  <score referee="Ȫ">4</score>
+	  <score referee="伊藤">4</score>
+	  <score referee="神田">4</score>
+	  <score referee="柘植">4</score>
+	  <score referee="錦">6</score>
+	  <score referee="畑">4</score>
 	  <total-score>4</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="3" representative="false" seed="false">
-	<choir-name>��Ω�׵�����ع��羧��</choir-name>
+	<choir-name>県立久居高等学校合唱部</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>13</number-of-members>
-	<conductor>��������</conductor>
-	<prize nickname="silver">���</prize>
+	<conductor>松生浩久</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>���Ķ޻�</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>岸田衿子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>������ε���</p:mainTitle>
+		<p:mainTitle>絵の中の季節</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>ܧ�Τ���</p:mainTitle>
+		    <p:mainTitle>棗のうた</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�ʤˤ򤵤�����</p:mainTitle>
+		    <p:mainTitle>なにをさがしに</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -652,21 +650,21 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">5</score>
-	  <score referee="����">5</score>
-	  <score referee="�ӿ�">3</score>
-	  <score referee="��">5</score>
-	  <score referee="Ȫ">5</score>
+	  <score referee="伊藤">5</score>
+	  <score referee="神田">5</score>
+	  <score referee="柘植">3</score>
+	  <score referee="錦">5</score>
+	  <score referee="畑">5</score>
 	  <total-score>5</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="1" representative="false" seed="false">
-	<choir-name>��Ω�����ԻͶ������ع��羧��</choir-name>
+	<choir-name>県立四日市四郷高等学校合唱部</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>���»�</conductor>
-	<prize nickname="silver">���</prize>
+	<conductor>泊和史</conductor>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-53rd.xml"/>
@@ -681,7 +679,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef KARAI</p:composed-by>
+	      <p:composed-by>József KARAI</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Hodie Christus natus est</p:mainTitle>
 	      </p:title>
@@ -689,38 +687,38 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">6</score>
-	  <score referee="����">6</score>
-	  <score referee="�ӿ�">7</score>
-	  <score referee="��">3</score>
-	  <score referee="Ȫ">6</score>
+	  <score referee="伊藤">6</score>
+	  <score referee="神田">6</score>
+	  <score referee="柘植">7</score>
+	  <score referee="錦">3</score>
+	  <score referee="畑">6</score>
 	  <total-score>6</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="7" representative="false" seed="false">
-	<choir-name>��ΩĻ�������ع��羧��</choir-name>
+	<choir-name>県立鳥羽高等学校合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>17</number-of-members>
-	<conductor>��������</conductor>
-	<piano>���ҥ���</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>野中正紀</conductor>
+	<piano>井上ヒロミ</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G3" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����¹�</p:words-by>
-	      <p:composed-by>���ڵ���</p:composed-by>
+	      <p:words-by>新川和江</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȥԥ��ΤΤ����</p:titlePrefix>
-		<p:mainTitle>���ϤϤޤ�</p:mainTitle>
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>大地はまだ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���������餷��</p:mainTitle>
+		    <p:mainTitle>日々あたらしく</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -728,29 +726,29 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">7</score>
-	  <score referee="����">7</score>
-	  <score referee="�ӿ�">6</score>
-	  <score referee="��">7</score>
-	  <score referee="Ȫ">3</score>
+	  <score referee="伊藤">7</score>
+	  <score referee="神田">7</score>
+	  <score referee="柘植">6</score>
+	  <score referee="錦">7</score>
+	  <score referee="畑">3</score>
 	  <total-score>7</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="9" representative="false" seed="false">
-	<choir-name>�ǹ����ع�������</choir-name>
+	<choir-name>暁高等学校音楽部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>23</number-of-members>
-	<conductor>�������</conductor>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>川口孝子</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>������</p:words-by>
-	      <p:composed-by>�ⶶ�</p:composed-by>
+	      <p:words-by>飯島星</p:words-by>
+	      <p:composed-by>高橋喜治</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>YAISAMANENA</p:mainTitle>
 	      </p:title>
@@ -758,38 +756,38 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">9</score>
-	  <score referee="����">8</score>
-	  <score referee="�ӿ�">8</score>
-	  <score referee="��">8</score>
-	  <score referee="Ȫ">8</score>
+	  <score referee="伊藤">9</score>
+	  <score referee="神田">8</score>
+	  <score referee="柘植">8</score>
+	  <score referee="錦">8</score>
+	  <score referee="畑">8</score>
 	  <total-score>8</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="2" representative="false" seed="false">
-	<choir-name>��Ω�����Ծ��ȹ����ع�</choir-name>
+	<choir-name>県立四日市商業高等学校</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>�������</conductor>
-	<piano>��ë��</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>藪田節夫</conductor>
+	<piano>水谷渚</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F4" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��ϲͺ��</p:words-by>
-	      <p:composed-by>ʿ�ȵ���</p:composed-by>
+	      <p:words-by>安浪雄嗣</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>���ϸ��Ƥ���</p:mainTitle>
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>海は見てきた</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���դˤ�</p:mainTitle>
+		    <p:mainTitle>岸辺にて</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -797,41 +795,41 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">8</score>
-	  <score referee="����">9</score>
-	  <score referee="�ӿ�">9</score>
-	  <score referee="��">9</score>
-	  <score referee="Ȫ">9</score>
+	  <score referee="伊藤">8</score>
+	  <score referee="神田">9</score>
+	  <score referee="柘植">9</score>
+	  <score referee="錦">9</score>
+	  <score referee="畑">9</score>
 	  <total-score>9</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
     </section>
     <section>
-      <section-name>�⹻�����</section-name>
+      <section-name>高校部門Ｂ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>��Ω���������ع��羧��</choir-name>
+	<choir-name>県立伊勢高等学校合唱部</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>45</number-of-members>
-	<conductor>���ܸ���</conductor>
-	<piano>�����һ�</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>坂本研太</conductor>
+	<piano>笹木智子</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����һ�</p:words-by>
-	      <p:composed-by>������</p:composed-by>
+	      <p:words-by>高田敏子</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>�ޤĤ�Ƹ��</p:mainTitle>
+		<p:titlePrefix>合唱組曲</p:titlePrefix>
+		<p:mainTitle>五つの童画</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>������</p:mainTitle>
+		    <p:mainTitle>風見鶏</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -841,29 +839,29 @@
       </choir>
     </section>
     <section>
-      <section-name>��������</section-name>
+      <section-name>大学部門Ｂ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>������ع羧��</choir-name>
+	<choir-name>三重大学合唱団</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>40</number-of-members>
-	<conductor>�����¼�</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>岩木和樹</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>Ω��ƻ¤</p:words-by>
-	      <p:composed-by>�����ҹ�</p:composed-by>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>尾形敏幸</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>̵ȼ�պ����羧�Τ����</p:titlePrefix>
-		<p:mainTitle>����<cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
+		<p:titlePrefix>無伴奏混声合唱のための</p:titlePrefix>
+		<p:mainTitle>映像<cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>̴�ߤ���Τϡ�</p:mainTitle>
+		    <p:mainTitle>夢みたものは…</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -871,15 +869,15 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>������</p:composed-by>
+	      <p:composed-by>松下耕</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�Τ����</p:titlePrefix>
-		<p:mainTitle>��������λͤĤ��籴</p:mainTitle>
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>奄美諸島の四つの島唄</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�����̸�</p:mainTitle>
+		    <p:mainTitle>三京ぬ後</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -889,13 +887,13 @@
       </choir>
     </section>
     <section>
-      <section-name>���̣�</section-name>
+      <section-name>一般Ａ</section-name>
       <choir playing-order="2" representative="true" seed="false">
-	<choir-name>Vocal Ensemble��EST��</choir-name>
+	<choir-name>Vocal Ensemble《EST》</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>32</number-of-members>
-	<conductor>������ͺ</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>向井正雄</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
@@ -911,9 +909,9 @@
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>Sappho</p:words-by>
-	      <p:composed-by>���ڵ���</p:composed-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��ھ�</p:mainTitle>
+		<p:mainTitle>詞華抄</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -926,22 +924,22 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">1</score>
-	  <score referee="����">1</score>
-	  <score referee="�ӿ�">1</score>
-	  <score referee="��">1</score>
-	  <score referee="Ȫ">1</score>
+	  <score referee="伊藤">1</score>
+	  <score referee="神田">1</score>
+	  <score referee="柘植">1</score>
+	  <score referee="錦">1</score>
+	  <score referee="畑">1</score>
 	  <total-score>1</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="3" representative="false" seed="false">
-	<choir-name>�羧�Ĥ�������</choir-name>
+	<choir-name>合唱団すずかぜ</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>����</conductor>
-	<piano>�����λ�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>井上浩</conductor>
+	<piano>山口知子</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G4" href="givenPrograms-53rd.xml"/>
@@ -991,37 +989,37 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">2</score>
-	  <score referee="����">2</score>
-	  <score referee="�ӿ�">2</score>
-	  <score referee="��">2</score>
-	  <score referee="Ȫ">2</score>
+	  <score referee="伊藤">2</score>
+	  <score referee="神田">2</score>
+	  <score referee="柘植">2</score>
+	  <score referee="錦">2</score>
+	  <score referee="畑">2</score>
 	  <total-score>2</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="1" representative="false" seed="false">
-	<choir-name>������ɩ��</choir-name>
+	<choir-name>コール菱声</choir-name>
 	<choir-type>female</choir-type>
 	<number-of-members>17</number-of-members>
-	<conductor>�������</conductor>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>菅野仁美</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F3" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����¹�</p:words-by>
-	      <p:composed-by>���ڵ���</p:composed-by>
+	      <p:words-by>新川和江</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȥԥ��ΤΤ����</p:titlePrefix>
-		<p:mainTitle>���򤦤�����</p:mainTitle>
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>海をうしろへ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�錄���γ�</p:mainTitle>
+		    <p:mainTitle>わたしの海</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1029,47 +1027,47 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>����Ƥ��</p:words-by>
-	      <p:composed-by>���沸</p:composed-by>
+	      <p:words-by>竹中てるよ</p:words-by>
+	      <p:composed-by>大中恩</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���Υ��르����</p:mainTitle>
+		<p:mainTitle>海のオルゴール</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">3</score>
-	  <score referee="����">3</score>
-	  <score referee="�ӿ�">3</score>
-	  <score referee="��">4</score>
-	  <score referee="Ȫ">4</score>
+	  <score referee="伊藤">3</score>
+	  <score referee="神田">3</score>
+	  <score referee="柘植">3</score>
+	  <score referee="錦">4</score>
+	  <score referee="畑">4</score>
 	  <total-score>3</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
       <choir playing-order="4" representative="false" seed="false">
-	<choir-name>�羧�Ĥ�����</choir-name>
+	<choir-name>合唱団うちわ</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>���»�</conductor>
-	<piano>���Ĺ���</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>泊和史</conductor>
+	<piano>太田浩美</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G3" href="givenPrograms-53rd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>���ʸ�¢</p:words-by>
-	      <p:composed-by>ע����ʿ</p:composed-by>
+	      <p:words-by>更科源蔵</p:words-by>
+	      <p:composed-by>廣瀬量平</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>��Ļ�λ�</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>海鳥の詩</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>��������Ļ</p:mainTitle>
+		    <p:mainTitle>オロロン鳥</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1077,16 +1075,16 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>����ߤɤ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>�����羧�ȶ�</p:titlePrefix>
-		<p:mainTitle>���ˤʤ�ū</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>風になる笛</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>̤��</p:mainTitle>
+		    <p:mainTitle>未来</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1094,24 +1092,24 @@
 	  </free-program>
 	</program>
 	<scores>
-	  <score referee="��ƣ">4</score>
-	  <score referee="����">4</score>
-	  <score referee="�ӿ�">4</score>
-	  <score referee="��">3</score>
-	  <score referee="Ȫ">3</score>
+	  <score referee="伊藤">4</score>
+	  <score referee="神田">4</score>
+	  <score referee="柘植">4</score>
+	  <score referee="錦">3</score>
+	  <score referee="畑">3</score>
 	  <total-score>4</total-score>
 	  <score-note></score-note>
 	</scores>
       </choir>
     </section>
     <section>
-      <section-name>���̣�</section-name>
+      <section-name>一般Ｂ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>���ť����������ܡ���</choir-name>
+	<choir-name>三重ヴォークスボーナ</choir-name>
 	<choir-type>mixed</choir-type>
 	<number-of-members>41</number-of-members>
-	<conductor>����ʹ��</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>稲葉祐三</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-53rd.xml"/>
