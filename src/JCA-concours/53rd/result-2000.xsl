@@ -56,8 +56,10 @@
   </xsl:template>
 
   <xsl:template name="審査員リスト">
-    <dt>審査員</dt>
-    <dd><xsl:apply-templates select="審査員"/></dd>
+    <xsl:if test="child::審査員">
+      <dt>審査員</dt>
+      <dd><xsl:apply-templates select="審査員"/></dd>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="審査員">
     <xsl:value-of select="."/>
