@@ -18,6 +18,9 @@
 %HTMLspecial;
 %SpecialCharacterEnts;
 
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
+
 <!ENTITY % LanguageCode "CDATA">
     <!-- a language code, as per [RFC1766] -->
 

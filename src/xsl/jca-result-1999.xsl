@@ -4,6 +4,8 @@
 		xmlns:xt="http://www.jclark.com/xt"
 		xmlns="http://www.w3.org/TR/REC-html40"
 		extension-element-prefix="xt">
-  <xsl:output method="html" encoding="iso-2022-jp"/>
+  <xsl:output method="html"
+	      encoding="iso-2022-jp"
+	      doctype-public="-//W3C//DTD HTML 4.0//EN"/>
   <xsl:include href="result-common.xsl"/>
 </xsl:stylesheet>
