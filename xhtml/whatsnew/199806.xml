@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
-<!ENTITY % global-ent "../global.ent">
+<!ENTITY % global-ent SYSTEM "../global.ent">
 %global-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
@@ -36,6 +36,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 1999/08/14 02:06:43 $
+    $Date: 1999/08/14 02:08:15 $
   </body>
 </html>
