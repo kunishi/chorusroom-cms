@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns='http://www.chorusroom.org/xml'
+  xmlns:p='http://www.chorusroom.org/piece'
+  xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: gifu.xml,v 1.1 2001/09/16 14:27:34 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">平成13年度 岐阜県合唱フェスティバル</competition-name>
+  <result output="gifu">
+    <date day-of-week="sun" holiday="false">2001-08-19</date>
+    <date day-of-week="mon" holiday="false">2001-08-20</date>
+    <hall>ふれあい会館「サラマンカホール」</hall>
+    <reporter anonymous="true">
+      <reporter-name>鈴木貞夫</reporter-name>
+      <reporter-email anonymous="false">wisesada@ix.netcom.com</reporter-email>
+    </reporter>
+    <notices>
+      <notice>主催: 岐阜県合唱連盟・高文連合唱部会・朝日新聞社</notice>
+    </notices>
+    <section>
+      <section-name>高校Aグループ</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>各務原西</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>春に</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<choir-note>9位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>多治見北</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Camilleri</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa brevis</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Credo</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Camilleri</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sonus Spiritus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<choir-note>8位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="3">
+	<choir-name>多治見</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Orban</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Lauda Sion</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Kocsar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<choir-note>2位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="4">
+	<choir-name>大垣北</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>小林秀雄</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>優しき歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>爽やかな五月に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>7位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>武義</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>千原英喜</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>おらしょ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>5位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="6">
+	<choir-name>多治見西</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>岐阜県教育委員会賞</special-prize>
+	<special-prize>全日本理事長賞</special-prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>西村朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>炎の挽歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>妻への挽歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>1位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="7">
+	<choir-name>白川</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Mul</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Canonica</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Poulenc</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Verum Corpus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Mul</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Canonica</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>6位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="8">
+	<choir-name>大垣桜</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>女に 第2集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>未来−墓</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>3位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="9">
+	<choir-name>岐阜北</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ネロ 〜愛された小さな小犬に〜</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<choir-note>4位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="10">
+	<choir-name>岐阜</choir-name>
+	<prize nickname="seeded">シード</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>LIRICHE AMOROSE</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>高校Bグループ</section-name>
+      <choir representative="true" seed="false" playing-order="1">
+	<choir-name>恵那</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>岐阜県教育委員会賞</special-prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>一柳慧</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>詩の中の風景 <cr:utf8-char nickname="romanI">I</cr:utf8-char></p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>原っぱ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>1位</choir-note>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般Aグループ</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>合唱団GMC</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Poulenc</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>クリスマスのための4つのモテット</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>6位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>女声合唱「れん」</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>どこかで</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>どこかで</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>あめのあしおと</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>5位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="3">
+	<choir-name>多治見混声合唱団</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>マドリガル <cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>戯れ歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>挽歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>2位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="4">
+	<choir-name>PRO MUSICA VIVA</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>岐阜県教育委員会賞</special-prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>炎の挽歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>妻への挽歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>1位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="5">
+	<choir-name>コールONE</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Palestrina</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sitivit anima mea</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sing And Rejoice</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<choir-note>4位</choir-note>
+      </choir>
+      <choir representative="false" seed="false" playing-order="6">
+	<choir-name>合唱団獏</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true">
+		<p:mainTitle>Sestina</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>3位</choir-note>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般Bグループ</section-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>ぎふジュニアヴォーカルアンサンブル</choir-name>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>オデコのこいつ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ゆめ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>2位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="2">
+	<choir-name>混声合唱団ユーベルコール</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>八重山・宮古の三つの島唄</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>狩俣ぬくいちゃ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>安里屋ユンタ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<choir-note>1位</choir-note>
+      </choir>
+      <choir representative="true" seed="false" playing-order="3">
+	<choir-name>合唱団まりもあ</choir-name>
+	<prize nickname="seeded">シード</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>一柳慧</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>朝の頌歌</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
