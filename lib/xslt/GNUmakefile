@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.1 2001/01/01 01:51:12 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 2001/01/01 01:52:06 kunishi Exp $
 #
 
 CHAR_ENT_GEN_FILES=	${TOPDIR}/tech/iso-lat1.xml \
@@ -14,7 +14,7 @@ GEN_XSLT=		ascii-char-conv.xsl utf8-char-conv.xsl
 
 all:
 
-prepare:	${GEN_XSLT}
+pre-all:	${GEN_XSLT}
 
 ascii-char-conv.xsl:	${TOPDIR}/tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl $(addprefix gen-,$@) ${XSLT_OUT} ${XSLT_PARAMS}
