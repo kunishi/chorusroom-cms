@@ -1,10 +1,10 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.53 2001/08/06 02:07:35 kunishi Exp $
+# $Id: config.mk,v 1.54 2001/09/20 09:39:23 kunishi Exp $
 #
 
-PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
-PUBLIC_DIR=	/usr/home/www/data/
-TOP_URL=	http://psi.c.oka-pu.ac.jp/chorusRoom/
+PUBLIC_SERVER=	chorusroom.c.oka-pu.ac.jp
+PUBLIC_DIR=	/usr/home/www/data/chorusRoom/
+TOP_URL=	http://www.chorusroom.org/
 
 LOCALBASE=	/usr/local
 ifdef USE_JDK11
