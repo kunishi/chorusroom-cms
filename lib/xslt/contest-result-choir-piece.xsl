@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-choir-piece.xsl,v 1.7 2001/01/31 06:59:21 kunishi Exp $ -->
+<!-- $Id: contest-result-choir-piece.xsl,v 1.8 2001/02/04 06:55:26 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:p="http://www.chorusroom.org/piece"
@@ -172,7 +172,7 @@
   <xsl:template match="p:suite-piece">
     <xsl:if test="p:piece|p:suite">
       <xsl:choose>
-	<xsl:when test="p:piece/p:title[@xml:lang='ja']">
+	<xsl:when test="p:piece/p:title[@original='true' and @xml:lang='ja']">
 	  <xsl:text>「</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
@@ -187,7 +187,7 @@
     </xsl:apply-templates>
     <xsl:if test="p:piece|p:suite">
       <xsl:choose>
-	<xsl:when test="p:piece/p:title[@xml:lang='ja']">
+	<xsl:when test="p:piece/p:title[@original='true' and @xml:lang='ja']">
 	  <xsl:text>」</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
@@ -200,6 +200,12 @@
   <xsl:template match="p:piece-number">
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
+  </xsl:template>
+
+  <xsl:template match="p:piece-note">
+    <xsl:text> (</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>)</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>

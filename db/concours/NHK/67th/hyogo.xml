@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: hyogo.xml,v 1.4 2001/02/04 02:04:46 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: hyogo.xml,v 1.5 2001/02/04 06:55:25 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール兵庫県コンクール</competition-name>
   <result output="hyogo">
     <date day-of-week="sat" holiday="false">2000-08-18</date>
-    <hall>加古川市民会館</hall>
+    <hall>加古川市民会館大ホール</hall>
+    <referee shortname="斉田">斉田好男</referee>
+    <referee shortname="洲脇">洲脇光一</referee>
+    <referee shortname="中西">中西覚</referee>
+    <referee shortname="畑">畑儀文</referee>
+    <referee shortname="林">林達次</referee>
+    <referee shortname="三室">三室尭</referee>
+    <referee shortname="春原">春原秀一郎</referee>
     <reporter anonymous="false">
       <reporter-name>なおや</reporter-name>
       <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <reporter anonymous="false">
+      <reporter-name>上村正継</reporter-name>
+      <reporter-email anonymous="false">kam@mxr.mesh.ne.jp</reporter-email>
     </reporter>
     <section>
       <section-name>中学校の部</section-name>
@@ -252,20 +263,29 @@
     <section>
       <section-name>高等学校の部</section-name>
       <choir representative="false" playing-order="1">
-	<choir-name>県立篠山鳳鳴高校</choir-name>
+	<choir-name>兵庫県立篠山鳳鳴高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>佐藤英朗</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <piano>酒井友香里</piano>
 	    <p:suite>
+	      <p:words-by>吉野弘</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>島よ</p:mainTitle>
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>心の四季</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>風が</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -274,14 +294,20 @@
       <choir representative="false" playing-order="2">
 	<choir-name>関西学院高等部</choir-name>
 	<choir-type>male</choir-type>
+	<conductor>安川佳秀</conductor>
 	<prize nickname="none"></prize>
+	<special-prize>奨励賞</special-prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <piano>藤井かずあき</piano>
 	    <p:suite>
+	      <p:words-by>伊藤桂一</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱組曲</p:titlePrefix>
 		<p:mainTitle>戦旅</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -296,8 +322,9 @@
 	</program>
       </choir>
       <choir representative="true" playing-order="3">
-	<choir-name>県立神戸高校</choir-name>
+	<choir-name>兵庫県立神戸高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>山本龍弥</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
@@ -305,6 +332,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Laudate Pueri</p:mainTitle>
 	      </p:title>
@@ -313,8 +341,9 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="4">
-	<choir-name>県立加古川西高校</choir-name>
+	<choir-name>兵庫県立加古川西高等学校</choir-name>
 	<choir-type>female</choir-type>
+	<conductor>辛川和人</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
@@ -322,7 +351,10 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
+	      <p:words-by>おうち・やすあき</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
 		<p:mainTitle>そらとおんなじいろだから</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -337,15 +369,19 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="5">
-	<choir-name>県立姫路南高校</choir-name>
+	<choir-name>兵庫県立姫路南高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>浅井智恵</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <piano>佐野舞</piano>
 	    <p:piece>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>わが里程標</p:mainTitle>
 	      </p:title>
@@ -354,16 +390,21 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="6">
-	<choir-name>県立八鹿高校</choir-name>
+	<choir-name>兵庫県立八鹿高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>西谷秀樹</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <piano>山本めぐみ</piano>
 	    <p:suite>
+	      <p:words-by>鶴見正夫</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
 		<p:mainTitle>IN TERRA PAX〜地に平和を〜</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -378,22 +419,27 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="7">
-	<choir-name>県立豊岡高校</choir-name>
+	<choir-name>兵庫県立豊岡高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>上田由紀子</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <piano>大田初音</piano>
 	    <p:suite>
+	      <p:words-by>池澤夏樹</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
 		<p:mainTitle>ティオの夜の旅</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>ローラビーチ</p:mainTitle>
+		    <p:mainTitle>ローラ・ビーチ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -402,8 +448,9 @@
 	</program>
       </choir>
       <choir representative="true" playing-order="8">
-	<choir-name>武庫川女子大付属高校</choir-name>
+	<choir-name>武庫川女子大学附属高等学校</choir-name>
 	<choir-type>female</choir-type>
+	<conductor>山口英樹</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
@@ -411,8 +458,9 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
+	      <p:composed-by>西村朗</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:titlePrefix>無伴奏女声合唱のための組曲</p:titlePrefix>
 		<p:mainTitle>祇園双紙</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -427,17 +475,21 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="9">
-	<choir-name>県立柏原高校</choir-name>
+	<choir-name>兵庫県立柏原高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>植田克巳</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <accompaniment instrument="ギター">三枝由明・近藤宏之</accompaniment>
 	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>クレーの絵本第１集</p:mainTitle>
+		<p:mainTitle>クレーの絵本第1集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -458,8 +510,9 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="10">
-	<choir-name>県立福崎高校</choir-name>
+	<choir-name>兵庫県立福崎高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>中嶋京子</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
@@ -467,6 +520,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>
@@ -474,6 +528,8 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
+	      <p:originated-from>Basque folksong</p:originated-from>
+	      <p:composed-by>Javier Busto</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Axuri beltza</p:mainTitle>
 	      </p:title>
@@ -482,8 +538,9 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="11">
-	<choir-name>県立赤穂高校</choir-name>
+	<choir-name>兵庫県立赤穂高等学校</choir-name>
 	<choir-type>female</choir-type>
+	<conductor>中川明彦</conductor>
 	<prize nickname="none"></prize>
 	<program>
 	  <given-program>
@@ -491,7 +548,9 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
+	      <p:composed-by>福島雄次郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
 		<p:mainTitle>南島歌遊び<cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -506,16 +565,21 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="12">
-	<choir-name>県立長田高校</choir-name>
+	<choir-name>兵庫県立長田高等学校</choir-name>
 	<choir-type>mixed</choir-type>
+	<conductor>合田芳弘</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
+	    <piano>田村かおり</piano>
 	    <p:suite>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための組曲</p:titlePrefix>
 		<p:mainTitle>宇宙の果物</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -530,8 +594,9 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="13">
-	<choir-name>県立北須磨高校</choir-name>
+	<choir-name>兵庫県立北須磨高等学校</choir-name>
 	<choir-type>female</choir-type>
+	<conductor>足立尚樹</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
@@ -539,6 +604,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>
@@ -546,6 +612,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
+	      <p:composed-by>G. Orban</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Lauda Sion</p:mainTitle>
 	      </p:title>
@@ -554,8 +621,9 @@
 	</program>
       </choir>
       <choir representative="false" playing-order="14">
-	<choir-name>甲南女子高校</choir-name>
+	<choir-name>甲南女子高等学校</choir-name>
 	<choir-type>female</choir-type>
+	<conductor>森啓一</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
@@ -563,17 +631,25 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
+	      <p:composed-by>Kocsar</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>O VOS OMNES</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:piece>
+	    <p:suite>
 	      <p:title original="true">
-		<p:mainTitle>FU-FU</p:mainTitle>
+		<p:mainTitle>MOMENTI MUSICALI</p:mainTitle>
 	      </p:title>
-	    </p:piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>FU-FU</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
 	  </free-program>
 	</program>
       </choir>

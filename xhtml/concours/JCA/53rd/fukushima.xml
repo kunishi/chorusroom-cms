@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: fukushima.xml,v 1.7 2001/01/30 13:24:54 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: fukushima.xml,v 1.8 2001/02/04 06:55:25 kunishi Exp $</cvs-id>
   <competition-name>第54回福島県合唱コンクール</competition-name>
   <result output="fukushima">
     <date day-of-week="fri" holiday="false">2000-08-25</date>
@@ -30,7 +30,7 @@
 		<p:mainTitle>女に 第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>未来−墓</p:mainTitle>
@@ -116,7 +116,7 @@
 		<p:mainTitle>元気な声で</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La tuor d'amour</p:mainTitle>
@@ -145,7 +145,7 @@
 		<p:mainTitle>女に 第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>血・腕</p:mainTitle>
@@ -259,7 +259,7 @@
 		<p:mainTitle>ELMULT IDOKBOL</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -333,10 +333,10 @@
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour Le Temps de No<cr:euml/>l</p:mainTitle>
+		<p:mainTitle>Quatre motets pour Le Temps de No<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>O MAGNUM MYSTERIUM</p:mainTitle>
@@ -344,7 +344,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>HODIE CHRISTUS NATUS EST</p:mainTitle>
@@ -390,7 +390,7 @@
 		<p:mainTitle>ロマンス　第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:words-by>J.Kerner</p:words-by>
 		  <p:title original="true">
@@ -402,7 +402,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:words-by>F.Ruckert</p:words-by>
 		  <p:title original="true">
@@ -452,7 +452,7 @@
 		<p:mainTitle>Italian Madrigals</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Selve beate</p:mainTitle>
@@ -460,7 +460,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVII">VII</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Ride la primavera</p:mainTitle>
