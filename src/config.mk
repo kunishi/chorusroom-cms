@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.32 2000/09/05 08:31:26 kunishi Exp $
+# $Id: config.mk,v 1.33 2000/09/11 11:06:06 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -58,16 +58,16 @@ SYNC_TOOL=	rsync -au
 CP=		cp
 ENV?=		env
 PERL?=		perl
-RELPATH!=	.
+RELPATH!=	./
 INSTTOPDIR=	${LOCALBASE}/www/data/chorusRoom/
 
-IMAGEDIR=	${SRCTOPDIR}/image
-STYLEDIR=	${SRCTOPDIR}/style
-SCRIPTDIR=	${SRCTOPDIR}/scripts
+IMAGEDIR=	${SRCTOPDIR}image
+STYLEDIR=	${SRCTOPDIR}style
+SCRIPTDIR=	${SRCTOPDIR}scripts
 
-XHTML10_XSL=	${SRCTOPDIR}/xhtml10.xsl
-XHTML10_XSL_UTF8=	${SRCTOPDIR}/xhtml10-utf8.xsl
-XHTML10_XSL_ASCII=	${SRCTOPDIR}/xhtml10-ascii.xsl
+XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
+XHTML10_XSL_UTF8=	${SRCTOPDIR}xhtml10-utf8.xsl
+XHTML10_XSL_ASCII=	${SRCTOPDIR}xhtml10-ascii.xsl
 DEFAULT_XSL=	${XHTML10_XSL}
 DEFAULT_XSL_UTF8=	${XHTML10_XSL_UTF8}
 

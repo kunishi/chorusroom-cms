@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.21 2000/08/29 05:04:55 kunishi Exp $
+# $Id: rule.mk,v 1.22 2000/09/11 11:06:06 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent
@@ -27,7 +27,7 @@ subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
 	  (cd $${dir} && ${MAKE} all \
-	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/..) \
+	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../) \
 	done
 endif
 
@@ -42,13 +42,39 @@ endif
 install-subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
-	  if ! test -d ${INSTTOPDIR}${RELPATH}/$${dir}; then \
-	    mkdir -p ${INSTTOPDIR}${RELPATH}/$${dir}; \
+	  if ! test -d ${INSTTOPDIR}${RELPATH}$${dir}; then \
+	    mkdir -p ${INSTTOPDIR}${RELPATH}$${dir}; \
 	  fi; \
 	  (cd $${dir} && ${MAKE} install \
-	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/..); \
+	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
 	done
 endif
 
-clean:
-	-rm -rf *.html *.utfhtml
+clean:	clean-subdir
+ifdef INSTFILES
+	-rm -f ${INSTFILES}
+endif
+
+clean-subdir:
+ifdef SUBDIR
+	@for dir in ${SUBDIR}; do \
+	  (cd $${dir} && ${MAKE} clean \
+	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
+	done
+endif
+
+distclean:	distclean-subdir
+ifdef INSTFILES
+	-rm -f ${INSTFILES}
+endif
+ifdef GENFILES
+	-rm -f ${GENFILES}
+endif
+
+distclean-subdir:
+ifdef SUBDIR
+	@for dir in ${SUBDIR}; do \
+	  (cd $${dir} && ${MAKE} distclean \
+	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
+	done
+endif

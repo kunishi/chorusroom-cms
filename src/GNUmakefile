@@ -1,9 +1,9 @@
 # 
-# $Id: GNUmakefile,v 1.34 2000/09/04 05:07:52 kunishi Exp $
+# $Id: GNUmakefile,v 1.35 2000/09/11 11:06:06 kunishi Exp $
 #
 
-RELPATH=	.
-SRCTOPDIR=	.
+RELPATH=	# ./
+SRCTOPDIR=	# ./
 
 INSTFILES+=	CDShop.html \
 		asian960518.html \
@@ -29,12 +29,13 @@ SUBDIR+=	ajcl \
 		image \
 		links \
 		namazu \
+		server \
 		style \
 		tech \
 		whatsnew
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+include ${SRCTOPDIR}config.mk
+include ${SRCTOPDIR}rule.mk
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
 PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
