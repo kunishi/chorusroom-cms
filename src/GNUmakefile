@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.8 1999/08/23 15:34:29 kunishi Exp $
+# $Id: GNUmakefile,v 1.9 1999/08/23 15:38:43 kunishi Exp $
 #
 
 RELPATH=	.
@@ -20,7 +20,7 @@ INSTFILES+=	CDShop.html \
 
 INSTFILES_NOBUILD+=	panaMusica-map.txt \
 			panaMusica.gif \
-			panaMusicap.ps \
+			panaMusica.ps \
 			panaMusica.ps.gz
 
 SUBDIR+=	48th \
