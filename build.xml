@@ -326,7 +326,7 @@
 
   <target name='finalize.html' depends='build.xhtml'>
     <xslt basedir='${build.xhtml}' destdir='${build.html}'
-      style='${build.xslt}/xhtml1-finalize-iso.xsl'
+      style='${build.xslt}/xhtml1-finalize-utf8.xsl'
       extension='.html' processor='trax'
       includes='**/*.xml'
       classpathref='xalan2.class.path'/>
