@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.23 2001/02/04 06:55:26 kunishi Exp $
+# $Id: GNUmakefile,v 1.24 2001/03/02 11:04:00 kunishi Exp $
 # 
 
 USE_NEW_SCHEME=	yes
@@ -14,7 +14,7 @@ INSTFILES+=	index.html \
 		200001.html 200002.html 200003.html 200004.html \
 		200005.html 200006.html 200007.html 200008.html \
 		200009.html 200010.html 200011.html 200012.html \
-		200101.html 200102.html
+		200101.html 200102.html 200103.html
 
 include config.mk
 include rule.mk
