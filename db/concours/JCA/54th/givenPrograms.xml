@@ -89,7 +89,7 @@
 	<p:mainTitle>コンポジション6番</p:mainTitle>
       </p:title>
       <p:suite-piece>
-	<p:piece-number><cr:romanI/></p:piece-number>
+	<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
       </p:suite-piece>
     </p:suite>
   </givenProgram>
@@ -122,7 +122,7 @@
   <givenProgram>
     <givenProgramNumber>F2</givenProgramNumber>
     <p:piece>
-      <p:words-by>M<cr:ouml/>rike</p:words-by>
+      <p:words-by>M<cr:utf8-char nickname="ouml">o</cr:utf8-char>rike</p:words-by>
       <p:composed-by>Heinrich Herzogenberg</p:composed-by>
       <p:title original="true">
 	<p:mainTitle>Untreue</p:mainTitle>

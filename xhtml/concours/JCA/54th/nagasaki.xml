@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns='http://www.chorusroom.org/xml' xmlns:p='http://www.chorusroom.org/piece' xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: nagasaki.xml,v 1.1 2001/08/12 12:45:47 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第56回九州合唱コンクール長崎県予選</competition-name>
+  <result output="nagasaki">
+    <date day-of-week="sun" holiday="false">2001-07-15</date>
+    <hall>佐世保市民会館</hall>
+    <referee shortname="岩崎" job="福岡教育大学教授・福岡県合唱連盟理事長">岩崎洋一</referee>
+    <referee shortname="岩津" job="熊本県市立高等学校教諭・熊本県合唱連盟理事長">岩津整明</referee>
+    <referee shortname="有川" job="宮崎女子高等学校教諭">有川サチ子</referee>
+    <reporter anonymous="true">
+      <reporter-name>yuta kawasaki</reporter-name>
+      <reporter-email anonymous="false">s801069c@stcc.nagasaki-u.ac.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>高校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>長崎県立北松南高等学校合唱団</choir-name>
+	<conductor>森田真美子</conductor>
+	<piano>江口友希子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>宇宙の果物</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>曙</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>長崎県立長崎北陽台高等学校合唱部</choir-name>
+	<conductor>田代悟</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>道之島歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>浦富</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>海ぬ笹草</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>長崎県立島原高等学校合唱部</choir-name>
+	<conductor>林田朋子</conductor>
+	<piano>田島美帆</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>F. メンデルスゾーン</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ehre sei Gott in der Hohe</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>長崎県立大村高等学校コーラス部</choir-name>
+	<conductor>原口俊夫</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>合唱組曲</p:titlePrefix>
+		<p:mainTitle>心の歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Pacific Ocean</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>純心女子高等学校音楽部</choir-name>
+	<conductor>松本裕子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
