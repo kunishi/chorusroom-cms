@@ -2,7 +2,7 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.37 2000/08/26 04:58:50 kunishi Exp $
+  $Id: result-2000.dtd,v 1.38 2000/09/04 06:13:17 kunishi Exp $
   -->
 
 <![%utfdoc;[
@@ -96,7 +96,7 @@
                 曲目?, 採点結果?, 団体備考?)>
 <!ATTLIST 団体
           出演順 CDATA #IMPLIED
-          大会代表 (yes|no) #REQUIRED
+          大会代表 (yes|no) "no"
           来年度シード (yes) #IMPLIED>
 
 <!ELEMENT 団体名 (#PCDATA)>
