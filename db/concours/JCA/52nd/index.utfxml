@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!-- $Id: index.utfxml,v 1.1 1999/09/23 08:26:07 kunishi Exp $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	       "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
+<!ENTITY % utfspecial "INCLUDE">
+<!ENTITY % ascspecial "IGNORE">
+<!ENTITY index-common SYSTEM "index-common.xml">
+]>
+<html xmlns="http://www.w3.org/TR/xhtml1">
+&index-common;
+</html>

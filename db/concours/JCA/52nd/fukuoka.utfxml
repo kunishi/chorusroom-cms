@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
+<!ENTITY % utfspecial "INCLUDE">
+<!ENTITY % ascspecial "IGNORE">
+<!ENTITY common-doc SYSTEM "fukuoka-common.xml">
+]>
+<大会 略称="fukuoka">
+  <CVSID>$Id: fukuoka.utfxml,v 1.1 1999/09/23 08:26:06 kunishi Exp $</CVSID>
+&common-doc;
+</大会>

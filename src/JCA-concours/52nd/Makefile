@@ -1,22 +1,22 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.23 1999/09/22 03:34:49 kunishi Exp $
+# $Id: Makefile,v 1.24 1999/09/23 08:26:05 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
 UTFTOEUC=	hutrans | tcs -f utf -t ujis
 EUCTOJIS=	nkf
 
-INSTFILES+=	index.html
-INSTFILES+=	aichi.html
-INSTFILES+=	chiba.html
-INSTFILES+=	chugoku.html
-INSTFILES+=	fukuoka.html
-INSTFILES+=	fukushima.html
-INSTFILES+=	hyogo.html
+INSTFILES+=	index.html index.utfhtml
+INSTFILES+=	aichi.html aichi.utfhtml
+INSTFILES+=	chiba.html chiba.utfhtml
+INSTFILES+=	chugoku.html chugoku.utfhtml
+INSTFILES+=	fukuoka.html fukuoka.utfhtml
+INSTFILES+=	fukushima.html fukushima.utfhtml
+INSTFILES+=	hyogo.html hyogo.utfhtml
 INSTFILES+=	kagoshima.html
-INSTFILES+=	kanagawa.html
+INSTFILES+=	kanagawa.html kanagawa.utfhtml
 INSTFILES+=	kyushu.html
 INSTFILES+=	mie.html
 INSTFILES+=	miyagi.html
@@ -25,11 +25,15 @@ INSTFILES+=	yamagata.html
 
 include ${SRCTOPDIR}/config.mk
 
-RESULT_XSL=	result-1999.xsl
-DEFAULT_XSL=	${RESULT_XSL}
+RESULT_XSL=		result-iso2022jp.xsl
+RESULT_XSL_UTF8=	result-utf8.xsl
+DEFAULT_XSL=		${RESULT_XSL}
+DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
 include ${SRCTOPDIR}/rule.mk
 
 index.html: %.html : %.xml ${XHTML10_XSL}
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | \
-	  ${UTF2ASCII} | ${ASCII2EUC} | ${EUC2JIS} > $@
+	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} > $@
+
+index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
+	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@

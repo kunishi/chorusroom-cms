@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
+<![%utfspecial;[
 <!ENTITY % HTMLlat1 PUBLIC
    "-//W3C//ENTITIES Latin1//EN//HTML"
    "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLlat1x.ent">
-%HTMLlat1;
-
+<!-- 
 <!ENTITY % HTMLsymbol PUBLIC
    "-//W3C//ENTITIES Symbols//EN//HTML"
    "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLsymbolx.ent">
 %HTMLsymbol;
-
+-->
 <!ENTITY % HTMLspecial PUBLIC
    "-//W3C//ENTITIES Special//EN//HTML"
    "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLspecialx.ent">
+<!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local.ent">
+]]>
+<![%ascspecial;[
+<!ENTITY % HTMLlat1 SYSTEM "../../latin1-iso2022jp.ent">
+<!ENTITY % HTMLspecial SYSTEM "../../special-iso2022jp.ent">
+<!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local-ascii.ent">
+]]>
+%HTMLlat1;
 %HTMLspecial;
+%SpecialCharacterEnts;
 
 <!ENTITY % LanguageCode "CDATA">
     <!-- a language code, as per [RFC1766] -->
@@ -22,7 +31,7 @@
  "xml:lang    %LanguageCode; #IMPLIED"
   >
 
-<!ELEMENT 大会 (大会名, CVSID, 開催日別結果+)>
+<!ELEMENT 大会 (CVSID, 大会名, 開催日別結果+)>
 <!ATTLIST 大会
           %i18n;
           略称 CDATA #REQUIRED>
