@@ -1,13 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>What's new in 1999.07</title>
   </head>
   <body>
     <h1>新着情報(1999年7月分)</h1>
+    <p>先月までの新着情報は<a href="./" shape="rect">こちらのページ</a>をご覧下さい。</p>
     <ul>
       <li>[リンク集:ひと:作曲家]<a href="http://www3.justnet.ne.jp/~micin/">猪間道明氏のページ</a> (1999.07.30.)</li>
       <li>[リンク集:ひと:作曲家]<a href="http://www.asahi-net.or.jp/~kd2e-kwsk/">川崎絵都夫氏のページ</a> (1999.07.30.)</li>
@@ -27,8 +32,8 @@
       <li>[リンク集:組織:CD]<a href="http://www1.sphere.ne.jp/fukusima/">メディア工房</a> (1999.07.06.)</li>
       <li>[リンク集:合唱団:一般]<a href="http://quodli.wisnet.ne.jp/">コードリベット・コール</a> (1999.07.06.)</li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-    $Date: 1999/07/30 08:16:42 $
+    <hr/>
+    <address><a href="mailto:&kunishi-email;">&kunishi-signature;</a></address>
+    $Date: 1999/08/15 14:56:58 $
   </body>
 </html>

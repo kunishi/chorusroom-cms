@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml versiuon="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>新着情報(1999年8月分)</title>
   </head>
   <body>
@@ -22,8 +27,8 @@
       <li>[リンク集:合唱団:一般]<a href="http://angelfire.com/sc/secoinde">コール・セコインデ</a> (1999.08.05.)</li>
     </ul>
     <p>先月までの新着情報は<a href="./">こちらのページ</a>からたどってください。</p>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-    $Date: 1999/08/14 00:49:26 $
+    <hr/>
+    <address><a href="mailto:&kunishi-email;">&kunishi-signature;</a></address>
+    $Date: 1999/08/15 15:00:55 $
   </body>
 </html>
