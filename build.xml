@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="chorusRoom" default="wholebuild" basedir=".">
 
-  <property name="build" value="build"/>
-  <property name="build.lib" value="${build}/lib"/>
-  <property name="build.xslt" value="${build.lib}/xslt"/>
-  <property name='build.concours' value='${build}/concours'/>
-  <property name='build.genxml' value='${build}/genxml'/>
-  <property name='build.xhtml' value='${build}/xhtml'/>
-  <property name='build.html' value='${build}/html'/>
+  <property file="build.properties"/>
 
-  <property name="src" value="src"/>
-
-  <property name="bin" value="bin"/>
-  <property name="contrib" value="contrib"/>
-  <property name="images" value="images"/>
-  <property name="javasrc" value="java"/>
-  <property name="lib" value="lib"/>
-  <property name="xhtml" value="xhtml"/>
-  <property name="confdir" value="${lib}/conf"/>
-  <property name="cssdir" value="${lib}/css"/>
-  <property name="dtddir" value="${lib}/dtd"/>
-  <property name="namazudir" value="${lib}/namazu"/>
-  <property name="techdir" value="${lib}/tech"/>
-  <property name="xsltdir" value="${lib}/xslt"/>
-  <property name="classdir" value="${build}/java"/>
-
-  <property name="xalan2.bin.dir"
-            value="/usr/local/share/java/xalan-j/bin"/>
   <path id="xalan2.class.path">
     <pathelement location="${xalan2.bin.dir}/xml-apis.jar"/>
     <pathelement location="${xalan2.bin.dir}/xercesImpl.jar"/>
@@ -50,6 +26,7 @@
          location="${dtddir}/resource.dtd"/>
     <dtd publicId="-//CHORUSROOM//DTD CharTable 1.0//JA"
          location="${dtddir}/char-table.dtd"/>
+    <dtd location="/usr/local/share/xml/xhtml/1.0/xhtml1-strict.dtd" publicId="-//W3C//DTD XHTML 1.0 Strict//EN"/>
   </xmlcatalog>
 
   <taskdef name='relaxerDtd' classname='org.chorusroom.ant.RelaxerDTD'>

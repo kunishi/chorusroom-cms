@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.13 2002/09/24 14:56:26 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.14 2003/02/04 11:55:34 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -23,7 +23,7 @@
 
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:template match="*[name()='head']" priority="1.0">
+  <xsl:template match="head" priority="1.0">
     <head>
       <xsl:apply-templates select="@*"/>
       <xsl:call-template name="additional-header"/>
@@ -31,7 +31,7 @@
     </head>
   </xsl:template>
 
-  <xsl:template match="*[name()='body']" priority="1.0">
+  <xsl:template match="body" priority="1.0">
     <body>
       <xsl:call-template name="body-header" />
       <xsl:apply-templates select="@*"/>
@@ -42,8 +42,8 @@
 
   <xsl:template match="*">
     <xsl:element name="{name(.)}" namespace="{namespace-uri(.)}">
+      <xsl:apply-templates select="*|text()"/>
       <xsl:apply-templates select="@*[not(name(.)='xmlns:*')]"/>
-      <xsl:apply-templates select="node()"/>
     </xsl:element>
   </xsl:template>
 
