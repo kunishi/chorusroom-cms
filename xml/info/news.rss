@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/concours.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/concours.html"/>
@@ -23,11 +24,17 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1017/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1015/jca.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/freetalk.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
 
+  <item rdf:about="http://www.chorusroom.org/info/2003/1126/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2003/1126/links.html</link>
+    <description>以下のリンクを更新しました: 文教大学合唱団コール・リンデ(大学・埼玉県、新規)、アルカデルト・コンソート(一般・神奈川県、URL変更)、男声合唱団シャウティング・フォックス(一般・千葉県、URL変更)</description>
+    <dc:date>2003-11-26T23:20</dc:date>
+  </item>
+  
   <item rdf:about="http://www.chorusroom.org/info/2003/1126/concours.html">
     <title>全日本合唱コンクール(大学・職場・一般)の結果詳細掲載</title>
     <link>http://www.chorusroom.org/info/2003/1126/concours.html</link>
@@ -148,219 +155,4 @@
     <dc:date>2003-10-14</dc:date>
   </item>
 
-  <item rdf:about="http://www.chorusroom.org/info/2003/1014/freetalk.html">
-    <title>本日の雑文(10/14分)</title>
-    <link>http://www.chorusroom.org/info/2003/1014/freetalk.html</link>
-    <description>
-      10/14、NHK全国学校音楽コンクールの日。当サイトにとっても大変な一
-      日となりました。その顛末の一部始終を書いてみました。
-    </description>
-    <dc:date>2003-10-14</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1013/nhk.html">
-    <title>NHK全国学校音楽コンクール・高等学校の部の結果</title>
-    <link>http://www.chorusroom.org/info/2003/1013/nhk.html</link>
-    <description>
-      10月13日に行われたNHK全国学校音楽コンクール・高等学校の部の結果
-      の速報です。
-    </description>
-    <dc:date>2003-10-13</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1013/nhk-notice.html">
-    <title>NHK全国学校音楽コンクールの結果</title>
-    <link>http://www.chorusroom.org/info/2003/1013/nhk-notice.html</link>
-    <description>
-      小学・中学の部は録画をし損ねまして、NHKの公式ページから結果を転
-      載しました。高校の部はリアルタイムで見ていますので、速報が流せる
-      と思います(17:20頃?)。
-    </description>
-    <dc:date>2003-10-13</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1012/kansai.html">
-    <title>第58回関西合唱コンクール(一般)の結果掲載</title>
-    <link>http://www.chorusroom.org/info/2003/1012/kansai.html</link>
-    <description>
-      10月12日に行われた第58回関西合唱コンクール一般部門の結果を掲載し
-      ました。
-    </description>
-    <dc:date>2003-10-12</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1009/links.html">
-    <title>リンク集の更新</title>
-    <link>http://www.chorusroom.org/info/2003/1009/links.html</link>
-    <description>
-      以下のリンクを更新しました: 早稲田大学高等学院グリークラブ
-    </description>
-    <dc:date>2003-10-09</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1006/chubu.html">
-    <title>第56回中部合唱コンクールの曲目掲載</title>
-    <link>http://www.chorusroom.org/info/2003/1006/chubu.html</link>
-    <description>
-      第56回中部合唱コンクールの結果に演奏曲目を追加しました。
-    </description>
-    <dc:date>2003-10-06</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1006/links.html">
-    <title>リンク集の更新</title>
-    <link>http://www.chorusroom.org/info/2003/1006/links.html</link>
-    <description>以下のリンクを更新しました: Lux aeterna (一般・栃木、
-    新規)</description>
-    <dc:date>2003-10-06</dc:date>
-  </item>
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/info/2003/1005/kanto.html">
-    <title>関東合唱コンクール(職場・一般)</title>
-    <link>http://www.chorusroom.org/info/2003/1005/kanto.html</link>
-    <description>
-      10月5日に行われた関東合唱コンクール(職場・一般部門)の結果を掲載
-      しました。
-    </description>
-    <dc:date>2003-10-05</dc:date>
-  </item>
-  -->
-
-  <!--
-  <item rdf:about="http://www.chorusroom.org/info/2003/1005/links.html">
-    <title>リンク集の更新</title>
-    <link>http://www.chorusroom.org/info/2003/1005/links.html</link>
-    <description>
-      以下の2件のリンクを更新しました: 東京学芸大学混声合唱団(URL変更)、
-      ぎふジュニアヴォーカルアンサンブル(新規)
-    </description>
-    <dc:date>2003-10-05</dc:date>
-  </item>
-  -->
-
-  <!--
-  <item rdf:about="http://www.chorusroom.org/info/2003/1002/design.html">
-    <title>サイトデザインのリニューアル</title>
-    <link>http://www.chorusroom.org/info/2003/1002/design.html</link>
-    <description>
-      長らく手をつけていなかったサイトデザインを大幅にリニューアルしま
-      した。
-    </description>
-    <dc:date>2003-10-02T07:00</dc:date>
-  </item>
-  -->
-
-  <!--
-  <item rdf:about="http://www.chorusroom.org/info/2003/0929/kansai.html">
-    <title>第56回関西合唱コンクール(中高)の採点表</title>
-    <link>http://www.chorusroom.org/info/2003/0929/kansai.html</link>
-    <description>
-      9月23日に行われた第56回関西合唱コンクール(中高)の採点表を掲載し
-      ました。
-    </description>
-    <dc:date>2003-09-29T23:30</dc:date>
-  </item>
-  -->
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/info/2003/0929/chubu.html">
-    <title>第56回中部合唱コンクールの結果</title>
-    <link>http://www.chorusroom.org/info/2003/0929/chubu.html</link>
-    <description>
-      9月27・28日に行われた第56回中部合唱コンクールの結果です。
-    </description>
-    <dc:date>2003-09-29T22:30</dc:date>
-  </item>
-  -->
-
-  <!--
-  <item rdf:about="http://www.chorusroom.org/info/2003/0927/hokkaido.html">
-    <title>第54回北海道合唱コンクール(高校)の結果</title>
-    <link>http://www.chorusroom.org/info/2003/0927/hokkaido.html</link>
-    <description>
-      9月23日に行われた第54回北海道合唱コンクールのうち、高等学校部門
-      の結果を掲載しました。帯広三条高、札幌北高が全国大会出場となりま
-      した。
-    </description>
-    <dc:date>2003-09-27T12:00</dc:date>
-  </item>
-  -->
-
-  <!--
-  <item rdf:about="http://www.chorusroom.org/info/2003/0927/freetalk.html">
-    <title>本日の雑文</title>
-    <link>http://www.chorusroom.org/info/2003/0927/freetalk.html</link>
-    <description>
-      メインページに掲載しにくい情報などを日記風に書いてみます。今回は
-      JCAコンクール東北大会(高校)の速報が中心です。
-    </description>
-    <dc:date>2003-09-27T11:00</dc:date>
-  </item>
-  -->
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/info/2003/0926/rss.html">
-    <title>RSSによる新着情報配信を開始しました</title>
-    <link>http://www.chorusroom.org/info/2003/0926/rss.html</link>
-    <description>
-      最近注目を集めているコンテンツ配信フォーマットRSSを用いて、新着
-      情報を配信するようにしました。
-    </description>
-    <dc:date>2003-09-26T22:00</dc:date>
-  </item>
-  -->
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml">
-    <title>第42回中国合唱コンクール(第2日)</title>
-    <link>http://www.chorusroom.org/concours/JCA/56th/chugoku-20030921.xhtml</link>
-    <description>
-      9月21日に行われた中国支部大会(中学・一般)の結果です。島根大学附属中、島根第三中、出雲第一中、女声合唱団フィオーリ、ゾリステン・アンサンブル、合唱団あるが代表になりました。賞のみ。
-    </description>
-    <dc:date>2003-09-26</dc:date>
-  </item>
-  -->
-
-  <!--
-  <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml">
-    <title>第42回中国合唱コンクール(第1日)</title>
-    <link>http://www.chorusroom.org/concours/JCA/56th/chugoku-20030920.xhtml</link>
-    <description>
-      9月20日に行われた中国支部大会(高校・大学・職場)の結果です。出雲高、安田女子高、松江北高、山口大、広島市役所合唱団が代表になりました。賞のみ。
-    </description>
-    <dc:date>2003-09-26</dc:date>
-  </item>
-  -->
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/info/2003/0926/renewal.html">
-    <title>合唱団リンク集の改良</title>
-    <link>http://www.chorusroom.org/info/2003/0926/renewal.html</link>
-    <description>
-      合唱団ごとに個別のページを作り、Google検索の機能を追加しました。リンク切れ、サイト内検索などにご利用ください。
-    </description>
-    <dc:date>2003-09-25</dc:date>
-  </item>
-  -->
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/info/2003/0925/linkupdate.html">
-    <title>本日のリンク更新情報</title>
-    <link>http://www.chorusroom.org/info/2003/0925/linkupdate.html</link>
-    <description>
-      東京大学柏葉会合唱団(大学・東京、URL変更)、男声合唱団イル・カンパニーレ(一般・埼玉、URL変更)
-    </description>
-    <dc:date>2003-09-24</dc:date>
-  </item>
-  -->
-
-  <!-- 
-  <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml">
-    <title>第56回関西コンクール(中学校・高等学校部門)</title>
-    <link>http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml</link>
-    <description>2003年9月23日に行われた、全日本合唱コンクール関西大会中学・高校の部の結果です。長峰中、立花中、武庫川女中、灘中、淀川工高、武庫川女高、西城陽高が代表になりました。</description>
-    <dc:date>2003-09-24</dc:date>
-  </item>
-  -->
 </rdf:RDF>
