@@ -1,4 +1,4 @@
-require 'Time'
+# require 'Time'
 require 'KindTag'
 
 class ChoirId
