@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.34 1999/10/05 04:43:53 kunishi Exp $
+# $Id: GNUmakefile,v 1.35 1999/10/14 03:34:52 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -18,11 +18,15 @@ INSTFILES+=	chubu-09-25.html chubu-09-25.utfhtml \
 INSTFILES+=	chugoku.html chugoku.utfhtml
 INSTFILES+=	fukuoka.html fukuoka.utfhtml
 INSTFILES+=	fukushima.html fukushima.utfhtml
+INSTFILES+=	hokkaido.html hokkaido.utfhtml \
+		hokkaido-saiten.html hokkaido-saiten.utfhtml
 INSTFILES+=	hyogo.html hyogo.utfhtml
 INSTFILES+=	kagoshima.html kagoshima.utfhtml
 INSTFILES+=	kanagawa.html kanagawa.utfhtml
 INSTFILES+=	kansai-09-23.html kansai-09-23.utfhtml
 INSTFILES+=	kansai-09-23-saiten.html kansai-09-23-saiten.utfhtml
+INSTFILES+=	kanto.html kanto.utfhtml \
+		kanto-saiten.html kanto-saiten.utfhtml
 INSTFILES+=	kyushu.html kyushu.utfhtml
 INSTFILES+=	mie.html mie.utfhtml
 INSTFILES+=	miyagi.html miyagi.utfhtml
@@ -73,4 +77,6 @@ chubu-09-25.utfhtml:
 chubu-09-25-saiten.utfhtml:
 chubu-09-26.utfhtml:
 chubu-09-26-saiten.utfhtml:
+hokkaido-saiten.utfhtml:
 kansai-09-23-saiten.utfhtml:
+kanto-saiten.utfhtml:
