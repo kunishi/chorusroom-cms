@@ -2,15 +2,15 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.32 2000/07/17 15:18:20 kunishi Exp $
+  $Id: result-2000.dtd,v 1.33 2000/08/06 02:53:50 kunishi Exp $
   -->
 
 <![%utfdoc;[
 <!ENTITY % HTMLlat1 PUBLIC
-   "-//W3C//ENTITIES Latin1//EN//HTML"
+   "-//W3C//ENTITIES Latin1 for XHTML//EN//HTML"
    "http://localhost/DTD/xhtml/1.0/xhtml-lat1.ent">
 <!ENTITY % HTMLspecial PUBLIC
-   "-//W3C//ENTITIES Special//EN//HTML"
+   "-//W3C//ENTITIES Special for XHTML//EN//HTML"
    "http://localhost/DTD/xhtml/1.0/xhtml-special.ent">
 <!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local.ent">
 ]]>
