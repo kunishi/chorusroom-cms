@@ -3,8 +3,10 @@
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.w3.org/TR/REC-html40">
   <xsl:output method="html"
+	      indent="no"
 	      encoding="iso-2022-jp"
 	      doctype-public="-//W3C//DTD HTML 4.01//EN"
-              doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
+              doctype-system="http://www.w3.org/TR/html4/strict.dtd"
+              omit-xml-declaration="yes"/>
   <xsl:include href="xhtml10-common.xsl"/>
 </xsl:stylesheet>
