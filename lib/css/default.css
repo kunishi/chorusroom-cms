@@ -1,4 +1,4 @@
-/* $Id: default.css,v 1.9 2002/09/24 09:01:53 kunishi Exp $ */
+/* $Id: default.css,v 1.10 2002/09/24 09:07:49 kunishi Exp $ */
 
 body { background-color: #FFFBF0;
        color: black;
@@ -6,9 +6,10 @@ body { background-color: #FFFBF0;
        margin-right: 10%;
        line-height: 130%;
        }
-h1 { text-align: center;
-     margin-top: 1em;
-     margin-bottom: 0.5em; }
+h1, h2, h3 { color: #005A9C }
+h1 { margin-left: -8%; }
+h2 { margin-left: -4%; }
+h3 { margin-left: -2%; }
 a:link { color: rgb(0,0,204); }
 a:visited { color: rgb(102, 0, 0); }
 
