@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
-<!-- $Id: choir-piece.rxm,v 1.11 2001/02/02 11:46:18 kunishi Exp $ -->
+<!-- $Id: choir-piece.rxm,v 1.12 2001/08/19 14:16:47 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/piece" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface>
-    <import label="specialCharacters"/>
     <export label="piece"/>
     <export label="suite"/>
   </interface>
@@ -17,7 +16,7 @@
   </tag>
   <elementRule role="originated-from">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -27,7 +26,7 @@
   </tag>
   <elementRule role="words-by">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -36,7 +35,7 @@
   </tag>
   <elementRule role="translated-by">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -45,7 +44,7 @@
   </tag>
   <elementRule role="composed-by">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -54,7 +53,7 @@
   </tag>
   <elementRule role="arranged-by">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -77,7 +76,7 @@
   </tag>
   <elementRule role="titlePrefix">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -85,7 +84,7 @@
   </tag>
   <elementRule role="mainTitle">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -93,7 +92,7 @@
   </tag>
   <elementRule role="titleSuffix">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
@@ -138,14 +137,14 @@
   <tag name="piece-number"/>
   <elementRule role="piece-number">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 
   <tag name="piece-note"/>
   <elementRule role="piece-note">
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters"/>
     </mixed>
   </elementRule>
 

@@ -4,7 +4,6 @@
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.w3.org/1999/xhtml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface>
     <export label="html"/>
-    <import role="specialCharacters"/>
   </interface>
 
   <tag name="html">
@@ -97,7 +96,7 @@
   <elementRule role="title" type="string"/>
 
   <tag name="base">
-    <attribute name="href" type="uriReference"/>
+    <attribute name="href" type="anyURI"/>
   </tag>
   <elementRule role="base">
     <empty/>
@@ -306,7 +305,7 @@
   <elementRule role="div">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -388,7 +387,7 @@
   <elementRule role="p">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -452,7 +451,7 @@
   <elementRule role="h1">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -516,7 +515,7 @@
   <elementRule role="h2">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -580,7 +579,7 @@
   <elementRule role="h3">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -644,7 +643,7 @@
   <elementRule role="h4">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -708,7 +707,7 @@
   <elementRule role="h5">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -772,7 +771,7 @@
   <elementRule role="h6">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -888,7 +887,7 @@
   <elementRule role="li">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -999,7 +998,7 @@
   <elementRule role="dt">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1063,7 +1062,7 @@
   <elementRule role="dd">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -1145,7 +1144,7 @@
   <elementRule role="address">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1238,7 +1237,7 @@
   <elementRule role="pre">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1346,7 +1345,7 @@
   <elementRule role="ins">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -1430,7 +1429,7 @@
   <elementRule role="del">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -1530,7 +1529,7 @@
   <elementRule role="a">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="br"/>
         <ref label="span"/>
         <ref label="bdo"/>
@@ -1593,7 +1592,7 @@
   <elementRule role="span">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1657,7 +1656,7 @@
   <elementRule role="bdo">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1731,7 +1730,7 @@
   <elementRule role="em">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1795,7 +1794,7 @@
   <elementRule role="strong">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1859,7 +1858,7 @@
   <elementRule role="dfn">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1923,7 +1922,7 @@
   <elementRule role="code">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -1987,7 +1986,7 @@
   <elementRule role="samp">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2051,7 +2050,7 @@
   <elementRule role="kbd">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2115,7 +2114,7 @@
   <elementRule role="var">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2179,7 +2178,7 @@
   <elementRule role="cite">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2243,7 +2242,7 @@
   <elementRule role="abbr">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2307,7 +2306,7 @@
   <elementRule role="acronym">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2372,7 +2371,7 @@
   <elementRule role="q">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2436,7 +2435,7 @@
   <elementRule role="sub">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2500,7 +2499,7 @@
   <elementRule role="sup">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2564,7 +2563,7 @@
   <elementRule role="tt">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2628,7 +2627,7 @@
   <elementRule role="i">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2692,7 +2691,7 @@
   <elementRule role="b">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2756,7 +2755,7 @@
   <elementRule role="big">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2820,7 +2819,7 @@
   <elementRule role="small">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -2899,7 +2898,7 @@
   <elementRule role="object">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="param"/>
         <ref label="p"/>
         <ref label="h1"/>
@@ -3189,7 +3188,7 @@
   <elementRule role="label">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -3456,7 +3455,7 @@
   <elementRule role="fieldset">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="legend"/>
         <ref label="p"/>
         <ref label="h1"/>
@@ -3540,7 +3539,7 @@
   <elementRule role="legend">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -3618,7 +3617,7 @@
   <elementRule role="button">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -3753,7 +3752,7 @@
   <elementRule role="caption">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="a"/>
         <ref label="br"/>
         <ref label="span"/>
@@ -4096,7 +4095,7 @@
   <elementRule role="th">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>
@@ -4204,7 +4203,7 @@
   <elementRule role="td">
     <mixed>
       <choice occurs="*">
-	<importedLabelRef label="specialCharacters"/>
+	<hedgeRef label="specialCharacters"/>
         <ref label="p"/>
         <ref label="h1"/>
         <ref label="h2"/>

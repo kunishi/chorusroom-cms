@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: nhk-contest-result.rxm,v 1.6 2001/02/04 02:04:35 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.rxm,v 1.7 2001/08/19 14:17:05 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
@@ -19,7 +19,7 @@
       <attribute name="instrument" type="string"/>
     </tag>
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters" occurs="?"/>
     </mixed>
   </elementRule>
 
@@ -29,7 +29,7 @@
       <attribute name="xml:lang" type="language"/>
     </tag>
     <mixed>
-      <importedLabelRef label="specialCharacters"/>
+      <hedgeRef label="specialCharacters" occurs="?"/>
     </mixed>
   </elementRule>
 
@@ -62,7 +62,7 @@
   <elementRule role="pieceRef" label="pieceRefNHKConcours">
     <tag name="pieceRef">
       <ref role="given-program-list"/>
-      <attribute name="href" required="true" type="uriReference"/>
+      <attribute name="href" required="true" type="anyURI"/>
     </tag>
     <empty/>
   </elementRule>

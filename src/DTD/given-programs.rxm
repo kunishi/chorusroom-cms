@@ -3,7 +3,6 @@
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
-    <import label="choirPiece"/>
     <export label="givenPrograms"/>
   </interface>
 
@@ -26,7 +25,7 @@
   <elementRule role="givenProgram">
     <sequence>
       <ref label="givenProgramNumber"/>
-      <importedLabelRef label="choirPiece"/>
+      <hedgeRef label="choirPiece"/>
     </sequence>
   </elementRule>
 
