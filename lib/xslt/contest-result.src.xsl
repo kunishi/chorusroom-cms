@@ -96,6 +96,8 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template match="c:cvs-id"></xsl:template>
+
   <xsl:template match="c:date">
     <xsl:value-of select="."/>
     <xsl:text>(</xsl:text>
@@ -301,14 +303,13 @@
   <xsl:template match="c:choir">
     <xsl:param name="top" select="/"/>
     <xsl:apply-templates select="c:choir-name"/>
+    <xsl:call-template name="choir-attr-list"/>
+    <xsl:call-template name="special-prize-list"/>
+    <br/>
     <xsl:call-template name="choir-data">
       <xsl:with-param name="top" select="$top"/>
     </xsl:call-template>
     <xsl:apply-templates select="c:choir-note"/>
-    <p>
-      <xsl:call-template name="choir-attr-list"/>
-      <xsl:call-template name="special-prize-list"/>
-    </p>
     <xsl:apply-templates select="c:program"/>
   </xsl:template>
 
@@ -324,7 +325,7 @@
   </xsl:template>
 
   <xsl:template match="c:choir-name">
-    <h4>
+    <span class="choir-name">
       <xsl:choose>
         <xsl:when test="@url">
           <xsl:element name="a">
@@ -338,7 +339,7 @@
           <xsl:apply-templates/>
         </xsl:otherwise>
       </xsl:choose>
-    </h4>
+    </span>
   </xsl:template>
 
   <xsl:template name="choir-data">
@@ -476,23 +477,29 @@
 
   <xsl:template name="choir-attr-list">
     <xsl:if test="@representative='true'">
-      <xsl:text> [代表] </xsl:text>
+      <em>
+	<xsl:text> [代表] </xsl:text>
+      </em>
     </xsl:if>
     <xsl:if test="@seed='true'">
-      <xsl:text> [シード団体] </xsl:text>
+      <em>
+	<xsl:text> [シード団体] </xsl:text>
+      </em>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="special-prize-list">
     <xsl:if test="c:special-prize">
-      <xsl:text> [</xsl:text>
-      <xsl:for-each select="c:special-prize">
-	<xsl:apply-templates/>
-	<xsl:if test="not(position()=last())">
-	  <xsl:text>、</xsl:text>
-	</xsl:if>
-      </xsl:for-each>
-      <xsl:text>]</xsl:text>
+      <em>
+	<xsl:text> [</xsl:text>
+	<xsl:for-each select="c:special-prize">
+	  <xsl:apply-templates/>
+	  <xsl:if test="not(position()=last())">
+	    <xsl:text>、</xsl:text>
+	  </xsl:if>
+	</xsl:for-each>
+	<xsl:text>]</xsl:text>
+      </em>
     </xsl:if>
   </xsl:template>
   <xsl:template match="c:special-prize">

@@ -26,7 +26,8 @@
          location="${dtddir}/resource.dtd"/>
     <dtd publicId="-//CHORUSROOM//DTD CharTable 1.0//JA"
          location="${dtddir}/char-table.dtd"/>
-    <dtd location="/usr/local/share/xml/xhtml/1.0/xhtml1-strict.dtd" publicId="-//W3C//DTD XHTML 1.0 Strict//EN"/>
+    <dtd location="/usr/local/share/xml/xhtml1/xhtml1-strict.dtd"
+	 publicId="-//W3C//DTD XHTML 1.0 Strict//EN"/>
   </xmlcatalog>
 
   <!--
@@ -181,7 +182,7 @@
     depends='prepare.xml.jca, prepare.xml.nhk, prepare.xml.generic'/>
 
   <target name='prepare.xml.jca'>
-    <xslt basedir='db/concours/JCA' destdir='${build.genxml}/concours/JCA'
+    <xslt basedir='db/concours/JCA' destdir='${build.genxml}/JCA/'
       style='${lib}/xslt.build/jca-contest-result-build.xsl'
       extension='.xml' processor='trax'
       includes='**/*.xml' excludes='**/lib/*.xml'
@@ -191,33 +192,33 @@
       <param name='outDir' expression='Redirect/'/>
     </xslt>
     <copy todir="${build.concours}/JCA">
-      <fileset dir="${build.genxml}/concours/JCA">
-        <include name='**/Redirect/*.xml'/>
+      <fileset dir="${build.genxml}/JCA">
+	<include name="**/Redirect/*.xml"/>
       </fileset>
-      <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
+      <mapper type="regexp" from="^(.*[/\\])Redirect[/\\](.*.xml)$$" to="\1\2"/>
     </copy>
   </target>
 
   <target name='prepare.xml.nhk'>
-    <xslt basedir='db/concours/NHK' destdir='${build.genxml}/concours/NHK'
+    <xslt basedir='db/concours/NHK' destdir='${build.genxml}/NHK/'
       style='${lib}/xslt.build/contest-result-build.xsl'
       extension='.xml' processor='trax'
       includes='**/*.xml' excludes='**/lib/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='docBaseURI' expression='${basedir}/db/concours/NHK/lib/'/>
-      <param name='outDir' expression='Redirect/'/>
+      <param name='outDir' expression='../'/>
     </xslt>
     <copy todir="${build.concours}/NHK">
-      <fileset dir="${build.genxml}/concours/NHK">
+      <fileset dir="${build.genxml}/NHK">
         <include name='**/Redirect/*.xml'/>
       </fileset>
-      <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
+      <mapper type="regexp" from="^(.*[/\\])Redirect[/\\](.*.xml)$$" to="\1\2"/>
     </copy>
   </target>
 
   <target name='prepare.xml.generic'>
-    <xslt basedir='db/concours' destdir='${build.genxml}/concours'
+    <xslt basedir='db/concours' destdir='${build.genxml}/concours/'
       style='${lib}/xslt.build/contest-result-build.xsl'
       extension='.xml' processor='trax'
       includes='**/*.xml'
@@ -229,11 +230,9 @@
     </xslt>
     <copy todir="${build.concours}">
       <fileset dir="${build.genxml}/concours">
-        <include name='**/Redirect/*.xml'/>
-        <exclude name='**/JCA/**/Redirect/*.xml'/>
-        <exclude name='**/NHK/**/Redirect/*.xml'/>
+	<include name='**/Redirect/*.xml'/>
       </fileset>
-      <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
+      <mapper type="regexp" from="^(.*[/\\])Redirect[/\\](.*.xml)$$" to="\1\2"/>
     </copy>
   </target>
 
@@ -305,7 +304,7 @@
     <xslt basedir='${build.concours}' destdir='${build.xhtml}/concours'
       style='${build.xslt}/contest-result.utf8.xsl'
       extension='.xml' processor='trax'
-      includes='**/*.xml'
+      includes='**/*.xml' excludes='**/Trash/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>
@@ -327,7 +326,7 @@
 
   <!-- finalize -->
   <target name='finalize'
-          depends='finalize.html, finalize.copysrc'/>
+          depends='finalize.html, finalize.copysrc, finalize.fixmod'/>
 
   <target name='finalize.html' depends='build.xhtml'>
     <xslt basedir='${build.xhtml}' destdir='${build.html}'
@@ -355,17 +354,32 @@
 	<include name="**/*.png"/>
       </fileset>
     </copy>
+    <!--
     <copy todir="${build.html}/namazu">
       <fileset dir="${lib}/namazu">
         <include name="**/*"/>
       </fileset>
     </copy>
+    -->
     <copy todir="${build.html}/style">
       <fileset dir="${lib}/css">
         <include name="*.css"/>
       </fileset>
     </copy>
     <copy file="${lib}/conf/htaccess" tofile="${build.html}/.htaccess"/>
+  </target>
+
+  <target name="finalize.fixmod">
+    <chmod perm="go+r" type="file">
+      <fileset dir="${build.html}">
+	<include name="**/*"/>
+      </fileset>
+    </chmod>
+    <chmod perm="go+rx" type="dir">
+      <fileset dir="${build.html}">
+	<include name="**/*"/>
+      </fileset>
+    </chmod>
   </target>
 
   <!-- clean -->
