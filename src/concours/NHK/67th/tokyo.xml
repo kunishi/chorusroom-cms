@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: tokyo.xml,v 1.5 2001/01/24 02:46:40 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: tokyo.xml,v 1.6 2001/01/24 03:02:27 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">平成12年度(第67回) NHK全国学校音楽コンクール東京都コンクール</competition-name>
   <result output="tokyo-preliminary-a">
     <date day-of-week="mon" holiday="false">2000-07-31</date>
@@ -2294,7 +2294,7 @@
 	    <p:suite>
 	      <p:words-by>高田敏子</p:words-by>
 	      <p:composed-by>三善晃</p:composed-by>
-	      <p:title original="true">
+	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>合唱組曲</p:titlePrefix>
 		<p:mainTitle>五つの童画</p:mainTitle>
 	      </p:title>
