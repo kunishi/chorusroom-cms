@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+ <cvs-id>$Id: ticc-2002.xml,v 1.1 2002/08/07 14:30:50 kunishi Exp $</cvs-id>
+ <competition-name pref="false" area="false">第19回宝塚室内合唱コンクー
+ ル</competition-name>
+ <result output="ticc-2002">  <date day-of-week="sat" holiday="false">2002-07-27</date>
+  <hall>宝塚ベガ・ホール</hall>
+  <referee shortname="Chang" job="合唱指揮者" country="大韓民国">Jakob Y. Chang</referee>
+  <referee shortname="長谷川" job="合唱指揮者">長谷川冴子</referee>
+  <referee shortname="磯山" job="音楽評論家">磯山雅</referee>
+  <referee shortname="日下部" job="音楽評論家">日下部吉彦</referee>
+  <referee shortname="松下" job="作曲家">松下耕</referee>
+  <referee shortname="Rossler" job="カントゥール" country="ドイツ">Almut Rossler</referee>
+  <referee shortname="洲脇" job="合唱指揮者">洲脇光一</referee>
+  <referee shortname="浦山" job="声楽家">浦山弘三</referee>
+  <reporter anonymous="false">
+   <reporter-name>あおやぎやすひろ</reporter-name>
+   <reporter-email anonymous="false">yach@msj.biglobe.ne.jp</reporter-email>
+  </reporter>
+  <section>
+   <section-name>女声合唱の部</section-name>
+   <choir representative="false" seed="false">
+    <choir-name>モラン女声合唱団</choir-name>
+    <prefecture>イスラエル</prefecture>
+    <conductor>Naomi Faran</conductor>
+    <piano>Shay Cohen</piano>
+    <prize nickname="gold">金賞</prize>
+    <special-prize>総合1位</special-prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Tzvi Avni</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Makhelorka</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>The shout</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Crotalo</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>B. Sharabi</p:composed-by>
+       <p:arranged-by>G. Aldema</p:arranged-by>
+       <p:title original="true">
+	<p:mainTitle>To Give</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>M. Weiner</p:composed-by>
+       <p:arranged-by>L. Berustein</p:arranged-by>
+       <p:title original="true">
+	<p:mainTitle>Rejoice</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>アコール《EST》</choir-name>
+    <prefecture>三重県</prefecture>
+    <conductor>向井正雄</conductor>
+    <prize nickname="silver">銀賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Francis Poulenc</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>La Petite Fille Sage</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Kocsar Miklos</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Salve Regina</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>大阪府立清水谷高校合唱部</choir-name>
+    <prefecture>大阪府</prefecture>
+    <conductor>託磨眞樹子</conductor>
+    <prize nickname="silver">銀賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Nere Sukaldetxoan</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Gauaren zergatiaren bila</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Zai itxoiten</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Mundi renovatio</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>PRO MUSICA VIVA</choir-name>
+    <prefecture>岐阜県</prefecture>
+    <conductor>雨森文也</conductor>
+    <prize nickname="silver">銀賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>John Dowland</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Come again! Sweet love doth now invite</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>R. Murray Schafer</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Miniwanka</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>Tokyo La vie en Ch<cr:utf8-char nickname="oelig">oe</cr:utf8-char>ur</choir-name>
+    <prefecture>東京都</prefecture>
+    <conductor>岸信介</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Josef Wolfgang Ziegler</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Missa Pro Juventute</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Gloria</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>松下耕</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Ave Maria</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Giordano Fermi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Momenti Musicali</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Exsultate Justi</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>花の環コーラス</choir-name>
+    <prefecture>千葉県</prefecture>
+    <conductor>田村茂</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Ambroz Copi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Due pezzi sacri</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Ave Maria</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Zutaz</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>浜田少年少女合唱団S&amp;S</choir-name>
+    <prefecture>島根県</prefecture>
+    <conductor>真田節子</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Giordano Fermi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Momenti Musicali</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Fu-Fu</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Scherzo</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Himnus</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Exsultate Justi</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>Le Ch<cr:utf8-char nickname="ecirc">e</cr:utf8-char>ne</choir-name>
+    <prefecture>奈良県</prefecture>
+    <conductor>上西一郎</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>J. Guy Ropartz</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Deux Ch<cr:utf8-char nickname="oelig">oe</cr:utf8-char>urs</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Tout vient a poinct qui peult attendre...</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Les Fourriers d'Este sont venuz...</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Albert Roussel</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Madrigal aux Muses</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>女声合唱団コーロ・アロードラ</choir-name>
+    <prefecture>兵庫県</prefecture>
+    <conductor>藤原桂子</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Salve Regina</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Gyorgy Orban</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Lauda Sion</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>仁川女性文化センター合唱団</choir-name>
+    <prefecture>大韓民国</prefecture>
+    <conductor>Kim Han-Choul</conductor>
+    <piano>Kim Myung Ok</piano>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>素月</p:composed-by>
+       <p:title original="true" xml:lang="ja">
+	<p:mainTitle>春の花詩</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Andre Caplet</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Gloria</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>アンサンブル・ピノ</choir-name>
+    <prefecture>神奈川県</prefecture>
+    <conductor>松村努</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Alimu! Alimu!</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Zapata txuriak</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Zutaz</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>プラバ・ミューズコール</choir-name>
+    <prefecture>島根県</prefecture>
+    <conductor>勝部俊行</conductor>
+    <piano>代香織</piano>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:arranged-by>中川いずみ</p:arranged-by>
+       <p:title original="true" xml:lang="ja">
+	<p:mainTitle>ホーハイ節</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:arranged-by>中川いずみ</p:arranged-by>
+       <p:title original="true" xml:lang="ja">
+	<p:mainTitle>谷茶前</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:arranged-by>中川いずみ</p:arranged-by>
+       <p:title original="true" xml:lang="ja">
+	<p:mainTitle>南部牛追唄</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+  </section>
+  <section>
+   <section-name>男声合唱の部</section-name>
+   <choir representative="false" seed="false">
+    <choir-name>男声合唱団FREIE KUNST</choir-name>
+    <conductor>米山辰郎</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Ambroz Copi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>De Maria Virgine</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Totus tuus</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Kaj-Erik Gustafsson</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>De Profundis</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>OAKシンガーズ</choir-name>
+    <prefecture>奈良県</prefecture>
+    <conductor>上西一郎</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>C. Saint-Saens</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Hymne au Printemps</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>Sophia Voice Ensemble</choir-name>
+    <prefecture>東京都</prefecture>
+    <conductor>太田努</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Franz Peter Schubert</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Die Nacht</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Jean Sibelius</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Terve Kuu</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>ヤマハ室内合唱団</choir-name>
+    <prefecture>静岡県</prefecture>
+    <conductor>松木温</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Pablo Casals</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>O Vos Omnes</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Ambroz Copi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>De Maria Virgine</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Totus tuus</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Vytautas Miskinis</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Ave Regina coelorum</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+  </section>
+  <section>
+   <section-name>混声合唱の部</section-name>
+   <choir representative="false" seed="false">
+    <choir-name>あふみヴォーカルアンサンブル</choir-name>
+    <prefecture>滋賀県</prefecture>
+    <prize nickname="gold">金賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>William Byrd</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Ave Verum Corpus</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Clement Janequin</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Le chant des oyseaux</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>《EST》シンガーズ</choir-name>
+    <prefecture>三重県</prefecture>
+    <conductor>向井正雄</conductor>
+    <prize nickname="gold">金賞</prize>
+    <special-prize>総合2位</special-prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>A. Lotti</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Crucifixus</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Frank Martin</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Songs of Ariel From Shakespeare's Tempest</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>合唱団まい</choir-name>
+    <prefecture>長野県</prefecture>
+    <conductor>雨森文也</conductor>
+    <prize nickname="gold">金賞</prize>
+    <special-prize>総合3位</special-prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claudio Monteverdi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Ecco mormorar londe</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claudio Monteverdi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Oime il bel viso</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>TWILIGHT BELLS</choir-name>
+    <prefecture>大阪府</prefecture>
+    <prize nickname="silver">銀賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Svend S. Schultz</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Min ode</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Vagn Holmboe</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Tidligt forar</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Jorgen Jersild</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Sylvius er dog tilfreds</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>コールONE</choir-name>
+    <prefecture>岐阜県</prefecture>
+    <conductor>鈴木捺香子</conductor>
+    <prize nickname="silver">銀賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Trond H. F. Kverno</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Ave Maria</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Knut Nystedt</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>If You Receive My Words</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>島根県立浜田高等学校合唱部</choir-name>
+    <prefecture>島根県</prefecture>
+    <conductor>山崎勝</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claudio Monteverdi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Si ch'io vorrei morire</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claudio Monteverdi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Jo mi son giovinetta</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>Ch<cr:utf8-char nickname="oelig">oe</cr:utf8-char>ur
+    Ch<cr:utf8-char nickname="ecirc">e</cr:utf8-char>ne</choir-name>
+    <prefecture>奈良県</prefecture>
+    <conductor>上西一郎</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Pierre Certon</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>La la la, je ne lo</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>Maurice Durufle</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Quatre Motets</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Ubi caritas</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Tu es Petrus</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Tantum ergo</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Pierre Villette</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>O Salutaris</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>室内合唱団Ensemble HEMELS</choir-name>
+    <prefecture>兵庫県</prefecture>
+    <conductor>井上一郎</conductor>
+    <prize nickname="blonze">銅賞</prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claude Goudemel</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Gloria In Excelsis</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Orlandus Lassus</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>La nuit froide et sombre</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Pierre Passereau</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Il est bel et bon</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>アンサンブル・ベル</choir-name>
+    <prefecture>東京都</prefecture>
+    <conductor>高牧康</conductor>
+    <accompaniment instrument="アーチリュート">田村仁良</accompaniment>
+    <accompaniment instrument="アルバドッピア">真野めぐみ</accompaniment>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Orlando di Lasso</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Tutto lo di mi dici</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Orlando di Lasso</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Canta, canta!</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Gesualdo di Venosa</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Quando ridente e bella</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Gesualdo do Venosa</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Moro, lasso, al mio duolo</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>混声合唱団「森の神様」(松江北高等学校合唱部)</choir-name>
+    <prefecture>島根県</prefecture>
+    <conductor>石橋久和</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Damijan Mocnik</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Christus est natus</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Nonoy V. Diestro</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Alleluja</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>RYU</choir-name>
+    <prefecture>山口県</prefecture>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Ave maris stella</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Javier Busto</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>O magnum mysterium</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>アンサンブル・ビクトリア</choir-name>
+    <prefecture>東京都</prefecture>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:suite>
+       <p:composed-by>T. L. de Victoria</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Officium Defunctorum (1605)</p:mainTitle>
+       </p:title>
+       <p:suite-piece>
+	<!-- one of (p:piece-number p:suite p:piece) -->
+	<p:piece>
+	 <p:title original="true">
+	  <p:mainTitle>Libera me</p:mainTitle>
+	 </p:title>
+	</p:piece>
+       </p:suite-piece>
+      </p:suite>
+     </free-program>
+    </program>
+   </choir>
+   <choir representative="false" seed="false">
+    <choir-name>グレイス・シンガーズ</choir-name>
+    <prefecture>兵庫県</prefecture>
+    <conductor>三木信</conductor>
+    <prize nickname="none"></prize>
+    <program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claudio Monteverdi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Anima mea perdona</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Claudio Monteverdi</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>Che se tu se il cor mio</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+     <free-program>
+      <p:piece>
+       <p:composed-by>Edward Elgar</p:composed-by>
+       <p:title original="true">
+	<p:mainTitle>My Love Dwelt in a Northern Land</p:mainTitle>
+       </p:title>
+      </p:piece>
+     </free-program>
+    </program>
+   </choir>
+  </section>
+ </result>
+</competition>
