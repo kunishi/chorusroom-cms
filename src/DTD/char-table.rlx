@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- $Id: char-table.rlx,v 1.1 2000/12/11 16:54:21 kunishi Exp $ -->
+<!DOCTYPE module SYSTEM "relaxCore.dtd">
+<module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+
+  <interface/>
+
+  <tag name="characters"/>
+  <elementRule role="characters">
+    <sequence>
+      <ref label="character" occurs="+"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="character">
+    <attribute name="utf8-codepoint" type="string"/>
+    <attribute name="nickname" type="string"/>
+    <attribute name="description" type="string"/>
+    <attribute name="alternative" type="string"/>
+  </tag>
+  <elementRule role="character"/>
+
+</module>
