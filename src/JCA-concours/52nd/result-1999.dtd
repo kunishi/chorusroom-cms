@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
+
+<!ENTITY % HTMLlat1 PUBLIC
+   "-//W3C//ENTITIES Latin1//EN//HTML"
+   "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLlat1x.ent">
+%HTMLlat1;
+
+<!ENTITY % HTMLsymbol PUBLIC
+   "-//W3C//ENTITIES Symbols//EN//HTML"
+   "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLsymbolx.ent">
+%HTMLsymbol;
+
+<!ENTITY % HTMLspecial PUBLIC
+   "-//W3C//ENTITIES Special//EN//HTML"
+   "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLspecialx.ent">
+%HTMLspecial;
+
 <!ELEMENT 大会 (大会名, CVSID, 開催日別結果+)>
 <!ATTLIST 大会
           略称 CDATA #REQUIRED>
