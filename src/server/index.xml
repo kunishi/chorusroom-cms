@@ -1,4 +1,4 @@
-<?xml version="1.0" encodig="iso-2022-jp"?>
+<?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -7,7 +7,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>This server</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <style type="text/css" xml:space="preserve">
@@ -16,20 +15,23 @@
   </head>
   <body>
     <h1>このサーバの紹介</h1>
-    <p><img src="freebsd.png" alt="Powered by FreeBSD."/>
-      <img src="apache_pb.png" alt="Powered by Apache."/>
+    <p>
+      <img src="freebsd.png" alt="Powered by FreeBSD." height="64" width="171"/>
+      <img src="apache_pb.png" alt="Powered by Apache." height="32" width="259"/>
     </p>
-    <p>以前は<a href="http://www.sgi.co.jp/" shape="rect">Silicon Graphics</a>の
-      ワークステーション O2 だったのですが、<br/>
-      <img src="pic00015.jpg" alt="The Photo of Silicon Graphics O2."/><br/>
-      どうも OS が不安定で、私が帰宅・帰省しているときに限って落ちると
-      いう謎の現象がかなり頻繁に起こったため、予算的にめども立ったため、
-      サーバの交換を行うことにしました。
+    <hr/>
+    <p>
+      以前は<a href="http://www.sgi.co.jp/" shape="rect">Silicon
+      Graphics</a>の<a href="pic00015.jpg" shape="rect">ワークステーショ
+      ン O2</a> だったのですが、どうも OS が不安定で、私が帰宅・帰省し
+      ているときに限って落ちるという謎の現象がかなり頻繁に起こったため、
+      予算的にめども立ったため、サーバの交換を行うことにしました。
     </p>
-    <p>ただ、これ専用にワークステーションを用意するというのもイマイチ
-      もったいないですし、普段使う計算機としては O2 はわりと気に入って
-      いるので、PC を組み立て、UNIX を動かして使うこととしました。<br/>
-      <img src="pic00076.jpg" alt="The photo of this server."/><br/>
+    <p>
+      ただ、これ専用にワークステーションを用意するというのもイマイチもっ
+      たいないですし、普段使う計算機としては O2 はわりと気に入っている
+      ので、<a href="pic00076.jpg" shape="rect">PC を組み立て</a>、
+      UNIX を動かして使うこととしました。
     </p>
     <p>使ったパーツは以下の通り。</p>
     <ul>
@@ -61,7 +63,7 @@
     <hr/>
     <div class="footer">
       <address><a href="mailto:kunishi@c.oka-pu.ac.jp" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
-    <p>$Date: 2000/09/11 11:02:38 $ GMT</p>
+    <p>$Date: 2000/09/11 11:19:38 $ GMT</p>
     </div>
   </body>
 </html>
