@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.10 2001/02/06 08:18:29 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.11 2001/02/12 07:51:10 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -14,6 +14,7 @@
   <xsl:import href="common.xsl"/>
 
   <xsl:param name="output-base">index</xsl:param>
+  <xsl:param name="with-score">true</xsl:param>
 
 <!--    <xsl:include href="character.xsl"/> -->
 <!--    <xsl:include href="contest-result-choir-piece.xsl"/> -->
@@ -42,7 +43,7 @@
       </xsl:call-template>
     </redirect:write>
     <redirect:close select="concat($docBaseURI, '/', @output, $suffix)"/>
-    <xsl:if test=".//cr:scores">
+    <xsl:if test="cr:section/cr:choir/cr:scores">
       <redirect:open select="concat($docBaseURI, '/', @output, '-saiten', $suffix)"/>
       <redirect:write select="concat($docBaseURI, '/', @output, '-saiten', $suffix)">
         <xsl:call-template name="saiten">
@@ -237,7 +238,7 @@
   </xsl:template>
 
   <xsl:template name="score-page-link">
-    <xsl:if test=".//cr:scores">
+    <xsl:if test=".//cr:scores and $with-score='true'">
       <ul>
 	<li>
 	  <p>
@@ -271,7 +272,7 @@
   <xsl:template match="cr:section">
     <xsl:param name="top" select="/"/>
     <xsl:variable name="seed-choir-list"
-		  select="cr:choir[cr:prize/@nickname='seed']"/>
+		  select="cr:choir[cr:prize/@nickname='seeded']"/>
     <xsl:variable name="gold-choir-list"
 		  select="cr:choir[cr:prize/@nickname='gold']"/>
     <xsl:variable name="silver-choir-list"
@@ -566,17 +567,6 @@
     <xsl:text>)</xsl:text>
   </xsl:template>
 
-  <xsl:template match="char:utf8-char">
-    <xsl:choose>
-      <xsl:when test="$output-encoding='utf-8'">
-        <xsl:value-of select="@codepoint"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="@alternative"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
   <xsl:template name="saiten">
     <xsl:param name="top" select="/"/>
     <xsl:param name="result-top"/>
@@ -595,149 +585,126 @@
 	  <xsl:value-of select="$competition-name"/>
 	  <xsl:text>: 採点表</xsl:text>
 	</h1>
-	<xsl:call-template name="all-score-tables">
-	  <xsl:with-param name="top" select="$top"/>
-	  <xsl:with-param name="result-top" select="$result-top"/>
-	</xsl:call-template>
+	<xsl:apply-templates select="cr:section[cr:choir/cr:scores]"
+	  mode="score"/>
 	<xsl:call-template name="footer"/>
       </body>
     </html>
   </xsl:template>
 
-  <xsl:template name="all-score-tables">
-    <xsl:param name="top" select="/"/>
-    <xsl:param name="result-top"/>
-    <xsl:for-each select="cr:section">
-      <xsl:if test=".//cr:scores">
-	<h2>
-	  <xsl:value-of select="cr:section-name"/>
-	</h2>
-	<xsl:call-template name="score-table">
-	  <xsl:with-param name="top" select="$top"/>
-	  <xsl:with-param name="result-top" select="$result-top"/>
-	</xsl:call-template>
-      </xsl:if>
-    </xsl:for-each>
-  </xsl:template>
-
-  <xsl:template name="score-table">
-    <xsl:param name="top" select="/"/>
-    <xsl:param name="result-top"/>
+  <xsl:template match="cr:section" mode="score">
+    <xsl:apply-templates select="cr:section-name" mode="score"/>
     <table class="ajclresult" border="1">
-      <xsl:call-template name="score-table-header">
-	<xsl:with-param name="top" select="$top"/>
-	<xsl:with-param name="result-top" select="$result-top"/>
-      </xsl:call-template>
-      <xsl:call-template name="score-table-body">
-	<xsl:with-param name="top" select="$top"/>
-	<xsl:with-param name="result-top" select="$result-top"/>
-      </xsl:call-template>
+      <thead>
+	<tr>
+	  <th rowspan="1" colspan="1"/>
+	  <xsl:apply-templates select="../cr:referee" mode="score"/>
+	  <th rowspan="1" colspan="1">
+	    <xsl:text>総合評価</xsl:text>
+	  </th>
+	  <th rowspan="1" colspan="1">
+	    <xsl:text>備考</xsl:text>
+	  </th>
+	</tr>
+      </thead>
+      <tbody>
+	<xsl:apply-templates select="cr:choir" mode="score">
+	  <xsl:sort order="ascending" data-type="number" select="@playing-order"/>
+	</xsl:apply-templates>
+      </tbody>
     </table>
   </xsl:template>
 
-  <xsl:template name="score-table-header">
-    <xsl:param name="top" select="/"/>
-    <xsl:param name="result-top"/>
-    <thead>
-      <tr>
-	<th rowspan="1" colspan="1"/>
-	<xsl:for-each select="$result-top/cr:referee">
-	  <th rowspan="1" colspan="1">
-	    <xsl:value-of select="@shortname"/>
-	  </th>
-	</xsl:for-each>
-	<th rowspan="1" colspan="1">
-	  <xsl:text>総合評価</xsl:text>
-	</th>
-	<th rowspan="1" colspan="1">
-	  <xsl:text>備考</xsl:text>
-	</th>
-      </tr>
-    </thead>
+  <xsl:template match="cr:section-name" mode="score">
+    <h2>
+      <xsl:apply-templates/>
+    </h2>
   </xsl:template>
 
-  <xsl:template name="score-table-body">
-    <xsl:param name="top" select="/"/>
-    <xsl:param name="result-top"/>
-    <tbody>
-      <xsl:for-each select="cr:choir">
-	<xsl:sort order="ascending" data-type="number" select="@playing-order"/>
-	<xsl:call-template name="score-table-entry">
-	  <xsl:with-param name="current-choir" select="."/>
-	  <xsl:with-param name="result-top" select="$result-top"/>
-	</xsl:call-template>
-      </xsl:for-each>
-    </tbody>
+  <xsl:template match="cr:referee" mode="score">
+    <th rowspan="1" colspan="1">
+      <xsl:value-of select="@shortname"/>
+    </th>
   </xsl:template>
 
-  <xsl:template name="score-table-entry">
-    <xsl:param name="current-choir" select="."/>
-    <xsl:param name="result-top"/>
-    <xsl:variable name="current-entry" select="$current-choir/cr:scores"/>
+  <xsl:template match="cr:choir" mode="score">
     <tr>
       <xsl:choose>
-	<xsl:when test="$current-choir/cr:prize[@nickname='gold']"> 
+	<xsl:when test="cr:prize[@nickname='gold']"> 
 	  <xsl:attribute name="bgcolor">#ffff99</xsl:attribute>
 	</xsl:when>
-	<xsl:when test="$current-choir/cr:prize[@nickname='silver']">
+	<xsl:when test="cr:prize[@nickname='silver']">
 	  <xsl:attribute name="bgcolor">silver</xsl:attribute>
 	</xsl:when>
-	<xsl:when test="$current-choir/cr:prize[@nickname='blonze']">
+	<xsl:when test="cr:prize[@nickname='blonze']">
 	  <xsl:attribute name="bgcolor">#ffcc99</xsl:attribute>
 	</xsl:when>
       </xsl:choose>
       <td rowspan="1" colspan="1">
-	<xsl:if test="$current-choir/@playing-order">
-	  <xsl:value-of select="$current-choir/@playing-order"/>
-	  <xsl:text>. </xsl:text>
-	</xsl:if>
-	<xsl:value-of select="$current-choir/cr:choir-name"/>
+	<xsl:apply-templates select="@playing-order" mode="score"/>
+	<xsl:apply-templates select="cr:choir-name"/>
       </td>
-      <xsl:for-each select="$result-top/cr:referee">
-	<xsl:apply-templates select="$current-entry/cr:score[@referee=current()/@shortname]"/>
-      </xsl:for-each>
-      <xsl:apply-templates select="$current-entry/cr:total-score"/>
-      <xsl:apply-templates select="$current-entry/cr:score-note">
-	<xsl:with-param name="current-choir" select="$current-choir"/>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="cr:scores" mode="score"/>
     </tr>
   </xsl:template>
 
-  <xsl:template match="cr:score">
+  <xsl:template match="@playing-order" mode="score">
+    <xsl:value-of select="."/>
+    <xsl:text>. </xsl:text>
+  </xsl:template>
+
+  <xsl:template match="cr:scores" mode="score">
+    <!-- cr:result/cr:section/cr:choir/cr:scores, cr:result:cr:referee -->
+    <xsl:variable name="current-node" select="."/>
+    <xsl:for-each select="../../../cr:referee">
+      <xsl:apply-templates select="$current-node/cr:score[@referee=current()/@shortname]"
+	mode="score"/>
+    </xsl:for-each>
+    <xsl:apply-templates select="cr:total-score" mode="score"/>
+    <xsl:apply-templates select="cr:score-note" mode="score"/>
+  </xsl:template>
+
+  <xsl:template match="cr:score" mode="score">
     <td rowspan="1" colspan="1" align="right">
-      <xsl:value-of select="."/>
+      <xsl:apply-templates/>
     </td>
   </xsl:template>
 
-  <xsl:template match="cr:total-score">
+  <xsl:template match="cr:total-score" mode="score">
     <td rowspan="1" colspan="1" align="right">
-      <xsl:value-of select="."/>
+      <xsl:apply-templates/>
     </td>
   </xsl:template>
 
-  <xsl:template match="cr:score-note">
-    <xsl:param name="current-choir"/>
+  <xsl:template match="cr:score-note" mode="score">
     <td rowspan="1" colspan="1">
-      <xsl:if test="not(.='')">
-	<xsl:value-of select="."/>
-	<xsl:text> </xsl:text>
-      </xsl:if>
-      <xsl:value-of select="$current-choir/cr:prize"/>
-      <xsl:call-template name="choir-attr-saiten-list">
-	<xsl:with-param name="current-choir" select="$current-choir"/>
-      </xsl:call-template>
-      <xsl:if test="$current-choir/cr:specia-prize">
-	<xsl:for-each select="$current-choir/cr:special-prize">
-	  <xsl:value-of select="current()"/>
-	  <xsl:if test="not(current()=last())">
-	    <xsl:text>、</xsl:text>
-	  </xsl:if>
-	</xsl:for-each>
-      </xsl:if>
+      <xsl:for-each select="./node()[.!='']|../../cr:prize[.!='']|../../cr:special-prize|../../@representative[.='true']|../../@seed[.='true']">
+	<xsl:apply-templates select="." mode="score"/>
+	<xsl:if test="not(position()=last())">
+	  <xsl:text>、</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
     </td>
   </xsl:template>
-  <xsl:template name="choir-attr-saiten-list">
-    <xsl:param name="current-choir" select="."/>
+
+  <xsl:template match="cr:prize" mode="score">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="cr:special-prize" mode="score">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="@representative" mode="score">
+    <xsl:if test=".='true'">
+      <xsl:text>代表</xsl:text>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="@seed" mode="score">
+    <xsl:if test=".='true'">
+      <xsl:text>シード</xsl:text>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>

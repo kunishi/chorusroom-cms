@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.39 2001/02/09 01:47:13 kunishi Exp $
+# $Id: rule.mk,v 1.40 2001/02/12 07:51:03 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfhtml .ent .u8.html .style .xsl
@@ -7,7 +7,7 @@
 .PHONY:		all install clean subdir install-subdir
 
 define xslt-transform
-${SCRIPTDIR}/xalan.sh -xml -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
+${SCRIPTDIR}/xalan.sh -xml -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS} ${XSLT_OPTIONS}
 endef
 
 define fixhtml

@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.67 2001/02/06 02:30:00 kunishi Exp $
+# $Id: GNUmakefile,v 1.68 2001/02/12 07:51:06 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -84,72 +84,53 @@ REDIRECT_HTML=	${KANSAI_HTML} ${KANTO_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
 		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML} \
 		${HIGHSCHOOL_HTML} ${NATIONAL_HTML}
 
+WITH_SCORE=	true
+
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.traditional.xsl
-${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
+${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)" \
+					-param "with-score" "${WITH_SCORE}"
 ${INSTFILES_TRADITIONAL}: XSLT_OUT=-out /dev/null
 
 ${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
-${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
+${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)" \
+				-param "with-score" "${WITH_SCORE}"
 ${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
+
+${HIGHSCHOOL_HTML}: WITH_SCORE=false
+${NATIONAL_HTML}: WITH_SCORE=false
+${HIGHSCHOOL_HTML:%.html=%.utfhtml}: WITH_SCORE=false
+${NATIONAL_HTML:%.html=%.utfhtml}: WITH_SCORE=false
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
 
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
-.INTERMEDIATE: ${REDIRECT_HTML:%.html=%.utfxml}
 
 ###
 
 ${HIGHSCHOOL_HTML:%.html=%.xml}: highschool.xml
 	${LN_S} $< $@
 
-${HIGHSCHOOL_HTML:%.html=%.utfxml}: highschool.utfxml
-	${LN_S} $< $@
-
 ${HOKKAIDO_HTML:%.html=%.xml}: hokkaido.xml
-	${LN_S} $< $@
-
-${HOKKAIDO_HTML:%.html=%.utfxml}: hokkaido.utfxml
 	${LN_S} $< $@
 
 ${KANSAI_HTML:%.html=%.xml}: kansai.xml
 	${LN_S} $< $@
 
-${KANSAI_HTML:%.html=%.utfxml}: kansai.utfxml
-	${LN_S} $< $@
-
 ${KANTO_HTML:%.html=%.xml}: kanto.xml
-	${LN_S} $< $@
-
-${KANTO_HTML:%.html=%.utfxml}: kanto.utfxml
 	${LN_S} $< $@
 
 ${KUMAMOTO_HTML:%.html=%.xml}: kumamoto.xml
 	${LN_S} $< $@
 
-${KUMAMOTO_HTML:%.html=%.utfxml}: kumamoto.utfxml
-	${LN_S} $< $@
-
 ${KYUSHU_HTML:%.html=%.xml}: kyushu.xml
-	${LN_S} $< $@
-
-${KYUSHU_HTML:%.html=%.utfxml}: kyushu.utfxml
 	${LN_S} $< $@
 
 ${NATIONAL_HTML:%.html=%.xml}: national.xml
 	${LN_S} $< $@
 
-${NATIONAL_HTML:%.html=%.utfxml}: national.utfxml
-	${LN_S} $< $@
-
 ${SHIKOKU_HTML:%.html=%.xml}: shikoku.xml
 	${LN_S} $< $@
 
-${SHIKOKU_HTML:%.html=%.utfxml}: shikoku.utfxml
-	${LN_S} $< $@
-
 ${TOHOKU_HTML:%.html=%.xml}: tohoku.xml
-	${LN_S} $< $@
-
-${TOHOKU_HTML:%.html=%.utfxml}: tohoku.utfxml
 	${LN_S} $< $@
