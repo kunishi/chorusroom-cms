@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.60 2000/10/30 02:45:08 kunishi Exp $
+# $Id: GNUmakefile,v 1.61 2000/11/26 14:19:22 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -32,6 +32,7 @@ INSTFILES_HTML+=	${TOHOKU_HTML}
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
 INSTFILES_HTML+=	${HIGHSCHOOL_HTML}
+INSTFILES_HTML+=	${NATIONAL_HTML}
 
 KANSAI_HTML=		kansai-highschool.html \
 			kansai-general.html \
@@ -46,6 +47,8 @@ TOHOKU_HTML=		tohoku-2000-09-29.html \
 			tohoku-2000-10-01.html
 HIGHSCHOOL_HTML=	highschool-2000-10-28.html \
 			highschool-2000-10-29.html
+NATIONAL_HTML=		national-2000-11-25.html \
+			national-2000-11-26.html
 
 INSTFILES_HTML_SAITEN+=	chiba-saiten.html
 INSTFILES_HTML_SAITEN+=	chubu-saiten.html
@@ -66,7 +69,7 @@ INSTFILES+=	${INSTFILES_HTML} \
 
 REDIRECT_HTML=	${KANSAI_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
 		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML} \
-		${HIGHSCHOOL_HTML}
+		${HIGHSCHOOL_HTML} ${NATIONAL_HTML}
 
 RESULT_XSL=		${XSLDIR}/jca-result-2000-eucjp-xalan.xsl
 RESULT_XSL_UTF8=	${XSLDIR}/jca-result-2000-utf8-xalan.xsl
@@ -82,6 +85,7 @@ include ${SRCTOPDIR}/rule.mk
 .INTERMEDIATE: hokkaido.utfxml kansai.utfxml kumamoto.utfxml
 .INTERMEDIATE: kyushu.utfxml shikoku.utfxml tohoku.utfxml
 .INTERMEDIATE: highschool.utfxml
+.INTERMEDIATE: national.utfxml
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.utfxml}
 
@@ -131,6 +135,12 @@ ${KYUSHU_HTML:%.html=%.xml}: kyushu.xml
 	${LN_S} $< $@
 
 ${KYUSHU_HTML:%.html=%.utfxml}: kyushu.utfxml
+	${LN_S} $< $@
+
+${NATIONAL_HTML:%.html=%.xml}: national.xml
+	${LN_S} $< $@
+
+${NATIONAL_HTML:%.html=%.utfxml}: national.utfxml
 	${LN_S} $< $@
 
 ${SHIKOKU_HTML:%.html=%.xml}: shikoku.xml
