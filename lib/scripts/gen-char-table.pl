@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 #
-# $Id: gen-char-table.pl,v 1.1 2000/12/22 05:48:43 kunishi Exp $
+# $Id: gen-char-table.pl,v 1.2 2000/12/22 06:07:48 kunishi Exp $
 
 use strict;
-use vars qw(%entity_tab $xml_entity_table_dir @docbook_ents
+use vars qw(%entity_tab @docbook_ents
             $html_dtd_dir @html_ents
             $local_ent_dir @local_ents
             $line);
@@ -11,7 +11,6 @@ use vars qw(%entity_tab $xml_entity_table_dir @docbook_ents
 # symbols defined in HTMLlat1.ent, in HTML 4.0.
 %entity_tab = ();
 
-$xml_entity_table_dir = "/usr/local/share/xml/dtd/docbook/ent/";
 @docbook_ents = ('iso-amsa.ent',
 		 'iso-amsb.ent',
 		 'iso-amsc.ent',
@@ -42,7 +41,7 @@ $local_ent_dir = $ENV{'HOME'} . "/cvs/xml/www/chorusRoom/tech/";
 &print_xml_decl;
 print '<characters>' . "\n";
 
-open(DOCBK_ENT, $xml_entity_table_dir . @ARGV[0])
+open(DOCBK_ENT, @ARGV[0])
   || print STDERR "cannot open @ARGV[0]";
 while (<DOCBK_ENT>) {
     chop;
