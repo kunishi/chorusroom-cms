@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://www.chorusroom.org/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: osaka-2002-08-22.xml,v 1.1 2002/09/03 08:25:14 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">NHK全国学校音楽コンクール
+  大阪府コンクール</competition-name>
+  <result output="osaka-2002-08-22">
+    <date day-of-week="thu" holiday="false">2002-08-22</date>
+    <hall>NHK大阪ホール</hall>
+    <referee shortname="小林" job="大阪キリスト教短期大学名誉教授、全
+    日本音楽教育研究会常任理事">小林望</referee>
+    <referee shortname="岩崎" job="大阪音楽大学教授">岩崎欽一</referee>
+    <referee shortname="仲宗根" job="関西女子短期大学教授">仲宗根稔</referee>
+    <referee shortname="常野" job="大阪信愛女学院短期大学教授">常野トシ子</referee>
+    <referee shortname="福田" job="NHK大阪放送局文化部チーフプロデューサー">福田哲夫</referee>
+    <reporter anonymous="false">
+      <reporter-name>あおやぎやすひろ</reporter-name>
+      <reporter-email anonymous="false"></reporter-email>
+    </reporter>
+    <section>
+      <section-name>小学校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>関西創価小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>田口秀男</conductor>
+	<piano>片山志津香</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school"
+	    href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱曲集</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>池田市立秦野小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>吉田恵子</conductor>
+	<piano>稲富貴美子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school"
+	    href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>宮田滋子・武賀悦子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏同声合唱組曲</p:titlePrefix>
+		<p:mainTitle>グリンピースのうた</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>グリンピースのうた</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>はくさいぎしぎし</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>豊中市立桜井谷東小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>潮田萌出</conductor>
+	<piano grade="6">方岡聡子</piano>
+	<piano grade="6">木島彩子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>東龍男</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>同声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ぼくだけの歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ぼくのおうえんか</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>岸和田市立城内小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>矢倉恭子</conductor>
+	<piano grade="5">川端彩子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>中村千榮子</p:words-by>
+	      <p:composed-by>岩河三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>少年少女のための合唱組曲</p:titlePrefix>
+		<p:mainTitle>佐渡の四季</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>海と星とお地蔵さんと＜夏＞</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>東大阪市立加納小学校</choir-name>
+	<number-of-parts>4</number-of-parts>
+	<conductor>國分俊彦</conductor>
+	<piano grade="6">仁張有貴</piano>
+	<piano grade="6">深草麻里香</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>関根栄一</p:words-by>
+	      <p:composed-by>湯山昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>葡萄と風と赤とんぼ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>池田市立池田小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>山本眞弓</conductor>
+	<piano>御旅屋淳子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>飛鳥章子</p:words-by>
+	      <p:composed-by>橋本祥路</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>満月の不思議ポロロッカ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>阪南市立舞小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>市原文子</conductor>
+	<piano>山寄敦子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>中村千榮子</p:words-by>
+	      <p:composed-by>岩河三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>少年少女のための合唱組曲</p:titlePrefix>
+		<p:mainTitle>祭りと子ども</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>秋祭り</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>豊中市立東豊中小学校</choir-name>
+	<number-of-parts>2</number-of-parts>
+	<conductor>織田裕</conductor>
+	<piano>安部優子</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>岡本充男</p:words-by>
+	      <p:composed-by>菊地雅春</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>風の中で</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>東大阪市立鴻池東小学校</choir-name>
+	<number-of-parts>2</number-of-parts>
+	<conductor>山口文美世</conductor>
+	<piano>久保美幸</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>東龍男</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>同声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ぼくだけの歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ぼくのおうえんか</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大阪市立豊崎東小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>小倉邦子</conductor>
+	<piano>麻生良子</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:originated-from>わらべうた</p:originated-from>
+	      <p:arranged-by>鎌田典三郎</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>雪三題</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大東市立住道北小学校</choir-name>
+	<number-of-parts>3</number-of-parts>
+	<conductor>菊池千賀子</conductor>
+	<piano>井上須美子</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>飛鳥章子</p:words-by>
+	      <p:composed-by>橋本祥路</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>満月の不思議ポロロッカ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>大阪府立夕陽丘高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>片寄真一</conductor>
+	<piano grade="3">東美菜子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>佐藤博美</p:words-by>
+	      <p:composed-by>坂田雅弘</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>5つの映像</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>少年の頃</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>羽衣学園高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>井上美和</conductor>
+	<piano>橋本多加子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>島崎藤村</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>春二題</p:mainTitle>
+		<p:titleSuffix>無伴奏女声合唱のための</p:titleSuffix>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>春は来ぬ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大阪府立岸和田高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor grade="2">大脇創造</conductor>
+	<piano>宮崎剛</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>青春のネガティブ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>反語</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大阪府立住之江高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>土屋泰仁</conductor>
+	<piano>尾中志穂</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>関根栄一</p:words-by>
+	      <p:composed-by>寺島尚彦</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>青い海</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夕なぎの海</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大阪府立堺東高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<conductor>中村和正</conductor>
+	<piano grade="2">瀬戸真由美</piano>
+	<piano grade="2">小林香織</piano>
+	<piano grade="1">三輪佳菜恵</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms-69th.xm"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>ハイドン</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>戦時のミサ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>グローリア</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大阪朝鮮高級学校</choir-name>
+	<choir-type>female</choir-type>
+	<conductor>超邦侑</conductor>
+	<piano grade="3">金良姫</piano>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms-69th.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>吉野弘</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>心の四季</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<!-- one of (p:piece-number p:suite p:piece) -->
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>風が</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
