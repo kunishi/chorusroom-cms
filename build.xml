@@ -145,7 +145,7 @@
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
           in='${xsltdir}/contest-result.src.xsl'
           out='${build.xslt}/contest-result.traditional.xsl'
-          outputtype='xml' processor='trax'>
+          processor='trax'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <classpath refid='xalan2.class.path'/>
       <param name='output-encoding' expression='iso-2022-jp'/>
@@ -153,7 +153,7 @@
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
           in='${xsltdir}/contest-result.src.xsl'
           out='${build.xslt}/contest-result.utf8.xsl'
-          outputtype='xml' processor='trax'>
+          processor='trax'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <classpath refid='xalan2.class.path'/>
       <param name='output-encoding' expression='utf-8'/>
@@ -164,7 +164,7 @@
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
       in='${xsltdir}/xhtml1-chorusroom.src.xsl'
       out='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
-      outputtype='xml' processor='trax'
+      processor='trax'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='output-encoding' expression='iso-2022-jp'/>
@@ -172,7 +172,7 @@
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
       in='${xsltdir}/xhtml1-chorusroom.src.xsl'
       out='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
-      outputtype='xml' processor='trax'
+      processor='trax'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='output-encoding' expression='utf-8'/>
@@ -183,14 +183,14 @@
     <xslt style='${xsltdir}/gen-char-conv-traditional.xsl'
       in='${techdir}/all-chars.xml'
       out='${build.xslt}/char-conv-traditional.xsl'
-      outputtype='xml' processor='trax'
+      processor='trax'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
     </xslt>
     <xslt style='${xsltdir}/gen-char-conv-utf8.xsl'
       in='${techdir}/all-chars.xml'
       out='${build.xslt}/char-conv-utf8.xsl'
-      outputtype='xml' processor='trax'
+      processor='trax'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
     </xslt>
@@ -210,7 +210,7 @@
   <target name='prepare.xml.jca'>
     <xslt basedir='db/concours/JCA' destdir='${build.genxml}/concours/JCA'
       style='${lib}/xslt.build/jca-contest-result-build.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='**/*.xml' excludes='**/lib/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
@@ -228,7 +228,7 @@
   <target name='prepare.xml.nhk'>
     <xslt basedir='db/concours/NHK' destdir='${build.genxml}/concours/NHK'
       style='${lib}/xslt.build/contest-result-build.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='**/*.xml' excludes='**/lib/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
@@ -246,7 +246,7 @@
   <target name='prepare.xml.generic'>
     <xslt basedir='db/concours' destdir='${build.genxml}/concours'
       style='${lib}/xslt.build/contest-result-build.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='**/*.xml'
       excludes='**/JCA/**/*.xml, **/NHK/**/*.xml'
       classpathref='xalan2.class.path'>
@@ -276,7 +276,7 @@
                    prepare.xml.xhtml'>
     <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='index.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
@@ -293,7 +293,7 @@
                    prepare.xml.xhtml'>
     <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='**/*.xml' excludes='index.xml, info-note2.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
@@ -310,7 +310,7 @@
                    prepare.xml.xhtml'>
     <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='info-note2.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
@@ -327,7 +327,7 @@
              prepare.xml.concours'>
     <xslt basedir='${build.concours}' destdir='${build.xhtml}/concours'
       style='${build.xslt}/contest-result.utf8.xsl'
-      extension='.xml' outputtype='xml' processor='trax'
+      extension='.xml' processor='trax'
       includes='**/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
@@ -347,7 +347,7 @@
   <target name='finalize.html.iso' depends='build.xhtml'>
     <xslt basedir='${build.xhtml}' destdir='${build.html.iso}'
       style='${build.xslt}/xhtml1-finalize-iso.xsl'
-      extension='.html' outputtype='html' processor='trax'
+      extension='.html' processor='trax'
       includes='**/*.xml'
       classpathref='xalan2.class.path'/>
   </target>
@@ -355,7 +355,7 @@
   <target name='finalize.html.utf8' depends='build.xhtml'>
     <xslt basedir='${build.xhtml}' destdir='${build.html.utf8}'
       style='${build.xslt}/xhtml1-finalize-utf8.xsl'
-      extension='.html' outputtype='xml' processor='trax'
+      extension='.html' processor='trax'
       includes='**/*.xml'
       classpathref='xalan2.class.path'/>
   </target>
