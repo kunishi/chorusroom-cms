@@ -258,7 +258,7 @@
   <c:choirIdRef id="CG2000000107B1"></c:choirIdRef> <!-- 相模台グリーンエコー -->
   <c:choirIdRef id="CG2000000107B9"></c:choirIdRef> <!-- 相模野女声合唱団 -->
   <c:choirIdRef id="CG2000000107C1"></c:choirIdRef> <!-- 相模原市民混声合唱団 -->
-  <c:choirIdRef id="CG2000000107C9"></c:choirIdRef> <!-- ＪＯＹシンガーズ -->
+  <c:choirIdRef id="CG2000000107C9"></c:choirIdRef> <!-- JOYシンガーズ -->
   <c:choirIdRef id="CG2000000107DA"></c:choirIdRef> <!-- 湘南フィルハーモニー合唱団 -->
   <c:choirIdRef id="CG200209230811"></c:choirIdRef> <!-- 湘南モーツァルト室内合唱団 -->
   <c:choirIdRef id="CG2000000107E2"></c:choirIdRef> <!-- 女声合唱団コーロ・パラディーゾ -->
@@ -411,637 +411,87 @@
   <c:choirIdRef id="CG200000010BD7"></c:choirIdRef> <!-- 四日市シンフォニックコーラス -->
 
   <!-- 滋賀県 -->
-  <c:choir>
-    <c:urn>CG200000010BE7</c:urn>
-    <c:name>あふみヴォーカルアンサンブル</c:name>
-    <c:url>http://www.geocities.com/Vienna/Choir/5402/</c:url>
-    <c:prefecture>滋賀県</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010BEF</c:urn>
-    <c:name>合唱団AUG(オーギュメント)</c:name>
-    <c:url>http://www.jungle.or.jp/augment/</c:url>
-    <c:prefecture>滋賀県</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010BF7</c:urn>
-    <c:name>日吉台合唱団</c:name>
-    <c:url>http://www.geocities.co.jp/HeartLand-Namiki/1306/menu.html</c:url>
-    <c:prefecture>滋賀県</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
+  <c:choirIdRef id="CG200000010BE7"></c:choirIdRef> <!-- あふみヴォーカルアンサンブル -->
+  <c:choirIdRef id="CG200000010BEF"></c:choirIdRef> <!-- 合唱団AUG(オーギュメント) -->
+  <c:choirIdRef id="CG200000010BF7"></c:choirIdRef> <!-- 日吉台合唱団 -->
 
   <!-- 京都府 -->
-  <c:choir>
-    <c:urn>CG200000010C07</c:urn>
-    <c:name>Ensemble Voce</c:name>
-    <c:url>http://www.prmvr.otsu.shiga.jp/EnsembleVoce/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C0F</c:urn>
-    <c:name>Ensemble Reed</c:name>
-    <c:url>http://home.att.ne.jp/zeta/reed/index.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>2000年9月に結成した男声合唱団です。まだまだ未熟な私たちですが、いつか素敵な演奏をお届けできるよう、楽しくそして厳しく練習に励んでいます。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C18</c:urn>
-    <c:name>河鹿合唱団</c:name>
-    <c:url>http://www.hpmix.com/home/okumurak/index.htm</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C20</c:urn>
-    <c:name>合唱団Aleph</c:name>
-    <c:url>http://www6.ocn.ne.jp/~notomo/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C28</c:urn>
-    <c:name>合唱団京都エコー</c:name>
-    <c:url>http://www.kyotoecho.com</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C30</c:urn>
-    <c:name>合唱団葡萄の樹</c:name>
-    <c:url>http://www.geocities.co.jp/Hollywood-Kouen/4714/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C38</c:urn>
-    <c:name>京響市民合唱団</c:name>
-    <c:url>http://www.kyokyocc.gr.jp/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>「京響第九合唱団」から装いも新たに、京都市交響楽団とのパートナーシップに基づき京都コンサートホールを中心に活動しております。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C40</c:urn>
-    <c:name>京教と京響で第九を歌おう会合唱団</c:name>
-    <c:url>http://www.kyoto.zaq.ne.jp/dkaql804/dai9/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C48</c:urn>
-    <c:name>京響楽友会合唱団</c:name>
-    <c:url>http://www.ky.xaxon.ne.jp/~duke/kyou/kyou.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C50</c:urn>
-    <c:name>京都クラウディオ・モンテヴェルディ合唱団</c:name>
-    <c:url>http://www.collegium.or.jp/~cmc-kyoto/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C58</c:urn>
-    <c:name>京都ゲヴァントハウス合唱団</c:name>
-    <c:url>http://www.kamnet.co.jp/gewandhaus/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C60</c:urn>
-    <c:name>京都混声合唱団</c:name>
-    <c:url>http://ha1.seikyou.ne.jp/home/ymamt/kyoukon.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C68</c:urn>
-    <c:name>京都シティーフィル合唱団</c:name>
-    <c:url>http://kcpc.ihp.jp/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C70</c:urn>
-    <c:name>京都バッハ合唱団</c:name>
-    <c:url>http://web.kyoto-inet.or.jp/people/bachchor/index.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C78</c:urn>
-    <c:name>京都フィグラールコール</c:name>
-    <c:url>http://kbs.inter-art.gr.jp/chorus/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C80</c:urn>
-    <c:name>京都ミューズ</c:name>
-    <c:url>http://www.tamaru.kuee.kyoto-u.ac.jp/~hirata/muse.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200209291345</c:urn>
-    <c:name>京都楽友合唱団</c:name>
-    <c:url>http://www.h5.dion.ne.jp/~gakuyu3/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment></c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C88</c:urn>
-    <c:name>Choeur Liberte(クールリベルテ)</c:name>
-    <c:url>http://viblab.mech.kit.ac.jp/cl/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C90</c:urn>
-    <c:name>混声合唱団CADENZA</c:name>
-    <c:url>http://web.kyoto-inet.or.jp/people/tomo0726/cadenza.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(大森友也さん)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010C99</c:urn>
-    <c:name>混声合唱団CADENZA</c:name>
-    <c:url>http://www2.rcep.dpri.kyoto-u.ac.jp/~saru/CADENZA/index.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(中村恭之さん)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CA2</c:urn>
-    <c:name>混声合唱団京都木曜会</c:name>
-    <c:url>http://www2u.biglbe.ne.jp/~IZAKAYA/fm-moku.htm</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200302032218</c:urn>
-    <c:name>女声合唱団「花野」</c:name>
-    <c:url>http://hanano14.hp.infoseek.co.jp/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>
-      ウィーン楽友協会ホールでの演奏などMP3で再生したものをお聴きいただけます。
-      少年少女合唱団モルゲングランツともども、一度覗いてみてください。
-    </c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CAA</c:urn>
-    <c:name>男声合唱団Des Eleisons</c:name>
-    <c:url>http://us62.kuicr.kyoto-u.ac.jp/eleisons/welcome.html</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CB2</c:urn>
-    <c:name>同志社混声＜シャンテ＞</c:name>
-    <c:url>http://www.soundpie.com/chanter/index.htm</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>同志社学生混声合唱団のOB・OGでつくった合唱団です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CBB</c:urn>
-    <c:name>同志社リーダークランツOB会</c:name>
-    <c:url>http://members.tripod.com/~liederkranz/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CC3</c:urn>
-    <c:name>宮津混声合唱団</c:name>
-    <c:url>http://www.geocities.co.jp/MusicHall/7711</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CCB</c:urn>
-    <c:name>Vocal Arts Ensemble "UTAGE"</c:name>
-    <c:url>http://psi.c.oka-pu.ac.jp/utage/</c:url>
-    <c:prefecture>京都府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
+  <c:choirIdRef id="CG200000010C07"></c:choirIdRef> <!-- Ensemble Voce -->
+  <c:choirIdRef id="CG200000010C0F"></c:choirIdRef> <!-- Ensemble Reed -->
+  <c:choirIdRef id="CG200000010C18"></c:choirIdRef> <!-- 河鹿合唱団 -->
+  <c:choirIdRef id="CG200000010C20"></c:choirIdRef> <!-- 合唱団Aleph -->
+  <c:choirIdRef id="CG200000010C28"></c:choirIdRef> <!-- 合唱団京都エコー -->
+  <c:choirIdRef id="CG200000010C30"></c:choirIdRef> <!-- 合唱団葡萄の樹 -->
+  <c:choirIdRef id="CG200000010C38"></c:choirIdRef> <!-- 京響市民合唱団 -->
+  <c:choirIdRef id="CG200000010C40"></c:choirIdRef> <!-- 京教と京響で第九を歌おう会合唱団 -->
+  <c:choirIdRef id="CG200000010C48"></c:choirIdRef> <!-- 京響楽友会合唱団 -->
+  <c:choirIdRef id="CG200000010C50"></c:choirIdRef> <!-- 京都クラウディオ・モンテヴェルディ合唱団 -->
+  <c:choirIdRef id="CG200000010C58"></c:choirIdRef> <!-- 京都ゲヴァントハウス合唱団 -->
+  <c:choirIdRef id="CG200000010C60"></c:choirIdRef> <!-- 京都混声合唱団 -->
+  <c:choirIdRef id="CG200000010C68"></c:choirIdRef> <!-- 京都シティーフィル合唱団 -->
+  <c:choirIdRef id="CG200000010C70"></c:choirIdRef> <!-- 京都バッハ合唱団 -->
+  <c:choirIdRef id="CG200000010C78"></c:choirIdRef> <!-- 京都フィグラールコール -->
+  <c:choirIdRef id="CG200000010C80"></c:choirIdRef> <!-- 京都ミューズ -->
+  <c:choirIdRef id="CG200209291345"></c:choirIdRef> <!-- 京都楽友合唱団 -->
+  <c:choirIdRef id="CG200000010C88"></c:choirIdRef> <!-- Choeur Liberte(クールリベルテ) -->
+  <c:choirIdRef id="CG200000010C90"></c:choirIdRef> <!-- 混声合唱団CADENZA (大森友也さん) -->
+  <c:choirIdRef id="CG200000010C99"></c:choirIdRef> <!-- 混声合唱団CADENZA (中村恭之さん) -->
+  <c:choirIdRef id="CG200000010CA2"></c:choirIdRef> <!-- 混声合唱団京都木曜会 -->
+  <c:choirIdRef id="CG200302032218"></c:choirIdRef> <!-- 女声合唱団「花野」 -->
+  <c:choirIdRef id="CG200000010CAA"></c:choirIdRef> <!-- 男声合唱団Des Eleisons -->
+  <c:choirIdRef id="CG200000010CB2"></c:choirIdRef> <!-- 同志社混声＜シャンテ＞ -->
+  <c:choirIdRef id="CG200000010CBB"></c:choirIdRef> <!-- 同志社リーダークランツOB会 -->
+  <c:choirIdRef id="CG200000010CC3"></c:choirIdRef> <!-- 宮津混声合唱団 -->
+  <c:choirIdRef id="CG200000010CCB"></c:choirIdRef> <!-- Vocal Arts Ensemble "UTAGE" -->
 
   <!-- 大阪府 -->
-  <c:choir>
-    <c:urn>CG200000010CDB</c:urn>
-    <c:name>新しい合唱音楽研究会・関西</c:name>
-    <c:url>http://www.yo.rim.or.jp/~n_tokura/singouken/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(戸倉信昭さん)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CE4</c:urn>
-    <c:name>新しい合唱音楽研究会・関西</c:name>
-    <c:url>http://psi.c.oka-pu.ac.jp/singouken/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(国島丈生)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200206301037</c:urn>
-    <c:name>池田混声合唱団</c:name>
-    <c:url>http://www.ne.jp/asahi/ikekon/chorus/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CED</c:urn>
-    <c:name>和泉市混声合唱団</c:name>
-    <c:url>http://www.page.sannet.ne.jp/smihara/is-conA.htm</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CF5</c:urn>
-    <c:name>エルフェン クランツ</c:name>
-    <c:url>http://members.tripod.co.jp/rintoshin/index.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>結成１０周年を迎える女声コーラスグループです。ただいま団員募集中です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200306211123</c:urn>
-    <c:name>OSAKA MEN'S CHORUS</c:name>
-    <c:url>http://www1.ocn.ne.jp/~omc/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>創立38年、Sea Chantyにコダワリを持つ男声合唱団です。</c:comment>
-  </c:choir>
-    <c:choir>
-      <c:urn>CG200209051319</c:urn>
-      <c:name>大阪アカデミー合唱団</c:name>
-      <c:url>http://www5.justnet.ne.jp/~oacho/top.html</c:url>
-      <c:prefecture>大阪府</c:prefecture>
-      <c:kind>general</c:kind>
-      <c:comment/>
-    </c:choir>
-  <c:choir>
-    <c:urn>CG200000010CFE</c:urn>
-    <c:name>大阪コレギウム・ムジクム</c:name>
-    <c:url>http://www.collegium.or.jp/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(大阪ハインリッヒ・シュッツ合唱団はここからたどって下さい)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D07</c:urn>
-    <c:name>大阪新音フロイデ合唱団</c:name>
-    <c:url>http://www.joy.hi-ho.ne.jp/shinon-freude/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D0F</c:urn>
-    <c:name>大阪第一合唱団</c:name>
-    <c:url>http://homepage2.nifty.com/oskd1chor/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>創立40周年を迎える80人ほどの合唱団です。来年はシカゴで合同演奏会を企画しています。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D18</c:urn>
-    <c:name>大阪フィルハーモニー合唱団</c:name>
-    <c:url>http://isweb34.infoseek.co.jp/art/opc/opc/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D20</c:urn>
-    <c:name>合唱団いやの会</c:name>
-    <c:url>http://www1.kcn.ne.jp/~yamagisi/iya/index.htm</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>大阪市立大学混声合唱団のOB・OGが1981年に創団し、来年には、創団20年目を迎えます。合唱に向ける情熱は誰にも負けない…というメンバーが今日も(?)頑張っています。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D29</c:urn>
-    <c:name>合唱団かざぐるま</c:name>
-    <c:url>http://www.yo.rim.or.jp/~jun-kit/volga.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D31</c:urn>
-    <c:name>合唱団紗羅</c:name>
-    <c:url>http://salaro.hoops.ne.jp/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D39</c:urn>
-    <c:name>合唱団ソカロ</c:name>
-    <c:url>http://www.geocities.co.jp/Hollywood-Miyuki/6163</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>大阪府東大阪市で歌っているホントに小さな合唱団です。でも皆で資金を出し合って事務所を維持し、そこで季節ごとにプロの演奏家をお呼びして、自分達で料理も作りサロンコンサートを開いています。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D42</c:urn>
-    <c:name>合唱団 天上花火</c:name>
-    <c:url>http://tenhana.hoops.jp/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>1993年に関西の大学合唱団OB/OGが主宰・根津昌彦の元に集まり結成した合唱団です。夜空し美しく輝き、そしてはかなく消えていく花火に合唱をなぞらえて天上花火と命名しました。最新の演奏会情報はページ内のご案内を参照下さい。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D4B</c:urn>
-    <c:name>合唱団ブレーミア</c:name>
-    <c:url>http://www.bekkoame.ne.jp/~tacchan/vremia.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D53</c:urn>
-    <c:name>合唱団よしだ</c:name>
-    <c:url>http://www.oct.zaq.ne.jp/903/yoshida/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>合唱団よしだは、だるまをこよなく愛する団体です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D5C</c:urn>
-    <c:name>合唱団LAFUNA</c:name>
-    <c:url>http://www.page.sannet.ne.jp/shars/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200210142008</c:urn>
-    <c:name>合唱団ローレル・エコー</c:name>
-    <c:url>http://www.kit.hi-ho.ne.jp/laurel-e/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment></c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D64</c:urn>
-    <c:name>かつらぎ会合唱団</c:name>
-    <c:url>http://members.tripod.co.jp/katsuragikai/index.htm</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>当合唱団は府立住吉高校音楽部卒団者を中心とした、エンタテインメントに満ちたチョット風変わりな合唱団です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D6D</c:urn>
-    <c:name>クライネ・クノスペン合唱団</c:name>
-    <c:url>http://www.boreas.dti.ne.jp/~ayarin/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D75</c:urn>
-    <c:name>グリーン・エコー</c:name>
-    <c:url>http://www.green-echo.com/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D7D</c:urn>
-    <c:name>クローバークラブ</c:name>
-    <c:url>http://plaza28.mbn.or.jp/~clover_club/clover/index.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>同志社グリークラブOB合唱団。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D86</c:urn>
-    <c:name>コードリベット・コール</c:name>
-    <c:url>http://quodli.wisnet.ne.jp/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>大阪市で宗教音楽を中心に活動。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200212221202</c:urn>
-    <c:name>Coro di Primavera (コーロ・ディ・プリマヴェーラ)</c:name>
-    <c:url>http://page.freett.com/primavera1995/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>指揮者、河崎聡氏の主催する混声合唱団で　主に大阪を中心に活動しています。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D8F</c:urn>
-    <c:name>混声合唱団AYUMI</c:name>
-    <c:url>http://www.mitene.or.jp/~f-saito/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010D97</c:urn>
-    <c:name>混声合唱団フォンターナ</c:name>
-    <c:url>http://www.nozato.co.jp/fontana/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>「フォンターナ」は平成元年に千里ニュータウンで生まれた合唱団です。メンバーは１９〜７０歳までと幅広い年齢層の４０名程で、練習時間がＰＭ７：００〜９：００ということもあって、会社帰りのお父さんや夕食の準備を済ませてかけつけるお母さんたちが中心です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DA0</c:urn>
-    <c:name>ザ・タロー・シンガーズ</c:name>
-    <c:url>http://homepage2.nifty.com/tarosingers/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DA8</c:urn>
-    <c:name>女声合唱団ジョイコール</c:name>
-    <c:url>http://joy-chor.hoops.ne.jp/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200302032212</c:urn>
-    <c:name>女声合唱８.４</c:name>
-    <c:url>http://page.freett.com/8_4/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>豊中市を中心に活動をしている女声合唱のグループです。少人数ですが指揮者、ピアニストと共に音楽創りを楽しんでいます。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DB0</c:urn>
-    <c:name>吹田グリー</c:name>
-    <c:url>http://www.yo.rim.or.jp/~jun-kit/suita.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DB8</c:urn>
-    <c:name>千里バッハ合唱団</c:name>
-    <c:url>http://www.tcct.zaq.ne.jp/sbchor/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(公式)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DC1</c:urn>
-    <c:name>千里バッハ合唱団</c:name>
-    <c:url>http://www.yo.rim.or.jp/~suzushin/senrij.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>(非公式)</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DCA</c:urn>
-    <c:name>男声合唱団コールシャンテ</c:name>
-    <c:url>http://www.h3.dion.ne.jp/~chante/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>特定大学OBの系列を持たない男声で、常に古典から近代／現代のオリジナル男声曲を追求している。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DD3</c:urn>
-    <c:name>男声合唱団コールバッカス</c:name>
-    <c:url>http://www.d1.dion.ne.jp/~masehts/bacchus/bacchus-index.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>北攝唯一の男声合唱団。団員約３０名。練習参加率は８０％を超える。平均年令６０歳。男声合唱を歌いたい人、大歓迎。JR、阪急京都線の沿線の方には交通至便。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DDC</c:urn>
-    <c:name>豊中混声合唱団</c:name>
-    <c:url>http://www.psn.or.jp/~k-shio/toyokon.htm</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DE4</c:urn>
-    <c:name>とんだばやし混声合唱団</c:name>
-    <c:url>http://www.pat.hi-ho.ne.jp/tomikon/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DEC</c:urn>
-    <c:name>なにわコラリアーズ</c:name>
-    <c:url>http://www.geocities.co.jp/Hollywood-Miyuki/1884/index.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DF4</c:urn>
-    <c:name>南港混声合唱団</c:name>
-    <c:url>http://www.geocities.jp/takeda317/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010DFC</c:urn>
-    <c:name>阪音会合唱団</c:name>
-    <c:url>http://ha8.seikyou.ne.jp/home/kazu-ho/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010E04</c:urn>
-    <c:name>東大阪第九シンフォニー合唱団</c:name>
-    <c:url>http://member.nifty.ne.jp/ma2ra/dai9/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>東大阪の地に『歓喜』の歌声を永久に、と願っています。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010E0D</c:urn>
-    <c:name>豊能混声ユーベルコール</c:name>
-    <c:url>http://village.infoweb.ne.jp/~fwhk8650/jubel/jubel.htm</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>大阪の北に位置する緑に恵まれた小さな町「豊能町」に、1993年6月に誕生しました。結成以来6年余、いろいろな経験をして混声合唱を生活の一部として心から楽しんでいる90名からなる地域の混声合唱団です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010E16</c:urn>
-    <c:name>藤井寺カシオペア少年少女合唱団</c:name>
-    <c:url>http://village.infoweb.or.jp/~fwge3548/index.htm</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200208050154</c:urn>
-    <c:name>箕面市民合唱団</c:name>
-    <c:url>http://www001.upp.so-net.ne.jp/minocitychor/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010E1F</c:urn>
-    <c:name>モンテヴェルディ室内合唱団</c:name>
-    <c:url>http://www.yo.rim.or.jp/~suzushin/montej.html</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010E27</c:urn>
-    <c:name>La 萠 Die</c:name>
-    <c:url>http://www.music.ne.jp/~la_moedie/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment>ダンスリールネサンス合奏団の松井智恵の発声教室の門下生を核としている合唱団です。</c:comment>
-  </c:choir>
-  <c:choir>
-    <c:urn>CG200000010E30</c:urn>
-    <c:name>淀川混声合唱団</c:name>
-    <c:url>http://www.yodokon.jp/</c:url>
-    <c:prefecture>大阪府</c:prefecture>
-    <c:kind>general</c:kind>
-    <c:comment/>
-  </c:choir>
+  <c:choirIdRef id="CG200000010CDB"></c:choirIdRef> <!-- 新しい合唱音楽研究会・関西 (戸倉信昭さん) -->
+  <c:choirIdRef id="CG200000010CE4"></c:choirIdRef> <!-- 新しい合唱音楽研究会・関西 (国島丈生) -->
+  <c:choirIdRef id="CG200206301037"></c:choirIdRef> <!-- 池田混声合唱団 -->
+  <c:choirIdRef id="CG200000010CED"></c:choirIdRef> <!-- 和泉市混声合唱団 -->
+  <c:choirIdRef id="CG200000010CF5"></c:choirIdRef> <!-- エルフェン クランツ -->
+  <c:choirIdRef id="CG200306211123"></c:choirIdRef> <!-- OSAKA MEN'S CHORUS -->
+  <c:choirIdRef id="CG200209051319"></c:choirIdRef> <!-- 大阪アカデミー合唱団 -->
+  <c:choirIdRef id="CG200000010CFE"></c:choirIdRef> <!-- 大阪コレギウム・ムジクム -->
+  <c:choirIdRef id="CG200000010D07"></c:choirIdRef> <!-- 大阪新音フロイデ合唱団 -->
+  <c:choirIdRef id="CG200000010D0F"></c:choirIdRef> <!-- 大阪第一合唱団 -->
+  <c:choirIdRef id="CG200000010D18"></c:choirIdRef> <!-- 大阪フィルハーモニー合唱団 -->
+  <c:choirIdRef id="CG200000010D20"></c:choirIdRef> <!-- 合唱団いやの会 -->
+  <c:choirIdRef id="CG200000010D29"></c:choirIdRef> <!-- 合唱団かざぐるま -->
+  <c:choirIdRef id="CG200000010D31"></c:choirIdRef> <!-- 合唱団紗羅 -->
+  <c:choirIdRef id="CG200000010D39"></c:choirIdRef> <!-- 合唱団ソカロ -->
+  <c:choirIdRef id="CG200000010D42"></c:choirIdRef> <!-- 合唱団 天上花火 -->
+  <c:choirIdRef id="CG200000010D4B"></c:choirIdRef> <!-- 合唱団ブレーミア -->
+  <c:choirIdRef id="CG200000010D53"></c:choirIdRef> <!-- 合唱団よしだ -->
+  <c:choirIdRef id="CG200000010D5C"></c:choirIdRef> <!-- 合唱団LAFUNA -->
+  <c:choirIdRef id="CG200210142008"></c:choirIdRef> <!-- 合唱団ローレル・エコー -->
+  <c:choirIdRef id="CG200000010D64"></c:choirIdRef> <!-- かつらぎ会合唱団 -->
+  <c:choirIdRef id="CG200000010D6D"></c:choirIdRef> <!-- クライネ・クノスペン合唱団 -->
+  <c:choirIdRef id="CG200000010D75"></c:choirIdRef> <!-- グリーン・エコー -->
+  <c:choirIdRef id="CG200000010D7D"></c:choirIdRef> <!-- クローバークラブ -->
+  <c:choirIdRef id="CG200000010D86"></c:choirIdRef> <!-- コードリベット・コール -->
+  <c:choirIdRef id="CG200212221202"></c:choirIdRef> <!-- Coro di Primavera (コーロ・ディ・プリマヴェーラ) -->
+  <c:choirIdRef id="CG200000010D8F"></c:choirIdRef> <!-- 混声合唱団AYUMI -->
+  <c:choirIdRef id="CG200000010D97"></c:choirIdRef> <!-- 混声合唱団フォンターナ -->
+  <c:choirIdRef id="CG200000010DA0"></c:choirIdRef> <!-- ザ・タロー・シンガーズ -->
+  <c:choirIdRef id="CG200000010DA8"></c:choirIdRef> <!-- 女声合唱団ジョイコール -->
+  <c:choirIdRef id="CG200302032212"></c:choirIdRef> <!-- 女声合唱８.４ -->
+  <c:choirIdRef id="CG200000010DB0"></c:choirIdRef> <!-- 吹田グリー -->
+  <c:choirIdRef id="CG200000010DB8"></c:choirIdRef> <!-- 千里バッハ合唱団 (公式) -->
+  <c:choirIdRef id="CG200000010DC1"></c:choirIdRef> <!-- 千里バッハ合唱団 (非公式) -->
+  <c:choirIdRef id="CG200000010DCA"></c:choirIdRef> <!-- 男声合唱団コールシャンテ -->
+  <c:choirIdRef id="CG200000010DD3"></c:choirIdRef> <!-- 男声合唱団コールバッカス -->
+  <c:choirIdRef id="CG200000010DDC"></c:choirIdRef> <!-- 豊中混声合唱団 -->
+  <c:choirIdRef id="CG200000010DE4"></c:choirIdRef> <!-- とんだばやし混声合唱団 -->
+  <c:choirIdRef id="CG200000010DEC"></c:choirIdRef> <!-- なにわコラリアーズ -->
+  <c:choirIdRef id="CG200000010DF4"></c:choirIdRef> <!-- 南港混声合唱団 -->
+  <c:choirIdRef id="CG200000010DFC"></c:choirIdRef> <!-- 阪音会合唱団 -->
+  <c:choirIdRef id="CG200000010E04"></c:choirIdRef> <!-- 東大阪第九シンフォニー合唱団 -->
+  <c:choirIdRef id="CG200000010E0D"></c:choirIdRef> <!-- 豊能混声ユーベルコール -->
+  <c:choirIdRef id="CG200208050154"></c:choirIdRef> <!-- 箕面市民合唱団 -->
+  <c:choirIdRef id="CG200000010E1F"></c:choirIdRef> <!-- モンテヴェルディ室内合唱団 -->
+  <c:choirIdRef id="CG200000010E27"></c:choirIdRef> <!-- La 萠 Die -->
+  <c:choirIdRef id="CG200000010E30"></c:choirIdRef> <!-- 淀川混声合唱団 -->
 
   <!-- 兵庫県 -->
   <c:choir>
