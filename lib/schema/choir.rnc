@@ -27,7 +27,7 @@ start =
       | xsd:NMTOKEN "company"
     },
     element comment {
-      mixed { utf8-char }
+      mixed { utf8-char? }
     }?,
     element contact {
       name?,
@@ -38,7 +38,7 @@ start =
 name =
   element name {
     attribute yomi { xsd:string }?,
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 url = element url { xsd:string }
 utf8-char =

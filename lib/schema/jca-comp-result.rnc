@@ -153,19 +153,19 @@ title =
     attribute original { xsd:string "true" | xsd:string "false" }?,
     attribute xml:lang { \string }?,
     element ns2:titlePrefix {
-      mixed { utf8-char }
+      mixed { utf8-char? }
     }?,
     element ns2:mainTitle {
-      mixed { utf8-char }
+      mixed { utf8-char? }
     },
     element ns2:titleSuffix {
-      mixed { utf8-char }
+      mixed { utf8-char? }
     }?
   }
 originated-from =
   element ns2:originated-from {
     attribute xml:lang { \string }?,
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 suite =
   element ns2:suite {
@@ -177,7 +177,7 @@ suite =
     title+,
     element ns2:suite-piece {
       (element ns2:piece-number {
-         mixed { utf8-char }
+         mixed { utf8-char? }
        }
        | piece
        | suite)+
@@ -199,7 +199,7 @@ words-by =
   element ns2:words-by {
     attribute xml:lang { \string }?,
     attribute kind { xsd:string }?,
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 utf8-char =
   element ns1:utf8-char {
@@ -540,20 +540,20 @@ utf8-char =
 arranged-by =
   element ns2:arranged-by {
     attribute xml:lang { \string }?,
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 composed-by =
   element ns2:composed-by {
     attribute xml:lang { \string }?,
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 piece-note =
   element ns2:piece-note {
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 translated-by =
   element ns2:translated-by {
     attribute xml:lang { \string }?,
-    mixed { utf8-char }
+    mixed { utf8-char? }
   }
 programNote = element programNote { xsd:string }
