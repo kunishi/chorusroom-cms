@@ -8,7 +8,7 @@ start =
     element competition-name {
       attribute pref { xsd:NMTOKEN "true" | xsd:NMTOKEN "false" }?,
       attribute area { xsd:NMTOKEN "true" | xsd:NMTOKEN "false" }?,
-      mixed { utf8-char? }
+      mixed { utf8-char* }
     },
     element result {
       attribute output { xsd:string },
@@ -27,7 +27,7 @@ start =
       }*,
       element startTime { xsd:time }?,
       element hall {
-        mixed { utf8-char? }
+        mixed { utf8-char* }
       }?,
       element referee {
         attribute xml:lang { xsd:string }?,
@@ -35,7 +35,7 @@ start =
         attribute job { xsd:string }?,
         attribute referred-date { xsd:string }?,
         attribute country { xsd:string }?,
-        mixed { utf8-char? }
+        mixed { utf8-char* }
       }*,
       element reporter {
         attribute anonymous {
@@ -44,7 +44,7 @@ start =
         element reporter-name {
           attribute xml:lang { xsd:string }?,
           attribute penname { xsd:string }?,
-          mixed { utf8-char? }
+          mixed { utf8-char* }
         },
         element reporter-email {
           attribute anonymous {
@@ -55,13 +55,13 @@ start =
       }+,
       element notices {
         element notice {
-          mixed { utf8-char? }
+          mixed { utf8-char* }
         }+
       }?,
       element section {
         element section-name {
           attribute date { xsd:string }?,
-          mixed { utf8-char? }
+          mixed { utf8-char* }
         },
         element choir {
           attribute representative {
@@ -73,7 +73,7 @@ start =
             attribute xml:lang { xsd:string }?,
             attribute url { xsd:anyURI }?,
              attribute choidref { xsd:string }?,
-            mixed { utf8-char? }
+            mixed { utf8-char* }
           },
           element prefecture { xsd:string }?,
           element choir-type {
@@ -87,16 +87,16 @@ start =
           (element conductor {
              attribute xml:lang { xsd:string }?,
              attribute instrument { xsd:string }?,
-             mixed { utf8-char? }
+             mixed { utf8-char* }
            }
            | element piano {
                attribute xml:lang { xsd:string }?,
-               mixed { utf8-char? }
+               mixed { utf8-char* }
              }
            | element accompaniment {
                attribute xml:lang { xsd:string }?,
                attribute instrument { xsd:string },
-               mixed { utf8-char? }
+               mixed { utf8-char* }
              })*,
           element prize {
             attribute nickname {
@@ -153,19 +153,19 @@ title =
     attribute original { xsd:string "true" | xsd:string "false" }?,
     attribute xml:lang { \string }?,
     element ns2:titlePrefix {
-      mixed { utf8-char? }
+      mixed { utf8-char* }
     }?,
     element ns2:mainTitle {
-      mixed { utf8-char? }
+      mixed { utf8-char* }
     },
     element ns2:titleSuffix {
-      mixed { utf8-char? }
+      mixed { utf8-char* }
     }?
   }
 originated-from =
   element ns2:originated-from {
     attribute xml:lang { \string }?,
-    mixed { utf8-char? }
+    mixed { utf8-char* }
   }
 suite =
   element ns2:suite {
@@ -177,7 +177,7 @@ suite =
     title+,
     element ns2:suite-piece {
       (element ns2:piece-number {
-         mixed { utf8-char? }
+         mixed { utf8-char* }
        }
        | piece
        | suite)+
@@ -199,7 +199,7 @@ words-by =
   element ns2:words-by {
     attribute xml:lang { \string }?,
     attribute kind { xsd:string }?,
-    mixed { utf8-char? }
+    mixed { utf8-char* }
   }
 utf8-char =
   element ns1:utf8-char {
@@ -540,20 +540,20 @@ utf8-char =
 arranged-by =
   element ns2:arranged-by {
     attribute xml:lang { \string }?,
-    mixed { utf8-char? }
+    mixed { utf8-char* }
   }
 composed-by =
   element ns2:composed-by {
     attribute xml:lang { \string }?,
-    mixed { utf8-char? }
+    mixed { utf8-char* }
   }
 piece-note =
   element ns2:piece-note {
-    mixed { utf8-char? }
+    mixed { utf8-char* }
   }
 translated-by =
   element ns2:translated-by {
     attribute xml:lang { \string }?,
-    mixed { utf8-char? }
+    mixed { utf8-char* }
   }
 programNote = element programNote { xsd:string }
