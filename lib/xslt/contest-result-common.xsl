@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.13 2001/08/30 11:44:10 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.14 2001/09/13 03:11:31 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -352,7 +352,7 @@
       </xsl:if>
       <ul>
         <xsl:for-each select="$other-choir-list">
-          <xsl:if test="not(cr:prize/text()='')">
+          <xsl:if test="cr:prize/text()">
             <xsl:message>
               Prize mismatch at <xsl:value-of select="cr:choir-name"/>.
             </xsl:message>
