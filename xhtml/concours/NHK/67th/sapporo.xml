@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: sapporo.xml,v 1.3 2001/01/23 12:08:13 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: sapporo.xml,v 1.4 2001/01/23 13:01:56 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度NHK全国学校音楽コンクール札幌地区コンクール</competition-name>
   <result output="sapporo">
     <date day-of-week="wed" holiday="false">2000-08-02</date>
@@ -68,7 +68,7 @@
 		<p:piece-number>4.</p:piece-number>
 		<p:piece>
 		  <p:words-by>武鹿悦子</p:words-by>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>はくさいぎしぎし</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -929,7 +929,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>風の声</p:mainTitle>
 		  </p:title>
 		</p:piece>
