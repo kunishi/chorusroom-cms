@@ -38,8 +38,17 @@
             <xsl:call-template name="referee-list"/>
         </dl>
         <xsl:apply-templates select="c:notices"/>
-        <xsl:if test="c:scoreTableRef">
-            <xsl:apply-templates select="c:scoreTableRef"/>
+        <xsl:if test=".//c:score">
+            <p>
+                <xsl:text>採点表を</xsl:text>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat(@output,'-score.html')"/>
+                    </xsl:attribute>
+                    <xsl:text>別ページ</xsl:text>
+                </a>
+                <xsl:text>にまとめてあります。</xsl:text>
+            </p>
         </xsl:if>
         <xsl:apply-templates select="c:section"/>
     </xsl:template>
@@ -124,18 +133,6 @@
                 <xsl:value-of select="."/>
             </p>
         </li>
-    </xsl:template>
-    <xsl:template match="c:scoreTableRef">
-        <p>
-            <xsl:text>採点表を</xsl:text>
-            <a>
-                <xsl:attribute name="href">
-                    <xsl:value-of select="@href"/>
-                </xsl:attribute>
-                <xsl:text>別ページ</xsl:text>
-            </a>
-            <xsl:text>にまとめてあります。</xsl:text>
-        </p>
     </xsl:template>
     <xsl:template match="c:section">
         <xsl:variable name="seed-choir-list" select="c:choir[c:prize/@nickname='seeded']"/>

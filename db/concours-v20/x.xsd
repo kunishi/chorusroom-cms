@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.chorusroom.org/xml" xmlns:x="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
+  <xs:include schemaLocation="text.xsd"/>
+  <xs:include schemaLocation="hypertext.xsd"/>
+  <xs:include schemaLocation="list.xsd"/>
+  <xs:import schemaLocation="attrib.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/piece" schemaLocation="contest-result-v20.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="result">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x:competitionName"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:date"/>
+        <xs:element minOccurs="0" ref="x:hall"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:referee"/>
+        <xs:element minOccurs="0" ref="x:notice"/>
+        <xs:element maxOccurs="unbounded" ref="x:section"/>
+      </xs:sequence>
+      <xs:attribute name="moduleVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="2.0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="competitionName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="pref">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="true"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="area">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="true"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date">
+    <xs:complexType mixed="true">
+      <xs:attribute name="dayOfWeek" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="sun"/>
+            <xs:enumeration value="mon"/>
+            <xs:enumeration value="tue"/>
+            <xs:enumeration value="wed"/>
+            <xs:enumeration value="thu"/>
+            <xs:enumeration value="fri"/>
+            <xs:enumeration value="sat"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hall" type="xs:string"/>
+  <xs:element name="referee">
+    <xs:complexType mixed="true">
+      <xs:attribute name="job"/>
+      <xs:attribute name="shortname"/>
+      <xs:attribute name="note"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="notice" type="x:Flow.model"/>
+  <xs:element name="section">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x:sectionName"/>
+        <xs:element maxOccurs="unbounded" ref="x:choir"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sectionName" type="xs:string"/>
+  <xs:element name="choir">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="x:name"/>
+        <xs:element ref="x:playingOrder"/>
+        <xs:element ref="x:type"/>
+        <xs:element ref="x:prefecture"/>
+        <xs:element ref="x:number"/>
+        <xs:element ref="x:players"/>
+        <xs:element ref="x:prize"/>
+        <xs:element ref="x:special-prize"/>
+        <xs:element ref="x:note"/>
+        <xs:group ref="p:playing-number"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="playingOrder" type="xs:integer"/>
+  <xs:element name="type">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="混声"/>
+        <xs:enumeration value="男声"/>
+        <xs:enumeration value="女声"/>
+        <xs:enumeration value="同声"/>
+        <xs:enumeration value="童声"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="prefecture" type="xs:string"/>
+  <xs:element name="number" type="xs:integer"/>
+  <xs:element name="players" type="p:playersList"/>
+  <xs:element name="prize" type="xs:string"/>
+  <xs:element name="special-prize" type="xs:string"/>
+  <xs:element name="note" type="xs:string"/>
+  <xs:element name="conductor">
+    <xs:complexType mixed="true">
+      <xs:attribute name="note"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="piano">
+    <xs:complexType mixed="true">
+      <xs:attribute name="note"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instrument">
+    <xs:complexType mixed="true">
+      <xs:attribute name="kind" use="required"/>
+      <xs:attribute name="note" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="freeNumber" type="p:free-playing-number"/>
+  <xs:element name="assignedNumber">
+    <xs:complexType>
+      <xs:attribute name="ref" use="required" type="xs:anyURI"/>
+      <xs:attribute name="number" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="G1"/>
+            <xs:enumeration value="G2"/>
+            <xs:enumeration value="G3"/>
+            <xs:enumeration value="G4"/>
+            <xs:enumeration value="M1"/>
+            <xs:enumeration value="M2"/>
+            <xs:enumeration value="M3"/>
+            <xs:enumeration value="M4"/>
+            <xs:enumeration value="F1"/>
+            <xs:enumeration value="F2"/>
+            <xs:enumeration value="F3"/>
+            <xs:enumeration value="F4"/>
+            <xs:enumeration value="elementary"/>
+            <xs:enumeration value="junior"/>
+            <xs:enumeration value="senior"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

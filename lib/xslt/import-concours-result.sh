@@ -17,5 +17,6 @@ case "$MODE" in
 	;;
 esac
 
+[ ! -d $OUTDIR ] && mkdir -p $OUTDIR
 echo xsltproc -o $OUT --param docBase \"$DOCBASE\" $STYLE $DOCBASE/$SRC 
 xsltproc -o $OUT --param docBase \"$DOCBASE\" $STYLE $DOCBASE/$SRC 

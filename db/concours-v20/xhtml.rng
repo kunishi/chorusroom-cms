@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <include href="text.rng"/>
+  <include href="hypertext.rng"/>
+  <include href="list.rng"/>
+  <include href="attrib.rng"/>
+  <include href="datatypes.rng"/>
+</grammar>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <include href="xhtml.rng"/>
+  <start>
+    <ref name="result"/>
+  </start>
+  <define name="result">
+    <element name="result">
+      <attribute name="moduleVersion">
+        <value>2.0</value>
+      </attribute>
+      <element name="competitionName">
+        <optional>
+          <attribute name="pref">
+            <value>true</value>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="area">
+            <value>true</value>
+          </attribute>
+        </optional>
+        <data type="string"/>
+      </element>
+      <zeroOrMore>
+        <element name="date">
+          <attribute name="dayOfWeek">
+            <choice>
+              <value>sun</value>
+              <value>mon</value>
+              <value>tue</value>
+              <value>wed</value>
+              <value>thu</value>
+              <value>fri</value>
+              <value>sat</value>
+            </choice>
+          </attribute>
+          <text/>
+        </element>
+      </zeroOrMore>
+      <optional>
+        <element name="hall">
+          <text/>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <element name="referee">
+          <optional>
+            <attribute name="job"/>
+          </optional>
+          <optional>
+            <attribute name="shortname"/>
+          </optional>
+          <optional>
+            <attribute name="note"/>
+          </optional>
+          <text/>
+        </element>
+      </zeroOrMore>
+      <optional>
+        <element name="notice">
+          <ref name="Flow.model"/>
+        </element>
+      </optional>
+      <oneOrMore>
+        <element name="section">
+          <element name="sectionName">
+            <data type="string"/>
+          </element>
+          <oneOrMore>
+            <ref name="choir"/>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="choir">
+    <element name="choir">
+      <interleave>
+        <element name="name">
+          <optional>
+            <attribute name="id"/>
+          </optional>
+          <data type="string"/>
+        </element>
+        <optional>
+          <element name="playingOrder">
+            <data type="integer"/>
+          </element>
+        </optional>
+        <optional>
+          <element name="type">
+            <choice>
+              <!-- attribute nickname  { "mixed" | "male" | "female" | "same-voice" | "children" }, -->
+              <value>混声</value>
+              <value>男声</value>
+              <value>女声</value>
+              <value>同声</value>
+              <value>童声</value>
+            </choice>
+          </element>
+        </optional>
+        <optional>
+          <element name="prefecture">
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="number">
+            <data type="integer"/>
+          </element>
+        </optional>
+        <optional>
+          <element name="players">
+            <ref name="playersList"/>
+          </element>
+        </optional>
+        <element name="prize">
+          <!-- attribute nickname { "seed" | "gold" | "silver" | "blonze" | "none" }, -->
+          <text/>
+        </element>
+        <optional>
+          <element name="special-prize">
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="note">
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <ref name="playing-number"/>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+  <define name="playersList">
+    <oneOrMore>
+      <choice>
+        <element name="conductor">
+          <optional>
+            <attribute name="note"/>
+          </optional>
+          <text/>
+        </element>
+        <element name="piano">
+          <optional>
+            <attribute name="note"/>
+          </optional>
+          <text/>
+        </element>
+        <element name="instrument">
+          <attribute name="kind"/>
+          <attribute name="note"/>
+          <text/>
+        </element>
+      </choice>
+    </oneOrMore>
+  </define>
+  <define name="playing-number">
+    <interleave>
+      <oneOrMore>
+        <element name="freeNumber">
+          <ref name="free-playing-number"/>
+        </element>
+      </oneOrMore>
+      <optional>
+        <element name="assignedNumber">
+          <attribute name="ref">
+            <data type="anyURI"/>
+          </attribute>
+          <attribute name="number">
+            <choice>
+              <value>G1</value>
+              <value>G2</value>
+              <value>G3</value>
+              <value>G4</value>
+              <value>M1</value>
+              <value>M2</value>
+              <value>M3</value>
+              <value>M4</value>
+              <value>F1</value>
+              <value>F2</value>
+              <value>F3</value>
+              <value>F4</value>
+              <value>elementary</value>
+              <value>junior</value>
+              <value>senior</value>
+            </choice>
+          </attribute>
+          <empty/>
+        </element>
+      </optional>
+    </interleave>
+  </define>
+  <define name="free-playing-number">
+    <optional>
+      <attribute name="part">
+        <data type="string"/>
+      </attribute>
+    </optional>
+    <mixed>
+      <zeroOrMore>
+        <choice>
+          <element name="p:wordsBy">
+            <data type="string"/>
+          </element>
+          <element name="p:composedBy">
+            <data type="string"/>
+          </element>
+          <element name="p:arrangedBy">
+            <data type="string"/>
+          </element>
+          <element name="p:translatedBy">
+            <data type="string"/>
+          </element>
+          <element name="p:originatedFrom">
+            <data type="string"/>
+          </element>
+          <element name="p:title">
+            <optional>
+              <attribute name="xml:lang">
+                <data type="language"/>
+              </attribute>
+            </optional>
+            <data type="string"/>
+          </element>
+          <element name="p:suiteTitle">
+            <optional>
+              <attribute name="xml:lang">
+                <data type="language"/>
+              </attribute>
+            </optional>
+            <data type="string"/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>

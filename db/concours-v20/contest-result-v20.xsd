@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.chorusroom.org/piece" xmlns:x="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece">
+  <xs:include schemaLocation="xhtml.xsd"/>
+  <xs:import schemaLocation="attrib.xsd"/>
+  <xs:import namespace="http://www.chorusroom.org/xml" schemaLocation="x.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:complexType name="playersList">
+    <xs:choice maxOccurs="unbounded">
+      <xs:element ref="x:conductor"/>
+      <xs:element ref="x:piano"/>
+      <xs:element ref="x:instrument"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:group name="playing-number">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="x:freeNumber"/>
+        <xs:element ref="x:assignedNumber"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:group>
+  <xs:complexType name="free-playing-number" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="p:wordsBy"/>
+      <xs:element ref="p:composedBy"/>
+      <xs:element ref="p:arrangedBy"/>
+      <xs:element ref="p:translatedBy"/>
+      <xs:element ref="p:originatedFrom"/>
+      <xs:element ref="p:title"/>
+      <xs:element ref="p:suiteTitle"/>
+    </xs:choice>
+    <xs:attribute name="part" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="wordsBy" type="xs:string"/>
+  <xs:element name="composedBy" type="xs:string"/>
+  <xs:element name="arrangedBy" type="xs:string"/>
+  <xs:element name="translatedBy" type="xs:string"/>
+  <xs:element name="originatedFrom" type="xs:string"/>
+  <xs:element name="title">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attributeGroup ref="xml:lang"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="suiteTitle">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attributeGroup ref="xml:lang"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
