@@ -34,6 +34,8 @@
 
   <xsl:template name="採点表">
     <xsl:element name="table">
+      <xsl:attribute name="class">ajclresult</xsl:attribute>
+      <xsl:attribute name="border">1</xsl:attribute>
       <xsl:call-template name="採点表ヘッダ"/>
       <xsl:call-template name="採点表ボディ"/>
     </xsl:element>
@@ -78,6 +80,17 @@
 
   <xsl:template name="採点表エントリ">
     <xsl:element name="tr">
+      <xsl:choose>
+	<xsl:when test="../賞[.='金賞']"> 
+	  <xsl:attribute name="bgcolor">gold</xsl:attribute>
+	</xsl:when>
+	<xsl:when test="../賞[.='銀賞']">
+	  <xsl:attribute name="bgcolor">silver</xsl:attribute>
+	</xsl:when>
+	<xsl:when test="../賞[.='銅賞']">
+	  <xsl:attribute name="bgcolor">#ffccaa</xsl:attribute>
+	</xsl:when>
+      </xsl:choose>
       <xsl:element name="td">
 	<xsl:attribute name="rowspan">1</xsl:attribute>
 	<xsl:attribute name="colspan">1</xsl:attribute>
