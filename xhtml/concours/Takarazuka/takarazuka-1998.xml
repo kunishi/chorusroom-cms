@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding='iso-2022-jp'?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: takarazuka-1998.xml,v 1.3 2001/01/12 12:03:13 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: takarazuka-1998.xml,v 1.4 2001/01/24 05:44:35 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第15回宝塚国際室内合唱コンクール</competition-name>
   <result output="takarazuka-1998">
     <date day-of-week="sat" holiday="false">1998-07-25</date>
@@ -22,12 +22,20 @@
 	<special-prize>総合1位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>P. Kastiainen</p:composed-by>
-	    <p:piece>Kaakobin Pojat</p:piece>
+	    <p:piece>
+	      <p:composed-by>P. Kastiainen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Kaakobin Pojat</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>A. Mellnas</p:composed-by>
-	    <p:piece>AGLEPTA</p:piece>
+	    <p:piece>
+	      <p:composed-by>A. Mellnas</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>AGLEPTA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
 	<choir-note>台湾</choir-note>
@@ -38,12 +46,20 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>P. Kostiainen</p:composed-by>
-	    <p:piece>Konsertti</p:piece>
+	    <p:piece>
+	      <p:composed-by>P. Kostiainen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Konsertti</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>U. Sisask</p:composed-by>
-	    <p:piece>Gratias Agamus Domino Deo Nostro</p:piece>
+	    <p:piece>
+	      <p:composed-by>U. Sisask</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Gratias Agamus Domino Deo Nostro</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -53,17 +69,27 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>M. Kocsar</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Missa in A&quot;</p:piece>
+	      <p:composed-by>M. Kocsar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa in A</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>GLORIA</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>GLORIA</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>J. Busto</p:composed-by>
-	    <p:piece>Alleluia</p:piece>
+	    <p:piece>
+	      <p:composed-by>J. Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Alleluia</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -72,16 +98,28 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>H. W. Steinberg</p:composed-by>
-	    <p:piece>At tu casta</p:piece>
+	    <p:piece>
+	      <p:composed-by>H. W. Steinberg</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>At tu casta</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>H. W. Steinberg</p:composed-by>
-	    <p:piece>Cum subit illius</p:piece>
+	    <p:piece>
+	      <p:composed-by>H. W. Steinberg</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Cum subit illius</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>H. W. Steinberg</p:composed-by>
-	    <p:piece>Iucundum mea vita</p:piece>
+	    <p:piece>
+	      <p:composed-by>H. W. Steinberg</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Iucundum mea vita</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -91,17 +129,28 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>アポリネールの詩による四つの無伴奏小品集「白鳥」</p:piece>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>アポリネールの詩による四つの無伴奏小品集</p:titlePrefix>
+		<p:mainTitle>白鳥</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>贈物</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>贈物</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>松下耕</p:composed-by>
-	    <p:piece>Ave Regina coelorum</p:piece>
+	    <p:piece>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Regina coelorum</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -111,17 +160,27 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>M. Kocsar</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;HAROM NOIKAR&quot;</p:piece>
+	      <p:composed-by>M. Kocsar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>HAROM NOIKAR</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>O, havas erdo nemasaga</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>O, havas erdo nemasaga</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>M. Kocsar</p:composed-by>
-	    <p:piece>SALVE REGINA</p:piece>
+	    <p:piece>
+	      <p:composed-by>M. Kocsar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>SALVE REGINA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -135,21 +194,36 @@
 	<special-prize>国内団体第一位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>松下耕</p:composed-by>
 	    <p:suite>
-	      <p:piece>「男声合唱のための２つの日本民謡」</p:piece>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱のための</p:titlePrefix>
+		<p:mainTitle>２つの日本民謡</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>刈干切唄</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>刈干切唄</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>L. Bardos</p:composed-by>
-	    <p:piece>HUZD RA, TE CIGANY</p:piece>
+	    <p:piece>
+	      <p:composed-by>L. Bardos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>HUZD RA, TE CIGANY</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>M. Kocsar</p:composed-by>
-	    <p:piece>SALVE REGINA</p:piece>
+	    <p:piece>
+	      <p:composed-by>M. Kocsar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>SALVE REGINA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -159,20 +233,32 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>武満徹</p:composed-by>
 	    <p:suite>
-	      <p:piece>「風の馬」</p:piece>
+	      <p:composed-by>武満徹</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>風の馬</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>第2ヴォーカリーズ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>第2ヴォーカリーズ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>「五つのルフラン」</p:piece>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>五つのルフラン</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>鉾をおさめて</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>鉾をおさめて</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -188,20 +274,36 @@
 	<special-prize>総合2位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>J. Arcadelt</p:composed-by>
-	    <p:piece>Il bianco e dolce cigno</p:piece>
+	    <p:piece>
+	      <p:composed-by>J. Arcadelt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Il bianco e dolce cigno</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>J. S. Bach</p:composed-by>
-	    <p:piece>Jesu meine Freude</p:piece>
+	    <p:piece>
+	      <p:composed-by>J. S. Bach</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Jesu meine Freude</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>K. Brundzaite</p:composed-by>
-	    <p:piece>SESELIS</p:piece>
+	    <p:piece>
+	      <p:composed-by>K. Brundzaite</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>SESELIS</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>K. Brundzaite</p:composed-by>
-	    <p:piece>Debesis ir lietus</p:piece>
+	    <p:piece>
+	      <p:composed-by>K. Brundzaite</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Debesis ir lietus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
 	<choir-note>リトアニア</choir-note>
@@ -213,13 +315,21 @@
 	<special-prize>総合3位</special-prize>
 	<program>
 	  <free-program>
-	    <p:originated-from>中国古謡</p:originated-from>
-	    <p:arranged-by>戴金泉</p:arranged-by>
-	    <p:piece>陽關曲</p:piece>
+	    <p:piece>
+	      <p:originated-from>中国古謡</p:originated-from>
+	      <p:arranged-by>戴金泉</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>陽關曲</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>P. L. da Viadana</p:composed-by>
-	    <p:piece>EXSULTATE JUSTI</p:piece>
+	    <p:piece>
+	      <p:composed-by>P. L. da Viadana</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>EXSULTATE JUSTI</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
 	<choir-note>台湾</choir-note>
@@ -230,30 +340,54 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>W. Stenhammar</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Tre Korvisor&quot;</p:piece>
+	      <p:composed-by>W. Stenhammar</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Tre Korvisor</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/></p:piece-number>
-		<p:piece>Seraillets Have</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Seraillets Have</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>E. Rautavaara</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;SUITE de LORCA&quot;</p:piece>
+	      <p:composed-by>E. Rautavaara</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>SUITE de LORCA</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Cancion de jinete</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Cancion de jinete</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>El Grito</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>El Grito</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>La luna asoma</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>La luna asoma</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Malaguna</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Malaguna</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -264,12 +398,20 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>C. Monteverdi</p:composed-by>
-	    <p:piece>Non si levava ancor</p:piece>
+	    <p:piece>
+	      <p:composed-by>C. Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Non si levava ancor</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>C. Monteverdi</p:composed-by>
-	    <p:piece>E dicea l'una sospirando</p:piece>
+	    <p:piece>
+	      <p:composed-by>C. Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>E dicea l'una sospirando</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -280,12 +422,20 @@
 	<special-prize>古楽部門1位</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>O. de Lassus</p:composed-by>
-	    <p:piece>La nuit froide et sombre</p:piece>
+	    <p:piece>
+	      <p:composed-by>O. de Lassus</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>La nuit froide et sombre</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>C. Janequin</p:composed-by>
-	    <p:piece>Le chant des oyseaux</p:piece>
+	    <p:piece>
+	      <p:composed-by>C. Janequin</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Le chant des oyseaux</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -294,16 +444,28 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>G. Costeley</p:composed-by>
-	    <p:piece>Quand l'ennuy facheux vous prend</p:piece>
+	    <p:piece>
+	      <p:composed-by>G. Costeley</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Quand l'ennuy facheux vous prend</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>G. Costeley</p:composed-by>
-	    <p:piece>Las je n'yray plus, je n'yray pas jouer</p:piece>
+	    <p:piece>
+	      <p:composed-by>G. Costeley</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Las je n'yray plus, je n'yray pas jouer</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>C. le Jenue</p:composed-by>
-	    <p:piece>Reveci venir du Printemps</p:piece>
+	    <p:piece>
+	      <p:composed-by>C. le Jenue</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Reveci venir du Printemps</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -314,12 +476,20 @@
 	<special-prize>現代音楽賞(時間オーバーのため失格)</special-prize>
 	<program>
 	  <free-program>
-	    <p:composed-by>G. Sviridov</p:composed-by>
-	    <p:piece>Night Clouds</p:piece>
+	    <p:piece>
+	      <p:composed-by>G. Sviridov</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Night Clouds</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>V. Tormis</p:composed-by>
-	    <p:piece>Incantation of Iron</p:piece>
+	    <p:piece>
+	      <p:composed-by>V. Tormis</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Incantation of Iron</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
 	<choir-note>ロシア</choir-note>
