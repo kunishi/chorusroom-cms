@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.5 2001/01/22 03:11:28 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2001/01/23 11:56:43 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -24,6 +24,7 @@ INSTFILES_TRADITIONAL=	aichi.html \
 			shizuoka.html \
 			sorachi.html \
 			tokai-hokuriku.html \
+			${HTML_TOKYO} \
 			yamaguchi.html
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
@@ -31,7 +32,10 @@ INSTFILES+=	index.html
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
 
 HTML_KUMAMOTO=		kumamoto-preliminary.html kumamoto-main.html
+HTML_TOKYO=		tokyo-preliminary-a.html \
+			tokyo-preliminary-b.html
 .INTERMEDIATE:		${HTML_KUMAMOTO:%.html=%.xml}
+.INTERMEDIATE:		${HTML_TOKYO:%.html=%.xml}
 
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/nhk-contest-result.traditional.xsl
 ${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
@@ -45,4 +49,7 @@ include config.mk
 include rule.mk
 
 ${HTML_KUMAMOTO:%.html=%.xml}:	kumamoto.xml
+	${LN_S} $< $@
+
+${HTML_TOKYO:%.html=%.xml}:	tokyo.xml
 	${LN_S} $< $@

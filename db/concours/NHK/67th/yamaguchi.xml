@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: yamaguchi.xml,v 1.5 2001/01/12 12:03:12 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.6 2001/01/23 11:58:24 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度（第65回）NHK全国学校音楽コンクール山口県大会</competition-name>
   <result output="yamaguchi">
     <date day-of-week="tue" holiday="false">2000-08-08</date>
@@ -27,10 +27,15 @@
 	<piano>中村早織</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>夢をのせて</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>夢をのせて</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -39,17 +44,28 @@
 	<conductor>兼行洋子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>原仁美</piano>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>「無伴奏児童合唱集」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>無伴奏児童合唱集</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>グリンピースうた</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>グリンピースうた</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>いちごのかぞえうた</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>いちごのかぞえうた</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -60,12 +76,17 @@
 	<conductor>竹内礼子</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>堀江由希</piano>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>芳西なつき</piano>
-	    <p:piece>満月の不思議ポロロッカ</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>満月の不思議ポロロッカ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -74,15 +95,23 @@
 	<conductor>森池博子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>杉浦博香</piano>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>平田修子</piano>
 	    <p:suite>
-	      <p:piece>組曲「小さい兄さん」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>小さい兄さん</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>うさぎ星</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>うさぎ星</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -94,13 +123,21 @@
 	<piano>瀬川もゆる</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>少年少女のための合唱組曲「四季のソネットから」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>少年少女のための合唱組曲</p:titlePrefix>
+		<p:mainTitle>四季のソネットから</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>夏</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夏</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -112,10 +149,15 @@
 	<piano>峰松佳乃子</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>満月の不思議ポロロッカ</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>満月の不思議ポロロッカ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -125,10 +167,16 @@
 	<piano>増田真由美</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>上見れば(二部合唱のための主題と変奏)</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>上見れば</p:mainTitle>
+		<p:titleSuffix>(二部合唱のための主題と変奏)</p:titleSuffix>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -137,15 +185,23 @@
 	<conductor>福田哲朗</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>西岡亜紀</piano>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>國井理江</piano>
 	    <p:suite>
-	      <p:piece>同声合唱組曲「ぼくだけの歌」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>同声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ぼくだけの歌</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>ぼくのおうえんか</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ぼくのおうえんか</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -160,12 +216,18 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>NHK山口放送局長賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>難波瑠里</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>阿武紗矢</piano>
-	    <p:piece>あいや節幻想曲〜津軽民謡風俗めぐり〜</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>あいや節幻想曲</p:mainTitle>
+		<p:titleSuffix>〜津軽民謡風俗めぐり〜</p:titleSuffix>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -175,15 +237,23 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>教育長賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>松田美耶</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>女声（児童）合唱組曲「IN TERRA PAX〜地に平和を」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声（児童）合唱組曲</p:titlePrefix>
+		<p:mainTitle>IN TERRA PAX〜地に平和を</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/>.</p:piece-number>
-		<p:piece>ほうけた母の子守歌</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ほうけた母の子守歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -194,11 +264,16 @@
 	<conductor>山本真紀</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>山内治香</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>ヘンルーダの花が咲いたら</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ヘンルーダの花が咲いたら</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -207,16 +282,24 @@
 	<conductor>中野幸郎</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>清水倫子</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>満岡孝美</piano>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「風に鳴る笛」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>風に鳴る笛</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
-		<p:piece>地球があんまり荒れる日には</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>地球があんまり荒れる日には</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -228,10 +311,15 @@
 	<piano>渡邉秀行</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>二十億光年の孤独</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>二十億光年の孤独</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -240,12 +328,17 @@
 	<conductor>阿部由起子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>奥真美</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>福井一九惠</piano>
-	    <p:piece>OH MY SOLDIER</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>OH MY SOLDIER</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -254,14 +347,22 @@
 	<conductor>上田良夫</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>原田隆太郎</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>女声のための「ミサ曲第1番『復活』」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声のためのミサ曲第1番</p:titlePrefix>
+		<p:mainTitle>復活</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>SANCTUS</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>SANCTUS</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -272,12 +373,17 @@
 	<conductor>弘中裕次</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>松岡絵美</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>西川千代野</piano>
-	    <p:piece>時の旅人</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>時の旅人</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -286,15 +392,23 @@
 	<conductor>山本恵美</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano>山近綾香</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano>木嶋友里</piano>
 	    <p:suite>
-	      <p:piece>女声（児童）合唱組曲「IN TERRA PAX〜地に平和を」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声（児童）合唱組曲</p:titlePrefix>
+		<p:mainTitle>IN TERRA PAX〜地に平和を</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>IN TERRA PAX〜地に平和を</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>IN TERRA PAX〜地に平和を</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -309,14 +423,22 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>NHK山口放送局長賞</special-prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>混声合唱組曲集「優しき歌」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱曲集</p:titlePrefix>
+		<p:mainTitle>優しき歌</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece>爽やかな五月に</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>爽やかな五月に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -328,14 +450,22 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>教育長賞</special-prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>無伴奏混声合唱のための「誕生祭」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏混声合唱のための</p:titlePrefix>
+		<p:mainTitle>誕生祭</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/>.</p:piece-number>
-		<p:piece>病める皇帝の祈りのうた</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>病める皇帝の祈りのうた</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>

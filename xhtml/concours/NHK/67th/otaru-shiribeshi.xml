@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: otaru-shiribeshi.xml,v 1.1 2001/01/22 03:11:56 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: otaru-shiribeshi.xml,v 1.2 2001/01/23 11:56:49 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール小樽・後志地区コンクール</competition-name>
   <result output="otaru-shiribeshi">
     <date day-of-week="wed" holiday="false">2000-08-23</date>
@@ -20,13 +20,18 @@
 	<piano>白浜真由子</piano>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>杉本竜一</p:words-by>
-	    <p:composed-by>杉本竜一</p:composed-by>
-	    <p:arranged-by>富澤裕</p:arranged-by>
-	    <p:piece>Tomorrow</p:piece>
+	    <p:piece>
+	      <p:words-by>杉本竜一</p:words-by>
+	      <p:composed-by>杉本竜一</p:composed-by>
+	      <p:arranged-by>富澤裕</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Tomorrow</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -37,14 +42,19 @@
 	<conductor>菅原美和子</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
 	    <piano grade="5">世界敦子</piano>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano grade="5">鹿内直子</piano>
-	    <p:words-by>北村けいこ</p:words-by>
-	    <p:composed-by>A. L. Webber</p:composed-by>
-	    <p:piece>スキンブルシャンクス</p:piece>
+	    <p:piece>
+	      <p:words-by>北村けいこ</p:words-by>
+	      <p:composed-by>A. L. Webber</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>スキンブルシャンクス</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -56,17 +66,28 @@
 	<piano>倉岡綾子</piano>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Benjamin Britten</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Missa Brevis in D&quot;</p:piece>
+	      <p:composed-by>Benjamin Britten</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Brevis in D</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>SANCTUS</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>SANCTUS</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>AGNUS DEI</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>AGNUS DEI</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -82,18 +103,27 @@
 	<conductor>川田絹恵</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano grade="3">本田智子</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Thomas Weelkes</p:composed-by>
-	    <p:arranged-by>Henry Leslie</p:arranged-by>
-	    <p:piece>THE NIGHTTINGALE</p:piece>
+	    <p:piece>
+	      <p:composed-by>Thomas Weelkes</p:composed-by>
+	      <p:arranged-by>Henry Leslie</p:arranged-by>
+	      <p:title original="true" xml:lang="en">
+		<p:mainTitle>THE NIGHTTINGALE</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Michal East</p:composed-by>
-	    <p:arranged-by>Henry Leslie</p:arranged-by>
-	    <p:piece>See Amaryllis shamed</p:piece>
+	    <p:piece>
+	      <p:composed-by>Michal East</p:composed-by>
+	      <p:arranged-by>Henry Leslie</p:arranged-by>
+	      <p:title original="true" xml:lang="en">
+		<p:mainTitle>See Amaryllis shamed</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -105,15 +135,23 @@
 	<piano grade="1">直江香世子</piano>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>野田優作</p:words-by>
-	    <p:composed-by>荻久保和明</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための組曲「やさしさの日」</p:piece>
+	      <p:words-by>野田優作</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>やさしさの日</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>やさしさの日 Gentleness</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>やさしさの日 Gentleness</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -126,14 +164,19 @@
 	<conductor>内田純一</conductor>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
 	    <piano grade="3">井坂有香子</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <piano grade="3">亀山佳奈</piano>
-	    <p:words-by>川崎洋</p:words-by>
-	    <p:composed-by>平吉毅州</p:composed-by>
-	    <p:piece>海の不思議</p:piece>
+	    <p:piece>
+	      <p:words-by>川崎洋</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>海の不思議</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -145,12 +188,17 @@
 	<piano grade="3">熊木摩理</piano>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>深田じゅんこ</p:words-by>
-	    <p:composed-by>橋本祥路</p:composed-by>
-	    <p:piece>時の旅人</p:piece>
+	    <p:piece>
+	      <p:words-by>深田じゅんこ</p:words-by>
+	      <p:composed-by>橋本祥路</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>時の旅人</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
