@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://www.chorusroom.org/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
   <cvs-id>$Id: chugoku-2002-09-22.xml,v 1.2 2002/10/28 13:08:06 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="true">第41回中国合唱コンクール</competition-name>
@@ -118,13 +117,13 @@
 	    <p:suite>
 	      <p:composed-by>Felix Mendelssohn</p:composed-by>
 	      <p:title original="true">
-		<p:titlePrefix>Oratorium f<cr:utf8-char nickname="uuml">u</cr:utf8-char>r Soli, Chor und Orchester</p:titlePrefix>
+		<p:titlePrefix>Oratorium für Soli, Chor und Orchester</p:titlePrefix>
 		<p:mainTitle>Elias</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Der Herr ging vor <cr:utf8-char nickname="uuml">u</cr:utf8-char>ber</p:mainTitle>
+		    <p:mainTitle>Der Herr ging vor über</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -200,7 +199,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="3">
-	<choir-name>マツダ合唱団</choir-name>
+	<choir-name choidref="CC2000000100DF">マツダ合唱団</choir-name>
 	<prefecture>広島県</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>26</number-of-members>
@@ -241,7 +240,7 @@
     <section>
       <section-name>一般部門Aグループ</section-name>
       <choir representative="false" seed="false" playing-order="1">
-	<choir-name>コール・ゆうぶんげん</choir-name>
+	<choir-name choidref="CG200000010F7A">コール・ゆうぶんげん</choir-name>
 	<prefecture>岡山県</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>32</number-of-members>
@@ -348,7 +347,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
+	      <p:composed-by>György Orbán</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Lauda Sion</p:mainTitle>
 	      </p:title>
@@ -356,7 +355,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r</p:composed-by>
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Salve Regina</p:mainTitle>
 	      </p:title>
@@ -365,7 +364,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="5">
-	<choir-name>コールあじさい</choir-name>
+	<choir-name choidref="CG200000010F39">コールあじさい</choir-name>
 	<prefecture>鳥取県</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>28</number-of-members>
@@ -682,7 +681,7 @@
 	</program>
       </choir>
       <choir representative="false" seed="false" playing-order="13">
-	<choir-name>合唱団うたがき</choir-name>
+	<choir-name choidref="CG200000010F92">合唱団うたがき</choir-name>
 	<prefecture>広島県</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>22</number-of-members>
@@ -757,7 +756,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
+	      <p:composed-by>György Orbán</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Stabat Mater (in F)</p:mainTitle>
 	      </p:title>
@@ -779,7 +778,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
+	      <p:composed-by>György Orbán</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>
