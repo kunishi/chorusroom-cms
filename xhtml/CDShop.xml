@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-                      "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
-<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "./global.ent">
+%global-ent;
 ]>
-<html xmlns="http://www.w3.org/TR/xhtml1">
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
     <title>Chorus CD Shop</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
@@ -104,7 +105,7 @@
     <hr/>
     <a href="./" shape="rect">「合唱の部屋」ホームページ</a>へ
     <hr/>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp" shape="rect">Takeo KUNISHIMA/国島丈生</a></address>
-    $Id: CDShop.xml,v 1.2 1999/08/06 16:48:34 kunishi Exp $
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/14 01:40:34 $
   </body>
 </html>
