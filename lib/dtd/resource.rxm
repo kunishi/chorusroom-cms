@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: resource.rxm,v 1.1 2001/01/07 04:24:08 kunishi Exp $ -->
+<!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
+<module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/resource" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+  <interface>
+    <export label="resources"/>
+    <export label="resource"/>
+  </interface>
+
+  <tag name="resources"/>
+  <elementRule role="resources" label="resources">
+    <sequence>
+      <ref label="resource" occurs="+"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="resource">
+    <attribute name="name" required="true" type="string"/>
+    <attribute name="value" required="true" type="string"/>
+  </tag>
+  <elementRule role="resource" label="resource">
+    <empty/>
+  </elementRule>
+
+</module>
