@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: yamaguchi.xml,v 1.6 2001/01/23 11:58:24 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.7 2001/01/25 03:40:48 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度（第65回）NHK全国学校音楽コンクール山口県大会</competition-name>
   <result output="yamaguchi">
     <date day-of-week="tue" holiday="false">2000-08-08</date>
@@ -16,6 +16,10 @@
       <reporter-name>Satoshi Yamada</reporter-name>
       <reporter-email anonymous="false">cbs41100@pop21.odn.ne.jp</reporter-email>
     </reporter>
+    <reporter anonymous="false">
+      <reporter-name>なおや</reporter-name>
+      <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
     <notices>
       <notice>参加団体数: 中学校の部9校、高校の部2校</notice>
     </notices>
@@ -24,7 +28,7 @@
       <choir representative="false" playing-order="1">
 	<choir-name>岩国市立岩国小学校</choir-name>
 	<conductor>國清厚子</conductor>
-	<piano>中村早織</piano>
+	<piano grade="6">中村早織</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
@@ -45,7 +49,7 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <piano>原仁美</piano>
+	    <piano grade="6">原仁美</piano>
 	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
@@ -77,11 +81,11 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <piano>堀江由希</piano>
+	    <piano grade="6">堀江由希</piano>
 	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>芳西なつき</piano>
+	    <piano grade="6">芳西なつき</piano>
 	    <p:piece>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>満月の不思議ポロロッカ</p:mainTitle>
@@ -96,11 +100,11 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <piano>杉浦博香</piano>
+	    <piano grade="5">杉浦博香</piano>
 	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>平田修子</piano>
+	    <piano grade="6">平田修子</piano>
 	    <p:suite>
 	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>組曲</p:titlePrefix>
@@ -146,7 +150,7 @@
       <choir representative="true" playing-order="6">
 	<choir-name>下関市立豊浦小学校</choir-name>
 	<conductor>永島和子</conductor>
-	<piano>峰松佳乃子</piano>
+	<piano grade="6">峰松佳乃子</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
@@ -217,11 +221,11 @@
 	<special-prize>NHK山口放送局長賞</special-prize>
 	<program>
 	  <given-program>
-	    <piano>難波瑠里</piano>
+	    <piano grade="2">難波瑠里</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>阿武紗矢</piano>
+	    <piano grade="2">阿武紗矢</piano>
 	    <p:piece>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>あいや節幻想曲</p:mainTitle>
@@ -238,7 +242,7 @@
 	<special-prize>教育長賞</special-prize>
 	<program>
 	  <given-program>
-	    <piano>松田美耶</piano>
+	    <piano grade="3">松田美耶</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
@@ -265,7 +269,7 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <piano>山内治香</piano>
+	    <piano grade="3">山内治香</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
@@ -283,11 +287,11 @@
 	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
-	    <piano>清水倫子</piano>
+	    <piano grade="3">清水倫子</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>満岡孝美</piano>
+	    <piano grade="3">満岡孝美</piano>
 	    <p:suite>
 	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
@@ -308,7 +312,7 @@
       <choir representative="false" playing-order="2">
 	<choir-name>徳山市立桜田中学校</choir-name>
 	<conductor>上田めぐみ</conductor>
-	<piano>渡邉秀行</piano>
+	<piano grade="3">渡邉秀行</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
@@ -329,11 +333,11 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <piano>奥真美</piano>
+	    <piano grade="3">奥真美</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>福井一九惠</piano>
+	    <piano grade="2">福井一九惠</piano>
 	    <p:piece>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>OH MY SOLDIER</p:mainTitle>
@@ -348,7 +352,7 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <piano>原田隆太郎</piano>
+	    <piano grade="3">原田隆太郎</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
@@ -374,11 +378,11 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <piano>松岡絵美</piano>
+	    <piano grade="2">松岡絵美</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>西川千代野</piano>
+	    <piano grade="2">西川千代野</piano>
 	    <p:piece>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>時の旅人</p:mainTitle>
@@ -393,11 +397,11 @@
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
-	    <piano>山近綾香</piano>
+	    <piano grade="2">山近綾香</piano>
 	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <piano>木嶋友里</piano>
+	    <piano grade="3">木嶋友里</piano>
 	    <p:suite>
 	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>女声（児童）合唱組曲</p:titlePrefix>
