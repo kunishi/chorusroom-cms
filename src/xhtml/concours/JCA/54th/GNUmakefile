@@ -1,10 +1,11 @@
-# $Id: GNUmakefile,v 1.1 2001/07/24 04:55:16 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 2001/08/07 02:12:20 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
 INSTFILES+=		index.html
 
-INSTFILES_TRADITIONAL=	saga.html
+INSTFILES_TRADITIONAL=	oita.html \
+			saga.html
 
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
