@@ -55,6 +55,8 @@
 
 <!ELEMENT 部門結果 (部門名, 団体+, 採点表?)>
 <!ELEMENT 部門名 (#PCDATA)>
+<!ATTLIST 部門名
+          開催日 CDATA #IMPLIED>
 <!ELEMENT 団体 (団体名, 所属県?, 形態?, 登録人数?, 指揮者*, ピアノ*, 共演者*, 賞*, 特別賞*, 曲目?, 団体備考?)>
 <!ATTLIST 団体
           出演順 CDATA #IMPLIED
