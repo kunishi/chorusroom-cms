@@ -56,6 +56,13 @@ div.map p { margin: 0 0 0 0; }
 div.map table.google { background: white;
                        border: 1px solid black; 
                        font-size: 0.7em; }
+a.google { text-decoration: none;
+           color: white; }
+a.google:link { color: white;
+                background-color: white; }
+a.google:visited { color: white;
+                   background-color: white; }
+img.google { border: none; }
 
 /* body */
 div.body { margin: 0 14em 0 0; 

@@ -8,7 +8,7 @@
       <table class="google">
 	<tr>
 	  <td>
-	    <a href="http://www.google.co.jp/"><img src="/image/Logo_25wht.gif" border="0" alt="Google" align="middle"/></a>
+	    <a href="http://www.google.co.jp/"><img src="/image/Logo_25wht.gif" alt="Google"/></a>
 	  </td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@
       <table class="google">
 	<tr>
 	  <td>
-	    <a href="http://www.google.co.jp/"><img src="/image/Logo_25wht.gif" border="0" alt="Google" align="middle"/></a>
+	    <a href="http://www.google.co.jp/" class="google"><img src="/image/Logo_25wht.gif" alt="Google" class="google"/></a>
 	  </td>
 	</tr>
 	<tr>
