@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.14 2000/07/17 15:35:00 kunishi Exp $ -->
+<!-- $Id: result-common.xsl,v 1.15 2000/08/16 02:04:45 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -351,7 +351,7 @@
 
   <xsl:template name="演奏者データ">
     <xsl:call-template name="指揮者リスト"/>
-    <xsl:if test="ピアノ|共演者">
+    <xsl:if test="ピアノ">
       <xsl:text>, </xsl:text>
     </xsl:if>
     <xsl:call-template name="ピアノリスト"/>
