@@ -1,9 +1,9 @@
 # 
-# $Id: Makefile,v 1.21 1999/12/18 14:24:02 kunishi Exp $
+# $Id: Makefile,v 1.22 1999/12/18 14:27:24 kunishi Exp $
 #
 
 RELPATH=	.
-SRCTOPDIR=	./
+SRCTOPDIR=	.
 
 INSTFILES+=	CDShop.html \
 		ajcl-contest.html \

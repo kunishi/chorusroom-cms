@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.17 1999/12/18 14:24:03 kunishi Exp $
+# $Id: rule.mk,v 1.18 1999/12/18 14:27:24 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent
@@ -23,7 +23,7 @@ subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
 	  (cd $${dir} && ${MAKE} all \
-	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/../ ) \
+	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/..) \
 	done
 endif
 
@@ -42,7 +42,7 @@ ifdef SUBDIR
 	    mkdir -p ${INSTTOPDIR}${RELPATH}/$${dir}; \
 	  fi; \
 	  (cd $${dir} && ${MAKE} install \
-	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/../ ); \
+	   RELPATH=${RELPATH}/$${dir} SRCTOPDIR=${SRCTOPDIR}/..); \
 	done
 endif
 
