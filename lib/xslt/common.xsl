@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.8 2002/01/07 03:09:54 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.9 2002/04/30 14:56:38 kunishi Exp $ -->
 
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -22,9 +22,9 @@
   <xsl:param name="styledir">/style</xsl:param>
   <xsl:param name="stylesheet">default.css</xsl:param>
 
-  <xsl:variable name="maintainerName" select="document('../DTD/resource.xml')/r:resources/r:resource[@name='maintainerName']/@value"/>
-  <xsl:variable name="maintainerJName" select="document('../DTD/resource.xml')/r:resources/r:resource[@name='maintainerJName']/@value"/>
-  <xsl:variable name="maintainerEmail" select="document('../DTD/resource.xml')/r:resources/r:resource[@name='maintainerEmail']/@value"/>
+  <xsl:variable name="maintainerName" select="document('../../src/DTD/resource.xml')/r:resources/r:resource[@name='maintainerName']/@value"/>
+  <xsl:variable name="maintainerJName" select="document('../../src/DTD/resource.xml')/r:resources/r:resource[@name='maintainerJName']/@value"/>
+  <xsl:variable name="maintainerEmail" select="document('../../src/DTD/resource.xml')/r:resources/r:resource[@name='maintainerEmail']/@value"/>
 
   <xsl:template name="additional-header">
     <link type="text/css" rel="stylesheet">

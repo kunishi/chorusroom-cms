@@ -1,90 +1,145 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: givenPrograms.xml,v 1.2 2001/01/03 13:19:42 kunishi Exp $ -->
-<!DOCTYPE givenPrograms SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/given-programs.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: givenPrograms.xml,v 1.3 2002/04/30 14:56:12 kunishi Exp $ -->
+<!DOCTYPE givenPrograms PUBLIC "-//CHORUSROOM//DTD Contest GivenProg 1.0//JA" "http://localhost/DTD/given-programs.dtd">
 <givenPrograms xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <contestName>$BBh(B47$B2sA4F|K\9g>'%3%s%/!<%k(B</contestName>
-  <contestYear>1994</contestYear>
-  <givenProgram>
-    <givenProgramNumber>G1</givenProgramNumber>
-    <p:composed-by>Tom<cr:aacute/>s Luis de Victoria</p:composed-by>
-    <p:piece>Gaudent in coelis animae</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>G2</givenProgramNumber>
-    <p:composed-by>Edvard Grieg</p:composed-by>
-    <p:piece>Ave, maris stella</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>G3</givenProgramNumber>
-    <p:words-by>$BN)86F;B$(B</p:words-by>
-    <p:composed-by>$BHx7AIR9,(B</p:composed-by>
-    <p:piece>$B%"%@%8%*(B</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>G4</givenProgramNumber>
-    <p:words-by>$BIw4VOBG7(B</p:words-by>
-    <p:composed-by>$B;38}E/?M(B</p:composed-by>
-    <p:piece>$B2P(B</p:piece>
-    <p:piece-note>$BJ?@.(B5$BG/EY%3%s%/!<%k2]Bj6J8xJgF~A*:n(B</p:piece-note>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>M1</givenProgramNumber>
-    <p:composed-by>Josquin Desprez</p:composed-by>
-    <p:piece>O Domine Jesu Christe</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>M2</givenProgramNumber>
-    <p:composed-by>Leevi Madetoja</p:composed-by>
-    <p:piece>Valkeat kaupungit</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>M3</givenProgramNumber>
-    <p:words-by>$B9uLZF7(B</p:words-by>
-    <p:composed-by>$BBgCf28(B</p:composed-by>
-    <p:suite>
-      <p:piece>$B!VLk$N@D6u!W(B</p:piece>
-      <p:suite-piece>
-	<p:piece>$B6-3&@~(B</p:piece>
-      </p:suite-piece>
-    </p:suite>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>M4</givenProgramNumber>
-    <p:words-by>$B@1LnIY90(B</p:words-by>
-    <p:composed-by>$B?7<BFA1Q(B</p:composed-by>
-    <p:suite>
-      <p:piece>$B!V2V$K4s$;$F!W(B</p:piece>
-      <p:suite-piece>
-	<p:piece>$B$?$s$]$](B</p:piece>
-      </p:suite-piece>
-    </p:suite>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>F1</givenProgramNumber>
-    <p:composed-by>Costanzo Festa</p:composed-by>
-    <p:piece>Madonna io prendo ardire</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>F2</givenProgramNumber>
-    <p:composed-by>Harri Wessman</p:composed-by>
-    <p:piece>Dies sanctificatus</p:piece>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>F3</givenProgramNumber>
-    <p:words-by>$B9bEDIR;R(B</p:words-by>
-    <p:composed-by>$B9q;^=U7C(B</p:composed-by>
-    <p:suite>
-      <p:piece>$B!VFs$D$N;R$I$b$N2N!W(B</p:piece>
-      <p:suite-piece>
-	<p:piece>$BGr$$GO(B</p:piece>
-      </p:suite-piece>
-    </p:suite>
-  </givenProgram>
-  <givenProgram>
-    <givenProgramNumber>F4</givenProgramNumber>
-    <p:words-by>$B9bNIN1H~;R(B</p:words-by>
-    <p:composed-by>$B>>:jBY<#(B</p:composed-by>
-    <p:piece>$BAv$k;R6!(B</p:piece>
-    <p:piece-note>$BJ?@.(B5$BG/EY%3%s%/!<%k2]Bj6J8xJgF~A*:n(B</p:piece-note>
-  </givenProgram>
+ <contestName>第47回全日本合唱コンクール</contestName>
+ <contestYear>1994</contestYear>
+ <givenProgram>
+  <givenProgramNumber>G1</givenProgramNumber>
+  <p:piece>
+   <p:composed-by>Tom<cr:aacute/>s Luis de Victoria</p:composed-by>
+   <p:title original="true">
+    <p:mainTitle>Gaudent in coelis animae</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>G2</givenProgramNumber>
+  <p:piece>
+   <p:composed-by>Edvard Grieg</p:composed-by>
+   <p:title original="true">
+    <p:mainTitle>Ave, maris stella</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>G3</givenProgramNumber>
+  <p:piece>
+   <p:words-by>立原道造</p:words-by>
+   <p:composed-by>尾形敏幸</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>アダジオ</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>G4</givenProgramNumber>
+  <p:piece>
+   <p:words-by>風間和之</p:words-by>
+   <p:composed-by>山口哲人</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>火</p:mainTitle>
+   </p:title>
+   <p:piece-note>平成5年度コンクール課題曲公募入選作</p:piece-note>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>M1</givenProgramNumber>
+  <p:piece>
+   <p:composed-by>Josquin Desprez</p:composed-by>
+   <p:title original="true">
+    <p:mainTitle>O Domine Jesu Christe</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>M2</givenProgramNumber>
+  <p:piece>
+   <p:composed-by>Leevi Madetoja</p:composed-by>
+   <p:title original="true">
+    <p:mainTitle>Valkeat kaupungit</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>M3</givenProgramNumber>
+  <p:suite>
+   <p:words-by>黒木瞳</p:words-by>
+   <p:composed-by>大中恩</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>夜の青空</p:mainTitle>
+   </p:title>
+   <p:suite-piece>
+    <p:piece>
+     <p:title original="true" xml:lang="ja">
+      <p:mainTitle>境界線</p:mainTitle>
+     </p:title>
+    </p:piece>
+   </p:suite-piece>
+  </p:suite>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>M4</givenProgramNumber>
+  <p:suite>
+   <p:words-by>星野富弘</p:words-by>
+   <p:composed-by>新実徳英</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>花に寄せて</p:mainTitle>
+   </p:title>
+   <p:suite-piece>
+    <p:piece>
+     <p:title original="true" xml:lang="ja">
+      <p:mainTitle>たんぽぽ</p:mainTitle>
+     </p:title>
+    </p:piece>
+   </p:suite-piece>
+  </p:suite>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>F1</givenProgramNumber>
+  <p:piece>
+   <p:composed-by>Costanzo Festa</p:composed-by>
+   <p:title original="true">
+    <p:mainTitle>Madonna io prendo ardire</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>F2</givenProgramNumber>
+  <p:piece>
+   <p:composed-by>Harri Wessman</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>Dies sanctificatus</p:mainTitle>
+   </p:title>
+  </p:piece>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>F3</givenProgramNumber>
+  <p:suite>
+   <p:words-by>高田敏子</p:words-by>
+   <p:composed-by>国枝春恵</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>二つの子どもの歌</p:mainTitle>
+   </p:title>
+   <p:suite-piece>
+    <!-- one of (p:piece-number p:suite p:piece) -->
+    <p:piece>
+     <p:title original="true" xml:lang="ja">
+      <p:mainTitle>白い馬</p:mainTitle>
+     </p:title>
+    </p:piece>
+   </p:suite-piece>
+  </p:suite>
+ </givenProgram>
+ <givenProgram>
+  <givenProgramNumber>F4</givenProgramNumber>
+  <p:piece>
+   <p:words-by>高良留美子</p:words-by>
+   <p:composed-by>松崎泰治</p:composed-by>
+   <p:title original="true" xml:lang="ja">
+    <p:mainTitle>走る子供</p:mainTitle>
+   </p:title>
+   <p:piece-note>平成5年度コンクール課題曲公募入選作</p:piece-note>
+  </p:piece>
+ </givenProgram>
 </givenPrograms>
