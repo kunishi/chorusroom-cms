@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.11 1999/08/24 12:28:24 kunishi Exp $
+# $Id: Makefile,v 1.12 1999/08/24 12:39:26 kunishi Exp $
 #
 
 RELPATH=	.
@@ -28,6 +28,8 @@ SUBDIR+=	48th \
 		50th \
 		51st \
 		JCA-concours \
+		ajcl \
+		hml \
 		image \
 		links \
 		style \
