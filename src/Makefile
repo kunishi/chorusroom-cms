@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.3 1999/08/16 02:50:57 kunishi Exp $
+# $Id: Makefile,v 1.4 1999/08/22 15:15:38 kunishi Exp $
 #
 
 RELPATH=	.
@@ -17,6 +17,9 @@ INSTFILES+=	CDShop.html \
 		kovox.html \
 		misc.html \
 		47thajcl.html
+
+SUBDIR+=	JCA-concours \
+		whatsnew
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
