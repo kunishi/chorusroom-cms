@@ -142,28 +142,32 @@
   <xs:element name="freeNumber" type="p:free-playing-number"/>
   <xs:element name="assignedNumber">
     <xs:complexType>
-      <xs:attribute name="ref" use="required" type="xs:anyURI"/>
-      <xs:attribute name="number" use="required">
-        <xs:simpleType>
-          <xs:restriction base="xs:token">
-            <xs:enumeration value="G1"/>
-            <xs:enumeration value="G2"/>
-            <xs:enumeration value="G3"/>
-            <xs:enumeration value="G4"/>
-            <xs:enumeration value="M1"/>
-            <xs:enumeration value="M2"/>
-            <xs:enumeration value="M3"/>
-            <xs:enumeration value="M4"/>
-            <xs:enumeration value="F1"/>
-            <xs:enumeration value="F2"/>
-            <xs:enumeration value="F3"/>
-            <xs:enumeration value="F4"/>
-            <xs:enumeration value="elementary"/>
-            <xs:enumeration value="junior"/>
-            <xs:enumeration value="senior"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:attribute>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="ref" type="xs:anyURI"/>
+          <xs:attribute name="number">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="G1"/>
+                <xs:enumeration value="G2"/>
+                <xs:enumeration value="G3"/>
+                <xs:enumeration value="G4"/>
+                <xs:enumeration value="M1"/>
+                <xs:enumeration value="M2"/>
+                <xs:enumeration value="M3"/>
+                <xs:enumeration value="M4"/>
+                <xs:enumeration value="F1"/>
+                <xs:enumeration value="F2"/>
+                <xs:enumeration value="F3"/>
+                <xs:enumeration value="F4"/>
+                <xs:enumeration value="elementary"/>
+                <xs:enumeration value="junior"/>
+                <xs:enumeration value="senior"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
     </xs:complexType>
   </xs:element>
 </xs:schema>

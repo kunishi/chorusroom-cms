@@ -71,9 +71,10 @@ playersList =
            text
        })+
 playing-number =
-    element c:freeNumber { free-playing-number }+
+    (element c:freeNumber { free-playing-number }+
     & element c:assignedNumber {
-          attribute ref { xsd:anyURI },
+          xsd:string,
+          attribute ref { xsd:anyURI }?,
           attribute number {
               "G1"
               | "G2"
@@ -90,9 +91,8 @@ playing-number =
               | "elementary"
               | "junior"
               | "senior"
-          },
-          empty
-      }?
+          }?
+      }?)
 free-playing-number =
     attribute part { xsd:string }?,
     mixed {
