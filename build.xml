@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <project name="chorusRoom" default="wholebuild" basedir=".">
 
   <property file="build.properties"/>
@@ -207,7 +207,7 @@
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='docBaseURI' expression='${basedir}/db/concours/NHK/lib/'/>
-      <param name='outDir' expression='../'/>
+      <param name='outDir' expression='Redirect/'/>
     </xslt>
     <copy todir="${build.concours}/NHK">
       <fileset dir="${build.genxml}/NHK">
