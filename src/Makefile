@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.32 2000/08/30 09:21:17 kunishi Exp $
+# $Id: Makefile,v 1.33 2000/08/31 13:27:28 kunishi Exp $
 #
 
 RELPATH=	.
@@ -14,6 +14,7 @@ INSTFILES+=	CDShop.html \
 		info-note.html \
 		info-note2.html \
 		misc.html \
+		profile.html \
 		notice.html
 
 INSTFILES_NOBUILD+=	chorusroom-logo.png \
