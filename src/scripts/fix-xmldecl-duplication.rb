@@ -1,12 +1,12 @@
 #!/usr/local/bin/ruby
 #
 # a script for fixing irregular result of Xalan
-# $Id: fix-xmldecl-duplication.rb,v 1.2 2000/10/04 05:18:38 kunishi Exp $
-
-$xmldecl = 'no'
+# $Id: fix-xmldecl-duplication.rb,v 1.3 2000/10/04 05:37:14 kunishi Exp $
 
 ARGV.each {
   |file|
+
+  $xmldecl = 'no'
   $fd = File.open(file)
   $newfd = File.new(file + '.new', "w+")
   while $_ = $fd.gets
