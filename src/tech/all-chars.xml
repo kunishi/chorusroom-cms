@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: all-chars.xml,v 1.2 2000/12/24 02:49:47 kunishi Exp $ -->
 <all-characters xmlns:xlink="http://www.w3.org/1999/xlink"
                xmlns="http://www.chorusroom.org/chars">
   <char-set xlink:type="simple" xlink:href="../tech/iso-lat1.xml"/>
   <char-set xlink:type="simple" xlink:href="../tech/iso-lat2.xml"/>
   <char-set xlink:type="simple" xlink:href="../tech/iso-cyr1.xml"/>
   <char-set xlink:type="simple" xlink:href="../tech/iso-cyr2.xml"/>
+  <char-set xlink:type="simple" xlink:href="../tech/roman-numeral.xml"/>
+  <char-set xlink:type="simple" xlink:href="../tech/circled-number.xml"/>
 </all-characters>
