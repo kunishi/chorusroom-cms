@@ -1,17 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 2)</title>
   </head>
-
   <body>
     <h1>第48回全日本合唱コンクール全国大会の結果(その2)</h1>
     指揮、伴奏、演奏曲目などのデータを添えたバージョンです。各部門ごとに
     別のページになっています。本ページは、吉田＠ATRさんから御提供いただい
     たデータを基にしています。
-
     <h2>高校の部B</h2>
     <ul>
       <li> 福島県立福島高等学校男声合唱団(福島県:東北支部、銀賞)
@@ -107,8 +110,8 @@
 	<ul>
 	  <li> 指揮:榎本潤</li>
 	  <li> G2</li>
-	  <li> 「Fest-und Gedenksp\"uche」(作曲:Johannes Brahms)から 
-	    1. Unsere V\"ater hofften auf dich; 2. Wenn ein starker
+	  <li> 「Fest-und Gedenksp&uuml;che」(作曲:Johannes Brahms)から 
+	    1. Unsere V&auml;ter hofften auf dich; 2. Wenn ein starker
 	    Gewappneter</li>
 	</ul></li>
       <li> 宮城県仙台南高等学校音楽部合唱団(宮城県:東北支部、銀賞)
@@ -116,7 +119,7 @@
 	  <li> 指揮:桑折金三</li>
 	  <li> G2</li>
 	  <li> De Beata Virgine Maria Claromontana(作詩:Jerzy
-	    Wojtczak/作曲:Edward Pa\l\lasz)</li>
+	    Wojtczak/作曲:Edward Pallasz)</li>
 	</ul></li>
       <li> 福岡県立東筑高等学校音楽部(福島県:九州支部、銅賞)
 	<ul>
@@ -137,7 +140,7 @@
 	<ul>
 	  <li> 指揮: 長谷部律子</li>
 	  <li> F2</li>
-	  <li> Magos a rutafa(作曲:Lajos B\'ardos)</li>
+	  <li> Magos a rutafa(作曲:Lajos B&aacute;rdos)</li>
 	</ul></li>
       <li> 福島県立若松女子高等学校合唱団(福島県:東北支部、銀賞)
 	<ul>
@@ -169,8 +172,8 @@
 	  <li> F1</li>
 	  <li> 「Petites voix」(作詩:Madeleine Ley/作曲:Francis
 	    Poulenc) I.  La petite fille sage; II.  Le chien perdu; 
-	    III. En rentrant de l'ecole; IV.  Le petit gar\con
-	    malade; V.  Le h\'erisson</li>
+	    III. En rentrant de l'ecole; IV.  Le petit gar&ccedil;on
+	    malade; V.  Le h&eacute;risson</li>
 	</ul></li>
       <li> 崇徳高等学校グリークラブ(広島県:中国支部、金賞)
 	<ul>
@@ -181,13 +184,10 @@
 	    (作詩:宗左近/作曲:荻久保和明)</li>
 	</ul></li>
     </ul>
-
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
-
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Sun Dec 14 12:19:24 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 03:51:16 $
+  </body>
+</html>
