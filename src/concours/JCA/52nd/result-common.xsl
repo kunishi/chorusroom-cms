@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.17 2000/10/05 14:29:03 kunishi Exp $ -->
+<!-- $Id: result-common.xsl,v 1.18 2000/10/06 15:42:23 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -80,6 +80,14 @@
       </xsl:attribute>
       <xsl:attribute name="rev">
 	<xsl:text>made</xsl:text>
+      </xsl:attribute>
+    </xsl:element>
+    <xsl:element name="meta">
+      <xsl:attribute name="http-equiv">
+        <xsl:text>Content-Style-Type</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="content">
+        <xsl:text>text/css</xsl:text>
       </xsl:attribute>
     </xsl:element>
     <xsl:element name="style">
@@ -364,7 +372,7 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
       <xsl:call-template name="団体データその1"/>
       <xsl:if test="((所属県 and not(//大会名[@県大会])) or 形態 or 登録人数)
 	      and (指揮者 or ピアノ or 共演者)">
-	<xsl:text>, </xsl:text>
+	<xsl:text>、</xsl:text>
       </xsl:if>
       <xsl:call-template name="演奏者データ"/>
       <xsl:text>)</xsl:text>
@@ -398,11 +406,11 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
   <xsl:template name="演奏者データ">
     <xsl:call-template name="指揮者リスト"/>
     <xsl:if test="ピアノ|共演者">
-      <xsl:text>, </xsl:text>
+      <xsl:text>、</xsl:text>
     </xsl:if>
     <xsl:call-template name="ピアノリスト"/>
     <xsl:if test="共演者">
-      <xsl:text>, </xsl:text>
+      <xsl:text>、</xsl:text>
     </xsl:if>
     <xsl:apply-templates select="共演者"/>
   </xsl:template>
@@ -436,7 +444,7 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
     <xsl:text>: </xsl:text>
     <xsl:value-of select="."/>
     <xsl:if test="following-sibling::共演者">
-      <xsl:text>, </xsl:text>
+      <xsl:text>、</xsl:text>
     </xsl:if>
   </xsl:template>
 
@@ -449,7 +457,7 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
       <xsl:for-each select="特別賞">
 	<xsl:apply-templates/>
 	<xsl:if test="not(position()=last())">
-	  <xsl:text>, </xsl:text>
+	  <xsl:text>、</xsl:text>
 	</xsl:if>
       </xsl:for-each>
       <xsl:text>]</xsl:text>
