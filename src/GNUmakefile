@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.45 2000/11/07 04:21:54 kunishi Exp $
+# $Id: GNUmakefile,v 1.46 2000/11/09 07:23:42 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -51,7 +51,7 @@ index.html:	CSSFILE=toppage.css
 info-note2.html: override DEFAULT_XSL=${XHTML10_XSL_ASCII}
 info-note2.html: override TIDY_ENCODING=-ascii
 
-.htaccess:	htaccess
+.htaccess:	conf/htaccess
 	${CP} $< $@
 
 install-namazu:	${INSTTOPDIR}search.cgi
