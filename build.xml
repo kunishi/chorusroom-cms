@@ -7,6 +7,8 @@
   <property name='build.concours' value='${build}/concours'/>
   <property name='build.xhtml' value='${build}/xhtml'/>
   <property name='build.tmp' value='${build}/tmp'/>
+  <property name='build.html.iso' value='${build}/html.iso'/>
+  <property name='build.html.utf8' value='${build}/html.utf8'/>
 
   <property name="src" value="src"/>
 
@@ -64,7 +66,7 @@
     </classpath>
   </taskdef>
 
-  <target name="build" depends="build.xhtml"/>
+  <target name="build" depends="build.html.iso, build.html.utf8"/>
 
   <target name="prepare" depends="build.dtd">
     <tstamp/>
@@ -154,6 +156,8 @@
 	<include name='contest-result-choir-piece.xsl'/>
 	<include name='resource.xsl'/>
         <include name='xhtml1-choir-links.xsl'/>
+        <include name='xhtml1-finalize-iso.xsl'/>
+        <include name='xhtml1-finalize-utf8.xsl'/>
         <include name='xinclude.xsl'/>
       </fileset>
     </copy>
@@ -326,7 +330,7 @@
   <target name='build.xhtml.concours'
     depends='build.xslt.common, build.xslt.contest-result, build.xml.concours'>
     <xslt basedir='${build.concours}' destdir='${build.xhtml}/concours'
-      style='${build.lib}/xslt/contest-result.utf8.xsl'
+      style='${build.xslt}/contest-result.utf8.xsl'
       extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml' excludes='**/*-score.xml'
       classpathref='xalan2.class.path'>
@@ -338,6 +342,23 @@
       <param name='stylesheet' expression='default.css'/>
       <param name='outDir' expression='${build.xhtml}/concours/'/>
     </xslt>
+  </target>
+
+  <target name='build.html.iso' depends='build.xhtml'>
+    <xslt basedir='${build.xhtml}' destdir='${build.html.iso}'
+      style='${build.xslt}/xhtml1-finalize-iso.xsl'
+      extension='.html' outputtype='html' processor='trax'
+      includes='**/*.xml'
+      classpathref='xalan2.class.path'/>
+  </target>
+
+  <!-- finalize -->
+  <target name='build.html.utf8' depends='build.xhtml'>
+    <xslt basedir='${build.xhtml}' destdir='${build.html.utf8}'
+      style='${build.xslt}/xhtml1-finalize-utf8.xsl'
+      extension='.html' outputtype='xml' processor='trax'
+      includes='**/*.xml'
+      classpathref='xalan2.class.path'/>
   </target>
 
   <!-- clean -->
