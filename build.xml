@@ -376,7 +376,9 @@
         <include name="*.css"/>
       </fileset>
     </copy>
+    <!-- 
     <copy file="${lib}/conf/htaccess" tofile="${build.html.iso}/.htaccess"/>
+    -->
     <copy file="${lib}/conf/htaccess.utf8" tofile="${build.html.utf8}/.htaccess"/>
   </target>
 
