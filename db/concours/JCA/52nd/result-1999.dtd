@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
+<!--
+  JCAコンクール結果文書用DTD (1999年版)
+
+  $Id: result-1999.dtd,v 1.28 1999/11/14 01:48:45 kunishi Exp $
+  -->
 
 <![%utfdoc;[
 <!ENTITY % HTMLlat1 PUBLIC
@@ -23,6 +28,9 @@
 
 <!ENTITY % LanguageCode "CDATA">
     <!-- a language code, as per [RFC1766] -->
+
+<!ENTITY % HumanName "#PCDATA">
+    <!-- 人名を表す要素型 -->
 
 <!ENTITY % i18n
  "xml:lang    %LanguageCode; #IMPLIED"
@@ -51,7 +59,7 @@
 
 <!ELEMENT 開催場所 (#PCDATA)>
 
-<!ELEMENT 審査員 (#PCDATA)>
+<!ELEMENT 審査員 (%HumanName;)>
 <!ATTLIST 審査員
           %i18n;
           省略名 CDATA #REQUIRED
@@ -61,7 +69,7 @@
 <!ELEMENT 報告者 (報告者氏名, email)>
 <!ATTLIST 報告者
           匿名希望 (yes|no) #IMPLIED>
-<!ELEMENT 報告者氏名 (#PCDATA)>
+<!ELEMENT 報告者氏名 (%HumanName;)>
 <!ATTLIST 報告者氏名
           %i18n;
           ペンネーム CDATA #IMPLIED>
@@ -100,16 +108,16 @@
 <!ELEMENT 登録人数 (#PCDATA)>
 <!-- 登録人数は数字だけ書く。単位(人)は書かない。 -->
 
-<!ELEMENT 指揮者 (#PCDATA)>
+<!ELEMENT 指揮者 (%HumanName;)>
 <!ATTLIST 指揮者
           %i18n;>
 
-<!ELEMENT ピアノ (#PCDATA)>
+<!ELEMENT ピアノ (%HumanName;)>
 <!ATTLIST ピアノ
           %i18n;>
 
 <!-- ピアノ以外の共演者 -->
-<!ELEMENT 共演者 (#PCDATA)>
+<!ELEMENT 共演者 (%HumanName;)>
 <!ATTLIST 共演者
           %i18n;
           演奏楽器 CDATA #REQUIRED>
@@ -132,37 +140,31 @@
 
 <!ELEMENT 課題曲 (#PCDATA)>
 <!-- 課題曲は記号で表記する。G[1-4], M[1-4], F[1-4] のいずれか。 -->
-<!ELEMENT 自由曲 (出典?, 作詩?, 訳詩?, 作曲?, 編曲?, (曲名|組曲))>
 
-<!ELEMENT 作詩 (#PCDATA)>
+<!ELEMENT 自由曲 (出典?, 作詩?, 訳詩?, 作曲?, 編曲?, (曲名|組曲))>
+<!ELEMENT 作詩 (%HumanName;)>
 <!ATTLIST 作詩
           %i18n;>
-<!ELEMENT 訳詩 (#PCDATA)>
+<!ELEMENT 訳詩 (%HumanName;)>
 <!ATTLIST 訳詩
           %i18n;>
 <!ELEMENT 出典 (#PCDATA)>
 <!ATTLIST 出典
           %i18n;>
-<!ELEMENT 編曲 (#PCDATA)>
+<!ELEMENT 編曲 (%HumanName;)>
 <!ATTLIST 編曲
           %i18n;>
-<!ELEMENT 作曲 (#PCDATA)>
+<!ELEMENT 作曲 (%HumanName;)>
 <!ATTLIST 作曲
           %i18n;>
 <!ELEMENT 曲名 (#PCDATA)>
 <!ATTLIST 曲名
-          %i18n;>
-<!ELEMENT 組曲 (組曲名, 組曲ピース+)>
+          %i18n;
+          番号 CDATA #IMPLIED>
+<!ELEMENT 組曲 (曲名, 構成曲+)>
 <!ATTLIST 組曲
           抜粋 (yes|no) #REQUIRED>
-<!ELEMENT 組曲名 (#PCDATA)>
-<!ATTLIST 組曲名
-          %i18n;>
-<!ELEMENT 組曲ピース (出典?, 作詩?, 訳詩?, ピース曲名)>
-<!ELEMENT ピース曲名 (#PCDATA)>
-<!ATTLIST ピース曲名
-          %i18n;
-          ピース番号 CDATA #IMPLIED>
-<!-- ピース番号しかなく、個々のピースにタイトルが付いていない場合は
-     ピース番号に相当するものをピース曲名とする。
+<!ELEMENT 構成曲 (出典?, 作詩?, 訳詩?, 構成曲番号?, 曲名, 構成曲*))>
+<!-- 番号しかなく、個々の構成曲にタイトルが付いていない場合は
+     番号に相当するものを曲名とする。
 -->
