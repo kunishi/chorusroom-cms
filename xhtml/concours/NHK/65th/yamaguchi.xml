@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: yamaguchi.xml,v 1.1 2001/01/03 05:22:15 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.2 2001/01/04 15:54:02 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度（第65回）NHK全国学校音楽コンクール山口県大会</competition-name>
   <result output="yamaguchi">
     <date day-of-week="tue" holiday="false">2000-08-08</date>
@@ -21,7 +21,7 @@
     </notices>
     <section>
       <section-name>中学校の部</section-name>
-      <choir representative="true">
+      <choir representative="true" playing-order="3">
 	<choir-name>萩市立萩東中学校</choir-name>
 	<conductor>石橋慶子</conductor>
 	<prize nickname="gold">金賞</prize>
@@ -37,7 +37,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="true">
+      <choir representative="true" playing-order="8">
 	<choir-name>徳山市立住吉中学校</choir-name>
 	<conductor>久楽和子</conductor>
 	<prize nickname="gold">金賞</prize>
@@ -58,7 +58,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="1">
 	<choir-name>徳山市立岐陽中学校</choir-name>
 	<conductor>山本真紀</conductor>
 	<prize nickname="silver">銀賞</prize>
@@ -72,7 +72,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="5">
 	<choir-name>山口大学教育学部附属山口中学校</choir-name>
 	<conductor>中野幸郎</conductor>
 	<prize nickname="silver">銀賞</prize>
@@ -93,7 +93,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="2">
 	<choir-name>徳山市立桜田中学校</choir-name>
 	<conductor>上田めぐみ</conductor>
 	<piano>渡邉秀行</piano>
@@ -107,7 +107,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="4">
 	<choir-name>徳山市立須々万中学校</choir-name>
 	<conductor>阿部由起子</conductor>
 	<prize nickname="blonze">銅賞</prize>
@@ -122,7 +122,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="6">
 	<choir-name>小郡町立小郡中学校</choir-name>
 	<conductor>上田良夫</conductor>
 	<prize nickname="blonze">銅賞</prize>
@@ -141,7 +141,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="7">
 	<choir-name>阿東町立阿東中学校</choir-name>
 	<conductor>弘中裕次</conductor>
 	<prize nickname="blonze">銅賞</prize>
@@ -156,7 +156,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false">
+      <choir representative="false" playing-order="9">
 	<choir-name>長門市立通中学校</choir-name>
 	<conductor>山本恵美</conductor>
 	<prize nickname="blonze">銅賞</prize>
@@ -179,7 +179,7 @@
     </section>
     <section>
       <section-name>高校の部</section-name>
-      <choir representative="true">
+      <choir representative="true" playing-order="1">
 	<choir-name>山口県立萩高校</choir-name>
 	<conductor>有富美子</conductor>
 	<prize nickname="gold">金賞</prize>
@@ -199,7 +199,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="true">
+      <choir representative="true" playing-order="2">
 	<choir-name>野田学園高校</choir-name>
 	<conductor>石島栄子</conductor>
 	<prize nickname="gold">金賞</prize>
