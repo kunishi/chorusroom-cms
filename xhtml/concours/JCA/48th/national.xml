@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: national.xml,v 1.2 2001/01/04 08:00:00 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: national.xml,v 1.3 2001/01/26 14:14:14 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第48回全日本合唱コンクール全国大会</competition-name>
   <result output="national-1995-10-29">
     <date day-of-week="sun" holiday="false">1995-10-29</date>
@@ -296,23 +296,40 @@
 	<conductor>白鳥清子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F1"/>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
 	  <free-program>
-	    <p:words-by kind="短歌">俵万智</p:words-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>短歌による無伴奏女声合唱曲集「待ち人ごっこ」</p:piece>
+	      <p:words-by kind="短歌">俵万智</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>短歌による無伴奏女声合唱曲集</p:titlePrefix>
+		<p:mainTitle>待ち人ごっこ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece>風になる 1. 2.</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>風になる 1. 2.</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/>.</p:piece-number>
-		<p:piece>木曜日 4. 2.</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>木曜日 4. 2.</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece>はないちもんめ 4.</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>はないちもんめ 4.</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -327,12 +344,17 @@
 	<piano>堀内啓子</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>谷川俊太郎</p:words-by>
-	    <p:composed-by>新実徳英</p:composed-by>
-	    <p:piece>生きる</p:piece>
+	    <p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>生きる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -345,16 +367,24 @@
 	<piano>川上志保</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>高野喜久雄</p:words-by>
-	    <p:composed-by>高田三郎</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱組曲「ひたすらな道」</p:piece>
+	      <p:words-by>高野喜久雄</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ひたすらな道</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>2.</p:piece-number>
-		<p:piece>白鳥</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>白鳥</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -368,20 +398,35 @@
 	<conductor>大木秀一</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Hendrik Andriessen</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Missa Simplex&quot;</p:piece>
+	      <p:composed-by>Hendrik Andriessen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Simplex</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Sanctus</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Agnus Dei</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -397,26 +442,53 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>文部大臣奨励賞</special-prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Petr Eben</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="ギリシアのことば">&quot;Dizionario Greco&quot;</p:piece>
+	      <p:composed-by>Petr Eben</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Dizionario Greco</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>ギリシアのことば</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/></p:piece-number>
-		<p:piece japaneseTitle="高潔な精神">Megalofrosyne</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Megalofrosyne</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>高潔な精神</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIX/></p:piece-number>
-		<p:piece japaneseTitle="歓喜−幸福">Charmone-Syntychia</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Charmone-Syntychia</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>歓喜−幸福</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>Lukin L<cr:aacute/>szl<cr:oacute/></p:words-by>
-	    <p:composed-by>Lajos B<cr:aacute/>rdos</p:composed-by>
-	    <p:piece japaneseTitle="太陽への讚歌">Himnusz a Naphoz</p:piece>
+	    <p:piece>
+	      <p:words-by>Lukin L<cr:aacute/>szl<cr:oacute/></p:words-by>
+	      <p:composed-by>Lajos B<cr:aacute/>rdos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Himnusz a Naphoz</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>太陽への讚歌</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -428,14 +500,23 @@
 	<conductor>金田セツ</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>西村朗</p:composed-by>
 	    <p:suite>
-	      <p:piece>無伴奏女声合唱のための「寂光哀歌」〜「平家物語」灌頂巻より〜</p:piece>
+	      <p:composed-by>西村朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>寂光哀歌</p:mainTitle>
+		<p:titleSuffix>〜「平家物語」灌頂巻より〜</p:titleSuffix>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>憂き世に</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>憂き世に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -451,16 +532,24 @@
 	<piano>渋谷早苗</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F3">
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>村松英子</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための「三つの夜想」</p:piece>
+	      <p:words-by>村松英子</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>三つの夜想</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/>.</p:piece-number>
-		<p:piece>ある肖像</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ある肖像</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -475,20 +564,35 @@
 	<piano>真壁泰江</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Benjamin Britten</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Missa Brevis&quot;</p:piece>
+	      <p:composed-by>Benjamin Britten</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Brevis</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Agnus Dei</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -503,24 +607,51 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>日本放送協会賞</special-prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Florent Schmitt</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="よき声で">&quot;En bonnes voix&quot;</p:piece>
+	      <p:composed-by>Florent Schmitt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>En bonnes voix</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>よき声で</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:words-by>Jehan Froissart</p:words-by>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece japaneseTitle="人の噂では…">On dist que...</p:piece>
+		<p:piece>
+		  <p:words-by>Jehan Froissart</p:words-by>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>On dist que...</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>人の噂では…</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece japaneseTitle="領主さまと羊飼いの娘">Prince et berg<cr:egrave/>re</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Prince et berg<cr:egrave/>re</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>領主さまと羊飼いの娘</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanVI/>.</p:piece-number>
-		<p:piece japaneseTitle="都合のよい流行">La mode commode</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>La mode commode</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>都合のよい流行</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -534,21 +665,41 @@
 	<conductor>江面誠子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="4つのマドリガル">&quot;4 Italian Madrigals&quot;</p:piece>
+	      <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>4 Italian Madrigals</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>4つのマドリガル</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:words-by>Gerardello da Firenze</p:words-by>
 		<p:piece-number>3.</p:piece-number>
-		<p:piece japaneseTitle="愛を感じる彼">Chi d'amor sente</p:piece>
+		<p:piece>
+		  <p:words-by>Gerardello da Firenze</p:words-by>
+		  <p:title original="true">
+		    <p:mainTitle>Chi d'amor sente</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>愛を感じる彼</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:originated-from>作詩者不詳</p:originated-from>
 		<p:piece-number>4.</p:piece-number>
-		<p:piece japaneseTitle="篭の外では">Fuor de la bella caiba</p:piece>
+		<p:piece>
+		  <p:originated-from>作詩者不詳</p:originated-from>
+		  <p:title original="true">
+		    <p:mainTitle>Fuor de la bella caiba</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>篭の外では</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -563,15 +714,23 @@
 	<piano>吉田慶子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:originated-from>「地球歳時記'90」より</p:originated-from>
-	    <p:composed-by>鈴木輝昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>二群の童声(女声)合唱とピアノのための「森へ」</p:piece>
+	      <p:originated-from>「地球歳時記'90」より</p:originated-from>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>二群の童声(女声)合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>森へ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>2nd Scene</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>2nd Scene</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -586,15 +745,23 @@
 	<piano>岡本佳子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:originated-from>「地球歳時記'90」より</p:originated-from>
-	    <p:composed-by>鈴木輝昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>二群の童声(女声)合唱とピアノのための「森へ」</p:piece>
+	      <p:originated-from>「地球歳時記'90」より</p:originated-from>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>二群の童声(女声)合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>森へ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>2nd Scene</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>2nd Scene</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -609,21 +776,41 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>香川県教育長賞</special-prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Bela Bart<cr:oacute/>k</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="27の合唱曲">27 Two-and Three-part Choruses</p:piece>
+	      <p:composed-by>Bela Bart<cr:oacute/>k</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>27 Two-and Three-part Choruses</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>27の合唱曲</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="さまよう">Bolyong<cr:aacute/>s</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Bolyong<cr:aacute/>s</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>さまよう</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>Beney Zsuzsa</p:words-by>
-	    <p:composed-by>J<cr:oacute/>zsef Karai</p:composed-by>
-	    <p:piece japaneseTitle="夜"><cr:Eacute/>jszaka</p:piece>
+	    <p:piece>
+	      <p:words-by>Beney Zsuzsa</p:words-by>
+	      <p:composed-by>J<cr:oacute/>zsef Karai</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle><cr:Eacute/>jszaka</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>夜</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -639,15 +826,19 @@
 	<piano>柳沢慶子</piano>
 	<prize nickname="blonze">銀賞</prize>
 	<program>
-	  <given-program number="M1">
+	  <given-program>
+	    <pieceRef number="M1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>三好達治</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>男声合唱のための「王孫不帰」</p:piece>
+	      <p:words-by>三好達治</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱のための</p:titlePrefix>
+		<p:mainTitle>王孫不帰</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece><cr:romanIII/></p:piece>
+		<p:piece-number><cr:romanIII/></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -661,21 +852,37 @@
 	<conductor>近藤恵子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>谷川俊太郎</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「じゅうにつき」</p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>じゅうにつき</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>はちがつ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>はちがつ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>くがつ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>くがつ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>にがつ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>にがつ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -690,15 +897,23 @@
 	<piano>甚目裕男</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G4">
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>片岡輝</p:words-by>
-	    <p:composed-by>福士則夫</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「愛のグラマトロジー」</p:piece>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>福士則夫</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>愛のグラマトロジー</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>百五十億光年のイヴへ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>百五十億光年のイヴへ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -712,26 +927,53 @@
 	<conductor>森田二郎</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Francis Poulenc</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="7つのシャンソン">&quot;Sept Chansons&quot;</p:piece>
+	      <p:composed-by>Francis Poulenc</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sept Chansons</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>7つのシャンソン</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:words-by>Guillaume Apollinaire</p:words-by>
 		<p:piece-number>1.</p:piece-number>
-		<p:piece japaneseTitle="白い雪">La blanche neige</p:piece>
+		<p:piece>
+		  <p:words-by>Guillaume Apollinaire</p:words-by>
+		  <p:title original="true">
+		    <p:mainTitle>La blanche neige</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>白い雪</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:words-by>Poul Eluard</p:words-by>
 		<p:piece-number>5.</p:piece-number>
-		<p:piece japaneseTitle="美しく、そしてよく似て">Belle et ressemblante</p:piece>
+		<p:piece>
+		  <p:words-by>Poul Eluard</p:words-by>
+		  <p:title original="true">
+		    <p:mainTitle>Belle et ressemblante</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>美しく、そしてよく似て</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:words-by>Guillaume Apollinaire</p:words-by>
 		<p:piece-number>6.</p:piece-number>
-		<p:piece japaneseTitle="マリー">Marie</p:piece>
+		<p:piece>
+		  <p:words-by>Guillaume Apollinaire</p:words-by>
+		  <p:title original="true">
+		    <p:mainTitle>Marie</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>マリー</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -746,16 +988,24 @@
 	<piano>中島景子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G4">
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>石牟礼道子</p:words-by>
-	    <p:composed-by>荻久保和明</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱とピアノのためのファンタジー「あやとりの記」</p:piece>
+	      <p:words-by>石牟礼道子</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのためのファンタジー</p:titlePrefix>
+		<p:mainTitle>あやとりの記</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/>.</p:piece-number>
-		<p:piece>迫んたぁま</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>迫んたぁま</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -770,18 +1020,30 @@
 	<piano>斉藤ちづる</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>木島始</p:words-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱のための無伴奏小品集「愛のとき」</p:piece>
+	      <p:words-by>木島始</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための無伴奏小品集</p:titlePrefix>
+		<p:mainTitle>愛のとき</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>ひとの風</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ひとの風</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>霧明け</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>霧明け</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -796,26 +1058,41 @@
 	<piano>高岩利恵</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>白石かずこ</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱組曲「動物詩集」</p:piece>
+	      <p:words-by>白石かずこ</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>動物詩集</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/>.</p:piece-number>
-		<p:piece>ゴリラのジジ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ゴリラのジジ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>会田綱雄</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>童声合唱・語り(バス)・ピアノのための〔狐のうた〕<cr:romanII/></p:piece>
+	      <p:words-by>会田綱雄</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>童声合唱・語り(バス)・ピアノのための</p:titlePrefix>
+		<p:mainTitle>〔狐のうた〕<cr:romanII/></p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>『訓戒』による</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>『訓戒』による</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -829,11 +1106,19 @@
 	<conductor>尾崎亘</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Bengt Johansson</p:composed-by>
-	    <p:piece japaneseTitle="主の祈り">Pater Noster</p:piece>
+	    <p:piece>
+	      <p:composed-by>Bengt Johansson</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Pater Noster</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>主の祈り</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -846,14 +1131,32 @@
 	<piano>大滝加奈子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F3">
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xlm"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>福島雄次郎</p:composed-by>
 	    <p:suite>
-	      <p:piece>無伴奏女声合唱のための「南島歌遊び」その2伝説</p:piece>
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>南島歌遊び</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>嗚咽</p:piece>
+		<p:piece-number>その2</p:piece-number>
+		</p:piece>
+		<p:suite>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>伝説</p:mainTitle>
+		  </p:title>
+		  <p:suite-piece>
+		    <p:piece>
+		      <p:title original="true" xml:lang="ja">
+			<p:mainTitle>嗚咽</p:mainTitle>
+		      </p:title>
+		    </p:piece>
+		    <!-- one of (p:piece-number p:piece p:suite) -->
+		  </p:suite-piece>
+		</p:suite>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -870,15 +1173,23 @@
 	<special-prize>文部大臣奨励賞</special-prize>
 	<special-prize>コンクール大賞</special-prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>与謝野晶子</p:words-by>
-	    <p:composed-by>鈴木輝昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための「肖像画・絵師よ」</p:piece>
+	      <p:words-by>与謝野晶子</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像画・絵師よ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>絵師よ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>絵師よ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -893,16 +1204,24 @@
 	<piano>野田久美子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>津田定雄</p:words-by>
-	    <p:composed-by>新実徳英</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための「祈りの虹」</p:piece>
+	      <p:words-by>津田定雄</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>祈りの虹</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/>.</p:piece-number>
-		<p:piece>&quot;ヒロシマにかける虹&quot;</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>&quot;ヒロシマにかける虹&quot;</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -916,20 +1235,40 @@
 	<conductor>鹿内直</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>阪田寛夫</p:words-by>
-	    <p:composed-by>湯山昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>無伴奏混声合唱曲集「アカペラの響き」混声合唱「生きる」</p:piece>
+	      <p:words-by>阪田寛夫</p:words-by>
+	      <p:composed-by>湯山昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏混声合唱曲集</p:titlePrefix>
+		<p:mainTitle>アカペラの響き</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
-		<p:piece>バブバブ</p:piece>
-	      </p:suite-piece>
-	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
-		<p:piece>ハレハレ</p:piece>
+		<p:suite>
+		  <p:title original="true" xml:lang="ja">
+		    <p:titlePrefix>混声合唱</p:titlePrefix>
+		    <p:mainTitle>生きる</p:mainTitle>
+		  </p:title>
+		  <p:suite-piece>
+		    <p:piece-number><cr:romanI/></p:piece-number>
+		    <p:piece>
+		      <p:title original="true" xml:lang="ja">
+			<p:mainTitle>バブバブ</p:mainTitle>
+		      </p:title>
+		    </p:piece>
+		  </p:suite-piece>
+		  <p:suite-piece>
+		    <p:piece-number><cr:romanII/></p:piece-number>
+		    <p:piece>
+		      <p:title original="true" xml:lang="ja">
+			<p:mainTitle>ハレハレ</p:mainTitle>
+		      </p:title>
+		    </p:piece>
+		  </p:suite-piece>
+		</p:suite>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -943,19 +1282,39 @@
 	<conductor>榎本潤</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G2">
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Johannes Brahms</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="祭典と記念の格言">&quot;Fest-und  Gedenkspr<cr:uuml/>che&quot;</p:piece>
+	      <p:composed-by>Johannes Brahms</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Fest-und  Gedenkspr<cr:uuml/>che</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>祭典と記念の格言</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
-		<p:piece japaneseTitle="われらの先祖たちはあなたを信頼した">Unsere V<cr:auml/>ter hofften auf dich</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Unsere V<cr:auml/>ter hofften auf dich</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>われらの先祖たちはあなたを信頼した</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>2.</p:piece-number>
-		<p:piece japaneseTitle="もし強い人が十分に武装して">Wenn ein starker Gewappneter</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Wenn ein starker Gewappneter</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>もし強い人が十分に武装して</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -969,12 +1328,20 @@
 	<conductor>桑折金三</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G2">
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Jerzy Wojtczak</p:words-by>
-	    <p:composed-by>Edward Pa<cr:lstrok/><cr:lstrok/>asz</p:composed-by>
-	    <p:piece japaneseTitle="祝福された聖なる乙女マリア・クラロモンタナ">De Beata Virgine Maria Claromontana</p:piece>
+	    <p:piece>
+	      <p:words-by>Jerzy Wojtczak</p:words-by>
+	      <p:composed-by>Edward Pa<cr:lstrok/><cr:lstrok/>asz</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>De Beata Virgine Maria Claromontana</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>祝福された聖なる乙女マリア・クラロモンタナ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -986,16 +1353,24 @@
 	<conductor>原田テルミ</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>原民喜</p:words-by>
-	    <p:composed-by>林光</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱のための「原爆小景」</p:piece>
+	      <p:words-by>原民喜</p:words-by>
+	      <p:composed-by>林光</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>原爆小景</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1</p:piece-number>
-		<p:piece>水ヲ下サイ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>水ヲ下サイ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1009,17 +1384,25 @@
 	<conductor>大山晃</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Guillaume Apollinaire</p:words-by>
-	    <p:translated-by>堀口大學</p:translated-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>アポリネールの詩による四つの無伴奏混声合唱曲「白鳥」</p:piece>
+	      <p:words-by>Guillaume Apollinaire</p:words-by>
+	      <p:translated-by>堀口大學</p:translated-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>アポリネールの詩による四つの無伴奏混声合唱曲</p:titlePrefix>
+		<p:mainTitle>白鳥</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>4.</p:piece-number>
-		<p:piece>小鳥が歌う</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>小鳥が歌う</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1033,11 +1416,19 @@
 	<conductor>長谷部律子</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Lajos B<cr:aacute/>rdos</p:composed-by>
-	    <p:piece japaneseTitle="大きなルタの木">Magos a rutafa</p:piece>
+	    <p:piece>
+	      <p:composed-by>Lajos B<cr:aacute/>rdos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Magos a rutafa</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>大きなルタの木</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1050,15 +1441,23 @@
 	<piano>河中明子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:originated-from>「地球歳時記'90」より</p:originated-from>
-	    <p:composed-by>鈴木輝昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>二群の童声(女声)合唱とピアノのための「森へ」</p:piece>
+	      <p:originated-from>「地球歳時記'90」より</p:originated-from>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>二群の童声(女声)合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>森へ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>2nd Scene</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>2nd Scene</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1074,20 +1473,32 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>香川県教育長賞</special-prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by kind="短歌">俵万智</p:words-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>短歌による無伴奏女声合唱曲集「待ち人ごっこ」</p:piece>
+	      <p:words-by kind="短歌">俵万智</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>短歌による無伴奏女声合唱曲集</p:titlePrefix>
+		<p:mainTitle>待ち人ごっこ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece>風になる 1. 2.</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>風になる 1. 2.</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/>.</p:piece-number>
-		<p:piece>木曜日 3. 4.</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>木曜日 3. 4.</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1104,15 +1515,19 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>日本放送協会賞</special-prize>
 	<program>
-	  <given-program number="M3">
+	  <given-program>
+	    <pieceRef number="M3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>三好達治</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>男声合唱のための「王孫不帰」</p:piece>
+	      <p:words-by>三好達治</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱のための</p:titlePrefix>
+		<p:mainTitle>王孫不帰</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece><cr:romanI/></p:piece>
+		<p:piece-number><cr:romanI/></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1126,32 +1541,73 @@
 	<conductor>杉山和子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Madeleine Ley</p:words-by>
-	    <p:composed-by>Francis Poulenc</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="小さな声">&quot;Petites voix&quot;</p:piece>
+	      <p:words-by>Madeleine Ley</p:words-by>
+	      <p:composed-by>Francis Poulenc</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Petites voix</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>小さな声</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece japaneseTitle="かしこい少女">La petite fille sage</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>La petite fille sage</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>かしこい少女</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece japaneseTitle="迷い犬">Le chien perdu</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Le chien perdu</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>迷い犬</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/>.</p:piece-number>
-		<p:piece japaneseTitle="学校からの帰り道">En rentrant de l'<cr:eacute/>cole</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>En rentrant de l'<cr:eacute/>cole</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>学校からの帰り道</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/>.</p:piece-number>
-		<p:piece japaneseTitle="病気の少年">Le petit gar<cr:ccedil/>on malade</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Le petit gar<cr:ccedil/>on malade</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>病気の少年</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/>.</p:piece-number>
-		<p:piece japaneseTitle="はりねずみ">Le h<cr:eacute/>risson</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Le h<cr:eacute/>risson</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>はりねずみ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1167,12 +1623,18 @@
 	<accompaniment instrument="打楽器">白石幸弘・福長雅夫・宮本直美</accompaniment>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>宗左近</p:words-by>
-	    <p:composed-by>荻久保和明</p:composed-by>
-	    <p:piece>2つの男声合唱及びピアノと打楽器のための「祈りの炎」</p:piece>
+	    <p:piece>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>2つの男声合唱及びピアノと打楽器のための</p:titlePrefix>
+		<p:mainTitle>祈りの炎</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1189,7 +1651,6 @@
     <referee shortname="丹羽" job="音楽評論家">丹羽正明</referee>
     <referee shortname="皆川" job="音楽史学者">皆川達夫</referee>
     <referee shortname="三善" job="作曲家">三善晃</referee>
-    <!--    <referee> -->
     <reporter anonymous="false">
       <reporter-name>国島丈生</reporter-name>
       <reporter-email anonymous="false">kunishi@c.oka-pu.ac.jp</reporter-email>
@@ -1205,17 +1666,20 @@
 	<piano>栗本洋子</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>John Rutter</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Gloria&quot;</p:piece>
+	      <p:composed-by>John Rutter</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Gloria</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece><cr:romanII/></p:piece>
+		<p:piece-number><cr:romanII/></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece><cr:romanIII/></p:piece>
+		<p:piece-number><cr:romanIII/></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1229,16 +1693,31 @@
 	<conductor>大川五郎</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Guarini</p:words-by>
-	    <p:composed-by>Carlo Gesualdo</p:composed-by>
-	    <p:piece japaneseTitle="「あなたを愛す」と">T'amo mia vita, la mia cara vita</p:piece>
+	    <p:piece>
+	      <p:words-by>Guarini</p:words-by>
+	      <p:composed-by>Carlo Gesualdo</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>T'amo mia vita, la mia cara vita</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>「あなたを愛す」と</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Carlo Gesualdo</p:composed-by>
-	    <p:piece japaneseTitle="主よ、われは悲し">Hei mihi, Domine</p:piece>
+	    <p:piece>
+	      <p:composed-by>Carlo Gesualdo</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Hei mihi, Domine</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>主よ、われは悲し</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1250,17 +1729,31 @@
 	<conductor>本城正博</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Frank Martin</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="二重合唱のミサ">&quot;Mass&quot;</p:piece>
+	      <p:composed-by>Frank Martin</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>二重合唱のミサ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Sanctus</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1275,14 +1768,21 @@
 	<piano>竹田恵</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Antonin Dvo<cr:rcaron/><cr:aacute/>k</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Mass&quot;</p:piece>
+	      <p:composed-by>Antonin Dvo<cr:rcaron/><cr:aacute/>k</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1297,16 +1797,24 @@
 	<piano>志賀弘美</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>吉野弘</p:words-by>
-	    <p:composed-by>高田三郎</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「心の四季」</p:piece>
+	      <p:words-by>吉野弘</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>心の四季</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>6</p:piece-number>
-		<p:piece>雪の日に</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>雪の日に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1323,12 +1831,17 @@
 	<special-prize>労働大臣賞</special-prize>
 	<special-prize>日本放送協会賞</special-prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>北原白秋</p:words-by>
-	    <p:composed-by>木下牧子</p:composed-by>
-	    <p:piece>邪宗門秘曲</p:piece>
+	    <p:piece>
+	      <p:words-by>北原白秋</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>邪宗門秘曲</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1340,21 +1853,43 @@
 	<conductor>猪原龍吉</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="M1">
+	  <given-program>
+	    <pieceRef number="M1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Pet<cr:ouml/>ti S<cr:aacute/>ndor</p:words-by>
-	    <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
-	    <p:piece japaneseTitle="虐げられた国の息子">Rabhaz<cr:aacute/>nak fia</p:piece>
+	    <p:piece>
+	      <p:words-by>Pet<cr:ouml/>ti S<cr:aacute/>ndor</p:words-by>
+	      <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Rabhaz<cr:aacute/>nak fia</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>虐げられた国の息子</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
-	    <p:piece japaneseTitle="子馬に">A csik<cr:oacute/></p:piece>
+	    <p:piece>
+	      <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>A csik<cr:oacute/></p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>子馬に</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>Ady Endre</p:words-by>
-	    <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
-	    <p:piece japaneseTitle="飛べよ孔雀">F<cr:ouml/>lszallott a p<cr:aacute/>va</p:piece>
+	    <p:piece>
+	      <p:words-by>Ady Endre</p:words-by>
+	      <p:composed-by>Zolt<cr:aacute/>n Kod<cr:aacute/>ly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>F<cr:ouml/>lszallott a p<cr:aacute/>va</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>飛べよ孔雀</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1367,14 +1902,21 @@
 	<piano>糸井美代子</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Antonin Dvo<cr:rcaron/><cr:aacute/>k</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Mass&quot;</p:piece>
+	      <p:composed-by>Antonin Dvo<cr:rcaron/><cr:aacute/>k</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1388,17 +1930,31 @@
 	<conductor>谷慶郎</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>William Byrd</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="四声のミサ">&quot;Mass in 4 parts&quot;</p:piece>
+	      <p:composed-by>William Byrd</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass in 4 parts</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>四声のミサ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1414,20 +1970,32 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>文部大臣奨励賞</special-prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>谷川俊太郎</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱とピアノのための「愛の歌」</p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>愛の歌</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>2</p:piece-number>
-		<p:piece>くりかえし</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>くりかえし</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>3</p:piece-number>
-		<p:piece>愛</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>愛</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1443,15 +2011,22 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>高松市長賞</special-prize>
 	<program>
-	  <given-program number="G2">
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>John Rutter</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Magnificat&quot;</p:piece>
+	      <p:composed-by>John Rutter</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Magnificat</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
-		<p:piece>Magnificat anima mea</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Magnificat anima mea</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1469,12 +2044,18 @@
 	<piano>桜井理恵</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>川崎洋</p:words-by>
-	    <p:composed-by>湯山昭</p:composed-by>
-	    <p:piece>男声合唱とピアノのための「ゆうやけの歌」</p:piece>
+	    <p:piece>
+	      <p:words-by>川崎洋</p:words-by>
+	      <p:composed-by>湯山昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>ゆうやけの歌</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1486,21 +2067,33 @@
 	<conductor>吉森章夫</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Guillaume Apollinaire</p:words-by>
-	    <p:translated-by>堀口大學</p:translated-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>アポリネールの詩による四つの無伴奏混声合唱曲「白鳥」</p:piece>
+	      <p:words-by>Guillaume Apollinaire</p:words-by>
+	      <p:translated-by>堀口大學</p:translated-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>アポリネールの詩による四つの無伴奏混声合唱曲</p:titlePrefix>
+		<p:mainTitle>白鳥</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
-		<p:piece>白鳥</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>白鳥</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>4.</p:piece-number>
-		<p:piece>小鳥が歌う</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>小鳥が歌う</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1514,14 +2107,24 @@
 	<conductor>片山謙二</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Heitor Villa-Lobos</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="聖セバスチャンのミサ">&quot;Missa s<cr:atilde/>o Sebasti<cr:atilde/>n&quot;</p:piece>
+	      <p:composed-by>Heitor Villa-Lobos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa s<cr:atilde/>o Sebasti<cr:atilde/>n</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>聖セバスチャンのミサ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Gloria</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1535,28 +2138,62 @@
 	<conductor>清水有作</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>W. Shakespeare</p:words-by>
-	    <p:composed-by>Frank Martin</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="妖精エィリエールの5つのうた">&quot;5 Ges<cr:auml/>ng des Ariel&quot;</p:piece>
+	      <p:words-by>W. Shakespeare</p:words-by>
+	      <p:composed-by>Frank Martin</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>5 Ges<cr:auml/>ng des Ariel</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>妖精エィリエールの5つのうた</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/></p:piece-number>
-		<p:piece japaneseTitle="あなたの一族郎党お弔いの鐘、Ding-Dong.">Acte <cr:romanI/>, Sc. 2</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Acte <cr:romanI/>, Sc. 2</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>あなたの一族郎党お弔いの鐘、Ding-Dong.</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/></p:piece-number>
-		<p:piece japaneseTitle="旦那は私が嫌いなのか?どうなんだ?">Acte <cr:romanIV/>, Sc. 1</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Acte <cr:romanIV/>, Sc. 1</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>旦那は私が嫌いなのか?どうなんだ?</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/></p:piece-number>
-		<p:piece japaneseTitle="罪深いお前達! よーく聞け。">Acte <cr:romanIII/>, Sc. 3</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Acte <cr:romanIII/>, Sc. 3</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>罪深いお前達! よーく聞け。</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/></p:piece-number>
-		<p:piece japaneseTitle="旦那様、おめでとう。これで私も自由の身。">Acte <cr:romanV/>, Sc. 1</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Acte <cr:romanV/>, Sc. 1</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>旦那様、おめでとう。これで私も自由の身。</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1571,20 +2208,32 @@
 	<piano>高薄千栄子</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>村松英子</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための「三つの夜想」</p:piece>
+	      <p:words-by>村松英子</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>三つの夜想</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece>淡いものに</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>淡いものに</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece>ある肖像</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ある肖像</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1599,18 +2248,29 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>香川県知事賞</special-prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>秋山邦晴</p:words-by>
-	    <p:composed-by>武満徹</p:composed-by>
 	    <p:suite>
-	      <p:piece>「風の馬」</p:piece>
+	      <p:words-by>秋山邦晴</p:words-by>
+	      <p:composed-by>武満徹</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>風の馬</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>第1ヴォカリーズ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>第1ヴォカリーズ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>指の呪文</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>指の呪文</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1625,26 +2285,41 @@
 	<piano>野田久美子</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F3">
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>北岡淳子</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱曲集「街路灯」</p:piece>
+	      <p:words-by>北岡淳子</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱曲集</p:titlePrefix>
+		<p:mainTitle>街路灯</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>マルメロ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>マルメロ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>村松英子</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための「三つの夜想」</p:piece>
+	      <p:words-by>村松英子</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>三つの夜想</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece>ある肖像</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ある肖像</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1659,20 +2334,31 @@
 	<piano>川井敬子</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Hendrik Andriessen</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Missa Simplex&quot;</p:piece>
+	      <p:composed-by>Hendrik Andriessen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Simplex</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Credo</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Credo</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Knut Nystedt</p:composed-by>
-	    <p:piece>Hosanna</p:piece>
+	    <p:piece>
+	      <p:composed-by>Knut Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Hosanna</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1685,11 +2371,19 @@
 	<piano>渡部真理</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>藤原義久</p:composed-by>
-	    <p:piece>Mezzo Soprano独唱・女声合唱・Pianoの為の「御簾の内」〜建礼門院を偲ぶ七つの断章〜より</p:piece>
+	    <p:piece>
+	      <p:composed-by>藤原義久</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>Mezzo Soprano独唱・女声合唱・Pianoの為の</p:titlePrefix>
+		<p:mainTitle>御簾の内</p:mainTitle>
+		<p:titleSuffix>〜建礼門院を偲ぶ七つの断章〜</p:titleSuffix>
+	      </p:title>
+	      <p:piece-note>抜粋</p:piece-note>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1702,12 +2396,18 @@
 	<piano>松田美紀</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>吉原幸子</p:words-by>
-	    <p:composed-by>木下牧子</p:composed-by>
-	    <p:piece>女声合唱曲「オンディーヌ」</p:piece>
+	    <p:piece>
+	      <p:words-by>吉原幸子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱曲</p:titlePrefix>
+		<p:mainTitle>オンディーヌ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1720,11 +2420,16 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>日本放送協会賞</special-prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Gustav Holst</p:composed-by>
-	    <p:piece>Ave Maria</p:piece>
+	    <p:piece>
+	      <p:composed-by>Gustav Holst</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maria</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1736,15 +2441,30 @@
 	<conductor>松下耕</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F1">
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Gy<cr:ouml/>rgy Orb<cr:aacute/>n</p:composed-by>
-	    <p:piece japaneseTitle="清らかな聖母">Mater innocentiae</p:piece>
+	    <p:piece>
+	      <p:composed-by>Gy<cr:ouml/>rgy Orb<cr:aacute/>n</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mater innocentiae</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>清らかな聖母</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Gy<cr:ouml/>rgy Orb<cr:aacute/>n</p:composed-by>
-	    <p:piece japaneseTitle="世界は新しく生まれかわる">Mundi renovatio</p:piece>
+	    <p:piece>
+	      <p:composed-by>Gy<cr:ouml/>rgy Orb<cr:aacute/>n</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mundi renovatio</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>世界は新しく生まれかわる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1758,20 +2478,32 @@
 	<special-prize>文部大臣奨励賞</special-prize>
 	<special-prize>カワイ奨励賞</special-prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Sappho</p:words-by>
-	    <p:composed-by>鈴木輝昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>「詞華抄」〜無伴奏混声合唱のための〜(古代ギリシャ抒情詩より)</p:piece>
+	      <p:words-by>Sappho</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>詞華抄</p:mainTitle>
+		<p:titleSuffix>〜無伴奏混声合唱のための〜(古代ギリシャ抒情詩より)</p:titleSuffix>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece>月はしずみぬ、すばるもまた</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>月はしずみぬ、すばるもまた</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece>エロースが、わたしの心を襲い来て</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>エロースが、わたしの心を襲い来て</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1790,7 +2522,6 @@
     <referee shortname="皆川" job="音楽史学者">皆川達夫</referee>
     <referee shortname="三善" job="作曲家">三善晃</referee>
     <referee shortname="本山" job="合唱指揮者">本山秀毅</referee>
-    <!--    <referee> -->
     <reporter anonymous="false">
       <reporter-name>国島丈生</reporter-name>
       <reporter-email anonymous="false">kunishi@c.oka-pu.ac.jp</reporter-email>
@@ -1806,20 +2537,32 @@
 	<piano>石川ひとみ</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>池澤夏樹</p:words-by>
-	    <p:composed-by>木下牧子</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「ティオの夜の旅」</p:piece>
+	      <p:words-by>池澤夏樹</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ティオの夜の旅</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/></p:piece-number>
-		<p:piece>海神</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>海神</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
+		<p:piece>
 		<p:piece-number><cr:romanV/></p:piece-number>
-		<p:piece>ティオの夜の旅</p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>ティオの夜の旅</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1835,16 +2578,24 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>日本放送協会賞</special-prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>吉原幸子</p:words-by>
-	    <p:composed-by>新実徳英</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「幼年連祷」</p:piece>
+	      <p:words-by>吉原幸子</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>幼年連祷</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/></p:piece-number>
-		<p:piece>喪失</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>喪失</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1859,17 +2610,32 @@
 	<piano>村岡生子</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G4">
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Lauri Pohjanp<cr:auml/><cr:auml/></p:words-by>
-	    <p:composed-by>Toivo Kuula</p:composed-by>
-	    <p:piece japaneseTitle="旋律">S<cr:auml/>vel</p:piece>
+	    <p:piece>
+	      <p:words-by>Lauri Pohjanp<cr:auml/><cr:auml/></p:words-by>
+	      <p:composed-by>Toivo Kuula</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>S<cr:auml/>vel</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>旋律</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>V. A. Koskenniemi</p:words-by>
-	    <p:composed-by>Toivo Kuula</p:composed-by>
-	    <p:piece japaneseTitle="日の出に">Auringon Noustessa</p:piece>
+	    <p:piece>
+	      <p:words-by>V. A. Koskenniemi</p:words-by>
+	      <p:composed-by>Toivo Kuula</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Auringon Noustessa</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>日の出に</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1881,16 +2647,31 @@
 	<conductor>宍戸悟郎</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="F2">
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Pekka Kostiainen</p:composed-by>
-	    <p:piece japaneseTitle="ナイチンゲール">Satakieli</p:piece>
+	    <p:piece>
+	      <p:composed-by>Pekka Kostiainen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Satakieli</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>ナイチンゲール</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>Gunilla Marcus</p:words-by>
-	    <p:composed-by>Knut Nystedt</p:composed-by>
-	    <p:piece japaneseTitle="主を探し求めよ">Seek Ye The Lord</p:piece>
+	    <p:piece>
+	      <p:words-by>Gunilla Marcus</p:words-by>
+	      <p:composed-by>Knut Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Seek Ye The Lord</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>主を探し求めよ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1903,18 +2684,22 @@
 	<piano>石川真奈美</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>三好達治</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>男声合唱のための「王孫不帰」</p:piece>
+	      <p:words-by>三好達治</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱のための</p:titlePrefix>
+		<p:mainTitle>王孫不帰</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece><cr:romanII/></p:piece>
+		<p:piece-number><cr:romanII/></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece><cr:romanIII/></p:piece>
+		<p:piece-number><cr:romanIII/></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1928,11 +2713,16 @@
 	<conductor>竹田享司</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Kaj-Erik Gustafsson</p:composed-by>
-	    <p:piece>Magnificat</p:piece>
+	    <p:piece>
+	      <p:composed-by>Kaj-Erik Gustafsson</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Magnificat</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -1946,18 +2736,38 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>文部大臣奨励賞</special-prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Joseph Von Eichendorff</p:words-by>
-	    <p:composed-by>Richard Strauss</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="一日の時間">&quot;Die Tageszeiten&quot;</p:piece>
+	      <p:words-by>Joseph Von Eichendorff</p:words-by>
+	      <p:composed-by>Richard Strauss</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Die Tageszeiten</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>一日の時間</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="朝">Der Morgen</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Der Morgen</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>朝</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="昼休み">Mittagsruh</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Mittagsruh</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>昼休み</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1971,21 +2781,41 @@
 	<conductor>鈴木捺香子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Sappho</p:words-by>
-	    <p:translated-by>Manara Valgimigli</p:translated-by>
-	    <p:composed-by>Ildebrando Pizzetti</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="2つの合唱曲">&quot;2 Composizioni Corali&quot;</p:piece>
+	      <p:words-by>Sappho</p:words-by>
+	      <p:translated-by>Manara Valgimigli</p:translated-by>
+	      <p:composed-by>Ildebrando Pizzetti</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>2 Composizioni Corali</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>2つの合唱曲</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/></p:piece-number>
-		<p:piece japaneseTitle="アフロディーテの園">Il giadino di Afrodite</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Il giadino di Afrodite</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>アフロディーテの園</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/></p:piece-number>
-		<p:piece japaneseTitle="満月が登った">Piena sorgeva la luna</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Piena sorgeva la luna</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>満月が登った</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2000,21 +2830,41 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>高松市教育長賞</special-prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Viivi Luik</p:words-by>
-	    <p:composed-by>Veljo Tormis</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="秋の風景">&quot;S<cr:uuml/>gismaastikud</p:piece>
+	      <p:words-by>Viivi Luik</p:words-by>
+	      <p:composed-by>Veljo Tormis</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>S<cr:uuml/>gismaastikud</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>秋の風景</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="寒い秋の夜">K<cr:uuml/>lm S<cr:uuml/>gis<cr:ouml/><cr:ouml/></p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>K<cr:uuml/>lm S<cr:uuml/>gis<cr:ouml/><cr:ouml/></p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>寒い秋の夜</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:composed-by>Urmas Sisask</p:composed-by>
-	    <p:piece japaneseTitle="祝福">Benedictio</p:piece>
+	    <p:piece>
+	      <p:composed-by>Urmas Sisask</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Benedictio</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>祝福</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -2027,16 +2877,24 @@
 	<piano>渡邊彩香</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G2">
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>池澤夏樹</p:words-by>
-	    <p:composed-by>木下牧子</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱組曲「ティオの夜の旅」</p:piece>
+	      <p:words-by>池澤夏樹</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>ティオの夜の旅</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/></p:piece-number>
-		<p:piece>ティオの夜の旅</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ティオの夜の旅</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2053,12 +2911,20 @@
 	<conductor>須賀敬一</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="G2">
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Hrabanus Maurus</p:words-by>
-	    <p:composed-by>Krzysztof Penderecki</p:composed-by>
-	    <p:piece japaneseTitle="聖霊に対する賛歌">Veni creator</p:piece>
+	    <p:piece>
+	      <p:words-by>Hrabanus Maurus</p:words-by>
+	      <p:composed-by>Krzysztof Penderecki</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Veni creator</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>聖霊に対する賛歌</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -2071,32 +2937,66 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>香川県知事賞</special-prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>R. Murray Schafer</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="魔法の笛">&quot;Magic Songs&quot;</p:piece>
+	      <p:composed-by>R. Murray Schafer</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Magic Songs</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>魔法の笛</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>CHANT TO BRING BACK THE WOLF</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT TO BRING BACK THE WOLF</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>CHANT TO MAKE FIREFLIES GLOW</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT TO MAKE FIREFLIES GLOW</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>CHANT FOR CLEAR WATER</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT FOR CLEAR WATER</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>CHANT TO KEEP BEES WARN IN WINTER</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT TO KEEP BEES WARN IN WINTER</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>CHANT TO MAKE BEARS DANCE</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT TO MAKE BEARS DANCE</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>CHANT TO MAKE THE STONES SING</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT TO MAKE THE STONES SING</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>CHANT TO MAKE THE MAGIC WORK</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>CHANT TO MAKE THE MAGIC WORK</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2110,12 +3010,20 @@
 	<conductor>今井邦男</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Friedrich R<cr:uuml/>ckert</p:words-by>
-	    <p:composed-by>Richard Strauss</p:composed-by>
-	    <p:piece japaneseTitle="化粧部屋の女神">Die G<cr:ouml/>ttin im Putzzimmer</p:piece>
+	    <p:piece>
+	      <p:words-by>Friedrich R<cr:uuml/>ckert</p:words-by>
+	      <p:composed-by>Richard Strauss</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Die G<cr:ouml/>ttin im Putzzimmer</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>化粧部屋の女神</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -2128,17 +3036,25 @@
 	<piano>奥村佳美</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F3">
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Guillaume Apollinaire</p:words-by>
-	    <p:translated-by>堀口大學</p:translated-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>アポリネールの詩による四つの無伴奏小品集「白鳥」</p:piece>
+	      <p:words-by>Guillaume Apollinaire</p:words-by>
+	      <p:translated-by>堀口大學</p:translated-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>アポリネールの詩による四つの無伴奏小品集</p:titlePrefix>
+		<p:mainTitle>白鳥</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>4.</p:piece-number>
-		<p:piece>小鳥が歌う</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>小鳥が歌う</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2152,26 +3068,48 @@
 	<conductor>桑山博</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Mary E. Coleridge</p:words-by>
-	    <p:composed-by>Charles Villiers Stanford</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;8 Partsongs&quot;</p:piece>
+	      <p:words-by>Mary E. Coleridge</p:words-by>
+	      <p:composed-by>Charles Villiers Stanford</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>8 Partsongs</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="青い鳥">The Blue Bird</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>The Blue Bird</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>青い鳥</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>James Stephens</p:words-by>
-	    <p:composed-by>Samuel Barber</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="生れかわり">&quot;Reincarnations&quot;</p:piece>
+	      <p:words-by>James Stephens</p:words-by>
+	      <p:composed-by>Samuel Barber</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Reincarnations</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>生れかわり</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
-		<p:piece japaneseTitle="金髪のかわいい人">The Coolin</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>The Coolin</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>金髪のかわいい人</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2185,15 +3123,22 @@
 	<conductor>高須道夫</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>石黒真知子</p:words-by>
-	    <p:composed-by>戸島美喜夫</p:composed-by>
 	    <p:suite>
-	      <p:piece>「いくさ三題」</p:piece>
+	      <p:words-by>石黒真知子</p:words-by>
+	      <p:composed-by>戸島美喜夫</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>いくさ三題</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>くろき翼ひろげ降りたつものたち</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>くろき翼ひろげ降りたつものたち</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2207,11 +3152,16 @@
 	<conductor>浅井敬壹</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="G2">
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Krzysztof Penderecki</p:composed-by>
-	    <p:piece>Agnus Dei</p:piece>
+	    <p:piece>
+	      <p:composed-by>Krzysztof Penderecki</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Agnus Dei</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -2224,26 +3174,51 @@
 	<piano>雫石環</piano>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G4">
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Frans Kugler</p:words-by>
-	    <p:composed-by>Johannes Brahms</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="6つの四重唱曲">&quot;Six Quartets&quot;</p:piece>
+	      <p:words-by>Frans Kugler</p:words-by>
+	      <p:composed-by>Johannes Brahms</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Six Quartets</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>6つの四重唱曲</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="夜に">N<cr:auml/>chtens</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>N<cr:auml/>chtens</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>夜に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	  <free-program>
-	    <p:words-by>C. O. Sternau</p:words-by>
-	    <p:composed-by>Johannes Brahms</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="3つの四重唱曲">&quot;Three Quartets&quot;</p:piece>
+	      <p:words-by>C. O. Sternau</p:words-by>
+	      <p:composed-by>Johannes Brahms</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Three Quartets</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>3つの四重唱曲</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
-		<p:piece japaneseTitle="故郷に">An die Heimat</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>An die Heimat</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>故郷に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2257,17 +3232,28 @@
 	<conductor>田丸寛</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Knut Nystedt</p:composed-by>
 	    <p:suite>
-	      <p:piece>&quot;Missa Brevis&quot;</p:piece>
+	      <p:composed-by>Knut Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Brevis</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Credo</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Credo</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>Sanctus</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2281,15 +3267,22 @@
 	<conductor>鬼無律友</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Albert Duhaupas</p:composed-by>
-	    <p:arranged-by>林雄一郎</p:arranged-by>
 	    <p:suite>
-	      <p:piece>&quot;Messe Solennelle&quot;</p:piece>
+	      <p:composed-by>Albert Duhaupas</p:composed-by>
+	      <p:arranged-by>林雄一郎</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>Messe Solennelle</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Kyrie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2305,20 +3298,32 @@
 	<prize nickname="gold">金賞</prize>
 	<special-prize>日本放送協会賞</special-prize>
 	<program>
-	  <given-program number="M2">
+	  <given-program>
+	    <pieceRef number="M2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>谷川俊太郎</p:words-by>
-	    <p:composed-by>新実徳英</p:composed-by>
 	    <p:suite>
-	      <p:piece>男声合唱とピアノのための「ことばあそびうた<cr:romanII/>」</p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>ことばあそびうた<cr:romanII/></p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
-		<p:piece>たそがれ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>たそがれ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>4.</p:piece-number>
-		<p:piece>さる</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>さる</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2332,16 +3337,24 @@
 	<conductor>田畑政治</conductor>
 	<prize nickname="gold">銀賞</prize>
 	<program>
-	  <given-program number="G3">
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>原民喜</p:words-by>
-	    <p:composed-by>林光</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱のための「原爆小景」</p:piece>
+	      <p:words-by>原民喜</p:words-by>
+	      <p:composed-by>林光</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>原爆小景</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3</p:piece-number>
-		<p:piece>夜</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夜</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2356,14 +3369,24 @@
 	<piano>村上弦一郎</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Anton Bruckner</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="ミサ曲ホ短調">&quot;Mass No.2&quot;</p:piece>
+	      <p:composed-by>Anton Bruckner</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mass No.2</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>ミサ曲ホ短調</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Credo</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Credo</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2379,27 +3402,48 @@
 	<accompaniment instrument="箏">福永千恵子</accompaniment>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>柴田南雄</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱と箏のための「秋来ぬと」〜「梁塵秘抄」より〜</p:piece>
+	      <p:composed-by>柴田南雄</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱と箏のための</p:titlePrefix>
+		<p:mainTitle>秋来ぬと</p:mainTitle>
+		<p:titleSuffix>〜「梁塵秘抄」より〜</p:titleSuffix>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece>そよ秋来ぬと</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>そよ秋来ぬと</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece>梁塵秘抄と名づくること</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>梁塵秘抄と名づくること</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/>.</p:piece-number>
-		<p:piece>君が愛せし</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>君が愛せし</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/>.</p:piece-number>
-		<p:piece>われを頼めて</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>われを頼めて</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2414,20 +3458,32 @@
 	<piano>浅井智子</piano>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="F4">
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>北原白秋</p:words-by>
-	    <p:composed-by>三善晃</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための「五つの唄」</p:piece>
+	      <p:words-by>北原白秋</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>五つの唄</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/></p:piece-number>
-		<p:piece>にくしみ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>にくしみ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanV/></p:piece-number>
-		<p:piece>紺屋のおろく</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>紺屋のおろく</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2441,19 +3497,39 @@
 	<conductor>藤野弘義</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Francis Poulenc</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="悔悟節のための4つのモテット">&quot;Quatre motets pour un temps de p<cr:eacute/>nitence&quot;</p:piece>
+	      <p:composed-by>Francis Poulenc</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Quatre motets pour un temps de p<cr:eacute/>nitence</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>悔悟節のための4つのモテット</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanI/>.</p:piece-number>
-		<p:piece japaneseTitle="恐れおののき我は願う">Timor et tremor venerunt super me</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Timor et tremor venerunt super me</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>恐れおののき我は願う</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIII/>.</p:piece-number>
-		<p:piece japaneseTitle="暗くなりて">Tenebrae factae sunt</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Tenebrae factae sunt</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>暗くなりて</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2467,21 +3543,48 @@
 	<conductor>足達勝子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="G1">
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>Scipione Agnelli</p:words-by>
-	    <p:composed-by>Claudio Monteverdi</p:composed-by>
 	    <p:suite>
-	      <p:piece japaneseTitle="愛する女の墓にながす恋人の涙">&quot;Lagrime d'amante al sepolcro dell'amata&quot;</p:piece>
+	      <p:words-by>Scipione Agnelli</p:words-by>
+	      <p:composed-by>Claudio Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Lagrime d'amante al sepolcro dell'amata</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>愛する女の墓にながす恋人の涙</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="むごき この墓">Incenerite spoglie</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Incenerite spoglie</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>むごき この墓</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="夜には光をたたえ">Dar<cr:aacute/> la notte il sol</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Dar<cr:aacute/> la notte il sol</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>夜には光をたたえ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece japaneseTitle="冷たき石の下には">Dunque amae relique</p:piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Dunque amae relique</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>冷たき石の下には</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2496,16 +3599,24 @@
 	<piano>川井敬子</piano>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="G4">
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>津田定雄</p:words-by>
-	    <p:composed-by>新実徳英</p:composed-by>
 	    <p:suite>
-	      <p:piece>混声合唱とピアノのための「祈りの虹」</p:piece>
+	      <p:words-by>津田定雄</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>祈りの虹</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:romanIV/>.</p:piece-number>
-		<p:piece>&quot;ヒロシマにかける虹&quot;</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>&quot;ヒロシマにかける虹&quot;</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
