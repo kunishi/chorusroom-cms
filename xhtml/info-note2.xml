@@ -1,17 +1,22 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html> <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <link href="style/default.css" type="text/css" rel="stylesheet">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+]>
+<html xml:lang="en" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <link href="style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/Notes for Information Providers Part 2</title>
   </head>
   <body>
     <p>
       This page uses ISO-8859-1 characters.  
       <strong>
-	Please, set Document Encoding 
-	into Western (Latin-1).  At Netscape, this option can be set from
-	the &quot;Document Encoding&quot; menu, in the &quot;Options&quot; menu.
+	Please, set Document Encoding into Western (Latin-1).  At
+	Netscape, this option can be set from the &quot;Document
+	Encoding&quot; menu, in the &quot;Options&quot; menu.
       </strong>
     </p>
     <ul>
@@ -26,10 +31,8 @@
       <li> &szlig; ... {b}</li>
     </ul>
     and so on.
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a>&lt;kunishi@is.aist-nara.ac.jp&gt;</address>
-<!-- hhmts start -->
-Last modified: Fri Jan  2 16:06:50 JST 1998
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo</a>&lt;&kunishi-email;&gt;</address>
+      $Id: info-note2.xml,v 1.2 1999/08/06 23:38:35 kunishi Exp $
   </body>
 </html>
