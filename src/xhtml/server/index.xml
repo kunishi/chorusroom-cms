@@ -1,24 +1,35 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encodig="iso-2022-jp"?>
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>This server</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
-
   <body>
     <h1>このサーバの紹介</h1>
-    <p>以前は<a href="http://www.sgi.co.jp/">Silicon Graphics</a>の
-      ワークステーション O2 だったのですが、<br>
-      <img src="images/pic00015.jpg" alt="The Photo of Silicon Graphics O2."><br>
+    <p><img src="freebsd.png" alt="Powered by FreeBSD."/>
+      <img src="apache_pb.png" alt="Powered by Apache."/>
+    </p>
+    <p>以前は<a href="http://www.sgi.co.jp/" shape="rect">Silicon Graphics</a>の
+      ワークステーション O2 だったのですが、<br/>
+      <img src="pic00015.jpg" alt="The Photo of Silicon Graphics O2."/><br/>
       どうも OS が不安定で、私が帰宅・帰省しているときに限って落ちると
       いう謎の現象がかなり頻繁に起こったため、予算的にめども立ったため、
       サーバの交換を行うことにしました。
     </p>
     <p>ただ、これ専用にワークステーションを用意するというのもイマイチ
       もったいないですし、普段使う計算機としては O2 はわりと気に入って
-      いるので、PC を組み立て、UNIX を動かして使うこととしました。<br>
-      <img src="images/pic00076.jpg" alt="The photo of this server."><br>
+      いるので、PC を組み立て、UNIX を動かして使うこととしました。<br/>
+      <img src="pic00076.jpg" alt="The photo of this server."/><br/>
     </p>
     <p>使ったパーツは以下の通り。</p>
     <ul>
@@ -40,23 +51,17 @@
       ためです。当初はそのまま Solaris で動かすつもりだったんですが、
       どうも OS が重い気がしたのと、「やっぱり OS のソースがいつでも
       参照できなければ」などと思いまして、
-      使いなれた<a href="http://www.jp.freebsd.org/">FreeBSD</a>(2.2-STABLE)
+      使いなれた<a href="http://www.jp.freebsd.org/" shape="rect">FreeBSD</a>
       を入れて、動かしはじめました。
     </p>
     <p>O2 よりはかなり速いので、サーバの応答が多少はよくなったかもしれません。
-      (まあ、<a href="http://www.oka-pu.ac.jp/">うちの大学</a>は
+      (まあ、<a href="http://www.oka-pu.ac.jp/" shape="rect">うちの大学</a>は
       ネットワーク的に僻地にあるので、ネットワークのほうがボトルネックになる
       可能性の方が高いですが。)</p>
-    <hr>
-    <h2>更新履歴</h2>
-    <dl>
-      <dt>1999/03/11</dt>
-      <dd>ハードディスクを4GB増設(IBM DDRS-34560U)。OSを3.1-STABLEにバー
-      ジョンアップ。</dd>
-    </dl>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-<!-- Created: Wed Dec 16 00:28:09 JST 1998 -->
-$Id: index.xml,v 1.3 1999/03/11 15:23:56 kunishi Exp $
+    <hr/>
+    <div class="footer">
+      <address><a href="mailto:kunishi@c.oka-pu.ac.jp" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
+    <p>$Date: 2000/09/11 11:02:38 $ GMT</p>
+    </div>
   </body>
 </html>
