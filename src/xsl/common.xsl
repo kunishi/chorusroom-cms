@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.2 2000/10/08 23:38:08 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.3 2001/01/01 23:23:15 kunishi Exp $ -->
 
 <xsl:stylesheet
   version="1.0"
@@ -66,7 +66,7 @@
         </a>
       </address>
       <p>
-        <xsl:text>Copyright (C) 2000 Takeo Kunishima.  All rights reserved.</xsl:text>
+        <xsl:text>Copyright (C) 2000,2001 Takeo Kunishima.  All rights reserved.</xsl:text>
       </p>
       <xsl:call-template name="additional-footer"/>
     </div>
