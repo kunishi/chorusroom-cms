@@ -1,18 +1,37 @@
 #
-# $Id: GNUmakefile,v 1.4 2001/01/12 12:03:10 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2001/01/22 03:11:28 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
 
-INSTFILES_TRADITIONAL+=	aichi.html
-INSTFILES_TRADITIONAL+=	aomori.html
-INSTFILES_TRADITIONAL+=	asahikawa.html
-INSTFILES_TRADITIONAL+=	fukuoka.html
-INSTFILES_TRADITIONAL+=	yamaguchi.html
+INSTFILES_TRADITIONAL=	aichi.html \
+			aomori.html \
+			asahikawa.html \
+			fukuoka.html \
+			hokkaido.html \
+			hyogo.html \
+			ishikawa.html \
+			kitami.html \
+			kochi.html \
+			${HTML_KUMAMOTO} \
+			kyushu.html \
+			mie.html \
+			oita.html \
+			otaru-shiribeshi.html \
+			saga.html \
+			saitama.html \
+			sapporo.html \
+			shizuoka.html \
+			sorachi.html \
+			tokai-hokuriku.html \
+			yamaguchi.html
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
 INSTFILES+=	index.html
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
+
+HTML_KUMAMOTO=		kumamoto-preliminary.html kumamoto-main.html
+.INTERMEDIATE:		${HTML_KUMAMOTO:%.html=%.xml}
 
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/nhk-contest-result.traditional.xsl
 ${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
@@ -24,3 +43,6 @@ ${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 include config.mk
 include rule.mk
+
+${HTML_KUMAMOTO:%.html=%.xml}:	kumamoto.xml
+	${LN_S} $< $@

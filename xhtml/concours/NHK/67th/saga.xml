@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: saga.xml,v 1.1 2001/01/22 03:11:59 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール佐賀県コンクール</competition-name>
+  <result output="saga">
+    <date day-of-week="wed" holiday="false">2000-07-26</date>
+    <hall>大分県立総合文化センター音の泉ホール</hall>
+    <referee shortname="富永">富永定</referee>
+    <referee shortname="小林">小林なほみ</referee>
+    <referee shortname="高山">高山保材</referee>
+    <referee shortname="北原">北原孝</referee>
+    <referee shortname="小川">小川源</referee>
+    <referee shortname="大濱">大濱聡</referee>
+    <reporter anonymous="false">
+      <reporter-name>なおや</reporter-name>
+      <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>小学校の部</section-name>
+      <choir representative="true" playing-order="1">
+	<choir-name>佐賀大学文化教育学部附属小学校</choir-name>
+	<conductor>坂本千枝</conductor>
+	<piano grade="5">子西村さやか</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>絵をかく夕日</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="2">
+	<choir-name>伊万里市立伊万里小学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>鶴田美子</conductor>
+	<piano grade="6">池田奈々美</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>女声・同声合唱曲集「地平線のかなたへ」</p:piece>
+	      <p:suite-piece>
+		<p:piece>春に</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="false" playing-order="1">
+	<choir-name>佐賀市立城南中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>千賀孝子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>ミサ曲第３番「天使の詩」</p:piece>
+	      <p:suite-piece>
+		<p:piece>Kyrie</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="2">
+	<choir-name>大町町立大町中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>中島敦子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>青葉の歌</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="3">
+	<choir-name>佐賀市立城東中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>渡辺絵里子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>海はなかった</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="4">
+	<choir-name>佐賀市立昭栄中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor grade="3">古賀梨紗子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>(不明)</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="5">
+	<choir-name>三日月町立三日月中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>寺井千鶴</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>木琴</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="6">
+	<choir-name>江北町立江北中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>古賀恵美子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>無伴奏女声合唱曲集「歌・どこかで」</p:piece>
+	      <p:suite-piece>
+		<p:piece>青イ花</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="7">
+	<choir-name>多久市立東部中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>野中久仁子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>「海鳥の詩」</p:piece>
+	      <p:suite-piece>
+		<p:piece>オロロン鳥</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="8">
+	<choir-name>呼子町立呼子中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>黒木里美</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>江戸子守歌</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" playing-order="9">
+	<choir-name>佐賀市立成章中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>光武文子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>&quot;Missa Brevis&quot;</p:piece>
+	      <p:suite-piece>
+		<p:piece>Kyrie</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>Gloria</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="10">
+	<choir-name>伊万里市立国見中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>川久保真由美</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>組曲「IN TERRA PAX〜地に平和を〜」</p:piece>
+	      <p:suite-piece>
+		<p:piece>知った</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="11">
+	<choir-name>佐賀市立鍋島中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>小野しのぶ</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>こころよ 自由に</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="12">
+	<choir-name>佐賀市立城北中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>千手千賀子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>やがて虹がかかる</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="13">
+	<choir-name>芦刈町立芦刈中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-parts>3</number-of-parts>
+	<conductor>河野雅子</conductor>
+	<prize nickname="none"></prize>
+	<program>
+	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  </given-program>
+	  <free-program>
+	    <p:piece>わが里程標</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
