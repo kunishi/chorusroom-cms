@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: tokachi.xml,v 1.1 2001/03/26 10:16:28 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">平成8年度(第63回)NHK全国学校音楽コンクール十勝地区コンクール</competition-name>
+  <result output="tokachi">
+    <date day-of-week="sun" holiday="false">1996-09-01</date>
+    <hall>帯広市民文化ホール</hall>
+    <reporter anonymous="false">
+      <reporter-name>なおや</reporter-name>
+      <reporter-email anonymous="false">naoya-ez@ezweb.ne.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>帯広市立帯広第一中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-parts>4</number-of-parts>
+	<conductor>平原百恵</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <piano>菅原知子</piano>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:title original="true">
+		<p:mainTitle>Magos a rutafa</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>帯広市立帯広第六中学校</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>帯広市立緑園中学校</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>帯広市立南町中学校</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>帯広市立帯広第八中学校</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+  </result>
+</competition>
