@@ -172,6 +172,11 @@
   <xsl:template match="所属県">
     <xsl:value-of select="."/>
     <xsl:if test="following-sibling::形態">・</xsl:if>
+    <xsl:if test="not(following-sibling::形態)
+	    and not(following-sibling::登録人数)
+	    and (following-sibling::指揮者
+	    or following-sibling::ピアノ
+	    or following-sibling::共演者)">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="形態">
