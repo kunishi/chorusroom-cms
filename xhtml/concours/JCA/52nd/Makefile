@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.25 1999/09/23 08:28:04 kunishi Exp $
+# $Id: Makefile,v 1.26 1999/09/26 02:42:55 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -21,6 +21,7 @@ INSTFILES+=	kyushu.html kyushu.utfhtml
 INSTFILES+=	mie.html mie.utfhtml
 INSTFILES+=	miyagi.html miyagi.utfhtml
 INSTFILES+=	shizuoka.html shizuoka.utfhtml
+INSTFILES+=	tohoku.html tohoku.utfhtml
 INSTFILES+=	yamagata.html yamagata.utfhtml
 
 include ${SRCTOPDIR}/config.mk
