@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.12 1999/11/20 15:29:08 kunishi Exp $ -->
+<!-- $Id: result-common.xsl,v 1.13 2000/07/17 15:20:00 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -428,7 +428,7 @@
 
   <xsl:template match="課題曲">
     <xsl:element name="li">
-      <xsl:value-of select="text()"/>
+      <xsl:value-of select="text(@番号)"/>
     </xsl:element>
   </xsl:template>
 
