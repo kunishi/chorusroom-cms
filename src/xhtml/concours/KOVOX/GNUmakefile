@@ -1,11 +1,13 @@
 #
-# $Id: GNUmakefile,v 1.7 2001/04/02 06:50:30 kunishi Exp $
+# $Id: GNUmakefile,v 1.8 2001/08/19 14:18:40 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
 
 INSTFILES+=	index.html
-INSTFILES_TRADITIONAL=	kovox-1997.html kovox-2000.html \
+INSTFILES_TRADITIONAL=	kovox-1997.html \
+			kovox-1998.html \
+			kovox-2000.html \
 			kovox-2001.html
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
