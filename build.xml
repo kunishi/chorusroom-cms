@@ -7,8 +7,7 @@
   <property name='build.concours' value='${build}/concours'/>
   <property name='build.genxml' value='${build}/genxml'/>
   <property name='build.xhtml' value='${build}/xhtml'/>
-  <property name='build.html.iso' value='${build}/html.iso'/>
-  <property name='build.html.utf8' value='${build}/html.utf8'/>
+  <property name='build.html' value='${build}/html'/>
 
   <property name="src" value="src"/>
 
@@ -342,20 +341,17 @@
 
   <!-- finalize -->
   <target name='finalize'
-          depends='finalize.html.iso, finalize.html.utf8, finalize.copysrc'/>
+          depends='finalize.html, finalize.copysrc'/>
 
-  <target name='finalize.html.iso' depends='build.xhtml'>
-    <xslt basedir='${build.xhtml}' destdir='${build.html.iso}'
+  <target name='finalize.html' depends='build.xhtml'>
+    <xslt basedir='${build.xhtml}' destdir='${build.html}'
       style='${build.xslt}/xhtml1-finalize-iso.xsl'
       extension='.html' processor='trax'
       includes='**/*.xml'
       classpathref='xalan2.class.path'/>
-  </target>
-
-  <target name='finalize.html.utf8' depends='build.xhtml'>
-    <xslt basedir='${build.xhtml}' destdir='${build.html.utf8}'
+    <xslt basedir='${build.xhtml}' destdir='${build.html}'
       style='${build.xslt}/xhtml1-finalize-utf8.xsl'
-      extension='.html' processor='trax'
+      extension='.xhtml' processor='trax'
       includes='**/*.xml'
       classpathref='xalan2.class.path'/>
   </target>
@@ -368,31 +364,29 @@
         <exclude name="**/*.xml"/>
       </fileset>
     </copy>
-    <copy todir="${build.html.iso}/image">
+    <copy todir="${build.html}/image">
       <fileset dir="${images}">
 	<include name="**/*.png"/>
       </fileset>
     </copy>
-    <copy todir="${build.html.iso}/namazu">
+    <copy todir="${build.html}/namazu">
       <fileset dir="${lib}/namazu">
         <include name="**/*"/>
       </fileset>
     </copy>
-    <copy todir="${build.html.iso}/style">
+    <copy todir="${build.html}/style">
       <fileset dir="${lib}/css">
         <include name="*.css"/>
       </fileset>
     </copy>
     <!-- 
-    <copy file="${lib}/conf/htaccess" tofile="${build.html.iso}/.htaccess"/>
+    <copy file="${lib}/conf/htaccess" tofile="${build.html}/.htaccess"/>
     -->
-    <copy file="${lib}/conf/htaccess.utf8" tofile="${build.html.utf8}/.htaccess"/>
   </target>
 
   <!-- clean -->
   <target name="clean">
-    <delete dir="${build.html.iso}"/>
-    <delete dir="${build.html.utf8}"/>
+    <delete dir="${build.html}"/>
     <delete dir="${build.lib}"/>
     <delete dir="${build.concours}"/>
     <delete dir="${build.genxml}"/>
