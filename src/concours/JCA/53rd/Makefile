@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.13 2000/08/28 16:21:12 kunishi Exp $
+# $Id: Makefile,v 1.14 2000/08/29 05:04:55 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -47,19 +47,16 @@ include ${SRCTOPDIR}/rule.mk
 
 ${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
 	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
-	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
-			s@%%STYLEDIR%%@${STYLEDIR}@g;" ${RESULT_XSL_COMMON}
+	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
 
 index.html:	%.html : %.xml ${XHTML10_XSL}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@
-	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
-			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
+	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -iso2022 $@
 
 index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
-	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
-			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
+	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
 
 ###
