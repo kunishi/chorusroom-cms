@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE 大会 SYSTEM "result-1999.dtd">
-<!-- $Id: fukuoka.xml,v 1.4 1999/08/05 08:20:36 kunishi Exp $ -->
+<!-- $Id: fukuoka.xml,v 1.5 1999/08/06 02:58:40 kunishi Exp $ -->
 <大会 略称="fukuoka">
   <大会名>第54回九州合唱コンクール福岡県予選</大会名>
-  <CVSID>$Id: fukuoka.xml,v 1.4 1999/08/05 08:20:36 kunishi Exp $</CVSID>
+  <CVSID>$Id: fukuoka.xml,v 1.5 1999/08/06 02:58:40 kunishi Exp $</CVSID>
   <開催日別結果>
     <開催日 曜日="日">1999-08-01</開催日>
     <開催場所>若松市民会館</開催場所>
@@ -248,7 +248,7 @@
     <部門結果>
       <部門名>大学部門</部門名>
       <団体 大会代表="yes">
-	<団体名>九大混声合唱団</団体名>
+	<団体名 url="http://rcweb.rc.kyushu-u.ac.jp/~kyukon">九大混声合唱団</団体名>
 	<所属県>福岡</所属県>
 	<形態>混声</形態>
 	<登録人数>49</登録人数>
@@ -323,7 +323,7 @@
     <部門結果>
       <部門名>一般部門</部門名>
       <団体 大会代表="yes">
-	<団体名>クエーサー</団体名>
+	<団体名 url="http://www.jkaabl2.kais.kyoto-u.ac.jp/quaser.htm">クエーサー</団体名>
 	<所属県>福岡</所属県>
 	<形態>男声</形態>
 	<登録人数>25</登録人数>
