@@ -3,7 +3,8 @@
 		version="1.0"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:c="http://www.chorusroom.org/xml"
-		xmlns:h="http://www.w3.org/TR/xhtml1/strict"
+		xmlns:xh="http://www.w3.org/TR/xhtml1/strict"
+		xmlns:h="http://www.w3.org/1999/xhtml"
 		exclude-result-prefixes="h c p">
   <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"
 	      indent="yes"/>
@@ -204,7 +205,7 @@
     <xsl:text>」</xsl:text>
   </xsl:template>
   <!-- XHTML elements -->
-  <xsl:template match="h:*">
+  <xsl:template match="h:*|xh:*">
     <xsl:copy/>
   </xsl:template>
 </xsl:stylesheet>
