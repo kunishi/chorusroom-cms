@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id: gen-tbl.pl,v 1.1 1999/11/20 23:40:40 kunishi Exp $
+# $Id: gen-tbl.pl,v 1.2 1999/11/20 23:55:35 kunishi Exp $
 
 use strict;
 use vars qw(%HTML4symtab $line);
@@ -38,7 +38,7 @@ while (<>) {
 	print '</tr>' . "\n";
     }
 }
-print '</tbody' . "\n";
+print '</tbody>' . "\n";
 
 sub construct_symbol_table() {
     my @HTMLents = ('HTMLlat1.ent', 'HTMLspecial.ent');
