@@ -3,7 +3,6 @@
 	     xmlns:p="http://www.chorusroom.org/piece"
 	     xmlns:c="http://www.chorusroom.org/character"
 	     xml:lang="ja">
-  <cvs-id></cvs-id>
   <competition-name area="true" pref="false">第56回中部合唱コンクール</competition-name>
   <result output="chubu-200309">
     <date day-of-week="sat">2003-09-27</date>
@@ -19,168 +18,1062 @@
       <reporter-email>frikka@inter7.jp</reporter-email>
     </reporter>
     <section>
-      <section-name>中学校部門 混声合唱の部</section-name>
-      <choir representative="true" seed="false">
+      <section-name date="2003-09-28">中学校部門 混声合唱の部</section-name>
+      <choir representative="true" seed="false" playing-order="5">
 	<choir-name>名古屋市立香流中学校合唱部</choir-name>
 	<prefecture>愛知</prefecture>
 	<choir-type>mixed</choir-type>
+	<number-of-members>42</number-of-members>
+	<conductor>水田泰子</conductor>
+	<piano>水野恵</piano>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>まど・みちお</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱曲集</p:titlePrefix>
+		<p:mainTitle>うたよ!</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>おんがく</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>はだか</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>きみ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="true" seed="false">
+      <choir representative="true" seed="false" playing-order="4">
 	<choir-name>大垣市立興文中学校合唱部</choir-name>
 	<prefecture>岐阜</prefecture>
 	<choir-type>mixed</choir-type>
+	<number-of-members>41</number-of-members>
+	<conductor>石原由佳子</conductor>
+	<piano>今井美由紀</piano>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>三好達治</p:words-by>
+	      <p:composed-by>多田武彦</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>わがふるき日のうた</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanVI">VI</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>鐘鳴りぬ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>鈴木憲夫</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>未来への決意</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>3</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>自己</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>信州大学付属長野中学校合唱部</choir-name>
+      <choir representative="false" seed="false" playing-order="2">
+	<choir-name>信州大学附属長野中学校合唱部</choir-name>
 	<prefecture>長野</prefecture>
 	<choir-type>mixed</choir-type>
+	<number-of-members>57</number-of-members>
+	<conductor>西澤真一</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>三好達治</p:words-by>
+	      <p:composed-by>多田武彦</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>わがふるき日のうた</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanVI">VI</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>鐘鳴りぬ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>岩谷時子</p:words-by>
+	      <p:composed-by>石井歓</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱</p:titlePrefix>
+		<p:mainTitle>風紋</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>第2章</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>あなたは風</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="1">
 	<choir-name>福井市成和中学校合唱部</choir-name>
 	<prefecture>福井</prefecture>
 	<choir-type>mixed</choir-type>
+	<number-of-members>33</number-of-members>
+	<conductor>徳原安衡</conductor>
+	<piano>高山聖子</piano>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>工藤直子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱曲集</p:titlePrefix>
+		<p:mainTitle>光と風をつないで</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>いっしょに</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>片岡輝</p:words-by>
+	      <p:composed-by>鈴木憲夫</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>地球に寄り添って</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>2</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>はばたく一本の葦</p:mainTitle>
+		    <p:titleSuffix>〜小さなパスカル〜</p:titleSuffix>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>三重大学教育学部付属中学校</choir-name>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>三重大学教育学部附属中学校</choir-name>
 	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
+	<number-of-members>37</number-of-members>
+	<conductor>川島雅樹</conductor>
+	<piano>京谷政樹</piano>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>竹内香織・小椋佳</p:words-by>
+	      <p:composed-by>小椋佳</p:composed-by>
+	      <p:arranged-by>横山潤子</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>白いページ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>ギョーム・アポリネール</p:words-by>
+	      <p:translated-by>堀口大學</p:translated-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>アポリネールの詩による四つの無伴奏混声合唱曲</p:titlePrefix>
+		<p:mainTitle>白鳥</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>露営のともしび</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
     </section>
     <section>
       <section-name>中学校部門 同声の部</section-name>
-      <choir representative="true" seed="false">
+      <choir representative="true" seed="false" playing-order="11">
 	<choir-name>野々市町立布水中学校合唱部</choir-name>
 	<prefecture>石川</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>22</number-of-members>
+	<conductor>一森晴美</conductor>
+	<piano>廣田智美</piano>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mundi renovatio</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Sexta</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="true" seed="false">
+      <choir representative="true" seed="false" playing-order="4">
 	<choir-name>長野市立東部中学校合唱部</choir-name>
 	<prefecture>長野</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>33</number-of-members>
+	<conductor>今井睦子</conductor>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>László Nagy</p:words-by>
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>三つの女声合唱曲</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>2</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>幻想</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ああ、雪の森の静寂</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="10">
 	<choir-name>名古屋市立桜山中学校コーラス部</choir-name>
 	<prefecture>愛知</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>43</number-of-members>
+	<conductor>長岡知里</conductor>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>工藤直子</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための組曲</p:titlePrefix>
+		<p:mainTitle>愛するものためにうたう歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>すきなこと</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ばら</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夕焼け</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="7">
 	<choir-name>武豊町立富貴中学校合唱部</choir-name>
 	<prefecture>愛知</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>29</number-of-members>
+	<conductor>喜多末希子</conductor>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>村山槐多</p:words-by>
+	      <p:composed-by>西村朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>青色廃園</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>宮殿</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>鯖江市立中央中学校合唱部</choir-name>
+      <choir representative="false" seed="false" playing-order="9">
+	<choir-name>鯖江市立中央中学校</choir-name>
 	<prefecture>福井</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>22</number-of-members>
+	<conductor>芝幸弘</conductor>
+	<piano>齋藤智巳</piano>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第1集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanV">V</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>なめる</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第2集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanII">II</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ともに……</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="2">
 	<choir-name>長野市立篠ノ井東中学校</choir-name>
 	<prefecture>長野</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>土屋さつき</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Nancy Telfer</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Brevis</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>三重大学教育学部付属中学校音楽部</choir-name>
+      <choir representative="false" seed="false" playing-order="8">
+	<choir-name>三重大学教育学部附属中学校音楽部</choir-name>
 	<prefecture>三重</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>23</number-of-members>
+	<conductor>川島雅樹</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Népi Gyermekdal</p:words-by>
+	      <p:composed-by>Zoltán Kodály</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Gólya-Nóta</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Eszkimó Vadászdalokra</p:words-by>
+	      <p:composed-by>Lajos Bárdos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Tavunga</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Imre Csanádi</p:words-by>
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Tél</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>近嬢学院中学校グリークラブ</choir-name>
+      <choir representative="false" seed="false" playing-order="6">
+	<choir-name>金城学院中学校グリークラブ</choir-name>
 	<prefecture>愛知</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>小原恒久</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Alleluia</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>長野市立犀陵学校合唱部</choir-name>
+      <choir representative="false" seed="false" playing-order="3">
+	<choir-name>長野市立犀陵中学校合唱部</choir-name>
 	<prefecture>長野</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>宮本千苗</conductor>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Mika Waltari</p:words-by>
+	      <p:composed-by>Jukka Kankainen</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>女声合唱とピアノのためのミッカワルタリの詩による組曲</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Haukkani</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Ilta</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Ekstaasi</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="5">
 	<choir-name>高岡市立国吉中学校合唱部</choir-name>
 	<prefecture>富山</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>21</number-of-members>
+	<conductor>蓮澤有希</conductor>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:originated-from>わらべうた</p:originated-from>
+	      <p:composed-by>小倉朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ほたるこい</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>俵万智</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>待ち人ごっこ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanII">II</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>はないちもんめ2</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
-	<choir-name>鈴鹿市立鼓ヶ浦中学校</choir-name>
+      <choir representative="false" seed="false" playing-order="1">
+	<choir-name>鈴鹿市立鼓ヶ浦中学校合唱部</choir-name>
 	<prefecture>三重</prefecture>
 	<choir-type>same-voice</choir-type>
+	<number-of-members>28</number-of-members>
+	<conductor>田中博基</conductor>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>György Orbán</p:words-by>
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>O Gloriosa</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>György Orbán</p:words-by>
+	      <p:composed-by>György Orbán</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Mundi renovatio</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa in A</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
     </section>
     <section>
       <section-name>高等学校部門 Aグループ</section-name>
-      <choir representative="true" seed="false">
+      <choir representative="true" seed="false" playing-order="13">
 	<choir-name>岐阜県立岐阜高等学校音楽部</choir-name>
 	<prefecture>岐阜</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>中村美代子</conductor>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>千原英喜</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための5つの聖母賛歌</p:titlePrefix>
+		<p:mainTitle>マリア・オリエンタス(東方のマリア)</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanI">I</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>前奏曲: 受胎告知</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanIII">III</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>サルヴェ・レジーナ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="2">
 	<choir-name>三重県立宇治山田高等学校合唱部</choir-name>
 	<prefecture>三重</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>向井正雄</conductor>
+	<piano>加藤あかね</piano>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>松尾芭蕉</p:words-by>
+	      <p:composed-by>千原英喜</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>銀河の序</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanI">I</c:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanII">II</c:utf8-char></p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="7">
 	<choir-name>岐阜県立大垣桜高等学校合唱部</choir-name>
 	<prefecture>岐阜</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>阿部希容衣</conductor>
+	<piano>民谷美緒</piano>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第1集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><c:utf8-char nickname="romanI">I</c:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>未生−誕生</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="12">
 	<choir-name>富山県立高岡西高等学校合唱部</choir-name>
 	<prefecture>富山</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>白銀裕子</conductor>
 	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>C. Sandburg</p:words-by>
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Six Choruses for Female Choir to poems by C.Sandburg</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Snatch</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Mika Waltari</p:words-by>
+	      <p:composed-by>Pekka Kostiainen</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Satakieli</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="8">
 	<choir-name>桜花学園高等学校合唱団</choir-name>
 	<prefecture>愛知</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>31</number-of-members>
+	<conductor>奥山祐司</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のためのコンポジション</p:titlePrefix>
+		<p:mainTitle>日本の民謡2</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>五木の子守唄</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="3">
 	<choir-name>三重県立津高等学校音楽部</choir-name>
 	<prefecture>三重</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>小林正美</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Jaakko Mäntyjärvi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Psalm 150 in Grandsire Triples</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Jaakko Mäntyjärvi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>El Hambo</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="11">
 	<choir-name>長野県長野高等学校合唱班</choir-name>
 	<prefecture>長野</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-members>12</number-of-members>
+	<conductor>松井深之</conductor>
+	<piano>上野由衣</piano>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>もうひとつのかお</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>4</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>愛</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="4">
 	<choir-name>暁高等学校音楽部</choir-name>
 	<prefecture>三重</prefecture>
+	<choir-type>mixed</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>岩木和樹</conductor>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>中村透</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>真南風の祈り</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>2</p:piece-number>
+		<p:piece>
+		  <p:originated-from>西表島:家造りのジラバから</p:originated-from>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>家たかび</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>4</p:piece-number>
+		<p:piece>
+		  <p:originated-from>南風原の綱曳きの歌から</p:originated-from>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>遊びぶさ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="9">
 	<choir-name>安城学園高等学校合唱部</choir-name>
 	<prefecture>愛知</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>19</number-of-members>
+	<conductor>平林清志</conductor>
+	<piano>雲英亮子</piano>
 	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>道之島唄</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>浦富</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="6">
 	<choir-name>福井県立美方高等学校合唱部</choir-name>
 	<prefecture>福井</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>29</number-of-members>
+	<conductor>松村勇</conductor>
+	<piano>松村美歌</piano>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>宇宙の果物</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>曙</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="false" seed="false" playing-order="2">
 	<choir-name>富山県立高岡南高等学校合唱部</choir-name>
 	<prefecture>富山</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>22</number-of-members>
+	<conductor>塚原早苗</conductor>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Javier Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>József Karai</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>In dulci jubilo</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
       </choir>
       <choir representative="false" seed="false">
 	<choir-name>長野県塩尻志学館高等学校音楽部</choir-name>
 	<prefecture>長野</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>22</number-of-members>
+	<conductor>高木房雄</conductor>
 	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>József Karai</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maria <c:utf8-char nickname="romanII">II</c:utf8-char></p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>József Karai</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Hodie Christus natus est</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>小松市立高等学校音楽部</choir-name>
+	<prefecture>石川</prefecture>
+	<choir-type>female</choir-type>
+	<number-of-members>26</number-of-members>
+	<conductor>浅井望</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-56th.xml"></pieceRef>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Lajos Bárdos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Magos a rutafa</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
       </choir>
     </section>
     <section>
