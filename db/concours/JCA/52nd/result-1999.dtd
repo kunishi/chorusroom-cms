@@ -37,6 +37,8 @@
           支部大会 (yes|no) #IMPLIED>
 
 <!ELEMENT 開催日別結果 (開催日*, 開催時刻?, 開催場所?, 審査員*, 報告者+, 注記?, 部門結果+)>
+<!ATTLIST 開催日別結果
+          出力名 CDATA #IMPLIED>
 <!ELEMENT 開催日 (#PCDATA)>
 <!-- 開催日のフォーマットは YYYY-MM-DD -->
 <!ATTLIST 開催日
