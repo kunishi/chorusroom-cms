@@ -1,0 +1,13 @@
+default namespace = "http://www.chorusroom.org/choir"
+namespace ns1 = "http://www.chorusroom.org/character"
+
+include "choir.rnc" {
+   start = 
+      element choir-list {
+         choir*
+       & element choirIdRef {
+          attribute id { xsd:string }
+       }*
+      }
+}
+

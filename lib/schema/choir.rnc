@@ -1,7 +1,9 @@
 default namespace = "http://www.chorusroom.org/choir"
 namespace ns1 = "http://www.chorusroom.org/character"
 
-start =
+start = choir
+
+choir = 
   element choir {
     attribute moduleVersion { xsd:NMTOKEN "1.0" },
     element include {
