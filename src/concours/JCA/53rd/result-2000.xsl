@@ -261,8 +261,8 @@
   <xsl:template match="ピース曲名">
     <xsl:if test="@ピース番号"><xsl:value-of select="@ピース番号"/>. </xsl:if>
     <xsl:value-of select="."/>
-    <xsl:if test="../作詩 or ../出典">
-      (<xsl:apply-templates select="../出典"/><xsl:apply-templates select="../作詩"/>)</xsl:if>
+    <xsl:if test="../作詩 or ../出典 or ../訳詩">
+      (<xsl:apply-templates select="../出典"/><xsl:apply-templates select="../作詩"/><xsl:apply-templates select="../訳詩"/>)</xsl:if>
     <xsl:if test="../following-sibling::組曲ピース">; </xsl:if>
   </xsl:template>
 
