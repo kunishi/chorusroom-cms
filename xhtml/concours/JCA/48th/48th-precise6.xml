@@ -1,17 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 6)</title>
   </head>
-
   <body>
     <h1>第48回全日本合唱コンクール全国大会の結果(その6)</h1>
     指揮、伴奏、演奏曲目などのデータを添えたバージョンです。各部門ごとに
     別のページになっています。本ページは、吉田＠ATRさんから御提供いただい
     たデータを基にしています。
-
     <h2>一般の部B</h2>
     <ul>
       <li> 豊中混声合唱団(大阪府:関西支部、金賞)
@@ -33,7 +36,7 @@
 	<ul>
 	  <li> 指揮: 今井邦男</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> Die G\"ottin im Putzzimmer(作詩:Friedrich R\"uckert/
+	  <li> Die G&ouml;ttin im Putzzimmer(作詩:Friedrich R&uuml;ckert/
 	    作曲:Richard Strauss)</li>
 	</ul></li>
       <li> 女声合唱栗東カレンジュラ(滋賀県:関西支部、銅賞)
@@ -71,7 +74,7 @@
 	  <li> 指揮:松田晃/Piano:雫石環</li>
 	  <li> G4</li>
 	  <li> 「Six Quartets」(作詩:Franz Kugler/作曲:Johannes
-	    Brahms)から N\"achtens</li>
+	    Brahms)から N&auml;chtens</li>
 	  <li> 「Three Quartets」(作詩:C. O. Sternau/作曲:Johannes
 	    Brahms)から 1. An die Heimat</li>
 	</ul></li>
@@ -148,13 +151,10 @@
 	    曲:新実徳英)から IV. ヒロシマにかける虹</li>
 	</ul></li>
     </ul>
-
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
-
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Sun Dec 14 12:26:49 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 05:27:31 $
+  </body>
+</html>
