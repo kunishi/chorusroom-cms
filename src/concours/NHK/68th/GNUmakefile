@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.10 2001/09/18 09:52:30 kunishi Exp $
+# $Id: GNUmakefile,v 1.11 2001/09/18 10:09:05 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -9,8 +9,8 @@ INSTFILES_TRADITIONAL=	asahikawa.html \
 			donan.html \
 			hokkaido.html \
 			${HYOGO_HTML} \
-			kansai.html \
 			kanto.html \
+			kinki.html \
 			kyoto.html \
 			sapporo.html \
 			tochigi.html
