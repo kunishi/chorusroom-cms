@@ -12,7 +12,7 @@
 
   <hedgeRule label="specialCharacters" namespace="http://www.w3.org/1999/xhtml">
     <choice>
-      <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+      <ref label="utf8-char" namespace="http://www.chorusroom.org/character"/>
       <ref label="resourceRef" namespace="http://www.chorusroom.org/resource"/>
     </choice>
   </hedgeRule>

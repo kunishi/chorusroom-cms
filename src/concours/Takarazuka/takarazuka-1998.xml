@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding='iso-2022-jp'?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: takarazuka-1998.xml,v 1.4 2001/01/24 05:44:35 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: takarazuka-1998.xml,v 1.5 2001/02/04 02:04:47 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第15回宝塚国際室内合唱コンクール</competition-name>
   <result output="takarazuka-1998">
     <date day-of-week="sat" holiday="false">1998-07-25</date>
@@ -346,7 +346,7 @@
 		<p:mainTitle>Tre Korvisor</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Seraillets Have</p:mainTitle>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: yamaguchi.xml,v 1.4 2001/01/31 08:43:32 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.5 2001/02/04 02:04:44 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第55回合唱コンクール山口県大会（第4回やまぐち県民文化祭）</competition-name>
   <result output="yamaguchi">
     <date day-of-week="sun" holiday="false">2000-08-20</date>
@@ -128,7 +128,7 @@
 		<p:mainTitle>IN TERRA PAX〜地に平和を</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ほうけた母の子守歌</p:mainTitle>
@@ -386,7 +386,7 @@
 		<p:mainTitle>誕生祭</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>病める皇帝の祈りのうた</p:mainTitle>
@@ -543,7 +543,7 @@
 		<p:mainTitle>ひみつ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>さようなら</p:mainTitle>
@@ -573,7 +573,7 @@
 		<p:mainTitle>優しき歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>爽やかな五月に</p:mainTitle>
@@ -882,7 +882,7 @@
 		<p:mainTitle>方舟</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>木馬</p:mainTitle>
@@ -890,7 +890,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>方舟</p:mainTitle>

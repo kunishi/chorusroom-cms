@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: aomori.xml,v 1.4 2001/01/23 01:57:38 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: aomori.xml,v 1.5 2001/02/04 02:04:45 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回)NHK全国学校音楽コンクール青森県コンクール</competition-name>
   <result output="aomori">
     <date day-of-week="thu" holiday="false">2000-08-31</date>
@@ -141,10 +141,10 @@
 		<p:mainTitle>ヘンルーダの花が咲いたら</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>

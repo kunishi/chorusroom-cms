@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: mie.xml,v 1.4 2001/01/31 10:39:47 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: mie.xml,v 1.5 2001/02/04 02:04:43 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第４０回三重県合唱コンクール</competition-name>
   <result output="mie">
     <date day-of-week="sun" holiday="false">2000-08-20</date>
@@ -151,7 +151,7 @@
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Gabriel Faur<cr:eacute/></p:composed-by>
+	      <p:composed-by>Gabriel Faur<cr:utf8-char nickname="eacute">e</cr:utf8-char></p:composed-by>
 	      <p:arranged-by>萩原英彦</p:arranged-by>
 	      <p:title original="true">
 		<p:mainTitle>Messe basse</p:mainTitle>
@@ -463,19 +463,19 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>We<cr:ouml/>res S<cr:aacute/>ndor</p:words-by>
-	      <p:composed-by>Kod<cr:aacute/>y Zolt<cr:aacute/>n</p:composed-by>
+	      <p:words-by>We<cr:utf8-char nickname="ouml">o</cr:utf8-char>res S<cr:utf8-char nickname="aacute">a</cr:utf8-char>ndor</p:words-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>y Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>NORV<cr:Eacute/>G LE<cr:Aacute/>NYOK</p:mainTitle>
+		<p:mainTitle>NORV<cr:utf8-char nickname="Eacute">E</cr:utf8-char>G LE<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NYOK</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
 	      <p:words-by>Ady Endre</p:words-by>
-	      <p:composed-by>Kod<cr:aacute/>y Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>F<cr:Ouml/>LSZ<cr:Aacute/>LLOOT A P<cr:Aacute/>VA</p:mainTitle>
+		<p:mainTitle>F<cr:utf8-char nickname="Ouml">O</cr:utf8-char>LSZ<cr:utf8-char nickname="Aacute">A</cr:utf8-char>LLOOT A P<cr:utf8-char nickname="Aacute">A</cr:utf8-char>VA</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -681,7 +681,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>J<cr:oacute/>zsef KARAI</p:composed-by>
+	      <p:composed-by>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef KARAI</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Hodie Christus natus est</p:mainTitle>
 	      </p:title>
@@ -858,7 +858,7 @@
 	      <p:composed-by>尾形敏幸</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>無伴奏混声合唱のための</p:titlePrefix>
-		<p:mainTitle>映像<cr:romanII/></p:mainTitle>
+		<p:mainTitle>映像<cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: shimane.xml,v 1.5 2001/01/31 06:58:19 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: shimane.xml,v 1.6 2001/02/04 02:04:44 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第３９回島根県合唱フェスティバルコンクール（全日本合唱コンクール島根県大会）
   </competition-name>
   <result output="shimane">
@@ -37,7 +37,7 @@
 		<p:mainTitle>SEVEN SONGS OF NONSENSE</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Multiplication</p:mainTitle>
@@ -45,7 +45,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Irene</p:mainTitle>
@@ -53,7 +53,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Newspaper</p:mainTitle>
@@ -81,7 +81,7 @@
 		<p:mainTitle>二つの愛のうた</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>もぐらのエレジー</p:mainTitle>
@@ -134,7 +134,7 @@
 		<p:mainTitle>のら犬ドジ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>みつめてる</p:mainTitle>
@@ -142,7 +142,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ドジじゃないぞ</p:mainTitle>
@@ -344,7 +344,7 @@
 		<p:mainTitle>幼年連梼</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>不眠</p:mainTitle>
@@ -352,7 +352,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>憧れ</p:mainTitle>
@@ -513,7 +513,7 @@
 		<p:mainTitle>肖像</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>前兆</p:mainTitle>
@@ -544,7 +544,7 @@
 		<p:mainTitle>失われた時への挽歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>HELP!</p:mainTitle>
@@ -606,10 +606,10 @@
 		<p:mainTitle>オンゴー・オーニ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -662,7 +662,7 @@
 		<p:mainTitle>地球へのバラード</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>私が歌う理由</p:mainTitle>
@@ -670,7 +670,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>地球へのピクニック</p:mainTitle>

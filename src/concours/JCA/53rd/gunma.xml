@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: gunma.xml,v 1.5 2001/01/30 13:24:54 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: gunma.xml,v 1.6 2001/02/04 02:04:41 kunishi Exp $</cvs-id>
   <competition-name>第４０回群馬県合唱コンクール</competition-name>
   <result output="gunma">
     <date day-of-week="sun" holiday="false">2000年7月23日</date>
@@ -624,7 +624,7 @@
 	    <p:suite>
 	      <p:composed-by>F.プーランク</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour un temps de p<cr:eacute/>nitence</p:mainTitle>
+		<p:mainTitle>Quatre motets pour un temps de p<cr:utf8-char nickname="eacute">e</cr:utf8-char>nitence</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>

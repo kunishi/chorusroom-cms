@@ -21,13 +21,13 @@
     </hedgeRule>
     <hedgeRule label="specialCharacters"
 	       namespace="http://www.chorusroom.org/xml">
-      <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+      <ref label="utf8-char" namespace="http://www.chorusroom.org/character"/>
     </hedgeRule>
   </div>
   <div>
     <hedgeRule label="specialCharacters"
 	       namespace="http://www.chorusroom.org/piece">
-      <ref label="char-reference"
+      <ref label="utf8-char"
 	   namespace="http://www.chorusroom.org/character"/>
     </hedgeRule>
   </div>

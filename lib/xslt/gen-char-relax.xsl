@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: gen-char-relax.xsl,v 1.5 2001/01/03 05:20:26 kunishi Exp $ -->
+<!-- $Id: gen-char-relax.xsl,v 1.6 2001/02/04 02:04:48 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:cr="http://www.chorusroom.org/character"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -15,18 +15,18 @@
   <xsl:template match="/">
     <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/character">
       <interface/>
-      <hedgeRule label="character">
-	<choice occurs="?">
+      <attPool role="nicknameList">
+	<attribute name="nickname">
+	  <enumeration value="none"/>
 	  <xsl:for-each select="$char-list">
-	    <ref>
-	      <xsl:attribute name="label">
+	    <enumeration>
+	      <xsl:attribute name="value">
 		<xsl:value-of select="@nickname"/>
 	      </xsl:attribute>
-	    </ref>
+	    </enumeration>
 	  </xsl:for-each>
-	</choice>
-      </hedgeRule>
-      <xsl:apply-templates select="$char-list"/>
+	</attribute>
+      </attPool>
     </module>
   </xsl:template>
 
@@ -34,20 +34,6 @@
 
   <xsl:template match="cr:characters">
     <xsl:apply-templates select="cr:character"/>
-  </xsl:template>
-
-  <xsl:template match="cr:character">
-    <tag>
-      <xsl:attribute name="name">
-	<xsl:value-of select="@nickname"/>
-      </xsl:attribute>
-    </tag>
-    <elementRule>
-      <xsl:attribute name="role">
-	<xsl:value-of select="@nickname"/>
-      </xsl:attribute>
-      <xsl:element name="empty"/>
-    </elementRule>
   </xsl:template>
 
 </xsl:stylesheet>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: ishikawa.xml,v 1.5 2001/01/31 10:39:11 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: ishikawa.xml,v 1.6 2001/02/04 02:04:42 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第42回石川県合唱コンクール</competition-name>
   <result output="ishikawa">
     <date day-of-week="sun" holiday="false">2000-08-20</date>
@@ -163,10 +163,10 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Cs<cr:aacute/>ng<cr:oacute/> n<cr:eacute/>pdalok</p:words-by>
-	      <p:composed-by>J<cr:oacute/>zef KARAI</p:composed-by>
+	      <p:words-by>Cs<cr:utf8-char nickname="aacute">a</cr:utf8-char>ng<cr:utf8-char nickname="oacute">o</cr:utf8-char> n<cr:utf8-char nickname="eacute">e</cr:utf8-char>pdalok</p:words-by>
+	      <p:composed-by>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zef KARAI</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Est<cr:eacute/>li n<cr:oacute/>t<cr:aacute/>z<cr:aacute/>s</p:mainTitle>
+		<p:mainTitle>Est<cr:utf8-char nickname="eacute">e</cr:utf8-char>li n<cr:utf8-char nickname="oacute">o</cr:utf8-char>t<cr:utf8-char nickname="aacute">a</cr:utf8-char>z<cr:utf8-char nickname="aacute">a</cr:utf8-char>s</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -269,7 +269,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by><cr:Aacute/>gnes Nemes Nagy</p:words-by>
+	      <p:words-by><cr:utf8-char nickname="Aacute">A</cr:utf8-char>gnes Nemes Nagy</p:words-by>
 	      <p:composed-by>Emil Petrovics</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>組曲</p:titlePrefix>
@@ -286,7 +286,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>軽騎兵の踊り</p:mainTitle>
 	      </p:title>
@@ -545,7 +545,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Anton<cr:iacute/>n Dvor<cr:aacute/>k</p:composed-by>
+	      <p:composed-by>Anton<cr:utf8-char nickname="iacute">i</cr:utf8-char>n Dvor<cr:utf8-char nickname="aacute">a</cr:utf8-char>k</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>STABAT MATER</p:mainTitle>
 	      </p:title>
@@ -653,9 +653,9 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Hugo Alfv<cr:eacute/>n</p:composed-by>
+	      <p:composed-by>Hugo Alfv<cr:utf8-char nickname="eacute">e</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Och jungfrum hom g<cr:aring/>r 1 ringen</p:mainTitle>
+		<p:mainTitle>Och jungfrum hom g<cr:utf8-char nickname="aring">a</cr:utf8-char>r 1 ringen</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -664,7 +664,7 @@
 	      <p:words-by>Oscar Levertin</p:words-by>
 	      <p:composed-by>Wilhelm Stenhammar</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>V<cr:aacute/>matt</p:mainTitle>
+		<p:mainTitle>V<cr:utf8-char nickname="aacute">a</cr:utf8-char>matt</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>

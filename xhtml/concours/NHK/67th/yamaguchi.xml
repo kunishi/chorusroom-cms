@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: yamaguchi.xml,v 1.7 2001/01/25 03:40:48 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.8 2001/02/04 02:04:47 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度（第65回）NHK全国学校音楽コンクール山口県大会</competition-name>
   <result output="yamaguchi">
     <date day-of-week="tue" holiday="false">2000-08-08</date>
@@ -252,7 +252,7 @@
 		<p:mainTitle>IN TERRA PAX〜地に平和を</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ほうけた母の子守歌</p:mainTitle>
@@ -437,7 +437,7 @@
 		<p:mainTitle>優しき歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>爽やかな五月に</p:mainTitle>
@@ -464,7 +464,7 @@
 		<p:mainTitle>誕生祭</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>病める皇帝の祈りのうた</p:mainTitle>

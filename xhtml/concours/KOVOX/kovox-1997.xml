@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest Generic 1.0//JA" "http://localhost/DTD/contest-result-generic.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: kovox-1997.xml,v 1.14 2001/01/12 12:03:10 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kovox-1997.xml,v 1.15 2001/02/04 02:04:44 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">第2回神戸ヴォーカルアンサンブルコンテスト(KOVOX)</competition-name>
   <result output="kovox-1997">
     <date day-of-week="sun" holiday="false">1997-04-06</date>
@@ -32,7 +32,7 @@
 	<special-prize>総合2位</special-prize>
       </choir>
       <choir>
-	<choir-name>県立北須磨高校合唱部 女声<cr:romanII/></choir-name>
+	<choir-name>県立北須磨高校合唱部 女声<cr:utf8-char nickname="romanII">II</cr:utf8-char></choir-name>
 	<prize nickname="gold">金賞</prize>
       </choir>
       <choir>
@@ -40,7 +40,7 @@
 	<prize nickname="gold">金賞</prize>
       </choir>
       <choir>
-	<choir-name>県立北須磨高校合唱部 女声<cr:romanI/></choir-name>
+	<choir-name>県立北須磨高校合唱部 女声<cr:utf8-char nickname="romanI">I</cr:utf8-char></choir-name>
 	<prize nickname="gold">金賞</prize>
       </choir>
       <choir>

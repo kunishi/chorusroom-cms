@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: hokkaido.xml,v 1.9 2001/01/31 10:39:06 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: hokkaido.xml,v 1.10 2001/02/04 02:04:41 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第51回北海道合唱コンクール(第53回全日本合唱コンクール北海道支部大会)</competition-name>
   <result output="hokkaido-2000-09-24">
     <date day-of-week="sun" holiday="false">2000-09-24</date>
@@ -258,7 +258,7 @@
 		<p:mainTitle>まぼろしの薔薇</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ばらのあしあと</p:mainTitle>
@@ -381,7 +381,7 @@
 		<p:mainTitle>島よ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -533,7 +533,7 @@
 		<p:mainTitle>TRE LATINSKA HYMNER</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Veni Sancte Spiritus</p:mainTitle>
@@ -596,7 +596,7 @@
 		<p:mainTitle>地球へのバラード</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>私が歌う理由</p:mainTitle>
@@ -604,7 +604,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>沈黙の名</p:mainTitle>
@@ -1104,7 +1104,7 @@
 		<p:mainTitle>クリスマスのための４つのモテット</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>O Magnum Mysterium</p:mainTitle>
@@ -1115,7 +1115,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Quem Vidistis Pastores Dicite</p:mainTitle>
@@ -1126,7 +1126,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Hodie Christus Natus Est</p:mainTitle>
@@ -1263,7 +1263,7 @@
 		<p:mainTitle>En Bonnes Voix</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Le passant de Passy</p:mainTitle>
@@ -1271,7 +1271,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La mort du rossignol</p:mainTitle>
@@ -1279,7 +1279,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La mode comode</p:mainTitle>

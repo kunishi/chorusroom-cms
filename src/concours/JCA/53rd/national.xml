@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: national.xml,v 1.6 2001/01/31 06:58:01 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: national.xml,v 1.7 2001/02/04 02:04:43 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第53回全日本合唱コンクール全国大会</competition-name>
   <result output="national-2000-11-25">
     <date day-of-week="sat" holiday="false">2000-11-25</date>
@@ -79,7 +79,7 @@
 		<p:mainTitle>やさしい声</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Le passant de Passy</p:mainTitle>
@@ -90,7 +90,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La mort du rossignol</p:mainTitle>
@@ -101,7 +101,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La mode commode</p:mainTitle>
@@ -194,7 +194,7 @@
 		<p:mainTitle>愛のプロローグ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ひとりぼっちの裸の子ども</p:mainTitle>
@@ -303,7 +303,7 @@
 		<p:mainTitle>Requiem</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Sanctus</p:mainTitle>
@@ -745,7 +745,7 @@
 		<p:titleSuffix>〜「みなまた海のこえ」〜</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ゆうきすいぎん (有機水銀)</p:mainTitle>
@@ -774,7 +774,7 @@
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour le temps de no<cr:euml/>l</p:mainTitle>
+		<p:mainTitle>Quatre motets pour le temps de no<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>クリスマスのための4つのモテット</p:mainTitle>
@@ -969,7 +969,7 @@
 		<p:mainTitle>3つのラテン語による賛歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Veni Sancte Spritus</p:mainTitle>
@@ -1115,7 +1115,7 @@
 	      <p:words-by>Viivi Luige</p:words-by>
 	      <p:composed-by>Veljo Tormis</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>S<cr:uuml/>gismaastikud</p:mainTitle>
+		<p:mainTitle>S<cr:utf8-char nickname="uuml">u</cr:utf8-char>gismaastikud</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>秋の風景</p:mainTitle>
@@ -1135,7 +1135,7 @@
 		<p:piece-number>2</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle><cr:Uuml/>le taeva jooksevad pilved</p:mainTitle>
+		    <p:mainTitle><cr:utf8-char nickname="Uuml">U</cr:utf8-char>le taeva jooksevad pilved</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>空を走る雲</p:mainTitle>
@@ -1146,7 +1146,7 @@
 		<p:piece-number>5</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Tuul k<cr:otilde/>nnumaa kohal</p:mainTitle>
+		    <p:mainTitle>Tuul k<cr:utf8-char nickname="otilde">o</cr:utf8-char>nnumaa kohal</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>荒野の風</p:mainTitle>
@@ -1157,7 +1157,7 @@
 		<p:piece-number>6</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>K<cr:uuml/>lm s<cr:uuml/>gis<cr:ouml/> <cr:ouml/></p:mainTitle>
+		    <p:mainTitle>K<cr:utf8-char nickname="uuml">u</cr:utf8-char>lm s<cr:utf8-char nickname="uuml">u</cr:utf8-char>gis<cr:utf8-char nickname="ouml">o</cr:utf8-char> <cr:utf8-char nickname="ouml">o</cr:utf8-char></p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>冷たい秋の夜</p:mainTitle>
@@ -1271,7 +1271,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Arnold Sch<cr:ouml/>nberg</p:composed-by>
+	      <p:composed-by>Arnold Sch<cr:utf8-char nickname="ouml">o</cr:utf8-char>nberg</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Four Pieces</p:mainTitle>
 	      </p:title>
@@ -1295,7 +1295,7 @@
 	    <p:piece>
 	      <p:composed-by>Sergei Rachmaninov</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle><cr:Kcy/><cr:Ocy/><cr:Ncy/><cr:TScy/><cr:IEcy/><cr:Rcy/><cr:Tcy/> <cr:Dcy/><cr:Lcy/><cr:YAcy/> <cr:KHcy/><cr:Ocy/><cr:Rcy/><cr:Acy/></p:mainTitle>
+		<p:mainTitle><cr:utf8-char nickname="Kcy">К</cr:utf8-char><cr:utf8-char nickname="Ocy">О</cr:utf8-char><cr:utf8-char nickname="Ncy">Н</cr:utf8-char><cr:utf8-char nickname="TScy">Ц</cr:utf8-char><cr:utf8-char nickname="IEcy">Е</cr:utf8-char><cr:utf8-char nickname="Rcy">Р</cr:utf8-char><cr:utf8-char nickname="Tcy">Т</cr:utf8-char> <cr:utf8-char nickname="Dcy">Д</cr:utf8-char><cr:utf8-char nickname="Lcy">Л</cr:utf8-char><cr:utf8-char nickname="YAcy">Я</cr:utf8-char> <cr:utf8-char nickname="KHcy">Х</cr:utf8-char><cr:utf8-char nickname="Ocy">О</cr:utf8-char><cr:utf8-char nickname="Rcy">Р</cr:utf8-char><cr:utf8-char nickname="Acy">А</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>たゆまず祈る聖母</p:mainTitle>
@@ -1447,7 +1447,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Sven-David Sandstr<cr:ouml/>m</p:composed-by>
+	      <p:composed-by>Sven-David Sandstr<cr:utf8-char nickname="ouml">o</cr:utf8-char>m</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>EN NY HIMMEL OCH EN NY JORD</p:mainTitle>
 	      </p:title>
@@ -1474,7 +1474,7 @@
 	      <p:words-by>Josef Weinheber</p:words-by>
 	      <p:composed-by>Paul Hindemith</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Zw<cr:ouml/>lf Madrigale</p:mainTitle>
+		<p:mainTitle>Zw<cr:utf8-char nickname="ouml">o</cr:utf8-char>lf Madrigale</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>12のマドリガーレ</p:mainTitle>
@@ -1505,7 +1505,7 @@
 		<p:piece-number>6.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Fr<cr:uuml/>hling</p:mainTitle>
+		    <p:mainTitle>Fr<cr:utf8-char nickname="uuml">u</cr:utf8-char>hling</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>春</p:mainTitle>
@@ -1650,7 +1650,7 @@
 		<p:mainTitle>三つの優しき歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>落葉林で</p:mainTitle>
@@ -1719,7 +1719,7 @@
 		<p:mainTitle>わがふるき日のうた</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>甃のうへ</p:mainTitle>
@@ -1727,7 +1727,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>鐘鳴りぬ</p:mainTitle>
@@ -1829,7 +1829,7 @@
 		<p:titleSuffix>〜カクレキリシタン3つの歌〜</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>&lt;第2楽章&gt;</p:mainTitle>
@@ -1980,13 +1980,13 @@
 	    <p:suite>
 	      <p:composed-by>Alfred Schnittke</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>12 <cr:Scy/><cr:Tcy/><cr:Icy/><cr:KHcy/><cr:Icy/>  <cr:Pcy/><cr:Ocy/><cr:Kcy/><cr:Acy/><cr:YAcy/><cr:Ncy/><cr:Ncy/><cr:Ycy/><cr:IEcy/></p:mainTitle>
+		<p:mainTitle>12 <cr:utf8-char nickname="Scy">С</cr:utf8-char><cr:utf8-char nickname="Tcy">Т</cr:utf8-char><cr:utf8-char nickname="Icy">И</cr:utf8-char><cr:utf8-char nickname="KHcy">Х</cr:utf8-char><cr:utf8-char nickname="Icy">И</cr:utf8-char> <cr:utf8-char nickname="Pcy">П</cr:utf8-char><cr:utf8-char nickname="Ocy">О</cr:utf8-char><cr:utf8-char nickname="Kcy">К</cr:utf8-char><cr:utf8-char nickname="Acy">А</cr:utf8-char><cr:utf8-char nickname="YAcy">Я</cr:utf8-char><cr:utf8-char nickname="Ncy">Н</cr:utf8-char><cr:utf8-char nickname="Ncy">Н</cr:utf8-char><cr:utf8-char nickname="Ycy">Ы</cr:utf8-char><cr:utf8-char nickname="IEcy">Е</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>回心の詩編</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>我が魂よ</p:mainTitle>
@@ -1994,7 +1994,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>呪われた貧しき者よ</p:mainTitle>
@@ -2002,7 +2002,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>突然現れた舟を見て</p:mainTitle>
@@ -2077,7 +2077,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Tom<cr:aacute/>s Luis de Victoria</p:composed-by>
+	      <p:composed-by>Tom<cr:utf8-char nickname="aacute">a</cr:utf8-char>s Luis de Victoria</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Missa Ave maris stella</p:mainTitle>
 	      </p:title>

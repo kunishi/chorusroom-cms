@@ -1,7 +1,33 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.64 2000/10/10 15:40:45 kunishi Exp $
+# $Id: GNUmakefile,v 1.65 2001/02/04 02:04:36 kunishi Exp $
+
+USE_NEW_SCHEME=	yes
+
+INSTFILES+=	index.html
+
+INSTFILES_TRADITIONAL+=	aichi.html
+INSTFILES_TRADITIONAL+=	chiba.html
+INSTFILES_TRADITIONAL+=	${CHUBU_HTML}
+INSTFILES_TRADITIONAL+=	chugoku.html
+INSTFILES_TRADITIONAL+=	fukuoka.html
+INSTFILES_TRADITIONAL+=	fukushima.html
+INSTFILES_TRADITIONAL+=	${HOKKAIDO_HTML}
+INSTFILES_TRADITIONAL+=	hyogo.html
+INSTFILES_TRADITIONAL+=	kagoshima.html
+INSTFILES_TRADITIONAL+=	kanagawa.html
+INSTFILES_TRADITIONAL+=	${KANSAI_HTML}
+INSTFILES_TRADITIONAL+=	kanto.html
+INSTFILES_TRADITIONAL+=	kyushu.html
+INSTFILES_TRADITIONAL+=	mie.html
+INSTFILES_TRADITIONAL+=	miyagi.html
+INSTFILES_TRADITIONAL+=	nagano.html
+INSTFILES_TRADITIONAL+=	shimane-junior.html shimane-senior.html
+INSTFILES_TRADITIONAL+=	shizuoka.html
+INSTFILES_TRADITIONAL+=	tohoku.html
+INSTFILES_TRADITIONAL+=	yamagata.html
+INSTFILES_TRADITIONAL+=	${NATIONAL_HTML}
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -16,48 +42,27 @@ REDIRECT_HTML=	${NATIONAL_HTML} \
 		${HOKKAIDO_HTML} \
 		${KANSAI_HTML}
 
-INSTFILES_HTML+=	aichi.html
-INSTFILES_HTML+=	chiba.html
-INSTFILES_HTML+=	${CHUBU_HTML}
-INSTFILES_HTML+=	chugoku.html
-INSTFILES_HTML+=	fukuoka.html
-INSTFILES_HTML+=	fukushima.html
-INSTFILES_HTML+=	${HOKKAIDO_HTML}
-INSTFILES_HTML+=	hyogo.html
-INSTFILES_HTML+=	kagoshima.html
-INSTFILES_HTML+=	kanagawa.html
-INSTFILES_HTML+=	${KANSAI_HTML}
-INSTFILES_HTML+=	kanto.html
-INSTFILES_HTML+=	kyushu.html
-INSTFILES_HTML+=	mie.html
-INSTFILES_HTML+=	miyagi.html
-INSTFILES_HTML+=	nagano.html
-INSTFILES_HTML+=	shimane-junior.html shimane-senior.html
-INSTFILES_HTML+=	shizuoka.html
-INSTFILES_HTML+=	tohoku.html
-INSTFILES_HTML+=	yamagata.html
-INSTFILES_HTML+=	${NATIONAL_HTML}
+INSTFILES_TRADITIONAL_SAITEN+=	chubu-09-25-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	chubu-09-26-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	kansai-09-23-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	kansai-10-17-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	hokkaido-1999-10-10-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	kanto-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	nagano-saiten.html
+INSTFILES_TRADITIONAL+=	${INSTFILES_TRADITIONAL_SAITEN}
 
-INSTFILES_HTML_SAITEN+=	chubu-09-25-saiten.html
-INSTFILES_HTML_SAITEN+=	chubu-09-26-saiten.html
-INSTFILES_HTML_SAITEN+=	kansai-09-23-saiten.html
-INSTFILES_HTML_SAITEN+=	kansai-10-17-saiten.html
-INSTFILES_HTML_SAITEN+=	hokkaido-1999-10-10-saiten.html
-INSTFILES_HTML_SAITEN+=	kanto-saiten.html
-INSTFILES_HTML_SAITEN+=	nagano-saiten.html
+INSTFILES_UTF8=	${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
-INSTFILES+=	${INSTFILES_HTML} \
-		${INSTFILES_HTML:%.html=%.utfhtml} \
-		${INSTFILES_HTML_SAITEN} \
-		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
+INSTFILES+=	${INSTFILES_TRADITIONAL} \
+		${INSTFILES_UTF8}
 
-RESULT_XSL=		${XSLDIR}/jca-result-1999-eucjp-xalan.xsl
-RESULT_XSL_UTF8=	${XSLDIR}/jca-result-1999-utf8-xalan.xsl
-RESULT_XSL_COMMON=	${XSLDIR}/jca-result-1999-common.xsl
-DEFAULT_XSL=		${RESULT_XSL}
-DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
+${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.traditional.xsl
+${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
+${INSTFILES_TRADITIONAL}: XSLT_OUT=-out /dev/null
 
-CSSFILE=	jca-concour.css
+${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
+${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
+${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
@@ -66,23 +71,7 @@ include ${SRCTOPDIR}/rule.mk
 .INTERMEDIATE:	${REDIRECT_HTML:%.html=%.xml}
 .INTERMEDIATE:	${REDIRECT_HTML:%.html=%.utfxml}
 
-%-saiten.html: %.html
-	$(fixhtml)
-
-%-saiten.utfhtml: TIDY_ENCODING=-utf8
-%-saiten.utfhtml: %.utfhtml
-	$(fixhtml)
-
 ###
-
-index.html:	DEFAULT_XSL=${XHTML10_XSL}
-index.html:	CSSFILE=${DEFAULT_CSS}
-
-index.utfhtml:	DEFAULT_XSL=${XHTML10_XSL_UTF8}
-index.utfhtml:	CSSFILE=${DEFAULT_CSS}
-
-${REDIRECT_HTML}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
-${REDIRECT_HTML:%.html=%.utfhtml}: XSLT_OUT=-param "output-base" "'$(basename $@)'"
 
 ${CHUBU_HTML:%.html=%.xml}:	chubu.xml
 	${LN_S} $< $@

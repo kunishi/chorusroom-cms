@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: tohoku.xml,v 1.6 2001/01/31 06:58:22 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: tohoku.xml,v 1.7 2001/02/04 02:04:44 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第53回全日本合唱コンクール東北支部大会</competition-name>
   <result output="tohoku-2000-09-29">
     <date day-of-week="fri" holiday="false">2000-09-29</date>
@@ -38,7 +38,7 @@
 		<p:mainTitle>女に 第二集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>未来−墓</p:mainTitle>
@@ -71,7 +71,7 @@
 		<p:mainTitle>小さな声</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La petite fille sage</p:mainTitle>
@@ -82,7 +82,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Le chien perdu</p:mainTitle>
@@ -93,10 +93,10 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>En rentrant de l'<cr:eacute/>cole</p:mainTitle>
+		    <p:mainTitle>En rentrant de l'<cr:utf8-char nickname="eacute">e</cr:utf8-char>cole</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>学校の帰り道</p:mainTitle>
@@ -104,10 +104,10 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Le petit gar<cr:ccedil/>on malede</p:mainTitle>
+		    <p:mainTitle>Le petit gar<cr:utf8-char nickname="ccedil">c</cr:utf8-char>on malede</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>病気の男の子</p:mainTitle>
@@ -115,10 +115,10 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Le h<cr:eacute/>risson</p:mainTitle>
+		    <p:mainTitle>Le h<cr:utf8-char nickname="eacute">e</cr:utf8-char>risson</p:mainTitle>
 		  </p:title>
 		  <p:title original="false">
 		    <p:mainTitle>はりねずみ</p:mainTitle>
@@ -150,7 +150,7 @@
 		<p:mainTitle>元気な声で</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>La tuor d'amour</p:mainTitle>
@@ -178,7 +178,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Orb<cr:aacute/>n Gy<cr:ouml/>rgy</p:composed-by>
+	      <p:composed-by>Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>ミサ曲第9番</p:mainTitle>
 	      </p:title>
@@ -246,7 +246,7 @@
 		<p:mainTitle>女に 第一集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanVI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanVI">VI</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>血・腕</p:mainTitle>
@@ -306,7 +306,7 @@
 		<p:titleSuffix>〜カクレキリシタン３つの歌〜</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -418,7 +418,7 @@
 		<p:mainTitle>のら犬ドジ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ないてる</p:mainTitle>
@@ -526,7 +526,7 @@
 		<p:titleSuffix>〜村山槐多の詩による〜</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number>[<cr:romanI/>]</p:piece-number>
+		<p:piece-number>[<cr:utf8-char nickname="romanI">I</cr:utf8-char>]</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>君に</p:mainTitle>
@@ -578,10 +578,10 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>S<cr:aacute/>ndor Sik</p:words-by>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:words-by>S<cr:utf8-char nickname="aacute">a</cr:utf8-char>ndor Sik</p:words-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>V<cr:Iacute/>ZKERESZT</p:mainTitle>
+		<p:mainTitle>V<cr:utf8-char nickname="Iacute">I</cr:utf8-char>ZKERESZT</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -600,10 +600,10 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>S<cr:aacute/>ndor We<cr:ouml/>res</p:words-by>
-	      <p:composed-by>Gy<cr:ouml/>rgy Ligeti</p:composed-by>
+	      <p:words-by>S<cr:utf8-char nickname="aacute">a</cr:utf8-char>ndor We<cr:utf8-char nickname="ouml">o</cr:utf8-char>res</p:words-by>
+	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Ligeti</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Ma<cr:gacute/>any</p:mainTitle>
+		<p:mainTitle>Ma<cr:utf8-char nickname="gacute">g</cr:utf8-char>any</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>孤独</p:mainTitle>
@@ -612,10 +612,10 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>K<cr:oacute/>roly Vargha</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>K<cr:utf8-char nickname="oacute">o</cr:utf8-char>roly Vargha</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>R<cr:eacute/>gi t<cr:aacute/>ncdal</p:mainTitle>
+		<p:mainTitle>R<cr:utf8-char nickname="eacute">e</cr:utf8-char>gi t<cr:utf8-char nickname="aacute">a</cr:utf8-char>ncdal</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>昔の踊りのうた</p:mainTitle>
@@ -683,25 +683,25 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Bart<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
+	      <p:composed-by>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>LE<cr:Aacute/>NYKER<cr:Ouml/></p:mainTitle>
+		<p:mainTitle>LE<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NYKER<cr:utf8-char nickname="Ouml">O</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Bart<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
+	      <p:composed-by>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>ELMENT A MAD<cr:Aacute/>RKA</p:mainTitle>
+		<p:mainTitle>ELMENT A MAD<cr:utf8-char nickname="Aacute">A</cr:utf8-char>RKA</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Bart<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
+	      <p:composed-by>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>MIH<cr:Aacute/>LYNAPI K<cr:Ouml/>SZ<cr:Ouml/>NT<cr:Ouml/></p:mainTitle>
+		<p:mainTitle>MIH<cr:utf8-char nickname="Aacute">A</cr:utf8-char>LYNAPI K<cr:utf8-char nickname="Ouml">O</cr:utf8-char>SZ<cr:utf8-char nickname="Ouml">O</cr:utf8-char>NT<cr:utf8-char nickname="Ouml">O</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -756,7 +756,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Kocs<cr:aacute/>r Mikl<cr:oacute/>s</p:composed-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Missa in A</p:mainTitle>
 	      </p:title>
@@ -849,12 +849,12 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Bart<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
+	      <p:composed-by>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>ELM<cr:Uacute/>LT ID<cr:Ouml/>KB<cr:Ouml/>L</p:mainTitle>
+		<p:mainTitle>ELM<cr:utf8-char nickname="Uacute">U</cr:utf8-char>LT ID<cr:utf8-char nickname="Ouml">O</cr:utf8-char>KB<cr:utf8-char nickname="Ouml">O</cr:utf8-char>L</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -882,7 +882,7 @@
 		<p:mainTitle>星翠譜</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>南天の蜴よもしなれ…</p:mainTitle>
@@ -890,7 +890,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>双子座のあわきひかりは…</p:mainTitle>
@@ -917,15 +917,15 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Gy<cr:ouml/>rgy Ligeti</p:composed-by>
+	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Ligeti</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Hej, ifjus<cr:aacute/>g!</p:mainTitle>
+		<p:mainTitle>Hej, ifjus<cr:utf8-char nickname="aacute">a</cr:utf8-char>g!</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Bart<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
+	      <p:composed-by>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la</p:composed-by>
 	      <p:title original="true" xml:lang="en">
 		<p:mainTitle>Four Hungarian Folksong</p:mainTitle>
 	      </p:title>
@@ -1033,10 +1033,10 @@
 		<p:mainTitle>LAUDATE DOMINUM</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -1237,13 +1237,12 @@
 	    <p:suite>
 	      <p:words-by>Mika Waltari</p:words-by>
 	      <p:composed-by>Jukka Kankainen</p:composed-by>
-	      
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>ミッカ・ワルタリの詩による組曲</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Haukkani</p:mainTitle>
@@ -1254,7 +1253,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Ilta</p:mainTitle>
@@ -1265,7 +1264,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Ekstaasi</p:mainTitle>
@@ -1361,7 +1360,7 @@
 	      <p:words-by>W. ニコル</p:words-by>
 	      <p:composed-by>間宮芳生</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>AT<cr:eacute/> NETSIK</p:mainTitle>
+		<p:mainTitle>AT<cr:utf8-char nickname="Eacute">E</cr:utf8-char> NETSIK</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -1383,10 +1382,10 @@
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>	      
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour le temps de no<cr:euml/>l</p:mainTitle>
+		<p:mainTitle>Quatre motets pour le temps de no<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>O MAGNUM MYSTERIUM</p:mainTitle>
@@ -1394,7 +1393,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>HODIE CHRISTUS NATUS EST</p:mainTitle>
@@ -1559,7 +1558,7 @@
 		<p:mainTitle>Medicanina Sempiterna</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>De facie fermosa</p:mainTitle>
@@ -1570,9 +1569,9 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>B<cr:Eacute/>RC A R<cr:Ouml/>N<cr:Aacute/>N</p:mainTitle>
+		<p:mainTitle>B<cr:utf8-char nickname="Eacute">E</cr:utf8-char>RC A R<cr:utf8-char nickname="Ouml">O</cr:utf8-char>N<cr:utf8-char nickname="Aacute">A</cr:utf8-char>N</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>平原の岩山</p:mainTitle>
@@ -1643,14 +1642,14 @@
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Bart<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
+	      <p:composed-by>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>27の合唱曲</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>B<cr:Aacute/>NAT</p:mainTitle>
+		    <p:mainTitle>B<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NAT</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1684,9 +1683,7 @@
 		<p:piece>
 		  <p:words-by>中野重治</p:words-by>
 		  <p:title original="true">
-		    <p:mainTitle>
-		      <cr:romanI/>
-		    </p:mainTitle>
+		    <p:mainTitle><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1694,9 +1691,7 @@
 		<p:piece>
 		  <p:words-by>原民喜</p:words-by>
 		  <p:title original="true">
-		    <p:mainTitle>
-		      <cr:romanII/>
-		    </p:mainTitle>
+		    <p:mainTitle><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>	      
@@ -1714,8 +1709,8 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Markus Mikl<cr:oacute/>s</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Markus Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Cantemus!</p:mainTitle>
 	      </p:title>
@@ -1726,10 +1721,10 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Markus Mikl<cr:oacute/>s</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Markus Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Szell<cr:ouml/> z<cr:uuml/>g</p:mainTitle>
+		<p:mainTitle>Szell<cr:utf8-char nickname="ouml">o</cr:utf8-char> z<cr:utf8-char nickname="uuml">u</cr:utf8-char>g</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>風がうたう</p:mainTitle>
@@ -1738,10 +1733,10 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Markus Mikl<cr:oacute/>s</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Markus Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Husz<cr:aacute/>rt<cr:aacute/>nc</p:mainTitle>
+		<p:mainTitle>Husz<cr:utf8-char nickname="aacute">a</cr:utf8-char>rt<cr:utf8-char nickname="aacute">a</cr:utf8-char>nc</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>軽騎兵の踊り</p:mainTitle>
@@ -1767,7 +1762,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Procession</p:mainTitle>
@@ -1776,7 +1771,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Wolcum Yole!</p:mainTitle>
@@ -1785,7 +1780,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Three is no Rose</p:mainTitle>
@@ -1794,7 +1789,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanVI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanVI">VI</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>This little Babe</p:mainTitle>
@@ -1941,8 +1936,8 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Markus Mikl<cr:oacute/>s</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Markus Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Cantemus!</p:mainTitle>
 	      </p:title>
@@ -1953,10 +1948,10 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Markus Mikl<cr:oacute/>s</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Markus Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Szell<cr:ouml/> z<cr:uuml/>g</p:mainTitle>
+		<p:mainTitle>Szell<cr:utf8-char nickname="ouml">o</cr:utf8-char> z<cr:utf8-char nickname="uuml">u</cr:utf8-char>g</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>風がうたう</p:mainTitle>
@@ -1965,10 +1960,10 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Markus Mikl<cr:oacute/>s</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Markus Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Husz<cr:aacute/>rt<cr:aacute/>nc</p:mainTitle>
+		<p:mainTitle>Husz<cr:utf8-char nickname="aacute">a</cr:utf8-char>rt<cr:utf8-char nickname="aacute">a</cr:utf8-char>nc</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>軽騎兵の踊り</p:mainTitle>
@@ -1987,17 +1982,17 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Vargha K<cr:aacute/>roly</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Vargha K<cr:utf8-char nickname="aacute">a</cr:utf8-char>roly</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>NAPF<cr:Eacute/>NYES UTAKON</p:mainTitle>
+		<p:mainTitle>NAPF<cr:utf8-char nickname="Eacute">E</cr:utf8-char>NYES UTAKON</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>Vargha K<cr:aacute/>roly</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:words-by>Vargha K<cr:utf8-char nickname="aacute">a</cr:utf8-char>roly</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>HEJ, IGAZITSAD!</p:mainTitle>
 	      </p:title>
@@ -2005,7 +2000,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kocs<cr:aacute/>r Mikl<cr:oacute/>s</p:composed-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Salve Regina</p:mainTitle>
 	      </p:title>
@@ -2102,9 +2097,9 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>J<cr:oacute/>zsef Karai</p:composed-by>
+	      <p:composed-by>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef Karai</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Esteli n<cr:oacute/>t<cr:aacute/>z<cr:aacute/>s</p:mainTitle>
+		<p:mainTitle>Esteli n<cr:utf8-char nickname="oacute">o</cr:utf8-char>t<cr:utf8-char nickname="aacute">a</cr:utf8-char>z<cr:utf8-char nickname="aacute">a</cr:utf8-char>s</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>夕暮れの歌声</p:mainTitle>
@@ -2123,7 +2118,7 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kocs<cr:aacute/>r Mikl<cr:oacute/>s</p:composed-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Salve Regina</p:mainTitle>
 	      </p:title>
@@ -2131,7 +2126,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Gy<cr:ouml/>rgy Orb<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Lauda Sion</p:mainTitle>
 	      </p:title>
@@ -2149,9 +2144,9 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>P<cr:Uuml/>NK<cr:Ouml/>SD<cr:Ouml/>L<cr:Ouml/>
+		<p:mainTitle>P<cr:utf8-char nickname="Uuml">U</cr:utf8-char>NK<cr:utf8-char nickname="Ouml">O</cr:utf8-char>SD<cr:utf8-char nickname="Ouml">O</cr:utf8-char>L<cr:utf8-char nickname="Ouml">O</cr:utf8-char>
 		</p:mainTitle>
 	      </p:title>
 	    </p:piece>
@@ -2168,8 +2163,8 @@
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>L<cr:aacute/>szlo Nagy</p:words-by>
-	      <p:composed-by>Kocs<cr:aacute/>r Micl<cr:oacute/>s</p:composed-by>
+	      <p:words-by>L<cr:utf8-char nickname="aacute">a</cr:utf8-char>szlo Nagy</p:words-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Micl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>三つの女声合唱曲</p:mainTitle>
 	      </p:title>
@@ -2268,15 +2263,15 @@
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>山の夜 <cr:romanI/></p:mainTitle>
+		<p:mainTitle>山の夜 <cr:utf8-char nickname="romanI">I</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>
@@ -2338,15 +2333,15 @@
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>峯陽</p:words-by>
-	      <p:composed-by>B<cr:aacute/>rdos Lajos</p:composed-by>
+	      <p:composed-by>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>ヘンルーダの花が咲いたら</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2484,10 +2479,10 @@
 		<p:mainTitle>LAUDI</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -2584,7 +2579,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>また落葉林で</p:mainTitle>
@@ -2615,12 +2610,12 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Heinrich Sch<cr:uuml/>tz</p:composed-by>
+	      <p:composed-by>Heinrich Sch<cr:utf8-char nickname="uuml">u</cr:utf8-char>tz</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>CANTIONES SACRAE</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanX/><cr:romanX/><cr:romanIV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanX">X</cr:utf8-char><cr:utf8-char nickname="romanX">X</cr:utf8-char><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Supereminet omnen scientiam</p:mainTitle>
@@ -2861,7 +2856,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>花をさがす少女</p:mainTitle>
@@ -2883,15 +2878,15 @@
 	  <free-program>
 	    <p:piece>
 	      <p:words-by>Horatius</p:words-by>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>HORATII CARMEN <cr:romanII/>. 10</p:mainTitle>
+		<p:mainTitle>HORATII CARMEN <cr:utf8-char nickname="romanII">II</cr:utf8-char>. 10</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>ESTI DAL</p:mainTitle>
 	      </p:title>
@@ -2918,7 +2913,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>OH MY SOLDIER</p:mainTitle>
@@ -2927,7 +2922,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIV/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ほうけた母の子守歌</p:mainTitle>
@@ -3030,7 +3025,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ふるさとに抱かれて</p:mainTitle>
@@ -3224,7 +3219,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ふるさとに抱かれて</p:mainTitle>
@@ -3399,7 +3394,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Vajda J<cr:aacute/>nos</p:composed-by>
+	      <p:composed-by>Vajda J<cr:utf8-char nickname="aacute">a</cr:utf8-char>nos</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Missa Brevis</p:mainTitle>
 	      </p:title>
@@ -3515,11 +3510,11 @@
 	      <p:composed-by>加藤學</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>女声合唱のための</p:titlePrefix>
-		<p:mainTitle>三つのソネット &lt;<cr:romanI/>&gt;</p:mainTitle>
+		<p:mainTitle>三つのソネット &lt;<cr:utf8-char nickname="romanI">I</cr:utf8-char>&gt;</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>序の歌</p:mainTitle>
@@ -3528,7 +3523,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>朝に</p:mainTitle>
@@ -3624,7 +3619,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>
 		</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
@@ -3634,7 +3629,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIV/>
+		  <cr:utf8-char nickname="romanIV">IV</cr:utf8-char>
 		</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
@@ -3705,7 +3700,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIV/>
+		  <cr:utf8-char nickname="romanIV">IV</cr:utf8-char>
 		</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
@@ -3715,7 +3710,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanV/>
+		  <cr:utf8-char nickname="romanV">V</cr:utf8-char>
 		</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
@@ -3725,7 +3720,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanVI/>
+		  <cr:utf8-char nickname="romanVI">VI</cr:utf8-char>
 		</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
@@ -3787,7 +3782,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>変化</p:mainTitle>
@@ -3818,10 +3813,10 @@
 		<p:titleSuffix>〜カクレキリシタン３つの歌〜</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -4025,11 +4020,11 @@
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour le temps de no<cr:euml/>l</p:mainTitle>
+		<p:mainTitle>Quatre motets pour le temps de no<cr:utf8-char nickname="euml">e</cr:utf8-char>l</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanI/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>O MAGNUM MYSTERIUM</p:mainTitle>
@@ -4041,7 +4036,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>QUEM VIDISTIS OASTIRES DICITE</p:mainTitle>
@@ -4053,7 +4048,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIV/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>HODIE CHRISTUS NATUS EST</p:mainTitle>
@@ -4174,7 +4169,7 @@
 	    <p:piece>
 	      <p:composed-by>Claudio Monteverdi</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Che dar pi<cr:uuml/> vi poss'io</p:mainTitle>
+		<p:mainTitle>Che dar pi<cr:utf8-char nickname="uuml">u</cr:utf8-char> vi poss'io</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -4231,7 +4226,7 @@
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanII/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>森の永遠性への讃歌</p:mainTitle>
@@ -4240,7 +4235,7 @@
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece-number>
-		  <cr:romanIV/>.</p:piece-number>
+		  <cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>無邪気な楽しみのための讃歌</p:mainTitle>
@@ -4286,7 +4281,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Arvo p<cr:auml/>rt</p:composed-by>
+	      <p:composed-by>Arvo p<cr:utf8-char nickname="auml">a</cr:utf8-char>rt</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>magnificat</p:mainTitle>
 	      </p:title>
@@ -4299,7 +4294,7 @@
 	<prefecture>福島</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>22</number-of-members>
-	<conductor>桐原<cr:utf8-char/>純</conductor>
+	<conductor>桐原<cr:utf8-char>[「代」の下に「巾」]</cr:utf8-char>純</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
@@ -4384,7 +4379,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Kocs<cr:aacute/>r Mikl<cr:oacute/>s</p:composed-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Missa in A</p:mainTitle>
 	      </p:title>
@@ -4423,7 +4418,7 @@
 	    <p:piece>
 	      <p:composed-by>Claudio Monteverdi</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Se per haverne oim<cr:eacute/> donato</p:mainTitle>
+		<p:mainTitle>Se per haverne oim<cr:utf8-char nickname="eacute">e</cr:utf8-char> donato</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>

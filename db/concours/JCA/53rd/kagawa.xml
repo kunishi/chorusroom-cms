@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: kagawa.xml,v 1.6 2001/01/29 12:06:07 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kagawa.xml,v 1.7 2001/02/04 02:04:42 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">第 53 回全日本合唱コンクール香川県大会 (第 40 回香川県合唱コンクール)</competition-name>
   <result output="kagawa">
     <date day-of-week="sun" holiday="false">2000-07-30</date>
@@ -419,7 +419,7 @@
 		<p:mainTitle>ひみつ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ひみつ</p:mainTitle>
@@ -443,7 +443,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kocs<cr:aacute/>r Mik<cr:oacute/>s</p:composed-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mik<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>O vos omnes</p:mainTitle>
 	      </p:title>
@@ -451,7 +451,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Kocs<cr:aacute/>r Mik<cr:oacute/>s</p:composed-by>
+	      <p:composed-by>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mik<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Assmpta est Maria</p:mainTitle>
 	      </p:title>
@@ -480,7 +480,7 @@
 		<p:mainTitle>レモン哀歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>レモン哀歌</p:mainTitle>

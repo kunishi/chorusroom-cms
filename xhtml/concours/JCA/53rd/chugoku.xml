@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: chugoku.xml,v 1.8 2001/01/31 10:39:01 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: chugoku.xml,v 1.9 2001/02/04 02:04:41 kunishi Exp $</cvs-id>
   <competition-name>第39回中国合唱コンクール</competition-name>
   <result output="chugoku">
     <date day-of-week="sat" holiday="false">2000-09-23</date>
@@ -34,9 +34,9 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>N<cr:Eacute/>GY OLASZ M<cr:Aacute/>DRIGAL</p:mainTitle>
+		<p:mainTitle>N<cr:utf8-char nickname="Eacute">E</cr:utf8-char>GY OLASZ M<cr:utf8-char nickname="Aacute">A</cr:utf8-char>DRIGAL</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>4つのイタリアのマドリガル</p:mainTitle>
@@ -286,10 +286,10 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>We<cr:ouml/>res S<cr:aacute/>ndor</p:words-by>
-	      <p:composed-by>B<cr:Aacute/>RDOS Lajos</p:composed-by>
+	      <p:words-by>We<cr:utf8-char nickname="ouml">o</cr:utf8-char>res S<cr:utf8-char nickname="aacute">a</cr:utf8-char>ndor</p:words-by>
+	      <p:composed-by>B<cr:utf8-char nickname="Aacute">A</cr:utf8-char>RDOS Lajos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>NE F<cr:Eacute/>LJ!</p:mainTitle>
+		<p:mainTitle>NE F<cr:utf8-char nickname="Eacute">E</cr:utf8-char>LJ!</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -420,7 +420,7 @@
 		<p:mainTitle>肖像</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>前兆</p:mainTitle>
@@ -502,7 +502,7 @@
 		<p:mainTitle>ひみつ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>さようなら</p:mainTitle>
@@ -629,10 +629,10 @@
 		<p:mainTitle>オンゴー・オーニ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -668,7 +668,7 @@
 		<p:mainTitle>優しき歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>爽やかな五月に</p:mainTitle>
@@ -760,7 +760,7 @@
 		<p:piece-number>2.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Oj, kiedy na Powi<cr:sacute/>lu</p:mainTitle>
+		    <p:mainTitle>Oj, kiedy na Powi<cr:utf8-char nickname="sacute">s</cr:utf8-char>lu</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -768,7 +768,7 @@
 		<p:piece-number>4.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Polna r<cr:oacute/>ze rwata</p:mainTitle>
+		    <p:mainTitle>Polna r<cr:utf8-char nickname="oacute">o</cr:utf8-char>ze rwata</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -901,7 +901,7 @@
 		<p:mainTitle>花に寄せて</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ねこじゃらし</p:mainTitle>
@@ -909,7 +909,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>しおん</p:mainTitle>
@@ -917,7 +917,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>てっせん・どくだみ</p:mainTitle>
@@ -954,7 +954,7 @@
 	      <p:words-by>Josef Weinheber</p:words-by>
 	      <p:composed-by>Paul Hindemith</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Zw<cr:ouml/>lf Madrigale</p:mainTitle>
+		<p:mainTitle>Zw<cr:utf8-char nickname="ouml">o</cr:utf8-char>lf Madrigale</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
@@ -976,7 +976,7 @@
 		<p:piece-number>6.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Fr<cr:uuml/>hling</p:mainTitle>
+		    <p:mainTitle>Fr<cr:utf8-char nickname="uuml">u</cr:utf8-char>hling</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1250,7 +1250,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Gy<cr:ouml/>rgy Orb<cr:aacute/>n</p:composed-by>
+	      <p:composed-by>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Lauda Sion</p:mainTitle>
 	      </p:title>
@@ -1479,7 +1479,7 @@
 		<p:titleSuffix>〜for Children Chorus〜</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Multiplication</p:mainTitle>
@@ -1490,7 +1490,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Irene</p:mainTitle>
@@ -1501,7 +1501,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
 		    <p:mainTitle>Newspaper</p:mainTitle>
@@ -2023,7 +2023,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Arnold Sch<cr:ouml/>nberg</p:composed-by>
+	      <p:composed-by>Arnold Sch<cr:utf8-char nickname="ouml">o</cr:utf8-char>nberg</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Dreimal tausend Jahre Op.50A</p:mainTitle>
 	      </p:title>
@@ -2034,7 +2034,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Arnold Sch<cr:ouml/>nberg</p:composed-by>
+	      <p:composed-by>Arnold Sch<cr:utf8-char nickname="ouml">o</cr:utf8-char>nberg</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>De Profundis Op.50B</p:mainTitle>
 	      </p:title>
@@ -2070,7 +2070,7 @@
 	      <p:words-by>E. A. Karlfeldt</p:words-by>
 	      <p:composed-by>Sven-Eric Johanson</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Snabbt jagar stormen v<cr:aring/>ra <cr:aring/>r</p:mainTitle>
+		<p:mainTitle>Snabbt jagar stormen v<cr:utf8-char nickname="aring">a</cr:utf8-char>ra <cr:utf8-char nickname="aring">a</cr:utf8-char>r</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>またたく間に嵐が私たちの歳月を追い立てる</p:mainTitle>
@@ -2082,7 +2082,7 @@
 	      <p:words-by>Wilhelm Peterson-Berger</p:words-by>
 	      <p:composed-by>Wilhelm Peterson-Berger</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>V<cr:aring/>rs<cr:aring/>ng</p:mainTitle>
+		<p:mainTitle>V<cr:utf8-char nickname="aring">a</cr:utf8-char>rs<cr:utf8-char nickname="aring">a</cr:utf8-char>ng</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>春の歌</p:mainTitle>
@@ -2257,7 +2257,7 @@
 		<p:mainTitle>五つの唄</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>曼珠沙華</p:mainTitle>
@@ -2265,7 +2265,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>,</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>あひびき</p:mainTitle>
@@ -2273,7 +2273,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>紺屋のおろく</p:mainTitle>
@@ -2411,7 +2411,7 @@
 		<p:mainTitle>富士山</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>作品第壹</p:mainTitle>
@@ -2419,7 +2419,7 @@
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>作品第拾陸</p:mainTitle>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: tokyo.xml,v 1.6 2001/01/24 03:02:27 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: tokyo.xml,v 1.7 2001/02/04 02:04:47 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="false">平成12年度(第67回) NHK全国学校音楽コンクール東京都コンクール</competition-name>
   <result output="tokyo-preliminary-a">
     <date day-of-week="mon" holiday="false">2000-07-31</date>
@@ -1814,7 +1814,7 @@
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>かぞえうた<cr:romanI/></p:mainTitle>
+		    <p:mainTitle>かぞえうた<cr:utf8-char nickname="romanI">I</cr:utf8-char></p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1879,7 +1879,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zoltan Kod<cr:aacute/>ly</p:composed-by>
+	      <p:composed-by>Zoltan Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>こうのとりの歌</p:mainTitle>
 	      </p:title>
@@ -1887,7 +1887,7 @@
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zoltan Kod<cr:aacute/>ly</p:composed-by>
+	      <p:composed-by>Zoltan Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>エジャテム・ペジャテム</p:mainTitle>
 	      </p:title>
@@ -2212,7 +2212,7 @@
 		<p:mainTitle>五つの唄</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>あひびき</p:mainTitle>
@@ -2221,7 +2221,7 @@
 		<!-- one of (p:piece-number p:piece p:suite) -->
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanV/>.</p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanV">V</cr:utf8-char>.</p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>紺屋のおろく</p:mainTitle>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: toyama.xml,v 1.1 2001/01/25 02:36:15 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: toyama.xml,v 1.2 2001/02/04 02:04:47 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール富山県コンクール</competition-name>
   <result output="toyama">
     <date day-of-week="thu" holiday="false">2000-08-10</date>
@@ -28,7 +28,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zoltan Kod<cr:aacute/>ly</p:composed-by>
+	      <p:composed-by>Zoltan Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ave Maria</p:mainTitle>
 	      </p:title>

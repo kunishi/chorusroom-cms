@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE givenPrograms PUBLIC "-//CHORUSROOM//DTD Contest GivenProg 1.0//JA" "http://localhost/DTD/given-programs.dtd">
-<givenPrograms>
+<givenPrograms xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
   <contestName>第52回全日本合唱コンクール</contestName>
   <contestYear>1999</contestYear>
   <givenProgram>
@@ -10,6 +10,9 @@
       <p:title original="true">
 	<p:mainTitle>Alma Redemptoris Mater</p:mainTitle>
       </p:title>
+      <p:title original="false" xml:lang="ja">
+	<p:mainTitle>救い主を育てた母</p:mainTitle>
+      </p:title>
     </p:piece>
   </givenProgram>
   <givenProgram>
@@ -18,6 +21,9 @@
       <p:composed-by>Max Reger</p:composed-by>
       <p:title original="true">
 	<p:mainTitle>Abendlied</p:mainTitle>
+      </p:title>
+      <p:title original="false" xml:lang="ja">
+	<p:mainTitle>夕べの歌</p:mainTitle>
       </p:title>
     </p:piece>
   </givenProgram>
@@ -40,7 +46,7 @@
       <p:title original="true" xml:lang="ja">
 	<p:mainTitle>だるまさんがころんだ</p:mainTitle>
       </p:title>
-      <p:piece-note>公募入選作</p:piece-note>
+      <p:piece-note>平成10年度コンクール課題曲公募入選作</p:piece-note>
     </p:piece>
   </givenProgram>
   <givenProgram>
@@ -50,6 +56,9 @@
       <p:title original="true">
 	<p:mainTitle>O Crux benedicta</p:mainTitle>
       </p:title>
+      <p:title original="false" xml:lang="ja">
+	<p:mainTitle>ああ　祝福された　十字架よ</p:mainTitle>
+      </p:title>
     </p:piece>
   </givenProgram>
   <givenProgram>
@@ -57,7 +66,10 @@
     <p:piece>
       <p:composed-by>Peter Cornelius</p:composed-by>
       <p:title original="true">
-	<p:mainTitle>Es war ein alter Konig</p:mainTitle>
+	<p:mainTitle>Es war ein alter K<cr:utf8-char nickname="ouml">o</cr:utf8-char>nig</p:mainTitle>
+      </p:title>
+      <p:title original="false" xml:lang="ja">
+	<p:mainTitle>むかし年とった王様がおってな</p:mainTitle>
       </p:title>
     </p:piece>
   </givenProgram>
@@ -95,6 +107,9 @@
       <p:title original="true">
 	<p:mainTitle>Ave verum Corpus</p:mainTitle>
       </p:title>
+      <p:title original="false" xml:lang="ja">
+	<p:mainTitle>めでたし、まことの御からだよ</p:mainTitle>
+      </p:title>
     </p:piece>
   </givenProgram>
   <givenProgram>
@@ -108,6 +123,9 @@
 	<p:piece>
 	  <p:title original="true">
 	    <p:mainTitle>Ave Regina coelorum</p:mainTitle>
+	  </p:title>
+	  <p:title original="false" xml:lang="ja">
+	    <p:mainTitle>天の元后、天の女王</p:mainTitle>
 	  </p:title>
 	</p:piece>
       </p:suite-piece>
@@ -138,7 +156,7 @@
       <p:title original="true" xml:lang="ja">
 	<p:mainTitle>Voice of the Air</p:mainTitle>
       </p:title>
-      <p:piece-note>公募入選作</p:piece-note>
+      <p:piece-note>平成10年度コンクール課題曲公募入選作</p:piece-note>
     </p:piece>
   </givenProgram>
 </givenPrograms>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: chiba.xml,v 1.4 2001/01/31 10:38:50 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: chiba.xml,v 1.5 2001/02/04 02:04:41 kunishi Exp $</cvs-id>
   <competition-name>第５５回千葉県合唱コンクール</competition-name>
   <result output="chiba">
     <date day-of-week="sun" holiday="false">2000-08-27</date>
@@ -144,7 +144,7 @@
 		<p:titleSuffix>（カクレキリシタン３つの歌）</p:titleSuffix>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece-number><cr:romanII/></p:piece-number>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>第２楽章</p:mainTitle>
@@ -207,7 +207,7 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>KOCS<cr:Aacute/>R MIKL<cr:Oacute/>S</p:composed-by>
+	      <p:composed-by>KOCS<cr:utf8-char nickname="Aacute">A</cr:utf8-char>R MIKL<cr:utf8-char nickname="Oacute">O</cr:utf8-char>S</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Missa in A</p:mainTitle>
 	      </p:title>

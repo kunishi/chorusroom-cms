@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: contest-result.rxm,v 1.12 2001/02/02 11:46:18 kunishi Exp $ -->
+<!-- $Id: contest-result.rxm,v 1.13 2001/02/04 02:04:35 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -7,9 +7,9 @@
 	xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
+    <export label="competition"/>
     <import label="choirPiece"/>
     <import label="specialCharacters"/>
-    <export label="competition"/>
   </interface>
 
   <tag name="competition">
@@ -159,21 +159,31 @@
     </mixed>
   </elementRule>
 
-  <tag role="choir" name="choir">
+  <attPool role="representativeAttr">
+    <attribute name="representative" required="true" type="NMTOKEN">
+      <enumeration value="false"/>
+      <enumeration value="true"/>
+    </attribute>
+  </attPool>
+  <attPool role="seedAttr">
+    <attribute name="seed" required="true" type="NMTOKEN">
+      <enumeration value="false"/>
+      <enumeration value="true"/>
+    </attribute>
+  </attPool>
+  <tag name="choir">
+    <ref role="representativeAttr"/>
+    <ref role="seedAttr"/>
     <attribute name="playing-order" type="positiveInteger"/>
   </tag>
-  <hedgeRule label="numberOfParts">
-    <empty/>
-  </hedgeRule>
   <elementRule role="choir">
     <sequence>
       <ref label="choir-name"/>
       <ref label="prefecture" occurs="?"/>
       <ref label="choir-type" occurs="?"/>
       <ref label="number-of-members" occurs="?"/>
-      <hedgeRef label="numberOfParts" occurs="?"/>
-      <ref label="conductor" occurs="*"/>
-      <hedgeRef label="players-list" occurs="?"/>
+      <hedgeRef label="numberOfParts"/>
+      <hedgeRef label="playersList"/>
       <ref label="prize"/>
       <ref label="special-prize" occurs="*"/>
       <ref label="program" occurs="?"/>
@@ -181,12 +191,11 @@
       <ref label="choir-note" occurs="?"/>
     </sequence>
   </elementRule>
-  <hedgeRule label="players-list">
-    <sequence>
-      <ref label="conductor" occurs="?"/>
-      <ref label="piano" occurs="*"/>
-      <ref label="accompaniment" occurs="*"/>
-    </sequence>
+  <hedgeRule label="numberOfParts">
+    <empty/>
+  </hedgeRule>
+  <hedgeRule label="playersList">
+    <empty/>
   </hedgeRule>
 
   <tag name="choir-name">
@@ -214,7 +223,7 @@
   <tag name="number-of-members"/>
   <elementRule role="number-of-members" type="positiveInteger"/>
 
-  <tag role="conductor" name="conductor">
+  <tag name="conductor">
     <attribute name="xml:lang" type="string"/>
     <attribute name="instrument" type="string"/>
   </tag>
@@ -224,10 +233,10 @@
     </mixed>
   </elementRule>
 
-  <tag role="piano" name="piano">
-    <attribute name="xml:lang" type="string"/>
-  </tag>
   <elementRule role="piano" label="piano">
+    <tag name="piano">
+      <attribute name="xml:lang" type="string"/>
+    </tag>
     <mixed>
       <importedLabelRef label="specialCharacters"/>
     </mixed>
@@ -244,22 +253,7 @@
     </mixed>
   </elementRule>
 
-  <hedgeRule label="givenProgramRule">
-    <empty/>
-  </hedgeRule>
-  <tag name="program"/>
-  <elementRule role="program" label="program">
-    <sequence>
-      <hedgeRef label="givenProgramRule" occurs="?"/>
-      <ref label="free-program" occurs="+"/>
-    </sequence>
-  </elementRule>
-
   <tag name="prize">
-    <ref role="prize-list"/>
-  </tag>
-  <elementRule role="prize" type="string"/>
-  <attPool role="prize-list">
     <attribute name="nickname" required="true" type="NMTOKEN">
       <enumeration value="none"/>
       <enumeration value="gold"/>
@@ -267,10 +261,22 @@
       <enumeration value="blonze"/>
       <enumeration value="seeded"/>
     </attribute>
-  </attPool>
+  </tag>
+  <elementRule role="prize" type="string"/>
 
   <tag name="special-prize"/>
   <elementRule role="special-prize" type="string"/>
+
+  <hedgeRule label="givenProgramRule">
+    <empty/>
+  </hedgeRule>
+  <tag name="program"/>
+  <elementRule role="program" label="program">
+    <sequence>
+      <hedgeRef label="givenProgramRule"/>
+      <ref label="free-program" occurs="+"/>
+    </sequence>
+  </elementRule>
 
   <tag name="scores"/>
   <elementRule role="scores">
@@ -304,7 +310,7 @@
     <sequence>
       <hedgeRef label="playersListInAProgram"/>
       <choice>
-	<ref label="pieceRef"/>
+	<ref label="pieceRefRule"/>
 	<importedLabelRef label="choirPiece"/>
       </choice>
       <hedgeRef label="programNote" occurs="?"/>
@@ -319,12 +325,9 @@
   <elementRule role="programNote" type="string">
   </elementRule>
 
-  <tag role="pieceRef" name="pieceRef">
-    <attribute name="href" required="true" type="uriReference"/>
-  </tag>
-  <elementRule role="pieceRef" label="pieceRef">
+  <hedgeRule label="pieceRefRule">
     <empty/>
-  </elementRule>
+  </hedgeRule>
 
   <tag name="free-program"/>
   <elementRule role="free-program">

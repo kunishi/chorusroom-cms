@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.7 2001/01/31 10:33:45 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.8 2001/02/04 02:04:48 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -211,7 +211,7 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:apply-templates select="cr:reporter-name"/>
-          <xsl:apply-templates select="cr:reporter-email"/>
+          <!-- <xsl:apply-templates select="cr:reporter-email"/> -->
         </xsl:otherwise>
       </xsl:choose>
     </dd>
