@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/jca-comp-result.rnc" type="compact"?>
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+    <competition-name pref="false" area="false">平成10年度(第65回)NHK全国学校音楽コンクール全国コンクール</competition-name>
+    <result output="national-senior-highschool">
+        <date day-of-week="sun" holiday="false">1998-10-25</date>
+        <hall>東京・NHKホール</hall>
+        <referee shortname="新実" job="作曲家">新実徳英</referee>
+        <referee shortname="鈴木" job="作曲家">鈴木輝昭</referee>
+        <referee shortname="木下" job="作曲家">木下牧子</referee>
+        <referee shortname="辻" job="指揮者">辻正行</referee>
+        <referee shortname="片野" job="指揮者">片野秀俊</referee>
+        <referee shortname="皆川" job="音楽評論家">皆川達夫</referee>
+        <referee shortname="三林" job="声楽家">三林輝夫</referee>
+        <referee shortname="加藤" job="文部省教科書調査官">加藤徹也</referee>
+        <referee shortname="藤野" job="全日本音楽教育研究会">藤野裕行</referee>
+        <referee shortname="二宮" job="NHK番組制作局制作主幹、審査員長">二宮文彦</referee>
+        <section>
+            <section-name>高等学校の部</section-name>
+            <choir representative="false" seed="false">
+                <choir-name>福島県立安積女子高等学校</choir-name>
+                <prefecture>福島</prefecture>
+                <choir-type>female</choir-type>
+                <conductor>菅野正美</conductor>
+                <piano grade="2">倉持祥子</piano>
+                <piano grade="2">大澤美樹</piano>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>谷川俊太郎</p:words-by>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+                                <p:mainTitle>女に 第<cr:utf8-char nickname="romanII">II</cr:utf8-char>集</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>ともに</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>……(無題)</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>宮崎女子高等学校</choir-name>
+                <prefecture>宮崎</prefecture>
+                <choir-type>female</choir-type>
+                <conductor>有川サチ子</conductor>
+                <piano grade="3">濱中亜希子</piano>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>木島始</p:words-by>
+                            <p:composed-by>高嶋みどり</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声合唱のための無伴奏小品集</p:titlePrefix>
+                                <p:mainTitle>愛のとき</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>霧明け</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>埼玉栄高等学校</choir-name>
+                <prefecture>埼玉</prefecture>
+                <choir-type>mixed</choir-type>
+                <conductor>蓮沼喜文</conductor>
+                <piano>遠藤径子</piano>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>谷川俊太郎</p:words-by>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>三群の混声合唱体とピアノのための</p:titlePrefix>
+                                <p:mainTitle>ぼく</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>このほしに</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>もういいかい</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>それから</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>武庫川女子大学附属高等学校</choir-name>
+                <prefecture>兵庫</prefecture>
+                <choir-type>female</choir-type>
+                <conductor>山口英樹</conductor>
+                <piano grade="3">奈須史子</piano>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Zoltan Kodaly</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>詩篇第150番</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Gyorgy Orban</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Lauda Sion</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>岐阜県立岐阜高等学校</choir-name>
+                <prefecture>岐阜</prefecture>
+                <choir-type>mixed</choir-type>
+                <conductor>中村美代子</conductor>
+                <piano grade="1">小見山純一</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>サッポー</p:words-by>
+                            <p:composed-by>鈴木輝昭</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>無伴奏混声合唱のための</p:titlePrefix>
+                                <p:mainTitle>詞華抄</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>エロースがわたしの心を襲い来て</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>北海道札幌藻岩高等学校</choir-name>
+                <prefecture>北海道</prefecture>
+                <choir-type>female</choir-type>
+                <conductor>大嶋恵人</conductor>
+                <piano grade="1">古桑里香</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>コチャール・ミクローシュ</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Missa in A</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>SANCTUS</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>島根県立松江北高等学校</choir-name>
+                <prefecture>島根</prefecture>
+                <choir-type>mixed</choir-type>
+                <conductor>石橋久和</conductor>
+                <piano grade="2">斎藤江美</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>池澤夏樹</p:words-by>
+                            <p:composed-by>木下牧子</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>混声合唱組曲</p:titlePrefix>
+                                <p:mainTitle>ティオの夜の旅</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>ティオの夜の旅</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>山梨県立市川高等学校</choir-name>
+                <prefecture>山梨</prefecture>
+                <choir-type>mixed</choir-type>
+                <conductor>高柳勉</conductor>
+                <piano grade="2">奥野瑛子</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>トロンドウ・クヴェル</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Ave Maris Stella</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false" seed="false">
+                <choir-name>高松第一高等学校</choir-name>
+                <prefecture>香川</prefecture>
+                <choir-type>mixed</choir-type>
+                <conductor>大山晃</conductor>
+                <piano>秋山晶子</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="senior-highschool" href="givenPrograms-65th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>高田敏子</p:words-by>
+                            <p:composed-by>三善晃</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>混声合唱組曲</p:titlePrefix>
+                                <p:mainTitle>五つの童画</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>風見鶏</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+    </result>
+</competition>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/nhk-contest-result.rnc" type="compact"?>
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+    <competition-name pref="false" area="false">平成12年度(第67回) NHK全国学校音楽コンクール東京都コンクール</competition-name>
+    <result output="tokyo-junior-highschool-main">
+        <date day-of-week="fri" holiday="false">2000-08-04</date>
+        <hall>府中の森芸術劇場どりーむホール</hall>
+        <referee shortname="長谷部">長谷部匡俊</referee>
+        <referee shortname="武田">武田雅博</referee>
+        <referee shortname="長谷川">長谷川冴子</referee>
+        <referee shortname="原田">原田徹</referee>
+        <referee shortname="小下">小下公</referee>
+        <referee shortname="飯田">飯田悠紀世</referee>
+        <referee shortname="木村">木村博文</referee>
+        <reporter anonymous="false">
+            <reporter-name>なおや</reporter-name>
+            <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+        </reporter>
+        <section>
+            <section-name>中学校の部</section-name>
+            <choir representative="true">
+                <choir-name>国立音楽大学付属中学校</choir-name>
+                <conductor>羽田喜久代</conductor>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <piano grade="2">田村智美</piano>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Zoltan Kodály</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>こうのとりの歌</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Zoltan Kodály</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>エジャテム・ペジャテム</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>桐朋女子中学校</choir-name>
+                <conductor>斉藤秀和</conductor>
+                <prize nickname="gold">金賞</prize>
+                <program>
+                    <given-program>
+                        <piano grade="2">流尾真衣</piano>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:composed-by>Lajos Bardos</p:composed-by>
+                            <p:title original="true">
+                                <p:mainTitle>Magos a rutafa</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>小平市立小平第五中学校</choir-name>
+                <conductor>小幡若子</conductor>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <piano grade="2">横山奈穂</piano>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <piano grade="1">増島知香</piano>
+                        <p:piece>
+                            <p:words-by>金井直</p:words-by>
+                            <p:composed-by>佐藤眞</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>カナカナ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>大妻中野中学校</choir-name>
+                <conductor>宮沢雅子</conductor>
+                <piano>五反美千代</piano>
+                <prize nickname="silver">銀賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>白石かずこ</p:words-by>
+                            <p:composed-by>三善晃</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声合唱のための</p:titlePrefix>
+                                <p:mainTitle>動物詩集</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>ゴリラのジジ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:piece-number p:piece p:suite) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>共立女子第二中学校</choir-name>
+                <conductor grade="3">成澤由岐子</conductor>
+                <piano grade="2">宮本真居子</piano>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:composed-by>Benjamin Britten</p:composed-by>
+                            <p:title original="true" xml:lang="en">
+                                <p:mainTitle>A Ceremony of carols</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>2.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="en">
+                                        <p:mainTitle>Wolcum Yole!</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece-number>6.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="en">
+                                        <p:mainTitle>This littele Babe</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:piece-number p:piece p:suite) -->
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece-number>10.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="en">
+                                        <p:mainTitle>Adamlay</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:piece-number p:piece p:suite) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>小金井市立緑中学校</choir-name>
+                <conductor>斉藤智子</conductor>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <piano grade="2">三浦香里</piano>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <piano grade="2">木野内遥</piano>
+                        <p:piece>
+                            <p:words-by>伊藤海彦</p:words-by>
+                            <p:composed-by>三善晃</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>道</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>東京家政大学附属女子中学校</choir-name>
+                <conductor>飯田敏恵</conductor>
+                <piano grade="3">調査中</piano>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>木島始</p:words-by>
+                            <p:composed-by>新実徳英</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>虹のうた</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>くらべっこのうた</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:piece-number p:piece p:suite) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>東京女子学院中学校</choir-name>
+                <conductor>小向宏明</conductor>
+                <piano grade="1">高橋映</piano>
+                <prize nickname="blonze">銅賞</prize>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>柳沢京子</p:words-by>
+                            <p:composed-by>三枝成彰</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>千曲川讃歌</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>千曲川友情</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:piece-number p:piece p:suite) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>八王子市立打越中学校</choir-name>
+                <conductor>間測由紀子</conductor>
+                <piano grade="3">向田香積</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:words-by>新川和江</p:words-by>
+                            <p:composed-by>加賀清孝</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>名づけられた葉</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>板橋区立上板橋第二中学校</choir-name>
+                <conductor grade="3">小野仁志</conductor>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <piano grade="3">尾形久美子</piano>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <piano>村松京子</piano>
+                        <p:piece>
+                            <p:translated-by>石倉小三郎</p:translated-by>
+                            <p:composed-by>シューマン</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>流浪の民</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>練馬区立豊玉中学校</choir-name>
+                <conductor>松本希志子</conductor>
+                <piano>砂邊祥恵</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:words-by>金沢智恵子</p:words-by>
+                            <p:composed-by>黒澤吉徳</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>走る川</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>東京学芸大学教育学部附属大泉中学校</choir-name>
+                <conductor>松井孝夫</conductor>
+                <piano grade="2">松本往子</piano>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:words-by>鶴見正夫</p:words-by>
+                            <p:composed-by>荻久保和明</p:composed-by>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>合唱組曲</p:titlePrefix>
+                                <p:mainTitle>IN TERRA PAX〜地に平和を〜</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>OH MY SOLDIER</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:piece-number p:piece p:suite) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+    </result>
+</competition>

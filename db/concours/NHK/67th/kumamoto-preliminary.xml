@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/kunishi/Documents/svn/chorusRoom/lib/schema/nhk-contest-result.rnc" type="compact"?>
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+    <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール熊本県コンクール</competition-name>
+    <result output="kumamoto-preliminary">
+        <date day-of-week="mon" holiday="false">2000-07-24</date>
+        <date day-of-week="tue" holiday="false">2000-07-25</date>
+        <hall>熊本市民会館大ホール</hall>
+        <referee shortname="出田">出田敬三</referee>
+        <referee shortname="岩津">岩津整明</referee>
+        <referee shortname="原田">原田史郎</referee>
+        <referee shortname="林原">林原隆治</referee>
+        <referee shortname="小峰">小峰丈郎</referee>
+        <reporter anonymous="false">
+            <reporter-name>なおや</reporter-name>
+            <reporter-email anonymous="true">naoya-ez@ezweb.ne.jp</reporter-email>
+        </reporter>
+        <section>
+            <section-name date="2000-07-24">小学校の部予選</section-name>
+            <choir representative="true">
+                <choir-name>熊本市立池田小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>児童/女声合唱のための</p:titlePrefix>
+                                <p:mainTitle>あわていきもののうた</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>くもとかぜ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立帯山西小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>花色カメレオン</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立川尻小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>同声合唱のための</p:titlePrefix>
+                                <p:mainTitle>イグアナのゆめ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>しーそー</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立碩台小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ワレモコウ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立託麻西小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>少年少女合唱組曲</p:titlePrefix>
+                                <p:mainTitle>山 四章</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>だいだらぼっちの春</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立託麻原小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>波</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立田迎南小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声三部とピアノのための</p:titlePrefix>
+                                <p:mainTitle>長くて短い六つの歌</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>春の土 秋の土</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立桜木小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>四季のソネット（春）</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立楡木小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>こどものための合唱組曲</p:titlePrefix>
+                                <p:mainTitle>チコタン</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>1.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>なんでかな？</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece-number>4.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>こんやく</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立白山小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ヒッコーリのおくさん</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立若葉小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true">
+                                <p:mainTitle>そよ風 南風 春の風</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本大学教育学部附属小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>心ってふしぎ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>植木町立吉松小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>小鳥の旅</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>菊陽町立武蔵ヶ丘小学北小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>同声合唱のための</p:titlePrefix>
+                                <p:mainTitle>イグアナのゆめ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>しーそー</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立秋津小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>絵を書く夕日</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立桜木東</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ブラックパンサー(黒い豹)</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立銭塘小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>満月の不思議ポロロッカ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>鹿本町立中富小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>あいや節幻想曲〜津軽民謡風俗めぐり〜</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>玉名市立滑石小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>あたまの上に空</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>玉名市立玉名町小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>森</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>松島町立教良木小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>南部の歌によるふるさと幻想曲</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>水俣市立水俣第一小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>無伴奏女声・同声合唱のための</p:titlePrefix>
+                                <p:mainTitle>なつかしいうた</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>五木の子守歌</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>山鹿市立山鹿小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>あいつ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>山鹿市立米田小学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="elementary-school" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>若返りの水</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+        <section>
+            <section-name date="2000-07-25">中学校の部予選</section-name>
+            <choir representative="true">
+                <choir-name>熊本市立井芹中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true">
+                                <p:mainTitle>Missa in A</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true">
+                                        <p:mainTitle>SANCTUS</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立帯山中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>絵の中の季節</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>古い絵</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立託麻中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声合唱組曲</p:titlePrefix>
+                                <p:mainTitle>IN TERRA PAX〜地に平和を〜</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>OH MY SOLDIER</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立西原中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true">
+                                <p:mainTitle>A Ceremony of Carols</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>3.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="en">
+                                        <p:mainTitle>There is no Rose</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece-number>6.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="en">
+                                        <p:mainTitle>This little Babe</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立西原中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true">
+                                <p:mainTitle>Maria Mater gratiae</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true">
+                                <p:mainTitle>Salve, Regina</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立東町中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声合唱のための組曲</p:titlePrefix>
+                                <p:mainTitle>ニライカナイ（理想郷）</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>1.</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>ツンダサヤ ツンダサ（可愛さよ 可愛さ）</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立藤園中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>聞こえる</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本大学教育学部附属中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>混声合唱とピアノのための組曲</p:titlePrefix>
+                                <p:mainTitle>ひみつ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>さようなら</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>熊本市立白川中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true">
+                                <p:mainTitle>OH MY SOLDIER</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>八代市立第八中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>紀の国のこどもうた１</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>紀州の殿さん</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>合志町立合志中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>白いうた青いうた</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>火の山の子守歌</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>芦北町立湯浦中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ひとつの朝</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>有明町立有明東中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>聞こえる</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>字士市立鶴城中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>絵の中の季節</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>棗の歌</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>なにをさがしに</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>熊本市立菊池南中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+                                <p:mainTitle>道之島唄</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>浦富</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>御所浦町立御所浦中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>混声合唱組曲</p:titlePrefix>
+                                <p:mainTitle>海鳥の詩</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>エトピリカ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>奈津木町立奈津木中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>混声合唱のための</p:titlePrefix>
+                                <p:mainTitle>やさしさは愛じゃない</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <!-- one of (p:suite p:piece) -->
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>でも、だめ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>錦町立錦中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>さくら</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>人吉市立第一中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>少年少女合唱組曲</p:titlePrefix>
+                                <p:mainTitle>まだ見ぬ星よ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece-number>第5章</p:piece-number>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>まだ見ぬ星よ</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>本渡市立本渡中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>ガラスの瞳</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>水俣市立水俣第一中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>さくら</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>水俣市立水俣第三中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>組曲</p:titlePrefix>
+                                <p:mainTitle>地平線のかなたへ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>二十億光年の孤独</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>八代市立第二中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>歌ごよみ</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>にわとり一羽</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>八代市立第三中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:mainTitle>風になれ</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="true">
+                <choir-name>山鹿市立山鹿中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:suite>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+                                <p:mainTitle>ファンタジーあやとり記</p:mainTitle>
+                            </p:title>
+                            <p:suite-piece>
+                                <p:piece>
+                                    <p:title original="true" xml:lang="ja">
+                                        <p:mainTitle>鋸曳き唄</p:mainTitle>
+                                    </p:title>
+                                </p:piece>
+                                <!-- one of (p:suite p:piece) -->
+                            </p:suite-piece>
+                        </p:suite>
+                    </free-program>
+                </program>
+            </choir>
+            <choir representative="false">
+                <choir-name>人吉市立第二中学校</choir-name>
+                <prize nickname="none"/>
+                <program>
+                    <given-program>
+                        <!-- one of (pieceRef p:piece p:suite) -->
+                        <pieceRef number="junior-highschool" href="givenPrograms-67th.xml"/>
+                    </given-program>
+                    <free-program>
+                        <p:piece>
+                            <p:title original="true" xml:lang="ja">
+                                <p:titlePrefix>女声合唱のための組曲</p:titlePrefix>
+                                <p:mainTitle>日記</p:mainTitle>
+                            </p:title>
+                        </p:piece>
+                    </free-program>
+                </program>
+            </choir>
+        </section>
+    </result>
+</competition>
