@@ -1,8 +1,8 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.22 2000/09/11 11:06:06 kunishi Exp $
+# $Id: rule.mk,v 1.23 2000/09/28 02:15:16 kunishi Exp $
 #
 
-.SUFFIXES:	.xml .html .utfxml .utfhtml .ent
+.SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html
 
 .PHONY:		all install clean subdir install-subdir
 
@@ -13,6 +13,11 @@ ifndef SPECIAL_RULES
 	${HTML_FORMAT} -m -iso2022 $@
 
 %.utfhtml: %.utfxml
+	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
+
+%.u8.html: %.utfxml
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@

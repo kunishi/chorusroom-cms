@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.35 2000/09/19 10:09:18 kunishi Exp $
+# $Id: config.mk,v 1.36 2000/09/28 02:15:16 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -21,15 +21,20 @@ JDK_CLASSPATH=	${LOCALBASE}/share/kaffe/kjc.jar:${LOCALBASE}/share/kaffe/Klasses
 else
 JAVA=		${JDK_TOPDIR}/bin/java
 ifdef USE_JDK11
-JAVA_COMPILER?=	tya
 JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip
-else
-JAVA_COMPILER?=	tya
 endif
 endif
 
+JAVA_COMPILER?=	tya
+
 ifdef JAVA_COMPILER
 XSLT_OPTS+=	-Djava.compiler=${JAVA_COMPILER}
+ifeq (${JAVA_COMPILER},tya)
+XSLT_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/tya
+endif
+ifeq (${JAVA_COMPILER},shujit)
+XSLT_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/shujit
+endif
 endif
 
 ifdef USE_LOTUSXSL
@@ -49,8 +54,8 @@ endif
 XSLT_PROC=	${JAVA} -classpath ${CLASSPATH} ${XSLT_OPTS} ${XSLT_CLASS}
 
 UTF2ASCII=	hutrans
-ASCII2EUC=	tcs -f utf -t ujis
-#ASCII2EUC=	iconv -f utf-8 -t euc-jp
+#ASCII2EUC=	tcs -f utf -t ujis
+ASCII2EUC=	iconv -f utf-8 -t euc-jp
 EUC2JIS=	nkf
 HTML_FORMAT=	tidy -q -xml -asxml
 SYNC_TOOL=	rsync -au
