@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.24 2000/07/01 16:07:12 kunishi Exp $
+# $Id: config.mk,v 1.25 2000/07/11 11:48:25 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -21,6 +21,7 @@ JDK_CLASSPATH=	${LOCALBASE}/share/kaffe/kjc.jar:${LOCALBASE}/share/kaffe/Klasses
 else
 JAVA=		${JDK_TOPDIR}/bin/java
 ifdef USE_JAVA2
+JAVA_COMPILER?=	tya
 JDK_CLASSPATH=	
 else
 JAVA_COMPILER?=	tya
