@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: kochi.xml,v 1.1 2001/01/16 11:31:24 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: kochi.xml,v 1.2 2001/01/23 01:57:39 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール高知県コンクール</competition-name>
   <result output="kochi">
     <date day-of-week="thu" holiday="false">2000-08-03</date>
@@ -23,15 +23,23 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>宮沢章二</p:words-by>
-	    <p:composed-by>岩河三郎</p:composed-by>
 	    <p:suite>
-	      <p:piece>少年少女合唱組曲「山　四章」</p:piece>
+	      <p:words-by>宮沢章二</p:words-by>
+	      <p:composed-by>岩河三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>少年少女合唱組曲</p:titlePrefix>
+		<p:mainTitle>山　四章</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>山の関所</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>山の関所</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -42,12 +50,17 @@
 	<number-of-parts>2</number-of-parts>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>しまなぎさ</p:words-by>
-	    <p:composed-by>鈴木行一</p:composed-by>
-	    <p:piece>少年の日はいま</p:piece>
+	    <p:piece>
+	      <p:words-by>しまなぎさ</p:words-by>
+	      <p:composed-by>鈴木行一</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>少年の日はいま</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -56,15 +69,23 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>木島始</p:words-by>
-	    <p:composed-by>木下牧子</p:composed-by>
 	    <p:suite>
-	      <p:piece>児童/女声合唱のための「あわていきもののうた」</p:piece>
+	      <p:words-by>木島始</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>児童/女声合唱のための</p:titlePrefix>
+		<p:mainTitle>あわていきもののうた</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>くもとかぜ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>くもとかぜ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -75,15 +96,23 @@
 	<number-of-parts>2</number-of-parts>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>木島始</p:words-by>
-	    <p:composed-by>新実徳英</p:composed-by>
 	    <p:suite>
-	      <p:piece>少年少女合唱のための「ふしぎなせかい」</p:piece>
+	      <p:words-by>木島始</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>少年少女合唱のための</p:titlePrefix>
+		<p:mainTitle>ふしぎなせかい</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>なまけもの</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>なまけもの</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -94,18 +123,30 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>川崎洋</p:words-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための四季のうた「7つのバガテル」</p:piece>
+	      <p:words-by>川崎洋</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための四季のうた</p:titlePrefix>
+		<p:mainTitle>7つのバガテル</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>ざりがに</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ざりがに</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>夏は</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夏は</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -116,12 +157,17 @@
 	<number-of-parts>2</number-of-parts>
 	<prize nickname="none"></prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>山川啓介</p:words-by>
-	    <p:composed-by>福田和禾子</p:composed-by>
-	    <p:piece>出発の朝</p:piece>
+	    <p:piece>
+	      <p:words-by>山川啓介</p:words-by>
+	      <p:composed-by>福田和禾子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>出発の朝</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -130,12 +176,17 @@
 	<number-of-parts>4</number-of-parts>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:originated-from>富山県民謡</p:originated-from>
-	    <p:arranged-by>小林秀雄</p:arranged-by>
-	    <p:piece>こきりこ</p:piece>
+	    <p:piece>
+	      <p:originated-from>富山県民謡</p:originated-from>
+	      <p:arranged-by>小林秀雄</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>こきりこ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -144,12 +195,17 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="elementary-school" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="elementary-school" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>さねよしいさ子</p:words-by>
-	    <p:composed-by>横山潤子</p:composed-by>
-	    <p:piece>ようこちゃんが</p:piece>
+	    <p:piece>
+	      <p:words-by>さねよしいさ子</p:words-by>
+	      <p:composed-by>横山潤子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ようこちゃんが</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -162,18 +218,30 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>金子みすゞ</p:words-by>
-	    <p:composed-by>松下耕</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱のための５つの童話「わたしと小鳥とすずと」</p:piece>
+	      <p:words-by>金子みすゞ</p:words-by>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための５つの童話</p:titlePrefix>
+		<p:mainTitle>わたしと小鳥とすずと</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>ゆめ売り</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ゆめ売り</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>わたしと小鳥とすずと</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>わたしと小鳥とすずと</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -185,11 +253,16 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>コチャール</p:composed-by>
-	    <p:piece>???</p:piece>
+	    <p:piece>
+	      <p:composed-by>コチャール</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>???</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -199,12 +272,17 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>深田じゅんこ</p:words-by>
-	    <p:composed-by>橋本祥路</p:composed-by>
-	    <p:piece>時の旅人</p:piece>
+	    <p:piece>
+	      <p:words-by>深田じゅんこ</p:words-by>
+	      <p:composed-by>橋本祥路</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>時の旅人</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -214,18 +292,30 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="none">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>谷川俊太郎</p:words-by>
-	    <p:composed-by>高嶋みどり</p:composed-by>
 	    <p:suite>
-	      <p:piece>合唱組曲「かみさまへのてがみ」</p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>合唱組曲</p:titlePrefix>
+		<p:mainTitle>かみさまへのてがみ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>てんごくってどんなかんじ<cr:romanII/></p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>てんごくってどんなかんじ<cr:romanII/></p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>終曲</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>終曲</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -240,11 +330,16 @@
 	<number-of-parts>4</number-of-parts>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Knut Nystedt</p:composed-by>
-	    <p:piece>???</p:piece>
+	    <p:piece>
+	      <p:composed-by>Knut Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>???</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -254,15 +349,23 @@
 	<number-of-parts>3</number-of-parts>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:words-by>宗左近</p:words-by>
-	    <p:composed-by>鈴木輝昭</p:composed-by>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための組曲「宇宙の果物」</p:piece>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>宇宙の果物</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>宇宙の果物</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>宇宙の果物</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -274,11 +377,16 @@
 	<number-of-parts>4</number-of-parts>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>Knut Nystedt</p:composed-by>
-	    <p:piece>???</p:piece>
+	    <p:piece>
+	      <p:composed-by>Knut Nystedt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>???</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -288,14 +396,22 @@
 	<number-of-parts>4</number-of-parts>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="senior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="senior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:composed-by>大中恩</p:composed-by>
 	    <p:suite>
-	      <p:piece>ピアノ伴奏による「五つのうた」</p:piece>
+	      <p:composed-by>大中恩</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>ピアノ伴奏による</p:titlePrefix>
+		<p:mainTitle>五つのうた</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>秋の女よ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>秋の女よ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>

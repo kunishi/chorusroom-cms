@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://localhost/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: asahikawa.xml,v 1.3 2001/01/13 16:56:03 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: asahikawa.xml,v 1.4 2001/01/23 01:57:38 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度(第67回) NHK全国学校音楽コンクール旭川地区コンクール</competition-name>
   <result output="asahikawa">
     <date day-of-week="sun" holiday="false">2000-08-20</date>
@@ -19,13 +19,22 @@
 	<conductor>泉田誠</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>組曲「地平線のかなたへ」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>組曲</p:titlePrefix>
+		<p:mainTitle>地平線のかなたへ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>春に</p:piece>
+		<!-- one of (p:piece-number p:piece p:suite) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>春に</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -39,10 +48,15 @@
 	<prize nickname="none"></prize>
 	<special-prize>奨励賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>青い花</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>青い花</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -54,10 +68,15 @@
 	<prize nickname="none"></prize>
 	<special-prize>奨励賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>聞こえる</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>聞こえる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -68,13 +87,22 @@
 	<conductor>目黒幸子</conductor>
 	<prize nickname="silver">銀賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>女声合唱とピアノのための組曲「宇宙の果物」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>宇宙の果物</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>宇宙の果物</p:piece>
+		<!-- one of (p:piece-number p:piece p:suite) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>宇宙の果物</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -87,16 +115,29 @@
 	<conductor>藤岡直美</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>&quot;A Ceremony of Carols&quot;</p:piece>
+	      <p:title original="true" xml:lang="en">
+		<p:mainTitle>A Ceremony of Carols</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
-		<p:piece>Balulalow</p:piece>
+		<!-- one of (p:piece-number p:piece p:suite) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="en">
+		    <p:mainTitle>Balulalow</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>This Littele Babe</p:piece>
+		<!-- one of (p:piece-number p:piece p:suite) -->
+		<p:piece>
+		  <p:title original="true" xml:lang="en">
+		    <p:mainTitle>This Littele Babe</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
@@ -110,10 +151,15 @@
 	<prize nickname="none"></prize>
 	<special-prize>奨励賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>未来</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>未来</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -124,10 +170,15 @@
 	<conductor>小林和俊</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>聞こえる</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>聞こえる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -139,10 +190,15 @@
 	<prize nickname="none"></prize>
 	<special-prize>奨励賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>春に</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>春に</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -154,10 +210,15 @@
 	<prize nickname="none"></prize>
 	<special-prize>奨励賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>天使と羊飼い</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>天使と羊飼い</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -169,10 +230,15 @@
 	<prize nickname="none"></prize>
 	<special-prize>奨励賞</special-prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>聞こえる</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>聞こえる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -183,10 +249,15 @@
 	<conductor>井上淳子</conductor>
 	<prize nickname="blonze">銅賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
-	    <p:piece>海はなかった</p:piece>
+	    <p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>海はなかった</p:mainTitle>
+	      </p:title>
+	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
@@ -197,14 +268,23 @@
 	<conductor>児玉かおり</conductor>
 	<prize nickname="gold">金賞</prize>
 	<program>
-	  <given-program number="junior-highschool" href="givenPrograms.xml">
+	  <given-program>
+	    <pieceRef number="junior-highschool" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:piece>混声合唱とピアノのための「ひみつ」</p:piece>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>ひみつ</p:mainTitle>
+	      </p:title>
 	      <p:suite-piece>
+		<!-- one of (p:piece-number p:piece p:suite) -->
 		<p:piece-number><cr:romanII/>.</p:piece-number>
-		<p:piece>ひみつ</p:piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ひみつ</p:mainTitle>
+		  </p:title>
+		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
