@@ -1,30 +1,30 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: index.xml,v 1.3 1999/05/24 03:09:48 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.4 1999/08/16 07:53:02 kunishi Exp $ -->
     <title>Links Page/Concour</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../../style/default.css" type="text/css" rel="stylesheet">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
-
   <body>
-    <h1><a href="../../">合唱の部屋</a>:<a href="../">リンク集</a>:コンクール</h1>
+    <h1><a href="../../" shape="rect">合唱の部屋</a>:<a href="../" shape="rect">リンク集</a>:コンクール</h1>
     <ul>
-      <li><a href="http://tokyo.cool.ne.jp/nishi/news.html">合唱コンクール大会結果データベース</a> 色々な合唱コンクールの結果やプログラムを掲載した、データベースのページです。検索もできます。</li>
-      <li><a href="http://www2.tbs.co.jp/radio/kodomo/">こども音楽コンクール</a></li>
-      <li><a href="http://www.nhk.or.jp/sch/index.html">学校放送オンライン(NHK)</a>
+      <li><a href="http://tokyo.cool.ne.jp/nishi/news.html" shape="rect">合唱コンクール大会結果データベース</a> 色々な合唱コンクールの結果やプログラムを掲載した、データベースのページです。検索もできます。</li>
+      <li><a href="http://www2.tbs.co.jp/radio/kodomo/" shape="rect">こども音楽コンクール</a></li>
+      <li><a href="http://www.nhk.or.jp/sch/index.html" shape="rect">学校放送オンライン(NHK)</a>
 	1998年のNHK全国学校音楽コンクールの結果は
-	<a href="http://www.nhk.or.jp/sch/news/music.html">このページ</a>に
+	<a href="http://www.nhk.or.jp/sch/news/music.html" shape="rect">このページ</a>に
 	掲載されています。
       </li>
-      <li><a href="http://www.cool.ne.jp/naoya118/">NHK 全国学校音楽コンクールの情報</a></li>
+      <li><a href="http://www.cool.ne.jp/naoya118/" shape="rect">NHK 全国学校音楽コンクールの情報</a></li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-<!-- Created: Mon Oct 12 23:57:00 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Thu Dec 10 14:51:55 JST 1998
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 07:53:02 $
   </body>
 </html>

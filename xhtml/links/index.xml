@@ -1,58 +1,61 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http;//localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: index.xml,v 1.3 1999/01/13 00:00:44 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.4 1999/08/16 07:20:18 kunishi Exp $ -->
     <title>Links about Chorus Music</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>合唱関係のリンク集</h1>
     <p>
-      合唱に関わりの深いページへのリンクを集めたページです。
-      これ以外に面白いページをご存じの方、
-      <a href="mailto:kunishi@c.oka-pu.ac.jp">私(<tt>kunishi@c.oka-pu.ac.jp</tt>)</a>
-      までお教えください。自薦・他薦、日本・海外を問いません。
-      よろしくお願いします。
+      合唱に関わりの深いページへのリンクを集めたページです。これ以外に
+      面白いページをご存じの方、<a href="mailto:&kunishi-email;"
+      shape="rect">私(<tt>&kunishi-email;</tt>)</a> までお教えください。
+      自薦・他薦、日本・海外を問いません。よろしくお願いします。
     </p>
-    <hr>
-    <h2><a href="Choir/">合唱団</a></h2>
+    <hr/>
+    <h2><a href="Choir/" shape="rect">合唱団</a></h2>
     <p>
-      <a href="Choir/Link/">リンク集</a>、
-      <a href="Choir/Highschool/">中学・高校</a>、
-      <a href="Choir/Univ/">大学</a>、
-      <a href="Choir/Company/">職場</a>、
-      <a href="Choir/General/">一般</a>、
-      <a href="Choir/OB/">OB・OG関連</a>
+      <a href="Choir/Link/" shape="rect">リンク集</a>、
+      <a href="Choir/Highschool/" shape="rect">中学・高校</a>、
+      <a href="Choir/Univ/" shape="rect">大学</a>、
+      <a href="Choir/Company/" shape="rect">職場</a>、
+      <a href="Choir/General/" shape="rect">一般</a>、
+      <a href="Choir/OB/" shape="rect">OB・OG関連</a>
     </p>
-    <h2><a href="Person/">ひと</a></h2>
+    <h2><a href="Person/" shape="rect">ひと</a></h2>
     <p>
-      <a href="Person/Composer/">作曲家</a>、
-      <a href="Person/Conductor/">指揮者</a>、
-      <a href="Person/Poet/">作詩家</a>
+      <a href="Person/Composer/" shape="rect">作曲家</a>、
+      <a href="Person/Conductor/" shape="rect">指揮者</a>、
+      <a href="Person/Poet/" shape="rect">作詩家</a>
     </p>
-    <h2><a href="Communication/">コミュニケーション</a></h2>
-    <h2><a href="Information/">情報発信</a></h2>
+    <h2><a href="Communication/" shape="rect">コミュニケーション</a></h2>
+    <h2><a href="Information/" shape="rect">情報発信</a></h2>
     <p>
-      <a href="Information/Genre/">特定ジャンル</a>
-      <a href="Information/Concert/">コンサート情報</a>
-<a href="Information/Mailinglist/">メーリングリスト</a>
+      <a href="Information/Genre/" shape="rect">特定ジャンル</a>
+      <a href="Information/Concert/" shape="rect">コンサート情報</a>
+<a href="Information/Mailinglist/" shape="rect">メーリングリスト</a>
     </p>
-    <h2><a href="Org/">組織</a></h2>
+    <h2><a href="Org/" shape="rect">組織</a></h2>
     <p>
-      <a href="Org/CD/">CD製作・販売</a>、
-      <a href="Org/Score/">楽譜販売</a>、
-      <a href="Org/Hall/">ホール</a>、
-      <a href="Org/Camp/">宿泊施設</a>、
-      <a href="Org/Assoc/">法人など</a>
+      <a href="Org/CD/" shape="rect">CD製作・販売</a>、
+      <a href="Org/Score/" shape="rect">楽譜販売</a>、
+      <a href="Org/Hall/" shape="rect">ホール</a>、
+      <a href="Org/Camp/" shape="rect">宿泊施設</a>、
+      <a href="Org/Assoc/" shape="rect">法人など</a>
     </p>
-    <h2><a href="Library/">ライブラリ</a></h2>
-    <h2><a href="Concour/">コンクール</a></h2>
-    <hr>
-    [ <a href="../">「合唱の部屋」ホームページ</a> ]
-    <hr>
-    <address> KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-Last modified: $Date: 1999/01/13 00:00:44 $
+    <h2><a href="Library/" shape="rect">ライブラリ</a></h2>
+    <h2><a href="Concour/" shape="rect">コンクール</a></h2>
+    <hr/>
+    [ <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 07:20:18 $
   </body>
 </html>

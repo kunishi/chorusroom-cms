@@ -1,9 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>What is HML?</title>
   </head>
   <body>
@@ -25,7 +29,7 @@
     </p>
     <p>
       連絡先は
-      <a href="mailto:harmony-request@vsp.cpg.sony.co.jp">harmony-request@vsp.cpg.sony.co.jp</a>
+      <a href="mailto:harmony-request@vsp.cpg.sony.co.jp" shape="rect">harmony-request@vsp.cpg.sony.co.jp</a>
       です。(自動登録ではありませんので、ちゃんとした文章でお書き下さい)
       比較的敷居の低いメーリングリストですので、お気軽に御参加下さい。
     </p>
@@ -33,11 +37,8 @@
       なお、管理は、さいとうゆたかさんがなされています。
       このページの管理者(国島)とは関係がありませんので、ご注意下さい。
     </p>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo</a></address>
-<!-- Created: Sun Dec 14 10:51:49 JST 1997 -->
-<!-- hhmts start -->
-Last modified: Fri Jan  2 13:16:21 JST 1998
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 07:16:37 $
   </body>
 </html>

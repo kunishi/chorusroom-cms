@@ -1,25 +1,27 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>HML (Harmony Mailing List)</title>
   </head>
-
   <body>
     <h1>HML(Harmony Mailing List)のご案内</h1>
     <ul>
-      <li><a href="whatishml.html">HML って何?</a></li>
-      <li><span class="new">[NEW]</span><a href="member-homepage.html">どんな人たちがいるの?</a></li>
-      <li><span class="new">[NEW]</span><a href="choir.html">どんな合唱団の人がいるの?</a></li>
-      <li><a href="notice.html">HML に参加されるにあたってのお願い</a></li>
+      <li><a href="whatishml.html" shape="rect">HML って何?</a></li>
+      <li><a href="member-homepage.html" shape="rect">どんな人たちがいるの?</a></li>
+      <li><a href="choir.html" shape="rect">どんな合唱団の人がいるの?</a></li>
+      <li><a href="notice.html" shape="rect">HML に参加されるにあたってのお願い</a></li>
     </ul>
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Fri Jan  2 14:05:07 JST 1998
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 07:07:57 $
+  </body>
+</html>
