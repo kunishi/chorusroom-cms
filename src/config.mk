@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.52 2001/03/02 11:12:14 kunishi Exp $
+# $Id: config.mk,v 1.53 2001/08/06 02:07:35 kunishi Exp $
 #
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
@@ -70,7 +70,8 @@ XSLT_COMPILER=	${JAVA} -classpath ${CLASSPATH} ${JAVA_OPTS} ${XSLT_CLASS}
 XSLT_CLASSPATH=	${XALAN_CLASSPATH}
 XSLT_CLASS=	org.apache.xalan.xslt.Process
 XSLT_OPTS+=	-XML
-XSLT_PARAMS+=	-param "imagedir" "${IMAGEDIR}" \
+XSLT_PARAMS+=	-param "topdir" "${SRCTOPDIR}" \
+		-param "imagedir" "${IMAGEDIR}" \
 		-param "bgimage" "${BGIMG}" \
 		-param "styledir" "${STYLEDIR}" \
 		-param "stylesheet" "${CSSFILE}" \

@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.40 2001/02/12 07:51:03 kunishi Exp $
+# $Id: rule.mk,v 1.41 2001/08/06 02:07:36 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfhtml .ent .u8.html .style .xsl
@@ -18,12 +18,12 @@ endef
 ifndef SPECIAL_RULES
 %.html:	%.xml ${DEFAULT_XSL}
 	$(xslt-transform)
-	${PATH_CONFIGURE} $@
+#	${PATH_CONFIGURE} $@
 %.html:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.traditional.xsl
 
 %.utfhtml: %.xml ${DEFAULT_XSL}
 	$(xslt-transform)
-	${PATH_CONFIGURE} $@
+#	${PATH_CONFIGURE} $@
 %.utfhtml:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.utf8.xsl
 endif
 

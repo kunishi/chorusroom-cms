@@ -1,9 +1,9 @@
 # 
-# $Id: GNUmakefile,v 1.55 2001/02/09 03:40:29 kunishi Exp $
+# $Id: GNUmakefile,v 1.56 2001/08/06 02:07:32 kunishi Exp $
 #
 
 RELPATH=	# ./
-SRCTOPDIR=	# ./
+SRCTOPDIR=	./
 
 USE_NEW_SCHEME=	yes
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.8 2001/02/06 08:18:29 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.9 2001/08/06 02:07:40 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -41,14 +41,30 @@
   </xsl:template>
 
   <xsl:template match="*">
-    <xsl:element name="{name(.)}">
+    <xsl:element name="{name(.)}" namespace="{namespace-uri(.)}">
       <xsl:apply-templates select="@*[not(name(.)='xmlns:*')]"/>
       <xsl:apply-templates select="node()"/>
     </xsl:element>
   </xsl:template>
 
   <xsl:template match="@*">
-    <xsl:copy/>
+    <xsl:attribute name="{name(.)}" namespace="{namespace-uri(.)}">
+      <xsl:choose>
+        <xsl:when test="contains(., '%%TOPDIR%%')">
+          <xsl:value-of select="concat(substring-before(., '%%TOPDIR%%'),
+                                $topdir,
+                                substring-after(., '%%TOPDIR%%'))"/>
+        </xsl:when>
+        <xsl:when test="contains(., '%%IMAGEDIR%%')">
+          <xsl:value-of select="concat(substring-before(., '%%IMAGEDIR%%'),
+                                $imagedir,
+                                substring-after(., '%%IMAGEDIR%%'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
   </xsl:template>
 
 </xsl:stylesheet>
