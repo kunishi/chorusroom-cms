@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.10 2001/02/06 08:18:28 kunishi Exp $
+# $Id: GNUmakefile,v 1.11 2001/02/06 08:21:23 kunishi Exp $
 # 
 
 USE_NEW_SCHEME=	yes
@@ -23,7 +23,7 @@ clean:
 
 all-chars-extracted.xml:	DEFAULT_XSL=${XSLDIR}/gen-all-chars.xsl
 all-chars-extracted.xml:	all-chars.xml
-	${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT}
+	${SCRIPTDIR}/xalan.sh -xml -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT}
 
 all-chars.html:	DEFAULT_XSL=${XSLDIR}/all-chars.xsl
 
