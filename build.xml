@@ -2,10 +2,11 @@
 <project name="chorusRoom" default="build" basedir=".">
 
   <property name="build" value="build"/>
-  <property name="build.lib" value="build.lib"/>
+  <property name="build.lib" value="${build}/lib"/>
   <property name="build.xslt" value="${build.lib}/xslt"/>
-  <property name='build.concours' value='build.concours'/>
-  <property name='build.xhtml' value='build.xhtml'/>
+  <property name='build.concours' value='${build}/concours'/>
+  <property name='build.xhtml' value='${build}/xhtml'/>
+  <property name='build.tmp' value='${build}/tmp'/>
 
   <property name="src" value="src"/>
 
@@ -32,6 +33,25 @@
     <pathelement location="${xalan2.bin.dir}/xalan.jar"/>
   </path>
 
+  <xmlcatalog id="chorusroom.dtd">
+    <dtd publicId="-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA"
+         location="${dtddir}/xhtml1-chorusroom.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD Contest JCA 1.0//JA"
+         location="${dtddir}/jca-comp-result.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD Contest NHK 1.0//JA"
+         location="${dtddir}/nhk-contest-result.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD Contest Generic 1.0//JA"
+         location="${dtddir}/contest-result-generic.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD Contest GivenProg 1.0//JA"
+         location="${dtddir}/given-programs.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD Choir 1.0//JA"
+         location="${dtddir}/choir.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD Resource 1.0//JA"
+         location="${dtddir}/resource.dtd"/>
+    <dtd publicId="-//CHORUSROOM//DTD CharTable 1.0//JA"
+         location="${dtddir}/char-table.dtd"/>
+  </xmlcatalog>
+
   <taskdef name='relaxerDtd' classname='org.chorusroom.ant.RelaxerDTD'>
     <classpath>
       <pathelement path='prog/java'/>
@@ -44,17 +64,34 @@
     </classpath>
   </taskdef>
 
-  <target name="build" depends="copysrc, build.xhtml"/>
+  <target name="build" depends="build.xhtml"/>
 
-  <target name="prepare" depends="copysrc, build.dtd">
+  <target name="prepare" depends="build.dtd">
     <tstamp/>
     <mkdir dir="${build}"/>
   </target>
 
+  <!-- copy necessary files other than HTML and XML -->
   <target name="copysrc">
-    <copy todir="${build}/image">
+    <copy todir="${build.xhtml}">
+      <fileset dir="${xhtml}">
+        <include name="**/*"/>
+        <exclude name="**/*.xml"/>
+      </fileset>
+    </copy>
+    <copy todir="${build.xhtml}/image">
       <fileset dir="${images}">
 	<include name="**/*.png"/>
+      </fileset>
+    </copy>
+    <copy todir="${build.xhtml}/namazu">
+      <fileset dir="${lib}/namazu">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <copy todir="${build.xhtml}/style">
+      <fileset dir="${lib}/css">
+        <include name="*.css"/>
       </fileset>
     </copy>
   </target>
@@ -127,6 +164,7 @@
           in='${xsltdir}/contest-result.src.xsl'
           out='${build.xslt}/contest-result.traditional.xsl'
           outputtype='xml' processor='trax'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <classpath refid='xalan2.class.path'/>
       <param name='output-encoding' expression='iso-2022-jp'/>
     </xslt>
@@ -134,6 +172,7 @@
           in='${xsltdir}/contest-result.src.xsl'
           out='${build.xslt}/contest-result.utf8.xsl'
           outputtype='xml' processor='trax'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <classpath refid='xalan2.class.path'/>
       <param name='output-encoding' expression='utf-8'/>
     </xslt>
@@ -145,6 +184,7 @@
       out='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
       outputtype='xml' processor='trax'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='output-encoding' expression='iso-2022-jp'/>
     </xslt>
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
@@ -152,6 +192,7 @@
       out='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
       outputtype='xml' processor='trax'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='output-encoding' expression='utf-8'/>
     </xslt>
   </target>
@@ -162,23 +203,28 @@
       out='${build.xslt}/char-conv-traditional.xsl'
       outputtype='xml' processor='trax'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
     </xslt>
     <xslt style='${xsltdir}/gen-char-conv-utf8.xsl'
       in='${techdir}/all-chars.xml'
       out='${build.xslt}/char-conv-utf8.xsl'
       outputtype='xml' processor='trax'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
     </xslt>
   </target>
   
   <!-- build contents -->
-  <target name='build.xhtml' depends='build.xhtml.index, build.xhtml.ja, build.xhtml.en'/>
+  <target name='build.xhtml'
+          depends='build.xhtml.index, build.xhtml.ja, build.xhtml.en, build.xhtml.concours'/>
+
   <target name='build.xhtml.index' depends='build.xslt'>
-    <xslt basedir='${xhtml}' destdir='${build}'
+    <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
-      extension='.html' outputtype='xml' processor='trax'
+      extension='.xml' outputtype='xml' processor='trax'
       includes='index.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -188,11 +234,12 @@
   </target>
 
   <target name='build.xhtml.ja' depends='build.xslt'>
-    <xslt basedir='${xhtml}' destdir='${build}'
+    <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
-      extension='.html' outputtype='xml' processor='trax'
+      extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml' excludes='index.xml, info-note2.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -202,11 +249,12 @@
   </target>
 
   <target name='build.xhtml.en' depends='build.xslt'>
-    <xslt basedir='${xhtml}' destdir='${build}'
+    <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
-      extension='.html' outputtype='xml' processor='trax'
+      extension='.xml' outputtype='xml' processor='trax'
       includes='info-note2.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -219,16 +267,17 @@
     depends='build.xml.jca, build.xml.nhk, build.xml.generic'/>
 
   <target name='build.xml.jca'>
-    <xslt basedir='db/concours/JCA' destdir='${build.concours}/concours/JCA'
+    <xslt basedir='db/concours/JCA' destdir='${build.tmp}/concours/JCA'
       style='${lib}/xslt.build/jca-contest-result-build.xsl'
       extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml' excludes='**/lib/*.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='docBaseURI' expression='${basedir}/db/concours/JCA/lib/'/>
       <param name='outDir' expression='Redirect/'/>
     </xslt>
-    <copy todir="${build}/concours/JCA">
-      <fileset dir="${build.concours}/concours/JCA">
+    <copy todir="${build.concours}/JCA">
+      <fileset dir="${build.tmp}/concours/JCA">
         <include name='**/Redirect/*.xml'/>
       </fileset>
       <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
@@ -236,16 +285,17 @@
   </target>
 
   <target name='build.xml.nhk'>
-    <xslt basedir='db/concours/NHK' destdir='${build.concours}/concours/NHK'
+    <xslt basedir='db/concours/NHK' destdir='${build.tmp}/concours/NHK'
       style='${lib}/xslt.build/contest-result-build.xsl'
       extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml' excludes='**/lib/*.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='docBaseURI' expression='${basedir}/db/concours/NHK/lib/'/>
       <param name='outDir' expression='Redirect/'/>
     </xslt>
-    <copy todir="${build}/concours/NHK">
-      <fileset dir="${build.concours}/concours/NHK">
+    <copy todir="${build.concours}/NHK">
+      <fileset dir="${build.tmp}/concours/NHK">
         <include name='**/Redirect/*.xml'/>
       </fileset>
       <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
@@ -253,17 +303,18 @@
   </target>
 
   <target name='build.xml.generic'>
-    <xslt basedir='db/concours' destdir='${build.concours}/concours'
+    <xslt basedir='db/concours' destdir='${build.tmp}/concours'
       style='${lib}/xslt.build/contest-result-build.xsl'
       extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml'
       excludes='**/JCA/**/*.xml, **/NHK/**/*.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='docBaseURI' expression='${basedir}/db/concours/lib/'/>
       <param name='outDir' expression='Redirect/'/>
     </xslt>
-    <copy todir="${build}/concours">
-      <fileset dir="${build.concours}/concours">
+    <copy todir="${build.concours}">
+      <fileset dir="${build.tmp}/concours">
         <include name='**/Redirect/*.xml'/>
         <exclude name='**/JCA/**/Redirect/*.xml'/>
         <exclude name='**/NHK/**/Redirect/*.xml'/>
@@ -274,11 +325,12 @@
 
   <target name='build.xhtml.concours'
     depends='build.xslt.common, build.xslt.contest-result, build.xml.concours'>
-    <xslt basedir='${build}/concours' destdir='${build.xhtml}/concours'
+    <xslt basedir='${build.concours}' destdir='${build.xhtml}/concours'
       style='${build.lib}/xslt/contest-result.utf8.xsl'
       extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml' excludes='**/*-score.xml'
       classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -293,5 +345,10 @@
     <delete dir="${build}"/>
     <delete dir="${build.lib}"/>
     <delete dir="${build.concours}"/>
+    <delete dir="${build.tmp}"/>
+  </target>
+
+  <target name="distclean">
+    <delete dir="${build}"/>
   </target>
 </project>
