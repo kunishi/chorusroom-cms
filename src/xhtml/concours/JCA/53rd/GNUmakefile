@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.63 2000/12/01 10:30:38 kunishi Exp $
+# $Id: GNUmakefile,v 1.64 2000/12/10 07:08:50 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -18,7 +18,7 @@ INSTFILES_HTML+=	ishikawa.html
 INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	${KANSAI_HTML}
-INSTFILES_HTML+=	kanto.html
+INSTFILES_HTML+=	${KANTO_HTML}
 INSTFILES_HTML+=	${KUMAMOTO_HTML}
 INSTFILES_HTML+=	${KYUSHU_HTML}
 INSTFILES_HTML+=	mie.html
@@ -38,7 +38,11 @@ INSTFILES_HTML+=	${NATIONAL_HTML}
 KANSAI_HTML=		kansai-highschool.html \
 			kansai-general.html \
 			kansai-univ-company.html
-KUMAMOTO_HTML=		kumamoto.html kumamoto2.html
+KANTO_HTML=		kanto-2000-09-23.html \
+			kanto-2000-09-24.html \
+			kanto-general.html
+KUMAMOTO_HTML=		kumamoto-2000-07-23.html \
+			kumamoto-2000-07-25.html
 KYUSHU_HTML=		kyushu-2000-09-09.html \
 			kyushu-2000-09-10.html
 SHIKOKU_HTML=		shikoku-2000-09-02.html shikoku-2000-09-03.html
@@ -59,6 +63,8 @@ INSTFILES_HTML_SAITEN+=	ishikawa-saiten.html
 INSTFILES_HTML_SAITEN+=	kansai-highschool-saiten.html \
 			kansai-general-saiten.html \
 			kansai-univ-company-saiten.html
+INSTFILES_HTML_SAITEN+=	kanto-2000-09-23-saiten.html \
+			kanto-general-saiten.html
 INSTFILES_HTML_SAITEN+=	mie-saiten.html
 INSTFILES_HTML_SAITEN+=	nagano-saiten.html
 
@@ -69,7 +75,7 @@ INSTFILES+=	${INSTFILES_HTML} \
 		${INSTFILES_HTML_SAITEN} \
 		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
 
-REDIRECT_HTML=	${KANSAI_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
+REDIRECT_HTML=	${KANSAI_HTML} ${KANTO_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
 		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML} \
 		${HIGHSCHOOL_HTML} ${NATIONAL_HTML}
 
@@ -85,7 +91,7 @@ XSLT_OUT=	-param "output-base" "'$(basename $@)'"
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
 
-.INTERMEDIATE: hokkaido.utfxml kansai.utfxml kumamoto.utfxml
+.INTERMEDIATE: hokkaido.utfxml kansai.utfxml kanto.utfxml kumamoto.utfxml
 .INTERMEDIATE: kyushu.utfxml shikoku.utfxml tohoku.utfxml
 .INTERMEDIATE: highschool.utfxml
 .INTERMEDIATE: national.utfxml
@@ -103,9 +109,11 @@ include ${SRCTOPDIR}/rule.mk
 
 index.html:	DEFAULT_XSL=${XHTML10_XSL}
 index.html:	CSSFILE=default.css
+index.html:	XSLT_OUT=-out $@
 
 index.utfhtml:	DEFAULT_XSL_UTF8=${XHTML10_XSL_UTF8}
 index.utfhtml:	CSSFILE=default.css
+index.utfhtml:	XSLT_OUT=-out $@
 
 ${HIGHSCHOOL_HTML:%.html=%.xml}: highschool.xml
 	${LN_S} $< $@
@@ -123,6 +131,12 @@ ${KANSAI_HTML:%.html=%.xml}: kansai.xml
 	${LN_S} $< $@
 
 ${KANSAI_HTML:%.html=%.utfxml}: kansai.utfxml
+	${LN_S} $< $@
+
+${KANTO_HTML:%.html=%.xml}: kanto.xml
+	${LN_S} $< $@
+
+${KANTO_HTML:%.html=%.utfxml}: kanto.utfxml
 	${LN_S} $< $@
 
 ${KUMAMOTO_HTML:%.html=%.xml}: kumamoto.xml
