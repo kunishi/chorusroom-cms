@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.46 2001/01/09 16:36:39 kunishi Exp $
+# $Id: config.mk,v 1.47 2001/01/18 08:41:22 kunishi Exp $
 #
 
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
@@ -96,7 +96,7 @@ SLEEP=		sleep
 TOUCH=		touch
 
 RELPATH!=	./
-INSTTOPDIR=	${LOCALBASE}/www/data/
+INSTTOPDIR=	/home/www/data/
 IMAGEDIR=	/image
 STYLEDIR=	/style
 
