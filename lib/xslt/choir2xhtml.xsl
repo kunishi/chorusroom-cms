@@ -6,6 +6,7 @@
   xmlns='http://www.w3.org/1999/xhtml'
   exclude-result-prefixes='c cr'>
 
+  <xsl:import href="common.xsl"/>
   <xsl:output method='xml' indent='yes' encoding='utf-8'/>
 
   <xsl:template match='/'>
@@ -15,8 +16,10 @@
           <xsl:text>合唱の部屋:合唱団リンク:</xsl:text>
           <xsl:value-of select='c:choir/c:name'/>
         </title>
+	<xsl:call-template name="additional-header"/>
       </head>
       <body>
+	<xsl:call-template name="body-header"/>
         <h1>
           <xsl:value-of select='c:choir/c:name'/>
         </h1>
@@ -25,8 +28,7 @@
             <tr>
               <th align='left'>種別</th>
               <td>
-                <xsl:apply-templates select='c:choir/c:kind'>
-                </xsl:apply-templates>
+                <xsl:apply-templates select='c:choir/c:kind' />
               </td>
             </tr>
             <tr>
@@ -38,12 +40,12 @@
             <tr>
               <th align='left'>ホームページURL</th>
               <td>
-                <a>
-                  <xsl:attribute name='href'>
-                    <xsl:value-of select='c:choir/c:url'/>
-                  </xsl:attribute>
-                  <xsl:value-of select='c:choir/c:url'/>
-                </a>
+		<xsl:for-each select="c:choir/c:url">
+		  <xsl:apply-templates/>
+		  <xsl:if test="not(position()=last())">
+		    <br/>
+		  </xsl:if>
+		</xsl:for-each>
               </td>
             </tr>
             <tr>
@@ -59,6 +61,7 @@
             <xsl:value-of select='c:choir/c:name'/>
           </xsl:with-param>
         </xsl:call-template>
+	<xsl:call-template name="footer"/>
       </body>
     </html>
   </xsl:template>
@@ -66,24 +69,58 @@
   <xsl:template match='c:kind'>
     <xsl:choose>
       <xsl:when test='.="general"'>
-        <xsl:text>一般</xsl:text>
+	<a>
+	  <xsl:attribute name="href">
+	    <xsl:text>/links/Choir/General/</xsl:text>
+	  </xsl:attribute>
+	  <xsl:text>一般</xsl:text>
+	</a>
       </xsl:when>
       <xsl:when test='.="univ"'>
-        <xsl:text>大学</xsl:text>
+	<a>
+	  <xsl:attribute name="href">
+	    <xsl:text>/links/Choir/Univ/</xsl:text>
+	  </xsl:attribute>
+	  <xsl:text>大学</xsl:text>
+	</a>
       </xsl:when>
       <xsl:when test='.="company"'>
-        <xsl:text>職場</xsl:text>
+	<a>
+	  <xsl:attribute name="href">
+	    <xsl:text>/links/Choir/Company/</xsl:text>
+	  </xsl:attribute>
+	  <xsl:text>職場</xsl:text>
+	</a>
       </xsl:when>
       <xsl:when test='.="highschool"'>
-        <xsl:text>中学・高校</xsl:text>
+	<a>
+	  <xsl:attribute name="href">
+	    <xsl:text>/links/Choir/Highschool/</xsl:text>
+	  </xsl:attribute>
+	  <xsl:text>中学・高校</xsl:text>
+	</a>
       </xsl:when>
       <xsl:when test='.="children"'>
-        <xsl:text>児童合唱</xsl:text>
+	<a>
+	  <xsl:attribute name="href">
+	    <xsl:text>/links/Choir/Children/</xsl:text>
+	  </xsl:attribute>
+	  <xsl:text>児童合唱</xsl:text>
+	</a>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text>そのほか</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="c:url">
+    <a>
+      <xsl:attribute name='href'>
+	<xsl:value-of select='c:choir/c:url'/>
+      </xsl:attribute>
+      <xsl:value-of select='c:choir/c:url'/>
+    </a>
   </xsl:template>
 
   <xsl:template name='google-search'>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <project name="chorusRoom" default="wholebuild" basedir=".">
 
   <property file="build.properties"/>
@@ -103,6 +103,7 @@
     <copy todir='${build.xslt}'>
       <fileset dir='${xsltdir}'>
 	<include name='character.xsl'/>
+	<include name="choir2xhtml.xsl"/>
 	<include name='common.xsl'/>
 	<include name='contest-result-choir-piece.xsl'/>
 	<include name='resource.xsl'/>
@@ -327,7 +328,7 @@
 
   <target name='build.xhtml.choir'>
     <xslt basedir='db/choir' destdir='${build.xhtml}/choir'
-	  style='lib/xslt/choir2xhtml.xsl'
+	  style='${build.xslt}/choir2xhtml.xsl'
 	  extension='.xml' processor='trax'
 	  includes='**/*.xml' classpathref='xalan2.class.path'>
     </xslt>

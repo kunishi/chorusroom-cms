@@ -68,14 +68,7 @@
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="concat('mailto:', $maintainerEmail)"/>
 	  </xsl:attribute>
-          <xsl:choose>
-            <xsl:when test="$output-encoding='iso-8859-1'">
-	      <xsl:value-of select="$maintainerName"/>
-            </xsl:when>
-            <xsl:otherwise>
-	      <xsl:value-of select="$maintainerJName"/>
-            </xsl:otherwise>
-          </xsl:choose>
+	  <xsl:value-of select="$maintainerJName"/>
 	  <xsl:text> &lt;</xsl:text>
 	  <xsl:value-of select="$maintainerEmail"/>
 	  <xsl:text>&gt;</xsl:text>

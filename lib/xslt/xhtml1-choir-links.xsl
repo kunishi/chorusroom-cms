@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="1.0"
   xmlns:c="http://www.chorusroom.org/choir"
@@ -177,6 +177,16 @@
         </xsl:attribute>
         <xsl:value-of select="c:name"/>
       </a>
+      <xsl:text> [</xsl:text>
+      <a>
+	<xsl:attribute name="href">
+	  <xsl:value-of select="
+			concat('/choir/',substring(c:urn,0,3),
+			'/',c:urn,'/',c:urn,'.xhtml')"/>
+	</xsl:attribute>
+	<xsl:text>詳細</xsl:text>
+      </a>
+      <xsl:text>]</xsl:text>
       <xsl:if test="not(c:comment='')">
         <br/>
         <xsl:value-of select="c:comment"/>
