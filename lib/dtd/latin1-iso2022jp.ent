@@ -1,7 +1,7 @@
 <!ENTITY Agrave "[`A]"> <!-- latin capital letter A with grave
                                   = latin capital letter A grave,
                                   U+00C0 ISOlat1 -->
-<!ENTITY Aacute "['A]"> <!-- latin capital letter A with acute,
+<!ENTITY Aacute "[&apos;A]"> <!-- latin capital letter A with acute,
                                   U+00C1 ISOlat1 -->
 <!ENTITY Acirc  "[.A]"> <!-- latin capital letter A with circumflex,
                                   U+00C2 ISOlat1 -->
@@ -19,7 +19,7 @@
                                   U+00C7 ISOlat1 -->
 <!ENTITY Egrave "[`E]"> <!-- latin capital letter E with grave,
                                   U+00C8 ISOlat1 -->
-<!ENTITY Eacute "['E]"> <!-- latin capital letter E with acute,
+<!ENTITY Eacute "[&apos;E]"> <!-- latin capital letter E with acute,
                                   U+00C9 ISOlat1 -->
 <!ENTITY Ecirc  "[^E]"> <!-- latin capital letter E with circumflex,
                                   U+00CA ISOlat1 -->
@@ -27,8 +27,8 @@
                                   U+00CB ISOlat1 -->
 <!ENTITY Igrave "[`I]"> <!-- latin capital letter I with grave,
                                   U+00CC ISOlat1 -->
-<!ENTITY Iacute "['I]"> <!-- latin capital letter I with acute,
-                                  U+00CD ISOlat1 -->
+<!ENTITY Iacute "[&apos;I]">
+ <!-- latin capital letter I with acute, U+00CD ISOlat1 -->
 <!ENTITY Icirc  "[^I]"> <!-- latin capital letter I with circumflex,
                                   U+00CE ISOlat1 -->
 <!ENTITY Iuml   "[&quot;I]"> <!-- latin capital letter I with diaeresis,
@@ -38,8 +38,8 @@
                                   U+00D1 ISOlat1 -->
 <!ENTITY Ograve "[`O]"> <!-- latin capital letter O with grave,
                                   U+00D2 ISOlat1 -->
-<!ENTITY Oacute "['O]"> <!-- latin capital letter O with acute,
-                                  U+00D3 ISOlat1 -->
+<!ENTITY Oacute "[&apos;O]">
+ <!-- latin capital letter O with acute, U+00D3 ISOlat1 -->
 <!ENTITY Ocirc  "[^O]"> <!-- latin capital letter O with circumflex,
                                   U+00D4 ISOlat1 -->
 <!ENTITY Otilde "[~O]"> <!-- latin capital letter O with tilde,
@@ -51,8 +51,8 @@
                                   U+00D8 ISOlat1 -->
 <!ENTITY Ugrave "[`U]"> <!-- latin capital letter U with grave,
                                   U+00D9 ISOlat1 -->
-<!ENTITY Uacute "['U]"> <!-- latin capital letter U with acute,
-                                  U+00DA ISOlat1 -->
+<!ENTITY Uacute "[&apos;U]">
+ <!-- latin capital letter U with acute, U+00DA ISOlat1 -->
 <!ENTITY Ucirc  "[^U]"> <!-- latin capital letter U with circumflex,
                                   U+00DB ISOlat1 -->
 <!ENTITY Uuml   "[&quot;U]"> <!-- latin capital letter U with diaeresis,
