@@ -24,6 +24,14 @@
   <property name="classdir" value="${build}/java"/>
   <property name="dtdparser.src" value="${contrib}/dtdparser/source"/>
 
+  <property name="xalan2.bin.dir"
+            value="/usr/local/share/java/xalan-j-2.3.1/bin"/>
+  <path id="xalan2.class.path">
+    <pathelement location="${xalan2.bin.dir}/xml-apis.jar"/>
+    <pathelement location="${xalan2.bin.dir}/xercesImpl.jar"/>
+    <pathelement location="${xalan2.bin.dir}/xalan.jar"/>
+  </path>
+
   <taskdef name='relaxerDtd' classname='org.chorusroom.ant.RelaxerDTD'>
     <classpath>
       <pathelement path='prog/java'/>
@@ -117,12 +125,16 @@
   <target name='build.xslt.contest-result'>
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
           in='${xsltdir}/contest-result.src.xsl'
-          out='${build.xslt}/contest-result.traditional.xsl'>
+          out='${build.xslt}/contest-result.traditional.xsl'
+          outputtype='xml' processor='trax'>
+      <classpath refid='xalan2.class.path'/>
       <param name='output-encoding' expression='iso-2022-jp'/>
     </xslt>
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
           in='${xsltdir}/contest-result.src.xsl'
-          out='${build.xslt}/contest-result.utf8.xsl'>
+          out='${build.xslt}/contest-result.utf8.xsl'
+          outputtype='xml' processor='trax'>
+      <classpath refid='xalan2.class.path'/>
       <param name='output-encoding' expression='utf-8'/>
     </xslt>
   </target>
@@ -130,12 +142,16 @@
   <target name='build.xslt.xhtml1'>
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
       in='${xsltdir}/xhtml1-chorusroom.src.xsl'
-      out='${build.xslt}/xhtml1-chorusroom.traditional.xsl'>
+      out='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
+      outputtype='xml' processor='trax'
+      classpathref='xalan2.class.path'>
       <param name='output-encoding' expression='iso-2022-jp'/>
     </xslt>
     <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
       in='${xsltdir}/xhtml1-chorusroom.src.xsl'
-      out='${build.xslt}/xhtml1-chorusroom.utf8.xsl'>
+      out='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
+      outputtype='xml' processor='trax'
+      classpathref='xalan2.class.path'>
       <param name='output-encoding' expression='utf-8'/>
     </xslt>
   </target>
@@ -143,10 +159,16 @@
   <target name='build.xslt.char-conv'>
     <xslt style='${xsltdir}/gen-char-conv-traditional.xsl'
       in='${techdir}/all-chars.xml'
-      out='${build.xslt}/char-conv-traditional.xsl'/>
+      out='${build.xslt}/char-conv-traditional.xsl'
+      outputtype='xml' processor='trax'
+      classpathref='xalan2.class.path'>
+    </xslt>
     <xslt style='${xsltdir}/gen-char-conv-utf8.xsl'
       in='${techdir}/all-chars.xml'
-      out='${build.xslt}/char-conv-utf8.xsl'/>
+      out='${build.xslt}/char-conv-utf8.xsl'
+      outputtype='xml' processor='trax'
+      classpathref='xalan2.class.path'>
+    </xslt>
   </target>
   
   <!-- build contents -->
@@ -154,8 +176,9 @@
   <target name='build.xhtml.index' depends='build.xslt'>
     <xslt basedir='${xhtml}' destdir='${build}'
       style='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
-      extension='.html'
-      includes='index.xml'>
+      extension='.html' outputtype='xml' processor='trax'
+      includes='index.xml'
+      classpathref='xalan2.class.path'>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -167,9 +190,9 @@
   <target name='build.xhtml.ja' depends='build.xslt'>
     <xslt basedir='${xhtml}' destdir='${build}'
       style='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
-      extension='.html'
-      includes='**/*.xml'
-      excludes='index.xml, info-note2.xml'>
+      extension='.html' outputtype='xml' processor='trax'
+      includes='**/*.xml' excludes='index.xml, info-note2.xml'
+      classpathref='xalan2.class.path'>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -181,8 +204,9 @@
   <target name='build.xhtml.en' depends='build.xslt'>
     <xslt basedir='${xhtml}' destdir='${build}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
-      extension='.html'
-      includes='info-note2.xml'>
+      extension='.html' outputtype='xml' processor='trax'
+      includes='info-note2.xml'
+      classpathref='xalan2.class.path'>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -197,8 +221,9 @@
   <target name='build.xml.jca'>
     <xslt basedir='db/concours/JCA' destdir='${build.concours}/concours/JCA'
       style='${lib}/xslt.build/jca-contest-result-build.xsl'
-      extension='.xml'
-      includes='**/*.xml' excludes='**/lib/*.xml'>
+      extension='.xml' outputtype='xml' processor='trax'
+      includes='**/*.xml' excludes='**/lib/*.xml'
+      classpathref='xalan2.class.path'>
       <param name='docBaseURI' expression='${basedir}/db/concours/JCA/lib/'/>
       <param name='outDir' expression='Redirect/'/>
     </xslt>
@@ -213,8 +238,9 @@
   <target name='build.xml.nhk'>
     <xslt basedir='db/concours/NHK' destdir='${build.concours}/concours/NHK'
       style='${lib}/xslt.build/contest-result-build.xsl'
-      extension='.xml'
-      includes='**/*.xml' excludes='**/lib/*.xml'>
+      extension='.xml' outputtype='xml' processor='trax'
+      includes='**/*.xml' excludes='**/lib/*.xml'
+      classpathref='xalan2.class.path'>
       <param name='docBaseURI' expression='${basedir}/db/concours/NHK/lib/'/>
       <param name='outDir' expression='Redirect/'/>
     </xslt>
@@ -229,9 +255,10 @@
   <target name='build.xml.generic'>
     <xslt basedir='db/concours' destdir='${build.concours}/concours'
       style='${lib}/xslt.build/contest-result-build.xsl'
-      extension='.xml'
+      extension='.xml' outputtype='xml' processor='trax'
       includes='**/*.xml'
-      excludes='**/JCA/**/*.xml, **/NHK/**/*.xml'>
+      excludes='**/JCA/**/*.xml, **/NHK/**/*.xml'
+      classpathref='xalan2.class.path'>
       <param name='docBaseURI' expression='${basedir}/db/concours/lib/'/>
       <param name='outDir' expression='Redirect/'/>
     </xslt>
@@ -249,8 +276,9 @@
     depends='build.xslt.common, build.xslt.contest-result, build.xml.concours'>
     <xslt basedir='${build}/concours' destdir='${build.xhtml}/concours'
       style='${build.lib}/xslt/contest-result.utf8.xsl'
-      extension='.xml'
-      includes='**/*.xml' excludes='**/*-score.xml'>
+      extension='.xml' outputtype='xml' processor='trax'
+      includes='**/*.xml' excludes='**/*-score.xml'
+      classpathref='xalan2.class.path'>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
