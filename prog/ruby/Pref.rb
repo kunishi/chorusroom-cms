@@ -49,7 +49,13 @@ class Pref
     "okinawa"   => "沖縄県"
   }
 
+  @@revlist = @@list.invert
+
   def Pref.jname(name)
-    @@list[name]
+    @@list.fetch(name)
+  end
+
+  def Pref.name(jname)
+    @@revlist.fetch(jname)
   end
 end

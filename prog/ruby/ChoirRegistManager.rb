@@ -16,25 +16,45 @@ class ChoirRegistManager
       Dir.mkdir(path)
     end
     c.write(path + "/" + c.urn + ".xml")
+
     pwd = Dir.pwd
     Dir.chdir(dir)
+
     ref = File.new("idref" + c.urn, "w")
-    ref.puts(choidref(c.urn, "c") + "  " + comment(c.name))
+    ref.puts(linkentry(c))
     ref.close
+
     list = File.new("list", "a")
-    list.puts("<li>" + category(c) + ' ' +
-	      ahref(c.name, c.url) + "  " + enthref(internaluri(c)) +
-	      (new ? " (新規)" : " (変更)") + "</li>")
+    list.puts(newsentry(c, new))
     list.close
+
     rss = File.new("rss", "a")
-    rss.print(c.name + " (" +
-	      KindTag.jname(c.kind) + "・" + c.pref + "、" +
-	      (new ? "新規" : "変更") + ")、")
+    rss.print(rssentry(c, new))
     rss.close
+
     Dir.chdir(pwd)
   end
 
   private
+  def linkentry(choir)
+    choidref(choir.urn, "c") + "  " + comment(choir.name)
+  end
+
+  def newsentry(choir, new)
+    "<li>" +
+      category(choir) + ' ' +
+      ahref(choir.name, choir.url) + "  " +
+      enthref(internaluri(c)) +
+      (new ? " (新規)" : " (変更)") +
+      "</li>"
+  end
+
+  def rssentry(choir, new)
+    choir.name + " (" +
+      KindTag.jname(choir.kind) + "・" + choir.pref + "、" +
+      (new ? "新規" : "変更") + ")、"
+  end
+
   def category(c)
     "[リンク集&gt;合唱団&gt;" + KindTag.jname(c.kind) + "(" + c.pref + ")]"
   end
