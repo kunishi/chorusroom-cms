@@ -1,10 +1,11 @@
 #
-# $Id: GNUmakefile,v 1.4 2001/08/24 02:26:25 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2001/09/11 10:12:00 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
 
 INSTFILES_TRADITIONAL=	asahikawa.html \
+			donan.html \
 			${HYOGO_HTML} \
 			kyoto.html \
 			sapporo.html
