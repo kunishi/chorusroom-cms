@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.4 2001/01/09 10:12:31 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.5 2001/01/10 11:10:25 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
 		xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
-		xmlns:char="http://www.chorusroom.org/character"
 		xmlns:r="http://www.chorusroom.org/resource"
+		xmlns:char="http://www.chorusroom.org/character"
 		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
 		exclude-result-prefixes="cr p char r">
@@ -39,10 +39,16 @@
     </body>
   </xsl:template>
 
-  <xsl:template match="node()|@*">
-    <xsl:copy>
+  <xsl:template match="*">
+    <xsl:element name="{name(.)}">
       <xsl:apply-templates select="node()|@*"/>
-    </xsl:copy>
+    </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="@*">
+    <xsl:attribute name="{name(.)}">
+      <xsl:value-of select="."/>
+    </xsl:attribute>
   </xsl:template>
 
 </xsl:stylesheet>
