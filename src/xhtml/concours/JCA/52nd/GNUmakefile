@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.67 2001/04/02 06:52:04 kunishi Exp $
+# $Id: GNUmakefile,v 1.68 2001/10/04 03:48:57 kunishi Exp $
 
 USE_NEW_SCHEME=	yes
 
@@ -25,6 +25,7 @@ INSTFILES_TRADITIONAL+=	miyagi.html
 INSTFILES_TRADITIONAL+=	nagano.html
 INSTFILES_TRADITIONAL+=	shimane-junior.html shimane-senior.html
 INSTFILES_TRADITIONAL+=	shizuoka.html
+INSTFILES_TRADITIONAL+= tochigi.html
 INSTFILES_TRADITIONAL+=	tohoku.html
 INSTFILES_TRADITIONAL+=	yamagata.html
 INSTFILES_TRADITIONAL+=	${NATIONAL_HTML}
