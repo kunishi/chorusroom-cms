@@ -1,13 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: chugoku.xml,v 1.7 1998/11/22 22:39:35 kunishi Exp $ -->
+    <!-- $Id: chugoku.xml,v 1.8 1999/08/24 09:59:50 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Chugoku</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
-
   <body>
     <h1>第37回中国合唱コンクール</h1>
     <dl>
@@ -24,7 +28,7 @@
       <dd>野口晃さん (akira_noguchi@msn.com)</dd>
     </dl>
     <p>◎が全国大会進出団体です。</p>
-    <hr>
+    <hr/>
     <h2>中学校・同声の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -62,7 +66,7 @@
       <li>徳山市立住吉中 (山口・女声20)</li>
       <li>組合立総社西中コーラス部 (岡山・女声40)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>中学校・混声の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -88,7 +92,7 @@
       <li>倉吉市立西中選択音楽 (鳥取・混声48)</li>
       <li>米子市立後藤ヶ丘中3年選択音楽 (鳥取・混声63)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校の部Aグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -117,7 +121,7 @@
       <li>県立由良育英高校音楽部 (鳥取・女声20)</li>
       <li>県立根雨高校合唱部 (鳥取・女声20)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校の部Bグループ</h2>
     <h3>金賞</h3>
     <ul>
@@ -141,7 +145,7 @@
       <li>県立防府高校合唱部 (山口・混声65)</li>
       <li>県立萩高校合唱部 (山口・混声65)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -153,7 +157,7 @@
 	</ul></li>
       <li>山口大学混声合唱団 (山口・混声67)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -168,13 +172,13 @@
     <h3>銀賞</h3>
     <ul>
       <li>広島市役所合唱団 (広島・男声20)</li>
-      <li><a href="http://plaza5.mbn.or.jp/~oishik/">マツダ合唱団</a> (広島・混声33)</li>
+      <li><a href="http://plaza5.mbn.or.jp/~oishik/" shape="rect">マツダ合唱団</a> (広島・混声33)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部Aグループ</h2>
     <h3>金賞</h3>
     <ul>
-      <li>◎<a href="http://ww1.tiki.ne.jp/~kendzsi/Ubungen.html">コール・ゆうぶんげん</a> (岡山・混声32, 指揮: 高野敦)
+      <li>◎<a href="http://ww1.tiki.ne.jp/~kendzsi/Ubungen.html" shape="rect">コール・ゆうぶんげん</a> (岡山・混声32, 指揮: 高野敦)
 	[山口県知事賞]
 	<ul>
 	  <li>G3</li>
@@ -200,11 +204,11 @@
       <li>J-dur (岡山・女声19)</li>
       <li>境港市民合唱団ハーフェンコール (鳥取・混声27)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部Bグループ</h2>
     <h3>金賞</h3>
     <ul>
-      <li>◎<a href="http://www.nets.or.jp/~matsu/aru/aru_idx.html">合唱団ある</a> (広島・混声69, 指揮: 福原泰弘)
+      <li>◎<a href="http://www.nets.or.jp/~matsu/aru/aru_idx.html" shape="rect">合唱団ある</a> (広島・混声69, 指揮: 福原泰弘)
 	[山口県知事賞, コンクール大賞]
 	<ul>
 	  <li>G1</li>
@@ -228,757 +232,754 @@
       <li>合唱団こぶ (岡山・混声34)</li>
       <li>防府市民合唱団 (山口・混声50)</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>採点表</h2>
-    <h3>中学同声</h3>
     <table>
+      <caption>中学同声</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>大社</th>
-	  <td>1</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>2</td>
-	  <td>金</td>
-	  <td>◎</td>
+	  <th rowspan="1" colspan="1">大社</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎</td>
 	</tr>
 	<tr>
-	  <th>住吉</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>6</td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">住吉</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>小郡</th>
-	  <td>4</td>
-	  <td>4</td>
-	  <td></td>
-	  <td>4</td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">小郡</th>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>総社西</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">総社西</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>高屋</th>
-	  <td></td>
-	  <td>5</td>
-	  <td>6</td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">高屋</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>岩国</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>6</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">岩国</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>安田女子</th>
-	  <td>5</td>
-	  <td></td>
-	  <td>5</td>
-	  <td>5</td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">安田女子</th>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>高梁</th>
-	  <td></td>
-	  <td>6</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">高梁</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>萩東</th>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>3</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">萩東</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>広島女学院</th>
-	  <td>6</td>
-	  <td></td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>5</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">広島女学院</th>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>出雲第二</th>
-	  <td></td>
-	  <td>3</td>
-	  <td>4</td>
-	  <td></td>
-	  <td>4</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">出雲第二</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>出雲第一</th>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎教育長賞</td>
+	  <th rowspan="1" colspan="1">出雲第一</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎教育長賞</td>
 	</tr>
       </tbody>
     </table>
-    <h3>中学混声</h3>
     <table>
+      <caption>中学混声</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>東伯</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">東伯</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>倉吉西</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
+	  <th rowspan="1" colspan="1">倉吉西</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
 	</tr>
 	<tr>
-	  <th>上道</th>
-	  <td></td>
-	  <td></td>
-	  <td>5</td>
-	  <td>2</td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">上道</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>島根大付</th>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>3</td>
-	  <td>4</td>
-	  <td>2</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">島根大付</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>山口大付</th>
-	  <td>4</td>
-	  <td>3</td>
-	  <td>1</td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">山口大付</th>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>後藤ヶ丘</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">後藤ヶ丘</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>三朝</th>
-	  <td>3</td>
-	  <td>5</td>
-	  <td></td>
-	  <td></td>
-	  <td>4</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">三朝</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>出雲第三</th>
-	  <td>1</td>
-	  <td>4</td>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎教育長賞</td>
+	  <th rowspan="1" colspan="1">出雲第三</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎教育長賞</td>
 	</tr>
 	<tr>
-	  <th>総社東</th>
-	  <td>5</td>
-	  <td>2</td>
-	  <td>4</td>
-	  <td>5</td>
-	  <td>5</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">総社東</th>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
       </tbody>
     </table>
-
-    <h3>高校A</h3>
     <table>
+      <caption>高校A</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>山陽女子</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">山陽女子</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>清心</th>
-	  <td>4</td>
-	  <td>2</td>
-	  <td>3</td>
-	  <td>5</td>
-	  <td>3</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">清心</th>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>萩光塩学院</th>
-	  <td>6</td>
-	  <td></td>
-	  <td></td>
-	  <td>6</td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">萩光塩学院</th>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>安田女子</th>
-	  <td>2</td>
-	  <td>6</td>
-	  <td>5</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">安田女子</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>倉吉東</th>
-	  <td></td>
-	  <td>7</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">倉吉東</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">7</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>鳥取西</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">鳥取西</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>由良育英</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">由良育英</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>野田学園</th>
-	  <td></td>
-	  <td>5</td>
-	  <td>6</td>
-	  <td>7</td>
-	  <td>7</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">野田学園</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1">7</td>
+	  <td rowspan="1" colspan="1">7</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>根雨</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">根雨</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>出雲北陵</th>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎県教育長</td>
+	  <th rowspan="1" colspan="1">出雲北陵</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎県教育長</td>
 	</tr>
 	<tr>
-	  <th>津和野</th>
-	  <td>5</td>
-	  <td>4</td>
-	  <td>2</td>
-	  <td>3</td>
-	  <td>4</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">津和野</th>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>倉敷中央</th>
-	  <td>7</td>
-	  <td></td>
-	  <td>7</td>
-	  <td></td>
-	  <td>6</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">倉敷中央</th>
+	  <td rowspan="1" colspan="1">7</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">7</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>松江東</th>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>4</td>
-	  <td>4</td>
-	  <td>5</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">松江東</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
       </tbody>
     </table>
-    <h3>高校B</h3>
     <table>
+      <caption>高校B</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>崇徳</th>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>金</td>
-	  <td>◎</td>
+	  <th rowspan="1" colspan="1">崇徳</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎</td>
 	</tr>
 	<tr>
-	  <th>松江北</th>
-	  <td>2</td>
-	  <td>3</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎県教育長</td>
+	  <th rowspan="1" colspan="1">松江北</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎県教育長</td>
 	</tr>
 	<tr>
-	  <th>岡山城東</th>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">岡山城東</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>防府</th>
-	  <td></td>
-	  <td>2</td>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">防府</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>萩</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銀</td>
+	  <th rowspan="1" colspan="1">萩</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
 	</tr>
       </tbody>
     </table>
-    <h3>大学</h3>
     <table>
+      <caption>大学</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>島根大</th>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎市長賞</td>
+	  <th rowspan="1" colspan="1">島根大</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎市長賞</td>
 	</tr>
 	<tr>
-	  <th>山口大</th>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>2</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">山口大</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
       </tbody>
     </table>
-    <h3>職場</h3>
     <table>
+      <caption>職場</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>広島市役所</th>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>銀</td>
+	  <th rowspan="1" colspan="1">広島市役所</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">銀</td>
 	</tr>
 	<tr>
-	  <th>山陰合同混</th>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎市長賞</td>
+	  <th rowspan="1" colspan="1">山陰合同混</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎市長賞</td>
 	</tr>
 	<tr>
-	  <th>マツダ</th>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">マツダ</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
       </tbody>
     </table>
-    <h3>一般A</h3>
     <table>
+      <caption>一般A</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>ゆうぶんげん</th>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎県知事賞</td>
+	  <th rowspan="1" colspan="1">ゆうぶんげん</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎県知事賞</td>
 	</tr>
 	<tr>
-	  <th>夕なぎ</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">夕なぎ</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>FREIE KUNST</th>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>4</td>
-	  <td>2</td>
-	  <td>5</td>
-	  <td>金</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">FREIE KUNST</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>J-dur</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">J-dur</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>ぴゅあ</th>
-	  <td></td>
-	  <td>6</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">ぴゅあ</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>かっちん</th>
-	  <td>4</td>
-	  <td>4</td>
-	  <td>6</td>
-	  <td>5</td>
-	  <td>2</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">かっちん</th>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>ソレイネ</th>
-	  <td></td>
-	  <td>5</td>
-	  <td>5</td>
-	  <td>4</td>
-	  <td>4</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">ソレイネ</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">4</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>フィオーリ</th>
-	  <td>5</td>
-	  <td>3</td>
-	  <td>2</td>
-	  <td>3</td>
-	  <td>3</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">フィオーリ</th>
+	  <td rowspan="1" colspan="1">5</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>ブンダバ</th>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>6</td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">ブンダバ</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>LSON</th>
-	  <td>6</td>
-	  <td></td>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">LSON</th>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>境港市民</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">境港市民</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>コロネット</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>6</td>
-	  <td></td>
-	  <td>銅</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">コロネット</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">6</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銅</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
       </tbody>
     </table>
-    <h3>一般B</h3>
     <table>
+      <caption>一般B</caption>
       <thead>
 	<tr>
-	  <th></th>
-	  <th>移川</th>
-	  <th>尾形</th>
-	  <th>洲脇</th>
-	  <th>長谷川</th>
-	  <th>吉村</th>
-	  <th>賞</th>
-	  <th>全国</th>
+	  <th rowspan="1" colspan="1"></th>
+	  <th rowspan="1" colspan="1">移川</th>
+	  <th rowspan="1" colspan="1">尾形</th>
+	  <th rowspan="1" colspan="1">洲脇</th>
+	  <th rowspan="1" colspan="1">長谷川</th>
+	  <th rowspan="1" colspan="1">吉村</th>
+	  <th rowspan="1" colspan="1">賞</th>
+	  <th rowspan="1" colspan="1">全国</th>
 	</tr>
       </thead>
       <tbody>
 	<tr>
-	  <th>松江市民</th>
-	  <td></td>
-	  <td>2</td>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">松江市民</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>こぶ</th>
-	  <td>3</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>3</td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">こぶ</th>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>岩国混声</th>
-	  <td>2</td>
-	  <td>3</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>2</td>
-	  <td>金</td>
-	  <td>◎</td>
+	  <th rowspan="1" colspan="1">岩国混声</th>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">2</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎</td>
 	</tr>
 	<tr>
-	  <th>防府市民</th>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-	  <td>3</td>
-	  <td></td>
-	  <td>銀</td>
-	  <td></td>
+	  <th rowspan="1" colspan="1">防府市民</th>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">3</td>
+	  <td rowspan="1" colspan="1"></td>
+	  <td rowspan="1" colspan="1">銀</td>
+	  <td rowspan="1" colspan="1"></td>
 	</tr>
 	<tr>
-	  <th>ある</th>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>1</td>
-	  <td>金</td>
-	  <td>◎県知事賞</td>
+	  <th rowspan="1" colspan="1">ある</th>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">1</td>
+	  <td rowspan="1" colspan="1">金</td>
+	  <td rowspan="1" colspan="1">◎県知事賞</td>
 	</tr>
       </tbody>
     </table>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
-<!-- Created: Mon Sep 28 23:13:47 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Mon Nov 23 07:39:18 JST 1998
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    <!-- Created: Mon Sep 28 23:13:47 JST 1998 -->
+    $Date: 1999/08/24 09:59:50 $
   </body>
 </html>

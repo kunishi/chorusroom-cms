@@ -1,12 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
     <title>51st All Japan Chorus Contest/Fukushima</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
-
   <body>
     <h1>第51回全日本合唱コンクール福島県大会(第52回福島県合唱コンクール)</h1>
     <dl>
@@ -26,7 +30,7 @@
       <dd>一条健志さん (ichijo@seagreen.ocn.ne.jp)</dd>
     </dl>
     <p>○が東北支部大会への代表団体です。</p>
-    <hr>
+    <hr/>
     <h2>中学校の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -184,7 +188,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高校の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -296,7 +300,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>大学の部</h2>
     <h3>銀賞(代表)</h3>
     <ul>
@@ -318,7 +322,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>職場の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -330,7 +334,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>一般の部</h2>
     <h3>金賞(代表)</h3>
     <ul>
@@ -398,11 +402,9 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Thu Sep  3 22:55:01 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Mon Nov 23 18:54:25 JST 1998
-<!-- hhmts end -->
+    $Date: 1999/08/24 10:03:45 $
   </body>
 </html>
