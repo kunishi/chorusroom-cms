@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.42 2000/10/10 16:26:38 kunishi Exp $
+# $Id: config.mk,v 1.43 2000/10/22 14:11:11 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -13,7 +13,7 @@ JDK_LIBDIR=	${JDK_TOPDIR}/lib
 JAVA_CLASSES_DIR=	${LOCALBASE}/share/java/classes
 XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
 XERCES_CLASSPATH= ${JAVA_CLASSES_DIR}/xerces.jar
-XALAN_CLASSPATH= ${JAVA_CLASSES_DIR}/xalan.jar:${JAVA_CLASSES_DIR}/bsf.jar:${JAVA_CLASSES_DIR}/bsfengines.jar
+XALAN_CLASSPATH= ${JAVA_CLASSES_DIR}/xalan.jar:${JAVA_CLASSES_DIR}/bsf.jar
 
 ifdef USE_KAFFE
 JAVA=		${LOCALBASE}/bin/kaffe
