@@ -355,6 +355,7 @@
 	<include name="**/*.gif"/>
       </fileset>
     </copy>
+    <copy file="${images}/favicon.ico" tofile="${build.html}/favicon.ico"/>
     <copy todir="${build.html}/style">
       <fileset dir="${lib}/css">
         <include name="*.css"/>
