@@ -377,6 +377,11 @@
       </fileset>
     </copy>
     <copy file="${lib}/conf/htaccess" tofile="${build.html}/.htaccess"/>
+    <copy todir="${build.html}/info">
+      <fileset dir="${rssdir}">
+	<include name="*.rss"/>
+      </fileset>
+    </copy>
   </target>
 
   <target name="finalize.fixmod">
