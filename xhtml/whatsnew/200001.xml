@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1/strict">
   <head>
     <title>新着情報 (2000年1月分)</title>
@@ -25,6 +27,6 @@
     </dl>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/01/04 02:08:20 $
+    $Date: 2000/01/04 02:11:27 $
   </body>
 </html>
