@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.27 2000/08/28 00:09:34 kunishi Exp $
+# $Id: GNUmakefile,v 1.28 2000/08/28 06:03:11 kunishi Exp $
 #
 
 RELPATH=	.
@@ -51,10 +51,15 @@ ${PUBLIC_DIR}search.cgi:	${NAMAZU_SRC}
 index:
 	cd ${NAMAZU_INDEX_DIR} && mknmz "" "${INSTTOPDIR}"
 
+gcindex:
+	cd ${NAMAZU_INDEX_DIR} && /usr/local/namazu/bin/gcnmz
+
 sync-upload:
 	rsync -Cavu --delete -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
 info-note2.html: %.html : %.xml ${XHTML10_XSL_ISO8859_1}
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_ASCII} > $@
+	${PERL} -pi -e "s@%%TOPDIR%%@${TOPDIR}@g; \
+			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
 	${HTML_FORMAT} -m -utf8 $@

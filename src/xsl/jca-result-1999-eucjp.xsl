@@ -4,7 +4,7 @@
 		xmlns:xt="http://www.jclark.com/xt"
 		xmlns="http://www.w3.org/TR/REC-html40"
 		extension-element-prefix="xt">
-  <xsl:variable name="output-encoding">euc-jp</xsl:variable>
+  <xsl:variable name="output-encoding">iso-2022-jp</xsl:variable>
   <xsl:variable name="suffix">.jhtml</xsl:variable>
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>

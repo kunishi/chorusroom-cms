@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl.in,v 1.17 2000/08/26 02:16:10 kunishi Exp $ -->
+<!-- $Id: result-common.xsl.in,v 1.18 2000/08/28 06:03:12 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -64,11 +64,20 @@
 	<xsl:text>made</xsl:text>
       </xsl:attribute>
     </xsl:element>
+    <xsl:element name="meta">
+      <xsl:attribute name="http-equiv">
+	<xsl:text>Content-Type</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="content">
+	<xsl:text>text/html; charset=</xsl:text>
+	<xsl:value-of select="$output-encoding" />
+      </xsl:attribute>
+    </xsl:element>
   </xsl:template>
   
   <xsl:template name="encodinglink">
     <xsl:element name="p">
-      <xsl:if test="$suffix=$utfhtmlsuffix">
+      <xsl:if test="$suffix='.uhtml'">
 	<xsl:element name="a">
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="concat(@出力, $htmlsuffix)" />
@@ -76,7 +85,7 @@
 	  <xsl:text>EUC-JPページ</xsl:text>
 	</xsl:element>
       </xsl:if>
-      <xsl:if test="$suffix=$htmlsuffix">
+      <xsl:if test="$suffix='.jhtml'">
 	<xsl:element name="a">
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="concat(@出力, $utfhtmlsuffix)"/>

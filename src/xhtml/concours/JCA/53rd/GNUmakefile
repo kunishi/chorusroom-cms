@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.11 2000/08/28 00:09:36 kunishi Exp $
+# $Id: GNUmakefile,v 1.12 2000/08/28 06:03:12 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -60,3 +60,9 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
 			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
 	${HTML_FORMAT} -m -utf8 $@
+
+###
+ishikawa-saiten.jhtml: ishikawa.xml
+ishikawa-saiten.uhtml: ishikawa.utfxml
+kumamoto2.jhtml: kumamoto.xml
+kumamoto2.uhtml: kumamoto.utfxml
