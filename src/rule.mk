@@ -1,14 +1,10 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.37 2001/02/06 08:18:27 kunishi Exp $
+# $Id: rule.mk,v 1.38 2001/02/08 16:07:03 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
 
 .PHONY:		all install clean subdir install-subdir
-
-#define xslt-transform
-#${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
-#endef
 
 define xslt-transform
 ${SCRIPTDIR}/xalan.sh -xml -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
@@ -51,16 +47,12 @@ ifndef USE_NEW_SCHEME
 else
 %.html:	%.xml ${DEFAULT_XSL}
 	$(xslt-transform)
-#	${SLEEP} 1
 	${PATH_CONFIGURE} $@
-#	${XMLDECL_FIX} $@
 %.html:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.traditional.xsl
 
 %.utfhtml: %.xml ${DEFAULT_XSL}
 	$(xslt-transform)
-#	${SLEEP} 1
 	${PATH_CONFIGURE} $@
-#	${XMLDECL_FIX} $@
 %.utfhtml:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.utf8.xsl
 endif
 endif
