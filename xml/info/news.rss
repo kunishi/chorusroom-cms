@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/concours.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1106/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1102/concours.html"></rdf:li>
@@ -23,10 +24,16 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/freetalk.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/nhk.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/notice.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1115/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2003/1115/links.html</link>
+    <description>しばらく更新が滞ってしまいました。申しわけありません。以下のリンクを更新しました: 若い音楽家グループ『セシリア』(一般・長崎県、新規)、カンタータ・ムジカ・Tokyo (一般・東京都、新規)、合唱団イクトゥス(一般・千葉県、新規)、東洋大学白山グリークラブ(大学・東京都、URL変更)、グリーン・エコー(一般・愛知県、新規)、静岡混声合唱団TERRA(一般・静岡県、新規)</description>
+    <dc:date>2003-11-15T12:19</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1115/concours.html">
     <title>全日本合唱コンクール(中学・高校)の結果詳細掲載</title>
