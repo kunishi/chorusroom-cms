@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: nhk-contest-result.src.xsl,v 1.5 2001/01/22 06:45:39 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.src.xsl,v 1.6 2001/01/22 07:59:30 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -44,7 +44,10 @@
   <xsl:template match="cr:given-program">
     <li>
       <xsl:text>[課題曲] </xsl:text>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="p:piece | p:suite | cr:pieceRef">
+	<xsl:with-param name="piece-top" select="."/>
+      </xsl:apply-templates>
+      <xsl:call-template name="piece-players-list"/>
     </li>
   </xsl:template>
 
@@ -66,7 +69,7 @@
 
   <xsl:template name="piece-players-list">
     <xsl:variable name="player-data"
-		  select="child::*[self::cr:piano or self::cr:accompaniment]"/>
+		  select="child::*[self::cr:conductor or self::cr:piano or self::cr:accompaniment]"/>
     <xsl:if test="$player-data">
       <xsl:text> (</xsl:text>
       <xsl:call-template name="players-data"/>

@@ -14,7 +14,7 @@
 	  namespace="http://www.chorusroom.org/character"/>
   <div>
     <hedgeRule label="choirPiece" namespace="http://www.chorusroom.org/xml">
-      <choice>
+      <choice occurs="?">
 	<ref label="piece" namespace="http://www.chorusroom.org/piece"/>
 	<ref label="suite" namespace="http://www.chorusroom.org/piece"/>
       </choice>

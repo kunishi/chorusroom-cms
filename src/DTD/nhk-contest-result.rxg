@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: nhk-contest-result.rxg,v 1.2 2001/01/22 06:45:37 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.rxg,v 1.3 2001/01/22 07:59:30 kunishi Exp $ -->
 <!DOCTYPE grammar PUBLIC "-//RELAX//DTD RELAX Namespace 1.0//JA" "/home/kunishi/share/xml/relax/relaxNamespace.dtd">
 <grammar relaxNamespaceVersion="1.0" grammarVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace">
 
@@ -15,7 +15,7 @@
 
   <div>
     <hedgeRule label="choirPiece" namespace="http://www.chorusroom.org/xml">
-      <choice>
+      <choice occurs="?">
 	<ref label="piece" namespace="http://www.chorusroom.org/piece"/>
 	<ref label="suite" namespace="http://www.chorusroom.org/piece"/>
       </choice>
