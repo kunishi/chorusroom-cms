@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.10 2000/08/28 16:21:54 kunishi Exp $ -->
+<!-- $Id: index.xml,v 1.11 2000/08/30 00:08:18 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -59,9 +59,14 @@
     <h2>大会結果</h2>
     <p>掲載されていない大会結果、追加の情報提供ともにお待ちしております。</p>
     <dl>
+      <dd>北海道支部</dd>
+      <dd>北海道支部大会(中学・高校) (掲載予定)</dd>
       <dt>東北支部</dt>
+      <dd>岩手県大会 (掲載予定)</dd>
       <dd><a href="yamagata.html" shape="rect">山形県大会</a></dd>
+      <dd>福島県大会(高校) (掲載予定)</dd>
       <dt>関東支部</dt>
+      <dd>千葉県大会 (入手見込み)</dd>
       <dd><a href="gunma.html" shape="rect">群馬県大会</a></dd>
       <dt>中部支部</dt>
       <dd><a href="aichi.html" shape="rect">愛知県大会</a></dd>
@@ -70,9 +75,11 @@
       <dd><a href="hyogo.html" shape="rect">兵庫県大会</a></dd>
       <dt>中国支部</dt>
       <dd><a href="okayama.html" shape="rect">岡山県大会</a></dd>
+      <dd>広島県大会 (掲載予定)</dd>
       <dd><a href="yamaguchi.html" shape="rect">山口県大会</a></dd>
       <dt>四国支部</dt>
       <dd><a href="kagawa.html" shape="rect">香川県大会(高等学校の部)</a></dd>
+      <dd>愛媛県大会 (掲載予定)</dd>
       <dt>九州支部</dt>
       <dd><a href="fukuoka.html" shape="rect">福岡県大会</a></dd>
       <dd><a href="saga.html" shape="rect">佐賀県大会</a></dd>
@@ -81,6 +88,6 @@
     </dl>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Revision: 1.10 $ $Date: 2000/08/28 16:21:54 $ GMT</p>
+    <p>$Revision: 1.11 $ $Date: 2000/08/30 00:08:18 $ GMT</p>
   </body>
 </html>
