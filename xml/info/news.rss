@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1221/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1206/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/concours.html"/>
@@ -23,10 +24,16 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1018/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1017/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1015/jca.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1221/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2003/1221/links.html</link>
+    <description>以下のリンクを更新しました: 横浜室内合唱団「海〜kai〜」(一般・神奈川県、新規)、フルトン男声合唱団(一般・宮崎、URL変更)、安積合唱協会(一般・福島県、新規)、混声合唱団 翠声会(一般・神奈川県、URL変更)</description>
+    <dc:date>2003-12-21T14:20</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1206/links.html">
     <title>本日のリンク更新</title>
@@ -139,17 +146,6 @@
     <link>http://www.chorusroom.org/info/2003/1017/links.html</link>
     <description>以下のリンクを更新しました: 平塚男声合唱団コール・ブラックス(一般・神奈川、URL変更)、静岡合唱団(一般・静岡、URL変更)</description>
     <dc:date>2003-10-17</dc:date>
-  </item>
-
-  <item rdf:about="http://www.chorusroom.org/info/2003/1015/jca.html">
-    <title>全日本合唱コンクール地区大会の結果追記</title>
-    <link>http://www.chorusroom.org/info/2003/1015/jca.html</link>
-    <description>
-      以下の第56回全日本合唱コンクール地区大会を追加しました: 
-      関西大会おかあさんの部(新規)、関東大会職場・一般の部(曲目追加)、
-      関西大会一般の部(曲目追加)
-    </description>
-    <dc:date>2003-10-15</dc:date>
   </item>
 
 </rdf:RDF>
