@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.26 2000/09/04 02:56:13 kunishi Exp $
+# $Id: GNUmakefile,v 1.27 2000/09/04 06:43:36 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -19,8 +19,11 @@ INSTFILES_HTML+=	mie.html
 INSTFILES_HTML+=	miyagi.html
 INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
+INSTFILES_HTML+=	${INSTFILES_HTML_SHIKOKU}
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
+
+INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
 
 INSTFILES_NOBUILD+=	hyogo.xml
 
@@ -57,10 +60,6 @@ include ${SRCTOPDIR}/rule.mk
 
 ###
 
-#${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
-#	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
-#	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
-
 index.html:	%.html : %.xml ${XHTML10_XSL}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@
 	${PATH_CONFIGURE} $@
@@ -70,6 +69,12 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
+
+${INSTFILES_HTML_SHIKOKU:%.html=%.jhtml}: shikoku.xml
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+
+${INSTFILES_HTML_SHIKOKU:%.html=%.uhtml}: shikoku.utfxml
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ###
 chiba-saiten.jhtml: chiba.xml
