@@ -6,10 +6,13 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: kagoshima.xml,v 1.8 2000/10/03 04:26:13 kunishi Exp $ -->
+    <!-- $Id: kagoshima.xml,v 1.9 2000/10/03 04:38:26 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>51st All Japan Chorus Contest/Kagoshima</title>
+    <style type="text/css" xml:space="preserve">
+      body { background-image: url(%%IMAGEDIR%%/background.png); }
+    </style>
   </head>
   <body>
     <h1>第53回九州合唱コンクール鹿児島県予選</h1>
@@ -269,7 +272,7 @@
     <div class="footer">
       <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
       <!-- Created: Sun Aug 23 22:59:03 JST 1998 -->
-      <p>$Date: 2000/10/03 04:26:13 $ GMT</p>
+      <p>$Date: 2000/10/03 04:38:26 $ GMT</p>
     </div>
   </body>
 </html>
