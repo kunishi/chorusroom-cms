@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-1999-common.xsl,v 1.11 1999/11/20 14:54:08 kunishi Exp $ -->
+<!-- $Id: jca-result-1999-common.xsl,v 1.12 1999/11/20 15:29:08 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -284,6 +284,9 @@
   <xsl:template match="団体">
     <xsl:element name="li">
       <xsl:if test="@大会代表[.='yes']">
+	<xsl:text>◎</xsl:text>
+      </xsl:if>
+      <xsl:if test="@来年度シード[.='yes']">
 	<xsl:text>◎</xsl:text>
       </xsl:if>
       <xsl:apply-templates select="団体名"/>
