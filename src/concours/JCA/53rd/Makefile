@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.37 2000/09/27 04:30:56 kunishi Exp $
+# $Id: Makefile,v 1.38 2000/09/30 17:17:44 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -16,6 +16,7 @@ INSTFILES_HTML+=	hyogo.html
 INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
 INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
+INSTFILES_HTML+=	${INSTFILES_HTML_KANSAI}
 INSTFILES_HTML+=	kanto.html
 INSTFILES_HTML+=	kumamoto.html kumamoto2.html
 INSTFILES_HTML+=	${INSTFILES_HTML_KYUSHU}
@@ -29,8 +30,9 @@ INSTFILES_HTML+=	tokyo.html
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
 
-INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
+INSTFILES_HTML_KANSAI=	kansai-highschoo.html
 INSTFILES_HTML_KYUSHU=	kyushu-2000-09-10.html
+INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
 
 INSTFILES_NOBUILD+=	hyogo.xml
 
@@ -78,6 +80,12 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
+
+${INSTFILES_HTML_KANSAI:%.html=%.jhtml}: kansai.xml
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+
+${INSTFILES_HTML_KANSAI:%.html=%.uhtml}: kansai.utfxml
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ${INSTFILES_HTML_KYUSHU:%.html=%.jhtml}: kyushu.xml
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
