@@ -302,14 +302,16 @@
 
   <xsl:template match="c:choir">
     <xsl:param name="top" select="/"/>
-    <xsl:apply-templates select="c:choir-name"/>
-    <xsl:call-template name="choir-attr-list"/>
-    <xsl:call-template name="special-prize-list"/>
-    <br/>
-    <xsl:call-template name="choir-data">
-      <xsl:with-param name="top" select="$top"/>
-    </xsl:call-template>
-    <xsl:apply-templates select="c:choir-note"/>
+    <p>
+      <xsl:apply-templates select="c:choir-name"/>
+      <xsl:call-template name="choir-attr-list"/>
+      <xsl:call-template name="special-prize-list"/>
+      <br/>
+      <xsl:call-template name="choir-data">
+	<xsl:with-param name="top" select="$top"/>
+      </xsl:call-template>
+      <xsl:apply-templates select="c:choir-note"/>
+    </p>
     <xsl:apply-templates select="c:program"/>
   </xsl:template>
 
