@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns="http://purl.org/rss/1.0/"
+	 xml:lang="ja">
+  <channel rdf:about="http://www.chorusroom.org/info/news.rss">
+    <title>合唱の部屋 - Chorus Room</title>
+    <link>http://www.chorusroom.org</link>
+    <description>コンクール情報や合唱関連リンクを中心に提供しています</description>
+    <items>
+      <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml"></rdf:li>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml">
+    <title>第56回関西コンクール(中学校・高等学校部門)</title>
+    <link>http://www.chorusroom.org/concours/JCA/56th/kansai-20030923.xhtml</link>
+    <description>2003年9月23日に行われた、全日本合唱コンクール関西大会中学・高校の部の結果です。長峰中、立花中、武庫川女中、灘中、淀川工高、武庫川女高、西城陽高が代表になりました。</description>
+    <dc:date>2003-09-24</dc:date>
+  </item>
+</rdf:RDF>
