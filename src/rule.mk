@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.30 2000/10/10 16:26:38 kunishi Exp $
+# $Id: rule.mk,v 1.31 2000/11/09 04:32:00 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -29,12 +29,18 @@ ifndef SPECIAL_RULES
 %.utfhtml: TIDY_ENCODING=-utf8
 %.utfhtml: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
 
-%.u8.html: %.utfxml ${DEFAULT_XSL_UTF8}
+# new rules for reflecting Charset declaration
+%.html.euc-jp:	%.xml ${DEFAULT_XSL}
 	$(xslt-transform)
 	${SLEEP} 1
 	$(fixhtml)
-%.u8.html: TIDY_ENCODING=-utf8
-%.u8.html: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
+
+%.html.utf8: %.utfxml ${DEFAULT_XSL_UTF8}
+	$(xslt-transform)
+	${SLEEP} 1
+	$(fixhtml)
+%.html.utf8: TIDY_ENCODING=-utf8
+%.html.utf8: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
 
 %.style: %.xsl
 	${ENV} ${JAVA_ENV} ${XSLT_COMPILER} -xsl $< -lxcout $@
