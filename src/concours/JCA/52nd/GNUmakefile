@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.29 1999/09/27 09:48:11 kunishi Exp $
+# $Id: GNUmakefile,v 1.30 1999/09/28 11:30:44 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -11,7 +11,7 @@ EUCTOJIS=	nkf
 INSTFILES+=	index.html index.utfhtml
 INSTFILES+=	aichi.html aichi.utfhtml
 INSTFILES+=	chiba.html chiba.utfhtml
-INSTFILES+=	chubu.html chubu.utfhtml
+INSTFILES+=	chubu.html chubu.utfhtml chubu-saiten.html chubu-saiten.utfhtml
 INSTFILES+=	chugoku.html chugoku.utfhtml
 INSTFILES+=	fukuoka.html fukuoka.utfhtml
 INSTFILES+=	fukushima.html fukushima.utfhtml
@@ -51,8 +51,8 @@ index.html: %.html : %.xml ${XHTML10_XSL}
 index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 
-kansai-09-23.html:	kansai.xml
+kansai-09-23.html kansai-10-17.html:	kansai.xml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-kansai-09-23.utfhtml:	kansai.utfxml
+kansai-09-23.utfhtml kansai-10-17.utfhtml:	kansai.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
