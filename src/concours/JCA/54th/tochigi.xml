@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns='http://www.chorusroom.org/xml'
+  xmlns:p='http://www.chorusroom.org/piece'
+  xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: tochigi.xml,v 1.1 2001/09/05 05:16:11 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第38回 栃木県合唱コンクール</competition-name>
+  <result output="tochigi">
+    <date day-of-week="sun" holiday="false">2001-09-02</date>
+    <hall>宇都宮市文化会館大ホール</hall>
+    <referee shortname="有村">有村祐輔</referee>
+    <referee shortname="磯山">礒山雅</referee>
+    <referee shortname="大島">大島幾雄</referee>
+    <referee shortname="古橋">古橋富士雄</referee>
+    <reporter anonymous="true">
+      <reporter-name>川俣貴明</reporter-name>
+      <reporter-email anonymous="false">kawamaata@par.odn.ne.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校部門混声</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>黒磯市立黒磯北中学校合唱部</choir-name>
+	<number-of-members>40</number-of-members>
+	<conductor>小森洋代</conductor>
+	<piano>中村文子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>ドリアン助川</p:words-by>
+	      <p:composed-by>寺島陸也</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>変</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声3部合唱組曲</p:titlePrefix>
+		<p:mainTitle>かみさまへのてがみ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>かみさまのてがみ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>黒磯市立東那須野中学校合唱部</choir-name>
+	<number-of-members>40</number-of-members>
+	<conductor>井元那月</conductor>
+	<piano>磯知子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>須田貢正</p:words-by>
+	      <p:composed-by>佐藤敏直</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>旅の途の風に</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>旅の途の風に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>岩間芳樹</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>冬・風蓮湖</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>中学校部門同声</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>宇都宮市立雀宮中学校合唱部</choir-name>
+	<number-of-members>30</number-of-members>
+	<conductor>松ヶ下光一</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Zoltan Kodaly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Isten Kovacsa</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Zoltan Kodaly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Golya-nota</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Zoltan Kodaly</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Egyetem, begyetem</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Lajos Bardos</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Huszartanc</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>宇都宮市立横川中学校合唱部</choir-name>
+	<number-of-members>41</number-of-members>
+	<conductor>谷田部和子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Bela Bartok</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Korusmuvei</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Csujogato</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Leanynezo</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Leanykero</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>宇都宮市立鬼怒中学校合唱部</choir-name>
+	<number-of-members>15</number-of-members>
+	<conductor>束原定雄</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>紀の国のこどもうた2</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>チーンワーン</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>なわとびあそび</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>宇都宮市立旭中学校合唱部</choir-name>
+	<number-of-members>38</number-of-members>
+	<conductor>金田典代</conductor>
+	<piano>堀田紗来</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>関根栄一</p:words-by>
+	      <p:composed-by>湯山昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>かもめの歌</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校部門Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>県立宇都宮中央女子高等学校合唱部</choir-name>
+	<conductor>江面誠子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Ernst Krenek</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Funf gebete</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Dass Angst uns packt oder uber-mut</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIII">III</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Wie alles him du gibst</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Hor uns, hor uns, Gott!</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>大田原女子高等学校合唱部</choir-name>
+	<conductor>田原富美子</conductor>
+	<piano>國井睦美</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>やわらかいいのち</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>県立栃木女子高等学校コーラス部</choir-name>
+	<conductor>須藤礼子</conductor>
+	<prize nickname="seeded">シード</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>村山槐多</p:words-by>
+	      <p:composed-by>西村朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>青色廃園</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>君に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>県立真岡女子高等学校合唱部</choir-name>
+	<conductor>川田明良</conductor>
+	<prize nickname="seeded">シード</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Florent Schmitt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>De vives voix</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Vetyver</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Enserree dans le port</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Pastouettes</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校部門Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>県立宇都宮女子高等学校合唱部</choir-name>
+	<number-of-members>73</number-of-members>
+	<conductor>沼尾守夫</conductor>
+	<piano>浜本智代</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Gyorgy Orban</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Missa Nona</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus-Benedictus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>Lux Aeterna</choir-name>
+	<number-of-members>16</number-of-members>
+	<conductor>内田等</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Francis Poulenc</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Quatre motets pour le temps de noel</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanI">I</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>O Magnum Mysterium</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Quem vidistis pastores dicite</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char>.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Hodie Christus Natus est</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>栃木県ジュニア合唱団</choir-name>
+	<conductor>須藤礼子</conductor>
+	<piano>高岩利恵</piano>
+	<prize nickname="seeded">シード</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>与謝野晶子</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像画・絵師よ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>絵師よ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
