@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.30 2000/09/08 04:20:06 kunishi Exp $
+# $Id: Makefile,v 1.31 2000/09/12 11:00:11 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -15,6 +15,7 @@ INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
 INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	kumamoto.html kumamoto2.html
+INSTFILES_HTML+=	${INSTFILES_HTML_KYUSHU}
 INSTFILES_HTML+=	mie.html mie-saiten.html
 INSTFILES_HTML+=	miyagi.html
 INSTFILES_HTML+=	okayama.html
@@ -25,6 +26,7 @@ INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
 
 INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
+INSTFILES_HTML_KYUSHU=	kyushu-2000-09-03.html
 
 INSTFILES_NOBUILD+=	hyogo.xml
 
@@ -72,6 +74,12 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -utf8 $@
+
+${INSTFILES_HTML_KYUSHU:%.html=%.jhtml}: kyushu.xml
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
+
+${INSTFILES_HTML_KYUSHU:%.html=%.uhtml}: kyushu.utfxml
+	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ${INSTFILES_HTML_SHIKOKU:%.html=%.jhtml}: shikoku.xml
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
