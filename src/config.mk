@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.41 2000/10/09 17:06:17 kunishi Exp $
+# $Id: config.mk,v 1.42 2000/10/10 16:26:38 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -70,6 +70,7 @@ SYNC_TOOL=	rsync -au
 
 BASENAME=	basename
 CP=		cp
+ECHO=		echo
 ENV?=		env
 LN_S=		ln -s
 MV=		mv
@@ -98,3 +99,5 @@ XHTML10_XSL_UTF8=	${XSLDIR}/xhtml10-utf8.xsl
 XHTML10_XSL_ASCII=	${XSLDIR}/xhtml10-ascii.xsl
 DEFAULT_XSL?=	${XHTML10_XSL}
 DEFAULT_XSL_UTF8?=	${XHTML10_XSL_UTF8}
+
+TOCFILE=	${SRCTOPDIR}toc.xml
