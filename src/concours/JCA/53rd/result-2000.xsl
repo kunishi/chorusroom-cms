@@ -6,41 +6,69 @@
   <xsl:output method="html"/>
 
   <xsl:template match="大会">
-    <html>
-      <head>
-	<title>
+    <xsl:element name="html">
+      <xsl:element name="head">
+	<xsl:element name="title">
 	  <xsl:value-of select="大会名"/>
-	</title>
+	</xsl:element>
 	<xsl:call-template name="additional-header"/>
-      </head>
-      <body>
-	<h1><xsl:value-of select="大会名"/></h1>
+      </xsl:element>
+      <xsl:element name="body">
+	<xsl:element name="h1">
+	  <xsl:value-of select="大会名"/>
+	</xsl:element>
 	<xsl:apply-templates select="開催日別結果"/>
 	<xsl:call-template name="footer"/>
-      </body>
-    </html>
+      </xsl:element>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template name="additional-header">
-    <link href="../../style/jca-concour.css" type="text/css" rel="stylesheet">
-    </link>
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    </link>
+    <xsl:element name="link">
+      <xsl:attribute name="href">
+	<xsl:text>../../style/jca-concour.css</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="type">
+	<xsl:text>text/css</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="rel">
+	<xsl:text>stylesheet</xsl:text>
+      </xsl:attribute>
+    </xsl:element>
+    <xsl:element name="link">
+      <xsl:attribute name="href">
+	<xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="rev">
+	<xsl:text>made</xsl:text>
+      </xsl:attribute>
+    </xsl:element>
   </xsl:template>
   
   <xsl:template name="footer">
-    <hr></hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</a></address>
-    <p>この文書は<xsl:value-of select="/大会/CVSID"/>から自動的に生成されました。</p>
+    <xsl:element name="hr"/>
+    <xsl:element name="address">
+      <xsl:element name="a">
+	<xsl:attribute name="href">
+	  <xsl:text>mailto:kunishi@c.oka-pu.ac.jp</xsl:text>
+	</xsl:attribute>
+        <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+      </xsl:element>
+    </xsl:element>
+    <xsl:element name="p">
+      <xsl:text>この文書は</xsl:text>
+      <xsl:value-of select="/大会/CVSID"/>
+      <xsl:text>から自動的に生成されました。</xsl:text>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="開催日別結果">
-    <dl>
+    <xsl:element name="dl">
       <xsl:call-template name="開催日リスト"/>
       <xsl:apply-templates select="開催場所"/>
       <xsl:call-template name="審査員リスト"/>
       <xsl:call-template name="報告者リスト"/>
-    </dl>
+    </xsl:element>
     <xsl:element name="hr"/>
     <xsl:apply-templates select="注記"/>
     <xsl:apply-templates select="部門結果"/>
@@ -48,54 +76,76 @@
 
   <xsl:template name="開催日リスト">
     <xsl:if test="child::開催日">
-      <dt>開催日</dt>
-      <dd><xsl:apply-templates select="開催日"/></dd>
+      <xsl:element name="dt">
+	<xsl:text>開催日</xsl:text>
+      </xsl:element>
+      <xsl:element name="dd">
+	<xsl:apply-templates select="開催日"/>
+      </xsl:element>
     </xsl:if>
   </xsl:template>
+
   <xsl:template match="開催日">
-    <xsl:value-of select="."/>(<xsl:value-of select="./@曜日"/>)
-    <xsl:if test="following-sibling::開催日">・</xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:text>(</xsl:text>
+    <xsl:value-of select="./@曜日"/>
+    <xsl:text>)</xsl:text>
+    <xsl:if test="following-sibling::開催日">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="開催場所">
-    <dt>開催場所</dt>
-    <dd><xsl:value-of select="."/></dd>
+    <xsl:element name="dt">
+      <xsl:text>開催場所</xsl:text>
+    </xsl:element>
+    <xsl:element name="dd">
+      <xsl:value-of select="."/>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template name="審査員リスト">
     <xsl:if test="child::審査員">
-      <dt>審査員</dt>
-      <dd><xsl:apply-templates select="審査員"/></dd>
+      <xsl:element name="dt">
+	<xsl:text>審査員</xsl:text>
+      </xsl:element>
+      <xsl:element name="dd">
+	<xsl:apply-templates select="審査員"/>
+      </xsl:element>
     </xsl:if>
   </xsl:template>
   <xsl:template match="審査員">
     <xsl:value-of select="."/>
     <xsl:if test="@肩書 or @備考">
-      (
+      <xsl:text>(</xsl:text>
       <xsl:if test="@肩書">
 	<xsl:value-of select="@肩書"/>
-	<xsl:if test="@備考">、</xsl:if>
+	<xsl:if test="@備考"><xsl:text>、</xsl:text></xsl:if>
       </xsl:if>
       <xsl:if test="@備考"><xsl:value-of select="@備考"/></xsl:if>
-      )
+      <xsl:text>)</xsl:text>
     </xsl:if>
     <xsl:if test="following-sibling::審査員">
-      、
+      <xsl:text>、</xsl:text>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="報告者リスト">
-    <dt>報告者</dt>
+    <xsl:element name="dt">
+      <xsl:text>報告者</xsl:text>
+    </xsl:element>
     <xsl:apply-templates select="報告者"/>
   </xsl:template>
   <xsl:template match="報告者">
-    <dd>
-      <xsl:if test="@匿名希望[.='yes']">匿名希望</xsl:if>
+    <xsl:element name="dd">
+      <xsl:if test="@匿名希望[.='yes']">
+	<xsl:text>匿名希望</xsl:text>
+      </xsl:if>
       <xsl:if test="not(@匿名希望[.='yes'])">
 	<xsl:apply-templates select="報告者氏名"/>
 	<xsl:apply-templates select="email"/>
       </xsl:if>
-    </dd>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="報告者氏名">
@@ -109,79 +159,115 @@
 
   <xsl:template match="email">
     <xsl:if test="not(@email匿名[.='yes'])">
-      (<xsl:value-of select="."/>)
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="."/>
+      <xsl:text>)</xsl:text>
     </xsl:if>
   </xsl:template>
 
   <xsl:template match="注記">
-    <ul>
+    <xsl:element name="ul">
       <xsl:apply-templates/>
-    </ul>
+    </xsl:element>
     <xsl:element name="hr"/>
   </xsl:template>
   <xsl:template match="注記事項">
-    <li><p><xsl:value-of select="."/></p></li>
+    <xsl:element name="li">
+      <xsl:element name="p">
+	<xsl:value-of select="."/>
+      </xsl:element>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="部門結果">
     <xsl:apply-templates select="部門名"/>
     <xsl:if test="団体[賞[.='シード']]">
-      <h3>シード団体</h3>
-      <ul>
+      <xsl:element name="h3">
+	<xsl:text>シード団体</xsl:text>
+      </xsl:element>
+      <xsl:element name="ul">
 	<xsl:apply-templates select="団体[賞[.='シード']]"/>
-      </ul>
+      </xsl:element>
     </xsl:if>
     <xsl:if test="団体[賞[.='金賞']]">
-      <h3>金賞</h3>
-      <ul>
+      <xsl:element name="h3">
+	<xsl:text>金賞</xsl:text>
+      </xsl:element>
+      <xsl:element name="ul">
 	<xsl:apply-templates select="団体[賞[.='金賞']]"/>
-      </ul>
+      </xsl:element>
     </xsl:if>
     <xsl:if test="団体[賞[.='銀賞']]">
-      <h3>銀賞</h3>
-      <ul>
+      <xsl:element name="h3">
+	<xsl:text>銀賞</xsl:text>
+      </xsl:element>
+      <xsl:element name="ul">
 	<xsl:apply-templates select="団体[賞[.='銀賞']]"/>
-      </ul>
+      </xsl:element>
     </xsl:if>
     <xsl:if test="団体[賞[.='銅賞']]">
-      <h3>銅賞</h3>
-      <ul>
+      <xsl:element name="h3">
+	<xsl:text>銅賞</xsl:text>
+      </xsl:element>
+      <xsl:element name="ul">
 	<xsl:apply-templates select="団体[賞[.='銅賞']]"/>
-      </ul>
+      </xsl:element>
     </xsl:if>
     <xsl:if test="団体[not(賞)]">
-      <h3>そのほか</h3>
-      <ul>
+      <xsl:element name="h3">
+	<xsl:text>そのほか</xsl:text>
+      </xsl:element>
+      <xsl:element name="ul">
 	<xsl:apply-templates select="団体[not(賞)]"/>
-      </ul>
+      </xsl:element>
     </xsl:if>
   </xsl:template>
   <xsl:template match="部門名">
-    <h2><xsl:value-of select="."/></h2>
+    <xsl:element name="h2">
+      <xsl:value-of select="."/>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="団体">
-    <li>
-      <xsl:if test="@大会代表[.='yes']">◎</xsl:if>
+    <xsl:element name="li">
+      <xsl:if test="@大会代表[.='yes']">
+	<xsl:text>◎</xsl:text>
+      </xsl:if>
       <xsl:apply-templates select="団体名"/>
-      (<xsl:apply-templates select="所属県"/>
-      <xsl:apply-templates select="形態"/>
-      <xsl:apply-templates select="登録人数"/>
-      <xsl:apply-templates select="指揮者"/>
-      <xsl:apply-templates select="ピアノ"/>
-      <xsl:apply-templates select="共演者"/>)
+      <xsl:call-template name="団体データ"/>
       <xsl:call-template name="特別賞リスト"/>
       <xsl:apply-templates select="団体備考"/>
       <xsl:apply-templates select="曲目"/>
-    </li>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="団体名">
     <xsl:if test="@url">
-      <a href="{@url}"><xsl:value-of select="."/></a>
+      <xsl:element name="a">
+	<xsl:attribute name="href">
+	  <xsl:value-of select="@url"/>
+	</xsl:attribute>
+	<xsl:value-of select="."/>
+      </xsl:element>
     </xsl:if>
     <xsl:if test="not(@url)">
       <xsl:value-of select="node()"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="団体データ">
+    <xsl:if test="(所属県 and not(//大会名[@県大会]))
+                  or 形態 or 登録人数 or 指揮者 or ピアノ or 共演者">
+      <xsl:text> (</xsl:text>
+      <xsl:if test="not(//大会名[@県大会='yes'])">
+	<xsl:apply-templates select="所属県"/>
+      </xsl:if>
+      <xsl:apply-templates select="形態"/>
+      <xsl:apply-templates select="登録人数"/>
+      <xsl:apply-templates select="指揮者"/>
+      <xsl:apply-templates select="ピアノ"/>
+      <xsl:apply-templates select="共演者"/>
+      <xsl:text>)</xsl:text>
     </xsl:if>
   </xsl:template>
 
@@ -192,7 +278,9 @@
 	    and not(following-sibling::登録人数)
 	    and (following-sibling::指揮者
 	    or following-sibling::ピアノ
-	    or following-sibling::共演者)">, </xsl:if>
+	    or following-sibling::共演者)">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="形態">
@@ -201,27 +289,46 @@
   </xsl:template>
 
   <xsl:template match="登録人数">
-    <xsl:value-of select="."/>名
-    <xsl:if test="following-sibling::指揮者 or following-sibling::ピアノ">, </xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:text>名</xsl:text>
+    <xsl:if test="following-sibling::指揮者 or following-sibling::ピアノ">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="指揮者">
-    <xsl:if test="not(preceding-sibling::指揮者)">指揮: </xsl:if>
+    <xsl:if test="not(preceding-sibling::指揮者)">
+      <xsl:text>指揮: </xsl:text>
+    </xsl:if>
     <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::指揮者">・</xsl:if>
-    <xsl:if test="following-sibling::ピアノ|following-sibling::共演者">, </xsl:if>
+    <xsl:if test="following-sibling::指揮者">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
+    <xsl:if test="following-sibling::ピアノ|following-sibling::共演者">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="ピアノ">
-    <xsl:if test="not(preceding-sibling::ピアノ)">ピアノ: </xsl:if>
+    <xsl:if test="not(preceding-sibling::ピアノ)">
+      <xsl:text>ピアノ: </xsl:text>
+    </xsl:if>
     <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::ピアノ">・</xsl:if>
-    <xsl:if test="following-sibling::共演者">, </xsl:if>
+    <xsl:if test="following-sibling::ピアノ">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
+    <xsl:if test="following-sibling::共演者">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="共演者">
-    <xsl:value-of select="@演奏楽器"/>: <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::共演者">, </xsl:if>
+    <xsl:value-of select="@演奏楽器"/>
+    <xsl:text>: </xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:if test="following-sibling::共演者">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="賞">
@@ -229,58 +336,79 @@
 
   <xsl:template name="特別賞リスト">
     <xsl:if test="特別賞">
-      [<xsl:apply-templates select="特別賞"/>]
+      <xsl:text> [</xsl:text>
+      <xsl:apply-templates select="特別賞"/>
+      <xsl:text>]</xsl:text>
     </xsl:if>
   </xsl:template>
   <xsl:template match="特別賞">
     <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::特別賞">, </xsl:if>
+    <xsl:if test="following-sibling::特別賞">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="団体備考">
-    (<xsl:value-of select="."/>)
+    <xsl:text> (</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>)</xsl:text>
   </xsl:template>
 
   <xsl:template match="曲目">
-    <ul>
+    <xsl:element name="ul">
       <xsl:apply-templates select="課題曲"/>
       <xsl:apply-templates select="自由曲"/>
-    </ul>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="課題曲">
-    <li><xsl:value-of select="text()"/></li>
+    <xsl:element name="li">
+      <xsl:value-of select="text()"/>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="自由曲">
-    <li>
+    <xsl:element name="li">
       <xsl:apply-templates select="出典"/>
       <xsl:apply-templates select="作詩"/>
       <xsl:apply-templates select="作曲"/>
       <xsl:apply-templates select="編曲"/>
-      <xsl:if test="出典 or 作詩 or 作曲 or 編曲">: </xsl:if>
+      <xsl:if test="出典 or 作詩 or 作曲 or 編曲">
+	<xsl:text>: </xsl:text>
+      </xsl:if>
       <xsl:if test="曲名"><xsl:apply-templates select="曲名"/></xsl:if>
       <xsl:if test="組曲"><xsl:apply-templates select="組曲"/></xsl:if>
-    </li>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="出典">
     <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::作詩 or following-sibling::作曲 or following-sibling::編曲 or following-sibling::訳詩">・</xsl:if>
+    <xsl:if test="following-sibling::作詩 or following-sibling::作曲
+                  or following-sibling::編曲 or following-sibling::訳詩">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="作詩">
-    <xsl:value-of select="."/>作詩
-    <xsl:if test="following-sibling::作曲">・</xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:text>作詩</xsl:text>
+    <xsl:if test="following-sibling::作曲">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="作曲">
-    <xsl:value-of select="."/>作曲
-    <xsl:if test="following-sibling::編曲">・</xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:text>作曲</xsl:text>
+    <xsl:if test="following-sibling::編曲">
+      <xsl:text>・</xsl:text>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="編曲">
-    <xsl:value-of select="."/>編曲
+    <xsl:value-of select="."/>
+    <xsl:text>編曲</xsl:text>
   </xsl:template>
   <xsl:template match="訳詩">
-    <xsl:value-of select="."/>訳詩
+    <xsl:value-of select="."/>
+    <xsl:text>訳詩</xsl:text>
   </xsl:template>
 
   <xsl:template match="曲名">
@@ -289,8 +417,9 @@
 
   <xsl:template match="組曲">
     <xsl:value-of select="組曲名"/>
-    <xsl:if test="@抜粋 = 'yes'">から</xsl:if>
-     
+    <xsl:if test="@抜粋 = 'yes'">
+      <xsl:text>から</xsl:text>
+    </xsl:if>
     <xsl:apply-templates select="組曲ピース"/>
   </xsl:template>
 
@@ -299,10 +428,21 @@
   </xsl:template>
 
   <xsl:template match="ピース曲名">
-    「<xsl:if test="@ピース番号"><xsl:value-of select="@ピース番号"/>. </xsl:if>
-    <xsl:value-of select="."/>」
+    <xsl:text>「</xsl:text>
+    <xsl:if test="@ピース番号"><xsl:value-of select="@ピース番号"/>
+      <xsl:text>. </xsl:text>
+    </xsl:if>
+    <xsl:value-of select="."/>
+    <xsl:text>」</xsl:text>
     <xsl:if test="../作詩 or ../出典 or ../訳詩">
-      (<xsl:apply-templates select="../出典"/><xsl:apply-templates select="../作詩"/><xsl:apply-templates select="../訳詩"/>)</xsl:if>
-    <xsl:if test="../following-sibling::組曲ピース"> </xsl:if>
+      <xsl:text>(</xsl:text>
+      <xsl:apply-templates select="../出典"/>
+      <xsl:apply-templates select="../作詩"/>
+      <xsl:apply-templates select="../訳詩"/>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
+    <xsl:if test="../following-sibling::組曲ピース">
+      <xsl:text></xsl:text>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
