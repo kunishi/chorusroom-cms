@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.4 1999/08/22 15:15:38 kunishi Exp $
+# $Id: Makefile,v 1.5 1999/08/22 15:59:58 kunishi Exp $
 #
 
 RELPATH=	.
@@ -18,8 +18,24 @@ INSTFILES+=	CDShop.html \
 		misc.html \
 		47thajcl.html
 
+INSTFILES_NOBUILD+=	panaMusica-map.txt \
+			panaMusica.gif \
+			panaMusicap.ps \
+			panaMusica.ps.gz
+
 SUBDIR+=	JCA-concours \
+		image \
+		style \
 		whatsnew
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
+
+PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
+PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
+
+.PHONY: sync-upload
+
+sync-upload:
+	rsync -Cavuz --delete -e ssh \
+	  ${INSTTOPDIR} "${PUBLIC_SERVER}:${PUBLIC_DIR}"
