@@ -1,11 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>The 48th AJCL Chorus Contest (Precise Results Part I)</title>
   </head>
-
   <body>
     <h1>第48回全日本合唱コンクール全国大会の結果(その1)</h1>
     指揮、伴奏、演奏曲目などのデータを添えたバージョンです。各部門ごとに
@@ -49,7 +53,7 @@
 	  <li> F1</li>
 	  <li> 「Dizionario Greco」(作曲:Petr Eben)から I.
 	    Megalofrosyne; IX. Charmone-Syntychia</li>
-	  <li> Himnusz a Naphoz(作詞:Lukin L\'aszl\'o/作曲:Lajos B\'ardos)</li>
+	  <li> Himnusz a Naphoz(作詞:Lukin L&aacute;szl&oacute;/作曲:Lajos B&aacute;rdos)</li>
 	</ul></li>
       <li> 栃木県立真岡女子高等学校合唱部(栃木県:関東支部、銀賞)
 	<ul>
@@ -79,14 +83,14 @@
 	  <li> F1</li>
 	  <li> 「En bonne voix」(作詞:Jehan Froissart(他)/作曲:
 	    Florent Shmitt)から I.  On dist que ...; II. Prince et
-	    berg\'ere; VI. La mode commode</li>
+	    berg&eacute;re; VI. La mode commode</li>
 	</ul></li>
       <li> 栃木県立宇都宮中央女子高等学校合唱部(栃木県:関東支部、銅賞)
 	<ul>
 	  <li> 指揮: 江面誠子</li>
 	  <li> F1</li>
 	  <li> 「4 Italian Madorigals」(作詞:Gerardello da Firenze他/
-	    作曲:Zolt\'an Kod\'aly)から 3. Chi d'amor sente;
+	    作曲:Zolt&aacute;n Kod&aacute;ly)から 3. Chi d'amor sente;
 	    4. Fuor de la bella caiba</li>
 	</ul></li>
       <li> 共立女子高等学校音楽部(東京都:東京支部、銀賞)
@@ -108,15 +112,15 @@
 	<ul>
 	  <li> 指揮:片山謙二</li>
 	  <li> F1</li>
-	  <li> 「27 Two-and Three-part Choruses」(作曲:Bela Bart\'ok)
-	    から Bolyon\'gas</li>
-	  <li> \'Ejszaka(作詞:Beney Zsuzsa/作曲:J\'osef Karai)</li>
+	  <li> 「27 Two-and Three-part Choruses」(作曲:Bela Bart&oacute;k)
+	    から Bolyong&aacute;s</li>
+	  <li> &Eacute;jszaka(作詞:Beney Zsuzsa/作曲:J&oacute;szef Karai)</li>
 	</ul></li>
     </ul>
-
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
-
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-  </body> </html>
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 03:45:18 $
+  </body>
+</html>
