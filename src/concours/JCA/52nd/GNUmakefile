@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.3 1999/08/06 00:26:23 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 1999/08/06 01:31:58 kunishi Exp $
 
 XSLT_PROC=	java \
 		-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser \
@@ -19,6 +19,7 @@ INSTTOPDIR=	/usr/home/kunishi/cvs/html/hobby-root/chorusRoom/
 DEFAULT_XSL=	${SRCTOPDIR}xhtml10.xsl
 RESULT_XSL=	result-1999.xsl
 
+INSTFILES+=	index.html
 INSTFILES+=	fukuoka.html
 
 .SUFFIXES:	.xml .utfhtml .html
