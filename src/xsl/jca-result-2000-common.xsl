@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-2000-common.xsl,v 1.15 2000/08/16 02:04:45 kunishi Exp $ -->
+<!-- $Id: jca-result-2000-common.xsl,v 1.16 2000/08/23 04:11:35 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -364,7 +364,12 @@
   <xsl:template name="指揮者リスト">
     <xsl:for-each select="指揮者">
       <xsl:if test="position()=1">
-	<xsl:text>指揮: </xsl:text>
+	<xsl:text>指揮</xsl:text>
+	<xsl:if test="@兼任">
+	  <xsl:text>・</xsl:text>
+	  <xsl:value-of select="@兼任"/>
+	</xsl:if>
+	<xsl:text>: </xsl:text>
       </xsl:if>
       <xsl:value-of select="."/>
       <xsl:if test="not(position()=last())">
