@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- $Id: choir-piece.rxm,v 1.10 2001/01/22 07:59:29 kunishi Exp $ -->
+<!-- $Id: choir-piece.rxm,v 1.11 2001/02/02 11:46:18 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/piece" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface>
@@ -9,7 +9,7 @@
   </interface>
 
   <attPool role="lang.att">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
   </attPool>
 
   <tag name="originated-from">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: contest-result.rxm,v 1.11 2001/02/02 11:39:46 kunishi Exp $ -->
+<!-- $Id: contest-result.rxm,v 1.12 2001/02/02 11:46:18 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -13,7 +13,7 @@
   </interface>
 
   <tag name="competition">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
   </tag>
   <elementRule role="competition">
     <sequence>
@@ -85,7 +85,7 @@
   </elementRule>
 
   <tag name="referee">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
     <attribute name="shortname" required="true" type="string"/>
     <attribute name="job" type="string"/>
     <attribute name="referred-date" type="string"/>
@@ -111,7 +111,7 @@
   </elementRule>
 
   <tag name="reporter-name">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
     <attribute name="penname" type="string"/>
   </tag>
   <elementRule role="reporter-name">
@@ -190,7 +190,7 @@
   </hedgeRule>
 
   <tag name="choir-name">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
     <attribute name="url" type="uriReference"/>
   </tag>
   <elementRule role="choir-name">
@@ -215,7 +215,7 @@
   <elementRule role="number-of-members" type="positiveInteger"/>
 
   <tag role="conductor" name="conductor">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
     <attribute name="instrument" type="string"/>
   </tag>
   <elementRule role="conductor" label="conductor">
@@ -225,7 +225,7 @@
   </elementRule>
 
   <tag role="piano" name="piano">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
   </tag>
   <elementRule role="piano" label="piano">
     <mixed>
@@ -235,7 +235,7 @@
   <attPool role="player-id"/>
 
   <tag name="accompaniment">
-    <attribute name="xml:lang" type="language"/>
+    <attribute name="xml:lang" type="string"/>
     <attribute name="instrument" required="true" type="string"/>
   </tag>
   <elementRule role="accompaniment">
