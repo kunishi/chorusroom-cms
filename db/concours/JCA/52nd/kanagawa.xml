@@ -1,31 +1,29 @@
-<?xml version="1.0" encoding="euc-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: kanagawa.xml,v 1.10 2002/06/18 15:21:39 kunishi Exp $</cvs-id>
-  <competition-name area="false" pref="false">Âè52²óÁ´ÆüËÜ¹ç¾§¥³¥ó¥¯¡¼¥ë¿ÀÆàÀî¸©Âç²ñ(Âè42²ó¿ÀÆàÀî¸©¹ç¾§¥³¥ó¥¯¡¼¥ë)</competition-name>
+  <competition-name area="false" pref="false">ç¬¬52å›žå…¨æ—¥æœ¬åˆå”±ã‚³ãƒ³ã‚¯ãƒ¼ãƒ«ç¥žå¥ˆå·çœŒå¤§ä¼š(ç¬¬42å›žç¥žå¥ˆå·çœŒåˆå”±ã‚³ãƒ³ã‚¯ãƒ¼ãƒ«)</competition-name>
   <result output="kanagawa">
     <date day-of-week="sat" holiday="false">1999-09-11</date>
     <date day-of-week="sun" holiday="false">1999-09-12</date>
-    <hall>¿ÀÆàÀî¸©Î©²»³ÚÆ²(ÌÚ¤Î²»³Ú¥Û¡¼¥ë)</hall>
-    <referee shortname="¹ÓÃ«" job="»Ø´ø¼Ô">¹ÓÃ«½Ó¼£</referee>
-    <referee shortname="ÊÒ»³" job="»Ø´ø¼Ô">ÊÒ»³¤ß¤æ¤­</referee>
-    <referee shortname="²Ï¹ç" job="À¼³Ú²È">²Ï¹ç¹§É×</referee>
-    <referee shortname="Ã¸Ìî" job="»Ø´ø¼Ô¡¦À¼³Ú²È">Ã¸ÌîµÝ»Ò</referee>
-    <referee shortname="³§Àî" job="²»³Ú»Ë³Ø¼Ô">³§ÀîÃ£É×</referee>
+    <hall>ç¥žå¥ˆå·çœŒç«‹éŸ³æ¥½å ‚(æœ¨ã®éŸ³æ¥½ãƒ›ãƒ¼ãƒ«)</hall>
+    <referee shortname="è’è°·" job="æŒ‡æ®è€…">è’è°·ä¿Šæ²»</referee>
+    <referee shortname="ç‰‡å±±" job="æŒ‡æ®è€…">ç‰‡å±±ã¿ã‚†ã</referee>
+    <referee shortname="æ²³åˆ" job="å£°æ¥½å®¶">æ²³åˆå­å¤«</referee>
+    <referee shortname="æ·¡é‡Ž" job="æŒ‡æ®è€…ãƒ»å£°æ¥½å®¶">æ·¡é‡Žå¼“å­</referee>
+    <referee shortname="çš†å·" job="éŸ³æ¥½å²å­¦è€…">çš†å·é”å¤«</referee>
     <reporter>
-      <reporter-name>¾®ÅÄÀÚ¿®É§</reporter-name>
+      <reporter-name>å°ç”°åˆ‡ä¿¡å½¦</reporter-name>
       <reporter-email>nodagiri@mth.biglobe.ne.jp</reporter-email>
     </reporter>
     <section>
-      <section-name>°ìÈÌ¤ÎÉô A</section-name>
+      <section-name>ä¸€èˆ¬ã®éƒ¨ A</section-name>
       <choir representative="true" seed="false">
-	<choir-name>¥³¡¼¥ë¡¦¥­¥ê¥¨</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ã‚³ãƒ¼ãƒ«ãƒ»ã‚­ãƒªã‚¨</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>25</number-of-members>
-	<conductor>×¢ÀÐÍº»Ê</conductor>
-	<piano>ÆþÀî¤á¤°¤ß</piano>
-	<prize nickname="gold">¶â¾Þ</prize>
+	<conductor>å»£çŸ³é›„å¸</conductor>
+	<piano>å…¥å·ã‚ãã¿</piano>
+	<prize nickname="gold">é‡‘è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G2" href="givenPrograms-52nd.xml"/>
@@ -55,13 +53,13 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>¤«¤Ê¤¬¤ï¥Õ¥ê¡¼¥À¥à¡¦¥·¥ó¥¬¡¼¥º</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ã‹ãªãŒã‚ãƒ•ãƒªãƒ¼ãƒ€ãƒ ãƒ»ã‚·ãƒ³ã‚¬ãƒ¼ã‚º</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>male</choir-type>
 	<number-of-members>22</number-of-members>
-	<conductor>Ãæ´Û¿­°ì</conductor>
-	<piano>ËÌÌðÍ³Èþ</piano>
-	<prize nickname="gold">¶â¾Þ</prize>
+	<conductor>ä¸­é¤¨ä¼¸ä¸€</conductor>
+	<piano>åŒ—çŸ¢ç”±ç¾Ž</piano>
+	<prize nickname="gold">é‡‘è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="M4" href="givenPrograms-52nd.xml"/>
@@ -77,12 +75,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>¹ç¾§ÃÄ¥ê¥Ù¥ë¥Æ</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>åˆå”±å›£ãƒªãƒ™ãƒ«ãƒ†</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>22</number-of-members>
-	<conductor>Ô¢×¢Ä«Èþ</conductor>
-	<prize nickname="silver">¶ä¾Þ</prize>
+	<conductor>åœ‹å»£æœç¾Ž</conductor>
+	<prize nickname="silver">éŠ€è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -98,12 +96,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>¿ÁÌî¥¸¥å¥Ë¥¢¡¦¥¨¥³¡¼¥º</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ç§¦é‡Žã‚¸ãƒ¥ãƒ‹ã‚¢ãƒ»ã‚¨ã‚³ãƒ¼ã‚º</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>same-voice</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>ÃÏºêÎ§»Ò</conductor>
-	<prize nickname="silver">¶ä¾Þ</prize>
+	<conductor>åœ°å´Žå¾‹å­</conductor>
+	<prize nickname="silver">éŠ€è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-52nd.xml"/>
@@ -119,12 +117,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>¥¢¥ë¥Ç¥ó¥Ä¥¡</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ã‚¢ãƒ«ãƒ‡ãƒ³ãƒ„ã‚¡</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>13</number-of-members>
-	<conductor>ÂçÀî¸ÞÏº</conductor>
-	<prize nickname="silver">¶ä¾Þ</prize>
+	<conductor>å¤§å·äº”éƒŽ</conductor>
+	<prize nickname="silver">éŠ€è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-52nd.xml"/>
@@ -140,19 +138,19 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>¥¯¡¼¥ë¡¦¥ß¥ë¥Õ¥£¡¼¥æ</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ã‚¯ãƒ¼ãƒ«ãƒ»ãƒŸãƒ«ãƒ•ã‚£ãƒ¼ãƒ¦</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>Ãæ´Û¿­°ì</conductor>
-	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<conductor>ä¸­é¤¨ä¼¸ä¸€</conductor>
+	<prize nickname="blonze">éŠ…è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>KOSC<cr:utf8-char nickname="Aacute">A</cr:utf8-char>R Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</p:composed-by>
+	      <p:composed-by>KOSCÃR MiklÃ³s</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>AVE MARIA</p:mainTitle>
 	      </p:title>
@@ -169,12 +167,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>½÷À¼¹ç¾§ÃÄ¥°¥ê¡¼¥ó¡¦¥Õ¥é¥Ã¥·¥å</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>å¥³å£°åˆå”±å›£ã‚°ãƒªãƒ¼ãƒ³ãƒ»ãƒ•ãƒ©ãƒƒã‚·ãƒ¥</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>20</number-of-members>
-	<conductor>Ãæ´Û¿­°ì</conductor>
-	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<conductor>ä¸­é¤¨ä¼¸ä¸€</conductor>
+	<prize nickname="blonze">éŠ…è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-52nd.xml"/>
@@ -196,12 +194,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>¹ç¾§ÃÄ¥ô¥©¥Ã¥¯</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>åˆå”±å›£ãƒ´ã‚©ãƒƒã‚¯</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>27</number-of-members>
-	<conductor>¾®ÎÓ¾´±Ñ</conductor>
-	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<conductor>å°æž—å½°è‹±</conductor>
+	<prize nickname="blonze">éŠ…è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -233,12 +231,12 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>¥Þ¥ë¥Ù¥ê¡¼¡¦¥¯¥ï¥¤¥¢</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ãƒžãƒ«ãƒ™ãƒªãƒ¼ãƒ»ã‚¯ãƒ¯ã‚¤ã‚¢</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>17</number-of-members>
-	<conductor>·¬¸¶Ì¯»Ò</conductor>
-	<prize nickname="seeded">¥·¡¼¥É</prize>
+	<conductor>æ¡‘åŽŸå¦™å­</conductor>
+	<prize nickname="seeded">ã‚·ãƒ¼ãƒ‰</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-52nd.xml"/>
@@ -263,7 +261,7 @@
 	    <p:piece>
 	      <p:composed-by>Milko Kolarov</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle><cr:utf8-char nickname="Pcy">§±</cr:utf8-char><cr:utf8-char nickname="Rcy">§²</cr:utf8-char><cr:utf8-char nickname="Ocy">§°</cr:utf8-char><cr:utf8-char nickname="Lcy">§­</cr:utf8-char><cr:utf8-char nickname="IEcy">§¦</cr:utf8-char><cr:utf8-char nickname="Tcy">§´</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>àŸà àžà›à•à¢</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="en">
 		<p:mainTitle>SPRING</p:mainTitle>
@@ -272,9 +270,9 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>Otmar M<cr:utf8-char nickname="aacute">a</cr:utf8-char>cha</p:composed-by>	      
+	      <p:composed-by>Otmar MÃ³cha</p:composed-by>	      
 	      <p:title original="true">
-		<p:mainTitle>La<cr:utf8-char nickname="scaron">s</cr:utf8-char>sk<cr:utf8-char nickname="eacute">e</cr:utf8-char> heleka<cr:utf8-char nickname="ccaron">c</cr:utf8-char>hy</p:mainTitle>
+		<p:mainTitle>LaÅ¡skÃ© helekaÄhy</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>5</p:piece-number>
@@ -289,12 +287,12 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>¥Þ¥ë¥Ù¥ê¡¼ ¥Á¥§¥à¥Ð¡¼ ¥¯¥ï¥¤¥¢</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>ãƒžãƒ«ãƒ™ãƒªãƒ¼ ãƒã‚§ãƒ ãƒãƒ¼ ã‚¯ãƒ¯ã‚¤ã‚¢</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>30</number-of-members>
-	<conductor>·¬¸¶Ì¯»Ò</conductor>
-	<prize nickname="seeded">¥·¡¼¥É</prize>
+	<conductor>æ¡‘åŽŸå¦™å­</conductor>
+	<prize nickname="seeded">ã‚·ãƒ¼ãƒ‰</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -332,25 +330,24 @@
       </choir>
     </section>
     <section>
-      <section-name>°ìÈÌ¤ÎÉô B</section-name>
+      <section-name>ä¸€èˆ¬ã®éƒ¨ B</section-name>
       <choir representative="true" seed="false">
-	<choir-name>¾®ÅÄ¸¶¾¯Ç¯¾¯½÷¹ç¾§Ââ</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>å°ç”°åŽŸå°‘å¹´å°‘å¥³åˆå”±éšŠ</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>35</number-of-members>
-	<conductor>·¬¸¶Ì¯»Ò</conductor>
-	<piano>°ÂÆ£Í§ÐØ</piano>
-	<prize nickname="gold">¶â¾Þ</prize>
+	<conductor>æ¡‘åŽŸå¦™å­</conductor>
+	<piano>å®‰è—¤å‹ä¿Ÿ</piano>
+	<prize nickname="gold">é‡‘è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zd<cr:utf8-char nickname="ecaron">e</cr:utf8-char>n<cr:utf8-char nickname="ecaron">e</cr:utf8-char>k Luk<cr:utf8-char nickname="atilde">a</cr:utf8-char><cr:utf8-char nickname="scaron">s</cr:utf8-char>
-	      </p:composed-by>
+	      <p:composed-by>ZdÄ›nÄ›k LukÃ£Å¡</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>VEN<cr:utf8-char nickname="Ecaron">E</cr:utf8-char><cr:utf8-char nickname="Ccaron">C</cr:utf8-char>EK</p:mainTitle>
+		<p:mainTitle>VENÄšÄŒEK</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -358,19 +355,19 @@
 	    <p:piece>
 	      <p:composed-by>Milko Kolarov</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle><cr:utf8-char nickname="HARDcy">§¼</cr:utf8-char><cr:utf8-char nickname="Acy">§¡</cr:utf8-char><cr:utf8-char nickname="HARDcy">§¼</cr:utf8-char><cr:utf8-char nickname="Acy">§¡</cr:utf8-char> <cr:utf8-char nickname="YAcy">§Á</cr:utf8-char><cr:utf8-char nickname="Gcy">§¤</cr:utf8-char><cr:utf8-char nickname="Acy">§¡</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>àªààªà à¯à“à</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>²£ÉÍ¥¢¥ó¥µ¥ó¥Ö¥ë¡¦¥«¥Ú¥é</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>æ¨ªæµœã‚¢ãƒ³ã‚µãƒ³ãƒ–ãƒ«ãƒ»ã‚«ãƒšãƒ©</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>35</number-of-members>
-	<conductor>ÀÐ°æ¹¯ÃË</conductor>
-	<prize nickname="gold">¶â¾Þ</prize>
+	<conductor>çŸ³äº•åº·ç”·</conductor>
+	<prize nickname="gold">é‡‘è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -410,28 +407,28 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>¿à»Ò½÷À¼¹ç¾§ÃÄ</choir-name>
-	<prefecture>¿ÀÆàÀî</prefecture>
+	<choir-name>é€—å­å¥³å£°åˆå”±å›£</choir-name>
+	<prefecture>ç¥žå¥ˆå·</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>36</number-of-members>
-	<conductor>Àî¾åµ×Èþ»Ò</conductor>
-	<piano>¾®¿ûÀ»Ì¾»Ò</piano>
-	<prize nickname="silver">¶ä¾Þ</prize>
+	<conductor>å·ä¸Šä¹…ç¾Žå­</conductor>
+	<piano>å°è…è–åå­</piano>
+	<prize nickname="silver">éŠ€è³ž</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:composed-by>¹âÅè¤ß¤É¤ê</p:composed-by>	      
+	      <p:composed-by>é«˜å¶‹ã¿ã©ã‚Š</p:composed-by>	      
 	      <p:title original="true" xml:lang="ja">
-		<p:titlePrefix>½÷À¼¹ç¾§¤È¥Ô¥¢¥Î¤Î¤¿¤á¤Î</p:titlePrefix>
-		<p:mainTitle>½÷¤Î¾ÓÁü</p:mainTitle>
+		<p:titlePrefix>å¥³å£°åˆå”±ã¨ãƒ”ã‚¢ãƒŽã®ãŸã‚ã®</p:titlePrefix>
+		<p:mainTitle>å¥³ã®è‚–åƒ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>¤ï¤¿¤·¤¬°ìÈÖ¤­¤ì¤¤¤À¤Ã¤¿¤È¤­</p:mainTitle>
+		    <p:mainTitle>ã‚ãŸã—ãŒä¸€ç•ªãã‚Œã„ã ã£ãŸã¨ã</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>	      

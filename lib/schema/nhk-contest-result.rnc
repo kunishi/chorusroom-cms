@@ -5,7 +5,6 @@ namespace ns2 = "http://www.chorusroom.org/piece"
 start =
   element competition {
     attribute xml:lang { xsd:string }?,
-    element cvs-id { xsd:string },
     element competition-name {
       attribute pref { xsd:NMTOKEN "true" | xsd:NMTOKEN "false" }?,
       attribute area { xsd:NMTOKEN "true" | xsd:NMTOKEN "false" }?,

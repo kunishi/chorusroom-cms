@@ -1,40 +1,38 @@
-<?xml version="1.0" encoding="euc-jp"?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: mie.xml,v 1.13 2002/06/18 15:21:39 kunishi Exp $</cvs-id>
-  <competition-name area="false" pref="false">��39�󻰽Ÿ��羧���󥯡���</competition-name>
+  <competition-name area="false" pref="false">第39回三重県合唱コンクール</competition-name>
   <result output="mie">
     <date day-of-week="sun" holiday="false">1999-08-22</date>
-    <hall>���Ÿ�ʸ�������ۡ���</hall>
-    <referee shortname="����" job="�羧�ش���">����͵��</referee>
-    <referee shortname="���" job="�羧�ش���">�������</referee>
-    <referee shortname="����" job="��ʲ�">����������</referee>
-    <referee shortname="��ͧ" job="���ڲ�">��ͧ�</referee>
-    <referee shortname="Ȫ" job="���ڲ�">Ȫ��ʸ</referee>
+    <hall>三重県文化会館大ホール</hall>
+    <referee shortname="新井" job="合唱指揮者">新井裕治</referee>
+    <referee shortname="井戸" job="合唱指揮者">井戸清輔</referee>
+    <referee shortname="戸島" job="作曲家">戸島美喜夫</referee>
+    <referee shortname="永友" job="声楽家">永友博信</referee>
+    <referee shortname="畑" job="声楽家">畑儀文</referee>
     <reporter>
-      <reporter-name>��ƣ��ƻ</reporter-name>
+      <reporter-name>伊藤正道</reporter-name>
       <reporter-email>PXM02526@nifty.ne.jp</reporter-email>
     </reporter>
     <notices>
       <notice>
-	�����ܹ羧Ϣ������Ĺ�ޤϥ��������Τ������������1�̡�
-	���Ÿ��羧Ϣ������Ĺ�ޤ����б�����(�����ɤ�ޤ�)�������1�̤�
-	���Τˤ��줾��Ϳ�����ޤ���
+	全日本合唱連盟理事長賞はシード団体を除外した総合1位、
+	三重県合唱連盟理事長賞は全出演団体(シードを含む)中の総合1位の
+	団体にそれぞれ与えられます。
       </notice>
     </notices>
     <section>
-      <section-name>��ع�����(Ʊ��)</section-name>
+      <section-name>中学校部門(同声)</section-name>
       <choir representative="true" seed="false">
-	<choir-name>������ض��������°��ع�������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>三重大学教育学部附属中学校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>15</number-of-members>
-	<conductor>�������</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>田中博基</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Lajos B<cr:utf8-char nickname="Aacute">A</cr:utf8-char>RDOS</p:composed-by>
+	      <p:composed-by>Lajos BÁRDOS</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Magos a rutafa</p:mainTitle>
 	      </p:title>
@@ -43,25 +41,25 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�Ż�Ω������ع�������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>津市立西郊中学校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>26</number-of-members>
-	<conductor>�������</conductor>
-	<piano>�ʾ�ͥ��</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>紀太令子</conductor>
+	<piano>段上優子</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��ƣ��ɧ</p:words-by>
-	      <p:composed-by>���Ĵ�ľ</p:composed-by>
+	      <p:words-by>伊藤海彦</p:words-by>
+	      <p:composed-by>中田喜直</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ĳ</p:mainTitle>
+		<p:mainTitle>蝶</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�����α�</p:mainTitle>
+		    <p:mainTitle>灰色の雨</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -70,25 +68,25 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>������Ω������ع��羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>伊勢市立宮川中学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>���Ŀ���</conductor>
-	<piano>��������</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>奥田信江</conductor>
+	<piano>中西えり</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��ʿ����������</p:mainTitle>
+		<p:mainTitle>地平線の彼方へ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�󽽲���ǯ�θ���</p:mainTitle>
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -97,18 +95,18 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>����ĮΩ������ع�������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>員弁町立員弁中学校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>15</number-of-members>
-	<piano>�Ż�����</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<piano>古市和代</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:arranged-by>�з��߼�</p:arranged-by>
+	      <p:arranged-by>石桁冬樹</p:arranged-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���夲�Ƥ�����������</p:mainTitle>
+		<p:mainTitle>見上げてごらん夜の星を</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -116,27 +114,27 @@
       </choir>
     </section>
     <section>
-      <section-name>��ع�����(����)</section-name>
+      <section-name>中学校部門(混声)</section-name>
       <choir representative="true" seed="false">
-	<choir-name>������Ω����ع��羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>伊勢市立港中学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>45</number-of-members>
-	<conductor>­��������</conductor>
-	<piano>��¿����</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>足代万紀子</conductor>
+	<piano>喜多美晴</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>������</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���졼�γ����裱��</p:mainTitle>
+		<p:mainTitle>クレーの絵本第１集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����Ĥ�ͷ����</p:mainTitle>
+		    <p:mainTitle>あやつり人形劇場</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -144,15 +142,15 @@
 	  </free-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��߷��</p:words-by>
-	      <p:composed-by>�븶��ɧ</p:composed-by>
+	      <p:words-by>矢澤宰</p:words-by>
+	      <p:composed-by>萩原英彦</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���뺽��</p:mainTitle>
+		<p:mainTitle>光る砂漠</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����</p:mainTitle>
+		    <p:mainTitle>落石</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -161,18 +159,18 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>����ĮΩ������ع�</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>小俣町立小俣中学校</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>46</number-of-members>
-	<conductor>�����¼�</conductor>
-	<piano>����������</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>岩木和樹</conductor>
+	<piano>古布眞奈美</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�ḫ����</p:words-by>
-	      <p:composed-by>����������</p:composed-by>
+	      <p:words-by>鶴見正夫</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>IN TERRA PAX</p:mainTitle>
 	      </p:title>
@@ -188,45 +186,45 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>������Ω�޽�����ع��羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>伊勢市立五十鈴中学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>24</number-of-members>
-	<conductor>���濿����</conductor>
-	<piano>��¼���Ի�</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>山中真規子</conductor>
+	<piano>中村沙都子</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>���Ĥ����</p:words-by>
-	      <p:composed-by>���ܾͼ�</p:composed-by>
+	      <p:words-by>深田じゅんこ</p:words-by>
+	      <p:composed-by>橋本祥治</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>����ι��</p:mainTitle>
+		<p:mainTitle>時の旅人</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>���¼Ω�����ع�</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>御薗村立御薗中学校</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>43</number-of-members>
-	<conductor>����ͳ��</conductor>
-	<piano>���Ĥ��Ĥ�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>松川由佳</conductor>
+	<piano>山田えつこ</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��ʿ����������</p:mainTitle>
+		<p:mainTitle>地平線の彼方へ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�󽽲���ǯ�θ���</p:mainTitle>
+		    <p:mainTitle>二十億光年の孤独</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -235,78 +233,78 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�����Ω��Į��ع�������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>松阪市立殿町中学校声楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>22</number-of-members>
-	<conductor>���в���</conductor>
-	<piano>Ĺ����</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>西出雅子</conductor>
+	<piano>長田雪</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�����</p:words-by>
-	      <p:composed-by>ʿ�ȵ���</p:composed-by>
+	      <p:words-by>川崎洋</p:words-by>
+	      <p:composed-by>平吉毅州</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�����Ի׵�</p:mainTitle>
+		<p:mainTitle>海の不思議</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>������Ω���Ļ���ع��羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>伊勢市立倉田山中学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>37</number-of-members>
-	<conductor>�����»�</conductor>
-	<piano>���Ͻ㹾</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>河俣和子</conductor>
+	<piano>濱地純江</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�դ�</p:mainTitle>
+		<p:mainTitle>春に</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�����¹�</p:words-by>
-	      <p:composed-by>�Ӿ¿���</p:composed-by>
+	      <p:words-by>新川和江</p:words-by>
+	      <p:composed-by>飯沼信義</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>̾�Ť���줿��</p:mainTitle>
+		<p:mainTitle>名づけられた葉</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>������Ω������ع��羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>伊勢市立厚生中学校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>39</number-of-members>
-	<conductor>���ڤꤨ��</conductor>
-	<piano>ç�̰�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>鈴木りえ子</conductor>
+	<piano>巽耕一</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>�غ��ư�</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>関根榮一</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�⤨���Ф򤳤�����</p:mainTitle>
+		<p:mainTitle>もえる緑をこころに</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>��ƣ�ɰ�</p:words-by>
-	      <p:composed-by>������͵</p:composed-by>
+	      <p:words-by>伊藤良一</p:words-by>
+	      <p:composed-by>小栗克裕</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���Ͽ��</p:mainTitle>
+		<p:mainTitle>心は水だ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -314,61 +312,61 @@
       </choir>
     </section>
     <section>
-      <section-name>�����ع�����A���롼��</section-name>
+      <section-name>高等学校部門Aグループ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>��Ω�Ź⹻������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立津高校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>29</number-of-members>
-	<conductor>��������</conductor>
-	<prize nickname="gold">���</prize>
-	<special-prize>�����ܹ羧Ϣ������Ĺ��</special-prize>
-	<special-prize>���Ÿ��羧Ϣ������Ĺ��</special-prize>
+	<conductor>小林正美</conductor>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>全日本合唱連盟理事長賞</special-prize>
+	<special-prize>三重県合唱連盟理事長賞</special-prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G3" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zoltan Koday</p:composed-by>
+	      <p:composed-by>Zoltán Kodály</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>T<cr:utf8-char nickname="Uacute">U</cr:utf8-char>R<cr:utf8-char nickname="Oacute">O</cr:utf8-char>T ESZIK A CIG<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NY</p:mainTitle>
+		<p:mainTitle>TÜRÓT ESZIK A CIGÁNY</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Zoltan Koday</p:composed-by>
+	      <p:composed-by>Zoltán Kodály</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>A SZ<cr:utf8-char nickname="Eacute">E</cr:utf8-char>KELYKHEZ</p:mainTitle>
+		<p:mainTitle>A SZÉKELYKHEZ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>��Ω��������⹻������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立四日市南高校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>30</number-of-members>
-	<conductor>��ƣ��ƻ</conductor>
-	<piano>�����λ�</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>伊藤正道</conductor>
+	<piano>山口知子</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>Ω��ƻ¤</p:words-by>
-	      <p:composed-by>�����ҹ�</p:composed-by>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>尾形敏幸</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���˴󤻤�</p:mainTitle>
+		<p:mainTitle>風に寄せて</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���˴󤻤� ���ΰ�</p:mainTitle>
+		    <p:mainTitle>風に寄せて その一</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -377,55 +375,55 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>��Ω����⹻�羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立松阪高校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>same-voice</choir-type>
 	<number-of-members>16</number-of-members>
-	<conductor>�������</conductor>
-	<piano>�̽а�</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>山本節子</conductor>
+	<piano>北出愛</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F3" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>���Ķ޻�</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>岸田衿子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ܧ�Τ���</p:mainTitle>
+		<p:mainTitle>棗のうた</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
-	      <p:words-by>���Ķ޻�</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>岸田衿子</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�ʤˤ򤵤�����</p:mainTitle>
+		<p:mainTitle>なにをさがしに</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>��Ω�������Ĺ⹻�羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立宇治山田高校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>25</number-of-members>
-	<conductor>ƣ�ȸ�</conductor>
-	<piano>���ҥ���</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>藤波厚</conductor>
+	<piano>井上ヒロミ</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>ë�����Ϻ</p:words-by>
-	      <p:composed-by>����Φ��</p:composed-by>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>寺嶋陸也</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�ߤ�</p:mainTitle>
+		<p:mainTitle>みち</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>8</p:piece-number>
@@ -444,28 +442,28 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�����ر����⹻�羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>日生学園第一高校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>32</number-of-members>
-	<conductor>���ڷ�</conductor>
-	<piano>���������</piano>
-	<prize nickname="silver">���</prize>
+	<conductor>青木薫</conductor>
+	<piano>尾崎世千子</piano>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��߷�Ƽ�</p:words-by>
-	      <p:composed-by>�ڲ��һ�</p:composed-by>
+	      <p:words-by>池澤夏樹</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�ƥ��������ι</p:mainTitle>
+		<p:mainTitle>ティオの夜の旅</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>�ƥ��������ι</p:mainTitle>
+		    <p:mainTitle>ティオの夜の旅</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -474,28 +472,28 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>��Ω��۹⹻������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立川越高校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>14</number-of-members>
-	<conductor>��������</conductor>
-	<piano>Ĺë���</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>増山利子</conductor>
+	<piano>長谷川寛彰</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�غ��ư�</p:words-by>
-	      <p:composed-by>���羰ɧ</p:composed-by>
+	      <p:words-by>関根榮一</p:words-by>
+	      <p:composed-by>寺島尚彦</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>�Ĥ���</p:mainTitle>
+		<p:mainTitle>青い麦</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�ʿ����錄���򸫤�</p:mainTitle>
+		    <p:mainTitle>景色がわたしを見た</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -504,28 +502,28 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>��Ω����⹻�羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立津東高校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>same-voice</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>��������</conductor>
-	<piano>��ë����</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>羽根功二</conductor>
+	<piano>中谷真弓</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>������</p:words-by>
-	      <p:composed-by>�Ӹ�</p:composed-by>
+	      <p:words-by>石川逸子</p:words-by>
+	      <p:composed-by>林光</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>Ĺ����û��ϻ�Ĥβ�</p:mainTitle>
+		<p:mainTitle>長くて短い六つの歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���ꥹ�Ȥδ�</p:mainTitle>
+		    <p:mainTitle>キリストの顔</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -534,12 +532,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>��Ω�����ԻͶ��⹻�羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立四日市四郷高校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>12</number-of-members>
-	<conductor>���»�</conductor>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>泊和史</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -563,27 +561,27 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>��Ω�����Թ⹻������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立四日市高校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>��������</conductor>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>高島美佳</conductor>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>Ω��ƻ¤</p:words-by>
-	      <p:composed-by>�����ҹ�</p:composed-by>
+	      <p:words-by>立原道造</p:words-by>
+	      <p:composed-by>尾形敏幸</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>����<cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
+		<p:mainTitle>映像<cr:utf8-char nickname="romanII">II</cr:utf8-char></p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>̴�ߤ���Τ�</p:mainTitle>
+		    <p:mainTitle>夢みたものは</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -592,12 +590,12 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�ǹ⹻������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>暁高校音楽部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>24</number-of-members>
-	<conductor>�������</conductor>
-	<piano>��¼����</piano>
+	<conductor>川口孝子</conductor>
+	<piano>西村麻那</piano>
 	<prize nickname="none"/>
 	<program>
 	  <given-program>
@@ -605,56 +603,56 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>��߷�Ƽ�</p:words-by>
-	      <p:composed-by>���տ���Ϻ</p:composed-by>
+	      <p:words-by>池澤夏樹</p:words-by>
+	      <p:composed-by>池辺晋一郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>���Ĥ��Ի׵ĤʻŻ�</p:mainTitle>
+		<p:mainTitle>三つの不思議な仕事</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>���ߤ���</p:mainTitle>
+		    <p:mainTitle>空みがき</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>̴���</p:mainTitle>
+		    <p:mainTitle>夢売り</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	    </p:suite>
 	  </free-program>
 	</program>
-	<choir-note>�����४���С��ˤ�꼺��</choir-note>
+	<choir-note>タイムオーバーにより失格</choir-note>
       </choir>
     </section>
     <section>
-      <section-name>�����ع�����B���롼��</section-name>
+      <section-name>高等学校部門Bグループ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>��Ω�����⹻�羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>県立伊勢高校合唱部</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>50</number-of-members>
-	<conductor>�뻳͵��</conductor>
-	<piano>���ҥ���</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>鈴山裕厚</conductor>
+	<piano>井上ヒロミ</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>������</p:words-by>
-	      <p:composed-by>����������</p:composed-by>
+	      <p:words-by>宗左近</p:words-by>
+	      <p:composed-by>荻久保和明</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��ʸ</p:mainTitle>
+		<p:mainTitle>縄文</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>�Կ�</p:mainTitle>
+		    <p:mainTitle>行進</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -664,14 +662,14 @@
       </choir>
     </section>
     <section>
-      <section-name>�������B���롼��</section-name>
+      <section-name>大学部門Bグループ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>������ع羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>三重大学合唱団</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>46</number-of-members>
-	<conductor>������¤</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>霜尾共造</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -695,21 +693,21 @@
       </choir>
     </section>
     <section>
-      <section-name>���̤���A���롼��</section-name>
+      <section-name>一般の部Aグループ</section-name>
       <choir representative="true" seed="false">
 	<choir-name>Vocal Ensemble &lt;EST&gt;</choir-name>
-	<prefecture>����</prefecture>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>32</number-of-members>
-	<conductor>������ͺ</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>向井正雄</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Heinrich Sch<cr:utf8-char nickname="uuml">u</cr:utf8-char>tz</p:composed-by>
+	      <p:composed-by>Heinrich Schütz</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ride la primavera</p:mainTitle>
 	      </p:title>
@@ -719,7 +717,7 @@
 	    <p:suite>
 	      <p:composed-by>Veljo Tormis</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>S<cr:utf8-char nickname="Uuml">U</cr:utf8-char>GISMAASTIKUD</p:mainTitle>
+		<p:mainTitle>SÜGISMAASTIKUD</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -731,8 +729,7 @@
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>
-		      <cr:utf8-char nickname="Uuml">U</cr:utf8-char>le Taeva Jooksevad Pilved</p:mainTitle>
+		    <p:mainTitle>Üle Taeva Jooksevad Pilved</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -749,22 +746,22 @@
       </choir>
       <choir representative="false" seed="false">
 	<choir-name>magico tono</choir-name>
-	<prefecture>����</prefecture>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>17</number-of-members>
-	<conductor>��������</conductor>
-	<piano>��ë����</piano>
-	<prize nickname="gold">���</prize>
+	<conductor>羽根功二</conductor>
+	<piano>中谷真弓</piano>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>�����</p:words-by>
-	      <p:composed-by>������</p:composed-by>
+	      <p:words-by>木島始</p:words-by>
+	      <p:composed-by>三善晃</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>ī�ΤϤФ���</p:mainTitle>
+		<p:mainTitle>朝のはばたき</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
@@ -777,11 +774,11 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�羧�Ĥ�������</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>合唱団すずかぜ</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>20</number-of-members>
-	<prize nickname="silver">���</prize>
+	<prize nickname="silver">銀賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -818,28 +815,28 @@
 	</program>
       </choir>
       <choir representative="false" seed="false">
-	<choir-name>�����ʤ߽����羧��</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>さざなみ女声合唱団</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>female</choir-type>
 	<number-of-members>18</number-of-members>
-	<conductor>�������»�</conductor>
-	<piano>���������</piano>
-	<prize nickname="blonze">Ƽ��</prize>
+	<conductor>佐々木和子</conductor>
+	<piano>鶴田麻須美</piano>
+	<prize nickname="blonze">銅賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="F3" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>������ͺ</p:words-by>
-	      <p:composed-by>���Ļ�Ϻ</p:composed-by>
+	      <p:words-by>高野喜久雄</p:words-by>
+	      <p:composed-by>高田三郎</p:composed-by>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>��Τ��Τ�</p:mainTitle>
+		<p:mainTitle>水のいのち</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true" xml:lang="ja">
-		    <p:mainTitle>����</p:mainTitle>
+		    <p:mainTitle>海よ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -849,21 +846,21 @@
       </choir>
     </section>
     <section>
-      <section-name>���̤���B���롼��</section-name>
+      <section-name>一般の部Bグループ</section-name>
       <choir representative="true" seed="false">
-	<choir-name>���ť��������� �ܡ���</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>三重ヴォークス ボーナ</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>47</number-of-members>
-	<conductor>����ʹ��</conductor>
-	<prize nickname="gold">���</prize>
+	<conductor>稲葉祐三</conductor>
+	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:piece>
-	      <p:composed-by>Maurice Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char></p:composed-by>
+	      <p:composed-by>Maurice Duruflé</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Ubi caritas</p:mainTitle>
 	      </p:title>
@@ -880,12 +877,12 @@
 	</program>
       </choir>
       <choir representative="true" seed="false">
-	<choir-name>�羧�ġ֤������ˡ�</choir-name>
-	<prefecture>����</prefecture>
+	<choir-name>合唱団「うたおに」</choir-name>
+	<prefecture>三重</prefecture>
 	<choir-type>mixed</choir-type>
 	<number-of-members>45</number-of-members>
-	<conductor>���ƿ�Ƿ</conductor>
-	<prize nickname="seeded">������</prize>
+	<conductor>小柴信之</conductor>
+	<prize nickname="seeded">シード</prize>
 	<program>
 	  <given-program>
 	    <pieceRef number="G1" href="givenPrograms-52nd.xml"/>
@@ -894,7 +891,7 @@
 	    <p:suite>
 	      <p:composed-by>Josef Rheinberger</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Drei geistliche Ges<cr:utf8-char nickname="auml">a</cr:utf8-char>nge op. 69</p:mainTitle>
+		<p:mainTitle>Drei geistliche Gesänge op. 69</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>

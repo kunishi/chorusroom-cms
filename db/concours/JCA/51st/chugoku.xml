@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns='http://www.chorusroom.org/xml'
   xmlns:p='http://www.chorusroom.org/piece'
   xmlns:cr='http://www.chorusroom.org/character'>
-  <cvs-id>$Id: chugoku.xml,v 1.18 2002/06/18 15:21:33 kunishi Exp $</cvs-id>
   <competition-name pref="false" area="true">第37回中国合唱コンクール</competition-name>
   <result output="chugoku">
     <date day-of-week="sat" holiday="false">1998-09-26</date>
@@ -81,10 +79,10 @@
 	<program>
 	  <free-program>
 	    <p:suite>
-	      <p:words-by>L<cr:utf8-char nickname="aacute">a</cr:utf8-char>szl<cr:utf8-char nickname="oacute">o</cr:utf8-char> Nagy</p:words-by>
-	      <p:composed-by>Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r</p:composed-by>
+	      <p:words-by>László Nagy</p:words-by>
+	      <p:composed-by>Miklós Kocsár</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>H<cr:utf8-char nickname="aacute">a</cr:utf8-char>rom n<cr:utf8-char nickname="ouml">o</cr:utf8-char>ikar</p:mainTitle>
+		<p:mainTitle>Három nöikar</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>3つの女声合唱曲</p:mainTitle>
@@ -93,7 +91,7 @@
 		<p:piece-number>1.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Szerelem eml<cr:utf8-char nickname="eacute">e</cr:utf8-char>ke</p:mainTitle>
+		    <p:mainTitle>Szerelem emléke</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>愛の想い出</p:mainTitle>
@@ -104,7 +102,7 @@
 		<p:piece-number>2.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle><cr:utf8-char nickname="Aacute">A</cr:utf8-char>br<cr:utf8-char nickname="aacute">a</cr:utf8-char>nd</p:mainTitle>
+		    <p:mainTitle>Ábránd</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>幻想</p:mainTitle>
@@ -115,7 +113,7 @@
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle><cr:utf8-char nickname="Oacute">O</cr:utf8-char>, havas erd<cr:utf8-char nickname="ouml">o</cr:utf8-char> n<cr:utf8-char nickname="eacute">e</cr:utf8-char>mas<cr:utf8-char nickname="aacute">a</cr:utf8-char>ga</p:mainTitle>
+		    <p:mainTitle>Ó, havas erdö némasága</p:mainTitle>
 		  </p:title>
 		  <p:title original="false" xml:lang="ja">
 		    <p:mainTitle>ああ、雪の森の静寂</p:mainTitle>
@@ -1268,7 +1266,7 @@
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>Peder Syv</p:words-by>
-	      <p:composed-by>J<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgen Jersild</p:composed-by>
+	      <p:composed-by>Jörgen Jersild</p:composed-by>
 	      <p:title original="true">
 		<p:mainTitle>Tre Madrigaler</p:mainTitle>
 	      </p:title>
