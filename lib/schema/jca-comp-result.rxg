@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE grammar PUBLIC "-//RELAX//DTD RELAX Namespace 1.0//JA" "/home/kunishi/share/xml/relax/relaxNamespace.dtd">
+<grammar relaxNamespaceVersion="1.0" grammarVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace">
+
+  <topLevel>
+    <ref label="competition" namespace="http://www.chorusroom.org/xml"/>
+  </topLevel>
+
+  <module location="jca-comp-result.rxm" namespace="http://www.chorusroom.org/xml"/>
+  <module location="choir-piece.rxm" namespace="http://www.chorusroom.org/piece"/>
+  <module location="utf8-char.rxm" namespace="http://www.chorusroom.org/character"/>
+
+  <hedgeRule label="specialCharacters" namespace="http://www.chorusroom.org/xml">
+    <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+  </hedgeRule>
+  <hedgeRule label="specialCharacters" namespace="http://www.chorusroom.org/piece">
+    <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+  </hedgeRule>
+  <hedgeRule label="choirPiece" namespace="http://www.chorusroom.org/xml">
+    <ref label="choir-piece" namespace="http://www.chorusroom.org/piece"/>
+  </hedgeRule>
+
+</grammar>
