@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
                       "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
-<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+<!ENTITY % global-ent SYSTEM "./global.ent">
+%global-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
@@ -59,8 +60,8 @@
       <p>
 	「合唱の部屋」へのリンクは、私に連絡なく張っていただいて構いま
 	せん。ただし、ページ構成の変更により、トップページ<a
-	href="http://psi.c.oka-pu.ac.jp/chorusRoom/"
-	shape="rect">http://psi.c.oka-pu.ac.jp/chorusRoom/</a>以外のペー
+	href="&chorusroom-topurl;"
+	shape="rect">&chorusroom-topurl;</a>以外のペー
 	ジの URL アドレスは予告なく変更することがあります。
       </p>
       <p>
@@ -78,8 +79,8 @@
 	その点をご考慮の上、読んで頂ければさいわいです。
       </p>
     </div>
-    <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo/国島丈生</a> &lt;&kunishi-email;&gt;</address>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a> &lt;&kunishi-email;&gt;</address>
     <hr/>
-    $Id: index.xml,v 1.18 1999/08/09 04:11:14 kunishi Exp $
+    $Id: index.xml,v 1.19 1999/08/14 01:56:36 kunishi Exp $
   </body>
 </html>
