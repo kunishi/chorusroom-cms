@@ -29,7 +29,7 @@ class ChoirTable
 		' VALUES ' + sprintf("(%s)",
 				     tuple.map {
 				       |v|
-				       sprintf("'%s'", Mysql.quote(v))
+				       sprintf("'%s'", (v != nil ? Mysql.quote(v) : ""))
 				     }.join(",")) +
 		';')
     else
@@ -39,7 +39,7 @@ class ChoirTable
 		' VALUES ' + sprintf("(%s)",
 				     tuple.map {
 				       |v|
-				       sprintf("'%s'", Mysql.quote(v))
+				       sprintf("'%s'", (v != nil ? Mysql.quote(v) : ""))
 				     }.join(",")) +
 		';')
     end
