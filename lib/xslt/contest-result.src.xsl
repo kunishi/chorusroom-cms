@@ -66,7 +66,9 @@
 	  <xsl:call-template name="date-list"/>
 	  <xsl:apply-templates select="c:hall"/>
 	  <xsl:call-template name="referee-list"/>
+	  <!-- 
 	  <xsl:call-template name="reporter-list"/>
+	  -->
 	</dl>
 	<xsl:apply-templates select="c:notices"/>
         <xsl:if test='c:scoreTableRef'>
