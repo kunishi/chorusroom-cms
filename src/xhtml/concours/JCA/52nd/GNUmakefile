@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.49 2000/08/28 00:09:36 kunishi Exp $
+# $Id: GNUmakefile,v 1.50 2000/08/28 00:10:12 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -94,15 +94,9 @@ kanto-saiten.uhtml: kanto.utfxml
 nagano-saiten.jhtml: nagano.xml
 nagano-saiten.uhtml: nagano.utfxml
 ${CHUBU_HTML:%.html=%.jhtml}:	chubu.xml ${RESULT_XSL_COMMON}
-#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 ${CHUBU_HTML:%.html=%.uhtml}:	chubu.utfxml ${RESULT_XSL_COMMON}
-#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 ${KANSAI_HTML:%.html=%.jhtml}:	kansai.xml ${RESULT_XSL_COMMON}
-#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 ${KANSAI_HTML:%.html=%.uhtml}: kansai.utfxml ${RESULT_XSL_COMMON}
-#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 ${NATIONAL_HTML:%.html=%.jhtml}: national.xml ${RESULT_XSL_COMMON}
-#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 ${NATIONAL_HTML:%.html=%.uhtml}: national.utfxml ${RESULT_XSL_COMMON}
-#	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
