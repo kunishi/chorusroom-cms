@@ -1,5 +1,5 @@
 #
-# $Id: Makefile.dist.in,v 1.1 2000/11/16 16:16:35 kunishi Exp $
+# $Id: Makefile.dist.in,v 1.2 2000/11/16 16:43:22 kunishi Exp $
 #
 
 PUBLIC_DIR=	%%PUBLIC_DIR%%
@@ -24,4 +24,4 @@ index:
 	${MKNMZ} -O ${NAMAZU_INDEX_DIR} ${PUBLIC_DIR}
 
 gcindex:
-	cd ${NAMAZU_INDEX_DIR} && ${GCNMZ}
+	${GCNMZ} ${NAMAZU_INDEX_DIR}
