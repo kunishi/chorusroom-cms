@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-choir-piece.xsl,v 1.6 2001/01/23 01:56:37 kunishi Exp $ -->
+<!-- $Id: contest-result-choir-piece.xsl,v 1.7 2001/01/31 06:59:21 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:p="http://www.chorusroom.org/piece"
@@ -152,7 +152,7 @@
 	  <xsl:text>「</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:text>&quot;</xsl:text>
+	  <xsl:text> &quot;</xsl:text>
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:if>
