@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!ELEMENT 大会 (大会名, 開催日別結果+)>
+<!ATTLIST 大会
+          略称 CDATA #REQUIRED>
+
+<!ELEMENT 大会名 (#PCDATA)>
+
+<!ELEMENT 開催日別結果 (開催日?, 開催時刻?, 開催場所?, 審査員*, 報告者+, 注記?, 部門結果+)>
+<!ELEMENT 開催日 (#PCDATA)>
+<!-- 開催日のフォーマットは YYYY-MM-DD -->
+<!ATTLIST 開催日
+          曜日 CDATA #REQUIRED>
+<!ELEMENT 開始時刻 (#PCDATA)>
+<!-- 開始時刻のフォーマットは HH:MM -->
+
+<!ELEMENT 開催場所 (#PCDATA)>
+
+<!ELEMENT 審査員 (#PCDATA)>
+<!ATTLIST 審査員
+          肩書 CDATA #IMPLIED>
+
+<!ELEMENT 報告者 (#PCDATA)>
+<!ATTLIST 報告者
+          email CDATA #REQUIRED
+          匿名希望 CDATA #IMPLIED>
+<!ELEMENT 注記 (注記事項+)>
+<!ELEMENT 注記事項 (#PCDATA)>
+
+<!ELEMENT 部門結果 (部門名, 団体+, 採点表?)>
+<!ELEMENT 部門名 (#PCDATA)>
+<!ELEMENT 団体 (団体名, 形態?, 登録人数?, 所属県?, 指揮者*, 共演者*, 曲目?, 賞*)>
+<!ATTLIST 団体
+          大会代表 (yes) #IMPLIED
+          来年度シード (yes) #IMPLIED>
+<!ELEMENT 団体名 (#PCDATA)>
+<!ATTLIST 団体名
+          url CDATA #IMPLIED>
+<!ELEMENT 形態 (#PCDATA)>
+<!-- 形態は、混声、男声、女声、同声のいずれか。 -->
+<!ELEMENT 登録人数 (#PCDATA)>
+<!-- 登録人数は数字だけ書く。単位(人)は書かない。 -->
+<!ELEMENT 所属県 (#PCDATA)>
+<!-- 所属県は、北海道以外は都・府・県は省略する。 -->
+<!ELEMENT 指揮者 (#PCDATA)>
+<!ELEMENT 共演者 (#PCDATA)>
+<!ATTLIST 共演者
+          演奏楽器 CDATA #REQUIRED>
+<!ELEMENT 曲目 (課題曲, 自由曲+)>
+<!ELEMENT 賞 (#PCDATA)>
+
+<!ELEMENT 課題曲 (#PCDATA)>
+<!-- 課題曲は記号で表記する。G[1-4], M[1-4], F[1-4] のいずれか。 -->
+<!ELEMENT 自由曲 (作詩?, 訳詩?, 出典?, 編曲?, 作曲?, (曲名|組曲))>
+<!ELEMENT 作詩 (#PCDATA)>
+<!ELEMENT 訳詩 (#PCDATA)>
+<!ELEMENT 出典 (#PCDATA)>
+<!ELEMENT 編曲 (#PCDATA)>
+<!ELEMENT 作曲 (#PCDATA)>
+<!ELEMENT 曲名 (#PCDATA)>
+<!ELEMENT 組曲 (組曲名, 組曲ピース+)>
+<!ATTLIST 組曲
+          抜粋 (yes|no) #REQUIRED>
+<!ELEMENT 組曲名 (#PCDATA)>
+<!ELEMENT 組曲ピース (作詩?, 出典?, ピース曲名)>
+<!ELEMENT ピース曲名 (#PCDATA)>
+<!ATTLIST ピース曲名
+          ピース番号 CDATA #IMPLIED>
+<!-- ピース番号しかなく、個々のピースにタイトルが付いていない場合は
+     ピース番号に相当するものをピース曲名とする。
+-->
+
+<!ELEMENT 採点表 (#PCDATA)>
+<!-- 採点表の内容については今後検討する。DTD 的に正しくなるように、
+     とりあえず #PCDATA としておく。 
+-->
