@@ -15,8 +15,16 @@
    "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLspecialx.ent">
 %HTMLspecial;
 
+<!ENTITY % LanguageCode "CDATA">
+    <!-- a language code, as per [RFC1766] -->
+
+<!ENTITY % i18n
+ "xml:lang    %LanguageCode; #IMPLIED"
+  >
+
 <!ELEMENT 大会 (大会名, CVSID, 開催日別結果+)>
 <!ATTLIST 大会
+          %i18n;
           略称 CDATA #REQUIRED>
 <!ELEMENT CVSID (#PCDATA)>
 
@@ -37,6 +45,7 @@
 
 <!ELEMENT 審査員 (#PCDATA)>
 <!ATTLIST 審査員
+          %i18n;
           肩書 CDATA #IMPLIED
           備考 CDATA #IMPLIED>
 
@@ -45,6 +54,7 @@
           匿名希望 (yes|no) #IMPLIED>
 <!ELEMENT 報告者氏名 (#PCDATA)>
 <!ATTLIST 報告者氏名
+          %i18n;
           ペンネーム CDATA #IMPLIED>
 <!ELEMENT email (#PCDATA)>
 <!ATTLIST email
@@ -64,6 +74,7 @@
           来年度シード (yes) #IMPLIED>
 <!ELEMENT 団体名 (#PCDATA)>
 <!ATTLIST 団体名
+          %i18n;
           url CDATA #IMPLIED>
 <!ELEMENT 所属県 (#PCDATA)>
 <!-- 所属県は、北海道以外は都・府・県は省略する。 -->
@@ -72,10 +83,15 @@
 <!ELEMENT 登録人数 (#PCDATA)>
 <!-- 登録人数は数字だけ書く。単位(人)は書かない。 -->
 <!ELEMENT 指揮者 (#PCDATA)>
+<!ATTLIST 指揮者
+          %i18n;>
 <!ELEMENT ピアノ (#PCDATA)>
+<!ATTLIST ピアノ
+          %i18n;>
 <!-- ピアノ以外の共演者 -->
 <!ELEMENT 共演者 (#PCDATA)>
 <!ATTLIST 共演者
+          %i18n;
           演奏楽器 CDATA #REQUIRED>
 <!ELEMENT 曲目 (課題曲?, 自由曲+)>
 <!ELEMENT 賞 (#PCDATA)>
@@ -87,18 +103,33 @@
 <!-- 課題曲は記号で表記する。G[1-4], M[1-4], F[1-4] のいずれか。 -->
 <!ELEMENT 自由曲 (出典?, 作詩?, 訳詩?, 作曲?, 編曲?, (曲名|組曲))>
 <!ELEMENT 作詩 (#PCDATA)>
+<!ATTLIST 作詩
+          %i18n;>
 <!ELEMENT 訳詩 (#PCDATA)>
+<!ATTLIST 訳詩
+          %i18n;>
 <!ELEMENT 出典 (#PCDATA)>
+<!ATTLIST 出典
+          %i18n;>
 <!ELEMENT 編曲 (#PCDATA)>
+<!ATTLIST 編曲
+          %i18n;>
 <!ELEMENT 作曲 (#PCDATA)>
+<!ATTLIST 作曲
+          %i18n;>
 <!ELEMENT 曲名 (#PCDATA)>
+<!ATTLIST 曲名
+          %i18n;>
 <!ELEMENT 組曲 (組曲名, 組曲ピース+)>
 <!ATTLIST 組曲
           抜粋 (yes|no) #REQUIRED>
 <!ELEMENT 組曲名 (#PCDATA)>
+<!ATTLIST 組曲名
+          %i18n;>
 <!ELEMENT 組曲ピース (出典?, 作詩?, 訳詩?, ピース曲名)>
 <!ELEMENT ピース曲名 (#PCDATA)>
 <!ATTLIST ピース曲名
+          %i18n;
           ピース番号 CDATA #IMPLIED>
 <!-- ピース番号しかなく、個々のピースにタイトルが付いていない場合は
      ピース番号に相当するものをピース曲名とする。
