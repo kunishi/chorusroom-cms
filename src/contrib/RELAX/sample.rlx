@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA"
+			"relaxCore.dtd">
+<module relaxCoreVersion="1.0"
+        xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+
+  <interface>
+    <export label=""/>
+  </interface>
+
+  <elementRule label="">
+    <tag>
+      <attribute name="" type="string" />
+    </tag>
+    <sequence>
+      <element name="" type="string" />
+    </sequence>
+  </elementRule>
+
+</module>

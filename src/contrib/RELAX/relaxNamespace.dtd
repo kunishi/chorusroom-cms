@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+DTD for RELAX Namespace (Ver 1.0)
+$Id: relaxNamespace.dtd 1.3 2000/12/20 14:25:27 murata Exp $
+-->
+
+<!ENTITY % datatype "User_defined_datatypes_are_disallowed_at_least_now">
+<!ENTITY % datatype-definitions SYSTEM "datatypes.dtd">
+%datatype-definitions;
+
+<!--*******************************************************-->
+<!--                                                       -->  
+<!--         The overall structure of RELAX grammars.      -->
+<!--                                                       -->  
+<!--*******************************************************-->
+
+<!ELEMENT grammar
+	((%annotation;)?, 
+	 (module | hedgeRule | attPool | include | div)*,
+	 (topLevel,
+	 (module | hedgeRule | attPool | include | div)*)? )>
+
+<!ATTLIST grammar
+	relaxNamespaceVersion CDATA #REQUIRED
+	grammarVersion    CDATA      #IMPLIED
+        xmlns            CDATA      #FIXED "http://www.xml.gr.jp/xmlns/relaxNamespace"
+>
+
+<!ELEMENT div
+	((%annotation;)?,
+	 (module | hedgeRule | attPool | include | div)* )>
+
+<!--*******************************************************-->
+<!--                                                       -->  
+<!--                       Include                         -->
+<!--                                                       -->  
+<!--*******************************************************-->
+
+<!ELEMENT include ((%annotation;)?)>
+<!ATTLIST include grammarLocation CDATA #REQUIRED>
+
+<!--*******************************************************-->
+<!--                                                       -->  
+<!--                    Hedge Models                       -->
+<!--                                                       -->  
+<!--*******************************************************-->
+
+<!ENTITY % particle "(ref | hedgeRef | choice | sequence
+			  | none | empty | anyOther )">
+
+<!ENTITY % hedgeModel 
+	"(%particle;  | mixed)">
+
+<!ENTITY % repeatable '
+                 occurs       CDATA      #IMPLIED
+'>
+
+
+<!ELEMENT hedgeRef EMPTY >
+<!ATTLIST hedgeRef 
+                 label      NMTOKEN      #REQUIRED
+                 namespace  CDATA        #REQUIRED
+                 %repeatable;
+>
+
+<!ELEMENT anyOther ((%annotation;)?)>
+<!ATTLIST anyOther 
+                 %repeatable;
+>
+
+<!ELEMENT ref EMPTY >
+<!ATTLIST ref 
+                 label      NMTOKEN      #IMPLIED
+                 role       NMTOKEN      #IMPLIED
+                 namespace  CDATA        #REQUIRED
+                 %repeatable;
+>
+
+<!ELEMENT empty EMPTY >
+
+<!ELEMENT choice (%particle;)* >
+<!ATTLIST choice
+                 %repeatable;
+>
+
+<!ELEMENT sequence (%particle;)* >
+<!ATTLIST sequence
+                 %repeatable;
+>
+
+<!ELEMENT none EMPTY>
+
+<!ELEMENT mixed (%particle;) >
+
+<!ELEMENT topLevel ((%annotation;)?, %hedgeModel;)>
+
+<!--*******************************************************-->
+<!--                                                       -->  
+<!--                Module declarations                    -->
+<!--                                                       -->  
+<!--*******************************************************-->
+
+<!ELEMENT module ((%annotation;)?)>
+<!ATTLIST module
+                 location   CDATA        #IMPLIED
+                 namespace  CDATA        #REQUIRED
+>
+
+<!--*******************************************************-->
+<!--                                                       -->  
+<!--                Rules for imported labels              -->
+<!--                                                       -->  
+<!--*******************************************************-->
+
+<!ELEMENT hedgeRule  ((%annotation;)?, %particle;) >
+<!ATTLIST hedgeRule
+                 label      NMTOKEN      #REQUIRED
+                 namespace  CDATA        #REQUIRED
+>
+
+<!--*******************************************************-->
+<!--                                                       -->  
+<!--                Clauses for imported attPools          -->
+<!--                                                       -->  
+<!--*******************************************************-->
+
+<!ENTITY % clauseBody "((%annotation;)?, (ref*,(anyOther,ref*)?))">
+
+<!ELEMENT attPool (%clauseBody;)>
+<!ATTLIST attPool
+                 role      NMTOKEN       #REQUIRED
+                 namespace  CDATA        #REQUIRED
+>
