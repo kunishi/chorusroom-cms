@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.6 1999/08/22 16:20:31 kunishi Exp $
+# $Id: Makefile,v 1.7 1999/08/23 10:38:05 kunishi Exp $
 #
 
 RELPATH=	.
@@ -23,7 +23,8 @@ INSTFILES_NOBUILD+=	panaMusica-map.txt \
 			panaMusicap.ps \
 			panaMusica.ps.gz
 
-SUBDIR+=	JCA-concours \
+SUBDIR+=	48th \
+		JCA-concours \
 		image \
 		links \
 		style \
