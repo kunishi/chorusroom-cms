@@ -1,393 +1,1058 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>51st All Japan Chorus Contest/Fukushima</title>
-  </head>
-  <body>
-    <h1>$BBh(B51$B2sA4F|K\9g>'%3%s%/!<%kJ!Eg8)Bg2q(B($BBh(B52$B2sJ!Eg8)9g>'%3%s%/!<%k(B)</h1>
-    <dl>
-      <dt>$BF|;~(B</dt>
-      <dd>$BJ?@.(B10$BG/(B8$B7n(B28$BF|(B($B6b(B)($B9b9;$NIt(B)$B!&(B29$BF|(B($BEZ(B)($BCf3X9;$NIt(B)$B!&(B
-	30$BF|(B($BF|(B)($BBg3X!&?&>l!&0lHL$NIt(B)
-      </dd>
-      <dt>$B2q>l(B</dt>
-      <dd>$B74;3;TL1J82=%;%s%?!<Bg%[!<%k(B</dd>
-      <dt>$B?3::0w(B</dt>
-      <dd>$B1+?9J8Li(B($B9g>';X4x<T(B(28$B!&(B29$BF|(B))$B!"Bg;VK|L@;R(B($B@<3Z2H(B)$B!"(B
-	$B@6?e7I0l(B($B9g>';X4x<T(B(30$BF|(B))$B!"NkLZ51><(B($B:n6J2H(B(28$B!&(B29$BF|(B))$B!"(B
-	$BD9C+@n:c;R(B($B9g>';X4x<T(B(30$BF|(B))$B!"3'@nC#IW(B($B2;3Z;K2H(B)$B!"(B
-	$BEOJU;0O:(B($B9g>';X4x<T(B)
-      </dd>
-      <dt>$B>pJsDs6!<T(B</dt>
-      <dd>$B0l>r7r;V$5$s(B (ichijo@seagreen.ocn.ne.jp)</dd>
-    </dl>
-    <p>$B!{$,ElKL;YItBg2q$X$NBeI=CDBN$G$9!#(B</p>
-    <hr/>
-    <h2>$BCf3X9;$NIt(B</h2>
-    <h3>$B6b>^(B($BBeI=(B)</h3>
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns='http://www.chorusroom.org/xml'
+  xmlns:p='http://www.chorusroom.org/piece'
+  xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: fukushima.xml,v 1.12 2002/01/07 03:09:41 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第51回全日本合唱コンクール福島県大会(第52回福島県合唱コンクール)</competition-name>
+  <result output="fukushima">
+    <date day-of-week="fri" holiday="false">1998-08-28</date>
+    <date day-of-week="sat" holiday="false">1998-08-29</date>
+    <date day-of-week="sun" holiday="false">1998-08-30</date>
+    <hall>郡山市民文化センター大ホール</hall>
+    <referee shortname="雨森" job="合唱指揮者" referred-date="1998-08-28, 1998-08-29">雨森文也</referee>
+    <referee shortname="大志万" job="声楽家">大志万明子</referee>
+    <referee shortname="清水" job="合唱指揮者" referred-date="1998-08-30">清水敬一</referee>
+    <referee shortname="鈴木" job="作曲家" referred-date="1998-08-28, 1998-08-29">鈴木輝昭</referee>
+    <referee shortname="長谷川" job="合唱指揮者" referred-date="1998-08-30">長谷川冴子</referee>
+    <referee shortname="皆川" job="音楽史家">皆川達夫</referee>
+    <referee shortname="渡辺" job="合唱指揮者">渡辺三郎</referee>
+    <reporter>
+      <reporter-name>一条健志</reporter-name>
+      <reporter-email>ichijo@seagreen.ocn.ne.jp</reporter-email>
+    </reporter>
+    <notices>
+      <notice>代表団体のみ記載しています。</notice>
+    </notices>
+    <section>
+      <section-name date="1998-08-29">中学校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>相馬市立中村第一中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>44</number-of-members>
+	<conductor>三浦恵美子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>福島県合唱連盟賞(全部門中2位)</special-prize>
+	<special-prize>福島県教育長賞(各部門中1位)</special-prize>
+	<program>
+	  <free-program>
+	  <p:suite>
+	      <p:composed-by>間宮芳生</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>五つのわらべうた</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>お手玉歌</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>松下耕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>小猫物語</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>子供</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津若松市立第三中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>55</number-of-members>
+	<conductor>古川真弓</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>William Mathias</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>REX GLOROAE</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>LAETENTUR COELI</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>VICTIMAE PASCHALI</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>山都町立山都中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>矢部悦子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>BARTOK BELA</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>LEANYNEZO</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>BARTOK BELA</p:composed-by>
+	      <p:title>
+		<p:mainTitle>HEJJA HEJJA KARAHEJJA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>BARTOK BELA</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>LEANYKERO</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>塩川町立塩川中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>金子幸子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>BARTOK BELA</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>27 two- and three-part Choruses</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Leanynezo</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Csujogato</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>安達町立安達中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>59</number-of-members>
+	<conductor>佐藤祐子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>間宮芳生</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>合唱のためのコンポジション第1番</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>混声合唱のためのコンポジション</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>浪江町立浪江中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>会田ユキ子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>生きる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津若松市立第二中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>35</number-of-members>
+	<conductor>大竹光子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>空に樹に…</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>生きる</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>郡山市立第二中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>65</number-of-members>
+	<conductor>佐藤美奈子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Thomas Tallis</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>THE LAMENTATION OF JEREMIAH</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>Part 1</p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>三春町立桜中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>54</number-of-members>
+	<conductor>白石博美</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:arranged-by>河西保郎</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>BATTLE OF JERICHO</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:arranged-by>河西保郎</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>SOON AH WILL BE DANE</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>浪江市立東中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>38</number-of-members>
+	<conductor>北原美恵</conductor>
+	<piano>天野由紀子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>坪能克裕</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>コーラスファンタジー混声合唱</p:titlePrefix>
+		<p:mainTitle>アジアよ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>エイシア</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>須賀川市立仁井田中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>36</number-of-members>
+	<conductor>鈴木郁子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	  <p:piece>
+	      <p:composed-by>KODALY ZOLTAN</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>ADVENTI ENEK</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>KODALY ZOLTAN</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>JANOS KOSZONTO</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>郡山市立第一中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>60</number-of-members>
+	<conductor>南由美子</conductor>
+	<piano>佐藤久美</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>はだか</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>きみ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>川俣町立川俣中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>29</number-of-members>
+	<conductor>菅野康子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>間宮芳生</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>三色草子</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>かかし</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>須賀川市立第二中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>34</number-of-members>
+	<conductor>小針智恵子</conductor>
+	<piano>佐藤玲子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>夢のかたち</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanII">II</cr:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:words-by>吉行理恵</p:words-by>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夢</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:utf8-char nickname="romanIV">IV</cr:utf8-char></p:piece-number>
+		<p:piece>
+		  <p:words-by>竹中郁</p:words-by>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>夢の結果</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津坂下町立第一中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>33</number-of-members>
+	<conductor>橋本厚子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>南島歌遊び</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>憩い</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>福島雄次郎</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>道之島歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>色白女童</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>福島市立第三中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>34</number-of-members>
+	<conductor>板倉三起子</conductor>
+	<piano>寺山祥子</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	  <p:piece>
+	      <p:composed-by>鈴木憲夫</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>地球に寄り添って</p:mainTitle>
+		<p:titleSuffix>―センス オブ ワンダー―</p:titleSuffix>
+	      </p:title></p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>白河市立白河中央中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>23</number-of-members>
+	<conductor>木村加代子</conductor>
+	<piano>高崎蘭</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>聞こえる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>相馬市立磯部中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>34</number-of-members>
+	<conductor>石橋尚子</conductor>
+	<piano>阿部香里</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>鈴木一行</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>美しいものについて</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>愛の日に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>郡山市立第七中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>石井ゆかり</conductor>
+	<piano>伊藤奈緒美</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <free-program>
+	  <p:suite>
+	      <p:composed-by>高嶋みどり</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声3部合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>魂のいちばんおいしいところ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>魂のいちばんおいしいところ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>いわき市立湯本第一中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>27</number-of-members>
+	<conductor>永山和華</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	  <p:piece>
+	      <p:composed-by>KODALY ZOLTAN</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>ANGYAL ES PASZTROK</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>都路村立都路第一中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>60</number-of-members>
+	<conductor>目黒祐子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>三善晃</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>地球へのバラード</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>地球へのピクニック</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>梁川町立梁川中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>53</number-of-members>
+	<conductor>阿部朋子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>T. L. VICTORIA</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Tenebrae Responsorium</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>TAMQUAM AD LATRONEM</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>矢吹町立矢吹中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>38</number-of-members>
+	<conductor>小河美智子</conductor>
+	<piano>冨永祐子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Wikkiam Dumber</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>NUNC NATUS EST ALTISSNMUS 4</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>本宮町立本宮第一中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>60</number-of-members>
+	<conductor>根本小織</conductor>
+	<piano>熊坂梢</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>青島広志</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>マザーグースの5つの歌</p:mainTitle></p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>にわのことりが</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>ソロモングランディ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>大玉村立大玉中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>35</number-of-members>
+	<conductor>遠藤康成</conductor>
+	<piano>鈴木唱子</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>黒沢吉徳</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>遠く吹く風</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>小高町立小高中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>遠藤美恵子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>林光</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>ラ・フォンテーヌ「寓話」による(女声6部合唱)</p:titlePrefix>
+		<p:mainTitle>ウサギの耳</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津若松市立第四中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>57</number-of-members>
+	<conductor>大竹寿子</conductor>
+	<piano>内川阿紀</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>新実徳英</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>聞こえる</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name date="1998-08-28">高校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>安積女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>116</number-of-members>
+	<conductor>菅野正美</conductor>
+	<piano>東みのり</piano>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>コンクール大賞(全部門で特に優れた団体)</special-prize>
+	<special-prize>全日本合唱連盟理事長賞(全部門中1位)</special-prize>
+	<special-prize>福島県教育長賞(各部門中1位)</special-prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>会う−手紙−川</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>57</number-of-members>
+	<conductor>大竹隆</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>二群の女声合唱のための</p:titlePrefix>
+		<p:mainTitle>アルス・アンティカ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津高等学校</choir-name>
+	<choir-type>male</choir-type>
+	<number-of-members>31</number-of-members>
+	<conductor>堀内清治</conductor>
+	<piano>加藤敦子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="M4" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱組曲</p:titlePrefix>
+		<p:mainTitle>Enfance Finie</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>物語</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>若松女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>76</number-of-members>
+	<conductor>西村和枝</conductor>
+	<piano>中野雅子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>二群の同声(女声)合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>森へ</p:mainTitle></p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>2nd Scene</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>郡山東高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>48</number-of-members>
+	<conductor>斎藤和夫</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Francis Poulenc</p:composed-by>
+	      <p:title original="true">Petites voix</p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>LA PETITE FILLE SAGE</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>かしこい少女</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>EN RENTRANT DE L'ECOLE</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>学校の帰りの道</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>4.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>LE PETIT GARCON MALADE</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>病気の少年</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>5.</p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>LE HERISSON</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>ハリネズミ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <h3>銀賞(代表)</h3>
     <ul>
-      <li>$B!{AjGO;TN)CfB<Bh0lCf3X9;(B($B=w@<(B44$B!";X4x(B: $B;01:7CH~;R(B)
-	[$BJ!Eg8)9g>'O"LA>^(B($BA4ItLgCf(B2$B0L(B), $BJ!Eg8)650iD9>^(B($B3FItLgCf(B1$B0L(B)]
-	<ul>
-	  <li>$B4V5\K'@8(B/$B!V8^$D$N$o$i$Y$&$?!W$+$i(B $B$*<j6L2N(B</li>
-	  <li>$B>>2<9L(B/$B=w@<9g>'AH6J!V>.G-J*8l!W$+$i(B $B;R6!(B</li>
-	</ul>
-      </li>
-      <li>$B!{2qDE<c>>;TN)Bh;0Cf3X9;(B($B:.@<(B55$B!";X4x(B: $B8E@n??5](B)
-	<ul>
-	  <li>William Mathias/&quot;REX GLOROAE&quot;$B$h$j(B
-	    1. LAETENTUR COELI; 2.VICTIMAE PASCHALI</li>
-	</ul>
-      </li>
-      <li>$B!{;3ETD.N);3ETCf3X9;(B($B=w@<(B45$B!";X4x(B: $BLpIt1Y;R(B)
-	<ul>
-	  <li>BARTOK BELA/&quot;LEANYNEZO&quot;$B$h$j(B
-	    HEJJA HEJJA KARAHEJJA; LEANYKERO</li>
-	</ul>
-      </li>
-      <li>$B!{1v@nD.N)1v@nCf3X9;(B($B=w@<(B: 30$B!";X4x(B: $B6b;R9,;R(B)
-	<ul>
-	  <li>BARTOK BELA/$B!V(B27 two- and three-part Choruses$B!W$+$i(B
-	    Leanynezo; Csujogato</li>
-	</ul>
-      </li>
-      <li>$B!{0BC#D.N)0BC#Cf3X9;(B($B:.@<(B59$B!";X4x(B: $B:4F#M4;R(B)
-	<ul>
-	  <li>$B4V5\K'@8(B/$B9g>'$N$?$a$N%3%s%]%8%7%g%sBh(B1$BHV$h$j(B
-	    $B!V:.@<9g>'$N$?$a$N%3%s%]%8%7%g%s!W(B</li>
-	</ul>
-      </li>
-      <li>$B!{O29>D.N)O29>Cf3X9;(B($B:.@<(B32$B!";X4x(B: $B2qED%f%-;R(B)
-	<ul>
-	  <li>$B?7<BFA1Q(B/$B@8$-$k(B</li>
-	</ul>
-      </li>
-      <li>$B!{2qDE<c>>;TN)BhFsCf3X9;(B($B=w@<(B35$B!";X4x(B: $BBgC]8w;R(B)
-	<ul>
-	  <li>$B?7<BFA1Q(B/$B!V6u$K<y$K!D!W$+$i(B $B@8$-$k(B</li>
-	</ul>
-      </li>
-      <li>$B!{74;3;TN)BhFsCf3X9;(B($B:.@<(B65$B!";X4x(B: $B:4F#H~F`;R(B)
-	<ul>
-	  <li>Thomas Tallis/&quot;THE LAMENTATION OF JEREMIAH&quot;$B$h$j(B
-	    Part 1</li>
-	</ul>
-      </li>
-      <li>$B!{;0=UD.N):yCf3X9;(B($B:.@<(B54$B!";X4x(B: $BGr@PGnH~(B)
-	<ul>
-	  <li>$B2O@>J]O:(B/BATTLE OF JERICHO; SOON AH WILL BE DANE</li>
-	</ul>
-      </li>
-      <li>$B!{O29>;TN)ElCf3X9;(B($B:.@<(B38$B!";X4x(B: $BKL86H~7C!"%T%"%N(B: $BE7LnM35*;R(B)
-	<ul>
-	  <li>$BDZG=9nM5(B/$B%3!<%i%9%U%!%s%?%8!<:.@<9g>'!V%"%8%"$h!W$h$j(B
-	    $B%(%$%7%"(B</li>
-	</ul>
-      </li>
-    </ul>
-    <h3>$B6d>^(B($BBeI=(B)</h3>
-    <ul>
-      <li>$B!{?\2l@n;TN)?N0fEDCf3X9;(B($B:.@<(B36$B!";X4x(B: $BNkLZ0j;R(B)
-	<ul>
-	  <li>KODALY ZOLTAN/ADVENTI ENEK; JANOS KOSZONTO</li>
-	</ul>
-      </li>
-      <li>$B!{74;3;TN)Bh0lCf3X9;(B($B:.@<(B60$B!";X4x(B: $BFnM3H~;R!"%T%"%N(B: $B:4F#5WH~(B)
-	<ul>
-	  <li>$BNkLZ51><(B/$B!V$O$@$+!W$h$j(B $B$-$_(B</li>
-	</ul>
-      </li>
-      <li>$B!{@nKsD.N)@nKsCf3X9;(B($B=w@<(B29$B!";X4x(B: $B?{Ln9/;R(B)
-	<ul>
-	  <li>$B4V5\K'@8(B/$B;0?'Ap;R$h$j(B $B$+$+$7(B</li>
-	</ul>
-      </li>
-      <li>$B!{?\2l@n;TN)BhFsCf3X9;(B($B:.@<(B34$B!";X4x(B: $B>.?KCR7C;R!"%T%"%N(B: $B:4F#Nh;R(B)
-	<ul>
-	  <li>$BLZ2<KR;R(B/$B!VL4$N7A!W$h$j(B 2. $BL4(B; 4. $BL4$N7k2L(B</li>
-	</ul>
-      </li>
-      <li>$B!{2qDE:d2<D.N)Bh0lCf3X9;(B($B=w@<(B33$B!";X4x(B: $B66K\8|;R(B)
-	<ul>
-	  <li>$BJ!EgM:<!O:(B/$BL5H<AU=w@<9g>'$N$?$a$N!VFnEg2NM7$S!W$h$j(B $B7F$$(B</li>
-	  <li>$BJ!EgM:<!O:(B/$B!VF;G7Eg2N!W$h$j(B $B?'Gr=wF8(B</li>
-	</ul>
-      </li>
-      <li>$B!{J!Eg;TN)Bh;0Cf3X9;(B($B=w@<(B34$B!";X4x(B: $BHDAR;05/;R!"%T%"%N(B: $B;{;3>M;R(B)
-	<ul>
-	  <li>$BNkLZ7{IW(B/$BCO5e$K4s$jE:$C$F!=%;%s%9(B $B%*%V(B $B%o%s%@!<!=(B</li>
-	</ul>
-      </li>
-      <li>$B!{Gr2O;TN)Gr2OCf1{Cf3X9;(B($B=w@<(B23$B!";X4x(B: $BLZB<2CBe;R!"%T%"%N(B: $B9b:jMv(B)
-	<ul>
-	  <li>$B?7<BFA1Q(B/$BJ9$3$($k(B</li>
-	</ul>
-      </li>
-      <li>$B!{AjGO;TN)0kItCf3X9;(B($B=w@<(B34$B!";X4x(B: $B@P66>0;R!"%T%"%N(B: $B0$It9aN$(B)
-	<ul>
-	  <li>$BNkLZ0l9T(B/$B=w@<9g>'AH6J!VH~$7$$$b$N$K$D$$$F!W$h$j(B $B0&$NF|$K(B</li>
-	</ul>
-      </li>
-      <li>$B!{74;3;TN)Bh<7Cf3X9;(B($B:.@<(B32$B!";X4x(B: $B@P0f$f$+$j!"%T%"%N(B: $B0KF#F`=oH~(B)
-	<ul>
-	  <li>$B9bEh$_$I$j(B/$B:.@<(B3$BIt9g>'$H%T%"%N$N$?$a$N(B
-	    $B!V:2$N$$$A$P$s$*$$$7$$$H$3$m!W$h$j(B $B:2$N$$$A$P$s$*$$$7$$$H$3$m(B</li>
-	</ul>
-      </li>
-    </ul>
-    <h3>$BF<>^(B($BBeI=(B)</h3>
-    <ul>
-      <li>$B!{$$$o$-;TN)ErK\Bh0lCf3X9;(B($B=w@<(B27$B!";X4x(B: $B1J;3OB2Z(B)
-	<ul>
-	  <li>KODALY ZOLTAN/ANGYAL ES PASZTROK</li>
-	</ul>
-      </li>
-      <li>$B!{ETO)B<N)ETO)Bh0lCf3X9;(B($B:.@<(B60$B!";X4x(B: $BL\9uM4;R(B)
-	<ul>
-	  <li>$B;0A198(B/$B!VCO5e$X$N%P%i!<%I!W$h$j(B $BCO5e$X$N%T%/%K%C%/(B</li>
-	</ul>
-      </li>
-      <li>$B!{NB@nD.N)NB@nCf3X9;(B($B:.@<(B53$B!";X4x(B: $B0$ItJ~;R(B)
-	<ul>
-	  <li>T. L. VICTORIA/Tenebrae Responsorium $B$h$j(B
-	    TAMQUAM AD LATRONEM</li>
-	</ul>
-      </li>
-      <li>$B!{Lp?aD.N)Lp?aCf3X9;(B($B=w@<(B38$B!";X4x(B: $B>.2OH~CR;R!"%T%"%N(B: $BIZ1JM4;R(B)
-	<ul>
-	  <li>Wikkiam Dumber/NUNC NATUS EST ALTISSNMUS 4</li>
-	</ul>
-      </li>
-      <li>$B!{K\5\D.N)K\5\Bh0lCf3X9;(B($B:.@<(B60$B!";X4x(B: $B:,K\>.?%!"%T%"%N(B: $B7':d>?(B)
-	<ul>
-	  <li>$B@DEg9-;V(B/$B:.@<9g>'AH6J!V%^%6!<%0!<%9$N(B5$B$D$N2N!W$h$j(B
-	    1. $B$K$o$N$3$H$j$,(B; 3. $B%=%m%b%s%0%i%s%G%#(B</li>
-	</ul>
-      </li>
-      <li>$B!{Bg6LB<N)Bg6LCf3X9;(B($B:.@<(B35$B!";X4x(B: $B1sF#9/@.!"%T%"%N(B: $BNkLZ>';R(B)
-	<ul>
-	  <li>$B9uBt5HFA(B/$B1s$/?a$/Iw(B</li>
-	</ul>
-      </li>
-      <li>$B!{>.9bD.N)>.9bCf3X9;(B($B=w@<(B30$B!";X4x(B: $B1sF#H~7C;R(B)
-	<ul>
-	  <li>$BNS8w(B/$B%i!&%U%)%s%F!<%L!V6wOC!W$K$h$k(B($B=w@<(B6$BIt9g>'(B) $B%&%5%.$N<*(B</li>
-	</ul>
-      </li>
-      <li>$B!{2qDE<c>>;TN)Bh;MCf3X9;(B($B:.@<(B57$B!";X4x(B: $BBgC]<w;R!"%T%"%N(B: $BFb@n0$5*(B)
-	<ul>
-	  <li>$B?7<BFA1Q(B/$BJ9$3$($k(B</li>
-	</ul>
-      </li>
-    </ul>
-    <hr/>
-    <h2>$B9b9;$NIt(B</h2>
-    <h3>$B6b>^(B($BBeI=(B)</h3>
-    <ul>
-      <li>$B!{0B@Q=w;R9bEy3X9;(B($B=w@<(B116$B!&(BB$B!";X4x(B: $B?{Ln@5H~!"%T%"%N(B: $BEl$_$N$j(B)
-	[$B%3%s%/!<%kBg>^(B($BA4ItLg$GFC$KM%$l$?CDBN(B),
-	$BA4F|K\9g>'O"LAM};vD9>^(B($BA4ItLgCf(B1$B0L(B),
-	$BJ!Eg8)650iD9>^(B($B3FItLgCf(B1$B0L(B)]
-	<ul>
-	  <li>F4</li>
-	  <li>$BNkLZ51><(B/$B=w@<9g>'$H%T%"%N$N$?$a$NAH6J!V=w$K!W$h$j(B
-	    $B2q$&!"<j;f!"@n(B</li>
-	</ul>
-      </li>
-      <li>$B!{2qDE=w;R9bEy3X9;(B($B=w@<(B57$B!&(BB$B!";X4x(B: $BBgC]N4(B)
-	<ul>
-	  <li>F1</li>
-	  <li>$BNkLZ51><(B/$BFs72$N=w@<9g>'$N$?$a$N!V%"%k%9!&%"%s%F%#%+!W(B</li>
-	</ul>
-      </li>
-      <li>$B!{2qDE9bEy3X9;(B($BCK@<(B31$B!&(BA$B!";X4x(B: $BKYFb@6<#!"%T%"%N(B: $B2CF#FX;R(B)
-	<ul>
-	  <li>M4</li>
-	  <li>$BLZ2<KR;R(B/$BCK@<9g>'AH6J!V(BEnbance Finie$B!W$h$j(B 2. $BJ*8l(B</li>
-	</ul>
-      </li>
-      <li>$B!{<c>>=w;R9bEy3X9;(B($B=w@<(B76$B!&(BB$B!";X4x(B: $B@>B<OB;^!"%T%"%N(B: $BCfLn2m;R(B)
-	<ul>
-	  <li>F2</li>
-	  <li>$BNkLZ51><(B/$BFs72$NF1@<(B($B=w@<(B)$B9g>'$H%T%"%N$N$?$a$N!V?9$X!W$h$j(B
-	    2nd Scene</li>
-	</ul>
-      </li>
-      <li>$B!{74;3El9bEy3X9;(B($B=w@<(B48$B!&(BB$B!";X4x(B: $B:XF#OBIW(B)
-	<ul>
-	  <li>F1</li>
-	  <li>Francis Poulenc/Petitea voix $B$h$j(B
-	    1. LA PETITE FILLE SAGE($B$+$7$3$$>/=w(B);
-	    3. EN RENTRANT DE L'ECOLE($B3X9;$N5"$j$NF;(B);
-	    4. LE PETIT GARCON MALADE($BIB5$$N>/G/(B);
-	    5. LE HERISSON($B%O%j%M%:%_(B)</li>
-	</ul>
-      </li>
-    </ul>
-    <h3>$B6d>^(B($BBeI=(B)</h3>
-    <ul>
-      <li>$B!{0BC#9bEy3X9;(B($B:.@<(B63$B!&(BB$B!";X4x(B: $BJ!0f6Q(B)
+      <li>○安達高等学校(混声63・B、指揮: 福井均)
 	<ul>
 	  <li>G1</li>
 	  <li>BARDOS Lajos/ESZTERGOM SORSAROL</li>
 	</ul>
       </li>
-      <li>$B!{J!Eg@>9bEy3X9;(B($B=w@<(B30$B!&(BA$B!";X4x(B: $B9bNo@5@k(B)
+      <li>○福島西高等学校(女声30・A、指揮: 高麗正宣)
 	<ul>
 	  <li>F2</li>
 	  <li>Pekka Kostiainen/Regina angelorum</li>
 	</ul>
       </li>
-      <li>$B!{J!Eg=w;R9bEy3X9;(B($B=w@<(B32$B!&(BA$B!";X4x(B: $B?@;3=UCK(B)
+      <li>○福島女子高等学校(女声32・A、指揮: 神山春男)
 	<ul>
 	  <li>F2</li>
-	  <li>ALFRED BAMER/MISSA REGINA MUNDI $B$h$j(B Credo</li>
+	  <li>ALFRED BAMER/MISSA REGINA MUNDI より Credo</li>
 	</ul>
       </li>
-      <li>$B!{J!Eg9bEy3X9;(B($BCK@<(B40$B!&(BB$B!";X4x(B: $B0KF#7.!"%T%"%N(B: $B<r0f@!?M(B)
+      <li>○福島高等学校(男声40・B、指揮: 伊藤勲、ピアノ: 酒井澄人)
 	<ul>
 	  <li>M1</li>
-	  <li>$BNkLZ51><(B/$BCK@<9g>'$H%T%"%N$N$?$a$NAH6J!V%O%l!<WB@1FHGr!W$h$j(B
-	    1. $BLo@8?M$h!"$-$_$i$O$I$&$7$F(B</li>
+	  <li>鈴木輝昭/男声合唱とピアノのための組曲「ハレー彗星独白」より
+	    1. 弥生人よ、きみらはどうして</li>
 	</ul>
       </li>
-      <li>$B!{4nB?J}9bEy3X9;(B($B:.@<(B27$B!&(BA$B!";X4x(B: $B?{Ln5WCK(B)
+      <li>○喜多方高等学校(混声27・A、指揮: 菅野久男)
 	<ul>
 	  <li>G1</li>
-	  <li>G. P. da Palestrina/MISSA BREVIS $B$h$j(B CREDO</li>
+	  <li>G. P. da Palestrina/MISSA BREVIS より CREDO</li>
 	</ul>
       </li>
     </ul>
-    <h3>$BF<>^(B($BBeI=(B)</h3>
+    <h3>銅賞(代表)</h3>
     <ul>
-      <li>$B!{0B@Q9bEy3X9;(B($BCK@<(B45$B!&(BB$B!";X4x(B: $B8^==MrNI;^(B)
+      <li>○安積高等学校(男声45・B、指揮: 五十嵐良枝)
 	<ul>
 	  <li>M1</li>
-	  <li>Josquin des prez/MISSA PANGE LINGUA $B$h$j(B Gloria</li>
+	  <li>Josquin des prez/MISSA PANGE LINGUA より Gloria</li>
 	</ul>
       </li>
-      <li>$B!{HX>k9bEy3X9;(B($BCK@<(B95$B!&(BB$B!";X4x(B: $B7*867i!"%T%"%N(B: $BEDCfM};K!"(B
-	$B%Q!<%+%C%7%g%s(B: $BJR;3H~Jf!&9bLnH~OB(B)
+      <li>○磐城高等学校(男声95・B、指揮: 栗原潔、ピアノ: 田中理史、
+	パーカッション: 片山美穂・高野美和)
 	<ul>
 	  <li>M3</li>
-	  <li>$BBgEg%_%A%k(B/$BCK@<9g>'6J(B $BAH6J!V8fkV!W$h$j(B $B8fkV(B</li>
+	  <li>大島ミチル/男声合唱曲 組曲「御誦」より 御誦</li>
 	</ul>
       </li>
-      <li>$B!{?\2l@n6MM[9bEy3X9;(B($B=w@<(B36$B!&(BB$B!";X4x(B: $BCf;30j;R(B)
+      <li>○須賀川桐陽高等学校(女声36・B、指揮: 中山郁子)
 	<ul>
 	  <li>F1</li>
-	  <li>W. BLOCH/MISSA BREVIS $B$h$j(B Kyrie; Gloria</li>
+	  <li>W. BLOCH/MISSA BREVIS より Kyrie; Gloria</li>
 	</ul>
       </li>
-      <li>$B!{HX>k=w;R9bEy3X9;(B($B=w@<(B32$B!&(BA$B!";X4x(B: $BBgDM1Y;R(B)
+      <li>○磐城女子高等学校(女声32・A、指揮: 大塚悦子)
 	<ul>
 	  <li>F1</li>
 	  <li>Zoltan Kodaly/SEMMIT NE BANKODJAL</li>
 	</ul>
       </li>
-      <li>$B!{J!EgEl9bEy3X9;(B($B:.@<(B30$B!&(BA$B!";X4x(B: $B:4F#7C0l(B)
+      <li>○福島東高等学校(混声30・A、指揮: 佐藤恵一)
 	<ul>
 	  <li>G1</li>
 	  <li>Monteverdi/SFOGAVA CON LE STELLE; IO MI SON GIOVINETTA</li>
 	</ul>
       </li>
     </ul>
-    <hr/>
-    <h2>$BBg3X$NIt(B</h2>
-    <h3>$B6d>^(B($BBeI=(B)</h3>
+    </section>
+    <section>
+    <h2>大学の部</h2>
+    <h3>銀賞(代表)</h3>
     <ul>
-      <li>$B!{J!EgBg3X:.@<9g>'CD(B($B:.@<(B25$B!&(BA$B!";X4x(B: $B9uLZ>-5.!"%T%"%N(B: $B>>:j1Q7C(B)
-	[$BJ!Eg8)650iD9>^(B($B3FItLgCf(B1$B0L(B)]
+      <li>○福島大学混声合唱団(混声25・A、指揮: 黒木将貴、ピアノ: 松崎英恵)
+	[福島県教育長賞(各部門中1位)]
 	<ul>
 	  <li>G1</li>
-	  <li>$B?7<BFA1Q(B/$BE7;H(B; $B$d$5$7$$5{(B</li>
+	  <li>新実徳英/天使; やさしい魚</li>
 	</ul>
       </li>
     </ul>
-    <h3>$BF<>^(B($BBeI=(B)</h3>
+    <h3>銅賞(代表)</h3>
     <ul>
-      <li>$B!{74;3=w;RBg3X3+@.$NEN=w@<9g>'CD(B($B=w@<(B25$B!&(BA$B!";X4x(B: $B2,ItIY;NIW!"(B
-	$B%T%"%N(B: $B?<C+EP4n;R(B)
+      <li>○郡山女子大学開成の杜女声合唱団(女声25・A、指揮: 岡部富士夫、
+	ピアノ: 深谷登喜子)
 	<ul>
 	  <li>F4</li>
 	  <li>Oswald Jaeggi/GLORIA</li>
 	</ul>
       </li>
     </ul>
-    <hr/>
-    <h2>$B?&>l$NIt(B</h2>
-    <h3>$B6b>^(B($BBeI=(B)</h3>
+    </section>
+    <section>
+    <h2>職場の部</h2>
+    <h3>金賞(代表)</h3>
     <ul>
-      <li>$B!{J!Eg8)D#:.@<9g>'CD!V$-$S$?$-!W(B($B:.@<(B40$B!&(BB$B!";X4x(B: $B:4F#7C0l(B)
-	[$B;01:>^(B($BA4ItLgCf(B3$B0L(B), $BJ!Eg8)650iD9>^(B($B3FItLgCf(B1$B0L(B)]
+      <li>○福島県庁混声合唱団「きびたき」(混声40・B、指揮: 佐藤恵一)
+	[三浦賞(全部門中3位), 福島県教育長賞(各部門中1位)]
 	<ul>
 	  <li>G1</li>
-	  <li>KNUT NYSTEDT/MISSA BREVIS $B$h$j(B Kyrie; credo</li>
+	  <li>KNUT NYSTEDT/MISSA BREVIS より Kyrie; credo</li>
 	</ul>
       </li>
     </ul>
-    <hr/>
-    <h2>$B0lHL$NIt(B</h2>
-    <h3>$B6b>^(B($BBeI=(B)</h3>
+    </section>
+    <section>
+    <h2>一般の部</h2>
+    <h3>金賞(代表)</h3>
     <ul>
-      <li>$B!{2qDE:.@<9g>'CD(B($B:.@<(B27$B!&(BA$B!";X4x(B: $B9b66M5Fs(B)
-	[$B9bLn>^(B($BA4ItLgCf(B4$B0L(B), $BJ!Eg8)650iD9>^(B($B3FItLgCf(B1$B0L(B)]
+      <li>○会津混声合唱団(混声27・A、指揮: 高橋裕二)
+	[高野賞(全部門中4位), 福島県教育長賞(各部門中1位)]
 	<ul>
 	  <li>G1</li>
-	  <li>Olivier MESSIAEN/$B:.@<(B12$B@<It$N$?$a$N!V8^$D$N%k%7%c%s!W$h$j(B
+	  <li>Olivier MESSIAEN/混声12声部のための「五つのルシャン」より
 	    1; 3</li>
 	</ul>
       </li>
-      <li>$B!{(BF. M. C. $B:.@<9g>'CD(B($B:.@<(B33$B!&(BB$B!";X4x(B: $B9bLnMN;R(B)
+      <li>○F. M. C. 混声合唱団(混声33・B、指揮: 高野洋子)
 	<ul>
 	  <li>G1</li>
-	  <li>$B;0A198(B/$B:.@<9g>'AH6J!V;m$N2N!W$h$j(B $B$+$$$@$s(B1; $B$d$I$+$j$5$s(B;
-	    $B%5%6%s%+(B</li>
+	  <li>三善晃/混声合唱組曲「詩の歌」より かいだん1; やどかりさん;
+	    サザンカ</li>
 	</ul>
       </li>
-      <li>$B!{%a%s%?%k%O!<%b%K!<(B($B:.@<(B38$B!&(BB$B!";X4x(B: $BB"EDt!(B)
+      <li>○メンタルハーモニー(混声38・B、指揮: 蔵田堯)
 	<ul>
 	  <li>G1</li>
-	  <li>$B<FEDFnM:(B/$B!VH~$7$-2N!&BhFs!W$h$j(B 1. $B$^$?MnMUNS$G(B; 4. $B8a8e$K(B</li>
+	  <li>柴田南雄/「美しき歌・第二」より 1. また落葉林で; 4. 午後に</li>
 	</ul>
       </li>
     </ul>
-    <h3>$B6d>^(B($BBeI=(B)</h3>
+    <h3>銀賞(代表)</h3>
     <ul>
-      <li>$B!{$$$o$-3ZM'2q9g>'CD(B($B:.@<(B29$B!&(BA$B!";X4x(B: $B6M86Be6R=c(B)
+      <li>○いわき楽友会合唱団(混声29・A、指揮: 桐原代巾純)
 	<ul>
 	  <li>G1</li>
-	  <li>ILDEBRANDO PIZZETTI/TRE COMPOSIZIONI CORALI $B$h$j(B
+	  <li>ILDEBRANDO PIZZETTI/TRE COMPOSIZIONI CORALI より
 	    CADE LA SERA; ULULATE,QUIA PROPE EST DIE DOMINI</li>
 	</ul>
       </li>
-      <li>$B!{74;3;TL19g>'CD(B($B:.@<(B30$B!&(BA$B!";X4x(B: $B1-@n7I;K(B)
+      <li>○郡山市民合唱団(混声30・A、指揮: 鵜川敬史)
 	<ul>
 	  <li>G1</li>
 	  <li>Thomas Tallis/The Lamentetion of Jeremiah 1</li>
 	</ul>
       </li>
     </ul>
-    <h3>$BF<>^(B($BBeI=(B)</h3>
+    <h3>銅賞(代表)</h3>
     <ul>
-      <li>$B!{74;3=w@<9g>'CD(B($B=w@<(B38$B!&(BB$B!";X4x(B: $B2,ItIY;NIW!"%T%"%N(B: $B?<C+EP4n;R(B)
+      <li>○郡山女声合唱団(女声38・B、指揮: 岡部富士夫、ピアノ: 深谷登喜子)
 	<ul>
 	  <li>F2</li>
-	  <li>$B;0A198(B/$B=w@<9g>'$N$?$a$N!V;0$D$NY3>p!W$h$j(B
-	    $B0?$kIw$K4s$;$F(B($B6G$HM<$N2N$h$j(B); $BKL$N3$(B</li>
+	  <li>三善晃/女声合唱のための「三つの抒情」より
+	    或る風に寄せて(暁と夕の歌より); 北の海</li>
 	</ul>
       </li>
-      <li>$B!{2qDE%"%k%F=w@<9g>'CD(B($B=w@<(B38$B!&(BB$B!";X4x(B: $B8^==MrE5;R!"(B
-	$B%T%"%N(B: $B9u@n$_$A$h(B)
+      <li>○会津アルテ女声合唱団(女声38・B、指揮: 五十嵐典子、
+	ピアノ: 黒川みちよ)
 	<ul>
 	  <li>F1</li>
-	  <li>$BNkLZ51><(B/$B=w@<9g>'$H%T%"%N$N$?$a$N!V3$$N$&$7$m$X!W$h$j(B
-	    1. $B$o$?$7$N3$(B; 3. $B:#$O$b$&(B
+	  <li>鈴木輝昭/女声合唱とピアノのための「海のうしろへ」より
+	    1. わたしの海; 3. 今はもう
 	  </li>
 	</ul>
       </li>
-      <li>$B!{J?(BFG$B9g>'CD(B($B:.@<(B22$B!&(BA$B!";X4x(B: $BEDCf9'M:(B)
+      <li>○平FG合唱団(混声22・A、指揮: 田中孝雄)
 	<ul>
 	  <li>G1</li>
 	  <li>G. P. da Palestrina/SALVATOR MUNDI</li>
@@ -395,5 +1060,20 @@
 	</ul>
       </li>
     </ul>
-  </body>
-</html>
+    </section>
+  </result>
+  <competition-name pref="false" area="false"></competition-name>
+  <result output="fukushima">
+    <reporter anonymous="false">
+      <reporter-name></reporter-name>
+      <reporter-email anonymous="false"></reporter-email>
+    </reporter>
+    <section>
+      <section-name></section-name>
+      <choir representative="false" seed="false">
+	<choir-name></choir-name>
+	<prize nickname="none"></prize>
+      </choir>
+    </section>
+  </result>
+</competition>

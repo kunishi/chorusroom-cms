@@ -1,90 +1,105 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>51st All Japan Chorus Contest/Ishikawa</title>
-  </head>
-  <body>
-    <h1>$BBh(B40$B2s@P@n8)9g>'%3%s%/!<%k(B</h1>
-    <dl>
-      <dt>$B3+:EF|(B</dt>
-      <dd>1998$BG/(B8$B7n(B30$BF|(B($BF|(B)</dd>
-      <dt>$B>l=j(B</dt>
-      <dd>$B7'H~74:,EZD.Am9gJ82=2q4[%?%s%H(B</dd>
-      <dt>$B>pJsDs6!<T(B</dt>
-      <dd>$B9bH+NI$5$s(B (chaba@apchem.gifu-u.ac.jp)</dd>
-    </dl>
-    <hr/>
-    <p>$B!}$OCfItBg2q=P>lCDBN$G$9!#(B</p>
-    <hr/>
-    <h2>$BCf3X9;$NIt(B</h2>
-    <h3>$B6b>^(B</h3>
-    <ul>
-      <li>$B!}>>G$Cf3X9g>'It(B ($BA4F|K\9g>'O"LAM};vD9>^(B)</li>
-    </ul>
-    <h3>$B6d>^(B</h3>
-    <ul>
-      <li>$BD+F|Cf3X(B</li>
-      <li>$BKL@1Cf3X(B</li>
-    </ul>
-    <h3>$BF<>^(B</h3>
-    <ul>
-      <li>$B:T@8Cf3X(B</li>
-    </ul>
-    <h2>$B9b9;$NIt(BA$B%0%k!<%W(B</h2>
-    <h3>$B6b>^(B</h3>
-    <ul>
-      <li>$B!}6bBtC$L&5V9b9;(B</li>
-    </ul>
-    <h3>$B6d>^(B</h3>
-    <ul>
-      <li>$B6bBt@>9b9;(B</li>
-      <li>$B6bBt6S5V9b9;(B</li>
-    </ul>
-    <h3>$BF<>^(B</h3>
-    <ul>
-      <li>$B</@>9b9;(B</li>
-      <li>$B6bBt>&6H9b9;(B</li>
-    </ul>
-    <hr/>
-    <h2>$B9b9;$NIt(BB$B%0%k!<%W(B</h2>
-    <h3>$B6b>^(B</h3>
-    <ul>
-      <li>$B!}6bBtFs?e9b9;(B</li>
-    </ul>
-    <h3>$B6d>^(B</h3>
-    <ul>
-      <li>$B<7Hx9b9;(B</li>
-    </ul>
-    <h3>$BF<>^(B</h3>
-    <ul>
-      <li>$B6bBt@t5V9b9;(B</li>
-    </ul>
-    <hr/>
-    <h2>$BBg3X$NIt(BB$B%0%k!<%W(B</h2>
-    <h3>$B%7!<%I(B</h3>
-    <ul>
-      <li>$B!}6bBtBg3X9g>'CD(B</li>
-    </ul>
-    <hr/>
-    <h2>$B0lHL$NIt(BA$B%0%k!<%W(B</h2>
-    <h3>$B%7!<%I(B</h3>
-    <ul>
-      <li>$B!}=w@<9g>'CD(B $B0I(B</li>
-    </ul>
-    <h3>$B6b>^(B</h3>
-    <ul>
-      <li>$B!}6bBt;TN)Cf1{8xL14[9g>'CD(B</li>
-    </ul>
-    <h3>$B6d>^(B</h3>
-    <ul>
-      <li>MRO$B:.@<9g>'CD(B</li>
-      <li>$B6bBt%a%s%M%k%3!<%k(B</li>
-    </ul>
-    <h2>$B0lHL$NIt(BB$B%0%k!<%W(B</h2>
-    <h3>$B6b>^(B</h3>
-    <ul>
-      <li>$B!}6bBt:.@<9g>'CD(B</li>
-    </ul>
-  </body>
-</html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
+  <cvs-id>$Id: ishikawa.xml,v 1.12 2002/01/07 03:09:44 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第40回石川県合唱コンクール</competition-name>
+  <result output="ishikawa">
+    <date day-of-week="sun" holiday="false">1998-08-30</date>
+    <hall>熊美郡根土町総合文化会館タント</hall>
+    <reporter anonymous="false">
+      <reporter-name>高畠良</reporter-name>
+      <reporter-email anonymous="false">chaba@apchem.gifu-u.ac.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>松任中学合唱部</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>全日本合唱連盟理事長賞</special-prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>朝日中学</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>北星中学</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>犀生中学</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高校の部Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>金沢辰巳丘高校</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>金沢西高校</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>金沢錦丘高校</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>鹿西高校</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>金沢商業高校</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高校の部Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>金沢二水高校</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>七尾高校</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>金沢泉丘高校</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>大学の部Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>金沢大学合唱団</choir-name>
+	<prize nickname="seeded">シード</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般の部Aグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>女声合唱団 杏</choir-name>
+	<prize nickname="seeded">シード</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>金沢市立中央公民館合唱団</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>MRO混声合唱団</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>金沢メンネルコール</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般の部Bグループ</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>金沢混声合唱団</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+  </result>
+</competition>

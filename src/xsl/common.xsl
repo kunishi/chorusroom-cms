@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.7 2001/08/06 02:07:38 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.8 2002/01/07 03:09:54 kunishi Exp $ -->
 
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -73,7 +73,7 @@
         </a>
       </address>
       <p>
-        <xsl:text>Copyright (C) 2000,2001 </xsl:text>
+        <xsl:text>Copyright (C) 2000,2001,2002 </xsl:text>
 	<xsl:value-of select="$maintainerName"/>
 	<xsl:text>.  All rights reserved.</xsl:text>
       </p>

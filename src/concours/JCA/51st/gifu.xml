@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns='http://www.chorusroom.org/xml'
+  xmlns:p='http://www.chorusroom.org/piece'
+  xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: gifu.xml,v 1.1 2002/01/07 03:09:42 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第38回岐阜県合唱コンクール(第51回全日本合唱コンクール岐阜県大会)</competition-name>
+  <result output="gifu">
+    <date day-of-week="sun" holiday="false">1998-08-30</date>
+    <hall>各務原市民会館</hall>
+    <referee shortname="伊吹" job="ピアニスト">伊吹元子</referee>
+    <referee shortname="伊藤" job="合唱指揮者">伊藤光子</referee>
+    <referee shortname="羽根" job="合唱指揮者">羽根功二</referee>
+    <referee shortname="藤川" job="全日本副理事長">藤川一芳</referee>
+    <referee shortname="松浦" job="合唱指揮者">松浦周吉</referee>
+    <reporter anonymous="false">
+      <reporter-name>高畠良</reporter-name>
+      <reporter-email anonymous="false">chaba@apchem.gifu-u.ac.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>一般部門(Aグループ)</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>コールONE</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>23</number-of-members>
+	<conductor>田中康司</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>C. Camilleri</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>GLORIA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>T. Kverno</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave Maris Stella</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>Ensemble F</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>23</number-of-members>
+	<conductor>雨森文也</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>秋山邦晴</p:words-by>
+	      <p:composed-by>武満徹</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>風の馬</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>第1ヴォカリーズ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>J. Busto</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Salve Regina</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    
+      <choir representative="false" seed="false">
+	<choir-name>合唱団“獏(ばく)”</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>18</number-of-members>
+	<conductor>馬場継仁</conductor>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>Billy height-Ho 合唱団</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>15</number-of-members>
+	<conductor>藤井禎浩</conductor>
+	<piano>山上暁子</piano>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>女声コーラス「つる」</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>18</number-of-members>
+	<conductor>権泰孝</conductor>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>混声合唱団ユーベルコール</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>14</number-of-members>
+	<conductor>中島久</conductor>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般部門(Bグループ)</section-name>
+      <h3>金賞</h3>
+      <choir representative="true" seed="false">
+	<choir-name>合唱団まりもあ</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>33</number-of-members>
+	<conductor>雨森文也</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:originated-from>平家物語潅項巻より</p:originated-from>
+	      <p:composed-by>西村朗</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>寂光哀歌</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>憂き世に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>各務原市民合唱団</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>60</number-of-members>
+	<conductor>井戸清輔</conductor>
+	<piano>武藤美香</piano>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>中学部門</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>高山市立中山中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>25</number-of-members>
+	<conductor>平田誠</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>バルドシュ</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Ave, maris stella</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>カライ</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>HODIE CHRISTUS NATUS EST</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>大垣市立興文中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>44</number-of-members>
+	<conductor>小林ひとみ</conductor>
+	<piano>石川磨奈美</piano>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>高山市立東山中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>24</number-of-members>
+	<conductor>田中寛子</conductor>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>岐阜市立梅林中学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>20</number-of-members>
+	<conductor>柳由香</conductor>
+	<piano>戸田佳織</piano>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>海津町立日新中学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>35</number-of-members>
+	<conductor>久世美紀子</conductor>
+	<piano>加藤泉</piano>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>大学部門(Bグループ)</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>岐阜大学コーラスクラブ</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>65</number-of-members>
+	<conductor>永井英晴</conductor>
+	<piano>石川ひとみ</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms-1998.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>POULENC</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Messa en Sol Majeur</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gloria</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>

@@ -1,51 +1,70 @@
 # 
-# $Id: GNUmakefile,v 1.4 2001/02/05 15:03:44 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2002/01/07 03:09:40 kunishi Exp $
 # 
 
 USE_NEW_SCHEME=	yes
 
-INSTFILES+=	aichi.html \
-		chiba.html \
-		chubu1.html \
-		chubu2.html \
-		chugoku.html \
-		fukuoka.html \
-		fukushima.html \
-		gifu1.html \
-		gifu2.html \
-		hiroshima.html \
-		hokkaido1.html \
-		hokkaido2.html \
-		index.html \
-		ishikawa.html \
-		iwate1.html \
-		iwate2.html \
-		junior-highschool.html \
-		kadaikyoku.html \
-		kagoshima.html \
-		kanagawa.html \
-		kansai1.html \
-		kansai2.html \
-		kansai3.html \
-		kanto1.html \
-		kanto2.html \
-		kyushu.html \
-		mie.html \
-		miyagi.html \
-		nagano.html \
-		saitama.html \
-		schedule.html \
-		senior-highschool.html \
-		shikoku1.html \
-		shikoku2.html \
-		shimane.html \
-		shizuoka.html \
-		tohoku.html \
-		tokyo1.html \
-		yamagata.html \
-		yamanashi.html \
-		zenkoku1.html \
-		zenkoku2.html
+INSTFILES+=	index.html kadaikyoku.html schedule.html
+
+INSTFILES_TRADITIONAL+=	aichi.html \
+			chiba.html \
+			${CHUBU} \
+			chugoku.html \
+			fukuoka.html \
+			fukushima.html \
+			gifu.html \
+			${HIGHSCHOOL} \
+			hiroshima.html \
+			${HOKKIADO} \
+			hyogo.html \
+			ishikawa.html \
+			${IWATE} \
+			kagoshima.html \
+			kanagawa.html \
+			${KANSAI} \
+			${KANTO} \
+			kyushu.html \
+			mie.html \
+			miyagi.html \
+			nagano.html \
+			${NATIONAL} \
+			saitama.html \
+			${SHIKOKU} \
+			shimane.html \
+			shizuoka.html \
+			tohoku.html \
+			yamagata.html \
+			yamanashi.html
+
+CHUBU=		chubu-1998-09-26.html chubu-1998-09-27.html
+HIGHSCHOOL=	highschool-1998-10-31.html highschool-1998-11-01.html
+HOKKAIDO=	hokkaido-1998-09-13.html hokkaido-1998-10-13.html
+IWATE=		iwate-1998-08-29.html iwate-1998-08-30.html
+KANSAI=		kansai-1998-09-20.html kansai-1998-10-17-18.html \
+		kansai-1998-10-25.html
+KANTO=		kanto-1998-09-26-27.html kanto-1998-10-10-11.html
+NATIONAL=	national-1998-11-21.html national-1998-11-22.html
+SHIKOKU=	shikoku-1998-08-29.html shikoku-1998-08-30.html
+
+SCORES=		chubu-1998-09-26-saiten.html \
+		chubu-1998-09-27-saiten.html \
+		chugoku-saiten.html \
+		kanto-1998-10-10-11-saiten.html \
+		kyushu-saiten.html \
+		nagano-saiten.html \
+		saitama-saiten.html \
+		yamanashi-saiten.html
+INSTFILES_TRADITIONAL+=	${SCORES}
+
+INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
+
+INSTFILES+=		${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
+
+${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.traditional.xsl
+${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
+
+${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
+${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk

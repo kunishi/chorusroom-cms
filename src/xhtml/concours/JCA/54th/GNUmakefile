@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.23 2001/11/25 23:47:27 kunishi Exp $
+# $Id: GNUmakefile,v 1.24 2002/01/07 03:09:52 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -14,6 +14,7 @@ INSTFILES_TRADITIONAL=	chiba.html \
 			hyogo.html \
 			kagoshima.html \
 			${KANSAI_HTML} \
+			kanto.html \
 			kyushu.html \
 			nagano.html \
 			nagasaki.html \
@@ -30,7 +31,8 @@ INSTFILES_TRADITIONAL=	chiba.html \
 
 INSTFILES_TRADITIONAL_SAITEN+=	chubu-saiten.html
 INSTFILES_TRADITIONAL_SAITEN+=	kansai-2001-10-14-saiten.html \
-				kansai-2001-10-21-saiten.html
+				kansai-2001-10-21-saiten.html \
+				kanto-saiten.html
 INSTFILES_TRADITIONAL+=		${INSTFILES_TRADITIONAL_SAITEN}
 
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
