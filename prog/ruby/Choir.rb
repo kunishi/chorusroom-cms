@@ -12,15 +12,13 @@ class Choir
     file = File.new(f)
     @doc = REXML::Document.new file
     root = @doc.root
-    @urn = root.elements["urn"].text
-    @name = root.elements["name"].text
-    @url = root.elements["url"].text
-    @pref = root.elements["prefecture"].text
-    if root.elements["choir-type"] != nil
-      @type = root.elements["choir-type"].text
-    end
-    @kind = root.elements["kind"].text
-    @comment = root.elements["comment"].text
+    root.elements.each("urn") { |e| @urn = e.text }
+    root.elements.each("name") { |e| @name = e.text }
+    root.elements.each("url") { |e| @url = e.text }
+    root.elements.each("prefecture") { |e| @pref = e.text }
+    root.elements.each("choir-type") { |e| @type = e.text }
+    root.elements.each("kind") { |e| @kind = e.text }
+    root.elements.each("comment") { |e| @comment = e.text }
     genUrn
     @doc
   end
