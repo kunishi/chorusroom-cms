@@ -1,11 +1,11 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.33 2000/09/25 10:30:16 kunishi Exp $
+# $Id: Makefile,v 1.34 2000/09/25 10:41:24 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
 INSTFILES_HTML+=	chiba.html chiba-saiten.html
-INSTFILES_HTML+=	chugoku.html
+INSTFILES_HTML+=	chugoku.html chugoku-saiten.html
 INSTFILES_HTML+=	ehime.html
 INSTFILES_HTML+=	fukuoka.html
 INSTFILES_HTML+=	fukushima.html
@@ -91,6 +91,8 @@ ${INSTFILES_HTML_SHIKOKU:%.html=%.uhtml}: shikoku.utfxml
 ###
 chiba-saiten.jhtml: chiba.xml
 chiba-saiten.uhtml: chiba.utfxml
+chugoku-saiten.jhtml: chugoku.xml
+chugoku-saiten.uhtml: chugoku.utfxml
 ishikawa-saiten.jhtml: ishikawa.xml
 ishikawa-saiten.uhtml: ishikawa.utfxml
 kumamoto2.jhtml: kumamoto.xml
