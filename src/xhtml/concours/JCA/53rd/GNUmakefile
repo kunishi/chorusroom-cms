@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.53 2000/10/15 16:23:35 kunishi Exp $
+# $Id: GNUmakefile,v 1.54 2000/10/16 00:40:35 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -47,6 +47,8 @@ INSTFILES_HTML_SAITEN+=	chubu-saiten.html
 INSTFILES_HTML_SAITEN+=	chugoku-saiten.html
 INSTFILES_HTML_SAITEN+=	hokkaido-2000-10-08-saiten.html
 INSTFILES_HTML_SAITEN+=	ishikawa-saiten.html
+INSTFILES_HTML_SAITEN+=	kansai-highschoo-saiten.html \
+			kansai-general-saiten.html
 INSTFILES_HTML_SAITEN+=	mie-saiten.html
 
 INSTFILES_NOBUILD+=	hyogo.xml
