@@ -7,7 +7,7 @@
      to add some necessary entity declaration, including conditinal
      section, into the external subset.
 
-     $Id: xhtml-chorusroom.dtd,v 1.1 1999/11/02 06:55:37 kunishi Exp $
+     $Id: xhtml-chorusroom.dtd,v 1.2 2000/02/06 13:43:58 kunishi Exp $
  
   -->
 
@@ -18,7 +18,7 @@
  -->
 <!ENTITY % xhtml-dtd PUBLIC
   "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd">
+  "http://localhost/DTD/xhtml/1.0/xhtml1-strict.dtd">
 %xhtml-dtd;
 
 <!-- entity definitions for chorusRoom WWW. -->
