@@ -10,6 +10,7 @@
   <xsl:include href="common.xsl"/>
   <xsl:output method="xml" indent="yes"/>
 
+  <!-- 
   <xsl:template match="/">
     <html>
       <head>
@@ -25,7 +26,8 @@
       </body>
     </html>
   </xsl:template>
-  
+  -->
+
   <xsl:template match="rss:items">
     <ul>
       <xsl:for-each select=".//rdf:li">

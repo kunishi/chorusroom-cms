@@ -30,14 +30,6 @@
 	 publicId="-//W3C//DTD XHTML 1.0 Strict//EN"/>
   </xmlcatalog>
 
-  <!--
-  <taskdef name='relaxerDtd' classname='org.chorusroom.ant.RelaxerDTD'>
-    <classpath>
-      <pathelement path='prog/java'/>
-    </classpath>
-  </taskdef>
-  -->
-
   <!-- whole build process -->
   <target name='wholebuild' depends='prepare, build, finalize'/>
 
@@ -46,53 +38,6 @@
     <tstamp/>
     <mkdir dir="${build}"/>
   </target>
-
-  <!-- build DTDs using Relaxer -->
-  <!--
-  <target name='prepare.dtd'
-    depends='prepare.dtd.contest-result-generic, prepare.dtd.jca-comp-result,
-             prepare.dtd.nhk-contest-result, prepare.dtd.xhtml1-chorusroom,
-             prepare.dtd.given-programs, prepare.dtd.char-table,
-             prepare.dtd.resource'/>
-
-  <target name="prepare.dtd.contest-result-generic">
-    <relaxerDtd dir='${dtddir}' relaxfile='contest-result-generic.rxg'
-      verify='none' tagprefix='-,p,cr'/>
-  </target>
-
-  <target name="prepare.dtd.jca-comp-result">
-    <relaxerDtd dir='${dtddir}' relaxfile='jca-comp-result.rxg'
-      verify='none' tagprefix='-,p,cr'/>
-  </target>
-
-  <target name="prepare.dtd.nhk-contest-result">
-    <relaxerDtd dir='${dtddir}' relaxfile='nhk-contest-result.rxg'
-      verify='none' tagprefix='-,p,cr'/>
-  </target>
-
-  <target name="prepare.dtd.xhtml1-chorusroom">
-    <relaxerDtd dir='${dtddir}' relaxfile='xhtml1-chorusroom.rxg'
-      verify='none' tagprefix='-,cr,r'/>
-  </target>
-
-  <target name="prepare.dtd.given-programs">
-    <relaxerDtd dir='${dtddir}' relaxfile='given-programs.rxg'
-      verify='none' tagprefix='-,p,cr'/>
-  </target>
-
-  <target name="prepare.dtd.char-table">
-    <relaxerDtd dir='${dtddir}' relaxfile='char-table.rxm' verify='none'/>
-  </target>
-
-  <target name="prepare.dtd.resource">
-    <relaxerDtd dir='${dtddir}' relaxfile='resource.rxm' verify='none'/>
-    <copy toDir='${build}/DTD'>
-      <fileset dir='${dtddir}'>
-	<include name='resource.xml'/>
-      </fileset>
-    </copy>
-  </target>
-  -->
 
   <!-- prepare XSLT styesheet -->
   <target name='prepare.xslt'
@@ -106,6 +51,7 @@
 	<include name="choir2xhtml.xsl"/>
 	<include name='common.xsl'/>
 	<include name='contest-result-choir-piece.xsl'/>
+	<include name="google-search.xsl"/>
 	<include name='resource.xsl'/>
 	<include name='rss2xhtml.xsl'/>
         <include name='xhtml1-choir-links.xsl'/>
@@ -176,23 +122,16 @@
        prepare xml files
     -->
   <target name='prepare.xml'
-          depends='prepare.xml.xhtml, prepare.xml.news, prepare.xml.concours'/>
+          depends='prepare.xml.xhtml, prepare.xml.concours'/>
 
   <target name='prepare.xml.xhtml'>
     <xslt basedir='xhtml' destdir='${xhtml}'
 	  style='${lib}/xslt/extract-all.xsl'
 	  extension='.xml' processor='trax'
-	  includes='**/*.xhtml' classpathref='xalan2.class.path'>
+	  includes='**/*.xhtml' 
+	  classpathref='xalan2.class.path'>
       <xmlcatalog refid='chorusroom.dtd'/>
       <param name='choirDbDir' expression='${basedir}/db/choir/'/>
-    </xslt>
-  </target>
-
-  <target name="prepare.xml.news">
-    <xslt basedir='xml/info' destdir='${xhtml}/info'
-	  style='${lib}/xslt/rss2xhtml.xsl'
-	  extension='.xml' processor='trax'
-	  includes='**/*.rss' classpathref='xalan2.class.path'>
     </xslt>
   </target>
 
@@ -259,7 +198,8 @@
 
   <target name='build.xhtml'
           depends='build.xhtml.index, build.xhtml.ja,
-                   build.xhtml.en, build.xhtml.concours, build.xhtml.choir'/>
+                   build.xhtml.en, build.xhtml.concours,
+		   build.xhtml.choir'/>
 
   <target name='build.xhtml.index'
           depends='prepare.xslt.common, prepare.xslt.xhtml1,
@@ -275,12 +215,14 @@
       <param name='bgimage' expression='background.png'/>
       <param name='styledir' expression='/style'/>
       <param name='stylesheet' expression='toppage.css'/>
+      <param name='toppage' expression='true'/>
+      <param name='template' expression='menu-default.xml'/>
     </xslt>
   </target>
 
   <target name='build.xhtml.ja'
           depends='prepare.xslt.common, prepare.xslt.xhtml1,
-                   prepare.xml.xhtml, prepare.xml.news'>
+                   prepare.xml.xhtml'>
     <dependset>
       <srcfilelist dir="${basedir}/db/links" files="**/*.xml"/>
       <targetfileset dir="${build.xhtml}/links" includes="**/*.xml"/>
@@ -288,7 +230,7 @@
     <xslt basedir='${xhtml}' destdir='${build.xhtml}'
       style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
       extension='.xml' processor='trax'
-      includes='**/*.xml' excludes='index.xml, info-note2.xml'
+      includes='**/*.xml' excludes='index.xml, info-note2.xml, concours/**/*.xml, links/**/*.xml'
       classpathref='xalan2.class.path'>
       <xmlcatalog refid="chorusroom.dtd"/>
       <param name='topdir' expression='/'/>
@@ -297,6 +239,38 @@
       <param name='styledir' expression='/style'/>
       <param name='stylesheet' expression='default.css'/>
       <param name='linkDbDir' expression='${basedir}/db/choir'/>
+      <param name='toppage' expression='false'/>
+      <param name='template' expression='menu-default.xml'/>
+    </xslt>
+    <xslt basedir='${xhtml}' destdir='${build.xhtml}'
+      style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
+      extension='.xml' processor='trax'
+      includes='concours/**/*.xml'
+      classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
+      <param name='topdir' expression='/'/>
+      <param name='imagedir' expression='/image'/>
+      <param name='bgimage' expression='background.png'/>
+      <param name='styledir' expression='/style'/>
+      <param name='stylesheet' expression='default.css'/>
+      <param name='linkDbDir' expression='${basedir}/db/choir'/>
+      <param name='toppage' expression='false'/>
+      <param name='template' expression='menu-concours.xml'/>
+    </xslt>
+    <xslt basedir='${xhtml}' destdir='${build.xhtml}'
+      style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
+      extension='.xml' processor='trax'
+      includes='links/**/*.xml'
+      classpathref='xalan2.class.path'>
+      <xmlcatalog refid="chorusroom.dtd"/>
+      <param name='topdir' expression='/'/>
+      <param name='imagedir' expression='/image'/>
+      <param name='bgimage' expression='background.png'/>
+      <param name='styledir' expression='/style'/>
+      <param name='stylesheet' expression='default.css'/>
+      <param name='linkDbDir' expression='${basedir}/db/choir'/>
+      <param name='toppage' expression='false'/>
+      <param name='template' expression='menu-links.xml'/>
     </xslt>
   </target>
 
@@ -314,6 +288,7 @@
       <param name='bgimage' expression='background.png'/>
       <param name='styledir' expression='/style'/>
       <param name='stylesheet' expression='default.css'/>
+      <param name='toppage' expression='false'/>
     </xslt>
   </target>
 
@@ -332,6 +307,7 @@
       <param name='styledir' expression='/style'/>
       <param name='stylesheet' expression='competition.css'/>
       <param name='outDir' expression='${build.xhtml}/concours/'/>
+      <param name='toppage' expression='false'/>
     </xslt>
   </target>
 
@@ -340,6 +316,7 @@
 	  style='${build.xslt}/choir2xhtml.xsl'
 	  extension='.xml' processor='trax'
 	  includes='**/*.xml' classpathref='xalan2.class.path'>
+      <param name="template" expression="menu-choirlink.xml"/>
     </xslt>
   </target>
 
@@ -371,15 +348,9 @@
     <copy todir="${build.html}/image">
       <fileset dir="${images}">
 	<include name="**/*.png"/>
+	<include name="**/*.gif"/>
       </fileset>
     </copy>
-    <!--
-    <copy todir="${build.html}/namazu">
-      <fileset dir="${lib}/namazu">
-        <include name="**/*"/>
-      </fileset>
-    </copy>
-    -->
     <copy todir="${build.html}/style">
       <fileset dir="${lib}/css">
         <include name="*.css"/>
@@ -392,21 +363,6 @@
       </fileset>
     </copy>
   </target>
-
-  <!-- 
-  <target name="finalize.fixmod">
-    <chmod perm="go+r" type="file">
-      <fileset dir="${build.html}">
-	<include name="**/*"/>
-      </fileset>
-    </chmod>
-    <chmod perm="go+rx" type="dir">
-      <fileset dir="${build.html}">
-	<include name="**/*"/>
-      </fileset>
-    </chmod>
-  </target>
-  -->
 
   <!-- clean -->
   <target name="clean">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Id: common.xsl,v 1.13 2002/09/24 14:56:26 kunishi Exp $ -->
 
@@ -15,31 +15,33 @@
 		exclude-result-prefixes="c p cr r">
 
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
-  <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
   <xsl:param name="topdir">/</xsl:param>
   <xsl:param name="imagedir">/image</xsl:param>
   <xsl:param name="bgimage">background.png</xsl:param>
   <xsl:param name="styledir">/style</xsl:param>
-  <xsl:param name="stylesheet">default.css</xsl:param>
-
-  <!-- 
-  <xsl:variable name="resource.xml">../../../lib/dtd/resource.xml</xsl:variable>
-  -->
+  <xsl:param name="toppage">false</xsl:param>
 
   <xsl:variable name="maintainerName">
     <xsl:text>KUNISHIMA Takeo</xsl:text>
   </xsl:variable>
   <xsl:variable name="maintainerJName">
-    <xsl:text>$B9qEg>f@8(B</xsl:text>
+    <xsl:text>国島丈生</xsl:text>
   </xsl:variable>
   <xsl:variable name="maintainerEmail">
     <xsl:text>kunishi@chorusroom.org</xsl:text>
   </xsl:variable>
 
   <xsl:template name="additional-header">
+    <xsl:if test="$toppage='true'">
+      <link type="text/css" rel="stylesheet">
+	<xsl:attribute name="href">
+	  <xsl:value-of select="concat($styledir, '/toppage.css')"/>
+	</xsl:attribute>
+      </link>
+    </xsl:if>
     <link type="text/css" rel="stylesheet">
       <xsl:attribute name="href">
-        <xsl:value-of select="concat($styledir, '/', $stylesheet)"/>
+        <xsl:value-of select="concat($styledir, '/default.css')"/>
       </xsl:attribute>
     </link>
     <link rev="made">
@@ -48,31 +50,40 @@
       </xsl:attribute>
     </link>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
-    <!-- 
-    <style type="text/css" xml:space="preserve">
-      <xsl:text>body { background-image: url(</xsl:text>
-      <xsl:value-of select="concat($imagedir, '/', $bgimage)"/>
-      <xsl:text>); }</xsl:text>
-    </style>
-    -->
   </xsl:template>
 
   <xsl:template name="body-header">
-    <p>
-      <div class="logo">
-	<a href="http://www.chorusroom.org">
-	  <img alt="Chorus Room/$B9g>'$NIt20(B">
-	    <xsl:attribute name="src">
-	      <xsl:value-of select="concat($imagedir, '/chorusroom-toplogo.png')"/>
-	    </xsl:attribute>
-	  </img>
-	</a>
-      </div>
-    </p>
+    <div class="logo">
+      <xsl:choose>
+	<xsl:when test="$toppage='true'">
+	  <h1>
+	    <img alt="合唱の部屋 - chorusroom.org" 
+	    src="{concat($imagedir,'/logo200309.gif')}"></img>
+	  </h1>
+	</xsl:when>
+	<xsl:otherwise>
+	  <a href="/">
+	    <img alt="合唱の部屋 - chorusroom.org" 
+	    src="{concat($imagedir,'/logo200309.gif')}"></img>
+	  </a>
+	</xsl:otherwise>
+      </xsl:choose>
+    </div>
+    <div class="banner">
+      <p>
+	<a href="/concours/">コンクール</a>
+	<a href="/links/Choir/">合唱団リンク</a>
+	<a href="/links/">リンク</a>
+      </p>
+      <p>
+	If you see full of funny characters, try the latest versions
+	of your WWW browsers, or the ones which support UTF-8
+	(ex. Internet Explorer, Netscape 7).
+      </p>
+    </div>
   </xsl:template>
 
   <xsl:template name="footer">
-    <hr/>
     <div class="footer">
       <address>
         <a>
@@ -86,7 +97,7 @@
         </a>
       </address>
       <p>
-        <xsl:text>Copyright (C) 2000,2001,2002 </xsl:text>
+        <xsl:text>Copyright © 2000-2003 </xsl:text>
 	<xsl:value-of select="$maintainerName"/>
 	<xsl:text>.  All rights reserved.</xsl:text>
       </p>

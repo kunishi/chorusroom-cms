@@ -1,36 +1,69 @@
-/* $Id: default.css,v 1.11 2002/09/24 14:56:26 kunishi Exp $ */
+/* body */
+body { background: white;
+       color: black; 
+       margin: 1em 1em 1em 1em; }
 
-body { background-color: #FFFFFF;
-       color: black;
-       margin-left: 10%;
-       margin-right: 10%;
-       line-height: 130%;
-       }
-h1, h2, h3 { color: #005A9C }
-h1 { margin-left: -8%; }
-h2 { margin-left: -4%; }
-h3 { margin-left: -2%; }
-a:link { color: rgb(0,0,204); }
-a:visited { color: rgb(102, 0, 0); }
+/* logo */
+div.logo { position: static;
+           display: inline; 
+           margin: 0;
+           padding: 0;
+           background: transparent; }
+div.logo a { text-decoration: none;
+             color: #ffffff; }
+div.logo a:link, div.logo a:visited, div.logo a:hover
+{ color: white; 
+  text-decoration: none; 
+  background-color: white; }
+div.logo a img { border: none; }
 
-/* for AJCL contest results pages */
-h1.ajclcontest { text-align: left; }
-h3.gold { background-color: gold; }
-h3.silver { background-color: silver; }
-h3.blonze { background-color: #993333; }
-span.win { color: red; }
-table.ajclresult { border-style: solid thin; }
-table.ajclresult thead tr th { text-align: center; }
-table.ajclresult tbody tr th { text-align: left; }
-table.ajclresult tbody tr td { text-align: center; }
+/* banner */
+div.banner { position: absolute;
+             width: auto;
+             height: 5em; 
+             overflow: auto; 
+             top: 0em; right: 0em; bottom: auto; left: 0em;
+             margin: 0em 14em 0em 8em;
+             padding: 1em 1em 1em 2em; 
+             line-height: 1.2;
+             text-align: right; }
+div.banner p { font-size: 0.9em;
+               margin: 0 0 0 0; 
+               text-align: right; }
 
-/* for link pages */
-span.new { color: rgb(204, 0, 0);
-           background: rgb(255,255,255); }
-div.logo { text-align: right;
-           margin-left: 0em; }
-div.logo a:link { color: white }
-div.logo a:visited { color: white }
-div.footer { text-align: right; }
+/* map */
+div.map { position: absolute;
+          width: 14em; height: auto;
+          top: 0.2em; right: 0.1em; left: auto; bottom: auto; 
+          background: #eeeeee;
+          border: 1px solid #666666; 
+          margin: 1em 0 0 0; 
+          padding: 0.5em 1em 0.5em 1em; 
+          font-size: 0.8em; }
+div.map ul { list-style: disc inside;
+             padding: 0; 
+             margin: 0; }
+div.map h3 { color: #339;
+             font-weight: normal;
+             padding: 0.5em 0 0 0;
+             border-top: 1px dotted black; }
+div.map p { margin: 0 0 0 0; }
+
+/* Google search */
+div.map table.google { background: white;
+                       border: 1px solid black; 
+                       font-size: 0.7em; }
+
+/* body */
+div.body { margin: 0 14em 0 0; 
+           padding: 0 0 0 0.5em; }
+
+/* footer */
+div.footer { text-align: left; 
+             margin: 0.5em 0 0 0;
+             padding: 0 0 0 0; 
+             font-style: italic; 
+             border-top: 1px solid black; }
+div.footer address { padding: 0.5em 0 0 0; }
 div.footer p { margin-top: 0em;
-               margin-bottom: 0em; }
+                 margin-bottom: 0em; }

@@ -1,7 +1,6 @@
 /* $Id: toppage.css,v 1.11 2002/09/24 09:01:57 kunishi Exp $ */
 
-body { background: #FFFFFF;
-       color: black; }
+/*
 h1 {
      text-align: right;
      color: #3333cc;
@@ -9,46 +8,22 @@ h1 {
      margin-right: 1.5em;
      margin-bottom: 0em;
 }
-div.logo { text-align: right;
-           margin-left: 0em; }
-div.logo hr { height: 0.3em; }
-div.logo a:link { color: white; }
-div.logo a:visited { color: white; }
-div.comment { text-align: right;
-              margin-top: 0em;
-              padding: 0.5em;
-              font-size: small;
-}
-div.heading {
-	float: center;
-	padding: 1em;
-	border: inset thick;
-	background: #003333;
-	color: white;
-}
-hr.comment-topic-sep { text-align: right;
-                       width: 100%; }
-div.topic {
-	margin-left: 5em;
-	margin-right: 1em;
-}
-div.topic h2 { text-align: left;
-     background-color: #006633;
-     color: white;
-     width: 100%;
-     height: auto;
-     padding: 1px;
-     border-style: outset;
-     border-width: thin;
-}
-div.topic h2 a:link { color: white; }
-div.topic h2 a:visited { color: #CCCCFF; }
-div.topic p { margin-left: 1.5em; }
+*/
 
-div.footer { text-align: right; }
-div.footer p { margin-top: 0em;
-                 margin-bottom: 0em; }
-hr.footer {
-	width: 100%;
-	align: center;
-}
+/* news */
+div.news { padding: 0 0 0 0;
+           margin: 0 14em 1em 0; }
+div.news h2 { margin: 0 0 1em 1em;
+              padding: 1em 0 0 0;
+              text-align: center;
+              color: green; 
+              font-size: 1em; 
+              letter-spacing: 0.3em;
+              border-bottom: 0.1em solid green; }
+
+/* intro */
+div.intro { padding: 0 0.5em 0 0.5em;
+            margin: 2em 16em 2em 3em; 
+            border: 0.2em ridge #cccccc; 
+            background-color: #ffffcc; }
+

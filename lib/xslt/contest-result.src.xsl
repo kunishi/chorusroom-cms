@@ -7,7 +7,7 @@
 		xmlns:c="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:cr="http://www.chorusroom.org/character"
-		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:xhtml="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
 		exclude-result-prefixes="c p">
 
@@ -17,6 +17,7 @@
   <xsl:param name='outDir'>.</xsl:param>
   <xsl:param name="with-score">true</xsl:param>
   <xsl:param name="suffix"/>
+  <xsl:param name="template">menu-concours.xml</xsl:param>
 
   <xsl:include href="contest-result-choir-piece.xsl"/>
 
@@ -50,36 +51,39 @@
     <xsl:param name="top" select="/"/>
     <xsl:variable name="competition-name"
 		  select="$top/c:competition-name"/>
-    <html lang="ja" xml:lang="ja">
-      <head>
+    <xhtml:html lang="ja" xml:lang="ja">
+      <xhtml:head>
 	<xsl:call-template name="additional-header"/>
-	<title>
+	<xhtml:title>
 	  <xsl:value-of select="$competition-name"/>
-	</title>
-      </head>
-      <body>
+	</xhtml:title>
+      </xhtml:head>
+      <xhtml:body>
         <xsl:call-template name="body-header" />
-        <h1>
-	  <xsl:value-of select="$competition-name"/>
-	</h1>
-	<dl>
-	  <xsl:call-template name="date-list"/>
-	  <xsl:apply-templates select="c:hall"/>
-	  <xsl:call-template name="referee-list"/>
-	  <!-- 
-	  <xsl:call-template name="reporter-list"/>
-	  -->
-	</dl>
-	<xsl:apply-templates select="c:notices"/>
-        <xsl:if test='c:scoreTableRef'>
-          <xsl:apply-templates select='c:scoreTableRef'/>
-        </xsl:if>
-	<xsl:apply-templates select="c:section">
-	  <xsl:with-param name="top" select="$top"/>
-	</xsl:apply-templates>
+	<xhtml:div class="body">
+	  <xhtml:h1>
+	    <xsl:value-of select="$competition-name"/>
+	  </xhtml:h1>
+	  <xhtml:dl>
+	    <xsl:call-template name="date-list"/>
+	    <xsl:apply-templates select="c:hall"/>
+	    <xsl:call-template name="referee-list"/>
+	    <!-- 
+	      <xsl:call-template name="reporter-list"/>
+	    -->
+	  </xhtml:dl>
+	  <xsl:apply-templates select="c:notices"/>
+	  <xsl:if test='c:scoreTableRef'>
+	    <xsl:apply-templates select='c:scoreTableRef'/>
+	  </xsl:if>
+	  <xsl:apply-templates select="c:section">
+	    <xsl:with-param name="top" select="$top"/>
+	  </xsl:apply-templates>
+	</xhtml:div>
+	<xsl:apply-templates select="document(concat('../../../xml/templates/',$template))/xhtml:div"/>
 	<xsl:call-template name="footer"/>
-      </body>
-    </html>
+      </xhtml:body>
+    </xhtml:html>
   </xsl:template>
 
   <xsl:template name="additional-footer">
@@ -87,11 +91,11 @@
 
   <xsl:template name="date-list">
     <xsl:if test="c:date">
-      <dt>開催日</dt>
+      <xhtml:dt>開催日</xhtml:dt>
       <xsl:for-each select="c:date">
-	<dd>
+	<xhtml:dd>
 	  <xsl:apply-templates select="."/>
-	</dd>
+	</xhtml:dd>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
@@ -134,19 +138,19 @@
   </xsl:template>
 
   <xsl:template match="c:hall">
-    <dt>開催場所</dt>
-    <dd>
+    <xhtml:dt>開催場所</xhtml:dt>
+    <xhtml:dd>
       <xsl:apply-templates/>
-    </dd>
+    </xhtml:dd>
   </xsl:template>
 
   <xsl:template name="referee-list">
     <xsl:if test="c:referee">
-      <dt>審査員</dt>
+      <xhtml:dt>審査員</xhtml:dt>
       <xsl:for-each select="c:referee">
-	<dd>
+	<xhtml:dd>
 	  <xsl:apply-templates select="."/>
-	</dd>
+	</xhtml:dd>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
@@ -172,39 +176,39 @@
   </xsl:template>
 
   <xsl:template name="reporter-list">
-    <dt>報告者</dt>
+    <xhtml:dt>報告者</xhtml:dt>
     <xsl:apply-templates select="c:reporter"/>
   </xsl:template>
   <xsl:template match="c:reporter">
-    <dd>
+    <xhtml:dd>
       <xsl:value-of select="."/>
-    </dd>
+    </xhtml:dd>
   </xsl:template>
 
   <xsl:template match="c:notices">
-    <ul>
+    <xhtml:ul>
       <xsl:apply-templates/>
-    </ul>
+    </xhtml:ul>
   </xsl:template>
   <xsl:template match="c:notice">
-    <li>
-      <p>
+    <xhtml:li>
+      <xhtml:p>
 	<xsl:value-of select="."/>
-      </p>
-    </li>
+      </xhtml:p>
+    </xhtml:li>
   </xsl:template>
 
   <xsl:template match='c:scoreTableRef'>
-    <p>
+    <xhtml:p>
       <xsl:text>採点表を</xsl:text>
-      <a>
+      <xhtml:a>
         <xsl:attribute name="href">
           <xsl:value-of select='@href'/>
         </xsl:attribute>
         <xsl:text>別ページ</xsl:text>
-      </a>
+      </xhtml:a>
       <xsl:text>にまとめてあります。</xsl:text>
-    </p>
+    </xhtml:p>
   </xsl:template>
 
   <xsl:template match="c:section">
@@ -221,7 +225,7 @@
 		  select="c:choir[c:prize/@nickname='none']"/>
     <xsl:apply-templates select="c:section-name"/>
     <xsl:if test="$seed-choir-list">
-      <h3>シード団体</h3>
+      <xhtml:h3>シード団体</xhtml:h3>
       <xsl:for-each select="$seed-choir-list">
         <xsl:if test="not(c:prize/text()='シード')">
           <xsl:message>
@@ -234,7 +238,7 @@
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="$gold-choir-list">
-      <h3>金賞</h3>
+      <xhtml:h3>金賞</xhtml:h3>
       <xsl:for-each select="$gold-choir-list">
         <xsl:if test="not(c:prize/text()='金賞')">
           <xsl:message>
@@ -247,7 +251,7 @@
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="$silver-choir-list">
-      <h3>銀賞</h3>
+      <xhtml:h3>銀賞</xhtml:h3>
         <xsl:for-each select="$silver-choir-list">
           <xsl:if test="not(c:prize/text()='銀賞')">
             <xsl:message>
@@ -260,7 +264,7 @@
         </xsl:for-each>
     </xsl:if>
     <xsl:if test="$blonze-choir-list">
-      <h3>銅賞</h3>
+      <xhtml:h3>銅賞</xhtml:h3>
         <xsl:for-each select="$blonze-choir-list">
           <xsl:if test="not(c:prize/text()='銅賞')">
             <xsl:message>
@@ -274,7 +278,7 @@
     </xsl:if>
     <xsl:if test="$other-choir-list">
       <xsl:if test="$seed-choir-list or $gold-choir-list or $silver-choir-list or $blonze-choir-list">
-	<h3>そのほか</h3>
+	<xhtml:h3>そのほか</xhtml:h3>
       </xsl:if>
         <xsl:for-each select="$other-choir-list">
           <xsl:if test="c:prize/text()">
@@ -290,28 +294,28 @@
   </xsl:template>
 
   <xsl:template match="c:section-name">
-    <h2>
+    <xhtml:h2>
       <xsl:value-of select="."/>
       <xsl:if test="@date">
 	<xsl:text> (</xsl:text>
 	<xsl:value-of select="@date"/>
 	<xsl:text>)</xsl:text>
       </xsl:if>
-    </h2>
+    </xhtml:h2>
   </xsl:template>
 
   <xsl:template match="c:choir">
     <xsl:param name="top" select="/"/>
-    <p>
+    <xhtml:p>
       <xsl:apply-templates select="c:choir-name"/>
       <xsl:call-template name="choir-attr-list"/>
       <xsl:call-template name="special-prize-list"/>
-      <br/>
+      <xhtml:br/>
       <xsl:call-template name="choir-data">
 	<xsl:with-param name="top" select="$top"/>
       </xsl:call-template>
       <xsl:apply-templates select="c:choir-note"/>
-    </p>
+    </xhtml:p>
     <xsl:apply-templates select="c:program"/>
   </xsl:template>
 
@@ -327,10 +331,10 @@
   </xsl:template>
 
   <xsl:template match="c:choir-name">
-    <span class="choir-name">
+    <xhtml:span class="choir-name">
       <xsl:choose>
         <xsl:when test="@choidref">
-          <xsl:element name="a">
+          <xsl:element name="a" namespace="http://www.w3.org/1999/xhtml">
             <xsl:attribute name="href">
               <xsl:value-of select="concat('/choir/',substring(@choidref,0,3),'/',@choidref,'/',@choidref,'.html')"/>
             </xsl:attribute>
@@ -341,7 +345,7 @@
           <xsl:apply-templates/>
         </xsl:otherwise>
       </xsl:choose>
-    </span>
+    </xhtml:span>
   </xsl:template>
 
   <xsl:template name="choir-data">
@@ -479,20 +483,20 @@
 
   <xsl:template name="choir-attr-list">
     <xsl:if test="@representative='true'">
-      <em>
+      <xhtml:em>
 	<xsl:text> [代表] </xsl:text>
-      </em>
+      </xhtml:em>
     </xsl:if>
     <xsl:if test="@seed='true'">
-      <em>
+      <xhtml:em>
 	<xsl:text> [シード団体] </xsl:text>
-      </em>
+      </xhtml:em>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="special-prize-list">
     <xsl:if test="c:special-prize">
-      <em>
+      <xhtml:em>
 	<xsl:text> [</xsl:text>
 	<xsl:for-each select="c:special-prize">
 	  <xsl:apply-templates/>
@@ -501,7 +505,7 @@
 	  </xsl:if>
 	</xsl:for-each>
 	<xsl:text>]</xsl:text>
-      </em>
+      </xhtml:em>
     </xsl:if>
   </xsl:template>
   <xsl:template match="c:special-prize">
@@ -515,20 +519,20 @@
   </xsl:template>
 
   <xsl:template match="c:program">
-    <ul>
+    <xhtml:ul>
       <xsl:apply-templates select="c:given-program"/>
       <xsl:apply-templates select="c:free-program"/>
-    </ul>
+    </xhtml:ul>
   </xsl:template>
 
   <xsl:template match="c:given-program">
-    <li>
+    <xhtml:li>
       <xsl:if test='not(c:givenProgramNumber)'>
         <xsl:text>[課題曲] </xsl:text>
       </xsl:if>
       <xsl:apply-templates select="c:givenProgramNumber | p:piece | p:suite"/>
       <xsl:call-template name="piece-players-list"/>
-    </li>
+    </xhtml:li>
   </xsl:template>
 
   <xsl:template match="c:givenProgramNumber">
@@ -538,10 +542,10 @@
   </xsl:template>
 
   <xsl:template match="c:free-program">
-    <li>
+    <xhtml:li>
       <xsl:apply-templates select="p:piece | p:suite"/>
       <xsl:call-template name="piece-players-list"/>
-    </li>
+    </xhtml:li>
   </xsl:template>
 
   <xsl:template name="piece-players-list">
@@ -565,64 +569,67 @@
     <xsl:param name="result-top"/>
     <xsl:variable name="competition-name"
 		  select="$top/c:competition-name"/>
-    <html xml:lang="ja" lang="ja">
-      <head>
+    <xhtml:html xml:lang="ja" lang="ja">
+      <xhtml:head>
 	<xsl:call-template name="additional-header"/>
-	<title>
+	<xhtml:title>
 	  <xsl:value-of select="$competition-name"/>
 	  <xsl:text>: 採点表</xsl:text>
-	</title>
-      </head>
-      <body>
+	</xhtml:title>
+      </xhtml:head>
+      <xhtml:body>
         <xsl:call-template name="body-header"/>
-	<h1>
-	  <xsl:value-of select="$competition-name"/>
-	  <xsl:text>: 採点表</xsl:text>
-	</h1>
-	<xsl:apply-templates select="c:section[c:choir/c:scores]"
-	  mode="score"/>
+	<xhtml:div class="body">
+	  <xhtml:h1>
+	    <xsl:value-of select="$competition-name"/>
+	    <xsl:text>: 採点表</xsl:text>
+	  </xhtml:h1>
+	  <xsl:apply-templates select="c:section[c:choir/c:scores]"
+			       mode="score"/>
+	</xhtml:div>
+	<xsl:apply-templates select="document(concat('../../../xml/templates/',$template))/xhtml:div"/>
 	<xsl:call-template name="footer"/>
-      </body>
-    </html>
+      </xhtml:body>
+    </xhtml:html>
   </xsl:template>
 
   <xsl:template match="c:section" mode="score">
     <xsl:apply-templates select="c:section-name" mode="score"/>
-    <table class="ajclresult" border="1">
-      <thead>
-	<tr>
-	  <th rowspan="1" colspan="1"/>
+    <xhtml:table class="ajclresult" border="1">
+      <xhtml:thead>
+	<xhtml:tr>
+	  <xhtml:th rowspan="1" colspan="1"/>
 	  <xsl:apply-templates select="../c:referee" mode="score"/>
-	  <th rowspan="1" colspan="1">
+	  <xhtml:th rowspan="1" colspan="1">
 	    <xsl:text>総合評価</xsl:text>
-	  </th>
-	  <th rowspan="1" colspan="1">
+	  </xhtml:th>
+	  <xhtml:th rowspan="1" colspan="1">
 	    <xsl:text>備考</xsl:text>
-	  </th>
-	</tr>
-      </thead>
-      <tbody>
+	  </xhtml:th>
+	</xhtml:tr>
+      </xhtml:thead>
+      <xhtml:tbody>
 	<xsl:apply-templates select="c:choir" mode="score">
 	  <xsl:sort order="ascending" data-type="number" select="@playing-order"/>
 	</xsl:apply-templates>
-      </tbody>
-    </table>
+      </xhtml:tbody>
+    </xhtml:table>
   </xsl:template>
 
   <xsl:template match="c:section-name" mode="score">
-    <h2>
+    <xhtml:h2>
       <xsl:apply-templates/>
-    </h2>
+    </xhtml:h2>
   </xsl:template>
 
   <xsl:template match="c:referee" mode="score">
-    <th rowspan="1" colspan="1">
+    <xhtml:th rowspan="1" colspan="1">
       <xsl:value-of select="@shortname"/>
-    </th>
+    </xhtml:th>
   </xsl:template>
 
   <xsl:template match="c:choir" mode="score">
-    <tr>
+    <xhtml:tr>
       <xsl:choose>
 	<xsl:when test="c:prize[@nickname='gold']"> 
 	  <xsl:attribute name="bgcolor">#ffff99</xsl:attribute>
@@ -634,12 +641,12 @@
 	  <xsl:attribute name="bgcolor">#ffcc99</xsl:attribute>
 	</xsl:when>
       </xsl:choose>
-      <td rowspan="1" colspan="1">
+      <xhtml:td rowspan="1" colspan="1">
 	<xsl:apply-templates select="@playing-order" mode="score"/>
 	<xsl:apply-templates select="c:choir-name"/>
-      </td>
+      </xhtml:td>
       <xsl:apply-templates select="c:scores" mode="score"/>
-    </tr>
+    </xhtml:tr>
   </xsl:template>
 
   <xsl:template match="@playing-order" mode="score">
@@ -659,26 +666,26 @@
   </xsl:template>
 
   <xsl:template match="c:score" mode="score">
-    <td rowspan="1" colspan="1" align="right">
+    <xhtml:td rowspan="1" colspan="1" align="right">
       <xsl:apply-templates/>
-    </td>
+    </xhtml:td>
   </xsl:template>
 
   <xsl:template match="c:total-score" mode="score">
-    <td rowspan="1" colspan="1" align="right">
+    <xhtml:td rowspan="1" colspan="1" align="right">
       <xsl:apply-templates/>
-    </td>
+    </xhtml:td>
   </xsl:template>
 
   <xsl:template match="c:score-note" mode="score">
-    <td rowspan="1" colspan="1">
+    <xhtml:td rowspan="1" colspan="1">
       <xsl:for-each select="./node()[.!='']|../../c:prize[.!='']|../../c:special-prize|../../@representative[.='true']|../../@seed[.='true']">
 	<xsl:apply-templates select="." mode="score"/>
 	<xsl:if test="not(position()=last())">
 	  <xsl:text>、</xsl:text>
 	</xsl:if>
       </xsl:for-each>
-    </td>
+    </xhtml:td>
   </xsl:template>
 
   <xsl:template match="c:prize" mode="score">
@@ -717,5 +724,28 @@
       <xsl:apply-templates select='node()'/>
     </xsl:element>
   </xsl:template>
+
+  <!-- copy xhtml elements -->
+  <xsl:template match="xhtml:*[local-name()='span' and @class='google']"
+		priority="1.0">
+    <xsl:param name="choir-name"></xsl:param>
+    <xsl:call-template name='google-search'/>
+  </xsl:template>
+
+  <xsl:template match="xhtml:*">
+    <xsl:param name="choir-name"></xsl:param>
+    <xsl:element name="{local-name(.)}" namespace="{namespace-uri(.)}">
+      <xsl:apply-templates select="@*[not(name()='xmlns:*')]"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="@*">
+    <xsl:attribute name="{local-name()}" namespace="{namespace-uri()}">
+      <xsl:value-of select="."/>
+    </xsl:attribute>
+  </xsl:template>
+
+  <xsl:include href="google-search.xsl"></xsl:include>
 
 </xsl:stylesheet>
