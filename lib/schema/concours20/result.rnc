@@ -69,7 +69,7 @@ playersList =
        }
      | element c:instrument {
            attribute kind { text },
-           attribute note { text },
+           attribute note { text }?,
            text
        })+
 playing-number =
