@@ -190,6 +190,9 @@
   </xsl:template>
   <xsl:template match="c:assignedNumber">
     <xsl:text>[課題曲] </xsl:text>
+    <xsl:if test="@number">
+      <xsl:text>(</xsl:text><xsl:value-of select="@number"/><xsl:text>) </xsl:text>
+    </xsl:if>
     <xsl:value-of select="node()"/>
   </xsl:template>
   <xsl:template match="c:freeNumber">
