@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.16 1999/09/27 02:22:10 kunishi Exp $
+# $Id: config.mk,v 1.17 1999/11/16 05:05:44 kunishi Exp $
 #
 
 XSLT_PROC=	java \
@@ -12,7 +12,7 @@ UTF2ASCII=	hutrans
 ASCII2EUC=	tcs -f utf -t ujis
 EUC2JIS=	nkf
 HTML_FORMAT=	tidy -iso2022
-SYNC_TOOL=	rsync -avuz
+SYNC_TOOL=	rsync -au
 
 CP=		cp
 ENV=		env
