@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.13 2001/09/19 05:08:49 kunishi Exp $
+# $Id: GNUmakefile,v 1.14 2001/09/24 17:41:05 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -11,6 +11,7 @@ INSTFILES_TRADITIONAL=	chiba.html \
 			gunma.html \
 			hyogo.html \
 			kagoshima.html \
+			${KANSAI_HTML} \
 			nagano.html \
 			nagasaki.html \
 			oita.html \
@@ -24,6 +25,9 @@ INSTFILES_TRADITIONAL=	chiba.html \
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
+
+KANSAI_HTML=	kansai-2001-09-23.html
+REDIRECT_HTML=	${KANSAI_HTML}
 
 WITH_SCORE=	true
 
@@ -41,5 +45,9 @@ osaka.utfhtml:	WITH_SCORE=false
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
 
+.INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
+
 ###
 
+${KANSAI_HTML:%.html=%.xml}: kansai.xml
+	${LN_S} $< $@
