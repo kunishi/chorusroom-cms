@@ -79,6 +79,7 @@
   </xsl:template>
 
   <xsl:template name="採点表エントリ">
+    <xsl:variable name="現エントリ" select="."/>
     <xsl:element name="tr">
       <xsl:choose>
 	<xsl:when test="../賞[.='金賞']"> 
@@ -100,14 +101,12 @@
 	</xsl:if>
 	<xsl:value-of select="../団体名"/>
       </xsl:element>
-      <xsl:apply-templates match="."/>
+      <xsl:for-each select="//審査員">
+	<xsl:apply-templates select="$現エントリ/採点[@採点者=current()/@省略名]"/>
+      </xsl:for-each>
+      <xsl:apply-templates select="総合評価"/>
+      <xsl:apply-templates select="採点備考"/>
     </xsl:element>
-  </xsl:template>
-
-  <xsl:template match="採点結果">
-    <xsl:apply-templates select="採点"/>
-    <xsl:apply-templates select="総合評価"/>
-    <xsl:apply-templates seledt="採点備考"/>
   </xsl:template>
 
   <xsl:template match="採点">
