@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: yamaguchi.xml,v 1.2 2001/01/04 15:54:02 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: yamaguchi.xml,v 1.3 2001/01/05 04:24:15 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">平成12年度（第65回）NHK全国学校音楽コンクール山口県大会</competition-name>
   <result output="yamaguchi">
     <date day-of-week="tue" holiday="false">2000-08-08</date>
-    <startTime>13:30</startTime>
+    <date day-of-week="wed" holiday="false">2000-08-09</date>
     <hall>徳山市文化会館（大ホール）</hall>
     <referee shortname="末廣" job="声楽家、山口大学教育学部教授、山口県合唱連盟理事">末廣正巳</referee>
     <referee shortname="砂田" job="山口県合唱連盟副理事、山口県母の合唱連盟会長">砂田担</referee>
@@ -20,7 +20,148 @@
       <notice>参加団体数: 中学校の部9校、高校の部2校</notice>
     </notices>
     <section>
-      <section-name>中学校の部</section-name>
+      <section-name date="2000-08-09">小学校の部</section-name>
+      <choir representative="false" playing-order="1">
+	<choir-name>岩国市立岩国小学校</choir-name>
+	<conductor>國清厚子</conductor>
+	<piano>中村早織</piano>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <p:piece>夢をのせて</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="2">
+	<choir-name>山口市立大内小学校</choir-name>
+	<conductor>兼行洋子</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <piano>原仁美</piano>
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>「無伴奏児童合唱集」</p:piece>
+	      <p:suite-piece>
+		<p:piece>グリンピースうた</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>いちごのかぞえうた</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" playing-order="3">
+	<choir-name>山口市立平川小学校</choir-name>
+	<conductor>竹内礼子</conductor>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <piano>堀江由希</piano>
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <piano>芳西なつき</piano>
+	    <p:piece>満月の不思議ポロロッカ</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="4">
+	<choir-name>山口市立白石小学校</choir-name>
+	<conductor>森池博子</conductor>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <piano>杉浦博香</piano>
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <piano>平田修子</piano>
+	    <p:suite>
+	      <p:piece>組曲「小さい兄さん」</p:piece>
+	      <p:suite-piece>
+		<p:piece>うさぎ星</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="5">
+	<choir-name>山口大学教育学部附属山口小学校</choir-name>
+	<conductor>久保田尚</conductor>
+	<piano>瀬川もゆる</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:piece>少年少女のための合唱組曲「四季のソネットから」</p:piece>
+	      <p:suite-piece>
+		<p:piece>夏</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" playing-order="6">
+	<choir-name>下関市立豊浦小学校</choir-name>
+	<conductor>永島和子</conductor>
+	<piano>峰松佳乃子</piano>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <p:piece>満月の不思議ポロロッカ</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" playing-order="7">
+	<choir-name>徳山市立岐山小学校</choir-name>
+	<conductor>信本奈保美</conductor>
+	<piano>増田真由美</piano>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <p:piece>上見れば(二部合唱のための主題と変奏)</p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false">
+	<choir-name>下松市立下松小学校</choir-name>
+	<conductor>福田哲朗</conductor>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program number="elementary-school">
+	    <piano>西岡亜紀</piano>
+	    <p:piece>大すき</p:piece>
+	  </given-program>
+	  <free-program>
+	    <piano>國井理江</piano>
+	    <p:suite>
+	      <p:piece>同声合唱組曲「ぼくだけの歌」</p:piece>
+	      <p:suite-piece>
+		<p:piece>ぼくのおうえんか</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name date="2000-08-08">中学校の部</section-name>
       <choir representative="true" playing-order="3">
 	<choir-name>萩市立萩東中学校</choir-name>
 	<conductor>石橋慶子</conductor>
@@ -178,7 +319,7 @@
       </choir>
     </section>
     <section>
-      <section-name>高校の部</section-name>
+      <section-name date="2000-08-08">高校の部</section-name>
       <choir representative="true" playing-order="1">
 	<choir-name>山口県立萩高校</choir-name>
 	<conductor>有富美子</conductor>
