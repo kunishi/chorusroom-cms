@@ -140,6 +140,7 @@
       <xsl:apply-templates select="ピアノ"/>
       <xsl:apply-templates select="共演者"/>)
       <xsl:call-template name="特別賞リスト"/>
+      <xsl:apply-template select="団体備考"/>
       <xsl:apply-templates select="曲目"/>
     </li>
   </xsl:template>
@@ -198,6 +199,10 @@
   <xsl:template match="特別賞">
     <xsl:value-of select="."/>
     <xsl:if test="following-sibling::特別賞">, </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="団体備考">
+    (<xsl:value-of select="."/>)
   </xsl:template>
 
   <xsl:template match="曲目">
