@@ -6,7 +6,7 @@
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: kagoshima.xml,v 1.7 2000/08/26 02:16:04 kunishi Exp $ -->
+    <!-- $Id: kagoshima.xml,v 1.8 2000/10/03 04:26:13 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>51st All Japan Chorus Contest/Kagoshima</title>
@@ -266,8 +266,10 @@
       </li>
     </ul>
     <hr/>
-    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-<!-- Created: Sun Aug 23 22:59:03 JST 1998 -->
-    $Date: 2000/08/26 02:16:04 $
+    <div class="footer">
+      <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+      <!-- Created: Sun Aug 23 22:59:03 JST 1998 -->
+      <p>$Date: 2000/10/03 04:26:13 $ GMT</p>
+    </div>
   </body>
 </html>
