@@ -41,7 +41,7 @@
               <th align='left'>ホームページURL</th>
               <td>
 		<xsl:for-each select="c:choir/c:url">
-		  <xsl:apply-templates/>
+		  <xsl:apply-templates select="."/>
 		  <xsl:if test="not(position()=last())">
 		    <br/>
 		  </xsl:if>
@@ -117,9 +117,9 @@
   <xsl:template match="c:url">
     <a>
       <xsl:attribute name='href'>
-	<xsl:value-of select='c:choir/c:url'/>
+	<xsl:value-of select='.'/>
       </xsl:attribute>
-      <xsl:value-of select='c:choir/c:url'/>
+      <xsl:value-of select='.'/>
     </a>
   </xsl:template>
 
