@@ -182,7 +182,7 @@
 	<xsl:attribute name="href">
 	  <xsl:value-of select="
 			concat('/choir/',substring(c:urn,0,3),
-			'/',c:urn,'/',c:urn,'.xhtml')"/>
+			'/',c:urn,'/',c:urn,'.html')"/>
 	</xsl:attribute>
 	<xsl:text>詳細</xsl:text>
       </a>
