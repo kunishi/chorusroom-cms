@@ -1,12 +1,11 @@
 # 
-# $Id: GNUmakefile,v 1.1 1999/08/16 00:53:41 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 1999/08/16 01:00:29 kunishi Exp $
 #
 
 RELPATH=	.
 SRCTOPDIR=	./
 
-INSTFILES+=	47thajcl.html \
-		CDShop.html \
+INSTFILES+=	CDShop.html \
 		ajcl-contest.html \
 		asian960518.html \
 		faq.html \
