@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
-  <cvs-id>$Id: tokyo.xml,v 1.8 2001/01/30 13:24:58 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: tokyo.xml,v 1.9 2001/01/31 06:58:28 kunishi Exp $</cvs-id>
   <competition-name area="false" pref="false">第55回東京都合唱コンクール (第53回全日本合唱コンクール東京支部大会)</competition-name>
   <result output="tokyo">
     <date day-of-week="sat" holiday="false">2000-09-16</date>
@@ -38,15 +38,15 @@
 	    <p:suite>
 	      <p:words-by>三好達治</p:words-by>
 	      <p:composed-by>多田武彦</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>混声合唱組曲「わがふるき日のうた」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>わがふるき日のうた</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
 		  <cr:romanI/>.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>いし(秋瓦)のうへ</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -55,12 +55,11 @@
 		<p:piece-number>
 		  <cr:romanVI/>.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>鐘鳴りぬ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -78,9 +77,11 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
-	      
 	      <p:title original="true">
-		<p:mainTitle>Quatre motets pour le temps de no<cr:euml/>l (クリスマスのための4つのモテット)</p:mainTitle>
+		<p:mainTitle>Quatre motets pour le temps de no<cr:euml/>l</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>クリスマスのための4つのモテット</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -103,7 +104,6 @@
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -124,9 +124,11 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Niels La Cour</p:composed-by>
-	      
 	      <p:title original="true">
-		<p:mainTitle>3 Mottetti Latini 1982 (3つのラテンモテット 1982)</p:mainTitle>
+		<p:mainTitle>3 Mottetti Latini 1982</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>3つのラテンモテット 1982</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
@@ -152,7 +154,6 @@
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -174,8 +175,9 @@
 	  <free-program>
 	    <p:piece>
 	      <p:composed-by>新実徳英</p:composed-by>
-	      <p:title original="true">
-		<p:mainTitle>無伴奏女声合唱のための「魂の樹」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>魂の樹</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -208,19 +210,18 @@
 	    <p:suite>
 	      <p:words-by>高田敏子</p:words-by>
 	      <p:composed-by>三善晃</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>合唱組曲「五つの童画」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>合唱組曲</p:titlePrefix>
+		<p:mainTitle>五つの童画</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>風見鳥</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -250,20 +251,13 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>千原英喜</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>混声合唱のための「おらしょ」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>おらしょ</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece>
-		  <p:title original="true">
-		    <p:mainTitle>
-		      <cr:romanII/>
-		    </p:mainTitle>
-		  </p:title>
-		</p:piece>
+		<p:piece-number><cr:romanII/></p:piece-number>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -294,32 +288,42 @@
 	    <p:suite>
 	      <p:words-by>B.Barbarani</p:words-by>
 	      <p:composed-by>G.Fermi</p:composed-by>
-	      
 	      <p:title original="true">
-		<p:mainTitle>Momenti Musicali(楽興の時)</p:mainTitle>
+		<p:mainTitle>Momenti Musicali</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>楽興の時</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Fu-Fu (フーフー)</p:mainTitle>
+		    <p:mainTitle>Fu-Fu</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>フーフー</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Himnus (賛歌)</p:mainTitle>
+		    <p:mainTitle>Himnus</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>賛歌</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Scherzo(スケルツォ)</p:mainTitle>
+		    <p:mainTitle>Scherzo</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>スケルツォ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -349,9 +353,9 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Kocs<cr:aacute/>r Mikl<cr:oacute/>s</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>男声合唱のためのCantate Domino</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱のための</p:titlePrefix>
+		<p:mainTitle>Cantate Domino</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -367,7 +371,6 @@
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -399,7 +402,10 @@
 	      <p:words-by>Guarini</p:words-by>
 	      <p:composed-by>Monteverdi</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Ch'io t'ami(命よりもあなたを愛するということを)</p:mainTitle>
+		<p:mainTitle>Ch'io t'ami</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>命よりもあなたを愛するということを</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -408,7 +414,10 @@
 	      <p:words-by>Guarini</p:words-by>
 	      <p:composed-by>Monteverdi</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Deh bella e cara(ああ、美しく愛しく、かつてはかくも甘かった女よ)</p:mainTitle>
+		<p:mainTitle>Deh bella e cara</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>ああ、美しく愛しく、かつてはかくも甘かった女よ</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -417,7 +426,10 @@
 	      <p:words-by>Guarini</p:words-by>
 	      <p:composed-by>Monteverdi</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Ma tu pi<cr:ugrave/> che mai(あなたは前よりもつれなく、哀れみの炎をまだ感じてくれない)</p:mainTitle>
+		<p:mainTitle>Ma tu pi<cr:ugrave/> che mai</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>あなたは前よりもつれなく、哀れみの炎をまだ感じてくれない</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -449,7 +461,10 @@
 	    <p:piece>
 	      <p:composed-by>Gy<cr:ouml/>rgy Orban</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Ave Regina(めでたし天の女王)</p:mainTitle>
+		<p:mainTitle>Ave Regina</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>めでたし天の女王</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -457,7 +472,10 @@
 	    <p:piece>
 	      <p:composed-by>Lajos B<cr:aacute/>rdos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>Audi Filia(娘よ、聞け)</p:mainTitle>
+		<p:mainTitle>Audi Filia</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>娘よ、聞け</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -489,7 +507,10 @@
 	    <p:piece>
 	      <p:composed-by>Kod<cr:aacute/>ly Zolt<cr:aacute/>n</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>T<cr:aacute/>ncn<cr:oacute/>ta(踊りの歌)</p:mainTitle>
+		<p:mainTitle>T<cr:aacute/>ncn<cr:oacute/>ta</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>踊りの歌</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -498,7 +519,10 @@
 	      <p:words-by>We<cr:ouml/>res S<cr:aacute/>ndor</p:words-by>
 	      <p:composed-by>Lajos B<cr:aacute/>rdos</p:composed-by>
 	      <p:title original="true">
-		<p:mainTitle>B<cr:eacute/>rc a Ron<cr:aacute/>n(平原の岩山)</p:mainTitle>
+		<p:mainTitle>B<cr:eacute/>rc a Ron<cr:aacute/>n</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>平原の岩山</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -529,28 +553,28 @@
 	  </given-program>
 	  <free-program>
 	    <p:suite>
-	      <p:originated-from>みどりの会採譜</p:originated-from>
+	      <p:words-by kind="採譜">みどりの会</p:words-by>
 	      <p:composed-by>川島博</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>女声合唱曲「愛知県の仕事唄」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱曲</p:titlePrefix>
+		<p:mainTitle>愛知県の仕事唄</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>古谷の子守女の唄</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	  <free-program>
 	    <p:piece>
 	      <p:words-by>萩原朔太郎</p:words-by>
 	      <p:composed-by>川島博</p:composed-by>
-	      <p:title original="true">
-		<p:mainTitle>女声四部合唱「黒い風琴」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声四部合唱</p:titlePrefix>
+		<p:mainTitle>黒い風琴</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -583,16 +607,15 @@
 	    <p:suite>
 	      <p:words-by>大手拓次</p:words-by>
 	      <p:composed-by>清水脩</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>「大手拓次の三つの詩」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>大手拓次の三つの詩</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
 		  <cr:romanII/>
 		</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>みずいろの風よ</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -602,12 +625,11 @@
 		  <cr:romanIII/>
 		</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>しろい火の姿</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -639,14 +661,14 @@
 	    <p:suite>
 	      <p:words-by>吉野弘</p:words-by>
 	      <p:composed-by>高田三郎</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>混声合唱組曲「心の四季」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>心の四季</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>風が</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -654,12 +676,11 @@
 	      <p:suite-piece>
 		<p:piece-number>2</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>みずすまし</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -689,9 +710,11 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Francis Poulenc</p:composed-by>
-	      
 	      <p:title original="true">
-		<p:mainTitle>Quarte motets pour le temps de no<cr:euml/>l(クリスマスのための4つのモテット)</p:mainTitle>
+		<p:mainTitle>Quarte motets pour le temps de no<cr:euml/>l</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>クリスマスのための4つのモテット</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
@@ -720,7 +743,6 @@
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -751,14 +773,14 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>三善晃</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>女声合唱のための「三つの抒情」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための</p:titlePrefix>
+		<p:mainTitle>三つの抒情</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
 		  <p:words-by>中原中也</p:words-by>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>北の海</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -766,12 +788,11 @@
 	      <p:suite-piece>
 		<p:piece>
 		  <p:words-by>立原道造</p:words-by>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ふるさとの夜に寄す</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -810,7 +831,7 @@
 	  <free-program>
 	    <p:piece>
 	      <p:composed-by>Balt<cr:oacute/>k B<cr:eacute/>la</p:composed-by>
-	      <p:title original="true">
+	      <p:title original="true" xml:lang="ja">
 		<p:mainTitle>四つのハンガリー民謡</p:mainTitle>
 	      </p:title>
 	    </p:piece>
@@ -842,7 +863,6 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>William Byrd</p:composed-by>
-	      
 	      <p:title original="true">
 		<p:mainTitle>Mass for Four Voices</p:mainTitle>
 	      </p:title>
@@ -867,7 +887,6 @@
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -899,39 +918,37 @@
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>高田敏子</p:words-by>
-	      <p:composed-by>三善晃</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>女声合唱のための「四つの秋の歌」</p:mainTitle>
+	      <p:composed-by>三善晃</p:composed-by>	      
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱のための</p:titlePrefix>
+		<p:mainTitle>四つの秋の歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>4.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>枯葉</p:mainTitle>
 		  </p:title>
 		</p:piece>
-	      </p:suite-piece>
-	      
+	      </p:suite-piece>	      
 	    </p:suite>
 	  </free-program>
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>新川和江</p:words-by>
-	      <p:composed-by>三善晃</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>女声合唱とピアノのための幼年詩集「どこかで」</p:mainTitle>
+	      <p:composed-by>三善晃</p:composed-by>	      
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための幼年詩集</p:titlePrefix>
+		<p:mainTitle>どこかで</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>いっしょけんめい</p:mainTitle>
 		  </p:title>
 		</p:piece>
-	      </p:suite-piece>
-	      
+	      </p:suite-piece>	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -983,25 +1000,16 @@
 	    <p:suite>
 	      <p:words-by>鮎川信夫</p:words-by>
 	      <p:composed-by>高田三郎</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>混声合唱組曲「橋上の人」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱組曲</p:titlePrefix>
+		<p:mainTitle>橋上の人</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
-		<p:piece>
-		  <p:title original="true">
-		    <p:mainTitle>二</p:mainTitle>
-		  </p:title>
-		</p:piece>
+		<p:piece-number>二</p:piece-number>
 	      </p:suite-piece>
 	      <p:suite-piece>
-		<p:piece>
-		  <p:title original="true">
-		    <p:mainTitle>三</p:mainTitle>
-		  </p:title>
-		</p:piece>
+		<p:piece-number>三</p:piece-number>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -1032,8 +1040,9 @@
 	  <free-program>
 	    <p:piece>
 	      <p:composed-by>細川俊夫</p:composed-by>
-	      <p:title original="true">
-		<p:mainTitle>混声合唱のための アヴェ・マリア</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱のための</p:titlePrefix>
+		<p:mainTitle>アヴェ・マリア</p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -1064,9 +1073,11 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>J.Busto</p:composed-by>
-	      
 	      <p:title original="true">
-		<p:mainTitle>Quatro Cantos Penitenciales(悔悟節の4つの歌)</p:mainTitle>
+		<p:mainTitle>Quatro Cantos Penitenciales</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>悔悟節の4つの歌</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
@@ -1075,7 +1086,6 @@
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
-	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -1106,15 +1116,20 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>Sven-David Sandstr<cr:ouml/>m</p:composed-by>
-	      
 	      <p:title original="true">
-		<p:mainTitle>Tre Stycken f<cr:ouml/>r Mansk<cr:ouml/>r(三つの男声合唱曲)</p:mainTitle>
+		<p:mainTitle>Tre Stycken f<cr:ouml/>r Mansk<cr:ouml/>r</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>三つの男声合唱曲</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>1.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Kyrie(キリエ)</p:mainTitle>
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>キリエ</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -1122,11 +1137,13 @@
 		<p:piece-number>3.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Agnus Dei(神の小羊)</p:mainTitle>
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>神の小羊</p:mainTitle>
 		  </p:title>
 		</p:piece>
-	      </p:suite-piece>
-	      
+	      </p:suite-piece>	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -1159,8 +1176,9 @@
 	    <p:piece>
 	      <p:words-by>峠三吉</p:words-by>
 	      <p:composed-by>高嶋みどり</p:composed-by>
-	      <p:title original="true">
-		<p:mainTitle>男声合唱とピアノのための「メッセージ<cr:romanII/>」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>メッセージ<cr:romanII/></p:mainTitle>
 	      </p:title>
 	    </p:piece>
 	  </free-program>
@@ -1193,15 +1211,15 @@
 	    <p:suite>
 	      <p:words-by>白石かずこ</p:words-by>
 	      <p:composed-by>三善晃</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>混声合唱とピアノのための「動物詩集」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>混声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>動物詩集</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
 		  <cr:romanI/>.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>子猫のピッチ</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -1210,7 +1228,7 @@
 		<p:piece-number>
 		  <cr:romanII/>.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ひとこぶらくだのブルース</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -1219,12 +1237,11 @@
 		<p:piece-number>
 		  <cr:romanIII/>.</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>ゴリラのジジ</p:mainTitle>
 		  </p:title>
 		</p:piece>
-	      </p:suite-piece>
-	      
+	      </p:suite-piece>	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -1255,32 +1272,30 @@
 	  <free-program>
 	    <p:suite>
 	      <p:composed-by>間宮芳生</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>「合唱のための12のインヴェンション」</p:mainTitle>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>合唱のための12のインヴェンション</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>米搗まだら</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>知覧節</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
 	      <p:suite-piece>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>のよさ</p:mainTitle>
 		  </p:title>
 		</p:piece>
-	      </p:suite-piece>
-	      
+	      </p:suite-piece>	      
 	    </p:suite>
 	  </free-program>
 	</program>
@@ -1311,17 +1326,17 @@
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>ブッシュ孝子</p:words-by>
-	      <p:composed-by>萩原英彦</p:composed-by>
-	      
-	      <p:title original="true">
-		<p:mainTitle>女声合唱組曲「白い木馬」</p:mainTitle>
+	      <p:composed-by>萩原英彦</p:composed-by>	      
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
+		<p:mainTitle>白い木馬</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
 		<p:piece-number>
 		  <cr:romanIII/>
 		</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>折れたバラ</p:mainTitle>
 		  </p:title>
 		</p:piece>
@@ -1331,12 +1346,11 @@
 		  <cr:romanV/>
 		</p:piece-number>
 		<p:piece>
-		  <p:title original="true">
+		  <p:title original="true" xml:lang="ja">
 		    <p:mainTitle>名も知らぬ異国の港町にて</p:mainTitle>
 		  </p:title>
 		</p:piece>
-	      </p:suite-piece>
-	      
+	      </p:suite-piece>	      
 	    </p:suite>
 	  </free-program>
 	</program>
