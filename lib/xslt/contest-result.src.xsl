@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result.src.xsl,v 1.4 2002/09/24 14:56:26 kunishi Exp $ -->
+<!-- $Id: contest-result.src.xsl,v 1.5 2002/10/16 17:36:44 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -218,20 +218,16 @@
     <xsl:apply-templates select="c:section-name"/>
     <xsl:if test="$seed-choir-list">
       <h3>シード団体</h3>
-      <ul>
-        <xsl:for-each select="$seed-choir-list">
-          <xsl:if test="not(c:prize/text()='シード')">
-            <xsl:message>
-              Prize mismatch at <xsl:value-of select="c:choir-name"/>.
-            </xsl:message>
-          </xsl:if>
-          <li>
-            <xsl:apply-templates select=".">
-	      <xsl:with-param name="top" select="$top"/>
-	    </xsl:apply-templates>
-          </li>
-        </xsl:for-each>
-      </ul>
+      <xsl:for-each select="$seed-choir-list">
+        <xsl:if test="not(c:prize/text()='シード')">
+          <xsl:message>
+            Prize mismatch at <xsl:value-of select="c:choir-name"/>.
+          </xsl:message>
+        </xsl:if>
+        <xsl:apply-templates select=".">
+          <xsl:with-param name="top" select="$top"/>
+        </xsl:apply-templates>
+      </xsl:for-each>
     </xsl:if>
     <xsl:if test="$gold-choir-list">
       <h3>金賞</h3>
@@ -564,6 +560,7 @@
 	</title>
       </head>
       <body>
+        <xsl:call-template name="body-header"/>
 	<h1>
 	  <xsl:value-of select="$competition-name"/>
 	  <xsl:text>: 採点表</xsl:text>
