@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.18 1999/09/04 17:31:14 kunishi Exp $
+# $Id: Makefile,v 1.19 1999/09/09 10:20:34 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -9,6 +9,7 @@ UTFTOEUC=	hutrans | tcs -f utf -t ujis
 EUCTOJIS=	nkf
 
 RESULT_XSL=	result-1999.xsl
+DEFAULT_XSL=	${RESULT_XSL}
 
 INSTFILES+=	index.html
 INSTFILES+=	aichi.html
@@ -25,32 +26,6 @@ INSTFILES+=	yamagata.html
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
 
-aichi.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-chiba.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-chugoku.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-fukuoka.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-fukushima.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-hyogo.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-kagoshima.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-mie.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-miyagi.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
-
-yamagata.html: %.html : %.xml ${RESULT_XSL}
-	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
+index.html: %.html : %.xml ${XHTML10_XSL}
+	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | \
+	  ${UTF2ASCII} | ${ASCII2EUC} | ${EUC2JIS} > $@
