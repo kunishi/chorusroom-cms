@@ -35,7 +35,8 @@
           県大会 (yes|no) #IMPLIED
           支部大会 (yes|no) #IMPLIED>
 
-<!ELEMENT 開催日別結果 (開催日*, 開催時刻?, 開催場所?, 審査員*, 報告者+, 注記?, 部門結果+)>
+<!ELEMENT 開催日別結果 (開催日*, 開催時刻?, 開催場所?, 審査員*, 
+                        報告者+, 注記?, 部門結果+)>
 <!ATTLIST 開催日別結果
           出力 CDATA #REQUIRED>
 <!ELEMENT 開催日 (#PCDATA)>
@@ -50,6 +51,7 @@
 <!ELEMENT 審査員 (#PCDATA)>
 <!ATTLIST 審査員
           %i18n;
+          省略名 CDATA #REQUIRED
           肩書 CDATA #IMPLIED
           備考 CDATA #IMPLIED>
 
@@ -67,45 +69,68 @@
 <!ELEMENT 注記 (注記事項+)>
 <!ELEMENT 注記事項 (#PCDATA)>
 
-<!ELEMENT 部門結果 (部門名, 団体+, 採点表?)>
+<!ELEMENT 部門結果 (部門名, 団体+)>
 <!ELEMENT 部門名 (#PCDATA)>
 <!ATTLIST 部門名
           開催日 CDATA #IMPLIED>
-<!ELEMENT 団体 (団体名, 所属県?, 形態?, 登録人数?, 指揮者*, ピアノ*, 共演者*, 賞*, 特別賞*, 曲目?, 団体備考?)>
+<!ELEMENT 団体 (団体名, 
+                所属県?, 形態?, 登録人数?, 
+                指揮者*, ピアノ*, 共演者*, 
+                賞*, 特別賞*, 
+                曲目?, 採点結果?, 団体備考?)>
 <!ATTLIST 団体
           出演順 CDATA #IMPLIED
           大会代表 (yes|no) #REQUIRED
           来年度シード (yes) #IMPLIED>
+
 <!ELEMENT 団体名 (#PCDATA)>
 <!ATTLIST 団体名
           %i18n;
           url CDATA #IMPLIED>
+
 <!ELEMENT 所属県 (#PCDATA)>
 <!-- 所属県は、北海道以外は都・府・県は省略する。 -->
+
 <!ELEMENT 形態 (#PCDATA)>
 <!-- 形態は、混声、男声、女声、同声のいずれか。 -->
+
 <!ELEMENT 登録人数 (#PCDATA)>
 <!-- 登録人数は数字だけ書く。単位(人)は書かない。 -->
+
 <!ELEMENT 指揮者 (#PCDATA)>
 <!ATTLIST 指揮者
           %i18n;>
+
 <!ELEMENT ピアノ (#PCDATA)>
 <!ATTLIST ピアノ
           %i18n;>
+
 <!-- ピアノ以外の共演者 -->
 <!ELEMENT 共演者 (#PCDATA)>
 <!ATTLIST 共演者
           %i18n;
           演奏楽器 CDATA #REQUIRED>
+
 <!ELEMENT 曲目 (課題曲?, 自由曲+)>
+
 <!ELEMENT 賞 (#PCDATA)>
 <!-- 金賞、銀賞、銅賞以外の賞は特別賞フィールドに書く。 -->
+
 <!ELEMENT 特別賞 (#PCDATA)>
+
+<!ELEMENT 採点結果 (採点+, 総合評価, 採点備考)>
+<!ELEMENT 採点 (#PCDATA)>
+<!ATTLIST 採点
+          %i18n;
+          採点者 CDATA #REQUIRED>
+<!ELEMENT 総合評価 (#PCDATA)>
+<!ELEMENT 採点備考 (#PCDATA)>
 <!ELEMENT 団体備考 (#PCDATA)>
 
 <!ELEMENT 課題曲 (#PCDATA)>
 <!-- 課題曲は記号で表記する。G[1-4], M[1-4], F[1-4] のいずれか。 -->
 <!ELEMENT 自由曲 (出典?, 作詩?, 訳詩?, 作曲?, 編曲?, (曲名|組曲))>
+
 <!ELEMENT 作詩 (#PCDATA)>
 <!ATTLIST 作詩
           %i18n;>
@@ -137,9 +162,4 @@
           ピース番号 CDATA #IMPLIED>
 <!-- ピース番号しかなく、個々のピースにタイトルが付いていない場合は
      ピース番号に相当するものをピース曲名とする。
--->
-
-<!ELEMENT 採点表 (#PCDATA)>
-<!-- 採点表の内容については今後検討する。DTD 的に正しくなるように、
-     とりあえず #PCDATA としておく。 
 -->
