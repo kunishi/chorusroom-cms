@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1126/concours.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1115/concours.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1106/links.html"/>
@@ -23,10 +24,16 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1015/jca.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1014/freetalk.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1013/nhk.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1126/concours.html">
+    <title>全日本合唱コンクール(大学・職場・一般)の結果詳細掲載</title>
+    <link>http://www.chorusroom.org/info/2003/1126/concours.html</link>
+    <description>11月22日・23日に行われた第56回全日本合唱コンクール全国大会(大学・職場・一般部門)について、曲目を含めた結果の詳細を掲載しました。</description>
+    <dc:date>2003-11-26T10:00</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1115/links.html">
     <title>本日のリンク更新</title>
