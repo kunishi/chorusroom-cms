@@ -1,11 +1,16 @@
+/* $Id: jca-concour.css,v 1.2 2000/09/05 04:24:11 kunishi Exp $ */
+
 body { background-color: rgb(204,204,204);
        color: black;
+       margin-left: 1em;
+       margin-right: 1em;
        }
 h1 { text-align: center;
      margin-top: 1em;
      margin-bottom: 0.5em; }
 a:link { color: rgb(0,0,204); }
 a:visited { color: rgb(102, 0, 0); }
+p { line-height: 130%; }
 
 /* for AJCL contest results pages */
 h1.ajclcontest { text-align: left; }
@@ -27,3 +32,6 @@ ul li.feb1998 { }
 ul li.feb1998-update { }
 ul li.jan1998 { }
 ul li.jan1998-update { }
+div.footer { text-align: right; }
+div.footer p { margin-top: 0em;
+               margin-bottom: 0em; }
