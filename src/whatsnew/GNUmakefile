@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.19 2000/12/01 10:34:45 kunishi Exp $
+# $Id: GNUmakefile,v 1.20 2001/01/01 01:42:46 kunishi Exp $
 # 
 
 INSTFILES+=	index.html \
@@ -11,7 +11,8 @@ INSTFILES+=	index.html \
 		199909.html 199910.html 199911.html 199912.html \
 		200001.html 200002.html 200003.html 200004.html \
 		200005.html 200006.html 200007.html 200008.html \
-		200009.html 200010.html 200011.html 200012.html
+		200009.html 200010.html 200011.html 200012.html \
+		200101.html
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
