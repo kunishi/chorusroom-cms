@@ -14,15 +14,27 @@
   </choice>
  </elementRule>
  <tag name="dir">
-  <attribute name="name">
+  <attribute name="name" required="true">
   </attribute>
  </tag>
 
  <elementRule role="file">
-  <empty/>
+  <ref label="include" occurs="*"/>
  </elementRule>
  <tag name="file">
-  <attribute name="name">
+  <attribute name="name" required="true">
+  </attribute>
+  <attribute name="title" required="true">
+  </attribute>
+  <attribute name="genre">
+  </attribute>
+ </tag>
+
+ <elementRule role="include">
+  <empty/>
+ </elementRule>
+ <tag name="include">
+  <attribute name="uri" required="true">
   </attribute>
  </tag>
 
