@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: jca-comp-result.rxm,v 1.1 2000/12/25 14:23:20 kunishi Exp $ -->
+<!-- $Id: jca-comp-result.rxm,v 1.2 2000/12/26 13:30:40 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -26,5 +26,7 @@
       <enumeration value="F4"/>
     </attribute>
   </attPool>
+
+  <include moduleLocation="contest-result.rxm"/>
 
 </module>
