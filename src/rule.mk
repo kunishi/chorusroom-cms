@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.31 2000/11/09 04:32:00 kunishi Exp $
+# $Id: rule.mk,v 1.32 2001/01/03 07:16:57 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -17,6 +17,7 @@ ${XMLDECL_FIX} $@
 endef
 
 ifndef SPECIAL_RULES
+ifndef USE_NEW_SCHEME
 %.html:	%.xml ${DEFAULT_XSL}
 	$(xslt-transform)
 	${SLEEP} 1
@@ -44,6 +45,19 @@ ifndef SPECIAL_RULES
 
 %.style: %.xsl
 	${ENV} ${JAVA_ENV} ${XSLT_COMPILER} -xsl $< -lxcout $@
+else
+%.html:	%.xml ${DEFAULT_XSL}
+	$(xslt-transform)
+	${SLEEP} 1
+	${PATH_CONFIGURE} $@
+%.html:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.traditional.xsl
+
+%.utfhtml: %.xml ${DEFAULT_XSL}
+	$(xslt-transform)
+	${SLEEP} 1
+	${PATH_CONFIGURE} $@
+%.utfhtml:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.utf8.xsl
+endif
 endif
 
 %.utfxml: %.xml
