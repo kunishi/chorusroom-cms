@@ -47,7 +47,9 @@ choir =
           }?
         & element c:prefecture { text }?
         & element c:number { xsd:integer }?
-        & element c:players { mixed { playersList } }?
+        & element c:players { 
+           attribute list { "yes" | "true" }?,
+           mixed { playersList } }?
         & element c:prize {
               # attribute nickname { "seed" | "gold" | "silver" | "blonze" | "none" },
               text

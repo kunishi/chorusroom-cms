@@ -20,7 +20,7 @@
             <c:number>40</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>日吉 武</c:conductor>
                 <c:piano>田端温子</c:piano>
             </c:players>
@@ -34,7 +34,7 @@
             <c:number>34</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>近松洋子</c:conductor>
             </c:players>
             <c:freeNumber>混声合唱組曲<p:suiteTitle>風紋</p:suiteTitle>より <p:title>第４章 風紋</p:title> （<p:wordsBy>岩谷時子</p:wordsBy>作詩 <p:composedBy>石井歓</p:composedBy>作曲）</c:freeNumber>
@@ -47,7 +47,7 @@
             <c:number>80</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>小倉孝勇</c:conductor>
                 <c:piano>川村悠乃</c:piano>
             </c:players>
@@ -59,7 +59,7 @@
             <c:type>混声</c:type>
             <c:number>37</c:number>
             <c:prize>金賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>神作稔</c:conductor>
                 <c:piano>山岸洋子</c:piano>
             </c:players>
@@ -71,7 +71,7 @@
             <c:type>混声</c:type>
             <c:number>54</c:number>
             <c:prize>金賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>内藤朝子</c:conductor>
                 <c:piano>徳本みなみ</c:piano>
             </c:players>
@@ -83,7 +83,7 @@
             <c:type>混声</c:type>
             <c:number>41</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>齋藤幸代</c:conductor>
                 <c:piano>高橋清子</c:piano>
             </c:players>
@@ -96,7 +96,7 @@
             <c:type>混声</c:type>
             <c:number>60</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>島方麻美</c:conductor>
             </c:players>
             <c:freeNumber>無伴奏混声合唱のための組曲<p:suiteTitle>子猫物語</p:suiteTitle>より <p:title>守る</p:title> （<p:wordsBy>谷川俊太郎</p:wordsBy>作詩 <p:composedBy>松下耕</p:composedBy>作曲）</c:freeNumber>
@@ -108,7 +108,7 @@
             <c:type>混声</c:type>
             <c:number>70</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>石田浩紀</c:conductor>
                 <c:piano>星野香奈</c:piano>
             </c:players>
@@ -121,7 +121,7 @@
             <c:type>混声</c:type>
             <c:number>39</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>押尾優美子</c:conductor>
             </c:players>
             <c:freeNumber><p:title>Tabourtuznel</p:title>（キャンプファイアを囲んで） （<p:wordsBy>Miklos MARKUS</p:wordsBy>作詩・<p:composedBy>Lajos BARDOS</p:composedBy>作曲）</c:freeNumber>
@@ -133,7 +133,7 @@
             <c:type>混声</c:type>
             <c:number>53</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>青木扶美乃</c:conductor>
                 <c:piano>小栁津 奏歩</c:piano>
             </c:players>
@@ -146,7 +146,7 @@
             <c:type>混声</c:type>
             <c:number>37</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>皆川久美子</c:conductor>
                 <c:piano>大屋香織</c:piano>
             </c:players>
@@ -159,7 +159,7 @@
             <c:type>混声</c:type>
             <c:number>14</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>向山初音</c:conductor>
                 <c:piano>瀧口久代</c:piano>
             </c:players>
@@ -171,7 +171,7 @@
             <c:type>混声</c:type>
             <c:number>51</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>滝澤由佳</c:conductor>
                 <c:piano>鈴木志保</c:piano>
             </c:players>
@@ -184,7 +184,7 @@
             <c:type>混声</c:type>
             <c:number>50</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>大森知恵子</c:conductor>
             </c:players>
             <c:freeNumber><p:title>いっしょに</p:title> （<p:wordsBy>くどうなおこ</p:wordsBy>作詩・<p:composedBy>木下牧子</p:composedBy>作曲）</c:freeNumber>
@@ -196,7 +196,7 @@
             <c:type>混声</c:type>
             <c:number>50</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>梶川佐知子</c:conductor>
                 <c:piano>長谷川千夏</c:piano>
                 <c:piano>松下明花</c:piano>
@@ -214,7 +214,7 @@
             <c:number>38</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>奥村政仁</c:conductor>
             </c:players>
             <c:freeNumber>無伴奏童声（女声）合唱のための<p:suiteTitle>Seven Songs of Nonsense</p:suiteTitle>より <p:title>III．Newspaper</p:title> <p:title>IV．&quot;Heyyyyy！&quot;</p:title>
@@ -227,7 +227,7 @@
             <c:number>36</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>石山明</c:conductor>
                 <c:piano>持田みどり</c:piano>
             </c:players>
@@ -241,7 +241,7 @@
             <c:number>36</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>吉田悦子</c:conductor>
             </c:players>
             <c:freeNumber>組曲<p:suiteTitle>SUGISMAASTIKUD</p:suiteTitle>（秋の風景）より<p:title>ON HILISSUVI</p:title>（晩夏）<p:title>ULE TAEVA JOOKSEVAD PILVED</p:title>（空を走る雲）<p:title>TUUL KONNUMAA KOHAL</p:title>（荒野の風）<p:title>KANARBIK</p:title>（ヒース） （<p:wordsBy>Viivi Luik</p:wordsBy>作詩 <p:composedBy>Veljo Tormis</p:composedBy>作曲）</c:freeNumber>
@@ -253,7 +253,7 @@
             <c:number>36</c:number>
             <c:prize>金賞</c:prize>
             <c:special-prize>代表</c:special-prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>印東公民</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>SUGISMAASTIKUD</p:suiteTitle>より<p:title>１．On Hilissuvi</p:title> <p:title>２．Ule Taeva Jooksevad Pilved</p:title> <p:title>５．Tuul
@@ -265,7 +265,7 @@
             <c:type>同声</c:type>
             <c:number>70</c:number>
             <c:prize>金賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>田中安茂</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>Seven Songs of Nonsence</p:suiteTitle>より <p:title>VI．&quot;Heyyyyy！&quot;</p:title> <p:title>I．Multiplication</p:title> （<p:wordsBy>谷川俊太郎</p:wordsBy>作詩
@@ -277,7 +277,7 @@
             <c:type>同声</c:type>
             <c:number>41</c:number>
             <c:prize>金賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>関根京子</c:conductor>
                 <c:piano>原田梢</c:piano>
             </c:players>
@@ -289,7 +289,7 @@
             <c:type>同声</c:type>
             <c:number>38</c:number>
             <c:prize>金賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>遠藤好子</c:conductor>
                 <c:piano>市川あゆみ</c:piano>
             </c:players>
@@ -302,7 +302,7 @@
             <c:type>同声</c:type>
             <c:number>52</c:number>
             <c:prize>金賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>赤津邦子</c:conductor>
                 <c:piano>浅川しおり</c:piano>
             </c:players>
@@ -314,7 +314,7 @@
             <c:type>同声</c:type>
             <c:number>31</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>菊池和子</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>２７の合唱曲</p:suiteTitle>より <p:title>JOSZAGIGEZO</p:title>（おまじない） <p:title>ISTEN VELED！</p:title>（神はあなたと共に） （<p:composedBy>BELA BARTOK</p:composedBy>作曲）</c:freeNumber>
@@ -325,7 +325,7 @@
             <c:type>同声</c:type>
             <c:number>27</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>松ヶ下光一</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>四つの沖縄の歌</p:suiteTitle>より<p:title>２．遊び歌</p:title> （<p:originatedFrom>沖縄本島の子ども歌</p:originatedFrom> <p:composedBy>中村透</p:composedBy>作曲）<p:title>３．別れの歌</p:title> （<p:originatedFrom>宮古島民謡</p:originatedFrom> <p:composedBy>中村透</p:composedBy>作曲）<p:title>４．舞の歌</p:title> （<p:originatedFrom>沖縄民謡</p:originatedFrom> <p:composedBy>中村透</p:composedBy>作曲）</c:freeNumber>
@@ -336,7 +336,7 @@
             <c:type>同声</c:type>
             <c:number>22</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>板橋和美</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>Gyermekkarok Csnadi Imre Verseire １</p:suiteTitle>より<p:title>Tavasz-ebreszto Naphivogato</p:title>
@@ -350,7 +350,7 @@
             <c:type>同声</c:type>
             <c:number>25</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>鷹浜昌子</c:conductor>
                 <c:piano>斎藤愛子</c:piano>
             </c:players>
@@ -363,7 +363,7 @@
             <c:type>同声</c:type>
             <c:number>81</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>都木雅之</c:conductor>
                 <c:piano>吉田絢香</c:piano>
             </c:players>
@@ -377,7 +377,7 @@
             <c:type>同声</c:type>
             <c:number>52</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>佐藤美紀子</c:conductor>
             </c:players>
             <c:freeNumber>女声合唱のための<p:suiteTitle>聖母の祈り</p:suiteTitle>より <p:title>Ave Regina Coelorum</p:title> （<p:composedBy>松下耕</p:composedBy>作曲）</c:freeNumber>
@@ -389,7 +389,7 @@
             <c:type>同声</c:type>
             <c:number>25</c:number>
             <c:prize>銀賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>村田和子</c:conductor>
                 <c:piano>田中明子</c:piano>
             </c:players>
@@ -401,7 +401,7 @@
             <c:type>同声</c:type>
             <c:number>36</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>今井るり子</c:conductor>
                 <c:piano>仁井谷晴加</c:piano>
             </c:players>
@@ -413,7 +413,7 @@
             <c:type>同声</c:type>
             <c:number>27</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>浜田正子</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>GYERMEKKAROK</p:suiteTitle>より <p:title>１．TAVASZ-EBRESZTO</p:title>（春の目覚め） <p:title>２．NAPHIVOGATO</p:title>（太陽への呼びかけ）
@@ -425,7 +425,7 @@
             <c:type>同声</c:type>
             <c:number>31</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>丹澤博</c:conductor>
             </c:players>
             <c:freeNumber><p:title>Hec Dies</p:title> （<p:composedBy>Perotinus</p:composedBy>作曲）</c:freeNumber>
@@ -436,7 +436,7 @@
             <c:type>同声</c:type>
             <c:number>24</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>樋口智子</c:conductor>
             </c:players>
             <c:freeNumber>無伴奏女声合唱のための<p:suiteTitle>道之島唄</p:suiteTitle>より <p:title>海ぬ笹草</p:title> （<p:composedBy>福島雄次郎</p:composedBy>作曲）</c:freeNumber>
@@ -448,7 +448,7 @@
             <c:type>同声</c:type>
             <c:number>36</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>深澤久子</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>Two Chistmas Motets</p:suiteTitle>(二つのクリスマスのモテット)より<p:title>HODIE CHRISTUS NATUS  EST</p:title>（今日キリストがお生まれになった） （<p:composedBy>K. ミクローシュ</p:composedBy>作曲）</c:freeNumber>
@@ -459,7 +459,7 @@
             <c:type>同声</c:type>
             <c:number>28</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>山田望</c:conductor>
                 <c:piano>小林早織</c:piano>
             </c:players>
@@ -472,7 +472,7 @@
             <c:type>同声</c:type>
             <c:number>29</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>菊池淳子</c:conductor>
             </c:players>
             <c:freeNumber><p:suiteTitle>Missa sine nomine</p:suiteTitle>から <p:title>Kyrie</p:title> <p:title>Gloria</p:title> （<p:composedBy>G.P.da パレストリーナ</p:composedBy>作曲）</c:freeNumber>
@@ -483,7 +483,7 @@
             <c:type>同声</c:type>
             <c:number>11</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>束原定雄</c:conductor>
             </c:players>
             <c:freeNumber>児童・女声合唱のための合唱曲集<p:suiteTitle>五つのわらべうた</p:suiteTitle>より <p:title>烏かねもん勘三郎</p:title> （<p:originatedFrom>広島地方のわらべうた</p:originatedFrom> <p:composedBy>間宮芳生</p:composedBy>作曲） <p:title>五つ木の子もり歌</p:title> （<p:originatedFrom>熊本地方民謡</p:originatedFrom> <p:composedBy>間宮芳生</p:composedBy>作曲）</c:freeNumber>
@@ -494,7 +494,7 @@
             <c:type>同声</c:type>
             <c:number>18</c:number>
             <c:prize>銅賞</c:prize>
-            <c:players>
+            <c:players list="true">
                 <c:conductor>橘川三喜枝</c:conductor>
             </c:players>
             <c:freeNumber>女声合唱のための<p:suiteTitle>紀の国のこどもうた１</p:suiteTitle>より <p:title>紀州の殿さん</p:title> （<p:originatedFrom>和歌山県わらべうた</p:originatedFrom> <p:composedBy>松下耕</p:composedBy>作曲）</c:freeNumber>
