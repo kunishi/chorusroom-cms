@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd">
+               "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+]>
 <html xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made"/>
+    <title>Japan Choral Association Concours</title>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="../style/default.css" type="text/css" rel="stylesheet"/>
-    <title>Japan Choral Association Concours</title></link></link>
   </head>
   <body>
     <h1>全日本合唱コンクールのページ</h1>
@@ -18,7 +20,7 @@
       <li><a href="52nd/" shape="rect">第52回大会(1999)</a></li>
     </ul>
     <hr/>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
-    このページは$Id: index.xml,v 1.2 1999/08/06 13:22:00 kunishi Exp $から自動生成されました。
+    <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
+    このページは$Id: index.xml,v 1.3 1999/08/06 13:32:06 kunishi Exp $から自動生成されました。
   </body>
 </html>
