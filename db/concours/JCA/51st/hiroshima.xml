@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>51st All Japan Chorus Contest/Hiroshima</title>
   </head>
@@ -66,7 +62,7 @@
       <li>◎ノートルダム清心高等学校合唱部(女声32名A, 指揮: 門田光伸)
 	<ul>
 	  <li>F1</li>
-	  <li>Gy&ouml;rgy Orb&aacute;n/Caeli cives; Devitae vanitate;
+	  <li>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/Caeli cives; Devitae vanitate;
 	    Mundi renovatio</li>
 	</ul>
       </li>
@@ -82,7 +78,7 @@
       <li>広島女学院高等学校音楽部(女声25名A, 指揮: 星野晴夫)
 	<ul>
 	  <li>F1</li>
-	  <li>Koc&aacute;r Mikl&oacute;s/Missa in A から Kyrie; Sanctus</li>
+	  <li>Koc<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s/Missa in A から Kyrie; Sanctus</li>
 	</ul>
       </li>
       <li>◎安田女子高等学校音楽部(女声32名A, 指揮: 串山美奈子, ピアノ: 根津彰子)
@@ -90,7 +86,7 @@
 	  <li>F2</li>
 	  <li>Petr Eben/&quot;Dizionario Greco&quot; から I. Megalofrosyne;
 	    V. Aganaktesis</li>
-	  <li>B&aacute;rdos Lajos/Himnusz a Naphoz</li>
+	  <li>B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos Lajos/Himnusz a Naphoz</li>
 	</ul>
       </li>
     </ul>
@@ -116,7 +112,7 @@
       <li>◎マツダ合唱団(混声33名, 指揮: 門野光伸, ピアノ: 矢野文乙)
 	<ul>
 	  <li>G1</li>
-	  <li>M. Durufl&eacute;/&quot;Requiem&quot; から I. Introit;
+	  <li>M. Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char>/&quot;Requiem&quot; から I. Introit;
 	    II. Kyrie</li>
 	</ul>
       </li>
@@ -138,7 +134,7 @@
 	  <li>G1</li>
 	  <li>Sid Robinovitch/&quot;Talmud Suite&quot; から
 	    I. Thanksgiving Upon Awakening; II. Funeral Oration</li>
-	  <li>J&ouml;rgen Jersild/&quot;Tre Madrigaler&quot; から
+	  <li>J<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgen Jersild/&quot;Tre Madrigaler&quot; から
 	    I. Sylvius clog tilfreds</li>
 	</ul>
       </li>
@@ -171,8 +167,8 @@
       <li>コール・カナール(混声32名A, 指揮: 乗松達也)
 	<ul>
 	  <li>G1</li>
-	  <li>Kod&aacute;ly Zolt&aacute;n/Sz&eacute;kelye Keserves;
-	    A Sz&eacute;kelyekhez</li>
+	  <li>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/Sz<cr:utf8-char nickname="eacute">e</cr:utf8-char>kelye Keserves;
+	    A Sz<cr:utf8-char nickname="eacute">e</cr:utf8-char>kelyekhez</li>
 	</ul>
       </li>
       <li>東広島混声合唱団(混声42名B, 指揮: 光橋紀子, ピアノ: 有谿悦子)

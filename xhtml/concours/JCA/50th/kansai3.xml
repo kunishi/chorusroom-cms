@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>50th AJCL Chorus Contest/Kansai</title>
   </head>
@@ -97,7 +93,7 @@
       <li>関西電力クリーンエネルギー合唱団(大阪・男27、指揮: 石原哲、ピアノ: 金澤佳代子・辻本恵子)
 	<ul>
 	  <li>M4</li>
-	  <li>G. F. Daumer 作詩・J. Brahms 作曲・荒谷俊治編曲/Liebes Lieder Walzer (愛のワルツ集)より Ein kleiner, h&uuml;bscher Vogel (小さな可愛らしい鳥が); Am Donaustrande (ドナウの岸辺に)</li>
+	  <li>G. F. Daumer 作詩・J. Brahms 作曲・荒谷俊治編曲/Liebes Lieder Walzer (愛のワルツ集)より Ein kleiner, h<cr:utf8-char nickname="uuml">u</cr:utf8-char>bscher Vogel (小さな可愛らしい鳥が); Am Donaustrande (ドナウの岸辺に)</li>
 	</ul>
       </li>
       <li>大阪府警察合唱団(大阪・男32、指揮: 山口はやと、ピアノ: 石毛明生)
@@ -114,7 +110,7 @@
       <li>住友金属混声合唱団(大阪・混71、指揮: 浅井敬壹)
 	<ul>
 	  <li>G2</li>
-	  <li>A. Sch&ouml;nberg/Friede auf Erden</li>
+	  <li>A. Sch<cr:utf8-char nickname="ouml">o</cr:utf8-char>nberg/Friede auf Erden</li>
 	</ul>
       </li>
     </ul>
@@ -136,7 +132,7 @@
       <li>日本生命混声合唱団(大阪・混38、指揮: 寺尾正、ピアノ: 藤井智文)
 	<ul>
 	  <li>G1</li>
-	  <li>M. Durufl&eacute;/REQUIEM より Introit; Kyrie</li>
+	  <li>M. Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char>/REQUIEM より Introit; Kyrie</li>
 	</ul>
       </li>
     </ul>

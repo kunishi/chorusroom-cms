@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 4)</title>
   </head>
@@ -41,7 +37,7 @@
 	<ul>
 	  <li> 指揮:佐々木正嘉/Piano:武田恵</li>
 	  <li> G3</li>
-	  <li> 「Mass」(作曲:Anton Dvor&aacute;k)から Gloria</li>
+	  <li> 「Mass」(作曲:Anton Dvor<cr:utf8-char nickname="aacute">a</cr:utf8-char>k)から Gloria</li>
 	</ul></li>
       <li> 日立製作所日立工場合唱団(茨城県:関東支部、銀賞)
 	<ul>
@@ -60,17 +56,17 @@
 	<ul>
 	  <li> 指揮: 猪原龍吉</li>
 	  <li> M1</li>
-	  <li> Rabhaz&aacute;nak fia(作詩:Pet&ouml;ti S&aacute;dor/作曲:Zort&aacute;n
-	    Kod&aacute;ly)</li>
-	  <li> A csik&oacute; (作曲:Zort&aacute;n Kod&aacute;ly)</li>
-	  <li> F&ouml;lszallott a p&aacute;va(作詩:Ady Endre/作曲:Zort&aacute;n
-	    Kod&aacute;ly)</li>
+	  <li> Rabhaz<cr:utf8-char nickname="aacute">a</cr:utf8-char>nak fia(作詩:Pet<cr:utf8-char nickname="ouml">o</cr:utf8-char>ti S<cr:utf8-char nickname="aacute">a</cr:utf8-char>dor/作曲:Zort<cr:utf8-char nickname="aacute">a</cr:utf8-char>n
+	    Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly)</li>
+	  <li> A csik<cr:utf8-char nickname="oacute">o</cr:utf8-char> (作曲:Zort<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly)</li>
+	  <li> F<cr:utf8-char nickname="ouml">o</cr:utf8-char>lszallott a p<cr:utf8-char nickname="aacute">a</cr:utf8-char>va(作詩:Ady Endre/作曲:Zort<cr:utf8-char nickname="aacute">a</cr:utf8-char>n
+	    Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly)</li>
 	</ul></li>
       <li> 旭化成旭陽会合唱団(宮崎県:九州支部、銅賞)
 	<ul>
 	  <li> 指揮: 藤野弘義/Piano:糸井美代子</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> 「Mass」(作曲:Anton Dvor&aacute;k)から Kyrie</li>
+	  <li> 「Mass」(作曲:Anton Dvor<cr:utf8-char nickname="aacute">a</cr:utf8-char>k)から Kyrie</li>
 	</ul></li>
       <li> 北都銀行混声合唱団(秋田県:東北支部、銅賞)
 	<ul>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Okayama</title>
   </head>
@@ -44,7 +40,7 @@
     <ul>
       <li>○高梁市立高梁中学校音楽部(女声21、指揮: 林美緒)
 	<ul>
-	  <li><span lang="hu">Kod&aacute;ly Zolt&aacute;n</span>/
+	  <li><span lang="hu">Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</span>/
 	    ジプシ-がチ-ズを食べる; 天使と羊飼い</li> 
 	</ul></li>
     </ul>
@@ -91,8 +87,8 @@
       <li>○山陽女子高等学校コーラス部(女声29、指揮: 中村芳弘)
 	<ul>
 	  <li>Fl</li>
-	  <li><span lang="hu">Kod&aacute;ly Zolt&aacute;n/TUR&Oacute;T
-	      ESZIK A CIG&Aacute;NY; ESTI DAL; EGYETEM, BEGYETEM</span></li>
+	  <li><span lang="hu">Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/TUR<cr:utf8-char nickname="Oacute">O</cr:utf8-char>T
+	      ESZIK A CIG<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NY; ESTI DAL; EGYETEM, BEGYETEM</span></li>
 	</ul></li>
     </ul>
     <hr/>
@@ -126,7 +122,7 @@
       <li>○レディース・アンサンブル(女声19名、指揮: 中村芳弘)
 	<ul>
 	  <li>Fl</li>
-	  <li><span lang="hu">Lajos B&aacute;rdos/Huszartanc; Magos a 
+	  <li><span lang="hu">Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/Huszartanc; Magos a 
 	      rutafa</span></li>
 	</ul></li>
       <li>○玉野市民女声合唱団(女声25名、指揮: 高野敦、ピアノ: 谷田幸子)

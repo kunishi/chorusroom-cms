@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 6)</title>
   </head>
@@ -36,7 +32,7 @@
 	<ul>
 	  <li> 指揮: 今井邦男</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> Die G&ouml;ttin im Putzzimmer(作詩:Friedrich R&uuml;ckert/
+	  <li> Die G<cr:utf8-char nickname="ouml">o</cr:utf8-char>ttin im Putzzimmer(作詩:Friedrich R<cr:utf8-char nickname="uuml">u</cr:utf8-char>ckert/
 	    作曲:Richard Strauss)</li>
 	</ul></li>
       <li> 女声合唱栗東カレンジュラ(滋賀県:関西支部、銅賞)
@@ -74,7 +70,7 @@
 	  <li> 指揮:松田晃/Piano:雫石環</li>
 	  <li> G4</li>
 	  <li> 「Six Quartets」(作詩:Franz Kugler/作曲:Johannes
-	    Brahms)から N&auml;chtens</li>
+	    Brahms)から N<cr:utf8-char nickname="auml">a</cr:utf8-char>chtens</li>
 	  <li> 「Three Quartets」(作詩:C. O. Sternau/作曲:Johannes
 	    Brahms)から 1. An die Heimat</li>
 	</ul></li>
@@ -130,7 +126,7 @@
 	<ul>
 	  <li> 指揮:藤野弘義</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> 「Quatre motets pour un temps de p&eacute;nitence」(作曲:
+	  <li> 「Quatre motets pour un temps de p<cr:utf8-char nickname="eacute">e</cr:utf8-char>nitence」(作曲:
 	    Francis Poulenc)から I. Timor et tremor venerunt super
 	    me; III. Tenebrae factae sunt</li>
 	</ul></li>
@@ -140,7 +136,7 @@
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
 	  <li> 「Lagrime d'amante al sepolcro dell'amata」(作詩:
 	    Scipione Agnelli/作曲:Claudio Monteverdi)から 
-	    Incenerite spoglie; Dar&aacute; la notte il sol; Dunque amate
+	    Incenerite spoglie; Dar<cr:utf8-char nickname="aacute">a</cr:utf8-char> la notte il sol; Dunque amate
 	    relique</li>
 	</ul></li>
       <li> 大久保混声合唱団(東京都:東京支部、金賞)

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>50th AJCL Chorus Contest/Chubu (Part 1)</title>
   </head>
@@ -19,7 +15,7 @@
       <li>◎富山大学合唱団（富山・混声29名、指揮:森川紀博）
 	<ul>
 	  <li>G2</li>
-	  <li><span xml:lang="fr">M. Durufl&eacute;/QATRE MOTETS</span>
+	  <li><span xml:lang="fr">M. Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char>/QATRE MOTETS</span>
 	    <span xml:lang="la">1. Ubi caritas; 2. Tota pulchra es;  3. Tu es
 	      Petrus; 4. Tantum ergo</span></li>
 	</ul></li>
@@ -221,7 +217,7 @@
       <li>◎岐阜県立長良高等学校コーラス部（岐阜・女声32名、指揮:澤島富雄）
 	<ul>
 	  <li>F1</li>
-	  <li><span lang="hu">Orb&aacute;n Gy.</span>/
+	  <li><span lang="hu">Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Gy.</span>/
 	    <span lang="la">Sequentia de Virgine Maria Audi Voces;
 	      Sequentia in festo Corporis Christi Lauda Sion</span></li>
 	</ul></li>
@@ -387,7 +383,7 @@
 	  <li><span lang="en">W.Shakespeare</span>・詩、
 	    <span lang="en">Karra E.</span>・訳詞、
 	    <span lang="en">Petrovics E.</span>/
-	    <span lang="hu">IMOGEN S&Iacute;RJA F&Ouml;L&Ouml;TT...</span></li>
+	    <span lang="hu">IMOGEN S<cr:utf8-char nickname="Iacute">I</cr:utf8-char>RJA F<cr:utf8-char nickname="Ouml">O</cr:utf8-char>L<cr:utf8-char nickname="Ouml">O</cr:utf8-char>TT...</span></li>
 	</ul></li>
     </ul>
     <h3>銀賞</h3>
@@ -395,7 +391,7 @@
       <li>長野県小諸高等学校音楽部（長野・女声45名、指揮:高木房雄）
 	<ul>
 	  <li>F1</li>
-	  <li><span lang="hu">B&aacute;rdos L./ Magos a rutafa</span></li>
+	  <li><span lang="hu">B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos L./ Magos a rutafa</span></li>
 	</ul></li>
       <li>仁愛女子高等学校合唱部（福井・女声33名、指揮:杪谷恵子）
 	<ul>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Shikoku</title>
   </head>
@@ -173,8 +169,8 @@
       <li>土佐女子高等学校コーラス部 (指揮: 西本佳奈子、ピアノ: 古味みな子)
 	<ul>
 	  <li>F3</li>
-	  <li><span lang="hu">Z. Kod&aacute;ly/ZOLD ERDOBEN</span></li>
-	  <li><span lang="hu">L. B&aacute;rdos/TAVUNGA</span></li>
+	  <li><span lang="hu">Z. Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly/ZOLD ERDOBEN</span></li>
+	  <li><span lang="hu">L. B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/TAVUNGA</span></li>
 	</ul></li>
       <li>高知県立高知丸の内高等学校音楽科 (指揮: 和田和子、ピアノ: 岡村扶美)
 	<ul>

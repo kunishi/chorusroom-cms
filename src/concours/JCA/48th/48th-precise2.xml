@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 2)</title>
   </head>
@@ -110,8 +106,8 @@
 	<ul>
 	  <li> 指揮:榎本潤</li>
 	  <li> G2</li>
-	  <li> 「Fest-und Gedenksp&uuml;che」(作曲:Johannes Brahms)から 
-	    1. Unsere V&auml;ter hofften auf dich; 2. Wenn ein starker
+	  <li> 「Fest-und Gedenksp<cr:utf8-char nickname="uuml">u</cr:utf8-char>che」(作曲:Johannes Brahms)から 
+	    1. Unsere V<cr:utf8-char nickname="auml">a</cr:utf8-char>ter hofften auf dich; 2. Wenn ein starker
 	    Gewappneter</li>
 	</ul></li>
       <li> 宮城県仙台南高等学校音楽部合唱団(宮城県:東北支部、銀賞)
@@ -140,7 +136,7 @@
 	<ul>
 	  <li> 指揮: 長谷部律子</li>
 	  <li> F2</li>
-	  <li> Magos a rutafa(作曲:Lajos B&aacute;rdos)</li>
+	  <li> Magos a rutafa(作曲:Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos)</li>
 	</ul></li>
       <li> 福島県立若松女子高等学校合唱団(福島県:東北支部、銀賞)
 	<ul>
@@ -172,8 +168,8 @@
 	  <li> F1</li>
 	  <li> 「Petites voix」(作詩:Madeleine Ley/作曲:Francis
 	    Poulenc) I.  La petite fille sage; II.  Le chien perdu; 
-	    III. En rentrant de l'ecole; IV.  Le petit gar&ccedil;on
-	    malade; V.  Le h&eacute;risson</li>
+	    III. En rentrant de l'ecole; IV.  Le petit gar<cr:utf8-char nickname="ccedil">c</cr:utf8-char>on
+	    malade; V.  Le h<cr:utf8-char nickname="eacute">e</cr:utf8-char>risson</li>
 	</ul></li>
       <li> 崇徳高等学校グリークラブ(広島県:中国支部、金賞)
 	<ul>

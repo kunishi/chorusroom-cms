@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Mie</title>
   </head>
@@ -71,7 +67,7 @@
 	</ul></li>
       <li>伊勢市立宮川中学校合唱部(女声13名、指揮: 奥田信江、ピアノ:野村幸恵)
 	<ul>
-	  <li><span lang="fr">Gabriel Faur&eacute;/Messe Basse</span>より
+	  <li><span lang="fr">Gabriel Faur<cr:utf8-char nickname="eacute">e</cr:utf8-char>/Messe Basse</span>より
 	    <span lang="la">Kyrie; Sanctus; Agnus Dei</span></li>
 	</ul></li>
     </ul>

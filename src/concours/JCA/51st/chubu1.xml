@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
-    <!-- $Id: chubu1.xml,v 1.15 2000/10/08 23:37:49 kunishi Exp $ -->
+    <!-- $Id: chubu1.xml,v 1.16 2001/02/05 15:03:45 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Chubu (Part I)</title>
   </head>
   <body>
@@ -32,7 +28,7 @@
 	[福井県教育委員会賞]
 	<ul>
 	  <li>F1</li>
-	  <li>Mikl&oacute;s Kocs&aacute;r 作曲/Missa in A より Credo</li>
+	  <li>Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r 作曲/Missa in A より Credo</li>
 	</ul>
       </li>
       <li>多治見高等学校合唱部 (女声32名, 指揮: 谷村真一)
@@ -157,10 +153,10 @@
       <li>長野県小諸高等学校音楽部 (女声50名, 指揮: 高木房雄)
 	<ul>
 	  <li>F2</li>
-	  <li>Z. Kod&aacute;ly 作曲/T&uacute;r&oacute;t &euml;szik a
-	    cig&aacute;ny</li>
-	  <li>M. Kocs&aacute;r 作曲/&Oacute;, havas
-	    erd&ouml;n&eacute;mas&aacute;ga</li>
+	  <li>Z. Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly 作曲/T<cr:utf8-char nickname="uacute">u</cr:utf8-char>r<cr:utf8-char nickname="oacute">o</cr:utf8-char>t <cr:utf8-char nickname="euml">e</cr:utf8-char>szik a
+	    cig<cr:utf8-char nickname="aacute">a</cr:utf8-char>ny</li>
+	  <li>M. Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r 作曲/<cr:utf8-char nickname="Oacute">O</cr:utf8-char>, havas
+	    erd<cr:utf8-char nickname="ouml">o</cr:utf8-char>n<cr:utf8-char nickname="eacute">e</cr:utf8-char>mas<cr:utf8-char nickname="aacute">a</cr:utf8-char>ga</li>
 	</ul>
       </li>
       <li>三重県立伊勢高等学校合唱部 (混声44名, 指揮: 鈴山裕厚, 
@@ -174,8 +170,8 @@
       <li>仁愛女子高等合唱合唱部 (混声35名, 指揮: 抄谷恵子)
 	<ul>
 	  <li>F1</li>
-	  <li>Hans Wei&szlig;-Steinberg 作曲/Incumdum mea vita</li>
-	  <li>Albius Tibullus 作詩, Hans Wei&szlig;-Steinberg 作曲/At
+	  <li>Hans Wei<cr:utf8-char nickname="szlig">ss</cr:utf8-char>-Steinberg 作曲/Incumdum mea vita</li>
+	  <li>Albius Tibullus 作詩, Hans Wei<cr:utf8-char nickname="szlig">ss</cr:utf8-char>-Steinberg 作曲/At
 	    tu casta</li>
 	</ul>
       </li>
@@ -211,7 +207,7 @@
 	  <li>G1</li>
 	  <li>Claudio Monteverdi 作曲/SESTINA より Lagrime D'Amante al
 	    Sepolcro; Dell'Amanta Incenerite spoglie; Ditelo voi;
-	    D&agrave;ra la notte il sol; Ma te raccogile</li>
+	    D<cr:utf8-char nickname="agrave">a</cr:utf8-char>ra la notte il sol; Ma te raccogile</li>
 	</ul>
       </li>
     </ul>
@@ -249,7 +245,7 @@
       <li>金沢大学合唱団 (混声79名, 指揮: 香田裕泰)
 	<ul>
 	  <li>G3</li>
-	  <li>Johannes Brahms 作曲/F&uuml;nf Ges&auml;nge op. 104 より
+	  <li>Johannes Brahms 作曲/F<cr:utf8-char nickname="uuml">u</cr:utf8-char>nf Ges<cr:utf8-char nickname="auml">a</cr:utf8-char>nge op. 104 より
 	    4. Verlorene Jugend (Bohemian poem);
 	    5. Im Herbst (Klaus Groth 作詞)</li>
 	</ul>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>51st All Japan Chorus Contest/Company, General B</title>
   </head>
@@ -51,7 +47,7 @@
 	[文部大臣奨励賞]
 	<ul>
 	  <li>G2</li>
-	  <li>J&oacute;zsef Karai 作曲/Stabat Mater</li>
+	  <li>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef Karai 作曲/Stabat Mater</li>
 	</ul>
       </li>
     </ul>
@@ -142,7 +138,7 @@
 	  <li>G1</li>
 	  <li>Babylonian Talimud, Sidney Robinovitch 作曲/Talmud Suite から
 	    I. Thanskgiving Upon Awakening; II. Funeral Oration</li>
-	  <li>Peder Syv 作詩, J&ouml;rgen Jersild 作曲/Tre Madrigaler から
+	  <li>Peder Syv 作詩, J<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgen Jersild 作曲/Tre Madrigaler から
 	    1. Sylvius er dog tilfreds</li>
 	</ul>
       </li>
@@ -242,7 +238,7 @@
 	<ul>
 	  <li>G2</li>
 	  <li>Pablo Casals 作曲/O vos omnes</li>
-	  <li>Francis Poulenc 作曲/Quatre motets pour le temps de No&euml;
+	  <li>Francis Poulenc 作曲/Quatre motets pour le temps de No<cr:utf8-char nickname="euml">e</cr:utf8-char>
 	    から IV. Hodie Christus natus est</li>
 	</ul>
       </li>

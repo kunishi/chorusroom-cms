@@ -1,6 +1,8 @@
 # 
-# $Id: GNUmakefile,v 1.3 2000/10/10 15:40:45 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/02/05 15:03:37 kunishi Exp $
 # 
+
+USE_NEW_SCHEME=	yes
 
 INSTFILES+=	aichi.html \
 		aomori.html \

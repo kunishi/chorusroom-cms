@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest</title>
   </head>
@@ -38,9 +34,7 @@
     <p>
       もっとも、私一人ですべての情報を集められるわけもありません。この
       ページをお読みになっている方々からの情報提供が頼りです。このペー
-      ジに掲載されていない情報をお持ちの方は、<a
-      href="mailto:&kunishi-email;" shape="rect">国島 
-      (&kunishi-email;)</a> までご連絡いただければ幸いです。
+      ジに掲載されていない情報をお持ちの方は、国島までご連絡いただければ幸いです。
     </p>
     <p>
       その際、以下の点に御留意下さい。
@@ -99,7 +93,7 @@
       <dd> 池辺晋一郎(作曲家)、
 	<a href="http://www.asahi-net.or.jp/~TX3T-ISYM/" shape="rect">礒山雅(音楽評論家)</a>、
 	移川澄也(声楽家)、
-	木下牧子(作曲家)、<span lang="de">Gudrun Schr&ouml;fel</span>
+	木下牧子(作曲家)、<span lang="de">Gudrun Schr<cr:utf8-char nickname="ouml">o</cr:utf8-char>fel</span>
 	(ドイツ・指揮者)、長谷川冴子(合唱指揮者)、廣瀬量平(作曲家)、
 	水嶋良雄(エリザベト音楽大学教授)、本山秀毅(指揮者)</dd>
       <dt> 主催</dt>
@@ -163,7 +157,7 @@
 	    (作曲: <span lang="it">Giammateo Asola</span>)</li>
 	  <li> [F2] <span lang="hu">Harom hordo</span>
 	    (<span lang="hu">&quot;Matraszentimrei dalok&quot;</span>から)
-	    (作曲: <span lang="hu">Gy&ouml;rgy Ligeti</span>)</li>
+	    (作曲: <span lang="hu">Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Ligeti</span>)</li>
 	  <li> [F3] ねむの花 (作詩: 壺田花子、作曲: 中田喜直)</li>
 	  <li> [F4] ゆあみする蛇(公募入選作) (作詩: 大手拓次、作曲: 鈴木明美)</li>
 	</ul></dd>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Kanagawa-Ippan</title>
   </head>
@@ -57,7 +53,7 @@
       <li> ステラ マリス (女声 16名、指揮:田村茂)
 	<ul>
 	  <li>F1</li>
-	  <li><span lang="hu">J&ouml;zsef KARAI</span>/
+	  <li><span lang="hu">J<cr:utf8-char nickname="ouml">o</cr:utf8-char>zsef KARAI</span>/
 	    <span lang="la">AVE MARIS STELLA;HODIE CHRISTUS NATUS EST</span></li>
 	</ul></li>
       <li> 横浜室内アンサンブル (混声 22名、指揮:徳永祐一)
@@ -73,7 +69,7 @@
 	  <li>F1</li>  
 	  <li><span lang="fi">Egli Hovland</span>/
 	    <span lang="la">LAUDATE DOMINUM</span></li>
-	  <li><span lang="hu">KOCS&Aacute;R Mikl&oacute;s</span>/
+	  <li><span lang="hu">KOCS<cr:utf8-char nickname="Aacute">A</cr:utf8-char>R Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s</span>/
 	    <span lang="la">SALVE REGINA</span></li>
 	</ul></li>
       <li> 混声合唱団シグナス'94 (混声 28名、指揮:窪田卓)
@@ -90,13 +86,13 @@
       <li> マルベリー・メール・クワイア (男声 12名、指揮:桑原妙子)
 	<ul>
 	  <li>M1</li>
-	  <li><span lang="hu">Kod&aacute;ly Zolt&aacute;n</span>/
-	    <span lang="hu">KAR&Aacute;DI N&Oacute;T&Aacute;K</span></li>
+	  <li><span lang="hu">Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n</span>/
+	    <span lang="hu">KAR<cr:utf8-char nickname="Aacute">A</cr:utf8-char>DI N<cr:utf8-char nickname="Oacute">O</cr:utf8-char>T<cr:utf8-char nickname="Aacute">A</cr:utf8-char>K</span></li>
 	</ul></li>
       <li> 女声合唱団グリーン・フラッシュ (女声 22名、指揮:中館伸一)
 	<ul>
 	  <li>F2</li>
-	  <li><span lang="hu">Lajos B&aacute;rdos/Cantemus!; Magos a rutafa</span></li>
+	  <li><span lang="hu">Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/Cantemus!; Magos a rutafa</span></li>
 	</ul></li></ul>
     <hr/>
     <h2>一般の部 B</h2>

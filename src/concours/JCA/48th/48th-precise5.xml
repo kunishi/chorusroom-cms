@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 5)</title>
   </head>
@@ -36,14 +32,14 @@
 	<ul>
 	  <li> 指揮:片山謙二</li>
 	  <li> F1</li>
-	  <li> 「Missa s&atilde;o Sebasti&atilde;n」(作曲:Heitor Villa-Lobos)
+	  <li> 「Missa s<cr:utf8-char nickname="atilde">a</cr:utf8-char>o Sebasti<cr:utf8-char nickname="atilde">a</cr:utf8-char>n」(作曲:Heitor Villa-Lobos)
 	    から Gloria</li>
 	</ul></li>
       <li> 伊丹混声合唱団(兵庫県:関西支部、金賞)
 	<ul>
 	  <li> 指揮: 清水有作</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> 「5 Ges&auml;ng des Ariel」(作詩:W. Shakespeare/作曲:
+	  <li> 「5 Ges<cr:utf8-char nickname="auml">a</cr:utf8-char>ng des Ariel」(作詩:W. Shakespeare/作曲:
 	    Frank Martin)から II.  Acte I, Sc.2; III. Acte IV,
 	    Sc.1; IV. Acte III, Sc.3; V. Acte V, Sc.1</li>
 	</ul></li>
@@ -101,8 +97,8 @@
 	<ul>
 	  <li> 指揮: 松下耕</li>
 	  <li> F1</li>
-	  <li> Mater innocentiae(作曲:Gy&ouml;rgy Orb&aacute;n)</li>
-	  <li> Mundi renovatio(作曲:Gy&ouml;rgy Orb&aacute;n)</li>
+	  <li> Mater innocentiae(作曲:Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n)</li>
+	  <li> Mundi renovatio(作曲:Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n)</li>
 	</ul></li>
       <li> 合唱団MIWO(岐阜県:中部支部、金賞、文部大臣奨励賞、シード)
 	<ul>

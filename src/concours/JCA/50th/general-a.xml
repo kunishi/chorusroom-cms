@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>50th AJCL Chorus Contest/General A</title>
   </head>
@@ -29,7 +25,7 @@
 	  <li>Samuel Barber/Agnus Dei</li>
 	</ul>
       </li>
-      <li>○合唱団 P&aacute;linka (宮城・男声32名、指揮: 千葉敏行、ピアノ: 桜田薫) [東京都知事賞]
+      <li>○合唱団 P<cr:utf8-char nickname="aacute">a</cr:utf8-char>linka (宮城・男声32名、指揮: 千葉敏行、ピアノ: 桜田薫) [東京都知事賞]
 	<ul>
 	  <li>M3</li>
 	  <li>三好達治作詩・三善晃作曲/男声合唱のための「王孫不帰」より I</li>
@@ -44,7 +40,7 @@
       <li>マルベリー・クワイア(神奈川・女声21名、指揮: 桑原妙子) [墨田区長賞]
 	<ul>
 	  <li>F1</li>
-	  <li>Bj&oslash;rn Kruse/ELEMENTER より 2. Ild</li>
+	  <li>Bj<cr:utf8-char nickname="oslash">o</cr:utf8-char>rn Kruse/ELEMENTER より 2. Ild</li>
 	  <li>ブルガリア民謡・トードール・ポポフ編曲/年老いたお母さん</li>
 	  <li>フリスト・イリエフ作曲/蛙のポルカ</li>
 	</ul>
@@ -62,21 +58,21 @@
       <li>コール・ゆうぶんげん(岡山・混声32名、指揮: 高野敦)
 	<ul>
 	  <li>G1</li>
-	  <li>Klement Slaricky/Marigaly より 2. Rozmarn&yacute;; 3. Usp&aacute;vanka; 4. Milostn&yacute;</li>
+	  <li>Klement Slaricky/Marigaly より 2. Rozmarn<cr:utf8-char nickname="yacute">y</cr:utf8-char>; 3. Usp<cr:utf8-char nickname="aacute">a</cr:utf8-char>vanka; 4. Milostn<cr:utf8-char nickname="yacute">y</cr:utf8-char></li>
 	</ul>
       </li>
       <li>徳島合唱団(徳島・混声32名、指揮: 吉森章夫)
 	<ul>
 	  <li>G1</li>
-	  <li>Tom&aacute;s Luis de Victoria/O quam gloriosm est regnum; Vere languores nostros</li>
+	  <li>Tom<cr:utf8-char nickname="aacute">a</cr:utf8-char>s Luis de Victoria/O quam gloriosm est regnum; Vere languores nostros</li>
 	  <li>Lodovico Viadana/Exsultate justi in Domino</li>
 	</ul>
       </li>
       <li>合唱団まい(長野・混声19名、指揮: 雨森文也)
 	<ul>
 	  <li>G1</li>
-	  <li>Cl&eacute;ment Janequin/Au joly jeu du pousse avant</li>
-	  <li>Claudio Monteverdi/Ohim&eacute;, se tanto amate</li>
+	  <li>Cl<cr:utf8-char nickname="eacute">e</cr:utf8-char>ment Janequin/Au joly jeu du pousse avant</li>
+	  <li>Claudio Monteverdi/Ohim<cr:utf8-char nickname="eacute">e</cr:utf8-char>, se tanto amate</li>
 	  <li>Claudio Monteverdi/Io mi son giovinetta</li>
 	</ul>
       </li>
@@ -139,7 +135,7 @@
 	<ul>
 	  <li>F1</li>
 	  <li>Javier Busto/Salve Regina</li>
-	  <li>J&oacute;zsef Karai/Night</li>
+	  <li>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef Karai/Night</li>
 	</ul>
       </li>
       <li>岡崎高校コーラス部OB合唱団(愛知・混声32名、指揮: 近藤恵子)
@@ -182,9 +178,9 @@
       <li>弥生奏幻舎“R”(あーる) (北海道・混声19名、指揮: 松岡直記)
 	<ul>
 	  <li>G2</li>
-	  <li>Zolt&aacute;n Kod&aacute;ly/Norv&eacute;g l&aacute;nyok</li>
-	  <li>Zolt&aacute;n Kod&aacute;ly/Akik mindig elk&eacute;snek</li>
-	  <li>Lajos B&aacute;rdos/Sz&oacute;l a doromb</li>
+	  <li>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly/Norv<cr:utf8-char nickname="eacute">e</cr:utf8-char>g l<cr:utf8-char nickname="aacute">a</cr:utf8-char>nyok</li>
+	  <li>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly/Akik mindig elk<cr:utf8-char nickname="eacute">e</cr:utf8-char>snek</li>
+	  <li>Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/Sz<cr:utf8-char nickname="oacute">o</cr:utf8-char>l a doromb</li>
 	</ul>
       </li>
       <li>合唱団 Le Grazie (熊本・女声32名、指揮: 岩津整明、ピアノ: 古閑恵美)
@@ -193,7 +189,7 @@
 	  <li>新川和江作詩・木下牧子作曲/女声合唱曲集「わたしは風」より 3. 歌; 4. わたしを束ねないで</li>
 	</ul>
       </li>
-      <li>Choeur Ch&ecirc;ne (奈良・混声19名、指揮: 上西一郎)
+      <li>Ch<cr:utf8-char nickname="oelig">oe</cr:utf8-char>ur Ch<cr:utf8-char nickname="ecirc">e</cr:utf8-char>ne (奈良・混声19名、指揮: 上西一郎)
 	<ul>
 	  <li>G1</li>
 	  <li>Paul Hindemith/Six Chansons より I. La Biche; II. Un Cygne; III. Puisque tout passe; IV. Printemps; V. En Hiver; VI. Verger</li>

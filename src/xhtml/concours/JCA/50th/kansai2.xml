@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>50th AJCL Chorus Contest/Kansai</title>
   </head>
@@ -98,7 +94,7 @@
       <li>女声コーラスベル・フラワー(大阪・女25、指揮: 和田由美子)
 	<ul>
 	  <li>F2</li>
-	  <li>B. Bart&oacute;k/27のハンガリー民謡より BOLYONG&Aacute;S; LEG&Eacute;NYSC&Uacute;FOL&Oacute;; LE&Aacute;NYK&Eacute;R&Ouml;; ISTEN VELED!</li>
+	  <li>B. Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k/27のハンガリー民謡より BOLYONG<cr:utf8-char nickname="Aacute">A</cr:utf8-char>S; LEG<cr:utf8-char nickname="Eacute">E</cr:utf8-char>NYSC<cr:utf8-char nickname="Uacute">U</cr:utf8-char>FOL<cr:utf8-char nickname="Oacute">O</cr:utf8-char>; LE<cr:utf8-char nickname="Aacute">A</cr:utf8-char>NYK<cr:utf8-char nickname="Eacute">E</cr:utf8-char>R<cr:utf8-char nickname="Ouml">O</cr:utf8-char>; ISTEN VELED!</li>
 	</ul>
       </li>
     </ul>
@@ -115,7 +111,7 @@
       <li>女声アンサンブル・アトリエ(大阪・女40、指揮: 須賀敬一、ピアノ: 木島美紗子)
 	<ul>
 	  <li>F3</li>
-	  <li>J. Guy Ropartz/MESSE BR&Eacute;VE より Kyrie; Gloria</li>
+	  <li>J. Guy Ropartz/MESSE BR<cr:utf8-char nickname="Eacute">E</cr:utf8-char>VE より Kyrie; Gloria</li>
 	</ul>
       </li>
     </ul>
@@ -124,7 +120,7 @@
       <li>私たちの女声合唱団コーロ・ソアーヴェ(奈良・女39、指揮: 岡田孝、ピアノ: 吉田公美子、打楽器: 花室奈知)
 	<ul>
 	  <li>F3</li>
-	  <li>B. Bart&oacute;k/TRI DEDINSK&Eacute; SC&Eacute;NY より  Svatba(婚礼); Tanec ml&aacute;dencov(若者のダンス)</li>
+	  <li>B. Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k/TRI DEDINSK<cr:utf8-char nickname="Eacute">E</cr:utf8-char> SC<cr:utf8-char nickname="Eacute">E</cr:utf8-char>NY より  Svatba(婚礼); Tanec ml<cr:utf8-char nickname="aacute">a</cr:utf8-char>dencov(若者のダンス)</li>
 	</ul>
       </li>
       <li>女声合唱団コーロ・アロードラ(兵庫・女46、指揮: 藤原桂子、ピアノ:岸本いずみ、ヴァイオリン: 安野多喜・辻彩子)
@@ -169,7 +165,7 @@
 	  <li>中原中也・立原道造作詩・三善晃作曲・福永陽一郎編曲/男声合唱のための「三つの抒情」より 北の海; ふるさとの夜に寄す</li>
 	</ul>
       </li>
-      <li>○Choeur Ch&ecirc;ne(奈良・混17、指揮: 上西一郎)
+      <li>○Ch<cr:utf8-char nickname="oelig">oe</cr:utf8-char>ur Ch<cr:utf8-char nickname="ecirc">e</cr:utf8-char>ne(奈良・混17、指揮: 上西一郎)
 	<ul>
 	  <li>G1</li>
 	  <li>P. Hindemith/Six Chansons</li>
@@ -254,7 +250,7 @@
       <li>なにわコラリアーズ(大阪・男33、指揮: 伊東恵司)
 	<ul>
 	  <li>M2</li>
-	  <li>Sven-David Sandstr&ouml;m/Tre Stycken F&ouml;r Mansk&ouml;r より Kyrie</li>
+	  <li>Sven-David Sandstr<cr:utf8-char nickname="ouml">o</cr:utf8-char>m/Tre Stycken F<cr:utf8-char nickname="ouml">o</cr:utf8-char>r Mansk<cr:utf8-char nickname="ouml">o</cr:utf8-char>r より Kyrie</li>
 	  <li>E. Cossetto/Golgatha</li>
 	</ul>
       </li>

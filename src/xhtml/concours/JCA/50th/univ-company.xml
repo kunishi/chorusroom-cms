@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>50th AJCL Chorus Contest/University, Company</title>
   </head>
@@ -28,8 +24,8 @@
 	[文部大臣奨励賞、東京都知事賞、墨田区長賞、日本放送協会賞]
 	<ul>
 	  <li>F2</li>
-	  <li>Lajos B&aacute;rdos/Cantemus!; Tavunga</li>
-	  <li>B&eacute;la Bart&oacute;k/27 Two-and Three-part Choruses より Isten veled!</li>
+	  <li>Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/Cantemus!; Tavunga</li>
+	  <li>B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k/27 Two-and Three-part Choruses より Isten veled!</li>
 	</ul>
       </li>
     </ul>
@@ -47,13 +43,13 @@
       <li>富山大学合唱団 (混声31名、指揮: 森川紀博)
 	<ul>
 	  <li>G2</li>
-	  <li>Maurice Durufl&eacute;/4 Motets より Ubi caritas; Tota pulchra es; Tu es petrus; Tantum ergo</li>
+	  <li>Maurice Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char>/4 Motets より Ubi caritas; Tota pulchra es; Tu es petrus; Tantum ergo</li>
 	</ul>
       </li>
       <li>秋田大学混声合唱団A. Choir (混声23名、指揮: 若狭祥子)
 	<ul>
 	  <li>G2</li>
-	  <li>Francis Poulenc/Quatre motets pour le temps de No&euml;l より I. O magnum mysterium; II. Quem vidistis pastores; IV. Hodie Christus natus est</li>
+	  <li>Francis Poulenc/Quatre motets pour le temps de No<cr:utf8-char nickname="euml">e</cr:utf8-char>l より I. O magnum mysterium; II. Quem vidistis pastores; IV. Hodie Christus natus est</li>
 	</ul>
       </li>
       <li>高松短期大学合唱部(女声26名、指揮:竹内肇、ピアノ: 宮脇かおり)
@@ -71,7 +67,7 @@
 	[文部大臣奨励賞、墨田区長賞]
 	<ul>
 	  <li>M2</li>
-	  <li>Sven-David Sandstr&ouml;m/TRE STYCKEN F&Ouml;R MANSK&Ouml;R より 1. Kyrie; 2. ...och &aring;ter tomhet</li>
+	  <li>Sven-David Sandstr<cr:utf8-char nickname="ouml">o</cr:utf8-char>m/TRE STYCKEN F<cr:utf8-char nickname="Ouml">O</cr:utf8-char>R MANSK<cr:utf8-char nickname="Ouml">O</cr:utf8-char>R より 1. Kyrie; 2. ...och <cr:utf8-char nickname="aring">a</cr:utf8-char>ter tomhet</li>
 	</ul>
       </li>
       <li>○静岡大学混声合唱団(混声64名、指揮: 辻正行、ピアノ: 武藤礼子)
@@ -93,7 +89,7 @@
       <li>東京工業大学混声合唱団コール・クライネス (混声132名、指揮: 小島誠)
 	<ul>
 	  <li>G2</li>
-	  <li>Johannes Brahms/Fest-und Gedenkspr&uuml;che より 1; 3</li>
+	  <li>Johannes Brahms/Fest-und Gedenkspr<cr:utf8-char nickname="uuml">u</cr:utf8-char>che より 1; 3</li>
 	</ul>
       </li>
       <li>東京家政大学フラウエンコール (女声33名、指揮: 鈴木成夫)
@@ -114,7 +110,7 @@
       <li>福岡教育大学混声合唱団 (混声90名、指揮: 岩崎洋一)
 	<ul>
 	  <li>G2</li>
-	  <li>Zolt&aacute;n Kod&aacute;ly/Liszt Ferenchez</li>
+	  <li>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly/Liszt Ferenchez</li>
 	</ul>
       </li>
       <li>同志社混声合唱団こまくさ (混声75名、指揮: 鈴木捺香子、ピアノ: 今岡淑子)
@@ -144,14 +140,14 @@
 	[労働大臣賞、東京都知事賞、日本放送協会賞]
 	<ul>
 	  <li>G4</li>
-	  <li>J&oacute;zsef Karai/De profundis</li>
+	  <li>J<cr:utf8-char nickname="oacute">o</cr:utf8-char>zsef Karai/De profundis</li>
 	</ul>
       </li>
       <li>○住友金属混声合唱団 (混声77名、指揮: 浅井敬壹、ピアノ: 藤澤篤子)
 	[文部大臣奨励賞、墨田区長賞]
 	<ul>
 	  <li>G4</li>
-	  <li>Arnold Sch&oacute;nberg/Friede auf Erden</li>
+	  <li>Arnold Sch<cr:utf8-char nickname="oacute">o</cr:utf8-char>nberg/Friede auf Erden</li>
 	</ul>
       </li>
     </ul>
@@ -207,7 +203,7 @@
 	<ul>
 	  <li>M1</li>
 	  <li>Franz Schubert/Grab und Mond</li>
-	  <li>Zolt&aacute;n Kod&aacute;ly/Semmit ne b&aacute;nkodj&aacute;l</li>
+	  <li>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly/Semmit ne b<cr:utf8-char nickname="aacute">a</cr:utf8-char>nkodj<cr:utf8-char nickname="aacute">a</cr:utf8-char>l</li>
 	</ul>
       </li>
     </ul>

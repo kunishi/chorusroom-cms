@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
-    <!-- $Id: kanagawa.xml,v 1.13 2000/10/08 23:37:51 kunishi Exp $ -->
+    <!-- $Id: kanagawa.xml,v 1.14 2001/02/05 15:03:46 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Kanagawa</title>
   </head>
   <body>
@@ -118,8 +114,8 @@
       <li>アンサンブル・ピノ(女声 22名、指揮: 松村努)
 	<ul>
 	  <li>F1</li>
-	  <li>L&Aacute;Szl&Oacute;/Nagy &Oacute;, Havas Erd&ouml; 
-	    N&Eacute;Mas&Aacute;Ga; Salve Regina</li>
+	  <li>L<cr:utf8-char nickname="Aacute">A</cr:utf8-char>Szl<cr:utf8-char nickname="Oacute">O</cr:utf8-char>/Nagy <cr:utf8-char nickname="Oacute">O</cr:utf8-char>, Havas Erd<cr:utf8-char nickname="ouml">o</cr:utf8-char>
+	    N<cr:utf8-char nickname="Eacute">E</cr:utf8-char>Mas<cr:utf8-char nickname="Aacute">A</cr:utf8-char>Ga; Salve Regina</li>
 	</ul>
       </li>
       <li>合唱団リベルテ (混声 20名、指揮: 国廣朝美)
@@ -158,8 +154,8 @@
       <li>マルベリー・クワイア (女声 20名、指揮: 桑原妙子)
 	<ul>
 	  <li>F1</li>
-	  <li>Iris Szeghyov&Aacute;/Hra</li>
-	  <li>Otmar M&Aacute;Cha/Hoj, Hura, Hoj</li>
+	  <li>Iris Szeghyov<cr:utf8-char nickname="Aacute">A</cr:utf8-char>/Hra</li>
+	  <li>Otmar M<cr:utf8-char nickname="Aacute">A</cr:utf8-char>Cha/Hoj, Hura, Hoj</li>
 	</ul>
       </li>
     </ul>
@@ -170,7 +166,7 @@
       <li>◎小田原少年少女合唱隊 (女［童］声 48名、指揮: 桑原妙子)
 	<ul>
 	  <li>F1</li>
-	  <li>Andr&Eacute; Caplet/Insrriptions Champ^Tres（野の墓碑銘）;</li>
+	  <li>Andr<cr:utf8-char nickname="Eacute">E</cr:utf8-char> Caplet/Insrriptions Champ^Tres（野の墓碑銘）;</li>
 	  <li>Petr Eben/De Angelis</li>
 	</ul>
 </li>

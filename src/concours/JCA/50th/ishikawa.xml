@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Ishikawa</title>
   </head>
@@ -31,10 +27,10 @@
 	</ul></li>
       <li>○松任市立松任中学校合唱部(女声40名、指揮:一森晴美)
 	<ul>
-	  <li><span lang="hu">B&aacute;rtok B&eacute;ra</span>/
+	  <li><span lang="hu">B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rtok B<cr:utf8-char nickname="eacute">e</cr:utf8-char>ra</span>/
 	    <span lang="en">Twenty-seven Twe-and Tree-part Choruses</span>より
-	    <span lang="hu">Bolyongas; Le&aacute;nyk&eacute;r&ouml;;
-	      Parn&aacute;as T&aacute;ncdal</span></li>
+	    <span lang="hu">Bolyongas; Le<cr:utf8-char nickname="aacute">a</cr:utf8-char>nyk<cr:utf8-char nickname="eacute">e</cr:utf8-char>r<cr:utf8-char nickname="ouml">o</cr:utf8-char>;
+	      Parn<cr:utf8-char nickname="aacute">a</cr:utf8-char>as T<cr:utf8-char nickname="aacute">a</cr:utf8-char>ncdal</span></li>
 	</ul></li>
     </ul>
     <h3>銀賞</h3>
@@ -169,8 +165,8 @@
       <li>金沢フラウエンコール(女声19名、指揮:吉田徹、ピアノ:太田景子)
 	<ul>
 	  <li>F3</li>
-	  <li><span lang="hu">Jozef KARAI/K&Oacute;RUS KOD&Aacute;LY 
-	      EML&Eacute;K&Eacute;RE</span>(コダーイの記念に)</li>
+	  <li><span lang="hu">Jozef KARAI/K<cr:utf8-char nickname="Oacute">O</cr:utf8-char>RUS KOD<cr:utf8-char nickname="Aacute">A</cr:utf8-char>LY 
+	      EML<cr:utf8-char nickname="Eacute">E</cr:utf8-char>K<cr:utf8-char nickname="Eacute">E</cr:utf8-char>RE</span>(コダーイの記念に)</li>
 	</ul></li>
     </ul>
     <hr/>

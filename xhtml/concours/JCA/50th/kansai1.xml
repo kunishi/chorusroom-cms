@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Kansai, High School</title>
   </head>
@@ -45,7 +41,7 @@
       <li>兵庫県立豊岡高校音楽部(兵庫・女21、指揮: 山本由紀子、ピアノ: 岡本雅子)
 	<ul>
 	  <li>F3</li>
-	  <li>L. B&aacute;rdos/Magos a rutafa(ヘンルーダの花が咲いたら)</li>
+	  <li>L. B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/Magos a rutafa(ヘンルーダの花が咲いたら)</li>
 	</ul>
       </li>
       <li>兵庫県立北須磨高校合唱部(兵庫・女31、指揮: 足立尚樹、ピアノ: 細見真理子)
@@ -97,7 +93,7 @@
       <li>親和女子高校コーラス部(兵庫・女24、指揮: 麻田健洋、ピアノ: 角谷真理)
 	<ul>
 	  <li>F3</li>
-	  <li>M. Kocs&aacute;r/SALVE REGINA</li>
+	  <li>M. Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r/SALVE REGINA</li>
 	</ul>
       </li>
     </ul>

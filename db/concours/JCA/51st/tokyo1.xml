@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>51st All Japan Chorus Contest/Tokyo (Part I)</title>
   </head>
@@ -52,7 +48,7 @@
       <li>ベッラ フィオーレ (女声26名, 指揮: 田村茂) [26点]
 	<ul>
 	  <li>F2</li>
-	  <li>Kocs&aacute;r Mikl&oacute;s/Salve Regina</li>
+	  <li>Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s/Salve Regina</li>
 	  <li>Javier Busto/The Lord is my Shepherd</li>
 	</ul>
       </li>
@@ -63,16 +59,16 @@
 	<ul>
 	  <li>G1</li>
 	  <li>D. G. Gesualdo/Or, che in gioia; Sospirava il mio core;
-	    Maraviglia d'amore; Se piange, oim&egrave;</li>
+	    Maraviglia d'amore; Se piange, oim<cr:utf8-char nickname="egrave">e</cr:utf8-char></li>
 	</ul>
       </li>
       <li>クロスロード・レディース・アンサンブル (女声25名, 指揮: 辻正行)
 	[35点]
 	<ul>
 	  <li>F4</li>
-	  <li>Bohvslav Martin{.u}/{vC}ESK &Aacute; {vR}&Iacute;KADLA より
-	    ZAV&Iacute;R&Aacute;N&Iacute; LESA; MO{vR}ENA, MO{vR}ENA;
-	    VYN&Aacute;SEN&Iacute; SMRTI</li>
+	  <li>Bohvslav Martin<cr:utf8-char nickname="uring">u</cr:utf8-char>/<cr:utf8-char nickname="Ccaron">C</cr:utf8-char>ESK <cr:utf8-char nickname="Aacute">A</cr:utf8-char> <cr:utf8-char nickname="Rcaron">R</cr:utf8-char><cr:utf8-char nickname="Iacute">I</cr:utf8-char>KADLA より
+	    ZAV<cr:utf8-char nickname="Iacute">I</cr:utf8-char>R<cr:utf8-char nickname="Aacute">A</cr:utf8-char>N<cr:utf8-char nickname="Iacute">I</cr:utf8-char> LESA; MO<cr:utf8-char nickname="Rcaron">R</cr:utf8-char>ENA, MO<cr:utf8-char nickname="Rcaron">R</cr:utf8-char>ENA;
+	    VYN<cr:utf8-char nickname="Aacute">A</cr:utf8-char>SEN<cr:utf8-char nickname="Iacute">I</cr:utf8-char> SMRTI</li>
 	</ul>
       </li>
       <li>EZ/Singers (混声13名) [38点]
@@ -96,7 +92,7 @@
 	[50点]
 	<ul>
 	  <li>F3</li>
-	  <li>M. Kocs&aacute;r/MISSA IN A より Kyrie; Gloria</li>
+	  <li>M. Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r/MISSA IN A より Kyrie; Gloria</li>
 	</ul>
       </li>
     </ul>
@@ -105,9 +101,9 @@
       <li>Sophia Voice Ensemble (男声21名, 指揮: 藤森数彦) [81点]
 	<ul>
 	  <li>M1</li>
-	  <li>F. Poulenc/Quatre petites pri&egrave;res de Saint
-	    Fran&ccedil;ois d'Assise より II.; III.</li>
-	  <li>F. Poulenc/Chanson &agrave; boire</li>
+	  <li>F. Poulenc/Quatre petites pri<cr:utf8-char nickname="egrave">e</cr:utf8-char>res de Saint
+	    Fran<cr:utf8-char nickname="ccedil">c</cr:utf8-char>ois d'Assise より II.; III.</li>
+	  <li>F. Poulenc/Chanson <cr:utf8-char nickname="agrave">a</cr:utf8-char> boire</li>
 	</ul>
       </li>
       <li>K. C. めぐみ (女声31名, 指揮: 清水昭, ピアノ: 服部真由子)
@@ -146,7 +142,7 @@
 	ピアノ: 高山加織) [99点]
 	<ul>
 	  <li>F2</li>
-	  <li>F. Poulenc/Litanies &agrave; la Vierge Noire</li>
+	  <li>F. Poulenc/Litanies <cr:utf8-char nickname="agrave">a</cr:utf8-char> la Vierge Noire</li>
 	</ul>
       </li>
       <li>コーロ・ネスポラ (女声17名, 指揮: 辻正行, ピアノ: 河本充代)
@@ -160,21 +156,21 @@
       <li>混声合唱団 鈴優会 (混声29名, 指揮: 名島啓太) [107点]
 	<ul>
 	  <li>G1</li>
-	  <li>Kod&aacute;ly Zolt&aacute;n/A SZ&Eacute;KELYEKHEZ; ESTE</li>
+	  <li>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/A SZ<cr:utf8-char nickname="Eacute">E</cr:utf8-char>KELYEKHEZ; ESTE</li>
 	</ul>
       </li>
       <li>コーロ・ピーノ (女声25名, 指揮: 松浦ゆかり, ピアノ: 黒尾友美子)
 	[69点]
 	<ul>
 	  <li>F2</li>
-	  <li>F. Poulenc/Litanies &agrave; la Vierge Noire</li>
+	  <li>F. Poulenc/Litanies <cr:utf8-char nickname="agrave">a</cr:utf8-char> la Vierge Noire</li>
 	</ul>
       </li>
       <li>大森合唱団 (混声15名, 指揮: 坂本かおる) [78点]
 	<ul>
 	  <li>G1</li>
-	  <li>G. Wert/Chi sair&agrave; per me</li>
-	  <li>C. Monteverdi/Ohim&egrave; il bel viso</li>
+	  <li>G. Wert/Chi sair<cr:utf8-char nickname="agrave">a</cr:utf8-char> per me</li>
+	  <li>C. Monteverdi/Ohim<cr:utf8-char nickname="egrave">e</cr:utf8-char> il bel viso</li>
 	</ul>
       </li>
       <li>多摩リヴィエール (女声21名, 指揮: 辻正行) [72点]
@@ -247,8 +243,8 @@
       <li>玉川グリーンハーモニー (女声45名, 指揮: 辻正行) [39点]
 	<ul>
 	  <li>F2</li>
-	  <li>Kod&aacute;ly Zolt&aacute;n/M&eacute;z, M&eacute;z,
-	    M&eacute;z; Harangsz&oacute;; T&aacute;ncn&oacute;ta</li>
+	  <li>Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/M<cr:utf8-char nickname="eacute">e</cr:utf8-char>z, M<cr:utf8-char nickname="eacute">e</cr:utf8-char>z,
+	    M<cr:utf8-char nickname="eacute">e</cr:utf8-char>z; Harangsz<cr:utf8-char nickname="oacute">o</cr:utf8-char>; T<cr:utf8-char nickname="aacute">a</cr:utf8-char>ncn<cr:utf8-char nickname="oacute">o</cr:utf8-char>ta</li>
 	</ul>
       </li>
       <li>女声合唱団こーろ・えれがんつぁ (女声33名, 指揮: 片野秀俊,
@@ -270,9 +266,9 @@
       <li>合唱団 &quot;わだち&quot; (混声43名, 指揮: 諸井昭二) [39点]
 	<ul>
 	  <li>G2</li>
-	  <li>Petr Eben/Mal&aacute; kant&aacute;ta
-	    &quot;Starod&aacute;vne {vc}arov&aacute;n&iacute;
-	    mil&eacute;mu&quot;</li>
+	  <li>Petr Eben/Mal<cr:utf8-char nickname="aacute">a</cr:utf8-char> kant<cr:utf8-char nickname="aacute">a</cr:utf8-char>ta
+	    &quot;Starod<cr:utf8-char nickname="aacute">a</cr:utf8-char>vne <cr:utf8-char nickname="ccaron">c</cr:utf8-char>arov<cr:utf8-char nickname="aacute">a</cr:utf8-char>n<cr:utf8-char nickname="iacute">i</cr:utf8-char>
+	    mil<cr:utf8-char nickname="eacute">e</cr:utf8-char>mu&quot;</li>
 	</ul>
       </li>
     </ul>

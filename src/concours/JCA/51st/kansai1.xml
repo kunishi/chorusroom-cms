@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
-    <!-- $Id: kansai1.xml,v 1.12 2000/10/08 23:37:52 kunishi Exp $ -->
+    <!-- $Id: kansai1.xml,v 1.13 2001/02/05 15:03:47 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Kansai (Part I)</title>
   </head>
   <body>
@@ -90,7 +86,7 @@
 	(大阪・男声32名, 指揮: 高嶋昌二, ピアノ: 藤澤篤子)
 	<ul>
 	  <li>M4</li>
-	  <li>Z.Kod&aacute;ly作曲/KAR&Aacute;DI N&Oacute;T&Aacute;K</li>
+	  <li>Z.Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly作曲/KAR<cr:utf8-char nickname="Aacute">A</cr:utf8-char>DI N<cr:utf8-char nickname="Oacute">O</cr:utf8-char>T<cr:utf8-char nickname="Aacute">A</cr:utf8-char>K</li>
 	</ul>
       </li>
       <li>○松蔭高校コーラス部
@@ -169,7 +165,7 @@
 	  <li>F2</li>
 	  <li>M. Ley作詩・F.Poulenc作曲/Petites voix から La petite fille sage;
 	    Le chien perdu; En rentrant de l'ecole;
-	    Le petit gar&ccedil;on malade; Le h&eacute;risson</li>
+	    Le petit gar<cr:utf8-char nickname="ccedil">c</cr:utf8-char>on malade; Le h<cr:utf8-char nickname="eacute">e</cr:utf8-char>risson</li>
 	</ul>
       </li>
       <li>兵庫県立福崎高校コーラス部(兵庫・女声21名, 指揮: 中嶋京子)
@@ -205,7 +201,7 @@
 	(兵庫・女声62名, 指揮: 山口英樹)
 	<ul>
 	  <li>F1</li>
-	  <li>G.Orb&aacute;n作曲/Adeste Fideles; Lauda Sion</li>
+	  <li>G.Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n作曲/Adeste Fideles; Lauda Sion</li>
 	</ul>
       </li>
       <li>和歌山県立田辺高校合唱部
@@ -240,7 +236,7 @@
 	<ul>
 	  <li>F4</li>
 	  <li>M. Head作曲/Ave Maria</li>
-          <li>R. Thompson作曲/Pueri Hebr&aelig;orum</li>
+          <li>R. Thompson作曲/Pueri Hebr<cr:utf8-char nickname="aelig">ae</cr:utf8-char>orum</li>
 	</ul>
       </li>
       <li>平安女学院高校コーラスクラブ

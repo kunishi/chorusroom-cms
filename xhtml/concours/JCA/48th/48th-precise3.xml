@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 3)</title>
   </head>
@@ -36,7 +32,7 @@
 	<ul>
 	  <li> 指揮:倉橋亮介/Piano:村岡生子</li>
 	  <li> G4</li>
-	  <li> S&auml;vel(作詩:Lauri Pohjanp&auml;&auml;/作曲:Toivo Kuula)</li>
+	  <li> S<cr:utf8-char nickname="auml">a</cr:utf8-char>vel(作詩:Lauri Pohjanp<cr:utf8-char nickname="auml">a</cr:utf8-char><cr:utf8-char nickname="auml">a</cr:utf8-char>/作曲:Toivo Kuula)</li>
 	  <li> Auringon Noustessa(作詩:V.A.Koskenniemi/作曲:Tovo
 	    Kuula)</li>
 	</ul></li>
@@ -80,8 +76,8 @@
 	<ul>
 	  <li> 指揮: 藤井宏樹</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> 「S&uuml;gismaastikud」(作詩:Viivi Luik/作曲:Veljo
-	    Tormis)から K&uacute;lm S&uuml;gis&ouml;&ouml;</li>
+	  <li> 「S<cr:utf8-char nickname="uuml">u</cr:utf8-char>gismaastikud」(作詩:Viivi Luik/作曲:Veljo
+	    Tormis)から K<cr:utf8-char nickname="uacute">u</cr:utf8-char>lm S<cr:utf8-char nickname="uuml">u</cr:utf8-char>gis<cr:utf8-char nickname="ouml">o</cr:utf8-char><cr:utf8-char nickname="ouml">o</cr:utf8-char></li>
 	  <li> Benedictio(作曲:Urmas sisask)</li>
 	</ul></li>
       <li> 愛媛大学合唱団(愛媛県:四国支部、銅賞)

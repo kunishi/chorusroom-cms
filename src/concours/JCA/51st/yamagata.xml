@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>51st All Japan Chorus Contest/Yamagata</title>
   </head>
@@ -97,14 +93,14 @@
 	[斎藤杯]
 	<ul>
 	  <li>F1</li>
-	  <li>K&auml;rlekens Lov</li>
+	  <li>K<cr:utf8-char nickname="auml">a</cr:utf8-char>rlekens Lov</li>
 	</ul>
       </li>
       <li>
 	山形県立鶴岡北高等学校 (女声50名, 指揮; 池田朋世)
 	<ul>
 	  <li>F2</li>
-	  <li>「12の歌とロマンス」より Der Br&auml;utigam; Und gehst du &uuml;ber Kirchhof; M&auml;rznacht</li>
+	  <li>「12の歌とロマンス」より Der Br<cr:utf8-char nickname="auml">a</cr:utf8-char>utigam; Und gehst du <cr:utf8-char nickname="uuml">u</cr:utf8-char>ber Kirchhof; M<cr:utf8-char nickname="auml">a</cr:utf8-char>rznacht</li>
 	</ul>
       </li>
       <li>

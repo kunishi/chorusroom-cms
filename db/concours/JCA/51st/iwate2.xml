@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>51st All Japan Chorus Contest/Iwate (Part 2)</title>
   </head>
@@ -65,9 +61,9 @@
       </li>
       <li>紫波町立紫波第三中学校 (同声26名, 指揮: 佐々木芳子)
 	<ul>
-	  <li>Zolt&aacute;n Kod&aacute;ly/&Euml;gyuet&euml;m; 
-	    b&euml;gyet&euml;m</li>
-	  <li>Lajos B&aacute;rdos/Husz&aacute;rt&aacute;nc</li>
+	  <li>Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly/<cr:utf8-char nickname="Euml">E</cr:utf8-char>gyuet<cr:utf8-char nickname="euml">e</cr:utf8-char>m; 
+	    b<cr:utf8-char nickname="euml">e</cr:utf8-char>gyet<cr:utf8-char nickname="euml">e</cr:utf8-char>m</li>
+	  <li>Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos/Husz<cr:utf8-char nickname="aacute">a</cr:utf8-char>rt<cr:utf8-char nickname="aacute">a</cr:utf8-char>nc</li>
 	</ul>
       </li>
       <li>江刺市立江刺第一中学校 (混声45名, 指揮: 遠藤悦子, ピアノ: 千葉香)

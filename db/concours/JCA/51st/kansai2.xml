@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
-    <!-- $Id: kansai2.xml,v 1.19 2000/10/08 23:37:52 kunishi Exp $ -->
+    <!-- $Id: kansai2.xml,v 1.20 2001/02/05 15:03:47 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/General</title>
   </head>
   <body>
@@ -190,11 +186,11 @@
 	  </li>
 	</ul>
       </li>
-      <li>Choeur Chene (Ch&oelig;ur Ch&ecirc;ne) (奈良・混声19, 指揮: 上西一郎)
+      <li>Ch<cr:utf8-char nickname="oelig">oe</cr:utf8-char>ur Ch<cr:utf8-char nickname="ecirc">e</cr:utf8-char>ne (奈良・混声19, 指揮: 上西一郎)
 	<ul>
 	  <li>G1</li>
 	  <li>S. de Yks, P. de Ronsard, P. Arosa 作詩・F. Schmitt 作曲/
-	    A CONTRE-VOIX から Trois go&euml;lettes; ...Pour vous de peine;
+	    A CONTRE-VOIX から Trois go<cr:utf8-char nickname="euml">e</cr:utf8-char>lettes; ...Pour vous de peine;
 	    Bonnet vole</li>
 	</ul>
       </li>
@@ -229,7 +225,7 @@
       <li>混声合唱団 CADENZA (京都・混声23, 指揮: 池田貴宣・中村恭之)
 	<ul>
 	  <li>G1</li>
-	  <li>M. Durufl&eacute; 作曲/Quatre Motets から Ubi caritas; 
+	  <li>M. Durufl<cr:utf8-char nickname="eacute">e</cr:utf8-char> 作曲/Quatre Motets から Ubi caritas; 
 	    Tota pulchra es</li>
 	  <li>P. B. Shelley 作詩・E. Elgar 作曲/Four unaccompanied 
 	    Part-songs Op. 53 から O Wild West Wind!</li>
@@ -261,7 +257,7 @@
       <li>Medieval Voice (兵庫・混声14)
 	<ul>
 	  <li>G2</li>
-	  <li>Saint-Sa&euml;ns 作詩・作曲/CALME DES NUITS; LES FLEURS 
+	  <li>Saint-Sa<cr:utf8-char nickname="euml">e</cr:utf8-char>ns 作詩・作曲/CALME DES NUITS; LES FLEURS 
 	    ET LES ARBRES</li>
 	</ul>
       </li>

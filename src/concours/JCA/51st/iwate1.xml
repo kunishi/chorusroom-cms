@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>51st All Japan Chorus Contest/Iwate (Part 1)</title>
   </head>
@@ -64,14 +60,14 @@
 	<ul>
 	  <li>F1</li>
 	  <li>Francis Poulenc/Ave verum corpus</li>
-	  <li>Mikl&oacute;s Kocs&aacute;r/Salve Regina</li>
+	  <li>Mikl<cr:utf8-char nickname="oacute">o</cr:utf8-char>s Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r/Salve Regina</li>
 	</ul>
       </li>
       <li>釜石南高等学校 (A25名, 指揮: 古玉聡美)
 	<ul>
 	  <li>F1</li>
-	  <li>Lajos B&Aacute;RDOS/B&Eacute;RC A R&Oacute;NAN</li>
-	  <li>Bart&oacute;k B&eacute;la／Le&aacute;nyk&eacute;r&ouml;</li>
+	  <li>Lajos B<cr:utf8-char nickname="Aacute">A</cr:utf8-char>RDOS/B<cr:utf8-char nickname="Eacute">E</cr:utf8-char>RC A R<cr:utf8-char nickname="Oacute">O</cr:utf8-char>NAN</li>
+	  <li>Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B<cr:utf8-char nickname="eacute">e</cr:utf8-char>la／Le<cr:utf8-char nickname="aacute">a</cr:utf8-char>nyk<cr:utf8-char nickname="eacute">e</cr:utf8-char>r<cr:utf8-char nickname="ouml">o</cr:utf8-char></li>
 	</ul>
       </li>
       <li>岩手女子高等学校 (A21名, 指揮: 田村久美子)
@@ -83,7 +79,7 @@
       <li>盛岡第三高等学校 (A32名, 指揮: 佐々木和哉)
 	<ul>
 	  <li>G1</li>
-	  <li>T. kuula/Keinutan Kaikua; Kev&auml;t laulu; 
+	  <li>T. kuula/Keinutan Kaikua; Kev<cr:utf8-char nickname="auml">a</cr:utf8-char>t laulu; 
 	    Kum mann ja mantereen</li>
 	</ul>
       </li>
@@ -104,7 +100,7 @@
 	<ul>
 	  <li>F2</li>
 	  <li>Javier Busto/Salve Regina</li>
-	  <li>Gy&ouml;rgy Orb&aacute;n/Lauda Sion</li>
+	  <li>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/Lauda Sion</li>
 	</ul>
       </li>
       <li>水沢高等学校 (A21名, 指揮: 多田智章)
@@ -119,7 +115,7 @@
       <li>盛岡第二高等学校 (A17名, 指揮: 阿部彩子)
 	<ul>
 	  <li>F1</li>
-	  <li>Gy&ouml;rgy Orb&aacute;n/Lauda Sion</li>
+	  <li>Gy<cr:utf8-char nickname="ouml">o</cr:utf8-char>rgy Orb<cr:utf8-char nickname="aacute">a</cr:utf8-char>n/Lauda Sion</li>
 	  <li>Javier Busto/Salve Regina</li>
 	</ul>
       </li>
@@ -132,7 +128,7 @@
       <li>宮古高等学校 (A29名, 指揮: 山崎歌子)
 	<ul>
 	  <li>F1</li>
-	  <li>Henri BUSSER／TROIS ANTIENNES &aacute; la Sainte 
+	  <li>Henri BUSSER／TROIS ANTIENNES <cr:utf8-char nickname="aacute">a</cr:utf8-char> la Sainte 
 	    Vierge Marie から I. Ave Regina; II. Regina Caeli;
 	    III. Salve Regina</li>
 	</ul>

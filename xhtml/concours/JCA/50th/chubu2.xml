@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>50th AJCL Chorus Contest/Chubu (Part 2)</title>
   </head>
@@ -178,12 +174,12 @@
     <ul>
       <li>◎高山市立中山中学校合唱部（岐阜・女声30名、指揮:平田誠）
 	<ul>
-	  <li><span lang="hu">B&aacute;rdos L./Tavunga; Himnusz a Naphoz</span></li>
+	  <li><span lang="hu">B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos L./Tavunga; Himnusz a Naphoz</span></li>
 	</ul></li>
       <li>◎松任市立松任中学校合唱部（石川・女声40名、指揮:一森晴美）
 	<ul>
-	  <li><span lang="hu">Bart&oacute;k B./Le&aacute;nyk&eacute;r&ouml;; 
-	      Bolyong&aacute;s; P&aacute;rn&aacute;s T&aacute;ncdal</span></li>
+	  <li><span lang="hu">Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k B./Le<cr:utf8-char nickname="aacute">a</cr:utf8-char>nyk<cr:utf8-char nickname="eacute">e</cr:utf8-char>r<cr:utf8-char nickname="ouml">o</cr:utf8-char>; 
+	      Bolyong<cr:utf8-char nickname="aacute">a</cr:utf8-char>s; P<cr:utf8-char nickname="aacute">a</cr:utf8-char>rn<cr:utf8-char nickname="aacute">a</cr:utf8-char>s T<cr:utf8-char nickname="aacute">a</cr:utf8-char>ncdal</span></li>
 	</ul></li>
     </ul>
     <h3>銀賞</h3>
@@ -280,7 +276,7 @@
 	  <li><span lang="fr">C.Janequin/ Au juli jeu du pousse avant</span></li>
 	  <li><span lang="it">G.Guarini</span>・詩、
 	    <span lang="it">C.Monteverdi</span>・曲/
-	    <span lang="it">Ohim&egrave;, se tanto amate</span></li>
+	    <span lang="it">Ohim<cr:utf8-char nickname="egrave">e</cr:utf8-char>, se tanto amate</span></li>
 	  <li><span lang="it">C.Monteverdi/ Io mi son giovinetta</span></li>
 	</ul></li>
     </ul>
@@ -289,7 +285,7 @@
       <li>女声合唱団「どるちえ」（富山・女声17名、指揮:長谷部律子）
 	<ul>
 	  <li>F1</li>
-	  <li><span lang="hu">B&aacute;rdos L./ Magos a rutafa</span></li>
+	  <li><span lang="hu">B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos L./ Magos a rutafa</span></li>
 	</ul></li>
       <li>ヴォーチ・アミーケ（愛知・女声24名、指揮:永友博信、ピアノ:渡部真理）
 	<ul>
@@ -311,7 +307,7 @@
 	<ul>
 	  <li>F2</li>
 	  <li><span lang="en">C.W.Nicol</span>・詩、
-	    間宮芳生・曲/<span lang="fi">AT&Eacute; NETSIK</span>
+	    間宮芳生・曲/<span lang="fi">AT<cr:utf8-char nickname="Eacute">E</cr:utf8-char> NETSIK</span>
 	    <span lang="en">for children's chorus</span></li>
 	</ul></li>
     </ul>
@@ -333,7 +329,7 @@
       <li>クール・デ・フレール（岐阜・女声13名、指揮:井戸清輔）
 	<ul>
 	  <li>F1</li>
-	  <li><span lang="hu">Kocs&aacute;r M.</span>/
+	  <li><span lang="hu">Kocs<cr:utf8-char nickname="aacute">a</cr:utf8-char>r M.</span>/
 	    「<span lang="de">Missa in A</span>」から
 	    <span lang="la">Credo; Sanctus</span></li>
 	</ul></li>
@@ -401,10 +397,10 @@
 	  <li>G1</li>
 	  <li><span lang="sv">J.P.Jacobson</span>・詩、
 	    <span lang="sv">W.Stenhammar</span>・曲/
-	    <span lang="sv">Tre k&ouml;rvisor a cappella</span><br/>
+	    <span lang="sv">Tre k<cr:utf8-char nickname="ouml">o</cr:utf8-char>rvisor a cappella</span><br/>
 	    <span lang="en">I.September</span>; 
 	    <span lang="sv">II. I Seraillets Have; III. Havde jeg, o havde
-	      jeg en Datters&oslash;n, o ja!</span></li>
+	      jeg en Datters<cr:utf8-char nickname="oslash">o</cr:utf8-char>n, o ja!</span></li>
 	</ul></li>
       <li>◎合唱団「うたおに」（三重・混声52名、指揮:羽根功二）
 	<ul>

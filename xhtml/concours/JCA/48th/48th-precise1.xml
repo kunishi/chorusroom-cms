@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title>The 48th AJCL Chorus Contest (Precise Results Part I)</title>
   </head>
@@ -52,7 +48,7 @@
 	  <li> F1</li>
 	  <li> 「Dizionario Greco」(作曲:Petr Eben)から I.
 	    Megalofrosyne; IX. Charmone-Syntychia</li>
-	  <li> Himnusz a Naphoz(作詞:Lukin L&aacute;szl&oacute;/作曲:Lajos B&aacute;rdos)</li>
+	  <li> Himnusz a Naphoz(作詞:Lukin L<cr:utf8-char nickname="aacute">a</cr:utf8-char>szl<cr:utf8-char nickname="oacute">o</cr:utf8-char>/作曲:Lajos B<cr:utf8-char nickname="aacute">a</cr:utf8-char>rdos)</li>
 	</ul></li>
       <li> 栃木県立真岡女子高等学校合唱部(栃木県:関東支部、銀賞)
 	<ul>
@@ -82,14 +78,14 @@
 	  <li> F1</li>
 	  <li> 「En bonne voix」(作詞:Jehan Froissart(他)/作曲:
 	    Florent Shmitt)から I.  On dist que ...; II. Prince et
-	    berg&eacute;re; VI. La mode commode</li>
+	    berg<cr:utf8-char nickname="eacute">e</cr:utf8-char>re; VI. La mode commode</li>
 	</ul></li>
       <li> 栃木県立宇都宮中央女子高等学校合唱部(栃木県:関東支部、銅賞)
 	<ul>
 	  <li> 指揮: 江面誠子</li>
 	  <li> F1</li>
 	  <li> 「4 Italian Madorigals」(作詞:Gerardello da Firenze他/
-	    作曲:Zolt&aacute;n Kod&aacute;ly)から 3. Chi d'amor sente;
+	    作曲:Zolt<cr:utf8-char nickname="aacute">a</cr:utf8-char>n Kod<cr:utf8-char nickname="aacute">a</cr:utf8-char>ly)から 3. Chi d'amor sente;
 	    4. Fuor de la bella caiba</li>
 	</ul></li>
       <li> 共立女子高等学校音楽部(東京都:東京支部、銀賞)
@@ -111,9 +107,9 @@
 	<ul>
 	  <li> 指揮:片山謙二</li>
 	  <li> F1</li>
-	  <li> 「27 Two-and Three-part Choruses」(作曲:Bela Bart&oacute;k)
-	    から Bolyong&aacute;s</li>
-	  <li> &Eacute;jszaka(作詞:Beney Zsuzsa/作曲:J&oacute;szef Karai)</li>
+	  <li> 「27 Two-and Three-part Choruses」(作曲:Bela Bart<cr:utf8-char nickname="oacute">o</cr:utf8-char>k)
+	    から Bolyong<cr:utf8-char nickname="aacute">a</cr:utf8-char>s</li>
+	  <li> <cr:utf8-char nickname="Eacute">E</cr:utf8-char>jszaka(作詞:Beney Zsuzsa/作曲:J<cr:utf8-char nickname="oacute">o</cr:utf8-char>szef Karai)</li>
 	</ul></li>
     </ul>
   </body>

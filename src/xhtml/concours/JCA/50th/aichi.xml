@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:cr="http://www.chorusroom.org/character">
   <head>
     <title lang="en">50th AJCL Chorus Contest/Aichi</title>
   </head>
@@ -124,7 +120,7 @@
 	  <li>G1</li>
 	  <li><span lang="sv">J.P.Jacobsen</span>作詩、
 	    <span lang="sv">W.Stenhammer</span>作曲/
-	    <span lang="sv">Tre k&ouml;rvisor a cappella</span></li>
+	    <span lang="sv">Tre k<cr:utf8-char nickname="ouml">o</cr:utf8-char>rvisor a cappella</span></li>
 	</ul></li>
     </ul>
     <h3>金賞</h3>
