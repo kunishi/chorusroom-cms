@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.22 2000/02/28 12:41:05 kunishi Exp $
+# $Id: config.mk,v 1.23 2000/03/22 06:05:20 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -12,7 +12,7 @@ JDK_LIBDIR=	${JDK_TOPDIR}/lib
 
 JAVA_CLASSES_DIR=	${LOCALBASE}/share/java/classes
 XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
-XML4J_CLASSPATH= ${JAVA_CLASSES_DIR}/xml4j.jar:${JAVA_CLASSES_DIR}/xml4jSamples.jar
+XML4J_CLASSPATH= ${JAVA_CLASSES_DIR}/xml4j.jar:${JAVA_CLASSES_DIR}/xerces.jar
 LOTUSXSL_CLASSPATH=	${JAVA_CLASSES_DIR}/lotusxsl.jar:${JAVA_CLASSES_DIR}/lotusxslbsf.jar:${JAVA_CLASSES_DIR}/js.jar
 
 ifdef USE_KAFFE
@@ -20,23 +20,24 @@ JAVA=		${LOCALBASE}/bin/kaffe
 JDK_CLASSPATH=	${LOCALBASE}/share/kaffe/kjc.jar:${LOCALBASE}/share/kaffe/Klasses.jar
 else
 JAVA=		${JDK_TOPDIR}/bin/java
-XSLT_ENV+=	JAVA_COMPILER=${JAVA_COMPILER}
 ifdef USE_LINUX_JDK
-JAVA_COMPILER?=	
 JDK_CLASSPATH=	${JDK_LIBDIR}/tools.jar:${JDK_LIBDIR}/dt.jar
 else
 JAVA_COMPILER?=	tya
-JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip:${JDK_LIBDIR}
+JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip
 endif
+endif
+
+ifdef JAVA_COMPILER
+XSLT_OPTS+=	-Djava.compiler=${JAVA_COMPILER}
 endif
 
 ifdef USE_LOTUSXSL
 XSLT_CLASSPATH=	${LOTUSXSL_CLASSPATH}
-XSLT_OPTS=	
 XSLT_CLASS=	com.lotus.xsl.Process
 else
 XSLT_CLASSPATH=	${XT_CLASSPATH}
-XSLT_OPTS=	-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser
+XSLT_OPTS+=	-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser
 XSLT_CLASS=	com.jclark.xsl.sax.Driver
 endif
 
