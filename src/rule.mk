@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.32 2001/01/03 07:16:57 kunishi Exp $
+# $Id: rule.mk,v 1.33 2001/01/03 11:30:26 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -50,12 +50,14 @@ else
 	$(xslt-transform)
 	${SLEEP} 1
 	${PATH_CONFIGURE} $@
+	${XMLDECL_FIX} $@
 %.html:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.traditional.xsl
 
 %.utfhtml: %.xml ${DEFAULT_XSL}
 	$(xslt-transform)
 	${SLEEP} 1
 	${PATH_CONFIGURE} $@
+	${XMLDECL_FIX} $@
 %.utfhtml:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.utf8.xsl
 endif
 endif
@@ -68,7 +70,7 @@ all:	${INSTFILES} subdir
 subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
-	  (cd $${dir} && ${MAKE} all \
+	  (cd $${dir} && ${MAKE} -I${SRCTOPDIR}../ all \
 	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../) \
 	done
 endif
@@ -84,7 +86,7 @@ ifdef SUBDIR
 	  if ! test -d ${INSTTOPDIR}${RELPATH}$${dir}; then \
 	    mkdir -p ${INSTTOPDIR}${RELPATH}$${dir}; \
 	  fi; \
-	  (cd $${dir} && ${MAKE} install \
+	  (cd $${dir} && ${MAKE} -I${SRCTOPDIR}../ install \
 	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
 	done
 endif
@@ -103,7 +105,8 @@ ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
 	  ${ECHO} "<dir name=\"$${dir}\">" >> ${TOCFILE}; \
 	  (cd $${dir} && \
-	   ${MAKE} toc RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
+	   ${MAKE} -I${SRCTOPDIR}../ toc \
+	     RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
 	  ${ECHO} "</dir>" >> ${TOCFILE}; \
 	done
 endif
@@ -119,7 +122,7 @@ endif
 clean-subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
-	  (cd $${dir} && ${MAKE} clean \
+	  (cd $${dir} && ${MAKE} -I${SRCTOPDIR}../ clean \
 	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
 	done
 endif
@@ -135,7 +138,7 @@ endif
 distclean-subdir:
 ifdef SUBDIR
 	@for dir in ${SUBDIR}; do \
-	  (cd $${dir} && ${MAKE} distclean \
+	  (cd $${dir} && ${MAKE} -I${SRCTOPDIR}../ distclean \
 	   RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../); \
 	done
 endif
