@@ -1,11 +1,13 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.7 1999/09/09 10:02:37 kunishi Exp $
+# $Id: config.mk,v 1.8 1999/09/09 10:19:11 kunishi Exp $
 #
 
 XSLT_PROC=	java \
-		-Djava.compiler=tya \
 		-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser \
 		com.jclark.xsl.sax.Driver
+JAVA_COMPILER?=	tya
+MAKE_ENV+=	JAVA_COMPILER=${JAVA_COMPILER}
+
 UTF2ASCII=	hutrans
 ASCII2EUC=	tcs -f utf -t ujis
 EUC2JIS=	nkf
@@ -13,8 +15,10 @@ HTML_FORMAT=	tidy -iso2022
 SYNC_TOOL=	rsync -avuz
 
 CP=		cp
+ENV=		env
 
 RELPATH!=	.
 INSTTOPDIR=	/usr/home/kunishi/www/chorusRoom/
 
-DEFAULT_XSL=	${SRCTOPDIR}xhtml10.xsl
+XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
+DEFAULT_XSL?=	${XHTML10_XSL}

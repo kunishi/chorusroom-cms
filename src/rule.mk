@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.9 1999/08/25 11:49:39 kunishi Exp $
+# $Id: rule.mk,v 1.10 1999/09/09 10:19:11 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html
@@ -7,7 +7,7 @@
 .PHONY:		all install clean subdir install-subdir
 
 %.html:	%.xml
-	${XSLT_PROC} $< ${DEFAULT_XSL} | ${UTF2ASCII} | ${ASCII2EUC} | ${EUC2JIS} > $@
+	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} | ${UTF2ASCII} | ${ASCII2EUC} | ${EUC2JIS} > $@
  
 all:	${INSTFILES} subdir
 
