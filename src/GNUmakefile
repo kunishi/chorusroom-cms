@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.49 2000/12/22 05:55:28 kunishi Exp $
+# $Id: GNUmakefile,v 1.50 2001/01/01 01:56:11 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -50,6 +50,14 @@ info-note2.html: override TIDY_ENCODING=-ascii
 
 robots.txt:	conf/robots.txt
 	${CP} $< $@
+
+pre-all::
+	cd tech &&
+	  ${MAKE} pre-all RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../
+	cd xsl &&
+	  ${MAKE} pre-all RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../
+	cd DTD &&
+	  ${MAKE} pre-all RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../
 
 upload:
 	rsync -Cavu -e ssh --exclude="search.cgi" \
