@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <link href="../style/default.css" rel="stylesheet" type="text/css"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
     <title>49th AJCL Chorus Contest/Tokyo</title>
   </head>
   <body>
@@ -13,7 +18,7 @@
       <dt> 情報提供者</dt>
       <dd> <a href="../hml/">HML</a> に流れた情報を元に、国島が再構成しました。</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>
       大学の部
     </h2>
@@ -23,7 +28,7 @@
     <ul>
       <li> ○東京工業大学混声合唱団コール・クライネス</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>
       一般の部A
     </h2>
@@ -71,7 +76,7 @@
       <li> ルンデ M</li>
       <li> 早春の会</li>
     </ul>
-    <hr>
+    <hr/>
     <h2>
       一般の部B
     </h2>
@@ -104,13 +109,11 @@
       <li> 合唱団“わだち”</li>
       <li> 合唱団 VOCK</li>
     </ul>
-    <hr>
+    <hr/>
     [ <a href="./">第49回全日本合唱コンクールのページ</a>
     | <a href="../">「合唱の部屋」ホームページ</a> ]
-    <hr>
-    <address> KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-<!-- hhmts start -->
-Last modified: Tue Dec 16 22:43:08 JST 1997
-<!-- hhmts end -->
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/23 15:17:42 $
   </body>
 </html>
