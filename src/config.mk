@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.5 1999/08/25 11:49:39 kunishi Exp $
+# $Id: config.mk,v 1.6 1999/08/29 03:16:55 kunishi Exp $
 #
 
 XSLT_PROC=	java \
@@ -10,6 +10,8 @@ ASCII2EUC=	tcs -f utf -t ujis
 EUC2JIS=	nkf
 HTML_FORMAT=	tidy -iso2022
 SYNC_TOOL=	rsync -avuz
+
+CP=		cp
 
 RELPATH!=	.
 INSTTOPDIR=	/usr/home/kunishi/www/chorusRoom/
