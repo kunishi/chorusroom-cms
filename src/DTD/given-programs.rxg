@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE grammar SYSTEM "relaxNamespace.dtd">
+<grammar relaxNamespaceVersion="1.0" grammarVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace">
+
+  <topLevel>
+    <ref label="givenPrograms" namespace="http://www.chorusroom.org/xml"/>
+  </topLevel>
+
+  <module location="given-programs.rxm" namespace="http://www.chorusroom.org/xml"/>
+  <module location="choir-piece.rxm" namespace="http://www.chorusroom.org/piece"/>
+  <module location="utf8-char.rxm" namespace="http://www.chorusroom.org/character"/>
+
+  <hedgeRule label="choirPiece" namespace="http://www.chorusroom.org/xml">
+    <ref label="choir-piece" namespace="http://www.chorusroom.org/piece"/>
+  </hedgeRule>
+  <hedgeRule label="specialCharacters" namespace="http://www.chorusroom.org/piece">
+    <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+  </hedgeRule>
+</grammar>

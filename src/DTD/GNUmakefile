@@ -1,12 +1,13 @@
 #
-# $Id: GNUmakefile,v 1.3 2001/01/03 05:20:24 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/03 12:32:58 kunishi Exp $
 #
 
 GEN_DTDS_NONS=	char-table.dtd
 GEN_DTDS_NS=	contest-result-generic.dtd \
 		jca-comp-result.dtd \
 		nhk-contest-result.dtd \
-		xhtml1-chorusroom.dtd
+		xhtml1-chorusroom.dtd \
+		given-programs.dtd
 GEN_RELAX_MODULES=	characters.rxm
 
 all:
@@ -24,6 +25,9 @@ nhk-contest-result.dtd:	nhk-contest-result.rxg
 
 xhtml1-chorusroom.dtd:	xhtml1-chorusroom.rxg
 	relaxer -dtd -validation:none -tagPrefix:-,cr $<
+
+given-programs.dtd:	given-programs.rxg
+	relaxer -dtd -validation:none -tagPrefix:-,p,cr $<
 
 char-table.dtd:	char-table.rxm
 	relaxer -dtd $<

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE module SYSTEM "relaxCore.dtd">
+<module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/xml" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+
+  <interface>
+    <export label="givenProgramList"/>
+    <import label="choirPiece"/>
+  </interface>
+
+  <tag name="givenPrograms">
+  </tag>
+  <elementRule role="givenPrograms">
+    <sequence>
+      <ref role="contestName"/>
+      <ref role="contestYear"/>
+      <ref role="givenProgram" occurs="+"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="contestName"/>
+  <elementRule role="contestName" type="string"/>
+
+  <tag name="contestYear"/>
+  <elementRule role="contestYear" type="positiveInteger"/>
+
+  <tag name="givenProgram"/>
+  <elementRule role="givenProgram">
+    <sequence>
+      <ref role="givenProgramNumber"/>
+      <importedLabelRef label="choirPiece"/>
+    </sequence>
+  </elementRule>
+
+  <tag name="givenProgramNumber"/>
+  <elementRule role="givenProgramNumber" type="ID"/>
+
+</module>
