@@ -1,17 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>The 48th AJCL Chorus Contest (Precise Results Part 4)</title>
   </head>
-
   <body>
     <h1>第48回全日本合唱コンクール全国大会の結果(その4)</h1>
     指揮、伴奏、演奏曲目などのデータを添えたバージョンです。各部門ごとに
     別のページになっています。本ページは、吉田＠ATRさんから御提供いただい
     たデータを基にしています。
-
     <h2>職場の部</h2>
     <ul>
       <li> トヨタ自動車合唱部(愛知県:中部支部、銀賞)
@@ -38,7 +41,7 @@
 	<ul>
 	  <li> 指揮:佐々木正嘉/Piano:武田恵</li>
 	  <li> G3</li>
-	  <li> 「Mass」(作曲:Anton Dvo\v\r\'ak)から Gloria</li>
+	  <li> 「Mass」(作曲:Anton Dvor&aacute;k)から Gloria</li>
 	</ul></li>
       <li> 日立製作所日立工場合唱団(茨城県:関東支部、銀賞)
 	<ul>
@@ -57,17 +60,17 @@
 	<ul>
 	  <li> 指揮: 猪原龍吉</li>
 	  <li> M1</li>
-	  <li> Rabhaz\'anak fia(作詩:Pet\"oti S\'ador/作曲:Zort\'an
-	    Kod\'aly)</li>
-	  <li> A csik\'o(作曲:Zort\'an Kod\'aly)</li>
-	  <li> F\"olszallott a p\'ava(作詩:Ady Endre/作曲:Zort\'an
-	    Kod\'aly)</li>
+	  <li> Rabhaz&aacute;nak fia(作詩:Pet&ouml;ti S&aacute;dor/作曲:Zort&aacute;n
+	    Kod&aacute;ly)</li>
+	  <li> A csik&oacute; (作曲:Zort&aacute;n Kod&aacute;ly)</li>
+	  <li> F&ouml;lszallott a p&aacute;va(作詩:Ady Endre/作曲:Zort&aacute;n
+	    Kod&aacute;ly)</li>
 	</ul></li>
       <li> 旭化成旭陽会合唱団(宮崎県:九州支部、銅賞)
 	<ul>
 	  <li> 指揮: 藤野弘義/Piano:糸井美代子</li>
 	  <li> G1 (Wylbie/Thus saith my Cloris bright)</li>
-	  <li> 「Mass」(作曲:Anton Dvo\v\r\'ak)から Kyrie</li>
+	  <li> 「Mass」(作曲:Anton Dvor&aacute;k)から Kyrie</li>
 	</ul></li>
       <li> 北都銀行混声合唱団(秋田県:東北支部、銅賞)
 	<ul>
@@ -91,13 +94,10 @@
 	    anima mea</li>
 	</ul></li>
     </ul>
-
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
-
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Sun Dec 14 12:23:06 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 04:35:30 $
+  </body>
+</html>
