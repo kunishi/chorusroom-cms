@@ -1,5 +1,5 @@
 # 
-# $Id: Makefile,v 1.1 1999/08/22 15:34:31 kunishi Exp $
+# $Id: Makefile,v 1.2 1999/09/13 11:08:57 kunishi Exp $
 # 
 
 RELPATH=	links/Choir
@@ -7,7 +7,8 @@ SRCTOPDIR=	../../
 
 INSTFILES+=	index.html
 
-SUBDIR+=	Company \
+SUBDIR+=	Children \
+		Company \
 		General \
 		Highschool \
 		Link \
