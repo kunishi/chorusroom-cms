@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
-<!-- $Id: char-table.rlx,v 1.1 2000/12/11 16:54:21 kunishi Exp $ -->
+<!-- $Id: char-table.rlx,v 1.2 2000/12/11 16:56:02 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0" relaxCoreVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
-  <interface/>
+  <interface>
+    <export label=""/>
+  </interface>
 
   <tag name="characters"/>
   <elementRule role="characters">
