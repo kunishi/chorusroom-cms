@@ -1,9 +1,14 @@
 # 
-# $Id: Makefile,v 1.1 1999/11/20 22:03:23 kunishi Exp $
+# $Id: Makefile,v 1.2 1999/11/20 23:44:34 kunishi Exp $
 # 
 
 RELPATH=	tech
 SRCTOPDIR=	../
 
-include ${SRCTOPDIR}/config.mk
-include ${SRCTOPDIR}/rule.mk
+ENT2XML=	./gen-tbl.pl
+
+include ${SRCTOPDIR}config.mk
+include ${SRCTOPDIR}rule.mk
+
+%.xml:	%.ent
+	${ENT2XML} < $< > $@
