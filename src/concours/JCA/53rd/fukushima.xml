@@ -1,328 +1,477 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE 大会 SYSTEM "result-2000.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<大会>
-  <CVSID>$Id: fukushima.xml,v 1.5 2000/10/03 01:53:25 kunishi Exp $</CVSID>
-  <大会名>第54回福島県合唱コンクール</大会名>
-  <開催日別結果 出力="fukushima">
-    <開催日 曜日="金">2000-08-25</開催日>
-    <開催場所>会津風雅堂</開催場所>
-    <報告者>
-      <報告者氏名></報告者氏名>
-      <email></email>
-    </報告者>
-    <部門結果>
-      <部門名>高校の部</部門名>
-      <団体 大会代表="yes">
-	<団体名>安積女子高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>127</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作詩>谷川俊太郎</作詩>
-	    <作曲>鈴木輝昭</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>女声合唱とピアノのための組曲「女に」第二集</曲名>
-	      <構成曲>
-		<構成曲番号>&romanV;</構成曲番号>
-		<曲名>未来−墓</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>会津女子高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>63</登録人数>
-	<賞>金賞</賞>
-	<曲目>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
+  <cvs-id>$Id: fukushima.xml,v 1.6 2001/01/29 09:47:23 kunishi Exp $</cvs-id>
+  <competition-name>第54回福島県合唱コンクール</competition-name>
+  <result output="fukushima">
+    <date day-of-week="fri" holiday="false">2000-08-25</date>
+    <hall>会津風雅堂</hall>
+    <reporter anonymous="false">
+      <reporter-name></reporter-name>
+      <reporter-email anonymous="false"></reporter-email>
+    </reporter>
+    <section>
+      <section-name>高校の部</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>安積女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>127</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第二集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>未来−墓</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>会津女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>63</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>世阿弥元清</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>無伴奏女声合唱のための</p:titlePrefix>
+		<p:mainTitle>古謡三章</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>巴</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>郡山女子大学付属高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>73</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>与謝野晶子</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像画・絵師よ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>絵師よ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>郡山東高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>48</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>F.Schmitt</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>De vives voix</p:mainTitle>
+	      </p:title>
+	      <p:title original="false" xml:lang="ja">
+		<p:mainTitle>元気な声で</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanV/></p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>La tuor d'amour</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>福島女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>69</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
+	  </given-program>
 	  <課題曲 番号="F2"/>
-	  <自由曲>
-	    <作詩>世阿弥元清</作詩>
-	    <作曲>鈴木輝昭</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>無伴奏女声合唱のための「古謡三章」</曲名>
-	      <構成曲>
-		<曲名>巴</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>郡山女子大学付属高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>73</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F3"/>
-	  <自由曲>
-	    <作詩>与謝野晶子</作詩>
-	    <作曲>鈴木輝昭</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>女声合唱とピアノのための「肖像画・絵師よ」</曲名>
-	      <構成曲>
-		<曲名>絵師よ</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>郡山東高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>48</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作曲>F.Schmitt</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>De vives voix（元気な声で）</曲名>
-	      <構成曲>
-		<構成曲番号>&romanV;</構成曲番号>
-		<曲名>La tuor d'amour</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>福島女子高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>69</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F2"/>
-	  <自由曲>
-	    <作詩>谷川俊太郎</作詩>
-	    <作曲>鈴木輝昭</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>女声合唱とピアノのための組曲「女に」第二集</曲名>
-	      <構成曲>
-		<構成曲番号>&romanVI;</構成曲番号>
-		<曲名>血・腕</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>安積高等学校</団体名>
-	<形態>男声</形態>
-	<登録人数>42</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="M1"/>
-	  <自由曲>
-	    <作詩>Stephen Spender</作詩>
-	    <作曲>Samuel barber</作曲>
-	    <曲名>A STOPWATCH AND AN ORDNANCE MAP</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>若松女子高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>78</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F2"/>
-	  <自由曲>
-	    <作詩>与謝野晶子</作詩>
-	    <作曲>鈴木輝昭</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>女声合唱とピアノのための「肖像画・絵師よ」</曲名>
-	      <構成曲>
-		<曲名>絵師よ</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>福島西高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>30</登録人数>
-	<賞>金賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作曲>Thomas Tallis</作曲>
-	    <曲名>Satncte Deus</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>磐城女子高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>39</登録人数>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作詩>Sik SANDOR</作詩>
-	    <作曲>Zoltan KODALY</作曲>
-	    <曲名>VIZKERESZT</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>福島高等学校</団体名>
-	<形態>男声</形態>
-	<登録人数>39</登録人数>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="M3"/>
-	  <自由曲>
-	    <作曲>Bela Bartok</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>ELMULT IDOKBOL</曲名>
-	      <構成曲>
-		<曲名>&romanIII;</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>福島東高等学校</団体名>
-	<形態>混声</形態>
-	<登録人数>43</登録人数>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>Monteverdi</作曲>
-	    <曲名>SI CH'IO VORREI MORIRE</曲名>
-	  </自由曲>
-	  <自由曲>
-	    <作曲>Monteverdi</作曲>
-	    <曲名>QUEL AUGELLIJ CHE CANTA</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>磐城高等学校</団体名>
-	<形態>男声</形態>
-	<登録人数>32</登録人数>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="M4"/>
-	  <自由曲>
-	    <作詩>清岡卓行</作詩>
-	    <作曲>木下牧子</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>男声合唱組曲「真夜中」</曲名>
-	      <構成曲>
-		<曲名>愉快なシネカメラ</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>喜多方高等学校</団体名>
-	<形態>混声</形態>
-	<登録人数>27</登録人数>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>Francis Poulenc</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>「Quatre motets pour Le Temps de No&euml;l」</曲名>
-	      <構成曲>
-		<構成曲番号>&romanI;</構成曲番号>
-		<曲名>O MAGNUM MYSTERIUM</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>&romanIV;</構成曲番号>
-		<曲名>HODIE CHRISTUS NATUS EST</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="yes">
-	<団体名>原町高等学校</団体名>
-	<形態>混声</形態>
-	<登録人数>22</登録人数>
-	<賞>銀賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>C. Jannequin</作曲>
-	    <曲名>Le Chant des Oyseaux</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="no">
-	<団体名>須賀川桐陽高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>40</登録人数>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作曲>R. Schumann</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>ロマンス　第二集</曲名>
-	      <構成曲>
-		<作詩>J.Kerner</作詩>
-		<構成曲番号>&romanIII;</構成曲番号>
-		<曲名>Der Wassermann（水の精）</曲名>
-	      </構成曲>
-	      <構成曲>
-		<作詩>F.Ruckert</作詩>
-		<構成曲番号>&romanVI;</構成曲番号>
-		<曲名>Meeres Mitten(深き海に）</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="no">
-	<団体名>白河旭高等学校</団体名>
-	<形態>女声</形態>
-	<登録人数>29</登録人数>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="F1"/>
-	  <自由曲>
-	    <作曲>Gustav Holst</作曲>
-	    <曲名>AVE MARIA</曲名>
-	  </自由曲>
-	</曲目>
-      </団体>
-      <団体 大会代表="no">
-	<団体名>安達高等学校</団体名>
-	<形態>混声</形態>
-	<登録人数>66</登録人数>
-	<賞>銅賞</賞>
-	<曲目>
-	  <課題曲 番号="G2"/>
-	  <自由曲>
-	    <作曲>Heinrich Schutz</作曲>
-	    <組曲 抜粋="yes">
-	      <曲名>Italian Madrigals</曲名>
-	      <構成曲>
-		<構成曲番号>&romanIII;</構成曲番号>
-		<曲名>Selve beate</曲名>
-	      </構成曲>
-	      <構成曲>
-		<構成曲番号>&romanVII;</構成曲番号>
-		<曲名>Ride la primavera</曲名>
-	      </構成曲>
-	    </組曲>
-	  </自由曲>
-	</曲目>
-      </団体>
-    </部門結果>
-  </開催日別結果>
-</大会>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>谷川俊太郎</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための組曲</p:titlePrefix>
+		<p:mainTitle>女に 第二集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanVI/></p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>血・腕</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>安積高等学校</choir-name>
+	<choir-type>male</choir-type>
+	<number-of-members>42</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="M1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Stephen Spender</p:words-by>
+	      <p:composed-by>Samuel barber</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>A STOPWATCH AND AN ORDNANCE MAP</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>若松女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>78</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>与謝野晶子</p:words-by>
+	      <p:composed-by>鈴木輝昭</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>女声合唱とピアノのための</p:titlePrefix>
+		<p:mainTitle>肖像画・絵師よ</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>絵師よ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>福島西高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>30</number-of-members>
+	<prize nickname="gold">金賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Thomas Tallis</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Satncte Deus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>磐城女子高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>39</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Sik SANDOR</p:words-by>
+	      <p:composed-by>Zoltan KODALY</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>VIZKERESZT</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>福島高等学校</choir-name>
+	<choir-type>male</choir-type>
+	<number-of-members>39</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="M3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Bela Bartok</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>ELMULT IDOKBOL</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanIII/></p:piece-number>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>福島東高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>43</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>SI CH'IO VORREI MORIRE</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Monteverdi</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>QUEL AUGELLIJ CHE CANTA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>磐城高等学校</choir-name>
+	<choir-type>male</choir-type>
+	<number-of-members>32</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="M4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>清岡卓行</p:words-by>
+	      <p:composed-by>木下牧子</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>男声合唱組曲</p:titlePrefix>
+		<p:mainTitle>真夜中</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>愉快なシネカメラ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>喜多方高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>27</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Francis Poulenc</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Quatre motets pour Le Temps de No<cr:euml/>l</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanI/></p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>O MAGNUM MYSTERIUM</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanIV/></p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>HODIE CHRISTUS NATUS EST</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>原町高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>22</number-of-members>
+	<prize nickname="silver">銀賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>C. Jannequin</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Le Chant des Oyseaux</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>須賀川桐陽高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>40</number-of-members>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>R. Schumann</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ロマンス　第二集</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece>
+		  <p:words-by>J.Kerner</p:words-by>
+		  <p:title original="true">
+		    <p:mainTitle>Der Wassermann</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>水の精</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanVI/></p:piece-number>
+		<p:piece>
+		  <p:words-by>F.Ruckert</p:words-by>
+		  <p:title original="true">
+		    <p:mainTitle>Meeres Mitten</p:mainTitle>
+		  </p:title>
+		  <p:title original="false" xml:lang="ja">
+		    <p:mainTitle>深き海に</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>白河旭高等学校</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>29</number-of-members>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Gustav Holst</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>AVE MARIA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+      <choir representative="false" seed="false">
+	<choir-name>安達高等学校</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>66</number-of-members>
+	<prize nickname="blonze">銅賞</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Heinrich Schutz</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Italian Madrigals</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanIII/></p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Selve beate</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number><cr:romanVII/></p:piece-number>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Ride la primavera</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>
