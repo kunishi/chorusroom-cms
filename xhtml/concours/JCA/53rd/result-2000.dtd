@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<![%utfspecial;[
+<![%utfdoc;[
 <!ENTITY % HTMLlat1 PUBLIC
    "-//W3C//ENTITIES Latin1//EN//HTML"
    "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLlat1x.ent">
-<!-- 
-<!ENTITY % HTMLsymbol PUBLIC
-   "-//W3C//ENTITIES Symbols//EN//HTML"
-   "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLsymbolx.ent">
-%HTMLsymbol;
--->
 <!ENTITY % HTMLspecial PUBLIC
    "-//W3C//ENTITIES Special//EN//HTML"
    "http://localhost/www.w3.org/TR/xhtml1/DTD/HTMLspecialx.ent">
 <!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local.ent">
 ]]>
-<![%ascspecial;[
+<![%ascdoc;[
 <!ENTITY % HTMLlat1 SYSTEM "../../latin1-iso2022jp.ent">
 <!ENTITY % HTMLspecial SYSTEM "../../special-iso2022jp.ent">
 <!ENTITY % SpecialCharacterEnts SYSTEM "../../special-local-ascii.ent">

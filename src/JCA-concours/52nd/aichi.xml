@@ -2,11 +2,11 @@
 <!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
-<!ENTITY % utfspecial "IGNORE">
-<!ENTITY % ascspecial "INCLUDE">
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 ]>
 <大会 略称="aichi">
-  <CVSID>$Id: aichi.xml,v 1.10 1999/09/26 02:08:47 kunishi Exp $</CVSID>
+  <CVSID>$Id: aichi.xml,v 1.11 1999/09/26 16:36:20 kunishi Exp $</CVSID>
   <大会名 県大会="yes">第39回愛知県合唱コンクール</大会名>
   <開催日別結果>
     <開催日 曜日="日">1999-08-29</開催日>
