@@ -7,7 +7,7 @@
 
   <xsl:param name="output-encoding">utf-8</xsl:param>
 
-  <xsl:variable name="all-chars-extracted.xml">../../../lib/tech/all-chars-extracted.xml</xsl:variable>
+  <xsl:variable name="all-chars-extracted.xml">../../lib/tech/all-chars-extracted.xml</xsl:variable>
   <xsl:variable name="all-chars"
 		select="document($all-chars-extracted.xml)/*/cr:character"/>
 
