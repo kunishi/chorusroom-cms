@@ -19,17 +19,20 @@ class ChoirTable
   end
 
   def update(c)
-    schema = '(urn,name,url,prefecture,type,kind,comment)'
+    schema = 'urn,name,url,prefecture,type,kind,comment,created'
     tuple =
-      "(" + 
       [c.urn, c.name, c.url, Pref.name(c.pref), c.type, 
       c.kind, c.comment].map { |v|
-        "'" + Mysql.quote(v) + "'"
-      }.join(",") + ")" 
-    if (get(c.urn).num_rows() == 0)
-      @db.query('INSERT INTO ' + TABLE + schema + ' VALUES ' + tuple + ';')
+        sprintf("'%s'", Mysql.quote(v))
+      }.join(",")
+    if ((ans = get(c.urn)).num_rows() == 0)
+      tuple += sprintf(",'%s'", Time.new().strftime("%Y%m%d%H%M%S"))
+      @db.query('INSERT INTO ' + TABLE + sprintf("(%s)", schema) +
+		' VALUES ' + sprintf("(%s)", tuple) + ';')
     else
-      @db.query('REPLACE INTO ' + TABLE + schema + ' VALUES ' + tuple + ';')
+      tuple += sprintf(",'%s'", ans.fetch_hash()['created'])
+      @db.query('REPLACE INTO ' + TABLE + sprintf("(%s)", schema) +
+		' VALUES ' + sprintf("(%s)", tuple) + ';')
     end
   end
 
@@ -42,7 +45,7 @@ class ChoirTable
 
   def get(urn)
     return @db.query('SELECT * FROM ' + TABLE +
-		     " WHERE urn='" + Mysql.quote(urn) + "';")
+		     " WHERE urn=" + sprintf("'%s'", Mysql.quote(urn)) + ";")
   end
 
   private
@@ -51,6 +54,7 @@ class ChoirTable
   def initialize(host, user, passwd)
     @db = Mysql.new(host, user, passwd, DB)
   end
+
 end
 
 ct = ChoirTable.create('localhost', 'root', 'chorusroom2706')
