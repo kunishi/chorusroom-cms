@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.14 1999/08/30 16:43:06 kunishi Exp $
+# $Id: Makefile,v 1.15 1999/08/31 04:53:23 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -13,6 +13,7 @@ RESULT_XSL=	result-1999.xsl
 INSTFILES+=	index.html
 INSTFILES+=	aichi.html
 INSTFILES+=	chiba.html
+INSTFILES+=	chugoku.html
 INSTFILES+=	fukuoka.html
 INSTFILES+=	hyogo.html
 INSTFILES+=	kagoshima.html
@@ -25,6 +26,9 @@ aichi.html: %.html : %.xml ${RESULT_XSL}
 	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
 
 chiba.html: %.html : %.xml ${RESULT_XSL}
+	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
+
+chugoku.html: %.html : %.xml ${RESULT_XSL}
 	${XSLT_PROC} $< ${RESULT_XSL} | ${UTFTOEUC} | ${EUCTOJIS} > $@
 
 fukuoka.html: %.html : %.xml ${RESULT_XSL}
