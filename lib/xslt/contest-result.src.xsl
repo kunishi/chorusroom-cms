@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result.src.xsl,v 1.1 2002/06/18 15:26:40 kunishi Exp $ -->
+<!-- $Id: contest-result.src.xsl,v 1.2 2002/06/20 05:47:32 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -34,9 +34,18 @@
   <xsl:template match="c:result">
     <xsl:param name="top" select="/"/>
     <xsl:variable name="result-top" select="."/>
-    <xsl:call-template name="main">
-      <xsl:with-param name="top" select="$top"/>
-    </xsl:call-template>
+    <xsl:choose>
+      <xsl:when test="c:section/c:choir/c:scores">
+        <xsl:call-template name="saiten">
+          <xsl:with-param name="top" select="$top"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="main">
+          <xsl:with-param name="top" select="$top"/>
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="main">
