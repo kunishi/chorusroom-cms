@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE grammar PUBLIC "-//RELAX//Module RELAX Namespace 1.0//JA" "/home/kunishi/share/xml/relax/relaxNamespace.dtd">
 <grammar
-  relaxNamespaceVersion="1.0"
-  grammarVersion="1.0"
-  xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace"
-  xmlns:rc="http://www.xml.gr.jp/xmlns/relaxCore">
+ relaxNamespaceVersion="1.0"
+ grammarVersion="1.0"
+ xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace"
+ xmlns:rc="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <topLevel>
     <rc:ref label="competition" namespace="http://www.chorusroom.org/xml"/>
@@ -31,7 +30,7 @@
       <rc:include moduleLocation="choir-piece.rxm"/>
       <rc:hedgeRule label="specialCharacters">
 	<rc:ref label="utf8-char"
-	  namespace="http://www.chorusroom.org/character"/>
+		namespace="http://www.chorusroom.org/character"/>
       </rc:hedgeRule>
     </rc:module>
   </namespace>

@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <!-- $Id: xlinkspec.rxm,v 1.2 2001/01/09 16:36:40 kunishi Exp $ -->
-<!DOCTYPE module SYSTEM "relaxCore.dtd">
-<module moduleVersion="WD-20000703" relaxCoreVersion="1.0" targetNamespace="http://www.w3.org/1999/xlink" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+<module moduleVersion="WD-20000703"
+	relaxCoreVersion="1.0"
+	targetNamespace="http://www.w3.org/1999/xlink"
+	xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
     <export role="xlinkSimple"/>
