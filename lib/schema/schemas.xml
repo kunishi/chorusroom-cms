@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <namespace ns="http://www.chorusroom.org/concours" typeId="CONCOURS"/>
+  <typeId id="CONCOURS" typeId="CONCOURS JCA"/>
+  <typeId id="CONCOURS JCA" uri="jca-comp-result.rnc"/>
+  <typeId id="CONCOURS NHK" uri="nhk-contest-result.rnc"/>
+  <typeId id="CONCOURS Generic" uri="contest-result-generic.rnc"/>
+
+  <namespace ns="http://www.chorusroom.org/piece" typeId="PIECE"/>
+  <typeId id="PIECE" typeId="PIECE givenprog"/>
+  <typeId id="PIECE givenprog" uri="given-programs.rnc"/>
+
+  <namespace ns="http://www.chorusroom.org/choir" typeId="CHOIR"/>
+  <typeId id="CHOIR" typeId="CHOIR basic"/>
+  <typeId id="CHOIR basic" uri="choir.rnc"/>
+  <typeId id="CHOIR list" uri="choir-list.rnc"/>
+
+</locatingRules>
