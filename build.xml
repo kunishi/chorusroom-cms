@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="chorusRoom" default="prepare" basedir=".">
+<project name="chorusRoom" default="build" basedir=".">
 
   <property name="build" value="build"/>
+  <property name="build.lib" value="build.lib"/>
+  <property name="build.xslt" value="${build.lib}/xslt"/>
+  <property name='build.concours' value='build.concours'/>
+  <property name='build.xhtml' value='build.xhtml'/>
+
   <property name="src" value="src"/>
-  <property name="javasrc" value="java"/>
+
   <property name="bin" value="bin"/>
-  <property name="classdir" value="${build}/java"/>
   <property name="contrib" value="contrib"/>
+  <property name="images" value="images"/>
+  <property name="javasrc" value="java"/>
+  <property name="lib" value="lib"/>
+  <property name="xhtml" value="xhtml"/>
+  <property name="confdir" value="${lib}/conf"/>
+  <property name="cssdir" value="${lib}/css"/>
+  <property name="dtddir" value="${lib}/dtd"/>
+  <property name="namazudir" value="${lib}/namazu"/>
+  <property name="techdir" value="${lib}/tech"/>
+  <property name="xsltdir" value="${lib}/xslt"/>
+  <property name="classdir" value="${build}/java"/>
   <property name="dtdparser.src" value="${contrib}/dtdparser/source"/>
 
   <taskdef name='relaxerDtd' classname='org.chorusroom.ant.RelaxerDTD'>
@@ -15,37 +30,23 @@
     </classpath>
   </taskdef>
 
-  <taskdef name='xslt' classname='org.chorusroom.ant.XSLT'>
+  <taskdef name='myxslt' classname='org.chorusroom.ant.XSLT'>
     <classpath>
       <pathelement path='prog/java'/>
     </classpath>
   </taskdef>
 
-  <target name="prepare" depends="copysrc,build.dtd">
+  <target name="build" depends="copysrc, build.xhtml"/>
+
+  <target name="prepare" depends="copysrc, build.dtd">
     <tstamp/>
     <mkdir dir="${build}"/>
   </target>
 
   <target name="copysrc">
-    <copy todir="${build}">
-      <fileset dir="${src}">
-	<include name='**/*.txt'/>
+    <copy todir="${build}/image">
+      <fileset dir="${images}">
 	<include name="**/*.png"/>
-	<include name="**/*.ps"/>
-	<include name="**/*.gz"/>
-	<include name="namazu/*"/>
-	<include name="DTD/*"/>
-	<include name="xsl"/>
-	<exclude name="**/GNUmakefile"/>
-	<exclude name="**/*.xml"/>
-	<exclude name="**/*.html"/>
-	<exclude name="**/*.utfhtml"/>
-	<exclude name="**/*.dtd"/>
-	<exclude name="Tools"/>
-	<exclude name="conf"/>
-	<exclude name="contrib"/>
-	<exclude name="scripts"/>
-	<exclude name="tech"/>
       </fileset>
     </copy>
   </target>
@@ -58,38 +59,38 @@
              build.dtd.resource'/>
 
   <target name="build.dtd.contest-result-generic" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='contest-result-generic.rxg'
+    <relaxerDtd dir='${dtddir}' relaxfile='contest-result-generic.rxg'
       verify='none' tagprefix='-,p,cr'/>
   </target>
 
   <target name="build.dtd.jca-comp-result" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='jca-comp-result.rxg'
+    <relaxerDtd dir='${dtddir}' relaxfile='jca-comp-result.rxg'
       verify='none' tagprefix='-,p,cr'/>
   </target>
 
   <target name="build.dtd.nhk-contest-result" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='nhk-contest-result.rxg'
+    <relaxerDtd dir='${dtddir}' relaxfile='nhk-contest-result.rxg'
       verify='none' tagprefix='-,p,cr'/>
   </target>
 
   <target name="build.dtd.xhtml1-chorusroom" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='xhtml1-chorusroom.rxg'
+    <relaxerDtd dir='${dtddir}' relaxfile='xhtml1-chorusroom.rxg'
       verify='none' tagprefix='-,cr,r'/>
   </target>
 
   <target name="build.dtd.given-programs" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='given-programs.rxg'
+    <relaxerDtd dir='${dtddir}' relaxfile='given-programs.rxg'
       verify='none' tagprefix='-,p,cr'/>
   </target>
 
   <target name="build.dtd.char-table" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='char-table.rxm' verify='none'/>
+    <relaxerDtd dir='${dtddir}' relaxfile='char-table.rxm' verify='none'/>
   </target>
 
   <target name="build.dtd.resource" depends='copysrc'>
-    <relaxerDtd dir='${build}/DTD' relaxfile='resource.rxm' verify='none'/>
+    <relaxerDtd dir='${dtddir}' relaxfile='resource.rxm' verify='none'/>
     <copy toDir='${build}/DTD'>
-      <fileset dir='${src}/DTD'>
+      <fileset dir='${dtddir}'>
 	<include name='resource.xml'/>
       </fileset>
     </copy>
@@ -97,134 +98,78 @@
 
   <!-- generating XSLT styesheet -->
   <target name='build.xslt'
-    depends='build.xslt.common, build.xslt.contest-result-generic,
-             build.xslt.jca-comp-result, build.xslt.nhk-contest-result,
+    depends='build.xslt.common, build.xslt.contest-result,
              build.xslt.xhtml1, build.xslt.char-conv'/>
 
-  <target name='build.xslt.common' depends='copysrc'>
-    <copy todir='${build}/xsl'>
-      <fileset dir='${src}/xsl'>
+  <target name='build.xslt.common'>
+    <copy todir='${build.xslt}'>
+      <fileset dir='${xsltdir}'>
 	<include name='character.xsl'/>
 	<include name='common.xsl'/>
-	<include name='resource.xsl'/>
 	<include name='contest-result-choir-piece.xsl'/>
-	<include name='contest-result-common.xsl'/>
+	<include name='resource.xsl'/>
+        <include name='xhtml1-choir-links.xsl'/>
+        <include name='xinclude.xsl'/>
       </fileset>
     </copy>
   </target>
 
-  <target name='build.xslt.contest-result-generic' depends='copysrc'>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/contest-result-generic.src.xsl'
-      toFile='${build}/xsl/contest-result-generic.traditional.xsl'>
+  <target name='build.xslt.contest-result'>
+    <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
+          in='${xsltdir}/contest-result.src.xsl'
+          out='${build.xslt}/contest-result.traditional.xsl'>
       <param name='output-encoding' expression='iso-2022-jp'/>
     </xslt>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/contest-result-generic.src.xsl'
-      toFile='${build}/xsl/contest-result-generic.utf8.xsl'>
+    <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
+          in='${xsltdir}/contest-result.src.xsl'
+          out='${build.xslt}/contest-result.utf8.xsl'>
       <param name='output-encoding' expression='utf-8'/>
     </xslt>
   </target>
 
-  <target name='build.xslt.jca-comp-result' depends='copysrc'>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/jca-comp-result.src.xsl'
-      toFile='${build}/xsl/jca-comp-result.traditional.xsl'>
+  <target name='build.xslt.xhtml1'>
+    <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
+      in='${xsltdir}/xhtml1-chorusroom.src.xsl'
+      out='${build.xslt}/xhtml1-chorusroom.traditional.xsl'>
       <param name='output-encoding' expression='iso-2022-jp'/>
     </xslt>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/jca-comp-result.src.xsl'
-      toFile='${build}/xsl/jca-comp-result.utf8.xsl'>
+    <xslt style='${xsltdir}/gen-xsl-with-encoding.xsl'
+      in='${xsltdir}/xhtml1-chorusroom.src.xsl'
+      out='${build.xslt}/xhtml1-chorusroom.utf8.xsl'>
       <param name='output-encoding' expression='utf-8'/>
     </xslt>
   </target>
 
-  <target name='build.xslt.nhk-contest-result' depends='copysrc'>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/nhk-contest-result.src.xsl'
-      toFile='${build}/xsl/nhk-contest-result.traditional.xsl'>
-      <param name='output-encoding' expression='iso-2022-jp'/>
-    </xslt>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/nhk-contest-result.src.xsl'
-      toFile='${build}/xsl/nhk-contest-result.utf8.xsl'>
-      <param name='output-encoding' expression='utf-8'/>
-    </xslt>
-  </target>
-
-  <target name='build.xslt.xhtml1' depends='copysrc'>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/xhtml1-chorusroom.src.xsl'
-      toFile='${build}/xsl/xhtml1-chorusroom.traditional.xsl'>
-      <param name='output-encoding' expression='iso-2022-jp'/>
-    </xslt>
-    <xslt style='${src}/xsl/gen-xsl-with-encoding.xsl'
-      fromFile='${src}/xsl/xhtml1-chorusroom.src.xsl'
-      toFile='${build}/xsl/xhtml1-chorusroom.utf8.xsl'>
-      <param name='output-encoding' expression='utf-8'/>
-    </xslt>
-  </target>
-
-  <target name='build.xslt.char-conv' depends='copysrc'>
-    <xslt style='${src}/xsl/gen-char-conv-traditional.xsl'
-      fromFile='${src}/tech/all-chars.xml'
-      toFile='${build}/xsl/char-conv-traditional.xsl'/>
-    <xslt style='${src}/xsl/gen-char-conv-utf8.xsl'
-      fromFile='${src}/tech/all-chars.xml'
-      toFile='${build}/xsl/char-conv-utf8.xsl'/>
+  <target name='build.xslt.char-conv'>
+    <xslt style='${xsltdir}/gen-char-conv-traditional.xsl'
+      in='${techdir}/all-chars.xml'
+      out='${build.xslt}/char-conv-traditional.xsl'/>
+    <xslt style='${xsltdir}/gen-char-conv-utf8.xsl'
+      in='${techdir}/all-chars.xml'
+      out='${build.xslt}/char-conv-utf8.xsl'/>
   </target>
   
   <!-- build contents -->
-  <target name='build.xhtml' depends='build.dtd, build.xslt'>
-    <xslt fromDir='${src}' toDir='${build}'
-      style='${build}/xsl/xhtml1-chorusroom.traditional.xsl'
-      extension='.html'>
-      <fileset dir='${src}'>
-	<include name='index.xml'/>
-      </fileset>
-      <mapper type="glob" from="*.xml" to="*.html"/>
+  <target name='build.xhtml' depends='build.xhtml.index, build.xhtml.ja, build.xhtml.en'/>
+  <target name='build.xhtml.index' depends='build.xslt'>
+    <xslt basedir='${xhtml}' destdir='${build}'
+      style='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
+      extension='.html'
+      includes='index.xml'>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
       <param name='styledir' expression='/style'/>
       <param name='stylesheet' expression='toppage.css'/>
     </xslt>
-    <xslt fromDir='${src}' toDir='${build}'
-      style='${build}/xsl/xhtml1-chorusroom.traditional.xsl'
-      extension='.html'>
-      <fileset dir='${src}'>
-	<include name="**/*.xml"/>
-	<exclude name="index.xml"/>
-	<exclude name="info-note2.xml"/>
-	<exclude name="concours/**/*.xml"/>
-	<include name="concours/**/index.xml"/>
-	<include name="concours/JCA/47th/*.xml"/>
-	<include name="concours/JCA/48th/*.xml"/>
-	<include name="concours/JCA/49th/*.xml"/>
-	<include name="concours/JCA/50th/*.xml"/>
-	<include name="concours/JCA/51st/*.xml"/>
-	<exclude name="DTD/**/*.xml"/>
-	<exclude name="Tools/**/*.xml"/>
-	<exclude name="conf/**/*.xml"/>
-	<exclude name="contrib/**/*.xml"/>
-	<exclude name="scripts/**/*.xml"/>
-	<exclude name="tech/**/*.xml"/>
-	<exclude name="xsl/**/*.xml"/>
-      </fileset>
-      <mapper type="glob" from="*.xml" to="*.html"/>
-      <param name='topdir' expression='/'/>
-      <param name='imagedir' expression='/image'/>
-      <param name='bgimage' expression='background.png'/>
-      <param name='styledir' expression='/style'/>
-      <param name='stylesheet' expression='default.css'/>
-    </xslt>
-    <xslt fromDir='${src}' toDir='${build}'
-      style='${build}/xsl/xhtml1-chorusroom.utf8.xsl'
-      extension='.html'>
-      <fileset dir='${src}'>
-	<include name='info-note2.xml'/>
-      </fileset>
-      <mapper type="glob" from="*.xml" to="*.html"/>
+  </target>
+
+  <target name='build.xhtml.ja' depends='build.xslt'>
+    <xslt basedir='${xhtml}' destdir='${build}'
+      style='${build.xslt}/xhtml1-chorusroom.traditional.xsl'
+      extension='.html'
+      includes='**/*.xml'
+      excludes='index.xml, info-note2.xml'>
       <param name='topdir' expression='/'/>
       <param name='imagedir' expression='/image'/>
       <param name='bgimage' expression='background.png'/>
@@ -233,8 +178,92 @@
     </xslt>
   </target>
 
+  <target name='build.xhtml.en' depends='build.xslt'>
+    <xslt basedir='${xhtml}' destdir='${build}'
+      style='${build.xslt}/xhtml1-chorusroom.utf8.xsl'
+      extension='.html'
+      includes='info-note2.xml'>
+      <param name='topdir' expression='/'/>
+      <param name='imagedir' expression='/image'/>
+      <param name='bgimage' expression='background.png'/>
+      <param name='styledir' expression='/style'/>
+      <param name='stylesheet' expression='default.css'/>
+    </xslt>
+  </target>
+
+  <target name='build.xml.concours'
+    depends='build.xml.jca, build.xml.nhk, build.xml.generic'/>
+
+  <target name='build.xml.jca'>
+    <xslt basedir='db/concours/JCA' destdir='${build.concours}/concours/JCA'
+      style='${lib}/xslt.build/jca-contest-result-build.xsl'
+      extension='.xml'
+      includes='**/*.xml' excludes='**/lib/*.xml'>
+      <param name='docBaseURI' expression='${basedir}/db/concours/JCA/lib/'/>
+      <param name='outDir' expression='Redirect/'/>
+    </xslt>
+    <copy todir="${build}/concours/JCA">
+      <fileset dir="${build.concours}/concours/JCA">
+        <include name='**/Redirect/*.xml'/>
+      </fileset>
+      <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
+    </copy>
+  </target>
+
+  <target name='build.xml.nhk'>
+    <xslt basedir='db/concours/NHK' destdir='${build.concours}/concours/NHK'
+      style='${lib}/xslt.build/contest-result-build.xsl'
+      extension='.xml'
+      includes='**/*.xml' excludes='**/lib/*.xml'>
+      <param name='docBaseURI' expression='${basedir}/db/concours/NHK/lib/'/>
+      <param name='outDir' expression='Redirect/'/>
+    </xslt>
+    <copy todir="${build}/concours/NHK">
+      <fileset dir="${build.concours}/concours/NHK">
+        <include name='**/Redirect/*.xml'/>
+      </fileset>
+      <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
+    </copy>
+  </target>
+
+  <target name='build.xml.generic'>
+    <xslt basedir='db/concours' destdir='${build.concours}/concours'
+      style='${lib}/xslt.build/contest-result-build.xsl'
+      extension='.xml'
+      includes='**/*.xml'
+      excludes='**/JCA/**/*.xml, **/NHK/**/*.xml'>
+      <param name='docBaseURI' expression='${basedir}/db/concours/lib/'/>
+      <param name='outDir' expression='Redirect/'/>
+    </xslt>
+    <copy todir="${build}/concours">
+      <fileset dir="${build.concours}/concours">
+        <include name='**/Redirect/*.xml'/>
+        <exclude name='**/JCA/**/Redirect/*.xml'/>
+        <exclude name='**/NHK/**/Redirect/*.xml'/>
+      </fileset>
+      <mapper type="regexp" from="^(.*)/Redirect/(.*.xml)$$" to="\1/\2"/>
+    </copy>
+  </target>
+
+  <target name='build.xhtml.concours'
+    depends='build.xslt.common, build.xslt.contest-result, build.xml.concours'>
+    <xslt basedir='${build}/concours' destdir='${build.xhtml}/concours'
+      style='${build.lib}/xslt/contest-result.utf8.xsl'
+      extension='.xml'
+      includes='**/*.xml' excludes='**/*-score.xml'>
+      <param name='topdir' expression='/'/>
+      <param name='imagedir' expression='/image'/>
+      <param name='bgimage' expression='background.png'/>
+      <param name='styledir' expression='/style'/>
+      <param name='stylesheet' expression='default.css'/>
+      <param name='outDir' expression='${build.xhtml}/concours/'/>
+    </xslt>
+  </target>
+
   <!-- clean -->
   <target name="clean">
     <delete dir="${build}"/>
+    <delete dir="${build.lib}"/>
+    <delete dir="${build.concours}"/>
   </target>
 </project>
