@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.32 1999/09/29 12:36:17 kunishi Exp $
+# $Id: Makefile,v 1.33 1999/10/01 11:36:14 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -29,7 +29,7 @@ INSTFILES+=	yamagata.html yamagata.utfhtml
 
 include ${SRCTOPDIR}/config.mk
 
-RESULT_XSL=		result-iso2022jp.xsl
+RESULT_XSL=		result-eucjp.xsl
 RESULT_XSL_UTF8=	result-utf8.xsl
 DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
