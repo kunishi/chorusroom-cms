@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
-<!ENTITY % utfspecial "IGNORE">
-<!ENTITY % ascspecial "INCLUDE">
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
 ]>
 <大会 略称="hyogo">
-  <CVSID>$Id: hyogo.xml,v 1.10 1999/09/26 02:22:55 kunishi Exp $</CVSID>
+  <CVSID>$Id: hyogo.xml,v 1.11 1999/09/27 01:50:39 kunishi Exp $</CVSID>
   <大会名 県大会="yes">平成11年度兵庫県合唱コンクール</大会名>
   <開催日別結果>
     <開催日 曜日="土">1999-08-21</開催日>

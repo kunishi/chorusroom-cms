@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.27 1999/09/26 14:24:43 kunishi Exp $ -->
+<!-- $Id: index.xml,v 1.28 1999/09/27 01:50:40 kunishi Exp $ -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	       "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
-<!ENTITY % utfspecial "IGNORE">
-<!ENTITY % ascspecial "INCLUDE">
 ]>
 <html xmlns="http://www.w3.org/TR/xhtml1">
   <head>
@@ -107,6 +107,6 @@
     </dl>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Date: 1999/09/26 14:24:43 $</p>
+    <p>$Date: 1999/09/27 01:50:40 $</p>
   </body>
 </html>

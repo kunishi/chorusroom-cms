@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 <!ENTITY % global-ent SYSTEM "../../global.ent">
 %global-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: index.xml,v 1.4 1999/08/16 07:53:02 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.5 1999/09/27 01:50:47 kunishi Exp $ -->
     <title>Links Page/Concour</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
@@ -25,6 +27,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 1999/08/16 07:53:02 $
+    $Date: 1999/09/27 01:50:47 $
   </body>
 </html>

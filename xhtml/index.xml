@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
                       "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 <!ENTITY % global-ent SYSTEM "./global.ent">
 %global-ent;
 ]>
@@ -87,6 +89,6 @@
     </div>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a> &lt;&kunishi-email;&gt;</address>
     <hr/>
-    $Id: index.xml,v 1.22 1999/09/17 06:01:54 kunishi Exp $
+    $Id: index.xml,v 1.23 1999/09/27 01:50:15 kunishi Exp $
   </body>
 </html>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 <!ENTITY % global-ent SYSTEM "../global.ent">
 %global-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: index.xml,v 1.36 1999/08/24 10:25:02 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.37 1999/09/27 01:50:32 kunishi Exp $ -->
     <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
@@ -138,6 +140,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Fri Jan  2 14:54:09 JST 1998 -->
-    $Date: 1999/08/24 10:25:02 $
+    $Date: 1999/09/27 01:50:32 $
   </body>
 </html>

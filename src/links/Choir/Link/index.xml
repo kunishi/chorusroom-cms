@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
 <!ENTITY % global-ent SYSTEM "../../../global.ent">
 %global-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: index.xml,v 1.6 1999/08/16 07:39:22 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.7 1999/09/27 01:50:45 kunishi Exp $ -->
     <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/Links:Choir:Linkpage</title>
@@ -25,6 +27,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 1999/08/16 07:39:22 $
+    $Date: 1999/09/27 01:50:45 $
   </body>
 </html>

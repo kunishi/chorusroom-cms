@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
-<!ENTITY % global-ent SYSTEM "./global.ent">
-%global-ent;
+<!-- borrowed the necessary entity definitions from global.ent. -->
+<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
 ]>
 <html xml:lang="en" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
     <link href="style/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/Notes for Information Providers Part 2</title>
@@ -22,19 +21,19 @@
       </strong>
     </p>
     <ul>
-      <li> &agrave; ... {`a}</li>
-      <li> &aacute; ... {'a}</li>
-      <li> &acirc; ... {^a}</li>
-      <li> &atilde; ... {~a}</li>
-      <li> &auml; ... {&quot;a}</li>
-      <li> &aring; ...{.a}</li>
-      <li> &ccedil; ... {,c}</li>
-      <li> &aelig; ... {ae}</li>
-      <li> &szlig; ... {b}</li>
+      <li>&agrave; ... [`a]</li>
+      <li>&aacute; ... ['a]</li>
+      <li>&acirc; ... [^a]</li>
+      <li>&atilde; ... [~a]</li>
+      <li>&auml; ... [&quot;a]</li>
+      <li>&aring; ...[.a]</li>
+      <li>&ccedil; ... [,c]</li>
+      <li>&aelig; ... [ae]</li>
+      <li>&szlig; ... [ss]</li>
     </ul>
     and so on.
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">KUNISHIMA Takeo</a>&lt;&kunishi-email;&gt;</address>
-    $Id: info-note2.xml,v 1.4 1999/08/14 02:00:54 kunishi Exp $
+    $Id: info-note2.xml,v 1.5 1999/09/27 01:50:16 kunishi Exp $
   </body>
 </html>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
-<!ENTITY % utfspecial "IGNORE">
-<!ENTITY % ascspecial "INCLUDE">
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
 ]>
 <大会 略称="kyushu">
-  <CVSID>$Id: kyushu.xml,v 1.5 1999/09/26 02:25:38 kunishi Exp $</CVSID>
+  <CVSID>$Id: kyushu.xml,v 1.6 1999/09/27 01:50:40 kunishi Exp $</CVSID>
   <大会名 支部大会="yes">第54回九州合唱コンクール</大会名>
   <開催日別結果>
     <開催日 曜日="金">1999-09-10</開催日>

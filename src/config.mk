@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.14 1999/09/26 16:27:32 kunishi Exp $
+# $Id: config.mk,v 1.15 1999/09/27 01:50:15 kunishi Exp $
 #
 
 XSLT_PROC=	java \
@@ -22,6 +22,7 @@ INSTTOPDIR=	/usr/local/www/data/chorusRoom/
 
 XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
 XHTML10_XSL_UTF8=	${SRCTOPDIR}xhtml10-utf8.xsl
+XHTML10_XSL_ISO8859_1=	${SRCTOPDIR}xhtml10-iso8859-1.xsl
 DEFAULT_XSL=	${XHTML10_XSL}
 DEFAULT_XSL_UTF8=	${XHTML10_XSL_UTF8}
 

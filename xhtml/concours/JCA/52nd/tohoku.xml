@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE 大会 SYSTEM "result-1999.dtd" [
-<!ENTITY % utfspecial "IGNORE">
-<!ENTITY % ascspecial "INCLUDE">
+<!ENTITY % utfdoc "IGNORE">
+<!ENTITY % ascdoc "INCLUDE">
+<!ENTITY % global-ent SYSTEM "../../global.ent">
+%global-ent;
 ]>
 <大会 略称="tohoku">
-  <CVSID>$Id: tohoku.xml,v 1.2 1999/09/26 02:28:31 kunishi Exp $</CVSID>
+  <CVSID>$Id: tohoku.xml,v 1.3 1999/09/27 01:50:41 kunishi Exp $</CVSID>
   <大会名>第52回全日本合唱コンクール東北支部大会</大会名>
   <開催日別結果>
     <開催日 曜日="金">1999-09-25</開催日>
