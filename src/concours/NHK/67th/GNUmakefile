@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.7 2001/01/24 02:49:35 kunishi Exp $
+# $Id: GNUmakefile,v 1.8 2001/01/25 02:39:28 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -25,6 +25,7 @@ INSTFILES_TRADITIONAL=	aichi.html \
 			sorachi.html \
 			tokai-hokuriku.html \
 			${HTML_TOKYO} \
+			toyama.html \
 			yamaguchi.html
 INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
