@@ -1,32 +1,40 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.26 2000/10/08 23:37:38 kunishi Exp $
+# $Id: rule.mk,v 1.27 2000/10/09 17:06:18 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
 
 .PHONY:		all install clean subdir install-subdir
 
+define xslt-transform
+${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} ${XSLT_OUT} ${XSLT_PARAMS}
+endef
+
+define fixhtml
+${HTML_FORMAT} -m ${TIDY_ENCODING} $@
+${PATH_CONFIGURE} $@
+${XMLDECL_FIX} $@
+endef
+
 ifndef SPECIAL_RULES
 %.html:	%.xml ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} -out $@ ${XSLT_PARAMS}
+	$(xslt-transform)
 	${SLEEP} 1
-	${HTML_FORMAT} -m ${TIDY_ENCODING} $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+	$(fixhtml)
 
-%.utfhtml: %.utfxml ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@ ${XSLT_PARAMS}
+%.utfhtml: %.utfxml ${DEFAULT_XSL}
+	$(xslt-transform)
 	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+	$(fixhtml)
+%.utfhtml: TIDY_ENCODING=utf8
+%.utfhtml: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
 
 %.u8.html: %.utfxml ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@ ${XSLT_PARAMS}
+	$(xslt-transform)
 	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+	$(fixhtml)
+%.u8.html: TIDY_ENCODING=utf8
+%.u8.html: DEFAULT_XSL=${DEFAULT_XSL_UTF8}
 
 %.style: %.xsl
 	${ENV} ${JAVA_ENV} ${XSLT_COMPILER} -xsl $< -lxcout $@

@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.47 2000/10/08 23:37:54 kunishi Exp $
+# $Id: Makefile,v 1.48 2000/10/09 17:06:19 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -17,25 +17,25 @@ INSTFILES_HTML+=	hyogo.html
 INSTFILES_HTML+=	ishikawa.html
 INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
-INSTFILES_HTML+=	${INSTFILES_HTML_KANSAI}
+INSTFILES_HTML+=	${KANSAI_HTML}
 INSTFILES_HTML+=	kanto.html
-INSTFILES_HTML+=	${INSTFILES_HTML_KUMAMOTO}
-INSTFILES_HTML+=	${INSTFILES_HTML_KYUSHU}
+INSTFILES_HTML+=	${KUMAMOTO_HTML}
+INSTFILES_HTML+=	${KYUSHU_HTML}
 INSTFILES_HTML+=	mie.html
 INSTFILES_HTML+=	miyagi.html
 INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
-INSTFILES_HTML+=	${INSTFILES_HTML_SHIKOKU}
+INSTFILES_HTML+=	${SHIKOKU_HTML}
 INSTFILES_HTML+=	shimane.html
 INSTFILES_HTML+=	tokyo.html
 INSTFILES_HTML+=	${TOHOKU_HTML}
 INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
 
-INSTFILES_HTML_KANSAI=	kansai-highschool.html
-INSTFILES_HTML_KUMAMOTO= kumamoto.html kumamoto2.html
-INSTFILES_HTML_KYUSHU=	kyushu-2000-09-10.html
-INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
+KANSAI_HTML=		kansai-highschool.html
+KUMAMOTO_HTML=		kumamoto.html kumamoto2.html
+KYUSHU_HTML=		kyushu-2000-09-10.html
+SHIKOKU_HTML=		shikoku-2000-09-02.html shikoku-2000-09-03.html
 HOKKAIDO_HTML=		hokkaido-2000-09-24.html
 TOHOKU_HTML=		tohoku-2000-09-29.html \
 			tohoku-2000-09-30.html \
@@ -54,6 +54,9 @@ INSTFILES+=	${INSTFILES_HTML} \
 		${INSTFILES_HTML_SAITEN} \
 		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
 
+REDIRECT_HTML=	${KANSAI_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
+		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML}
+
 RESULT_XSL=		${XSLDIR}/jca-result-2000-eucjp-xalan.xsl
 RESULT_XSL_UTF8=	${XSLDIR}/jca-result-2000-utf8-xalan.xsl
 RESULT_XSL_COMMON=	${XSLDIR}/jca-result-2000-common.xsl
@@ -61,20 +64,21 @@ DEFAULT_XSL=		${RESULT_XSL}
 DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
 
 CSSFILE=		jca-concour.css
-XSLT_PARAMS+=		-param "output-base" "'$(basename $@)'"
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
 
-%-saiten.html:	%.html
-	${PATH_CONFIGURE} $@
-	${HTML_FORMAT} -m -iso2022 $@
-	${XMLDECL_FIX} $@
+.INTERMEDIATE: hokkaido.utfxml kansai.utfxml kumamoto.utfxml
+.INTERMEDIATE: kyushu.utfxml shikoku.utfxml tohoku.utfxml
+.INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
+.INTERMEDIATE: ${REDIRECT_HTML:%.html=%.utfxml}
 
+%-saiten.html:	%.html
+	$(fixhtml)
+
+%-saiten.html:	TIDY_ENCODING=utf8
 %-saiten.utfhtml:	%.utfhtml
-	${PATH_CONFIGURE} $@
-	${HTML_FORMAT} -m -utf8 $@
-	${XMLDECL_FIX} $@
+	$(fixhtml)
 
 ###
 
@@ -84,98 +88,41 @@ index.html:	CSSFILE=default.css
 index.utfhtml:	DEFAULT_XSL_UTF8=${XHTML10_XSL_UTF8}
 index.utfhtml:	CSSFILE=default.css
 
-${INSTFILES_HTML_KANSAI}: kansai.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${REDIRECT_HTML}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
+${REDIRECT_HTML:%.html=%.utfhtml}:	XSLT_OUT=-param "output-base" "'$(basename $@)'"
 
-${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${HOKKAIDO_HTML:%.html=%.xml}: hokkaido.xml
+	${LN_S} $< $@
 
-${INSTFILES_HTML_KUMAMOTO}: kumamoto.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${HOKKAIDO_HTML:%.html=%.utfxml}: hokkaido.utfxml
+	${LN_S} $< $@
 
-${INSTFILES_HTML_KUMAMOTO:%.html=%.utfhtml}: kumamoto.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${KANSAI_HTML:%.html=%.xml}: kansai.xml
+	${LN_S} $< $@
 
-${INSTFILES_HTML_KYUSHU}: kyushu.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${KANSAI_HTML:%.html=%.utfxml}: kansai.utfxml
+	${LN_S} $< $@
 
-${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}: kyushu.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${KUMAMOTO_HTML:%.html=%.xml}: kumamoto.xml
+	${LN_S} $< $@
 
-${INSTFILES_HTML_SHIKOKU}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${KUMAMOTO_HTML:%.html=%.utfxml}: kumamoto.utfxml
+	${LN_S} $< $@
 
-${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}: shikoku.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${KYUSHU_HTML:%.html=%.xml}: kyushu.xml
+	${LN_S} $< $@
 
-${HOKKAIDO_HTML}: hokkaido.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${KYUSHU_HTML:%.html=%.utfxml}: kyushu.utfxml
+	${LN_S} $< $@
 
-${HOKKAIDO_HTML:%.html=%.utfhtml}: hokkaido.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${SHIKOKU_HTML:%.html=%.xml}: shikoku.xml
+	${LN_S} $< $@
 
-${TOHOKU_HTML}: tohoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -iso2022 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${SHIKOKU_HTML:%.html=%.utfxml}: shikoku.utfxml
+	${LN_S} $< $@
 
-${TOHOKU_HTML:%.html=%.utfhtml}: tohoku.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} \
-		-IN $< -XSL ${DEFAULT_XSL_UTF8} ${XSLT_PARAMS}
-	${SLEEP} 1
-	${HTML_FORMAT} -m -utf8 $@
-	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+${TOHOKU_HTML:%.html=%.xml}: tohoku.xml
+	${LN_S} $< $@
+
+${TOHOKU_HTML:%.html=%.utfxml}: tohoku.utfxml
+	${LN_S} $< $@

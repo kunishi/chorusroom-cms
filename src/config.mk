@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.40 2000/10/08 23:37:37 kunishi Exp $
+# $Id: config.mk,v 1.41 2000/10/09 17:06:17 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -59,6 +59,7 @@ XSLT_PARAMS+=	-param "imagedir" "'${IMAGEDIR}'" \
 		-param "bgimage" "'${BGIMG}'" \
 		-param "styledir" "'${STYLEDIR}'" \
 		-param "stylesheet" "'${CSSFILE}'"
+XSLT_OUT=	-out $@
 
 UTF2ASCII=	hutrans
 ASCII2EUC=	iconv -f utf-8 -t euc-jp
@@ -70,6 +71,7 @@ SYNC_TOOL=	rsync -au
 BASENAME=	basename
 CP=		cp
 ENV?=		env
+LN_S=		ln -s
 MV=		mv
 PERL?=		perl
 SLEEP=		sleep
