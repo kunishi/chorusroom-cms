@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
-<!ENTITY kunishi-email "kunishi@c.oka-pu.ac.jp">
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
@@ -32,7 +33,7 @@
       <li>[リンク集:合唱団:一般]<a href="http://member.nifty.ne.jp/AIZUKONSEI/" shape="rect">会津混声合唱団</a>(1998.8.5.)</li>
     </ul>
     <hr/>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp" shape="rect">KUNISHIMA Takeo/国島丈生</a></address>
-    $Date: 1999/08/14 01:19:55 $
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/14 02:09:20 $
   </body>
 </html>
