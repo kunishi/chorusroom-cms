@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2004/0221/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2004/0129/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2004/0111/links.html"/>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1221/links.html"/>
@@ -23,10 +24,22 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1025/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1025/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/concours.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2004/0221/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2004/0221/links.html</link>
+    <description>本業がたいへん忙しく、しばらく更新ができませんでした。
+    本日以下のリンクを更新しました: 男声合唱団Arteam(アーティーム) (一
+    般・東京都、新規)、アンサンブル・カーノ (一般・山梨県、変更)、国分
+    寺チェンバークワイア (一般・東京都、新規)、合唱団 響 (一般・東京都、
+    変更)、大久保混声合唱団 (一般・東京都、変更)、合唱団ロンド・ハルモ
+    ニア (一般・京都府、新規)、横浜ルミナス・コール (一般・神奈川県、
+    変更)、山形大学混声合唱団 (大学・山形県、変更)</description>
+    <dc:date>2004-02-21T15:49</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2004/0129/links.html">
     <title>本日のリンク更新</title>
