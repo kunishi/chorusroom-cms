@@ -10,32 +10,29 @@
     <h1>このサーバの紹介</h1>
     <p>以前は<a href="http://www.sgi.co.jp/">Silicon Graphics</a>の
       ワークステーション O2 だったのですが、<br>
-      <img src="images/pic00015.jpg" alt="Silicon Graphics O2."><br>
+      <img src="images/pic00015.jpg" alt="The Photo of Silicon Graphics O2."><br>
       どうも OS が不安定で、私が帰宅・帰省しているときに限って落ちると
       いう謎の現象がかなり頻繁に起こったため、予算的にめども立ったため、
       サーバの交換を行うことにしました。
     </p>
     <p>ただ、これ専用にワークステーションを用意するというのもイマイチ
       もったいないですし、普段使う計算機としては O2 はわりと気に入って
-      いるので、安上がりに PC を組み立て、UNIX を動かして使うことと
-      しました。<br>
+      いるので、PC を組み立て、UNIX を動かして使うこととしました。<br>
       <img src="images/pic00076.jpg" alt="The photo of this server."><br>
     </p>
     <p>使ったパーツは以下の通り。</p>
     <ul>
-      <li>マザーボード: GIGABYTE </li>
-      <li>CPU: Pentium II 400MHz</li>
-      <li>メモリ: 128MB</li>
-      <li>HDD: IBM (4.3GB SCSI)</li>
-      <li>SCSI ボード: Adaptec AHA2940AU</li>
+      <li>マザーボード: GIGABYTE GA-686BXC</li>
+      <li>CPU: Pentium-2 400MHz</li>
+      <li>メモリ: SDRAM128MB</li>
+      <li>HDD: IBM DDRS-34560U (4.3GB SCSI)</li>
+      <li>SCSI ボード: Adaptec AHA-2940AU</li>
       <li>グラフィックボード: ATI 3D Rage Pro 4MB</li>
-      <li>イーサネットボード: Intel </li>
-      <li>CD-ROM ドライヴ: </li>
-      <li>FD ドライヴ: </li>
-      <li>ケース: ElanVital </li>
-      <li>モニタ: Canon (??インチ液晶ディスプレイ)</li>
+      <li>イーサネットボード: Intel Ether Express 100Pro+ </li>
+      <li>ケース: ElanVital T-5AB</li>
+      <li>モニタ: Canon TD-13A01(13.3インチ液晶ディスプレイ)</li>
       <li>キーボード: PFU Happy Hacking Keyboard</li>
-      <li>マウス: Logitech Mouseman</li>
+      <li>マウス: Logitech Mouseman96 PS/2</li>
     </ul>
     <p>サーバ用途としてはずいぶんぜいたくな構成になってますが、これは、
       当初別の用途で Solaris 2.6 英語版(メディア代だけで購入できると
@@ -54,7 +51,7 @@
     <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
 <!-- Created: Wed Dec 16 00:28:09 JST 1998 -->
 <!-- hhmts start -->
-Last modified: Wed Dec 16 01:01:50 JST 1998
+Last modified: Wed Dec 16 11:21:40 JST 1998
 <!-- hhmts end -->
   </body>
 </html>
