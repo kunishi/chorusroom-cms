@@ -1,90 +1,154 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>KOVOX 97 Results</title>
-  </head>
-  <body>
-    <h1>KOVOX</h1>
-    <h2>第2回神戸ヴォーカルアンサンブルコンテスト</h2>
-    <dl>
-      <dt> 日時</dt>
-      <dd> 1997. 4. 6. (日)</dd>
-      <dt> 場所</dt>
-      <dd> 甲南女子大学芦原講堂</dd>
-      <dt> 審査員</dt>
-      <dd> 岩城恵一、浦山弘三、住吉武、平田勝、溝口真知子、吉村信良</dd>
-    </dl>
-    <p>
-      当日のプログラムその他の情報が
-      <a href="http://www.dtinet.or.jp/~minamoto/Jreiko/voice/kovox97.html" shape="rect">
-	ここ
-      </a>
-      にあります。
-    </p>
-    <hr/>
-    <h3>青少年の部</h3>
-    <h4>金賞</h4>
-    <ul>
-      <li> 芦屋少年少女合唱団</li>
-      <li> 県立東播磨高校合唱部</li>
-      <li> 県立神戸高校合唱部 美女達と野獣 All my lovin'</li>
-      <li> 県立北須磨高校合唱部 女声II</li>
-      <li> 甲南女子高校コーラス部 高1</li>
-      <li> 県立北須磨高校合唱部 女声I</li>
-    </ul>
-    <h4>銀賞</h4>
-    <ul>
-      <li> 松蔭中学校コーラス部 キティ</li>
-      <li> 赤穂市立赤穂東中学校音楽部</li>
-      <li> 松蔭中学校コーラス部 SHOIN C</li>
-      <li> 松蔭高校コーラス部 SHOIN A</li>
-      <li> 松蔭中学高校コーラス部 SHOIN B</li>
-      <li> 武庫川女子大附属中学校コーラス部</li>
-    </ul>
-    <h4>銅賞</h4>
-    <ul>
-      <li> 甲南女子中学コーラス部</li>
-      <li> 県立神戸高校合唱部 一休さん</li>
-      <li> 県立北須磨高校合唱部 混声</li>
-      <li> 松蔭中学校コーラス部 エンジェルズ</li>
-      <li> 神戸市立大沢中学校 Forever friends</li>
-    </ul>
-    <hr/>
-    <h3>一般の部</h3>
-    <h4>金賞</h4>
-    <ul>
-      <li> コールフィリア (埼玉)</li>
-      <li> ヤング・リーヴズ</li>
-      <li> 宝塚ゾリステン</li>
-    </ul>
-    <h4>銀賞</h4>
-    <ul>
-      <li> ヴォア・セレステ Voix Celeste</li>
-      <li> Groove TM アンサンブル あんだんて 女声</li>
-      <li> グレイス・コンソート</li>
-      <li> すもーるKOBE</li>
-    </ul>
-    <h4>銅賞</h4>
-    <ul>
-      <li> アンサンブル そっと・う″ぉーちぇ</li>
-      <li> ボイスフィールド・フロッグコーラス</li>
-      <li> Singher シンハー</li>
-      <li> コールひよどり</li>
-      <li> HALF&amp;TWICE</li>
-      <li> Street Corner Singers</li>
-      <li> 阪音会合唱団</li>
-    </ul>
-    <hr/>
-    <h3>総合順位</h3>
-    <ul>
-      <li> 総合1位: ヤング・リーヴズ</li>
-      <li> 総合2位: 県立神戸高校合唱部 美女達と野獣 All my lovin'</li>
-      <li> 総合3位: コールフィリア</li>
-    </ul>
-  </body>
-</html>
+<!DOCTYPE competition SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/contest-result-generic.dtd">
+<competition xmlns="http://www.chorusroom.org/xml">
+  <cvs-id>$Id: kovox-1997.xml,v 1.12 2001/01/03 07:00:30 kunishi Exp $</cvs-id>
+  <competition-name pref="false" area="false">第2回神戸ヴォーカルアンサンブルコンテスト(KOVOX)</competition-name>
+  <result output="kovox-1997">
+    <date day-of-week="sun" holiday="false">1997-04-06</date>
+    <hall>甲南女子大学芦原講堂</hall>
+    <referee shortname="岩城">岩城恵一</referee>
+    <referee shortname="浦山">浦山弘三</referee>
+    <referee shortname="住吉">住吉武</referee>
+    <referee shortname="平田">平田勝</referee>
+    <referee shortname="溝口">溝口真知子</referee>
+    <referee shortname="吉村">吉村信良</referee>
+    <reporter anonymous="false">
+      <reporter-name>国島丈生</reporter-name>
+      <reporter-email anonymous="false">kunishi@c.oka-pu.ac.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>青少年の部</section-name>
+      <choir>
+	<choir-name>芦屋少年少女合唱団</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir>
+	<choir-name>県立東播磨高校合唱部</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir>
+	<choir-name>県立神戸高校合唱部 美女達と野獣 All my lovin'</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>総合2位</special-prize>
+      </choir>
+      <choir>
+	<choir-name>県立北須磨高校合唱部 女声<cr:romanII/></choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir>
+	<choir-name>甲南女子高校コーラス部 高1</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir>
+	<choir-name>県立北須磨高校合唱部 女声<cr:romanI/></choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir>
+	<choir-name>松蔭中学校コーラス部 キティ</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>赤穂市立赤穂東中学校音楽部</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>松蔭中学校コーラス部 SHOIN C</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>松蔭高校コーラス部 SHOIN A</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>松蔭中学高校コーラス部 SHOIN B</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>武庫川女子大附属中学校コーラス部</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>甲南女子中学コーラス部</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>県立神戸高校合唱部 一休さん</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>県立北須磨高校合唱部 混声</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>松蔭中学校コーラス部 エンジェルズ</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>神戸市立大沢中学校 Forever friends</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般の部</section-name>
+      <choir>
+	<choir-name>コールフィリア</choir-name>
+	<prefecture>埼玉</prefecture>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>総合3位</special-prize>
+      </choir>
+      <choir>
+	<choir-name>ヤング・リーヴズ</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>総合1位</special-prize>
+      </choir>
+      <choir>
+	<choir-name>宝塚ゾリステン</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir>
+	<choir-name>ヴォア・セレステ Voix Celeste</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>Groove TM アンサンブル あんだんて 女声</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>グレイス・コンソート</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>すもーるKOBE</choir-name>
+	<prize nickname="silver">銀賞</prize>
+      </choir>
+      <choir>
+	<choir-name>アンサンブル そっと・う″ぉーちぇ</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>ボイスフィールド・フロッグコーラス</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>Singher シンハー</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>コールひよどり</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>HALF&amp;TWICE</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>Street Corner Singers</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+      <choir>
+	<choir-name>阪音会合唱団</choir-name>
+	<prize nickname="blonze">銅賞</prize>
+      </choir>
+    </section>
+  </result>
+</competition>
