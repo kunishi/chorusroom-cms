@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.19 2000/10/03 11:35:00 kunishi Exp $ -->
-<xsl:stylesheet version="1.0"
-		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns="http://www.w3.org/1999/xhtml">
+<!-- $Id: result-common.xsl,v 1.20 2000/10/04 06:44:38 kunishi Exp $ -->
+<xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:lxslt="http://xml.apache.org/xslt"
+  xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
+  xmlns="http://www.w3.org/1999/xhtml"
+  extension-element-prefixes="redirect">
+
+  <xsl:param name="output-encoding">euc-jp</xsl:param>
+  <xsl:param name="suffix">.html</xsl:param>
+  <xsl:param name="htmlsuffix">.html</xsl:param>
+  <xsl:param name="utfhtmlsuffix">.utfhtml</xsl:param>
+
+  <xsl:output
+    method="xml"
+    indent="yes"
+    encoding="euc-jp"
+    doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+    omit-xml-declaration="no"/>
 
   <xsl:template match="大会">
     <xsl:apply-templates select="開催日別結果"/>
   </xsl:template>
 
-  <!--
-   xsl:template match="開催日別結果" は、各 encoding 別 xsl ファイル
-   に定義されています。
-  -->    
+  <xsl:template match="開催日別結果">
+    <redirect:write file="{concat(@出力, $suffix)}">
+      <xsl:call-template name="main"/>
+    </redirect:write>
+    <xsl:if test=".//採点結果">
+      <redirect:write file="{concat(@出力, '-saiten', $suffix)}">
+        <xsl:call-template name="saiten"/>
+      </redirect:write>
+    </xsl:if>
+  </xsl:template>
 
   <xsl:template name="main">
     <xsl:element name="html">

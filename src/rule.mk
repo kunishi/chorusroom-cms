@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.24 2000/10/03 11:34:57 kunishi Exp $
+# $Id: rule.mk,v 1.25 2000/10/04 06:44:36 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -8,36 +8,25 @@
 
 ifndef SPECIAL_RULES
 %.html:	%.xml ${DEFAULT_XSL}
-ifdef USE_XALAN
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} -out $@
-else
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@
-endif
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
+	${XMLDECL_FIX} $@
 
 %.utfhtml: %.utfxml ${DEFAULT_XSL_UTF8}
-ifdef USE_XALAN
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@
-else
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
-endif
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
+	${XMLDECL_FIX} $@
 
 %.u8.html: %.utfxml ${DEFAULT_XSL_UTF8}
-ifdef USE_XALAN
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} -out $@
-else
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
-endif
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
+	${XMLDECL_FIX} $@
 
-ifdef USE_XALAN
 %.style: %.xsl
 	${ENV} ${JAVA_ENV} ${XSLT_COMPILER} -xsl $< -lxcout $@
-endif
 endif
 
 %.utfxml: %.xml

@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.37 2000/10/03 11:34:57 kunishi Exp $
+# $Id: config.mk,v 1.38 2000/10/04 06:44:35 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -37,15 +37,9 @@ JAVA_ENV+=	LD_LIBRARY_PATH=/usr/local/lib/shujit
 endif
 endif
 
-ifdef USE_XALAN
 XSLT_CLASSPATH=	${XALAN_CLASSPATH}
 XSLT_CLASS=	org.apache.xalan.xslt.Process
 XSLT_OPTS+=	-XML
-else
-JAVA_OPTS+=	-Dcom.jclark.xsl.sax.parser=org.apache.xerces.parsers.SAXParser
-XSLT_CLASSPATH=	${XT_CLASSPATH}
-XSLT_CLASS=	com.jclark.xsl.sax.Driver
-endif
 
 ifdef JDK_CLASSPATH
 CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}:${JDK_CLASSPATH}
@@ -54,9 +48,7 @@ CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}
 endif
 
 XSLT_PROC=	${JAVA} -classpath ${CLASSPATH} ${JAVA_OPTS} ${XSLT_CLASS} ${XSLT_OPTS}
-ifdef USE_XALAN
 XSLT_COMPILER=	${JAVA} -classpath ${CLASSPATH} ${JAVA_OPTS} ${XSLT_CLASS}
-endif
 
 UTF2ASCII=	hutrans
 ASCII2EUC=	iconv -f utf-8 -t euc-jp
@@ -64,17 +56,20 @@ EUC2JIS=	nkf
 HTML_FORMAT=	tidy -q -xml -asxml
 SYNC_TOOL=	rsync -au
 
+BASENAME=	basename
 CP=		cp
 ENV?=		env
+MV=		mv
 PERL?=		perl
+
 RELPATH!=	./
 INSTTOPDIR=	${LOCALBASE}/www/data/
 
-#IMAGEDIR=	${SRCTOPDIR}image
 IMAGEDIR=	/image
-#STYLEDIR=	${SRCTOPDIR}style
 STYLEDIR=	/style
 SCRIPTDIR=	${SRCTOPDIR}scripts
+
+XMLDECL_FIX=	${SCRIPTDIR}/fix-xmldecl-duplication.rb
 
 XHTML10_XSL=	${SRCTOPDIR}xhtml10.xsl
 XHTML10_XSL_UTF8=	${SRCTOPDIR}xhtml10-utf8.xsl

@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<xsl:stylesheet version="1.0"
-		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns:xt="http://www.jclark.com/xt"
-		xmlns="http://www.w3.org/1999/xhtml"
-		extension-element-prefix="xt">
-  <xsl:variable name="output-encoding">iso-2022-jp</xsl:variable>
+<xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xt="http://www.jclark.com/xt"
+  xmlns="http://www.w3.org/1999/xhtml"
+  extension-element-prefixes="xt">
+  <xsl:variable name="output-encoding">euc-jp</xsl:variable>
   <xsl:variable name="suffix">.html</xsl:variable>
-  <xsl:variable name="tmpsuffix">.jhtml</xsl:variable>
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
+  <xsl:output method="xml"
+    indent="yes"
+    encoding="euc-jp"
+    doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+    omit-xml-declaration="no"/>
 
   <xsl:template match="開催日別結果">
-    <xt:document method="xml"
-		 href="{concat(@出力, $tmpsuffix)}"
-		 encoding="euc-jp"
-		 doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
-                 omit-xml-declaration="yes">
+    <xt:document href="{concat(@出力, $suffix)}">
       <xsl:call-template name="main"/>
     </xt:document>
     <xsl:if test=".//採点結果">
-      <xt:document method="xml"
-		   href="{concat(@出力, '-saiten', $tmpsuffix)}"
-		   encoding="euc-jp"
-		   doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-                   doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
-                 omit-xml-declaration="yes">
+      <xt:document href="{concat(@出力, '-saiten', $suffix)}">
 	<xsl:call-template name="saiten"/>
       </xt:document>
     </xsl:if>

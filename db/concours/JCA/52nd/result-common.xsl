@@ -1,24 +1,50 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.14 2000/10/03 11:34:59 kunishi Exp $ -->
-<xsl:stylesheet version="1.0"
-		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns="http://www.w3.org/1999/xhtml">
+<!-- $Id: result-common.xsl,v 1.15 2000/10/04 06:44:36 kunishi Exp $ -->
+<xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:lxslt="http://xml.apache.org/xslt"
+  xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
+  xmlns="http://www.w3.org/1999/xhtml"
+  extension-element-prefixes="redirect">
+
+  <xsl:output
+    method="xml"
+    indent="yes"
+    encoding="euc-jp"
+    doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+    omit-xml-declaration="no"/>
+
+  <xsl:template match="/">
+    <xsl:apply-templates/>
+  </xsl:template>
+
   <xsl:template match="大会">
     <xsl:apply-templates select="開催日別結果"/>
   </xsl:template>
 
-  <!--
-   xsl:template match="開催日別結果" は、各 encoding 別 xsl ファイル
-   に定義されています。
-  -->    
+  <xsl:template match="開催日別結果">
+    <redirect:write file="{concat(@出力, $suffix)}">
+      <xsl:call-template name="main"/>
+    </redirect:write>
+    <xsl:if test=".//採点結果">
+      <redirect:write file="{concat(@出力, '-saiten', $suffix)}">
+        <xsl:call-template name="saiten"/>
+      </redirect:write>
+    </xsl:if>
+  </xsl:template>
 
   <xsl:template name="main">
     <xsl:element name="html">
+      <xsl:attribute name="xml:lang">
+        <xsl:text>ja</xsl:text>
+      </xsl:attribute>
       <xsl:element name="head">
+	<xsl:call-template name="additional-header"/>
 	<xsl:element name="title">
 	  <xsl:value-of select="/大会/大会名"/>
 	</xsl:element>
-	<xsl:call-template name="additional-header"/>
       </xsl:element>
       <xsl:element name="body">
 	<xsl:call-template name="encodinglink"/>
@@ -62,6 +88,12 @@
       </xsl:attribute>
     </xsl:element>
     <xsl:element name="style">
+      <xsl:attribute name="type">
+        <xsl:text>text/css</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="xml:space">
+        <xsl:text>preserve</xsl:text>
+      </xsl:attribute>
       <xsl:text>
 body { background-image: url(%%IMAGEDIR%%/background.png); }
       </xsl:text>
