@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-2000-common.xsl,v 1.10 1999/11/14 15:49:22 kunishi Exp $ -->
+<!-- $Id: jca-result-2000-common.xsl,v 1.11 1999/11/20 14:54:08 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -514,7 +514,7 @@
 
   <xsl:template match="構成曲番号">
     <xsl:value-of select="." />
-    <xsl:text>. </xsl:text>
+    <xsl:text> </xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>
