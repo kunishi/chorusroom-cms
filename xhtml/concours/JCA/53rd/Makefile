@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.21 2000/09/01 23:54:23 kunishi Exp $
+# $Id: Makefile,v 1.22 2000/09/02 01:12:09 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	iwate.html
@@ -35,24 +35,27 @@ SPECIAL_RULES=		yes
 
 include ${SRCTOPDIR}/rule.mk
 
-%.jhtml: %.xml ${RESULT_XSL_COMMON}
+%.jhtml: %.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
 %.html: %.jhtml
 	${ASCII2EUC} $< | ${EUC2JIS} > $@
+	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -iso2022 $@
 
-%.uhtml: %.utfxml ${RESULT_XSL_COMMON}
+%.uhtml: %.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 %.utfhtml: %.uhtml
-	${HTML_FORMAT} -utf8 < $< > $@
+	${CP} $< $@
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
 
 ###
 
-${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
-	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
-	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
+#${RESULT_XSL_COMMON}: ${RESULT_XSL_COMMON_IN}
+#	${CP} ${RESULT_XSL_COMMON_IN} ${RESULT_XSL_COMMON}
+#	${PATH_CONFIGURE} ${RESULT_XSL_COMMON}
 
 index.html:	%.html : %.xml ${XHTML10_XSL}
 	${XSLT_ENV} ${XSLT_PROC} $< ${XHTML10_XSL} | ${ASCII2EUC} | ${EUC2JIS} > $@

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl.in,v 1.21 2000/08/30 06:34:20 kunishi Exp $ -->
+<!-- $Id: jca-result-2000-common.xsl,v 1.18 2000/09/02 01:12:09 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
