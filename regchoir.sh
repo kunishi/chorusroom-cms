@@ -1,4 +1,4 @@
 #!/bin/sh
 
-RUBYLIB=prog/ruby; export RUBYLIB
-ruby prog/ruby/ChoirRegistManager.rb $*
+RUBYLIB=`dirname $0`/prog/ruby; export RUBYLIB
+ruby `dirname $0`/prog/ruby/ChoirRegistManager.rb $*
