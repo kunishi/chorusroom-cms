@@ -1,8 +1,9 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.18 2000/08/31 03:55:26 kunishi Exp $
+# $Id: Makefile,v 1.19 2000/08/31 11:41:07 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
+INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	aichi.html
 INSTFILES_HTML+=	ehime.html
 INSTFILES_HTML+=	fukuoka.html
