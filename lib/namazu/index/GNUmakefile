@@ -1,9 +1,19 @@
 #
-# $Id: GNUmakefile,v 1.4 2000/10/10 15:40:37 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2000/11/16 16:36:39 kunishi Exp $
 #
 
-INSTFILES_NOBUILD=	NMZ.head.en NMZ.head.ja NMZ.body.en NMZ.body.ja \
-			NMZ.foot.en NMZ.foot.ja
+INSTFILES_NOBUILD=	NMZ.body \
+			NMZ.body.ja \
+			NMZ.foot \
+			NMZ.foot.ja \
+			NMZ.head \
+			NMZ.head.ja \
+			NMZ.result.normal \
+			NMZ.result.normal.ja \
+			NMZ.result.short \
+			NMZ.result.short.ja \
+			NMZ.tips \
+			NMZ.tips.ja
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk

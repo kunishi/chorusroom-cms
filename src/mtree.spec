@@ -1,9 +1,11 @@
 #
-# $Id: mtree.spec,v 1.1 2000/11/13 11:28:00 kunishi Exp $
+# $Id: mtree.spec,v 1.2 2000/11/16 16:36:39 kunishi Exp $
 #
 /set type=dir uid=1001 gid=1001 mode=0755
 .
     ajcl
+    ..
+    conf
     ..
     concours
         JCA

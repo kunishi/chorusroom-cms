@@ -22,27 +22,26 @@
 		   font-weight: bold; }
 --></style>
 </head>
-<body lang="ja">
-<h1>Namazu による全文検索システム</h1>
+<body lang="en">
+<h1>Namazu a full text retrieval search system</h1>
 <p>
-現在、<!-- FILE --> 0 <!-- FILE --> の文書がインデックス化され、
-<!-- KEY --> 0 <!-- KEY --> 個のキーワードが登録されています。
+This index contains <!-- FILE --> 0 <!-- FILE --> documents and
+<!-- KEY --> 0 <!-- KEY --> keywords. 
 </p>
 <p>
-<strong>インデックスの最終更新日: <!-- DATE --> date <!-- DATE --></strong>
+<strong>Last modified: <!-- DATE --> date <!-- DATE --></strong>
 </p>
 <hr>
 <form method="get" action="{cgi}">
 <p>
-<strong>検索式:</strong> 
+<strong>Query:</strong> 
 <input type="text" name="query" size="40">
 <input type="submit" name="submit" value="Search!">
-<input type="hidden" name="whence" value="0">
 <!-- <input type="hidden" name="idxname" value="foobar"> -->
-<a href="{cgi}">[検索方法]</a>
+<a href="{cgi}">[How to search]</a>
 </p>
 <p>
-<strong>表示件数:</strong>
+<strong>Display:</strong>
 <select name="max">
 <option value="10">10
 <option selected value="20">20
@@ -50,29 +49,29 @@
 <option value="50">50
 <option value="100">100
 </select>
-<strong>表示形式:</strong>
+<strong>Description:</strong>
 <select name="result">
-<option selected value="normal">標準
-<option value="short">簡潔
+<option selected value="normal">normal
+<option value="short">short
 </select>
-<strong>ソート:</strong>
+<strong>Sort:</strong>
 <select name="sort">
-<option selected value="score">スコア
-<option value="date:late">日付 (新しい順)
-<option value="date:early">日付 (古い順)
-<option value="field:subject:ascending">題名 (昇順)
-<option value="field:subject:descending">題名 (降順)
-<option value="field:from:ascending">著者 (昇順)
-<option value="field:from:descending">著者 (降順)
-<option value="field:size:ascending">サイズ (昇順)
-<option value="field:size:descending">サイズ (降順)
-<option value="field:uri:ascending">URI (昇順)
-<option value="field:uri:descending">URI (降順)
+<option selected value="score">by score
+<option value="date:late">by date in late order
+<option value="date:early">by date in early order
+<option value="field:subject:ascending">by title in ascending order
+<option value="field:subject:descending">by title in descending order
+<option value="field:from:ascending">by author in ascending order
+<option value="field:from:descending">by author in descending order
+<option value="field:size:ascending">by size in descending order
+<option value="field:size:descending">by size in descending order
+<option value="field:uri:ascending">by URI in descending order
+<option value="field:uri:descending">by URI in descending order
 </select>
 </p>
 <!--
 <p>
-<strong>検索対象:</strong>
+<strong>Target:</strong>
 <ul>
 <li><input type="checkbox" name="idxname" value="foo" checked>foo 
 <li><input type="checkbox" name="idxname" value="bar">bar
@@ -81,4 +80,3 @@
 </p>
 -->
 </form>
-

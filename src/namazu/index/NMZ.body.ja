@@ -1,77 +1,164 @@
-<H2>$B8!:w$NJ}K!(B</H2>
+<h2><a name="query">¸¡º÷¼°</a></h2>
 
-<P>
-$BBgJ8;z!">.J8;z$N6hJL$O$"$j$^$;$s!#(B<VAR>foo*</VAR> $B$N$h$&$KKvHx$K%"%9%?%j%9%/$r;XDj$9$k$3$H$GA0J}0lCW8!:w$,2DG=$G$9!#$^$?!"C18l$r%9%Z!<%96h@Z$j$GJB$Y$F=q$/$H%"%s%I8!:w$K$J$j$^$9!#F|K\8l$O(B KAKASI/ChaSen $B$K$h$C$FJ,2r$5$l!"!VF|K\8l>pJs=hM}!W$J$i(B $B!VF|K\8l!W(B $B!V>pJs=hM}!W(B $B$N$h$&$K(B 2 $B$D$NC18l$KJ,$+$l$F%"%s%I8!:w$5$l$^$9!#F|K\8l$NC18l$NJ,2r$O40A4$G$O$"$j$^$;$s!#IJ<A$O<-=q$K$h$C$F7hDj$5$l$^$9!#(B
-</P>
+<h3><a name="query-term">Ã±°ìÃ±¸ì¸¡º÷</a></h3>
+<p>
+Ä´¤Ù¤¿¤¤Ã±¸ì¤ò°ì¤Ä»ØÄê¤¹¤ë¤À¤±¤Î¤â¤Ã¤È¤â´ðËÜÅª¤Ê¸¡º÷¼êË¡¤Ç¤¹¡£
+Îã: 
+</p>
 
-<P>
-$BA43Q(B (2 bytes) $B%"%k%U%!%Y%C%H!&5-9f$O$9$Y$F(B 1 byte $B$H$7$F=hM}$5$l$^$9!#5-9f$r4^$`8!:w$b2DG=$G(B <CODE>TCP/IP</CODE> $B$H$$$&$h$&$JC18l$N8!:w$b2DG=$G$9!#$?$@$7!"5-9f$N=hM}$O40A4$G$O$J$$$N$G(B <CODE>TCP IP</CODE> $B$N$h$&$KJ,$1$F%"%s%I8!:w$r$+$1$?J}$,<h$j$3$\$7$,$"$j$^$;$s(B ($B$=$NBe$o$jM>7W$J%U%!%$%k$^$G%R%C%H$7$F$7$^$&2DG=@-$b$"$j$^$9$,(B)$B!#(B
-</P>
+<p class="example">
+namazu
+</p>
 
-<P>
-$B3g8L$r4^$a$?%"%s%I8!:w$H%*%"8!:w$*$h$S%N%C%H8!:w$,2DG=$K$J$C$F$*$j8!:w<0$K(B <CODE>&amp;  |  ! ( )</CODE> $B$rMQ$$$^$9!#5-9f$NBe$o$j$K(B <CODE>and/or/not</CODE> $B$G;XDj$9$k$3$H$b2DG=$G$9!#(B
-$B8!:w<0$O$R$H$D$E$D%9%Z!<%96h@Z$j$GF~NO$7$J$1$l$P$J$j$^$;$s!#(B
-$B$?$H$($P(B
-</P>
+<h3><a name="query-and">AND¸¡º÷</a></h3> 
 
-<UL>
-<LI><CODE>( sed | awk ) ! perl &amp; regexp</CODE>
-<LI><CODE>( sed or awk ) not perl and regexp</CODE>
-</UL>
+<p>
+¤¢¤ëÃ±¸ì¤È¤¢¤ëÃ±¸ì¤ÎÎ¾Êý¤ò´Þ¤àÊ¸½ñ¤ò¸¡º÷¤·¤Þ¤¹¡£¸¡º÷·ë²Ì¤ò¹Ê
+¤ê¹þ¤à¤Î¤ËÍ­¸ú¤Ç¤¹¡£3¤Ä°Ê¾å¤ÎÃ±¸ì¤ò»ØÄê¤¹¤ë¤³¤È¤â²ÄÇ½¤Ç¤¹¡£
+Ã±¸ì¤ÈÃ±¸ì¤Î´Ö¤Ë <code class="operator">and</code> ¤òÁÞ¤ß¤Þ¤¹¡£Îã:
+</p>
 
-<P>
-$B$N$h$&$K;XDj$7$^$9!#(B
-</P>
+<p class="example">Linux and Netscape</p>
+
+<p>
+<code class="operator">and</code> ¤Ï¾ÊÎ¬¤Ç¤­¤Þ¤¹¡£Ã±¸ì¤ò¶õÇò¤Ç¶èÀÚ¤Ã¤ÆÍåÎó¤¹
+¤ë¤È¤½¤ì¤é¤Î¸ì¤¹¤Ù¤Æ¤ò´Þ¤àÊ¸½ñ¤òAND¸¡º÷¤·¤Þ¤¹¡£
+</p>
+
+<h3><a name="query-or">OR¸¡º÷</a></h3>
+<p>
+¤¢¤ëÃ±¸ì¤È¤¢¤ëÃ±¸ì¤Î¤É¤Á¤é¤«¤ò´Þ¤àÊ¸½ñ¤ò¸¡º÷¤·¤Þ¤¹¡£3¤Ä°Ê¾å
+¤ÎÃ±¸ì¤ò»ØÄê¤¹¤ë¤³¤È¤â²ÄÇ½¤Ç¤¹¡£Ã±¸ì¤ÈÃ±¸ì¤Î´Ö¤Ë 
+<code class="operator">or</code> ¤òÁÞ¤ß¤Þ¤¹¡£Îã: 
+</p>
+
+<p class="example">
+Linux or FreeBSD
+</p>
+
+<h3><a name="query-not">NOT¸¡º÷</a></h3>
+<p>
+¤¢¤ëÃ±¸ì¤ò´Þ¤ß¡¢¤¢¤ëÃ±¸ì¤ò´Þ¤Þ¤Ê¤¤Ê¸½ñ¤ò¸¡º÷¤·¤Þ¤¹¡£3¤Ä°Ê¾å
+¤ÎÃ±¸ì¤ò»ØÄê¤¹¤ë¤³¤È¤â²ÄÇ½¤Ç¤¹¡£Ã±¸ì¤ÈÃ±¸ì¤Î´Ö¤Ë 
+<code class="operator">not</code> ¤òÁÞ¤ß¤Þ¤¹¡£Îã: 
+</p>
+
+<p class="example">
+Linux not UNIX
+</p>
+
+<h3><a name="query-grouping">¥°¥ë¡¼¥×²½</a></h3>
+<p>
+AND¸¡º÷¡¢OR¸¡º÷¡¢NOT¸¡º÷¤ò³ç¸Ì¤Ç¥°¥ë¡¼¥×²½¤Ç¤­¤Þ¤¹¡£³ç¸Ì¤ÎÎ¾
+ÎÙ¤Ë¤Ï¶õÇò¤òÆþ¤ì¤ëÉ¬Í×¤¬¤¢¤ê¤Þ¤¹¡£Îã:
+</p>
+
+<p class="example">
+( Linux or FreeBSD ) and Netscape not Windows
+</p>
+
+<h3><a name="query-phrase">¥Õ¥ì¥¤¥º¸¡º÷</a></h3>
+<p>
+2¸ì°Ê¾å¤«¤é¤Ê¤ëÊ£¹ç¸ì¤ò¸¡º÷¤·¤Þ¤¹¡£ <code
+class="operator">"..."</code> ¤È2½Å°úÍÑÉä¤Ç¡¢¤¢¤ë¤¤¤Ï <code
+class="operator">{...}</code> ¤ÈÃæ³ç¸Ì¤Ç°Ï¤ß¤Þ¤¹¡£Namazu¤Î¥Õ
+¥ì¥¤¥º¸¡º÷¤ÏÀºÅÙ¤¬ 100 % ¤Ç¤Ï¤Ê¤¤¤¿¤á¡¢¤È¤­¤É¤­¸í¤ë¤³¤È¤¬¤¢
+¤ê¤Þ¤¹¡£Îã: </p>
+
+<p class="example">
+{GNU Emacs}
+</p>
+
+<!-- foo
+<p>
+Tknamazu ¤ª¤è¤Ó namazu.el ¤«¤é¸¡º÷¤¹¤ë¤È¤­¤ÏÉ¬¤º¸å¼Ô¤Ç»ØÄê¤·¤Þ¤¹¡£
+</p>
+-->
+
+<h3><a name="query-substring">ÉôÊ¬°ìÃ×¸¡º÷</a></h3>
+<p>
+ÉôÊ¬°ìÃ×¸¡º÷¤Ë¤ÏÁ°Êý°ìÃ×¡¢Ãæ´Ö°ìÃ×¡¢¸åÊý°ìÃ×¤Î 3¼ïÎà¤¬¤¢¤ê¤Þ¤¹¡£
+</p>
+
+<dl> 
+<dt>Á°Êý°ìÃ×¸¡º÷
+<dd><code class="example">inter*</code>
+(<code>inter</code> ¤«¤é»Ï¤Þ¤ëÃ±¸ì¤ò´Þ¤àÊ¸½ñ¤ò¸¡º÷)
+<dt>Ãæ´Ö°ìÃ×¸¡º÷
+<dd><code class="example">*text*</code>
+(<code>text</code> ¤òÆâÊñ¤¹¤ëÃ±¸ì¤ò´Þ¤àÊ¸½ñ¤ò¸¡º÷)
+<dt>¸åÊý°ìÃ×¸¡º÷
+<dd><code class="example">*net</code>
+(<code>net</code> ¤Ç½ª¤ï¤ëÃ±¸ì¤ò´Þ¤àÊ¸½ñ¤ò¸¡º÷)
+</dl>
 
 
-<P>
-$B$3$l$O!V(B sed $B$^$?$O(B awk $B$,4^$^$l!"(Bperl $B$O4^$^$l$J$$!"$=$7$F(B regexp $B$,4^$^$l$k!WJ8=q$r8!:w$9$k$H$$$&0UL#$K$J$j$^$9!#(B
-$B3g8L$N%M%9%H$b$G$-$k$N$G!"$5$i$KJ#;($J8!:w<0$G8!:w$9$k$3$H$b2DG=$G$9!#(B
-</P>
+<h3><a name="query-regex">Àµµ¬É½¸½¸¡º÷</a></h3>
 
-<P>$B%U%l!<%:$r%@%V%k%/%)!<%F!<%7%g%s$^$?$OCf3g8L(B '{' '}' $B$G0O$`$3$H(B
-$B$G%U%l!<%:8!:w$,$G$-$^$9!#$?$@$7!"@:EY$O(B 100%$B$G$O$"$j$^$;$s!#$H$-(B
-$B$I$-$O$:$l$^$9!#$?$H$($P(B</P>
+<p>
+¸¡º÷¤¹¤ë¥­¡¼¥ï¡¼¥É¤òÀµµ¬É½¸½¤Ç»ØÄê¤·¤Þ¤¹¡£Àµµ¬É½¸½¤Ï 
+<code class="operator">/.../</code> ¤Î¤è¤¦¤Ë¥¹¥é¥Ã¥·¥åµ­¹æ¤Ç°Ï¤ß¤Þ¤¹¡£Àµµ¬É½
+¸½¤Î¥¨¥ó¥¸¥ó¤Ë¤Ï<a
+href="http://www.ruby-lang.org/">Ruby</a>¤Î¥³¡¼¥É¤òÍøÍÑ
+¤·¤Æ¤¤¤Þ¤¹¡£Àµµ¬É½¸½¤Î½ñ¼°¤Ï<a
+href="http://www.perl.com/">Perl</a>¤È¤Û¤ÜÆ±¤¸¤Ç¤¹¡£ Îã:
+</p>
 
-<UL>
-<LI><CODE>"SIMPLE MAIL TRANSFER PROTOCOL"</CODE>
-<LI><CODE>{SIMPLE MAIL TRANSFER PROTOCOL}</CODE>
-</UL>
+<p class="example">
+/¥¤¥ó¥¿¡¼?¥Õ¥§[¥¤¡¼]¥¹/
+</p>
 
-<P>
-$B$N$h$&$K;XDj$7$^$9!#(B
-</P>
 
-<P>$B@55,I=8=$*$h$SCf4V0lCW(B/$B8eJ}0lCW$N8!:w$b2DG=$G$9!#$?$@$7$A$g$C$H(B
-$BCY$$$G$9!#$3$l$OF|K\8l$b;H$($^$9!#(B</P>
+<h3><a name="query-field">¥Õ¥£¡¼¥ë¥É»ØÄê¤Î¸¡º÷</a></h3>
+<p>
+<code>Subject:</code>, <code>From:</code>,
+<code>Message-Id:</code> ¤È¤¤¤Ã¤¿¥Õ¥£¡¼¥ë¥É¤ò»ØÄê¤·¤Æ¸¡
+º÷¤¹¤ë¼êË¡¤Ç¤¹¡£ÆÃ¤ËMail/News ¤Î¥Õ¥¡¥¤¥ë¤ò°·¤¦ºÝ¤Ë¸ú²Ì¤òÈ¯´ø
+¤·¤Þ¤¹¡£Îã:
+</p>
 
-<UL>
-<LI><CODE>*$BBg3X(B</CODE> ($B8eJ}0lCW(B)
-<LI><CODE>*$B%M%C%H(B*</CODE>  ($BCf4V0lCW(B)
-<LI><CODE>/$B%$%s%?!<(B?$B%U%'(B[$B!<%$(B]$B%9(B/</CODE>  ($B@55,I=8=(B)
-<LI><CODE>"$B@E2,8)IM>>;T(B"</CODE>  ($B%U%l!<%:(B)
-</UL>
+<ul>
+<li><code class="example">+subject:Linux</code><br>
+(Subject: ¤Ë <code>Linux</code>¤¬´Þ¤Þ¤ì¤ëÊ¸½ñ)
+<li><code class="example">+subject:"GNU Emacs"</code><br>
+(Subject: ¤Ë <code>GNU Emacs</code>¤¬´Þ¤Þ¤ì¤ëÊ¸½ñ)
+<li><code class="example">+from:foo@bar.jp</code><br>
+(From: ¤Ë <code>foo@bar.jp</code> ¤¬´Þ¤Þ¤ì¤ëÊ¸½ñ)
+<li><code class="example">+message-id:&lt;199801240555.OAA18737@foo.bar.jp&gt;</code><br>
+(Message-Id ¤ò»ØÄê)
+</ul>
 
-<P>
-$B$N$h$&$K;XDj$7$^$9!#(B
-</P>
+<h3><a name="query-notes">ÆÃµ­»ö¹à</a></h3>
 
-<P>$B%U%#!<%k%I;XDj$N8!:w$r9T$&$3$H$,$G$-$^$9(B ($B%U%#!<%k%I8!:wMQ$N%$(B
-$B%s%G%C%/%9$,:n$C$F$"$l$P(B) $BF|K\8l$b;H$($^$9!#(B</P>
+<ul>
+<li>¤¤¤º¤ì¤Î¸¡º÷ÊýË¡¤Ç¤â¥¢¥ë¥Õ¥¡¥Ù¥Ã¥È¤ÎÂçÊ¸»ú¡¦¾®Ê¸»ú¤Î¶èÊÌ
+¤Ï¤·¤Þ¤»¤ó¡£
 
-<UL>
-<LI><CODE>+date:/Aug 1998/</CODE> (1998$BG/(B 8$B7n$N$b$N(B)
-<LI><CODE>+from:foo@bar.jp</CODE>  ($B:9=P?M$,(B foo@bar.jp)
-<LI><CODE>+subject:"internet message"</CODE>  (Subject:$B$rJ8;zNs$G8!:w(B)
-<LI><CODE>+subject:{internet message}</CODE>  ($B>e$HF1$8(B)
-<LI><CODE>+subject:/(mule|xemacs|emacs)/</CODE>  (Subject:$B$r@55,I=8=$G8!:w(B)
-<LI><CODE>+message-id:&lt;199801240555.OAA18737@foo.bar.jp&gt;</CODE>  (Message-Id)
-<LI><CODE>+title:amarok</CODE>  ($BJ8=q$N%?%$%H%k(B)
-<LI><CODE>+author:foo@bar.jp</CODE>  ($BJ8=q$NCx<T(B)
-<LI><CODE>+url:http://foo.bar.jp/</CODE>  ($BJ8=q$N(BURL)
-</UL>
+<li>ÆüËÜ¸ì¤ÎÊ£¹ç¸ì¤Ï·ÁÂÖÁÇÃ±°Ì¤ËÊ¬³ä¤·¡¢¤½¤ì¤é¤ò<a
+href="#query-phrase"> ¥Õ¥ì¥¤¥º¸¡º÷</a>¤·¤Þ¤¹¡£Ê¬³ä¤ÏÉÔÅ¬ÀÚ¤Ë
+¹Ô¤Ê¤ï¤ì¤ë¤³¤È¤¬¤¢¤ê¤Þ¤¹¡£
 
-<P>
-$B$N$h$&$K;XDj$7$^$9!#(B
-</P>
+<li>JIS X 0208 (¤¤¤ï¤æ¤ëÁ´³ÑÊ¸»ú) ¤Î±Ñ¿ô»ú¤Èµ­¹æ¤Î°ìÉô 
+(ASCII¤È½ÅÊ£¤·¤Æ¤¤¤ë¤â¤Î) ¤Ï ASCII (¤¤¤ï¤æ¤ëÈ¾³ÑÊ¸»ú) ¤È¤·¤Æ
+½èÍý¤µ¤ì¤Þ¤¹¡£
 
+<li>µ­¹æ¤ò´Þ¤à¸ì¤Î¸¡º÷¤¬¤Ç¤­¤Þ¤¹¡£Îã: <code>TCP/IP</code>¡£
+¤¿¤À¤·¡¢µ­¹æ¤Î½èÍý¤Ï´°Á´¤Ç¤Ï¤Ê¤¤¤Î¤Ç <code>TCP and IP</code> 
+¤Î¤è¤¦¤ËÊ¬³ä¤·¤Æ<a href="#query-and">AND¸¡º÷</a>¤ò¤«¤±¤¿Êý¤¬¼è¤ê¤³
+¤Ü¤·¤¬¤¢¤ê¤Þ¤»¤ó (¤½¤ÎÂå¤ï¤êÍ¾·×¤Ê¥Õ¥¡¥¤¥ë¤Þ¤Ç¥Ò¥Ã¥È¤·¤Æ¤·¤Þ
+¤¦²ÄÇ½À­¤¬¤¢¤ê¤Þ¤¹)¡£
+
+<li>Ãæ´Ö°ìÃ×¡¦¸åÊý°ìÃ×¡¢Àµµ¬É½¸½¡¢¥Õ¥£¡¼¥ë¥É»ØÄê¤Î¸¡º÷¤Ë¤Ï¾¯
+¤·»þ´Ö¤¬¤«¤«¤ê¤Þ¤¹¡£
+
+<li><code class="operator">and</code>, <code
+class="operator">or</code>, <code
+class="operator">not</code> ¤òÃ±¸ì¤È¤·¤Æ¸¡º÷¤·¤¿¤¤¤È¤­¤Ï¤½¤ì
+¤¾¤ì¡¢ <code class="operator">"..."</code> ¤È2½Å°úÍÑÉä¤Ç¡¢
+¤¢¤ë¤¤¤Ï <code class="operator">{...}</code> ¤ÈÃæ³ç¸Ì¤Ç°Ï¤ß¤Þ¤¹¡£ 
+
+<!-- foo
+Tknamazu ¤ª¤è¤Ó namazu.el ¤«¤é¸¡º÷¤¹¤ë¤È¤­¤ÏÉ¬¤º¸å¼Ô¤Ç»ØÄê¤·¤Þ¤¹¡£
+-->
+
+</ul>

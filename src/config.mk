@@ -1,6 +1,10 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.43 2000/10/22 14:11:11 kunishi Exp $
+# $Id: config.mk,v 1.44 2000/11/16 16:36:38 kunishi Exp $
 #
+
+PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
+PUBLIC_DIR=	/usr/home/www/data/
+TOP_URL=	http://psi.c.oka-pu.ac.jp/chorusRoom/
 
 LOCALBASE=	/usr/local
 ifdef USE_JDK11
@@ -43,6 +47,17 @@ else
 CLASSPATH=	${XSLT_CLASSPATH}:${XERCES_CLASSPATH}
 endif
 
+ifeq (${USE_NAMAZU1},yes)
+NAMAZU_SRC=	/usr/local/namazu/bin/namazu
+NAMAZU_INSTDIR=	${INSTTOPDIR}
+GCNMZ=		/usr/local/namazu/bin/gcnmz
+else
+NAMAZU_SRC=	/usr/local/libexec/namazu.cgi
+NAMAZU_INSTDIR=	/usr/local/www/cgi-bin/
+GCNMZ=		/usr/local/bin/gcnmz
+endif
+NAMAZU_INDEX_DIR=	/usr/local/var/namazu/index/
+
 DEFAULT_CSS=	default.css
 DEFAULT_BGIMG=	background.png
 
@@ -75,6 +90,7 @@ ENV?=		env
 LN_S=		ln -s
 MV=		mv
 PERL?=		perl
+SED=		sed
 SLEEP=		sleep
 TOUCH=		touch
 

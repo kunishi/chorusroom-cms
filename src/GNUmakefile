@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.47 2000/11/09 07:34:02 kunishi Exp $
+# $Id: GNUmakefile,v 1.48 2000/11/16 16:36:38 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -26,6 +26,7 @@ INSTFILES_NOBUILD+=	panaMusica-map.txt \
 
 SUBDIR+=	ajcl \
 		concours \
+		conf \
 		hml \
 		image \
 		links \
@@ -37,12 +38,6 @@ SUBDIR+=	ajcl \
 
 include ${SRCTOPDIR}config.mk
 include ${SRCTOPDIR}rule.mk
-
-PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
-PUBLIC_DIR=	/usr/local/www/data/
-
-NAMAZU_SRC=	/usr/local/namazu/bin/namazu
-NAMAZU_INDEX_DIR=	${INSTTOPDIR}namazu/index/
 
 .PHONY: index gcindex upload
 
@@ -57,18 +52,23 @@ info-note2.html: override TIDY_ENCODING=-ascii
 robots.txt:	conf/robots.txt
 	${CP} $< $@
 
-install-namazu:	${INSTTOPDIR}search.cgi
-
-${PUBLIC_DIR}search.cgi:	${NAMAZU_SRC}
-	cp ${NAMAZU_SRC} ${INSTTOPDIR}search.cgi
-
-index:
-	cd ${NAMAZU_INDEX_DIR} && mknmz "" "${INSTTOPDIR}"
-
-gcindex:
-	cd ${NAMAZU_INDEX_DIR} && /usr/local/namazu/bin/gcnmz
-
 upload:
 	rsync -Cavu -e ssh --exclude="search.cgi" \
 	  ${INSTTOPDIR} ${PUBLIC_SERVER}:${PUBLIC_DIR}
 
+### targets only for maintenance.
+
+install-namazu:	${INSTTOPDIR}search.cgi
+
+${PUBLIC_DIR}search.cgi:	${NAMAZU_SRC}
+	cp ${NAMAZU_SRC} ${NAMAZU_INSTDIR}search.cgi
+
+index:
+ifeq (${USE_NAMAZU1},yes)
+	cd ${NAMAZU_INDEX_DIR} && mknmz "" "${INSTTOPDIR}"
+else
+	mknmz -O ${NAMAZU_INDEX_DIR} ${INSTTOPDIR}
+endif
+
+gcindex:
+	cd ${NAMAZU_INDEX_DIR} && ${GCNMZ}

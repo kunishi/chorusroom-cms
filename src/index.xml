@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.49 2000/11/05 08:20:44 kunishi Exp $ -->
+<!-- $Id: index.xml,v 1.50 2000/11/16 16:36:38 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -63,7 +63,7 @@
       </p>
     </div>
     <div class="topic">
-      <h2><a href="search.cgi" shape="rect">全文検索システム</a></h2>
+      <h2><a href="/cgi-bin/namazu.cgi" shape="rect">全文検索システム</a></h2>
       <p>
 	「合唱の部屋」内のページに対する全文検索システムを公開します。
       </p>
