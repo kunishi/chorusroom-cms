@@ -47,7 +47,7 @@
 <!ELEMENT 部門名 (#PCDATA)>
 <!ELEMENT 団体 (団体名, 所属県?, 形態?, 登録人数?, 指揮者*, 共演者*, 賞*, 特別賞*, 曲目?)>
 <!ATTLIST 団体
-          出演順 #IMPLIED
+          出演順 CDATA #IMPLIED
           大会代表 (yes) #IMPLIED
           来年度シード (yes) #IMPLIED>
 <!ELEMENT 団体名 (#PCDATA)>
