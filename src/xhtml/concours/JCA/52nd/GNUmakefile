@@ -1,43 +1,47 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.41 1999/11/01 09:38:05 kunishi Exp $
+# $Id: GNUmakefile,v 1.42 1999/11/20 21:56:48 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
 UTFTOEUC=	hutrans | tcs -f utf -t ujis
 EUCTOJIS=	nkf
 
-INSTFILES+=	index.html index.utfhtml
-INSTFILES+=	aichi.html aichi.utfhtml
-INSTFILES+=	chiba.html chiba.utfhtml
-INSTFILES+=	chubu-09-25.html chubu-09-25.utfhtml \
-		chubu-09-25-saiten.html chubu-09-25-saiten.utfhtml \
-		chubu-09-26.html chubu-09-26.utfhtml \
-		chubu-09-26-saiten.html chubu-09-26-saiten.utfhtml
-INSTFILES+=	chugoku.html chugoku.utfhtml
-INSTFILES+=	fukuoka.html fukuoka.utfhtml
-INSTFILES+=	fukushima.html fukushima.utfhtml
-INSTFILES+=	hokkaido.html hokkaido.utfhtml \
-		hokkaido-saiten.html hokkaido-saiten.utfhtml
-INSTFILES+=	hyogo.html hyogo.utfhtml
-INSTFILES+=	kagoshima.html kagoshima.utfhtml
-INSTFILES+=	kanagawa.html kanagawa.utfhtml
-INSTFILES+=	kansai-09-23.html kansai-09-23.utfhtml
-INSTFILES+=	kansai-09-23-saiten.html kansai-09-23-saiten.utfhtml
-INSTFILES+=	kansai-10-17.html kansai-10-17.utfhtml \
-		kansai-10-17-saiten.html kansai-10-17-saiten.utfhtml
-INSTFILES+=	kansai-10-24.html kansai-10-24.utfhtml
-INSTFILES+=	kanto.html kanto.utfhtml \
-		kanto-saiten.html kanto-saiten.utfhtml
-INSTFILES+=	kyushu.html kyushu.utfhtml
-INSTFILES+=	mie.html mie.utfhtml
-INSTFILES+=	miyagi.html miyagi.utfhtml
-INSTFILES+=	shizuoka.html shizuoka.utfhtml
-INSTFILES+=	tohoku.html tohoku.utfhtml
-INSTFILES+=	yamagata.html yamagata.utfhtml
-INSTFILES+=	highschool-1999-10-30.html highschool-1999-10-30.utfhtml
-INSTFILES+=	highschool-1999-10-31.html highschool-1999-10-31.utfhtml
+NATIONAL_HTML=	highschool-1999-10-30.html \
+		highschool-1999-10-31.html \
+		national-1999-11-20.html \
+		national-1999-11-21.html
+
+CHUBU_HTML=	chubu-09-25.html chubu-09-25-saiten.html \
+		chubu-09-26.html chubu-09-26-saiten.html
+
+KANSAI_HTML=	kansai-09-23.html kansai-09-23-saiten.html \
+		kansai-10-17.html kansai-10-17-saiten.html \
+		kansai-10-24.html
+
+INSTFILES_HTML+=	index.html
+INSTFILES_HTML+=	aichi.html
+INSTFILES_HTML+=	chiba.html
+INSTFILES_HTML+=	${CHUBU_HTML}
+INSTFILES_HTML+=	chugoku.html
+INSTFILES_HTML+=	fukuoka.html
+INSTFILES_HTML+=	fukushima.html
+INSTFILES_HTML+=	hokkaido.html hokkaido-saiten.html
+INSTFILES_HTML+=	hyogo.html
+INSTFILES_HTML+=	kagoshima.html
+INSTFILES_HTML+=	kanagawa.html
+INSTFILES_HTML+=	${KANSAI_HTML}
+INSTFILES_HTML+=	kanto.html kanto-saiten.html
+INSTFILES_HTML+=	kyushu.html
+INSTFILES_HTML+=	mie.html
+INSTFILES_HTML+=	miyagi.html
+INSTFILES_HTML+=	shizuoka.html
+INSTFILES_HTML+=	tohoku.html
+INSTFILES_HTML+=	yamagata.html
+INSTFILES_HTML+=	${NATIONAL_HTML}
+
+INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
 
 include ${SRCTOPDIR}/config.mk
 
@@ -64,22 +68,22 @@ index.html: %.html : %.xml ${XHTML10_XSL}
 index.utfhtml: %.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${MAKE_ENV} ${XSLT_PROC} $< ${XHTML10_XSL_UTF8} > $@
 
-chubu-09-25.html chubu-09-26.html:	chubu.xml
+${CHUBU_HTML}:	chubu.xml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-chubu-09-25.utfhtml chubu-09-26.utfhtml:	chubu.utfxml
+${CHUBU_HTML:%.html=%.utfhtml}:	chubu.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
-kansai-09-23.html kansai-10-17.html kansai-10-24.html:	kansai.xml
+${KANSAI_HTML}:	kansai.xml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-kansai-09-23.utfhtml kansai-10-17.utfhtml kansai-10-24.utfhtml:	kansai.utfxml
+${KANSAI_HTML:%.html=%.utfhtml}:	kansai.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
-highschool-1999-10-30.html highschool-1999-10-31.html: national.xml
+${NATIONAL_HTML}: national.xml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL}
 
-highschool-1999-10-30.utfhtml highschool-1999-10-31.utfhtml: national.utfxml
+${NATIONAL_HTML:%.html=%.utfhtml}: national.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
 
 ## dummy target.
