@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.11 2002/06/18 15:22:14 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.12 2002/09/24 09:03:13 kunishi Exp $ -->
 
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -39,11 +39,13 @@
       </xsl:attribute>
     </link>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <!-- 
     <style type="text/css" xml:space="preserve">
       <xsl:text>body { background-image: url(</xsl:text>
       <xsl:value-of select="concat($imagedir, '/', $bgimage)"/>
       <xsl:text>); }</xsl:text>
     </style>
+    -->
   </xsl:template>
 
   <xsl:template name="footer">
