@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.45 2000/06/11 16:13:38 kunishi Exp $
+# $Id: GNUmakefile,v 1.46 2000/08/04 02:22:05 kunishi Exp $
 
 UTFTOEUC=	hutrans | tcs -f utf -t ujis
 EUCTOJIS=	nkf
@@ -34,6 +34,7 @@ INSTFILES_HTML+=	kanto.html kanto-saiten.html
 INSTFILES_HTML+=	kyushu.html
 INSTFILES_HTML+=	mie.html
 INSTFILES_HTML+=	miyagi.html
+INSTFILES_HTML+=	nagano.html
 INSTFILES_HTML+=	shimane-junior.html shimane-senior.html
 INSTFILES_HTML+=	shizuoka.html
 INSTFILES_HTML+=	tohoku.html
