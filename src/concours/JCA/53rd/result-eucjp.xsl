@@ -14,7 +14,8 @@
 		 href="{concat(@出力, $suffix)}"
 		 encoding="euc-jp"
 		 doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+                 omit-xml-declaration="yes">
       <xsl:call-template name="main"/>
     </xt:document>
     <xsl:if test=".//採点結果">
@@ -22,7 +23,8 @@
 		   href="{concat(@出力, '-saiten', $suffix)}"
 		   encoding="euc-jp"
 		   doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-                   doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+                   doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+                   omit-xml-declaration="yes">
 	<xsl:call-template name="saiten"/>
       </xt:document>
     </xsl:if>
