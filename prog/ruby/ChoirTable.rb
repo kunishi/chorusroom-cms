@@ -66,7 +66,8 @@ class ChoirTable
 
 end
 
-ct = ChoirTable.create('localhost', 'root', 'chorusroom2706')
+# ct = ChoirTable.create('localhost', 'root', 'chorusroom2706')
+ct = ChoirTable.create('localhost', 'root', '')
 
 ARGV.each {
   |entry|

@@ -3,7 +3,7 @@ USE chorusroom;
 
 CREATE TABLE choir (
        urn VARCHAR(20) PRIMARY KEY,
-       name VARCHAR(40) NOT NULL,
+       name VARCHAR(100) NOT NULL,
        url VARCHAR(100) NOT NULL,
        pref ENUM(
        	    '北海道',
