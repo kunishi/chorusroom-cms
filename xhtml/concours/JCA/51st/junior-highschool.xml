@@ -1,13 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: junior-highschool.xml,v 1.5 1999/05/24 03:03:47 kunishi Exp $ -->
+    <!-- $Id: junior-highschool.xml,v 1.6 1999/08/24 11:04:11 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Junior High School</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
-
   <body>
     <h1>第51回全日本合唱コンクール全国大会中学校部門</h1>
     <dl>
@@ -26,7 +30,7 @@
       <dd>Masayoshi Omura さん (ohmura@tnr.smc.yamaha.co.jp)</dd>
       <dd>山本直和さん (naoya118@seagreen.ocn.ne.jp)</dd>
     </dl>
-    <hr>
+    <hr/>
     <h2>混声合唱の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -168,7 +172,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>同声合唱の部</h2>
     <h3>金賞</h3>
     <ul>
@@ -325,11 +329,9 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sun Nov  8 12:21:39 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Sun Nov 15 23:06:51 JST 1998
-<!-- hhmts end -->
+    $Date: 1999/08/24 11:04:11 $
   </body>
 </html>

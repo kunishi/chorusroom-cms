@@ -1,13 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
   <head>
-    <!-- $Id: hokkaido1.xml,v 1.5 1998/12/10 10:34:50 kunishi Exp $ -->
+    <!-- $Id: hokkaido1.xml,v 1.6 1999/08/24 10:50:12 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Hokkaido (Part 1)</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
   </head>
-
   <body>
     <h1>第49回北海道合唱コンクール中学校・高等学校部門(第51回全日本合唱コンクール北海道支部大会中学校・高等学校部門)</h1>
     <dl>
@@ -34,12 +38,12 @@
       <dt>情報提供者</dt>
       <dd>山本直和さん (naoya118@seagreen.ocn.ne.jp)</dd>
     </dl>
-    <hr>
+    <hr/>
     <p>
       ◎が全国大会出場団体です。
       また、団体名冒頭の( )の中の数字は当日発表順です。
     </p>
-    <hr>
+    <hr/>
     <h2>高等学校部門・A</h2>
     <h3>金賞</h3>
     <ul>
@@ -85,7 +89,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>高等学校部門・B</h2>
     <h3>金賞</h3>
     <ul>
@@ -109,7 +113,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>中学校部門・混声</h2>
     <h3>金賞</h3>
     <ul>
@@ -194,7 +198,7 @@
 	</ul>
       </li>
     </ul>
-    <hr>
+    <hr/>
     <h2>中学校部門・同声</h2>
     <h3>金賞</h3>
     <ul>
@@ -303,11 +307,9 @@
 	</ul>
       </li>
     </ul>
-    <hr>
-    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Tue Sep 15 11:52:08 JST 1998 -->
-<!-- hhmts start -->
-Last modified: Thu Dec 10 19:34:16 JST 1998
-<!-- hhmts end -->
+    $Date: 1999/08/24 10:50:12 $
   </body>
 </html>
