@@ -8,7 +8,7 @@ class ChoirTable
   TABLE = 'choir'
 
   def ChoirTable.create()
-    ChoirTable.create('localhost', 'root', 'chorusroom2706')
+    ChoirTable.create('localhost', 'chorusroom', 'pizzetti')
   end
 
   def ChoirTable.create(host, user, passwd)
@@ -19,10 +19,9 @@ class ChoirTable
   end
 
   def update(c)
-    schema = 'urn,name,url,prefecture,type,kind,comment,created'
+    schema = 'urn,name,url,pref,type,kind,comment,created'
     tuple =
-      [c.urn, c.name, c.url, Pref.name(c.pref), c.type, 
-      c.kind, c.comment].map { |v|
+      [c.urn, c.name, c.url, c.pref, c.type, c.kind, c.comment].map { |v|
         sprintf("'%s'", (v != nil ? Mysql.quote(v): ""))
       }.join(",")
     if ((ans = get(c.urn)).num_rows() == 0)
