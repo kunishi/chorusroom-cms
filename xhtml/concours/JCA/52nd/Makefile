@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.21 1999/09/14 11:43:09 kunishi Exp $
+# $Id: Makefile,v 1.22 1999/09/19 02:38:33 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -16,6 +16,7 @@ INSTFILES+=	fukuoka.html
 INSTFILES+=	fukushima.html
 INSTFILES+=	hyogo.html
 INSTFILES+=	kagoshima.html
+INSTFILES+=	kanagawa.html
 INSTFILES+=	mie.html
 INSTFILES+=	miyagi.html
 INSTFILES+=	shizuoka.html
