@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.9 2001/01/09 10:12:18 kunishi Exp $
+# $Id: GNUmakefile,v 1.10 2001/07/24 04:58:04 kunishi Exp $
 #
 
 USE_NEW_SCHEME=	yes
@@ -15,6 +15,7 @@ SUBDIR+=	50th
 SUBDIR+=	51st
 SUBDIR+=	52nd
 SUBDIR+=	53rd
+SUBDIR+=	54th
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
