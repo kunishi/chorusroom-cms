@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.17 2001/10/03 15:16:19 kunishi Exp $
+# $Id: GNUmakefile,v 1.18 2001/10/14 22:49:32 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -32,7 +32,7 @@ INSTFILES_UTF8=		${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
 INSTFILES+=	${INSTFILES_TRADITIONAL} ${INSTFILES_UTF8}
 
-KANSAI_HTML=	kansai-2001-09-23.html
+KANSAI_HTML=	kansai-2001-09-23.html kansai-2001-10-14.html
 REDIRECT_HTML=	${KANSAI_HTML}
 
 WITH_SCORE=	true
