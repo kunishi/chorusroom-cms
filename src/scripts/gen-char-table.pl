@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id: gen-char-table.pl,v 1.2 2000/12/22 06:07:48 kunishi Exp $
+# $Id: gen-char-table.pl,v 1.3 2001/01/09 10:12:22 kunishi Exp $
 
 use strict;
 use vars qw(%entity_tab @docbook_ents
@@ -39,7 +39,7 @@ $local_ent_dir = $ENV{'HOME'} . "/cvs/xml/www/chorusRoom/tech/";
 &construct_symbol_table();
 
 &print_xml_decl;
-print '<characters>' . "\n";
+print '<characters xmlns="http://www.chorusroom.org/character">' . "\n";
 
 open(DOCBK_ENT, @ARGV[0])
   || print STDERR "cannot open @ARGV[0]";
@@ -116,7 +116,7 @@ sub print_char_entry($$$) {
 	$alternative = "[$1]";
     }
     print '<character ' .
-	  "utf8-encoding=\"$2\" " .
+	  "utf8-codepoint=\"$2\" " .
 	  "nickname=\"$1\" " .
 	  "description=\"$3\" " .
 	  "alternative=\"$alternative\"" .

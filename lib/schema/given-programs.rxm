@@ -26,7 +26,7 @@
   <elementRule role="givenProgram">
     <sequence>
       <ref label="givenProgramNumber"/>
-      <importedLabelRef label="choirPiece"/>
+      <importedLabelRef label="choirPiece" occurs="+"/>
     </sequence>
   </elementRule>
 

@@ -1,6 +1,8 @@
 # 
-# $Id: GNUmakefile,v 1.3 2000/10/10 15:40:38 kunishi Exp $
+# $Id: GNUmakefile,v 1.4 2001/01/09 10:12:19 kunishi Exp $
 # 
+
+USE_NEW_SCHEME=	yes
 
 INSTFILES+=	choir.html \
 		index.html \

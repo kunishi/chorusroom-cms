@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: nhk-contest-result.src.xsl,v 1.2 2001/01/03 08:23:12 kunishi Exp $ -->
+<!-- $Id: nhk-contest-result.src.xsl,v 1.3 2001/01/09 10:12:29 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -17,6 +17,8 @@
   <xsl:param name="output-base">index</xsl:param>
   <xsl:param name="suffix"/>
 
+  <xsl:variable name="givenProgramList" select="document(givenPrograms.xml)"/>
+
   <xsl:include href="character.xsl"/>
   <xsl:include href="contest-result-choir-piece.xsl"/>
   <xsl:include href="dummy-char-conv.xsl"/>
@@ -30,8 +32,14 @@
   </xsl:template>
 
   <xsl:template match="cr:given-program">
+    <xsl:variable name="number" select="@number"/>
     <li>
-      <xsl:value-of select="*[namespace-uri()='http://www.chorusroom.org/piece']"/>
+      <xsl:if test="$givenProgramList">
+	<xsl:apply-templates select="$givenProgramList/cr:givenProgram[./cr:givenProgramNumber=$number]/p:*"/>
+      </xsl:if>
+      <xsl:if test="not($givenProgramList)">
+	<xsl:value-of select="*[namespace-uri()='http://www.chorusroom.org/piece']"/>
+      </xsl:if>
       <xsl:call-template name="piece-players-list"/>
     </li>
   </xsl:template>

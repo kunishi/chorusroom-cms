@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:r="http://www.chorusroom.org/resource">
   <head>
     <title>全日本合唱コンクール結果報告に関するお願い</title>
   </head>
@@ -19,8 +15,7 @@
     <h2>情報の書式に関して</h2>
     <p>
       「べた書きテキスト」「報告用テンプレートファイルを用いる」のいず
-      れかの方法で情報をお書きいただいた上、<a
-      href="mailto:&kunishi-email;" shape="rect">国島</a>までメールで
+      れかの方法で情報をお書きいただいた上、国島(<r:resourceRef name="maintainerEmail"/>)までメールで
       お送り下さい。
     </p>
     <p>

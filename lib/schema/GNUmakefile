@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile,v 1.4 2001/01/03 12:32:58 kunishi Exp $
+# $Id: GNUmakefile,v 1.5 2001/01/09 10:12:16 kunishi Exp $
 #
 
 GEN_DTDS_NONS=	char-table.dtd
@@ -7,7 +7,8 @@ GEN_DTDS_NS=	contest-result-generic.dtd \
 		jca-comp-result.dtd \
 		nhk-contest-result.dtd \
 		xhtml1-chorusroom.dtd \
-		given-programs.dtd
+		given-programs.dtd \
+		resource.dtd
 GEN_RELAX_MODULES=	characters.rxm
 
 all:
@@ -24,12 +25,15 @@ nhk-contest-result.dtd:	nhk-contest-result.rxg
 	relaxer -dtd -validation:none -tagPrefix:-,p,cr $<
 
 xhtml1-chorusroom.dtd:	xhtml1-chorusroom.rxg
-	relaxer -dtd -validation:none -tagPrefix:-,cr $<
+	relaxer -dtd -validation:none -tagPrefix:-,cr,r $<
 
 given-programs.dtd:	given-programs.rxg
 	relaxer -dtd -validation:none -tagPrefix:-,p,cr $<
 
 char-table.dtd:	char-table.rxm
+	relaxer -dtd $<
+
+resource.dtd:	resource.rxm
 	relaxer -dtd $<
 
 characters.rxm:	../tech/all-chars.xml

@@ -1,9 +1,11 @@
 # 
-# $Id: GNUmakefile,v 1.50 2001/01/01 01:56:11 kunishi Exp $
+# $Id: GNUmakefile,v 1.51 2001/01/09 10:12:14 kunishi Exp $
 #
 
 RELPATH=	# ./
 SRCTOPDIR=	# ./
+
+USE_NEW_SCHEME=	yes
 
 INSTFILES+=	CDShop.html \
 		asian960518.html \
@@ -51,13 +53,13 @@ info-note2.html: override TIDY_ENCODING=-ascii
 robots.txt:	conf/robots.txt
 	${CP} $< $@
 
-pre-all::
-	cd tech &&
-	  ${MAKE} pre-all RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../
-	cd xsl &&
-	  ${MAKE} pre-all RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../
-	cd DTD &&
-	  ${MAKE} pre-all RELPATH=${RELPATH}$${dir}/ SRCTOPDIR=${SRCTOPDIR}../
+pre-all:
+	cd tech && \
+	  ${MAKE} -I$(shell pwd) pre-all RELPATH=${RELPATH}tech/ SRCTOPDIR=${SRCTOPDIR}../
+	cd xsl && \
+	  ${MAKE} -I$(shell pwd) pre-all RELPATH=${RELPATH}xsl/ SRCTOPDIR=${SRCTOPDIR}../
+	cd DTD && \
+	  ${MAKE} -I$(shell pwd) pre-all RELPATH=${RELPATH}DTD/ SRCTOPDIR=${SRCTOPDIR}../
 
 upload:
 	rsync -Cavu -e ssh --exclude="search.cgi" \

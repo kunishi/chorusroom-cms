@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 
-<!-- $Id: common.xsl,v 1.4 2001/01/03 06:38:58 kunishi Exp $ -->
+<!-- $Id: common.xsl,v 1.5 2001/01/09 10:12:29 kunishi Exp $ -->
 
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -9,9 +9,10 @@
 		xmlns:cr="http://www.chorusroom.org/xml"
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:char="http://www.chorusroom.org/character"
+		xmlns:r="http://www.chorusroom.org/resource"
 		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
-		exclude-result-prefixes="cr p char">
+		exclude-result-prefixes="cr p char r">
 
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
@@ -20,13 +21,21 @@
   <xsl:param name="styledir">/style</xsl:param>
   <xsl:param name="stylesheet">default.css</xsl:param>
 
+  <xsl:variable name="maintainerName" select="document('../DTD/resource.xml')/r:resources/r:resource[@name='maintainerName']/@value"/>
+  <xsl:variable name="maintainerJName" select="document('../DTD/resource.xml')/r:resources/r:resource[@name='maintainerJName']/@value"/>
+  <xsl:variable name="maintainerEmail" select="document('../DTD/resource.xml')/r:resources/r:resource[@name='maintainerEmail']/@value"/>
+
   <xsl:template name="additional-header">
     <link type="text/css" rel="stylesheet">
       <xsl:attribute name="href">
         <xsl:value-of select="concat($styledir, '/', $stylesheet)"/>
       </xsl:attribute>
     </link>
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made"/>
+    <link rev="made">
+      <xsl:attribute name="href">
+	<xsl:value-of select="concat('mailto:',$maintainerEmail)"/>
+      </xsl:attribute>
+    </link>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
     <style type="text/css" xml:space="preserve">
       <xsl:text>body { background-image: url(</xsl:text>
@@ -45,19 +54,27 @@
     <hr/>
     <div class="footer">
       <address>
-        <a href="mailto:kunishi@c.oka-pu.ac.jp">
+        <a>
+	  <xsl:attribute name="href">
+	    <xsl:value-of select="concat('mailto:', $maintainerEmail)"/>
+	  </xsl:attribute>
           <xsl:choose>
             <xsl:when test="$output-encoding='iso-8859-1'">
-              <xsl:text>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+	      <xsl:value-of select="$maintainerName"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:text>国島丈生 &lt;kunishi@c.oka-pu.ac.jp&gt;</xsl:text>
+	      <xsl:value-of select="$maintainerJName"/>
             </xsl:otherwise>
           </xsl:choose>
+	  <xsl:text> &lt;</xsl:text>
+	  <xsl:value-of select="$maintainerEmail"/>
+	  <xsl:text>&gt;</xsl:text>
         </a>
       </address>
       <p>
-        <xsl:text>Copyright (C) 2000,2001 Takeo Kunishima.  All rights reserved.</xsl:text>
+        <xsl:text>Copyright (C) 2000,2001 </xsl:text>
+	<xsl:value-of select="$maintainerName"/>
+	<xsl:text>.  All rights reserved.</xsl:text>
       </p>
       <xsl:call-template name="additional-footer"/>
     </div>

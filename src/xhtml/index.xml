@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.53 2001/01/01 01:43:07 kunishi Exp $ -->
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xml:lang="ja" lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<!-- $Id: index.xml,v 1.54 2001/01/09 10:12:15 kunishi Exp $ -->
+<!DOCTYPE html SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml1-chorusroom.dtd">
+<html xml:lang="ja" lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:r="http://www.chorusroom.org/resource">
   <head>
     <title xml:lang="en">Chorus Room</title>
   </head>
@@ -43,8 +39,7 @@
       <p>
 	合唱関係の WWW ページへのリンクを集めています。
 	リンクを張ってほしいという方は
-	<a href="mailto:&kunishi-email;" shape="rect">私</a>まで
-	御連絡ください。
+	国島(<r:resourceRef name="maintainerEmail"/>)までご連絡ください。
       </p>
     </div>
     <div class="topic">

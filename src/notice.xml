@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: notice.xml,v 1.6 2000/10/08 23:37:38 kunishi Exp $ -->
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- $Id: notice.xml,v 1.7 2001/01/09 10:12:15 kunishi Exp $ -->
+<!DOCTYPE html SYSTEM "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml1-chorusroom.dtd">
+<html lang="ja" xml:lang="ja" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:r="http://www.chorusroom.org/resource">
   <head>
     <title>「合唱の部屋」ご利用に際して</title>
   </head>
@@ -20,7 +16,7 @@
     <hr/>
     <h2>「合唱の部屋」のページ構成について</h2>
     <p>
-      トップページ(&chorusroom-topurl;)以外のページ構成は予告なく変更
+      トップページ(<r:resourceRef name="topURL"/>)以外のページ構成は予告なく変更
       することがあります。
     </p>
     <p>
