@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
-<!-- $Id: choir-piece.rxm,v 1.12 2001/08/19 14:16:47 kunishi Exp $ -->
+<!-- $Id: choir-piece.rxm,v 1.13 2001/09/06 02:42:48 kunishi Exp $ -->
 <!DOCTYPE module PUBLIC "-//RELAX//DTD RELAX Core 1.0//JA" "/home/kunishi/share/xml/relax/relaxCore.dtd">
-<module moduleVersion="1.0" relaxCoreVersion="1.0" targetNamespace="http://www.chorusroom.org/piece" xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
+<module moduleVersion="1.0"
+  relaxCoreVersion="1.0"
+  targetNamespace="http://www.chorusroom.org/piece"
+  xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
   <interface>
     <export label="piece"/>
     <export label="suite"/>
