@@ -1,4 +1,4 @@
-# $Id: GNUmakefile,v 1.6 2001/08/29 14:39:33 kunishi Exp $
+# $Id: GNUmakefile,v 1.7 2001/09/05 05:05:41 kunishi Exp $
 
 USE_NEW_SCHEME=		yes
 
@@ -10,6 +10,7 @@ INSTFILES_TRADITIONAL=	chiba.html \
 			kagoshima.html \
 			nagasaki.html \
 			oita.html \
+			okayama.html \
 			okinawa.html \
 			saga.html
 
