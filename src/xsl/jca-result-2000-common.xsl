@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
+<!-- $Id: jca-result-2000-common.xsl,v 1.9 1999/11/14 01:29:57 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -476,10 +477,10 @@
     <xsl:if test="@抜粋 = 'yes'">
       <xsl:text>から</xsl:text>
     </xsl:if>
-    <xsl:apply-templates select="組曲ピース"/>
+    <xsl:apply-templates select="構成曲"/>
   </xsl:template>
 
-  <xsl:template match="組曲ピース">
+  <xsl:template match="構成曲">
     <xsl:apply-templates select="ピース曲名"/>
   </xsl:template>
 
@@ -497,7 +498,7 @@
       <xsl:apply-templates select="../訳詩"/>
       <xsl:text>)</xsl:text>
     </xsl:if>
-    <xsl:if test="../following-sibling::組曲ピース">
+    <xsl:if test="../following-sibling::構成曲">
       <xsl:text></xsl:text>
     </xsl:if>
   </xsl:template>
