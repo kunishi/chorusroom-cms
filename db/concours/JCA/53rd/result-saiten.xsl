@@ -82,13 +82,13 @@
     <xsl:element name="tr">
       <xsl:choose>
 	<xsl:when test="../賞[.='金賞']"> 
-	  <xsl:attribute name="bgcolor">gold</xsl:attribute>
+	  <xsl:attribute name="bgcolor">#ffff99</xsl:attribute>
 	</xsl:when>
 	<xsl:when test="../賞[.='銀賞']">
 	  <xsl:attribute name="bgcolor">silver</xsl:attribute>
 	</xsl:when>
 	<xsl:when test="../賞[.='銅賞']">
-	  <xsl:attribute name="bgcolor">#ffccaa</xsl:attribute>
+	  <xsl:attribute name="bgcolor">#ffcc99</xsl:attribute>
 	</xsl:when>
       </xsl:choose>
       <xsl:element name="td">
@@ -114,6 +114,7 @@
     <xsl:element name="td">
       <xsl:attribute name="rowspan">1</xsl:attribute>
       <xsl:attribute name="colspan">1</xsl:attribute>
+      <xsl:attribute name="align">right</xsl:attribute>
       <xsl:value-of select="."/>
     </xsl:element>
   </xsl:template>
@@ -122,6 +123,7 @@
     <xsl:element name="td">
       <xsl:attribute name="rowspan">1</xsl:attribute>
       <xsl:attribute name="colspan">1</xsl:attribute>
+      <xsl:attribute name="align">right</xsl:attribute>
       <xsl:value-of select="."/>
     </xsl:element>
   </xsl:template>
