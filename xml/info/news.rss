@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/chubu.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/kanto.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/links.html"></rdf:li>
@@ -26,6 +27,15 @@
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1006/chubu.html">
+    <title>第56回中部合唱コンクールの曲目掲載</title>
+    <link>http://www.chorusroom.org/info/2003/1006/chubu.html</link>
+    <description>
+      第56回中部合唱コンクールの結果に演奏曲目を追加しました。
+    </description>
+    <dc:date>2003-10-06</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1006/links.html">
     <title>リンク集の更新</title>
