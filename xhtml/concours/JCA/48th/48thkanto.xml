@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>The Results of 48th AJCL Chorus Contest Kanto</title>
   </head>
   <body>
@@ -299,11 +300,8 @@
 	  <li> 山梨県庁木星会(山梨・混)</li>
 	</ul></li>
     </ul>
-
-    <hr/>
-    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/02/06 13:44:04 $
+    $Date: 2000/08/26 02:15:52 $
   </body>
  </html>

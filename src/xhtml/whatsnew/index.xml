@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
@@ -7,7 +8,7 @@
   <head>
     <title>Chorus Room/What's new past logs</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>新着情報</h1>
@@ -53,6 +54,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
     <!-- Created: Sun Sep 20 10:27:11 JST 1998 -->
-    $Id: index.xml,v 1.30 2000/08/03 06:22:01 kunishi Exp $
+    $Id: index.xml,v 1.31 2000/08/26 02:16:24 kunishi Exp $
   </body>
 </html>

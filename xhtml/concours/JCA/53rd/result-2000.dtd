@@ -2,7 +2,7 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.35 2000/08/25 08:31:34 kunishi Exp $
+  $Id: result-2000.dtd,v 1.36 2000/08/26 02:16:09 kunishi Exp $
   -->
 
 <![%utfdoc;[
@@ -28,7 +28,7 @@
 %SpecialCharacterEnts;
 
 <!ENTITY % global-ent SYSTEM
-   "file://home/kunishi/cvs/xml/www/chorusRoom/DTD/global.ent">
+   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/global.ent">
 %global-ent;
 
 <!ENTITY % LanguageCode "CDATA">

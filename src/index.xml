@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
@@ -95,6 +96,6 @@
     </div>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a> &lt;&kunishi-email;&gt;</address>
     <hr/>
-    <p>$Id: index.xml,v 1.41 2000/08/25 15:35:47 kunishi Exp $</p>
+    <p>$Id: index.xml,v 1.42 2000/08/26 02:15:48 kunishi Exp $</p>
   </body>
 </html>

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.9 2000/08/12 01:17:57 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.10 2000/08/26 02:16:16 kunishi Exp $ -->
     <title>Links Page/Concour</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
-    <h1><a href="../../" shape="rect">合唱の部屋</a>:<a href="../" shape="rect">リンク集</a>:コンクール</h1>
+    <h1><a href="../" shape="rect">リンク集</a>:コンクール</h1>
     <ul>
       <li><a href="http://tokyo.cool.ne.jp/nishi/news.html" shape="rect">合唱コンクール大会結果データベース</a> 色々な合唱コンクールの結果やプログラムを掲載した、データベースのページです。検索もできます。</li>
       <li><a href="http://www2.tbs.co.jp/radio/kodomo/" shape="rect">こども音楽コンクール</a></li>
@@ -24,6 +25,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/12 01:17:57 $
+    $Date: 2000/08/26 02:16:16 $
   </body>
 </html>

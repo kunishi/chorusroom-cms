@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.46 2000/08/04 02:37:46 kunishi Exp $ -->
-<!DOCTYPE html SYSTEM "../../xhtml-chorusroom.dtd" [
+<!-- $Id: index.xml,v 1.47 2000/08/26 02:16:08 kunishi Exp $ -->
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>52nd Concours of Japan Choral Association</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
       ここのところ本業が忙しくて開設が遅れましたが、今年もやります。み
       なさまの情報提供をお待ちしております。なお、情報提供してやろうと
       いう方は<a href="../info-note.html" shape="rect">コンクール情報
-      提供の方法</a>、および<a href="../../info-note.html" shape="rect">私からのお願い</a>のページをご一読下さい。
+      提供の方法</a>、および<a href="%%TOPDIR%%/info-note.html" shape="rect">私からのお願い</a>のページをご一読下さい。
     </p>
     <hr/>
     <h2>全国大会開催日程</h2>
@@ -117,6 +118,6 @@
     </dl>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Date: 2000/08/04 02:37:46 $</p>
+    <p>$Date: 2000/08/26 02:16:08 $</p>
   </body>
 </html>

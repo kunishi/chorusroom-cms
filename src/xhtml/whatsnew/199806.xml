@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
@@ -7,7 +8,7 @@
   <head>
     <title>Chorus Room/What's new in 1998/06</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>What's new in 1998/06</h1>
@@ -35,6 +36,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/02/06 13:45:05 $
+    $Date: 2000/08/26 02:16:22 $
   </body>
 </html>

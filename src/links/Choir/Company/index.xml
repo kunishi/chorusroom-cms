@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.14 2000/08/03 12:21:32 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.15 2000/08/26 02:16:13 kunishi Exp $ -->
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>Links Page to Other Choirs/Company</title>
   </head>
   <body>
-    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">合唱団</a>:職場</h1>
+    <h1><a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">合唱団</a>:職場</h1>
     <ul>
       <li>茨城県
 	<ul>
@@ -67,6 +68,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/03 12:21:32 $
+    $Date: 2000/08/26 02:16:13 $
   </body>
 </html>

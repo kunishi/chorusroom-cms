@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: choir.xml,v 1.16 2000/08/25 07:40:07 kunishi Exp $ -->
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <!-- $Id: choir.xml,v 1.17 2000/08/26 02:16:11 kunishi Exp $ -->
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>HML Links: Choirs</title>
   </head>
@@ -158,6 +159,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/25 07:40:07 $
+    $Date: 2000/08/26 02:16:11 $
   </body>
 </html>

@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.18 1999/12/18 14:27:24 kunishi Exp $
+# $Id: rule.mk,v 1.19 2000/08/26 02:15:48 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent
@@ -9,9 +9,13 @@
 ifndef SPECIAL_RULES
 %.html:	%.xml
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} > $@
+	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
+			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
 
 %.utfhtml: %.utfxml
 	${ENV} ${XSLT_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
+	${PERL} -pi -e "s@%%TOPDIR%%@${SRCTOPDIR}@g; \
+			s@%%STYLEDIR%%@${STYLEDIR}@g;" $@
 endif
 
 %.utfxml: %.xml

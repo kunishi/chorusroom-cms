@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/Links:Person</title>
   </head>
@@ -17,6 +18,6 @@
     <h2><a href="Misc/" shape="rect">いろいろ</a></h2>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/05/10 05:16:01 $
+    $Date: 2000/08/26 02:16:20 $
   </body>
 </html>

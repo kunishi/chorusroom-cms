@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>51st All Japan Chorus Contest/Yamanashi</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -425,6 +425,6 @@ o	  <th rowspan="1" colspan="1">3. 白根町立白根御勅使中学校合唱団</th>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sat Sep 26 00:47:17 JST 1998 -->
-    $Date: 2000/02/06 13:44:38 $
+    $Date: 2000/08/26 02:16:08 $
   </body>
 </html>

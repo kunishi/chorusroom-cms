@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: chugoku.xml,v 1.11 2000/02/06 13:44:27 kunishi Exp $ -->
+    <!-- $Id: chugoku.xml,v 1.12 2000/08/26 02:16:03 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Chugoku</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>第37回中国合唱コンクール</h1>
@@ -979,6 +979,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
     <!-- Created: Mon Sep 28 23:13:47 JST 1998 -->
-    $Date: 2000/02/06 13:44:27 $
+    $Date: 2000/08/26 02:16:03 $
   </body>
 </html>

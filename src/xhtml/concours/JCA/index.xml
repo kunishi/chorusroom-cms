@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE html SYSTEM
-  "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
@@ -8,7 +8,7 @@
   <head>
     <title>Japan Choral Association Concours</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>全日本合唱コンクールのページ</h1>
@@ -31,7 +31,7 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Revision: 1.13 $
-    $Date: 2000/08/25 09:08:22 $ GMT
+    $Revision: 1.14 $
+    $Date: 2000/08/26 02:15:50 $ GMT
   </body>
 </html>

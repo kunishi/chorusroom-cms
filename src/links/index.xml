@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.10 2000/02/06 13:44:44 kunishi Exp $ -->
+    <!-- $Id: index.xml,v 1.11 2000/08/26 02:16:12 kunishi Exp $ -->
     <title>Links about Chorus Music</title>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>合唱関係のリンク集</h1>
@@ -54,9 +55,9 @@
     <h2><a href="Library/" shape="rect">ライブラリ</a></h2>
     <h2><a href="Concour/" shape="rect">コンクール</a></h2>
     <hr/>
-    [ <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
+    [ <a href="%%TOPDIR%%/" shape="rect">「合唱の部屋」ホームページ</a> ]
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/02/06 13:44:44 $
+    $Date: 2000/08/26 02:16:12 $
   </body>
 </html>

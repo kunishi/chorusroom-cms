@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <title>KOVOX 97 Results</title>
   </head>
   <body>
@@ -89,6 +90,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a>&lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-      $Id: kovox-1997.xml,v 1.7 2000/02/06 13:43:57 kunishi Exp $
+      $Id: kovox-1997.xml,v 1.8 2000/08/26 02:16:10 kunishi Exp $
   </body>
 </html>

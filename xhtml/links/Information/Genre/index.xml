@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: index.xml,v 1.18 2000/02/06 13:44:54 kunishi Exp $ -->
-    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
+    <!-- $Id: index.xml,v 1.19 2000/08/26 02:16:17 kunishi Exp $ -->
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/Links:Information:Genre</title>
   </head>
   <body>
-    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">情報</a>:分野</h1>
+    <h1><a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">情報</a>:分野</h1>
     <ul>
       <li><a href="http://www.inged.org/home.html" shape="rect">10,000 Volkslieder, German and other Folksongs</a> 世界の民謡に関するページ。英語ほか。</li>
       <li><a href="http://homepage1.nifty.com/amabile/childrenschoir.html" shape="rect">児童合唱頁</a> 山本哲さん。</li>
@@ -37,6 +38,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    Last modified: $Date: 2000/02/06 13:44:54 $
+    Last modified: $Date: 2000/08/26 02:16:17 $
   </body>
 </html>

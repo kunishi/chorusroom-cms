@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: kansai1.xml,v 1.8 2000/02/06 13:44:32 kunishi Exp $ -->
+    <!-- $Id: kansai1.xml,v 1.9 2000/08/26 02:16:05 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Kansai (Part I)</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>第53回関西合唱コンクール中学校・高等学校部門(第51回全日本合唱コンクール関西支部大会中学校・高等学校部門)</h1>
@@ -275,6 +275,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Mon Sep 21 21:18:51 JST 1998 -->
-    $Date: 2000/02/06 13:44:32 $
+    $Date: 2000/08/26 02:16:05 $
   </body>
 </html>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: saitama.xml,v 1.6 2000/02/06 13:44:35 kunishi Exp $ -->
+    <!-- $Id: saitama.xml,v 1.7 2000/08/26 02:16:06 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Saitama</title>
-    <meta http-equiv="content-type" content="tex/html; charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>第51回全日本合唱コンクール埼玉県大会</h1>
@@ -287,6 +287,6 @@
     </table>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/02/06 13:44:35 $
+    $Date: 2000/08/26 02:16:06 $
   </body>
 </html>

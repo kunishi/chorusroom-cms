@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>49th AJCL Chorus Contest/Tokyo: High School, Company</title>
   </head>
@@ -17,7 +18,7 @@
       <dt> 日時</dt>
       <dd> 1996.9.29.</dd>
       <dt> 情報提供者</dt>
-      <dd> <a href="../hml/" shape="rect">HML</a>に流れた情報を元に、国島が再構成しま
+      <dd> <a href="%%TOPDIR%%/hml/" shape="rect">HML</a>に流れた情報を元に、国島が再構成しま
 	した。</dd>
     </dl>
     <hr/>
@@ -124,10 +125,7 @@
       <li> 西友中央合唱団</li>
     </ul>
     <hr/>
-    [ <a href="./" shape="rect">第49回全日本合唱コンクールのページ</a>
-    | <a href="../" shape="rect">「合唱の部屋」ホームページ</a> ]
-    <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/02/06 13:44:14 $
+    $Date: 2000/08/26 02:15:55 $
   </body>
 </html>

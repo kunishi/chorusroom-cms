@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: junior-highschool.xml,v 1.9 2000/02/06 13:44:31 kunishi Exp $ -->
+    <!-- $Id: junior-highschool.xml,v 1.10 2000/08/26 02:16:04 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Junior High School</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <h1>第51回全日本合唱コンクール全国大会中学校部門</h1>
@@ -331,6 +331,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Sun Nov  8 12:21:39 JST 1998 -->
-    $Date: 2000/02/06 13:44:31 $
+    $Date: 2000/08/26 02:16:04 $
   </body>
 </html>

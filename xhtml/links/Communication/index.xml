@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/Links:Communication</title>
   </head>
   <body>
-    <h1><a href="../../" shape="rect">合唱の部屋</a>:<a href="../" shape="rect">リンク集</a>:コミュニケーション</h1>
+    <h1><a href="../" shape="rect">リンク集</a>:コミュニケーション</h1>
     <ul>
       <li><a href="http://www.cse.ec.kyushu-u.ac.jp/~ps194015/kyukon/" shape="rect">九混 Home Page</a>チャットルーム(川上広宣さんによる) テキストによるチャットシステムです。上記のページからたどってください。</li>
       <li><a href="http://www.avisnet.or.jp/~s-kuwa/SingersChat.html" shape="rect">Web Choral Singers</a> (桑原茂夫さんによる)	<a href="http://onlive.meshnet.or.jp/vchat/talker/index.html" shape="rect"> OnLive! ボイスチャットシステム</a>を利用したボイスチャットです。</li>
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/06/17 02:15:37 $
+    $Date: 2000/08/26 02:16:16 $
   </body>
 </html>

@@ -1,6 +1,8 @@
 # 
-# $Id: GNUmakefile,v 1.1 2000/08/25 09:04:53 kunishi Exp $
+# $Id: GNUmakefile,v 1.2 2000/08/26 02:15:49 kunishi Exp $
 # 
+
+INSTFILES+=	index.html
 
 SUBDIR+=	JCA
 SUBDIR+=	KOVOX

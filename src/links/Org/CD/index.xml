@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/links:Org:CD</title>
   </head>
   <body>
-    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">組織</a>:CD</h1>
+    <h1><a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">組織</a>:CD</h1>
     <ul>
       <li><a href="http://www.gimell.com/gimell-main.html" shape="rect">Gimell Records</a> タリス・スコラーズのレコーディングのみを扱っているイギリスのレコード会社。</li>
       <li><a href="http://www.ggf.ilc.or.jp/~arlmic/Giovanni/index.html" shape="rect">クラシックCDの専門店&quot;Giovanni&quot;</a>古楽、声楽、合唱作品の店頭・通信販売を行っています。合唱の CD も1,500枚ほど在庫を持っているそうです。</li>
@@ -23,6 +24,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/08/12 01:22:37 $
+    $Date: 2000/08/26 02:16:18 $
   </body>
 </html>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../../../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="../../../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>Chorus Room/links:Org:Score</title>
   </head>
   <body>
-    <h1><a href="../../../" shape="rect">合唱の部屋</a>:<a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">組織</a>:楽譜出版社</h1>
+    <h1><a href="../../" shape="rect">リンク集</a>:<a href="../" shape="rect">組織</a>:楽譜出版社</h1>
     <ul>
       <li><a href="http://www.kawai.co.jp/home/shop/" shape="rect">カワイ・ショッピング・プラザ</a> カワイ出版のすべての出版物の検索・購入が可能です。もちろん楽譜も購入できます。<a href="http://www.kawai.co.jp" shape="rect">(株)河合楽器製作所のページ</a>の中にあります。</li>
       <li><a href="http://www.ongakunotomo.co.jp/" shape="rect">(株)音楽之友社</a> 同社から出版されているすべての出版物の検索・購入が可能です。</li>
@@ -21,6 +22,6 @@
     </ul>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    $Date: 2000/02/06 13:45:00 $
+    $Date: 2000/08/26 02:16:19 $
   </body>
 </html>

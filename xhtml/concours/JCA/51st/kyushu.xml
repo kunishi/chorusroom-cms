@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <!-- $Id: kyushu.xml,v 1.7 2000/02/06 13:44:34 kunishi Exp $ -->
+    <!-- $Id: kyushu.xml,v 1.8 2000/08/26 02:16:06 kunishi Exp $ -->
     <title>51st All Japan Chorus Contest/Kyushu (Part 1)</title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -318,6 +318,6 @@
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
 <!-- Created: Mon Sep 14 23:11:58 JST 1998 -->
-    $Date: 2000/02/06 13:44:34 $
+    $Date: 2000/08/26 02:16:06 $
   </body>
 </html>

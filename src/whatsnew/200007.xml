@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE html SYSTEM "../xhtml-chorusroom.dtd" [
+<!DOCTYPE html SYSTEM
+  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 ]>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
+    <link href="%%STYLEDIR%%/default.css" type="text/css" rel="stylesheet"/>
     <link href="mailto:&kunishi-email;" rev="made"/>
     <title>新着情報 (2000年7月分)</title>
   </head>
@@ -18,15 +19,15 @@
     <dl>
       <dt>2000-07-29</dt>
       <dd>[リンク集:合唱団:一般(長野)] <a href="http://www.hat.hi-ho.ne.jp/seseragi/" shape="rect">混声合唱団「岡谷せせらぎ会」</a></dd>
-      <dd>[JCAコンクール(第53回)] <a href="../JCA-concours/53rd/gunma.html" shape="rect">群馬県大会</a></dd>
+      <dd>[JCAコンクール(第53回)] <a href="%%TOPDIR%%/concours/JCA/53rd/gunma.html" shape="rect">群馬県大会</a></dd>
       <dt>2000-07-23</dt>
       <dd>[リンク集:合唱団:一般(東京)] <a href="http://www.kammer.ne.jp/oratorio" shape="rect">東京オラトリオ研究会</a> (URL変更)</dd>
       <dt>2000-07-18</dt>
       <dd>[リンク集:合唱団:一般(神奈川)] <a href="http://homepage1.nifty.com/ycs_70/index.html" shape="rect">横浜合唱協会</a></dd>
       <dd>[リンク集:合唱団:一般(長崎)] <a href="http://www09.u-page.so-net.ne.jp/qg7/a-ookuma/choranime/" shape="rect">コールアニメ</a> (URL変更)</dd>
       <dd>[リンク集:合唱団:職場(愛知)] <a href="http://www.medias.ne.jp/~keikaz/" shape="rect">新日鐵名古屋合唱団</a></dd>
-      <dd>[JCAコンクール] <a href="../JCA-concours/53rd/" shape="rect">第53回大会のページ</a>を立ち上げました。</dd>
-      <dd>[JCAコンクール] <a href="../JCA-concours/53rd/saga.html" shape="rect">佐賀県大会</a></dd>
+      <dd>[JCAコンクール] <a href="%%TOPDIR%%/concours/JCA/53rd/" shape="rect">第53回大会のページ</a>を立ち上げました。</dd>
+      <dd>[JCAコンクール] <a href="%%TOPDIR%%/concours/JCA/53rd/saga.html" shape="rect">佐賀県大会</a></dd>
       <dt>2000-07-11</dt>
       <dd>[リンク集:合唱団:一般(東京)] <a href="http://www2s.biglobe.ne.jp/~seva/" shape="rect">男子音楽MPミレニアム</a></dd>
       <dd>[リンク集:合唱団:一般(東京)] <a href="http://www.wind.sannet.ne.jp/chor-kaze/" shape="rect">歌のあつまり「風」</a></dd>
@@ -44,6 +45,6 @@
     </dl>
     <hr/>
     <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-    <p>$Date: 2000/07/30 05:48:49 $</p>
+    <p>$Date: 2000/08/26 02:16:24 $</p>
   </body>
 </html>
