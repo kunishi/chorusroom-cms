@@ -1,20 +1,22 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.13 1999/09/26 16:27:32 kunishi Exp $
+# $Id: rule.mk,v 1.14 1999/09/27 09:46:58 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml
 
 .PHONY:		all install clean subdir install-subdir
 
+ifdef SPECIAL_RULES
 %.html:	%.xml
 	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL} > $@
+
+%.utfhtml: %.utfxml
+	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
+endif
 
 %.utfxml: %.xml
 	${XML2UTFXML} $< > $@
 
-%.utfhtml: %.utfxml
-	${ENV} ${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8} > $@
- 
 all:	${INSTFILES} subdir
 
 subdir:
