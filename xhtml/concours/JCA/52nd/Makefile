@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: Makefile,v 1.59 2000/10/04 15:44:21 kunishi Exp $
+# $Id: Makefile,v 1.60 2000/10/05 14:29:03 kunishi Exp $
 
 NATIONAL_HTML=	highschool-1999-10-30.html \
 		highschool-1999-10-31.html \
@@ -63,6 +63,7 @@ include ${SRCTOPDIR}/rule.mk
 %.html: %.xml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL} \
 	  -param "output-base" "'$(basename $@)'"
+	${SLEEP} 1
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
@@ -70,6 +71,7 @@ include ${SRCTOPDIR}/rule.mk
 %.utfhtml: %.utfxml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
+	${SLEEP} 1
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
@@ -104,6 +106,7 @@ ${CHUBU_HTML}:	chubu.xml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${CHUBU_HTML:%.html=%.utfhtml}:	chubu.utfxml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
@@ -111,6 +114,7 @@ ${CHUBU_HTML:%.html=%.utfhtml}:	chubu.utfxml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${KANSAI_HTML}: kansai.xml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
@@ -118,6 +122,7 @@ ${KANSAI_HTML}: kansai.xml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${KANSAI_HTML:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
@@ -125,6 +130,7 @@ ${KANSAI_HTML:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${NATIONAL_HTML}: national.xml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
@@ -132,6 +138,7 @@ ${NATIONAL_HTML}: national.xml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${NATIONAL_HTML:%.html=%.utfhtml}: national.utfxml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
@@ -139,6 +146,7 @@ ${NATIONAL_HTML:%.html=%.utfhtml}: national.utfxml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${HOKKAIDO_HTML}: hokkaido.xml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
@@ -146,6 +154,7 @@ ${HOKKAIDO_HTML}: hokkaido.xml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -iso2022 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${HOKKAIDO_HTML:%.html=%.utfhtml}: hokkaido.utfxml ${RESULT_XSL_COMMON}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
@@ -153,3 +162,4 @@ ${HOKKAIDO_HTML:%.html=%.utfhtml}: hokkaido.utfxml ${RESULT_XSL_COMMON}
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@

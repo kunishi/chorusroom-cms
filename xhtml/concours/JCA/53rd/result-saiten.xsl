@@ -2,14 +2,18 @@
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns="http://www.w3.org/1999/xhtml">
+
   <xsl:template name="saiten">
     <xsl:element name="html">
+      <xsl:attribute name="xml:lang">
+        <xsl:text>ja</xsl:text>
+      </xsl:attribute>
       <xsl:element name="head">
+	<xsl:call-template name="additional-header" />
 	<xsl:element name="title">
 	  <xsl:value-of select="/大会/大会名" />
 	  <xsl:text>: 採点表</xsl:text>
 	</xsl:element>
-	<xsl:call-template name="additional-header" />
       </xsl:element>
       <xsl:element name="body">
 	<xsl:element name="h1">

@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.42 2000/10/04 15:44:22 kunishi Exp $
+# $Id: GNUmakefile,v 1.43 2000/10/05 14:29:04 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -18,7 +18,7 @@ INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	${INSTFILES_HTML_KANSAI}
 INSTFILES_HTML+=	kanto.html
-INSTFILES_HTML+=	kumamoto.html kumamoto2.html
+INSTFILES_HTML+=	${INSTFILES_HTML_KUMAMOTO}
 INSTFILES_HTML+=	${INSTFILES_HTML_KYUSHU}
 INSTFILES_HTML+=	mie.html
 INSTFILES_HTML+=	miyagi.html
@@ -31,6 +31,7 @@ INSTFILES_HTML+=	yamagata.html
 INSTFILES_HTML+=	yamaguchi.html
 
 INSTFILES_HTML_KANSAI=	kansai-highschool.html
+INSTFILES_HTML_KUMAMOTO= kumamoto.html kumamoto2.html
 INSTFILES_HTML_KYUSHU=	kyushu-2000-09-10.html
 INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
 
@@ -62,6 +63,7 @@ include ${SRCTOPDIR}/rule.mk
 %.html: %.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
 	  -param "output-base" "'$(basename $@)'"
+	${SLEEP} 1
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -iso2022 $@
 	${XMLDECL_FIX} $@
@@ -69,6 +71,7 @@ include ${SRCTOPDIR}/rule.mk
 %.utfhtml: %.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
+	${SLEEP} 1
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
 	${XMLDECL_FIX} $@
@@ -100,41 +103,63 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 ${INSTFILES_HTML_KANSAI}: kansai.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
 	  -param "output-base" "'$(basename $@)'"
-	${PATH_CONFIGURE} ${INSTFILES_HTML_KANSAI}
-	${HTML_FORMAT} -m -iso2022 ${INSTFILES_HTML_KANSAI}
-	${XMLDECL_FIX} ${INSTFILES_HTML_KANSAI}
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -iso2022 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
-	${PATH_CONFIGURE} ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}
-	${HTML_FORMAT} -m -utf8 ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}
-	${XMLDECL_FIX} ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
+
+${INSTFILES_HTML_KUMAMOTO}: kumamoto.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
+	  -param "output-base" "'$(basename $@)'"
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -iso2022 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
+
+${INSTFILES_HTML_KUMAMOTO:%.html=%.utfhtml}: kumamoto.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
+	  -param "output-base" "'$(basename $@)'"
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${INSTFILES_HTML_KYUSHU}: kyushu.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
 	  -param "output-base" "'$(basename $@)'"
-	${PATH_CONFIGURE} ${INSTFILES_HTML_KYUSHU}
-	${HTML_FORMAT} -m -iso2022 ${INSTFILES_HTML_KYUSHU}
-	${XMLDECL_FIX} ${INSTFILES_HTML_KYUSHU}
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -iso2022 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}: kyushu.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
-	${PATH_CONFIGURE} ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}
-	${HTML_FORMAT} -m -utf8 ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}
-	${XMLDECL_FIX} ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${INSTFILES_HTML_SHIKOKU}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
 	  -param "output-base" "'$(basename $@)'"
-	${PATH_CONFIGURE} ${INSTFILES_HTML_SHIKOKU}
-	${HTML_FORMAT} -m -iso2022 ${INSTFILES_HTML_SHIKOKU}
-	${XMLDECL_FIX} ${INSTFILES_HTML_SHIKOKU}
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -iso2022 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@
 
 ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
 	  -param "output-base" "'$(basename $@)'"
-	${PATH_CONFIGURE} ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}
-	${HTML_FORMAT} -m -utf8 ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}
-	${XMLDECL_FIX} ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
+	${XMLDECL_FIX} $@
+	${SLEEP} 1 && ${TOUCH} $@

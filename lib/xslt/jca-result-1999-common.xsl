@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-1999-common.xsl,v 1.16 2000/10/04 15:44:21 kunishi Exp $ -->
+<!-- $Id: jca-result-1999-common.xsl,v 1.17 2000/10/05 14:29:03 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -11,7 +11,6 @@
   <xsl:output
     method="xml"
     indent="yes"
-    encoding="euc-jp"
     doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
     omit-xml-declaration="no"/>

@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.38 2000/10/04 06:44:35 kunishi Exp $
+# $Id: config.mk,v 1.39 2000/10/05 14:29:03 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -61,6 +61,8 @@ CP=		cp
 ENV?=		env
 MV=		mv
 PERL?=		perl
+SLEEP=		sleep
+TOUCH=		touch
 
 RELPATH!=	./
 INSTTOPDIR=	${LOCALBASE}/www/data/
