@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl.in,v 1.20 2000/08/29 10:31:51 kunishi Exp $ -->
+<!-- $Id: result-common.xsl.in,v 1.21 2000/08/30 06:34:20 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xt="http://www.jclark.com/xt"
@@ -519,11 +519,12 @@ body { background-image: url(%%IMAGEDIR%%/background.png); }
       <xsl:apply-templates select="構成曲番号" />
     </xsl:if>
     <xsl:apply-templates select="曲名"/>
-    <xsl:if test="作詩 or 出典 or 訳詩">
+    <xsl:if test="作詩 or 出典 or 訳詩 or 作曲">
       <xsl:text> (</xsl:text>
       <xsl:apply-templates select="出典"/>
       <xsl:apply-templates select="作詩"/>
       <xsl:apply-templates select="訳詩"/>
+      <xsl:apply-templates select="作曲"/>
       <xsl:text>)</xsl:text>
     </xsl:if>
     <xsl:if test="構成曲">
