@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.21 2000/10/04 15:44:22 kunishi Exp $ -->
+<!-- $Id: result-common.xsl,v 1.22 2000/10/04 23:50:10 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -11,7 +11,6 @@
   <xsl:output
     method="xml"
     indent="yes"
-    encoding="euc-jp"
     doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
     omit-xml-declaration="no"/>
@@ -33,11 +32,14 @@
 
   <xsl:template name="main">
     <xsl:element name="html">
+      <xsl:attribute name="xml:lang">
+        <xsl:text>ja</xsl:text>
+      </xsl:attribute>
       <xsl:element name="head">
+	<xsl:call-template name="additional-header"/>
 	<xsl:element name="title">
 	  <xsl:value-of select="/大会/大会名"/>
 	</xsl:element>
-	<xsl:call-template name="additional-header"/>
       </xsl:element>
       <xsl:element name="body">
 	<xsl:call-template name="encodinglink"/>
