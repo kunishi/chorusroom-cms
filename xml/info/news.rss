@@ -9,6 +9,8 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/links.html"></rdf:li>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1019/concours.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1018/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1017/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1015/jca.html"></rdf:li>
@@ -22,11 +24,28 @@
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/kanto.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/links.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1002/design.html"></rdf:li>
-	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/0929/kansai.html"></rdf:li>
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1019/links.html">
+    <title>本日のリンク更新</title>
+    <link>http://www.chorusroom.org/info/2003/1019/links.html</link>
+    <description>以下のリンクを更新しました: 混声合唱団コア・アプラウ
+    ス(一般・東京、URL変更)、北海道岩見沢東高等学校合唱部(中学高校・北
+    海道、新規)、北海道岩見沢東高等学校合唱部OB会(OB・OG、カテゴリ移動)、
+    深谷混声合唱団(一般・埼玉、新規)、混声合唱団 漣(一般・東京、URL変
+    更)、大阪すみよし少年少女合唱団(少年少女・大阪、URL変更)</description>
+  </item>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1019/concours.html">
+    <title>コンクール情報の更新</title>
+    <link>http://www.chorusroom.org/info/2003/1019/concours.html</link>
+    <description>以下のコンクール情報を追加しました: 第70回(平成15年
+    度)NHK全国学校音楽コンクール(高等学校の部)、第58回関西合唱コンクー
+    ル(大学・職場部門)</description>
+    <dc:date>2003-10-19</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1018/links.html">
     <title>本日のリンク更新</title>
@@ -151,6 +170,7 @@
     <dc:date>2003-10-05</dc:date>
   </item>
 
+  <!--
   <item rdf:about="http://www.chorusroom.org/info/2003/1002/design.html">
     <title>サイトデザインのリニューアル</title>
     <link>http://www.chorusroom.org/info/2003/1002/design.html</link>
@@ -160,7 +180,9 @@
     </description>
     <dc:date>2003-10-02T07:00</dc:date>
   </item>
+  -->
 
+  <!--
   <item rdf:about="http://www.chorusroom.org/info/2003/0929/kansai.html">
     <title>第56回関西合唱コンクール(中高)の採点表</title>
     <link>http://www.chorusroom.org/info/2003/0929/kansai.html</link>
@@ -170,6 +192,7 @@
     </description>
     <dc:date>2003-09-29T23:30</dc:date>
   </item>
+  -->
 
   <!-- 
   <item rdf:about="http://www.chorusroom.org/info/2003/0929/chubu.html">
