@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.43 2000/11/07 04:09:53 kunishi Exp $
+# $Id: GNUmakefile,v 1.44 2000/11/07 04:15:29 kunishi Exp $
 #
 
 RELPATH=	# ./
@@ -15,8 +15,7 @@ INSTFILES+=	CDShop.html \
 		info-note2.html \
 		misc.html \
 		profile.html \
-		notice.html \
-		.htaccess
+		notice.html
 
 INSTFILES_NOBUILD+=	panaMusica-map.txt \
 			panaMusica.png \
