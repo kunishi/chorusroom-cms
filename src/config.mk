@@ -1,5 +1,5 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.31 2000/09/04 04:09:01 kunishi Exp $
+# $Id: config.mk,v 1.32 2000/09/05 08:31:26 kunishi Exp $
 #
 
 LOCALBASE=	/usr/local
@@ -57,7 +57,7 @@ SYNC_TOOL=	rsync -au
 
 CP=		cp
 ENV?=		env
-PERL?=		/usr/bin/perl
+PERL?=		perl
 RELPATH!=	.
 INSTTOPDIR=	${LOCALBASE}/www/data/chorusRoom/
 
