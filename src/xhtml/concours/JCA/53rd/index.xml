@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.31 2000/09/26 14:44:09 kunishi Exp $ -->
+<!-- $Id: index.xml,v 1.32 2000/09/27 04:30:27 kunishi Exp $ -->
 <!DOCTYPE html SYSTEM
   "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
 <!ENTITY % utfdoc "IGNORE">
@@ -67,6 +67,8 @@
       <dd><a href="yamagata.html" shape="rect">山形県大会</a></dd>
       <dd><a href="miyagi.html" shape="rect">宮城県大会</a></dd>
       <dd><a href="fukushima.html" shape="rect">福島県大会(高校)</a></dd>
+      <dt>東京支部</dt>
+      <dd><a href="tokyo.html" shape="rect">東京支部大会</a></dd>
       <dt>関東支部</dt>
       <dd><a href="chiba.html" shape="rect">千葉県大会</a></dd>
       <dd><a href="gunma.html" shape="rect">群馬県大会</a></dd>
@@ -99,7 +101,7 @@
     <hr/>
     <div class="footer">
       <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
-      <p>$Revision: 1.31 $ $Date: 2000/09/26 14:44:09 $ GMT</p>
+      <p>$Revision: 1.32 $ $Date: 2000/09/27 04:30:27 $ GMT</p>
     </div>
   </body>
 </html>
