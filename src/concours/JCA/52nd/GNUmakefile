@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.30 1999/09/28 11:30:44 kunishi Exp $
+# $Id: GNUmakefile,v 1.31 1999/09/28 11:44:43 kunishi Exp $
 
 RELPATH=	JCA-concours/52nd
 SRCTOPDIR=	../../
@@ -56,3 +56,7 @@ kansai-09-23.html kansai-10-17.html:	kansai.xml
 
 kansai-09-23.utfhtml kansai-10-17.utfhtml:	kansai.utfxml
 	${MAKE_ENV} ${XSLT_PROC} $< ${DEFAULT_XSL_UTF8}
+
+## dummy target.
+## *-saiten.{html,utfhtml} is actually generated from *.xml.
+chubu-saiten.utfhtml:
