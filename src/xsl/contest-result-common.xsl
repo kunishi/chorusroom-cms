@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.2 2001/01/03 08:23:12 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.3 2001/01/04 16:12:04 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -13,9 +13,7 @@
 
   <xsl:import href="common.xsl"/>
 
-  <xsl:param name="output-encoding"/>
   <xsl:param name="output-base">index</xsl:param>
-  <xsl:param name="suffix"/>
 
 <!--    <xsl:include href="character.xsl"/> -->
 <!--    <xsl:include href="contest-result-choir-piece.xsl"/> -->
