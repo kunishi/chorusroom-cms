@@ -173,16 +173,18 @@
 
   <xsl:template name="採点結果リンク">
     <xsl:if test="//採点結果">
-      <xsl:element name="li">
-	<xsl:element name="p">
-	  <xsl:text>採点表を</xsl:text>
-	  <xsl:element name="a">
-	    <xsl:attribute name="href">
-	      <xsl:value-of select="concat(@出力, '-saiten', $suffix)"/>
-	    </xsl:attribute>
-	    <xsl:text>別ページ</xsl:text>
+      <xsl:element name="ul">
+	<xsl:element name="li">
+	  <xsl:element name="p">
+	    <xsl:text>採点表を</xsl:text>
+	    <xsl:element name="a">
+	      <xsl:attribute name="href">
+		<xsl:value-of select="concat(@出力, '-saiten', $suffix)"/>
+	      </xsl:attribute>
+	      <xsl:text>別ページ</xsl:text>
+	    </xsl:element>
+	    <xsl:text>にまとめてあります。</xsl:text>
 	  </xsl:element>
-	  <xsl:text>にまとめてあります。</xsl:text>
 	</xsl:element>
       </xsl:element>
     </xsl:if>
