@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/XSL/Transform/1.0"
+		xmlns:xt="http://www.jclark.com/xt"
 		xmlns="http://www.w3.org/TR/REC-html40"
-		result-ns="">
+		extension-element-prefix="xt">
+  <xsl:output method="html" encoding="iso-2022-jp"/>
+
   <xsl:template match="大会">
     <html>
       <head>
@@ -59,12 +62,12 @@
   </xsl:template>
   <xsl:template match="審査員">
     <xsl:value-of select="."/>
-      <xsl:if test="@肩書">
-	(<xsl:value-of select="@肩書"/>)
-      </xsl:if>
-      <xsl:if test="from-following-siblings(審査員)">
-	、
-      </xsl:if>
+    <xsl:if test="@肩書">
+      (<xsl:value-of select="@肩書"/>)
+    </xsl:if>
+    <xsl:if test="following-sibling::審査員">
+      、
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="報告者リスト">
@@ -151,27 +154,27 @@
 
   <xsl:template match="所属県">
     <xsl:value-of select="."/>
-    <xsl:if test="from-following-siblings(形態)">・</xsl:if>
+    <xsl:if test="following-sibling::形態">・</xsl:if>
   </xsl:template>
 
   <xsl:template match="形態">
     <xsl:value-of select="."/>
-    <xsl:if test="not(from-following-siblings(登録人数))">, </xsl:if>
+    <xsl:if test="not(following-sibling::登録人数)">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="登録人数">
     <xsl:value-of select="."/>名
-    <xsl:if test="from-following-siblings(指揮者)">, </xsl:if>
+    <xsl:if test="following-sibling::指揮者">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="指揮者">
     指揮: <xsl:value-of select="."/>
-    <xsl:if test="from-following-siblings(共演者)">, </xsl:if>
+    <xsl:if test="following-sibling::共演者">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="共演者">
     <xsl:value-of select="@演奏楽器"/>: <xsl:value-of select="."/>
-    <xsl:if test="from-following-siblings(共演者)">, </xsl:if>
+    <xsl:if test="following-sibling::共演者">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="賞">
@@ -184,7 +187,7 @@
   </xsl:template>
   <xsl:template match="特別賞">
     <xsl:value-of select="."/>
-    <xsl:if test="from-following-siblings(特別賞)">, </xsl:if>
+    <xsl:if test="following-sibling::特別賞">, </xsl:if>
   </xsl:template>
 
   <xsl:template match="曲目">
@@ -211,15 +214,15 @@
 
   <xsl:template match="出典">
     <xsl:value-of select="."/>
-    <xsl:if test="from-following-siblings(作曲)">・</xsl:if>
+    <xsl:if test="following-sibling::作曲">・</xsl:if>
   </xsl:template>
   <xsl:template match="作詩">
     <xsl:value-of select="."/>作詩
-    <xsl:if test="from-following-siblings(作曲)">・</xsl:if>
+    <xsl:if test="following-sibling::作曲">・</xsl:if>
   </xsl:template>
   <xsl:template match="作曲">
     <xsl:value-of select="."/>作曲
-    <xsl:if test="from-following-siblings(編曲)">・</xsl:if>
+    <xsl:if test="following-sibling::編曲">・</xsl:if>
   </xsl:template>
   <xsl:template match="編曲">
     <xsl:value-of select="."/>編曲
@@ -245,14 +248,7 @@
     <xsl:value-of select="."/>
     <xsl:if test="../作詩 or ../出典">
       (<xsl:apply-templates select="../出典"/><xsl:apply-templates select="../作詩"/>)</xsl:if>
-    <xsl:if test="../from-following-siblings(組曲ピース)">; </xsl:if>
+    <xsl:if test="../following-sibling::組曲ピース">; </xsl:if>
   </xsl:template>
 
-  <xsl:template name="write">
-    <xsl:param-variable name="contents"/>
-    <xsl:param-variable name="file"/>
-    <xsl:value-of select="w:write($contents,string($file))"
-		  xmlns:w="http://www.jclark.com/xt/java/com.jclark.xsl.sax.HTMLFileWriter"
-      />
-  </xsl:template>
 </xsl:stylesheet>
