@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: contest-result-common.xsl,v 1.4 2001/01/22 06:45:39 kunishi Exp $ -->
+<!-- $Id: contest-result-common.xsl,v 1.5 2001/01/24 05:30:04 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -556,9 +556,7 @@
 
   <xsl:template match="cr:free-program">
     <li>
-      <xsl:apply-templates>
-	<xsl:with-param name="piece-top" select="."/>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </li>
   </xsl:template>
 
