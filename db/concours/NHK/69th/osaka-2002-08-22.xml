@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest NHK 1.0//JA" "http://www.chorusroom.org/DTD/nhk-contest-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: osaka-2002-08-22.xml,v 1.1 2002/09/03 08:25:14 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: osaka-2002-08-22.xml,v 1.2 2002/09/03 09:09:08 kunishi Exp $</cvs-id>
   <competition-name pref="true" area="false">NHK全国学校音楽コンクール
   大阪府コンクール</competition-name>
   <result output="osaka-2002-08-22">
@@ -50,7 +50,7 @@
 	  </free-program>
 	</program>
       </choir>
-      <choir representative="false" seed="false">
+      <choir representative="true" seed="false">
 	<choir-name>池田市立秦野小学校</choir-name>
 	<number-of-parts>3</number-of-parts>
 	<conductor>吉田恵子</conductor>
