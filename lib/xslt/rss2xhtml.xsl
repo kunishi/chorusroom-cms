@@ -19,7 +19,7 @@
 	<h1>新着情報</h1>
 	<p>
 	  最新の15件の更新情報を掲載しています。この新着情報は
-	  <a href="news.rss"><img src="/image/rdf.png" alt="RSS"/></a>でも提供しています。
+	  <a href="news.rss"><img src="/image/rdf.png" alt="RSS"/> RSS1.0</a>でも提供しています。
 	</p>
 	<xsl:apply-templates select="//rss:items"/>
       </body>
