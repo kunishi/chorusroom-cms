@@ -1,11 +1,19 @@
+/* $Id: toppage.css,v 1.6 2000/08/29 09:53:17 kunishi Exp $ */
+
 h1 {
-	text-align: center;
-	color: #ccffcc;
-	font-size: x-large;
+     text-align: right;
+     color: #3333cc;
+     font-size: large;
+     margin-right: 1.5em;
+     margin-bottom: 0em;
 }
-p.heading {
-	text-align: #003333;
-	font-size: large;
+div.logo { text-align: left;
+           margin-left: 0em; }
+div.logo hr { height: 0.3em; }
+div.comment { text-align: right;
+              margin-top: 0em;
+              padding: 0.5em;
+              font-size: small;
 }
 div.heading {
 	float: center;
@@ -14,30 +22,29 @@ div.heading {
 	background: #003333;
 	color: white;
 }
-div.comment {
-	margin: 1em 2em 2em 2em;
-	padding: 0.5em;
-	border: thick green solid;
-	background: #ffffff;
-}
-div.topicleft {
-	margin-left: 1em;
-	margin-right: 15em;
-}
-div.topicleft h2 {
-	text-align: left;
-}
-div.topicright {
-	margin-left: 15em;
+hr.comment-topic-sep { text-align: left;
+                       width: 100%; }
+div.topic {
+	margin-left: 5em;
 	margin-right: 1em;
 }
-div.topicright h2 {
-	text-align: right;
+div.topic h2 { text-align: left;
+     background-color: #006633;
+     color: white;
+     width: 100%;
+     height: auto;
+     padding: 1px;
+     border-style: outset;
+     border-width: thin;
 }
+div.topic h2 a:link { color: white; }
+div.topic h2 a:visited { color: #9999FF; }
+div.topic p { margin-left: 1.5em; }
+
+div.footnote { text-align: right; }
+div.footnote p { margin-top: 0em;
+                 margin-bottom: 0em; }
 hr.footnote {
-	width: 75%;
+	width: 100%;
 	align: center;
-}
-address {
-	text-align: right;
 }
