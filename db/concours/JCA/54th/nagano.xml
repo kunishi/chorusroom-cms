@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns='http://www.chorusroom.org/xml'
+  xmlns:p='http://www.chorusroom.org/piece'
+  xmlns:cr='http://www.chorusroom.org/character'>
+  <cvs-id>$Id: nagano.xml,v 1.1 2002/06/13 04:38:37 kunishi Exp $</cvs-id>
+  <competition-name pref="true" area="false">第54回全日本合唱コンクール長野県大会</competition-name>
+  <result output="nagano">
+    <reporter anonymous="true">
+      <reporter-name>a s</reporter-name>
+      <reporter-email anonymous="false">sust304@yahoo.co.jp</reporter-email>
+    </reporter>
+    <section>
+      <section-name>中学(混声)</section-name>
+      <choir representative="false" seed="false">
+	<choir-name>柳町</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>信大教育学部付属長野</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>中学(同声)</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>東部</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>更北</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校A</section-name>
+      <choir representative="false" seed="false">
+	<choir-name>飯田女子</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>飯田</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>高等学校B</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>小諸</choir-name>
+	<prize nickname="gold">金賞</prize>
+	<special-prize>全部門総合1位</special-prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>大学</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>信州大グリークラブ</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般A</section-name>
+      <choir representative="false" seed="false">
+	<choir-name>合唱団NNG</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+      <choir representative="true" seed="false">
+	<choir-name>合唱団まい</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+    <section>
+      <section-name>一般B</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>ベーレンコール</choir-name>
+	<prize nickname="gold">金賞</prize>
+      </choir>
+    </section>
+  </result>
+</competition>
