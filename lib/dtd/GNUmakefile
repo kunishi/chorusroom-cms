@@ -1,16 +1,25 @@
 #
-# $Id: GNUmakefile,v 1.2 2001/01/01 01:53:18 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 2001/01/03 05:20:24 kunishi Exp $
 #
 
-GEN_DTDS=	jca-comp-result.dtd \
-		xhtml1-chorusroom.dtd \
-		char-table.dtd
+GEN_DTDS_NONS=	char-table.dtd
+GEN_DTDS_NS=	contest-result-generic.dtd \
+		jca-comp-result.dtd \
+		nhk-contest-result.dtd \
+		xhtml1-chorusroom.dtd
+GEN_RELAX_MODULES=	characters.rxm
 
 all:
 
-pre-all:	${GEN_DTDS}
+pre-all:	${GEN_DTDS_NONS} ${GEN_RELAX_MODULES} ${GEN_DTDS_NS}
+
+contest-result-generic.dtd:	contest-result-generic.rxg
+	relaxer -dtd -validation:none -tagPrefix:-,p,cr $<
 
 jca-comp-result.dtd:	jca-comp-result.rxg
+	relaxer -dtd -validation:none -tagPrefix:-,p,cr $<
+
+nhk-contest-result.dtd:	nhk-contest-result.rxg
 	relaxer -dtd -validation:none -tagPrefix:-,p,cr $<
 
 xhtml1-chorusroom.dtd:	xhtml1-chorusroom.rxg
@@ -21,6 +30,9 @@ char-table.dtd:	char-table.rxm
 
 characters.rxm:	../tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl ../xsl/gen-char-relax.xsl ${XSLT_OUT} ${XSLT_PARAMS}
+
+clean:
+	${RM} ${GEN_RELAX_MODULES} ${GEN_DTDS_NONS} ${GEN_DTDS_NS}
 
 include config.mk
 include rule.mk

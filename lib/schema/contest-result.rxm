@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="euc-jp"?>
-<!-- $Id: contest-result.rxm,v 1.5 2001/01/02 05:47:02 kunishi Exp $ -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: contest-result.rxm,v 1.6 2001/01/03 05:20:24 kunishi Exp $ -->
 <!DOCTYPE module SYSTEM "relaxCore.dtd">
 <module moduleVersion="1.0"
 	relaxCoreVersion="1.0"
@@ -7,9 +7,9 @@
 	xmlns="http://www.xml.gr.jp/xmlns/relaxCore">
 
   <interface>
-    <export label="competition"/>
-    <import label="specialCharacters"/>
     <import label="choirPiece"/>
+    <import label="specialCharacters"/>
+    <export label="competition"/>
   </interface>
 
   <tag name="competition">
@@ -130,7 +130,9 @@
 
   <tag name="notices"/>
   <elementRule role="notices">
-    <ref label="notice" occurs="+"/>
+    <sequence>
+      <ref label="notice" occurs="+"/>
+    </sequence>
   </elementRule>
 
   <tag name="notice"/>
@@ -157,11 +159,13 @@
     </mixed>
   </elementRule>
 
-  <attPool role="representative-attr-list"/>
   <tag name="choir">
-    <ref role="representative-attr-list"/>
+    <ref role="representativeAttr"/>
+    <ref role="seedAttr"/>
     <attribute name="playing-order" type="positiveInteger"/>
   </tag>
+  <attPool role="representativeAttr"/>
+  <attPool role="seedAttr"/>
   <elementRule role="choir">
     <sequence>
       <ref label="choir-name"/>
@@ -169,8 +173,7 @@
       <ref label="choir-type" occurs="?"/>
       <ref label="number-of-members" occurs="?"/>
       <ref label="conductor" occurs="*"/>
-      <ref label="piano" occurs="*"/>
-      <ref label="accompaniment" occurs="*"/>
+      <hedgeRef label="players-list" occurs="?"/>
       <ref label="prize"/>
       <ref label="special-prize" occurs="*"/>
       <ref label="program" occurs="?"/>
@@ -178,6 +181,12 @@
       <ref label="choir-note" occurs="?"/>
     </sequence>
   </elementRule>
+  <hedgeRule label="players-list">
+    <sequence>
+      <ref label="piano" occurs="*"/>
+      <ref label="accompaniment" occurs="*"/>
+    </sequence>
+  </hedgeRule>
 
   <tag name="choir-name">
     <attribute name="xml:lang" type="language"/>
@@ -222,6 +231,7 @@
       <importedLabelRef label="specialCharacters"/>
     </mixed>
   </elementRule>
+  <attPool role="player-id"/>
 
   <tag name="accompaniment">
     <attribute name="xml:lang" type="language"/>
@@ -245,7 +255,15 @@
     <ref role="prize-list"/>
   </tag>
   <elementRule role="prize" type="string"/>
-  <attPool role="prize-list"/>
+  <attPool role="prize-list">
+    <attribute name="nickname" required="true" type="NMTOKEN">
+      <enumeration value="none"/>
+      <enumeration value="gold"/>
+      <enumeration value="silver"/>
+      <enumeration value="blonze"/>
+      <enumeration value="seeded"/>
+    </attribute>
+  </attPool>
 
   <tag name="special-prize"/>
   <elementRule role="special-prize" type="string"/>
@@ -278,12 +296,21 @@
     <ref role="given-program-list"/>
   </tag>
   <elementRule role="given-program">
-    <empty/>
+    <sequence>
+      <hedgeRef label="given-program-piece"/>
+    </sequence>
   </elementRule>
+  <hedgeRule label="given-program-piece">
+    <sequence>
+      <hedgeRef label="players-list" occurs="?"/>
+      <importedLabelRef label="choirPiece"/>
+    </sequence>
+  </hedgeRule>
 
   <tag name="free-program"/>
   <elementRule role="free-program">
     <sequence>
+      <hedgeRef label="players-list" occurs="?"/>
       <importedLabelRef label="choirPiece" occurs="+"/>
     </sequence>
   </elementRule>

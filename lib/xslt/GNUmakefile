@@ -1,31 +1,48 @@
 #
-# $Id: GNUmakefile,v 1.2 2001/01/01 01:52:06 kunishi Exp $
+# $Id: GNUmakefile,v 1.3 2001/01/03 05:20:25 kunishi Exp $
 #
 
-CHAR_ENT_GEN_FILES=	${TOPDIR}/tech/iso-lat1.xml \
-			${TOPDIR}/tech/iso-lat2.xml \
-			${TOPDIR}/tech/iso-cyr1.xml \
-			${TOPDIR}/tech/iso-cyr2.xml
-CHAR_ENT_FILES=		${TOPDIR}/tech/circled-number.xml \
-			${TOPDIR}/tech/roman-numeral.xml \
+CHAR_ENT_GEN_FILES=	${SRCTOPDIR}/tech/iso-lat1.xml \
+			${SRCTOPDIR}/tech/iso-lat2.xml \
+			${SRCTOPDIR}/tech/iso-cyr1.xml \
+			${SRCTOPDIR}/tech/iso-cyr2.xml
+CHAR_ENT_FILES=		${SRCTOPDIR}/tech/circled-number.xml \
+			${SRCTOPDIR}/tech/roman-numeral.xml \
 			${CHAR_ENT_GEN_FILES}
 
-GEN_XSLT=		ascii-char-conv.xsl utf8-char-conv.xsl
+GEN_XSLT=		char-conv-traditional.xsl \
+			char-conv-utf8.xsl \
+			contest-result-generic.traditional.xsl \
+			contest-result-generic.utf8.xsl \
+			jca-comp-result.traditional.xsl \
+			jca-comp-result.utf8.xsl \
+			nhk-contest-result.traditional.xsl \
+			nhk-contest-result.utf8.xsl \
+			xhtml1-chorusroom.traditional.xsl \
+			xhtml1-chorusroom.utf8.xsl
 
 all:
 
 pre-all:	${GEN_XSLT}
 
-ascii-char-conv.xsl:	${TOPDIR}/tech/all-chars.xml
+char-conv-traditional.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl $(addprefix gen-,$@) ${XSLT_OUT} ${XSLT_PARAMS}
 
-utf8-char-conv.xsl:	${TOPDIR}/tech/all-chars.xml
+char-conv-utf8.xsl:	${SRCTOPDIR}/tech/all-chars.xml
 	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl $(addprefix gen-,$@) ${XSLT_OUT} ${XSLT_PARAMS}
 
-${TOPDIR}/tech/all-chars.xml:	${CHAR_ENT_FILES}
+%.traditional.xsl:	XSLT_PARAMS=-param "output-encoding" "'euc-jp'"
+%.traditional.xsl:	%.src.xsl
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl gen-xsl-with-encoding.xsl ${XSLT_OUT} ${XSLT_PARAMS}
 
-${CHAR_ENT_GEN_FILES}:
-	cd ${TOPDIR}/tech && ${MAKE} $(notdir $@)
+%.utf8.xsl:	XSLT_PARAMS=-param "output-encoding" "'utf-8'"
+%.utf8.xsl:	%.src.xsl
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -in $< -xsl gen-xsl-with-encoding.xsl ${XSLT_OUT} ${XSLT_PARAMS}
+
+${SRCTOPDIR}/tech/all-chars.xml:	${CHAR_ENT_FILES}
+
+clean:
+	${RM} ${GEN_XSLT}
 
 include config.mk
 include rule.mk

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: contest-result-generic.rxg,v 1.1 2001/01/03 05:20:24 kunishi Exp $ -->
+<!DOCTYPE grammar SYSTEM "relaxNamespace.dtd">
+<grammar relaxNamespaceVersion="1.0" grammarVersion="1.0" xmlns="http://www.xml.gr.jp/xmlns/relaxNamespace">
+
+  <topLevel>
+    <ref label="competition" namespace="http://www.chorusroom.org/xml"/>
+  </topLevel>
+
+  <module location="contest-result.rxm" namespace="http://www.chorusroom.org/xml">
+    <annotation>
+      <documentation>
+	import: choirPiece, specialCharacters
+	export: competition
+      </documentation>
+    </annotation>
+  </module>
+
+  <module location="choir-piece.rxm" namespace="http://www.chorusroom.org/piece">
+    <annotation>
+      <documentation>
+	import: specialCharacters
+	export: choir-piece
+      </documentation>
+    </annotation>
+  </module>
+
+  <module location="utf8-char.rxm" namespace="http://www.chorusroom.org/character">
+    <annotation>
+      <documentation>
+	export: char-reference
+      </documentation>
+    </annotation>
+  </module>
+
+  <div>
+    <hedgeRule label="choirPiece" namespace="http://www.chorusroom.org/xml">
+      <ref label="choir-piece" namespace="http://www.chorusroom.org/piece"/>
+    </hedgeRule>
+    <hedgeRule label="specialCharacters" namespace="http://www.chorusroom.org/xml">
+      <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+    </hedgeRule>
+  </div>
+  <div>
+    <hedgeRule label="specialCharacters" namespace="http://www.chorusroom.org/piece">
+      <ref label="char-reference" namespace="http://www.chorusroom.org/character"/>
+    </hedgeRule>
+  </div>
+
+</grammar>
