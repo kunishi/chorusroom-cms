@@ -28,19 +28,19 @@
 
 <!ELEMENT 部門結果 (部門名, 団体+, 採点表?)>
 <!ELEMENT 部門名 (#PCDATA)>
-<!ELEMENT 団体 (団体名, 形態?, 登録人数?, 所属県?, 指揮者*, 共演者*, 曲目?, 賞*)>
+<!ELEMENT 団体 (団体名, 所属県?, 形態?, 登録人数?, 指揮者*, 共演者*, 曲目?, 賞*)>
 <!ATTLIST 団体
           大会代表 (yes) #IMPLIED
           来年度シード (yes) #IMPLIED>
 <!ELEMENT 団体名 (#PCDATA)>
 <!ATTLIST 団体名
           url CDATA #IMPLIED>
+<!ELEMENT 所属県 (#PCDATA)>
+<!-- 所属県は、北海道以外は都・府・県は省略する。 -->
 <!ELEMENT 形態 (#PCDATA)>
 <!-- 形態は、混声、男声、女声、同声のいずれか。 -->
 <!ELEMENT 登録人数 (#PCDATA)>
 <!-- 登録人数は数字だけ書く。単位(人)は書かない。 -->
-<!ELEMENT 所属県 (#PCDATA)>
-<!-- 所属県は、北海道以外は都・府・県は省略する。 -->
 <!ELEMENT 指揮者 (#PCDATA)>
 <!ELEMENT 共演者 (#PCDATA)>
 <!ATTLIST 共演者
