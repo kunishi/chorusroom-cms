@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: result-common.xsl,v 1.20 2000/10/04 06:44:38 kunishi Exp $ -->
+<!-- $Id: result-common.xsl,v 1.21 2000/10/04 15:44:22 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -7,11 +7,6 @@
   xmlns:redirect="org.apache.xalan.xslt.extensions.Redirect"
   xmlns="http://www.w3.org/1999/xhtml"
   extension-element-prefixes="redirect">
-
-  <xsl:param name="output-encoding">euc-jp</xsl:param>
-  <xsl:param name="suffix">.html</xsl:param>
-  <xsl:param name="htmlsuffix">.html</xsl:param>
-  <xsl:param name="utfhtmlsuffix">.utfhtml</xsl:param>
 
   <xsl:output
     method="xml"
@@ -21,8 +16,8 @@
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
     omit-xml-declaration="no"/>
 
-  <xsl:template match="大会">
-    <xsl:apply-templates select="開催日別結果"/>
+  <xsl:template match="/">
+    <xsl:apply-templates select="大会/開催日別結果[@出力=$output-base]"/>
   </xsl:template>
 
   <xsl:template match="開催日別結果">

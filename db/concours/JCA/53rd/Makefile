@@ -1,26 +1,26 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: Makefile,v 1.41 2000/10/04 06:44:37 kunishi Exp $
+# $Id: Makefile,v 1.42 2000/10/04 15:44:22 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
-INSTFILES_HTML+=	chiba.html chiba-saiten.html
-INSTFILES_HTML+=	chubu.html chubu-saiten.html
-INSTFILES_HTML+=	chugoku.html chugoku-saiten.html
+INSTFILES_HTML+=	chiba.html
+INSTFILES_HTML+=	chubu.html
+INSTFILES_HTML+=	chugoku.html
 INSTFILES_HTML+=	ehime.html
 INSTFILES_HTML+=	fukuoka.html
 INSTFILES_HTML+=	fukushima.html
 INSTFILES_HTML+=	gunma.html
 INSTFILES_HTML+=	hiroshima.html
 INSTFILES_HTML+=	hyogo.html
-INSTFILES_HTML+=	ishikawa.html ishikawa-saiten.html
+INSTFILES_HTML+=	ishikawa.html
 INSTFILES_HTML+=	iwate.html
 INSTFILES_HTML+=	kagawa.html
 INSTFILES_HTML+=	${INSTFILES_HTML_KANSAI}
 INSTFILES_HTML+=	kanto.html
 INSTFILES_HTML+=	kumamoto.html kumamoto2.html
 INSTFILES_HTML+=	${INSTFILES_HTML_KYUSHU}
-INSTFILES_HTML+=	mie.html mie-saiten.html
+INSTFILES_HTML+=	mie.html
 INSTFILES_HTML+=	miyagi.html
 INSTFILES_HTML+=	okayama.html
 INSTFILES_HTML+=	saga.html
@@ -34,12 +34,18 @@ INSTFILES_HTML_KANSAI=	kansai-highschool.html
 INSTFILES_HTML_KYUSHU=	kyushu-2000-09-10.html
 INSTFILES_HTML_SHIKOKU=	shikoku-2000-09-02.html shikoku-2000-09-03.html
 
+INSTFILES_HTML_SAITEN+=	chiba-saiten.html
+INSTFILES_HTML_SAITEN+=	chubu-saiten.html
+INSTFILES_HTML_SAITEN+=	chugoku-saiten.html
+INSTFILES_HTML_SAITEN+=	ishikawa-saiten.html
+INSTFILES_HTML_SAITEN+=	mie-saiten.html
+
 INSTFILES_NOBUILD+=	hyogo.xml
 
-INSTFILES+=	${INSTFILES_HTML} ${INSTFILES_HTML:%.html=%.utfhtml}
-
-GENFILES+=	${INSTFILES_HTML:%.html=%.jhtml}
-GENFILES+=	${INSTFILES_HTML:%.html=%.uhtml}
+INSTFILES+=	${INSTFILES_HTML} \
+		${INSTFILES_HTML:%.html=%.utfhtml} \
+		${INSTFILES_HTML_SAITEN} \
+		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
 
 include ${SRCTOPDIR}/config.mk
 
@@ -54,15 +60,27 @@ SPECIAL_RULES=		yes
 include ${SRCTOPDIR}/rule.mk
 
 %.html: %.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} $@
 	${HTML_FORMAT} -m -iso2022 $@
 	${XMLDECL_FIX} $@
 
 %.utfhtml: %.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
+	  -param "output-base" "'$(basename $@)'"
 	${HTML_FORMAT} -m -utf8 $@
 	${PATH_CONFIGURE} $@
+	${XMLDECL_FIX} $@
+
+%-saiten.html:	%.html
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -iso2022 $@
+	${XMLDECL_FIX} $@
+
+%-saiten.utfhtml:	%.utfhtml
+	${PATH_CONFIGURE} $@
+	${HTML_FORMAT} -m -utf8 $@
 	${XMLDECL_FIX} $@
 
 ###
@@ -80,37 +98,43 @@ index.utfhtml:	%.utfhtml : %.utfxml ${XHTML10_XSL_UTF8}
 	${XMLDECL_FIX} $@
 
 ${INSTFILES_HTML_KANSAI}: kansai.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} ${INSTFILES_HTML_KANSAI}
 	${HTML_FORMAT} -m -iso2022 ${INSTFILES_HTML_KANSAI}
 	${XMLDECL_FIX} ${INSTFILES_HTML_KANSAI}
 
 ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}: kansai.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}
 	${HTML_FORMAT} -m -utf8 ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}
 	${XMLDECL_FIX} ${INSTFILES_HTML_KANSAI:%.html=%.utfhtml}
 
 ${INSTFILES_HTML_KYUSHU}: kyushu.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} ${INSTFILES_HTML_KYUSHU}
 	${HTML_FORMAT} -m -iso2022 ${INSTFILES_HTML_KYUSHU}
 	${XMLDECL_FIX} ${INSTFILES_HTML_KYUSHU}
 
 ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}: kyushu.utfxml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}
 	${HTML_FORMAT} -m -utf8 ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}
 	${XMLDECL_FIX} ${INSTFILES_HTML_KYUSHU:%.html=%.utfhtml}
 
 ${INSTFILES_HTML_SHIKOKU}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} ${INSTFILES_HTML_SHIKOKU}
 	${HTML_FORMAT} -m -iso2022 ${INSTFILES_HTML_SHIKOKU}
 	${XMLDECL_FIX} ${INSTFILES_HTML_SHIKOKU}
 
 ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}: shikoku.xml ${RESULT_XSL_COMMON} ${DEFAULT_XSL_UTF8}
-	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8}
+	${ENV} ${JAVA_ENV} ${XSLT_PROC} -IN $< -XSL ${DEFAULT_XSL_UTF8} \
+	  -param "output-base" "'$(basename $@)'"
 	${PATH_CONFIGURE} ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}
 	${HTML_FORMAT} -m -utf8 ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}
 	${XMLDECL_FIX} ${INSTFILES_HTML_SHIKOKU:%.html=%.utfhtml}

@@ -7,6 +7,7 @@
   <xsl:variable name="suffix">.html</xsl:variable>
   <xsl:variable name="htmlsuffix">.html</xsl:variable>
   <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
+  <xsl:param name="output-base">index</xsl:param>
 
   <xsl:output encoding="euc-jp"/>
 

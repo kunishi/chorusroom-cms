@@ -3,6 +3,12 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns="http://www.w3.org/1999/xhtml">
 
+  <xsl:variable name="output-encoding">euc-jp</xsl:variable>
+  <xsl:variable name="suffix">.html</xsl:variable>
+  <xsl:variable name="htmlsuffix">.html</xsl:variable>
+  <xsl:variable name="utfhtmlsuffix">.utfhtml</xsl:variable>
+  <xsl:param name="output-base">index</xsl:param>
+
   <xsl:output encoding="euc-jp"/>
 
   <xsl:include href="result-common.xsl"/>

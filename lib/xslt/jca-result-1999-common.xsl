@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: jca-result-1999-common.xsl,v 1.15 2000/10/04 06:44:36 kunishi Exp $ -->
+<!-- $Id: jca-result-1999-common.xsl,v 1.16 2000/10/04 15:44:21 kunishi Exp $ -->
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -17,11 +17,7 @@
     omit-xml-declaration="no"/>
 
   <xsl:template match="/">
-    <xsl:apply-templates/>
-  </xsl:template>
-
-  <xsl:template match="大会">
-    <xsl:apply-templates select="開催日別結果"/>
+    <xsl:apply-templates select="大会/開催日別結果[@出力=$output-base]"/>
   </xsl:template>
 
   <xsl:template match="開催日別結果">
