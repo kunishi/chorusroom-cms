@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+  <head>
+    <title>This server</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
+    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
+  </head>
+
+  <body>
+    <h1>このサーバの紹介</h1>
+    <p>以前は<a href="http://www.sgi.co.jp/">Silicon Graphics</a>の
+      ワークステーション O2 だったのですが、<br>
+      <img src="images/pic00015.jpg" alt="Silicon Graphics O2."><br>
+      どうも OS が不安定で、私が帰宅・帰省しているときに限って落ちると
+      いう謎の現象がかなり頻繁に起こったため、予算的にめども立ったため、
+      サーバの交換を行うことにしました。
+    </p>
+    <p>ただ、これ専用にワークステーションを用意するというのもイマイチ
+      もったいないですし、普段使う計算機としては O2 はわりと気に入って
+      いるので、安上がりに PC を組み立て、UNIX を動かして使うことと
+      しました。<br>
+      <img src="images/pic00076.jpg" alt="The photo of this server."><br>
+    </p>
+    <p>使ったパーツは以下の通り。</p>
+    <ul>
+      <li>マザーボード: GIGABYTE </li>
+      <li>CPU: Pentium II 400MHz</li>
+      <li>メモリ: 128MB</li>
+      <li>HDD: IBM (4.3GB SCSI)</li>
+      <li>SCSI ボード: Adaptec AHA2940AU</li>
+      <li>グラフィックボード: ATI 3D Rage Pro 4MB</li>
+      <li>イーサネットボード: Intel </li>
+      <li>CD-ROM ドライヴ: </li>
+      <li>FD ドライヴ: </li>
+      <li>ケース: ElanVital </li>
+      <li>モニタ: Canon (??インチ液晶ディスプレイ)</li>
+      <li>キーボード: PFU Happy Hacking Keyboard</li>
+      <li>マウス: Logitech Mouseman</li>
+    </ul>
+    <p>サーバ用途としてはずいぶんぜいたくな構成になってますが、これは、
+      当初別の用途で Solaris 2.6 英語版(メディア代だけで購入できると
+      いう話を聞いて、思わず買ってしまった(^^;))で動作させる必要があった
+      ためです。当初はそのまま Solaris で動かすつもりだったんですが、
+      どうも OS が重い気がしたのと、「やっぱり OS のソースがいつでも
+      参照できなければ」などと思いまして、
+      使いなれた<a href="http://www.jp.freebsd.org/">FreeBSD</a>(2.2-STABLE)
+      を入れて、動かしはじめました。
+    </p>
+    <p>O2 よりはかなり速いので、サーバの応答が多少はよくなったかもしれません。
+      (まあ、<a href="http://www.oka-pu.ac.jp/">うちの大学</a>は
+      ネットワーク的に僻地にあるので、ネットワークのほうがボトルネックになる
+      可能性の方が高いですが。)</p>
+    <hr>
+    <address><a href="mailto:kunishi@c.oka-pu.ac.jp">KUNISHIMA Takeo/国島丈生</a></address>
+<!-- Created: Wed Dec 16 00:28:09 JST 1998 -->
+<!-- hhmts start -->
+Last modified: Wed Dec 16 01:01:50 JST 1998
+<!-- hhmts end -->
+  </body>
+</html>
