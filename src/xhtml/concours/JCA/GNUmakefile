@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.5 1999/12/18 14:24:43 kunishi Exp $
+# $Id: GNUmakefile,v 1.6 2000/07/17 15:26:06 kunishi Exp $
 #
 
 INSTFILES+=	index.html
@@ -7,6 +7,7 @@ INSTFILES+=	info-note.html
 INSTFILES+=	template-taikai.txt template-dantai.txt
 
 SUBDIR+=	52nd
+SUBDIR+=	53rd
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
