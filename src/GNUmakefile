@@ -1,5 +1,5 @@
 # 
-# $Id: GNUmakefile,v 1.17 1999/09/17 02:21:36 kunishi Exp $
+# $Id: GNUmakefile,v 1.18 1999/09/23 06:38:25 kunishi Exp $
 #
 
 RELPATH=	.
@@ -43,13 +43,18 @@ include ${SRCTOPDIR}/rule.mk
 PUBLIC_SERVER=	psi.c.oka-pu.ac.jp
 PUBLIC_DIR=	/usr/local/www/data/chorusRoom/
 
+NAMAZU_SRC=	/usr/local/namazu/bin/namazu
+NAMAZU_INDEX_DIR=	${INSTTOPDIR}namazu/index/
+
 .PHONY: sync-upload
 
-install-namazu:
-	cp /usr/local/namazu/bin/namazu ${PUBLIC_DIR}/search.cgi
+install-namazu:	${INSTTOPDIR}search.cgi
+
+${PUBLIC_DIR}search.cgi:	${NAMAZU_SRC}
+	cp ${NAMAZU_SRC} ${INSTTOPDIR}search.cgi
 
 index:
-	cd ${INSTTOPDIR}/namazu/index && mknmz "" "${INSTTOPDIR}"
+	cd ${NAMAZU_INDEX_DIR} && mknmz "" "${INSTTOPDIR}"
 
 sync-upload:
 	rsync -Cavuz --delete -e ssh --exclude="search.cgi" \

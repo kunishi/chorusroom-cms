@@ -2,6 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/XSL/Transform/1.0"
 		xmlns="http://www.w3.org/TR/REC-html40"
 		result-ns="">
-  <xsl:output method="html" encoding="iso-2022-jp"/>
+  <xsl:output method="html" encoding="utf-8"/>
   <xsl:include href="xhtml10-common.xsl"/>
 </xsl:stylesheet>
