@@ -6,4 +6,4 @@ RELAXER_CP=/usr/local/share/java/relaxer-0.16.0/Relaxer.jar
 REGEXP_CP=/usr/local/share/java/classes/jakarta-regexp.jar
 CLASSPATH=${XALAN_CP}:${REGEXP_CP}:${RELAXER_CP}; export CLASSPATH
 
-exec ant $*
+exec /usr/local/share/java/apache-ant/bin/ant $*
