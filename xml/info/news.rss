@@ -9,6 +9,7 @@
     <description>コンクール情報や合唱関連リンクを中心に提供しています。</description>
     <items>
       <rdf:Seq>
+	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1006/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/kanto.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1005/links.html"></rdf:li>
 	<rdf:li rdf:resource="http://www.chorusroom.org/info/2003/1002/design.html"></rdf:li>
@@ -25,6 +26,14 @@
       </rdf:Seq>
     </items>
   </channel>
+
+  <item rdf:about="http://www.chorusroom.org/info/2003/1006/links.html">
+    <title>リンク集の更新</title>
+    <link>http://www.chorusroom.org/info/2003/1006/links.html</link>
+    <description>以下のリンクを更新しました: Lux aeterna (一般・栃木、
+    新規)</description>
+    <dc:date>2003-10-06</dc:date>
+  </item>
 
   <item rdf:about="http://www.chorusroom.org/info/2003/1005/kanto.html">
     <title>関東合唱コンクール(職場・一般)</title>
