@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
-<!-- $Id: index.xml,v 1.47 2000/12/10 07:09:32 kunishi Exp $ -->
-<!DOCTYPE html SYSTEM
-  "/home/kunishi/cvs/xml/www/chorusRoom/DTD/xhtml-chorusroom.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
+<!DOCTYPE html PUBLIC "-//CHORUSROOM//DTD XHTML 1.0 Strict Ext//JA" "http://localhost/DTD/xhtml1-chorusroom.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>第53回全日本合唱コンクール</title>
@@ -35,7 +30,7 @@
     <h3>男声</h3>
     <dl>
       <dt>M1</dt>
-      <dd>Jacques Arcadelt 曲/Vostra merc&egrave;, madonna</dd>
+      <dd>Jacques Arcadelt 曲/Vostra merce, madonna</dd>
       <dt>M2</dt>
       <dd>Charles Gounod 曲/Agnus Dei (&quot;Messe No. 2&quot;から)</dd>
       <dt>M3</dt>
@@ -46,7 +41,7 @@
     <h3>女声</h3>
     <dl>
       <dt>F1</dt>
-      <dd>Tom&aacute;s Luis de Victoria 曲/O sacrum convivium</dd>
+      <dd>Tomas Luis de Victoria 曲/O sacrum convivium</dd>
       <dt>F2</dt>
       <dd>Gustav Holst 曲/Hymn to Vena (&quot;Choral Hymns from the Rig Veda&quot;から)</dd>
       <dt>F3</dt>

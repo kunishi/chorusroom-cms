@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: chugoku.xml,v 1.6 2001/01/29 07:32:20 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: chugoku.xml,v 1.7 2001/01/30 13:24:54 kunishi Exp $</cvs-id>
   <competition-name>第39回中国合唱コンクール</competition-name>
   <result output="chugoku">
     <date day-of-week="sat" holiday="false">2000-09-23</date>
@@ -585,7 +585,7 @@
 	  <free-program>
 	    <p:suite>
 	      <p:title original="true" xml:lang="ja">
-		<p:mainTitle>男声合唱とピアノのための黙示録</p:mainTitle>
+		<p:titlePrefix>男声合唱とピアノのための黙示録</p:titlePrefix>
 		<p:mainTitle>縄文</p:mainTitle>
 	      </p:title>
 	      <p:suite-piece>
@@ -2539,7 +2539,7 @@
 	<choir-type>mixed</choir-type>
 	<number-of-members>44</number-of-members>
 	<conductor>村上謙一郎</conductor>
-	<共演者 演奏楽器="笙">高原聰子</共演者>
+	<accompaniment instrument="笙">高原聰子</accompaniment>
 	<prize nickname="gold">金賞</prize>
 	<special-prize>広島県知事賞</special-prize>
 	<program>

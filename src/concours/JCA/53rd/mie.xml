@@ -1,863 +1,1148 @@
-<?xml version="1.0" encoding="iso-2022-jp"?>
-<!DOCTYPE $BBg2q(B SYSTEM "result-2000.dtd" [
-<!ENTITY % utfdoc "IGNORE">
-<!ENTITY % ascdoc "INCLUDE">
-]>
-<$BBg2q(B>
-  <CVSID>$Id: mie.xml,v 1.2 2000/09/08 04:19:22 kunishi Exp $</CVSID>
-  <$BBg2qL>(B>$BBh#4#02s;0=E8)9g>'%3%s%/!<%k(B</$BBg2qL>(B>
-  <$B3+:EF|JL7k2L(B $B=PNO(B="mie">
-    <$B3+:EF|(B $BMKF|(B="$BF|(B">2000-08-20</$B3+:EF|(B>
-    <$B3+:E>l=j(B>$B;0=E8)J82=2q4[Bg%[!<%k(B</$B3+:E>l=j(B>
-    <$B?3::0w(B $B>JN,L>(B="$B0KF#(B" $B8*=q(B="$B9g>';X4x<T(B">$B0KF#8w;R(B</$B?3::0w(B>
-    <$B?3::0w(B $B>JN,L>(B="$B?@ED(B" $B8*=q(B="$B@<3Z2H(B">$B?@ED;mO/(B</$B?3::0w(B>
-    <$B?3::0w(B $B>JN,L>(B="$BDS?"(B" $B8*=q(B="$B9g>';X4x<T(B">$BDS?"MN;R(B</$B?3::0w(B>
-    <$B?3::0w(B $B>JN,L>(B="$B6S(B" $B8*=q(B="$B:n6J2H(B">$B6S$+$h;R(B</$B?3::0w(B>
-    <$B?3::0w(B $B>JN,L>(B="$BH*(B" $B8*=q(B="$B@<3Z2H(B">$BH*57J8(B</$B?3::0w(B>
-    <$BJs9p<T(B>
-      <$BJs9p<T;aL>(B>$B0KF#@5F;(B</$BJs9p<T;aL>(B>
-      <email>PXM02526@nifty.ne.jp</email>
-    </$BJs9p<T(B>
-    <$BCm5-(B>
-      <$BCm5-;v9`(B>$BA4F|K\9g>'O"LAM};vD9>^!JAm9g#10L!K!D!D(BVocal Ensemble$B!T(BEST$B!U(B</$BCm5-;v9`(B>
-    </$BCm5-(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$BCf3X9;ItLgF1@<(B</$BItLgL>(B>
-      <$BCDBN(B $B=P1i=g(B="1" $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B;0=EBg3X650i3XItImB0Cf3X9;2;3ZIt(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>12</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BEDCfGn4p(B</$B;X4x<T(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B%i!<%9%m!<!&%J%8(B</$B:n;m(B>
-	    <$B:n6J(B>$B%_%/%m!<%7%e!&%3%A%c!<%k(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!V;0$D$N=w@<9g>'6J!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B9=@.6JHV9f(B>1.</$B9=@.6JHV9f(B>
-		<$B6JL>(B>$B0&$NA[$$=P(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B9=@.6JHV9f(B>2.</$B9=@.6JHV9f(B>
-		<$B6JL>(B>$B88A[(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B9=@.6JHV9f(B>3.</$B9=@.6JHV9f(B>
-		<$B6JL>(B>$B$"$"@c$N?9$N@E<d(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">2</$B:NE@(B>
-	  <$BAm9gI>2A(B>3</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b!"CfIt;YItBg2q(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="3" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$BDE;TN)@>9YCf3X9;2;3ZIt(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>18</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B5*B@Na;R(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B>eEDF`DE5((B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$BLZ2<KR;R(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!VCOJ?@~$NH`J}$X!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BFs==2/8wG/$N8IFH(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">7</$B:NE@(B>
-	  <$BAm9gI>2A(B>7</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="2" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B0K@*;TN)8^==NkCf3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>19</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B1[2lFX;R(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B>>HxBY2p(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$BLZ2<KR;R(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!VCOJ?@~$NH`J}$X!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B=U$K(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">11</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">4</$B:NE@(B>
-	  <$BAm9gI>2A(B>8</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="4" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B0K@*;TN)5\@nCf3X9;(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>12</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B1|ED?.9>(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$BLnB<9,7C(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>Gabriel Faur&eacute;</$B:n6J(B>
-	    <$BJT6J(B>$BGk861QI'(B</$BJT6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!V(BMesse besse$B!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Kyrie</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Sanctus</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Agnus Dei</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">10</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">11</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">10</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">11</$B:NE@(B>
-	  <$BAm9gI>2A(B>11</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$BCf3X9;ItLg:.@<(B</$BItLgL>(B>
-      <$BCDBN(B $B=P1i=g(B="9" $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B0K@*;TN)9ACf3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>35</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BB-BeK|5*;R(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$BBg8}0!Lm(B</$B%T%"%N(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>R.MURRAY SCHAFER</$B:n6J(B>
-	    <$B6JL>(B>GAMERAN</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$B;0A198(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<;0It9g>'$H%T%"%N$N$?$a$NAH6J!V%/%l!<$N3(K\Bh#1=8!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BA*$P$l$?>l=j(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B2+?'$$D;$N$$$kIw7J(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">1</$B:NE@(B>
-	  <$BAm9gI>2A(B>1</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b!"CfIt;YItBg2q(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="8" $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B0K@*;TN)8|@8Cf3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>35</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BLZB<??F`H~(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$BC'9L0l(B</$B%T%"%N(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B%_%^%9(B</$B:n;m(B>
-	    <$B:n6J(B>$B%_%^%9(B</$B:n6J(B>
-	    <$BJT6J(B>$BIY_7M5(B</$BJT6J(B>
-	    <$B6JL>(B>COSMOS</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B1`ED7C;R(B</$B:n;m(B>
-	    <$B:n6J(B>$B2.5WJ]OBL@(B</$B:n6J(B>
-	    <$B6JL>(B>$B:=5V(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">5</$B:NE@(B>
-	  <$BAm9gI>2A(B>2</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b!"CfIt;YItBg2q(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="7" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B;MF|;T;TN)@>:{@nCf3X9;(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>30</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BI~It:44n;R(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B@nH*Kc0a(B</$B%T%"%N(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B>.?99a;R(B</$B:n;m(B>
-	    <$B:n6J(B>$B7'C+8-0l(B</$B:n6J(B>
-	    <$B6JL>(B>$B@DMU$N2N(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BJR2,51(B</$B:n;m(B>
-	    <$B:n6J(B>$B?eLn=$9'(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B9g>'AH6J!V>.$5$J%[%a%m%9$?$A!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BIw$h(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">3</$B:NE@(B>
-	  <$BAm9gI>2A(B>4</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="10" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B0K@*;TN)ARED;3Cf3X9;(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>45</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B2OKsOB;R(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$BJFEDM%;R(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B4d8+=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$B9uBt5HFA(B</$B:n6J(B>
-	    <$B6JL>(B>$BN.$l$f$/@n(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B?7@nOB9>(B</$B:n;m(B>
-	    <$B:n6J(B>$BHS>B?.5A(B</$B:n6J(B>
-	    <$B6JL>(B>$BL>$E$1$i$l$?MU(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">6</$B:NE@(B>
-	  <$BAm9gI>2A(B>5</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="11" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B8f1rB<N)8f1rCf3X9;(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>34</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B>>@nM32B(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B;3ED$($D$3(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$B9bEh$_$I$j(B</$B:n6J(B>
-	    <$B6JL>(B>$BL$Mh(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">10</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">8</$B:NE@(B>
-	  <$BAm9gI>2A(B>6</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="5" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B>.KsD.N)>.KsCf3X9;(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>35</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B8EI[bCF`H~(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$BJ?@P>0G7(B</$B%T%"%N(B>
-	<$B>^(B>$BF<>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$B9bEh$_$I$j(B</$B:n6J(B>
-	    <$B6JL>(B>$BL$Mh(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">10</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">9</$B:NE@(B>
-	  <$BAm9gI>2A(B>9</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$BF<(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="6" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B>>:e;TN)EBD.Cf3X9;@<3ZIt(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>24</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B?<ED>0H~(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B>eLn??5](B</$B%T%"%N(B>
-	<$B>^(B>$BF<>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$BBg7'?r;R(B</$B:n6J(B>
-	    <$B6JL>(B>$BD+(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">11</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">11</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">10</$B:NE@(B>
-	  <$BAm9gI>2A(B>10</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$BF<(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$B9b9;ItLg#A(B</$BItLgL>(B>
-      <$BCDBN(B $B=P1i=g(B="8" $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B8)N)DE9bEy3X9;2;3ZIt(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>28</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B>.NS@5H~(B</$B;X4x<T(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>We&ouml;res S&aacute;ndor</$B:n;m(B>
-	    <$B:n6J(B>Kod&aacute;y Zolt&aacute;n</$B:n6J(B>
-	    <$B6JL>(B>NORV&Eacute;G LE&Aacute;NYOK</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>Ady Endre</$B:n;m(B>
-	    <$B:n6J(B>Kod&aacute;y Zolt&aacute;n</$B:n6J(B>
-	    <$B6JL>(B>F&Ouml;LSZ&Aacute;LLOOT A P&Aacute;VA</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">1</$B:NE@(B>
-	  <$BAm9gI>2A(B>1</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b!"CfIt;YItBg2q(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="6" $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B8)N)1'<#;3ED9bEy3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>32</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B8~0f@5M:(B</$B;X4x<T(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$B;0A198(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<9g>'$N$?$a$N!V$d$5$7$5$O0&$8$c$J$$!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B$d$5$7$5$O0&$8$c$J$$(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B$^$@;d$K$J$l$k(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">2</$B:NE@(B>
-	  <$BAm9gI>2A(B>2</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b!"CfIt;YItBg2q(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="4" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B8)N);MF|;TFn9bEy3X9;2;3ZIt(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>13</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B0KF#@5F;(B</$B;X4x<T(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G1"/>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>Niels la Cour</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!V(B3 MOTTETTI LATINI 1982 $B!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Hodie Christus natus est</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Laudate Dominum</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">7</$B:NE@(B>
-	  <$BAm9gI>2A(B>3</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="5" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$BF|@83X1`Bh0l9bEy3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>32</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B@DLZ70(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B:4Gl9,7C(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B0KF#3$I'(B</$B:n;m(B>
-	    <$B:n6J(B>$B2.5WJ]OBL@(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<9g>'AH6J!V5(@a$X$N$^$J$6$7!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B$f$a$_$k(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">4</$B:NE@(B>
-	  <$BAm9gI>2A(B>4</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="3" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B8)N)5W5o9bEy3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>13</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B>>@89@5W(B</$B;X4x<T(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="F1"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B4_ED6^;R(B</$B:n;m(B>
-	    <$B:n6J(B>$BLZ2<KR;R(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!V3($NCf$N5(@a!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B\'$N$&$?(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B$J$K$r$5$,$7$K(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">5</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">5</$B:NE@(B>
-	  <$BAm9gI>2A(B>5</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="1" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B8)N);MF|;T;M6?9bEy3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>12</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BGqOB;K(B</$B;X4x<T(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="F1"/>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>T. L. de Victoria</$B:n6J(B>
-	    <$B6JL>(B>O Regem caeli</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>J&oacute;zsef KARAI</$B:n6J(B>
-	    <$B6JL>(B>Hodie Christus natus est</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">6</$B:NE@(B>
-	  <$BAm9gI>2A(B>6</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="7" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B8)N)D;1)9bEy3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>17</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BLnCf@55*(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B0f>e%R%m%_(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G3"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B?7@nOB9>(B</$B:n;m(B>
-	    <$B:n6J(B>$BNkLZ51><(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<9g>'$H%T%"%N$N$?$a$N!VBgCO$O$^$@!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BF|!9$"$?$i$7$/(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">6</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">7</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">3</$B:NE@(B>
-	  <$BAm9gI>2A(B>7</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="9" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B6G9bEy3X9;2;3ZIt(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>23</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B@n8}9';R(B</$B;X4x<T(B>
-	<$B>^(B>$BF<>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BHSEg@1(B</$B:n;m(B>
-	    <$B:n6J(B>$B9b664n<#(B</$B:n6J(B>
-	    <$B6JL>(B>YAISAMANENA</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">8</$B:NE@(B>
-	  <$BAm9gI>2A(B>8</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$BF<(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="2" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B8)N);MF|;T>&6H9bEy3X9;(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>20</$BEPO??M?t(B>
-	<$B;X4x<T(B>$Bi.ED@aIW(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B?eC+=m(B</$B%T%"%N(B>
-	<$B>^(B>$BF<>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="F4"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B0BO2M:;L(B</$B:n;m(B>
-	    <$B:n6J(B>$BJ?5H5#=#(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B=w@<9g>'AH6J!V3$$O8+$F$-$?!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B4_JU$K$F(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">8</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">9</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">9</$B:NE@(B>
-	  <$BAm9gI>2A(B>9</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$BF<(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$B9b9;ItLg#B(B</$BItLgL>(B>
-      <$BCDBN(B $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B8)N)0K@*9bEy3X9;9g>'It(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>45</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B:dK\8&B@(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B:{LZCR;R(B</$B%T%"%N(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B9bEDIR;R(B</$B:n;m(B>
-	    <$B:n6J(B>$B;0A198(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B9g>'AH6J!V8^$D$NF82h!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BIw8+7\(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$BBg3XItLg#B(B</$BItLgL>(B>
-      <$BCDBN(B $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B;0=EBg3X9g>'CD(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>40</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B4dLZOB<y(B</$B;X4x<T(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BN)86F;B$(B</$B:n;m(B>
-	    <$B:n6J(B>$BHx7AIR9,(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$BL5H<AU:.@<9g>'$N$?$a$N!V1GA|(B&romanII;$B!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BL4$_$?$b$N$O!D(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>$B>>2<9L(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<9g>'$N$?$a$N!V1bH~=tEg$N;M$D$NEg14!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B;05~$L8e(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$B0lHL#A(B</$BItLgL>(B>
-      <$BCDBN(B $B=P1i=g(B="2" $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>Vocal Ensemble$B!T(BEST$B!U(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>32</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B8~0f@5M:(B</$B;X4x<T(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>Luca Marenzio</$B:n6J(B>
-	    <$B6JL>(B>Scendi dal Paradiso</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>Sappho</$B:n;m(B>
-	    <$B:n6J(B>$BNkLZ51><(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!V;l2Z>6!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Eros d'etinaxe moi phrenas</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">1</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">1</$B:NE@(B>
-	  <$BAm9gI>2A(B>1</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6b!"CfIt;YItBg2q(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="3" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B9g>'CD$9$:$+$<(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>18</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B0f>e9@(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$B;38}CN;R(B</$B%T%"%N(B>
-	<$B>^(B>$B6d>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G4"/>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>Johannes Brahms</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B!V(BZigeuner lieder$B!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>He! Zigeuner!</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Hochgeturmte Rima-flut!</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Heiligem Eide</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Gute Nacht</$B6JL>(B>
-	      </$B9=@.6J(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>Abendwolken</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">2</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">2</$B:NE@(B>
-	  <$BAm9gI>2A(B>2</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$B6d(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="1" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B%3!<%kI)@<(B</$BCDBNL>(B>
-	<$B7ABV(B>$B=w@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>17</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B?{Ln?NH~(B</$B;X4x<T(B>
-	<$B>^(B>$BF<>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="F3"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B?7@nOB9>(B</$B:n;m(B>
-	    <$B:n6J(B>$BNkLZ51><(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B=w@<9g>'$H%T%"%N$N$?$a$N!V3$$r$&$7$m$X!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B$o$?$7$N3$(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC]Cf$F$k$h(B</$B:n;m(B>
-	    <$B:n6J(B>$BBgCf28(B</$B:n6J(B>
-	    <$B6JL>(B>$B3$$N%*%k%4!<%k(B</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">4</$B:NE@(B>
-	  <$BAm9gI>2A(B>3</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$BF<(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-      <$BCDBN(B $B=P1i=g(B="4" $BBg2qBeI=(B="no">
-	<$BCDBNL>(B>$B9g>'CD$&$A$o(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>20</$BEPO??M?t(B>
-	<$B;X4x<T(B>$BGqOB;K(B</$B;X4x<T(B>
-	<$B%T%"%N(B>$BB@ED9@H~(B</$B%T%"%N(B>
-	<$B>^(B>$BF<>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G3"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$B992J8;B"(B</$B:n;m(B>
-	    <$B:n6J(B>$BW"@%NLJ?(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<9g>'AH6J!V3$D;$N;m!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$B%*%m%m%sD;(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>$BC+@n=SB@O:(B</$B:n;m(B>
-	    <$B:n6J(B>$B9bEh$_$I$j(B</$B:n6J(B>
-	    <$BAH6J(B $BH4?h(B="yes">
-	      <$B6JL>(B>$B:.@<9g>'AH6J!VIw$K$J$kE+!W(B</$B6JL>(B>
-	      <$B9=@.6J(B>
-		<$B6JL>(B>$BL$Mh(B</$B6JL>(B>
-	      </$B9=@.6J(B>
-	    </$BAH6J(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-	<$B:NE@7k2L(B>
-	  <$B:NE@(B $B:NE@<T(B="$B0KF#(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B?@ED(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BDS?"(B">4</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$B6S(B">3</$B:NE@(B>
-	  <$B:NE@(B $B:NE@<T(B="$BH*(B">3</$B:NE@(B>
-	  <$BAm9gI>2A(B>4</$BAm9gI>2A(B>
-	  <$B:NE@Hw9M(B>$BF<(B</$B:NE@Hw9M(B>
-	</$B:NE@7k2L(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-    <$BItLg7k2L(B>
-      <$BItLgL>(B>$B0lHL#B(B</$BItLgL>(B>
-      <$BCDBN(B $BBg2qBeI=(B="yes">
-	<$BCDBNL>(B>$B;0=E%t%)!<%/%9%\!<%J(B</$BCDBNL>(B>
-	<$B7ABV(B>$B:.@<(B</$B7ABV(B>
-	<$BEPO??M?t(B>41</$BEPO??M?t(B>
-	<$B;X4x<T(B>$B0pMUM4;0(B</$B;X4x<T(B>
-	<$B>^(B>$B6b>^(B</$B>^(B>
-	<$B6JL\(B>
-	  <$B2]Bj6J(B $BHV9f(B="G2"/>
-	  <$B<+M36J(B>
-	    <$B:n;m(B>P.S.INGLOTT</$B:n;m(B>
-	    <$B:n6J(B>CHARLES CAMILLERI</$B:n6J(B>
-	    <$B6JL>(B>Pacem Maribus</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>CHARLES CAMILLERI</$B:n6J(B>
-	    <$B6JL>(B>Sonus Spiritus</$B6JL>(B>
-	  </$B<+M36J(B>
-	  <$B<+M36J(B>
-	    <$B:n6J(B>CHARLES CAMILLERI</$B:n6J(B>
-	    <$B6JL>(B>Amen</$B6JL>(B>
-	  </$B<+M36J(B>
-	</$B6JL\(B>
-      </$BCDBN(B>
-    </$BItLg7k2L(B>
-  </$B3+:EF|JL7k2L(B>
-</$BBg2q(B>
+<?xml version="1.0" encoding="euc-jp"?>
+<!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
+<competition xmlns:cr="http://www.chorusroom.org/character" xmlns:p="http://www.chorusroom.org/piece" xmlns="http://www.chorusroom.org/xml">
+  <cvs-id>$Id: mie.xml,v 1.3 2001/01/30 13:24:56 kunishi Exp $</cvs-id>
+  <competition-name area="false" pref="false">Âè£´£°²ó»°½Å¸©¹ç¾§¥³¥ó¥¯¡¼¥ë</competition-name>
+  <result output="mie">
+    <date day-of-week="sun" holiday="false">2000-08-20</date>
+    <hall>»°½Å¸©Ê¸²½²ñ´ÛÂç¥Û¡¼¥ë</hall>
+    <referee shortname="°ËÆ£" job="¹ç¾§»Ø´ø¼Ô">°ËÆ£¸÷»Ò</referee>
+    <referee shortname="¿ÀÅÄ" job="À¼³Ú²È">¿ÀÅÄ»íÏ¯</referee>
+    <referee shortname="ÄÓ¿¢" job="¹ç¾§»Ø´ø¼Ô">ÄÓ¿¢ÍÎ»Ò</referee>
+    <referee shortname="¶Ó" job="ºî¶Ê²È">¶Ó¤«¤è»Ò</referee>
+    <referee shortname="Èª" job="À¼³Ú²È">Èªµ·Ê¸</referee>
+    <reporter>
+      <reporter-name>°ËÆ£ÀµÆ»</reporter-name>
+      <reporter-email>PXM02526@nifty.ne.jp</reporter-email>
+    </reporter>
+    <notices>
+      <notice>Á´ÆüËÜ¹ç¾§Ï¢ÌÁÍý»öÄ¹¾Þ¡ÊÁí¹ç£±°Ì¡Ë¡Ä¡ÄVocal Ensemble¡ÔEST¡Õ</notice>
+    </notices>
+    <section>
+      <section-name>Ãæ³Ø¹»ÉôÌçÆ±À¼</section-name>
+      <choir playing-order="1" representative="true" seed="false">
+	<choir-name>»°½ÅÂç³Ø¶µ°é³ØÉôÉíÂ°Ãæ³Ø¹»²»³ÚÉô</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>12</number-of-members>
+	<conductor>ÅÄÃæÇî´ð</conductor>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>¥é¡¼¥¹¥í¡¼¡¦¥Ê¥¸</p:words-by>
+	      <p:composed-by>¥ß¥¯¥í¡¼¥·¥å¡¦¥³¥Á¥ã¡¼¥ë</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>»°¤Ä¤Î½÷À¼¹ç¾§¶Ê</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece-number>1.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>°¦¤ÎÁÛ¤¤½Ð</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>2.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¸¸ÁÛ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece-number>3.</p:piece-number>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¤¢¤¢Àã¤Î¿¹¤ÎÀÅ¼ä</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">3</score>
+	  <score referee="¿ÀÅÄ">4</score>
+	  <score referee="ÄÓ¿¢">3</score>
+	  <score referee="¶Ó">2</score>
+	  <score referee="Èª">2</score>
+	  <total-score>3</total-score>
+	  <score-note>¶â¡¢ÃæÉô»ÙÉôÂç²ñ</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="3" representative="false" seed="false">
+	<choir-name>ÄÅ»ÔÎ©À¾¹ÙÃæ³Ø¹»²»³ÚÉô</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>18</number-of-members>
+	<conductor>µªÂÀÎá»Ò</conductor>
+	<piano>¾åÅÄÆàÄÅµ¨</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>ÌÚ²¼ËÒ»Ò</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ÃÏÊ¿Àþ¤ÎÈàÊý¤Ø</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Æó½½²¯¸÷Ç¯¤Î¸ÉÆÈ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">9</score>
+	  <score referee="¿ÀÅÄ">8</score>
+	  <score referee="ÄÓ¿¢">7</score>
+	  <score referee="¶Ó">6</score>
+	  <score referee="Èª">7</score>
+	  <total-score>7</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="2" representative="false" seed="false">
+	<choir-name>°ËÀª»ÔÎ©¸Þ½½ÎëÃæ³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>19</number-of-members>
+	<conductor>±Û²ìÆØ»Ò</conductor>
+	<piano>¾¾ÈøÂÙ²ð</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>ÌÚ²¼ËÒ»Ò</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ÃÏÊ¿Àþ¤ÎÈàÊý¤Ø</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>½Õ¤Ë</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">6</score>
+	  <score referee="¿ÀÅÄ">11</score>
+	  <score referee="ÄÓ¿¢">8</score>
+	  <score referee="¶Ó">9</score>
+	  <score referee="Èª">4</score>
+	  <total-score>8</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="4" representative="false" seed="false">
+	<choir-name>°ËÀª»ÔÎ©µÜÀîÃæ³Ø¹»</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>12</number-of-members>
+	<conductor>±üÅÄ¿®¹¾</conductor>
+	<piano>ÌîÂ¼¹¬·Ã</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Gabriel Faur<cr:eacute/></p:composed-by>
+	      <p:arranged-by>Çë¸¶±ÑÉ§</p:arranged-by>
+	      <p:title original="true">
+		<p:mainTitle>Messe basse</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Kyrie</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Sanctus</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Agnus Dei</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">5</score>
+	  <score referee="¿ÀÅÄ">10</score>
+	  <score referee="ÄÓ¿¢">11</score>
+	  <score referee="¶Ó">10</score>
+	  <score referee="Èª">11</score>
+	  <total-score>11</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>Ãæ³Ø¹»ÉôÌçº®À¼</section-name>
+      <choir playing-order="9" representative="true" seed="false">
+	<choir-name>°ËÀª»ÔÎ©¹ÁÃæ³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>35</number-of-members>
+	<conductor>Â­ÂåËüµª»Ò</conductor>
+	<piano>Âç¸ý°¡Ìí</piano>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>R.MURRAY SCHAFER</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>GAMERAN</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>»°Á±¹¸</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼»°Éô¹ç¾§¤È¥Ô¥¢¥Î¤Î¤¿¤á¤ÎÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>¥¯¥ì¡¼¤Î³¨ËÜÂè£±½¸</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Áª¤Ð¤ì¤¿¾ì½ê</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>²«¿§¤¤Ä»¤Î¤¤¤ëÉ÷·Ê</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">7</score>
+	  <score referee="¿ÀÅÄ">2</score>
+	  <score referee="ÄÓ¿¢">1</score>
+	  <score referee="¶Ó">1</score>
+	  <score referee="Èª">1</score>
+	  <total-score>1</total-score>
+	  <score-note>¶â¡¢ÃæÉô»ÙÉôÂç²ñ</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="8" representative="true" seed="false">
+	<choir-name>°ËÀª»ÔÎ©¸üÀ¸Ãæ³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>35</number-of-members>
+	<conductor>ÌÚÂ¼¿¿ÆàÈþ</conductor>
+	<piano>Ã§¹Ì°ì</piano>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>¥ß¥Þ¥¹</p:words-by>
+	      <p:composed-by>¥ß¥Þ¥¹</p:composed-by>
+	      <p:arranged-by>ÉÙß·Íµ</p:arranged-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>COSMOS</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>±àÅÄ·Ã»Ò</p:words-by>
+	      <p:composed-by>²®µ×ÊÝÏÂÌÀ</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>º½µÖ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">1</score>
+	  <score referee="¿ÀÅÄ">3</score>
+	  <score referee="ÄÓ¿¢">2</score>
+	  <score referee="¶Ó">3</score>
+	  <score referee="Èª">5</score>
+	  <total-score>2</total-score>
+	  <score-note>¶â¡¢ÃæÉô»ÙÉôÂç²ñ</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="7" representative="false" seed="false">
+	<choir-name>»ÍÆü»Ô»ÔÎ©À¾ºûÀîÃæ³Ø¹»</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>30</number-of-members>
+	<conductor>ÉþÉôº´´î»Ò</conductor>
+	<piano>ÀîÈªËã°á</piano>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>¾®¿¹¹á»Ò</p:words-by>
+	      <p:composed-by>·§Ã«¸­°ì</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>ÀÄÍÕ¤Î²Î</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>ÊÒ²¬µ±</p:words-by>
+	      <p:composed-by>¿åÌî½¤¹§</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>¹ç¾§ÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>¾®¤µ¤Ê¥Û¥á¥í¥¹¤¿¤Á</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>É÷¤è</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">2</score>
+	  <score referee="¿ÀÅÄ">1</score>
+	  <score referee="ÄÓ¿¢">4</score>
+	  <score referee="¶Ó">8</score>
+	  <score referee="Èª">3</score>
+	  <total-score>4</total-score>
+	  <score-note>¶â</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="10" representative="false" seed="false">
+	<choir-name>°ËÀª»ÔÎ©ÁÒÅÄ»³Ãæ³Ø¹»</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>²ÏËóÏÂ»Ò</conductor>
+	<piano>ÊÆÅÄÍ¥»Ò</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>´ä¸«½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>¹õÂôµÈÆÁ</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Î®¤ì¤æ¤¯Àî</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>¿·ÀîÏÂ¹¾</p:words-by>
+	      <p:composed-by>ÈÓ¾Â¿®µÁ</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Ì¾¤Å¤±¤é¤ì¤¿ÍÕ</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">4</score>
+	  <score referee="¿ÀÅÄ">5</score>
+	  <score referee="ÄÓ¿¢">5</score>
+	  <score referee="¶Ó">5</score>
+	  <score referee="Èª">6</score>
+	  <total-score>5</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="11" representative="false" seed="false">
+	<choir-name>¸æ±òÂ¼Î©¸æ±òÃæ³Ø¹»</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>34</number-of-members>
+	<conductor>¾¾ÀîÍ³²Â</conductor>
+	<piano>»³ÅÄ¤¨¤Ä¤³</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>¹âÅè¤ß¤É¤ê</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Ì¤Íè</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">10</score>
+	  <score referee="¿ÀÅÄ">9</score>
+	  <score referee="ÄÓ¿¢">6</score>
+	  <score referee="¶Ó">4</score>
+	  <score referee="Èª">8</score>
+	  <total-score>6</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="5" representative="false" seed="false">
+	<choir-name>¾®ËóÄ®Î©¾®ËóÃæ³Ø¹»</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>35</number-of-members>
+	<conductor>¸ÅÉÛâÃÆàÈþ</conductor>
+	<piano>Ê¿ÀÐ¾°Ç·</piano>
+	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>¹âÅè¤ß¤É¤ê</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Ì¤Íè</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">8</score>
+	  <score referee="¿ÀÅÄ">6</score>
+	  <score referee="ÄÓ¿¢">10</score>
+	  <score referee="¶Ó">7</score>
+	  <score referee="Èª">9</score>
+	  <total-score>9</total-score>
+	  <score-note>Æ¼</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="6" representative="false" seed="false">
+	<choir-name>¾¾ºå»ÔÎ©ÅÂÄ®Ãæ³Ø¹»À¼³ÚÉô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>24</number-of-members>
+	<conductor>¿¼ÅÄ¾°Èþ</conductor>
+	<piano>¾åÌî¿¿µÝ</piano>
+	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>Âç·§¿ò»Ò</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>Ä«</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">11</score>
+	  <score referee="¿ÀÅÄ">7</score>
+	  <score referee="ÄÓ¿¢">9</score>
+	  <score referee="¶Ó">11</score>
+	  <score referee="Èª">10</score>
+	  <total-score>10</total-score>
+	  <score-note>Æ¼</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>¹â¹»ÉôÌç£Á</section-name>
+      <choir playing-order="8" representative="true" seed="false">
+	<choir-name>¸©Î©ÄÅ¹âÅù³Ø¹»²»³ÚÉô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>28</number-of-members>
+	<conductor>¾®ÎÓÀµÈþ</conductor>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>We<cr:ouml/>res S<cr:aacute/>ndor</p:words-by>
+	      <p:composed-by>Kod<cr:aacute/>y Zolt<cr:aacute/>n</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>NORV<cr:Eacute/>G LE<cr:Aacute/>NYOK</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>Ady Endre</p:words-by>
+	      <p:composed-by>Kod<cr:aacute/>y Zolt<cr:aacute/>n</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>F<cr:Ouml/>LSZ<cr:Aacute/>LLOOT A P<cr:Aacute/>VA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">1</score>
+	  <score referee="¿ÀÅÄ">1</score>
+	  <score referee="ÄÓ¿¢">1</score>
+	  <score referee="¶Ó">1</score>
+	  <score referee="Èª">1</score>
+	  <total-score>1</total-score>
+	  <score-note>¶â¡¢ÃæÉô»ÙÉôÂç²ñ</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="6" representative="true" seed="false">
+	<choir-name>¸©Î©±§¼£»³ÅÄ¹âÅù³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>¸þ°æÀµÍº</conductor>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>»°Á±¹¸</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼¹ç¾§¤Î¤¿¤á¤Î</p:titlePrefix>
+		<p:mainTitle>¤ä¤µ¤·¤µ¤Ï°¦¤¸¤ã¤Ê¤¤</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¤ä¤µ¤·¤µ¤Ï°¦¤¸¤ã¤Ê¤¤</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¤Þ¤À»ä¤Ë¤Ê¤ì¤ë</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">2</score>
+	  <score referee="¿ÀÅÄ">2</score>
+	  <score referee="ÄÓ¿¢">2</score>
+	  <score referee="¶Ó">2</score>
+	  <score referee="Èª">2</score>
+	  <total-score>2</total-score>
+	  <score-note>¶â¡¢ÃæÉô»ÙÉôÂç²ñ</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="4" representative="false" seed="false">
+	<choir-name>¸©Î©»ÍÆü»ÔÆî¹âÅù³Ø¹»²»³ÚÉô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>13</number-of-members>
+	<conductor>°ËÆ£ÀµÆ»</conductor>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Niels la Cour</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>3 MOTTETTI LATINI 1982</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Hodie Christus natus est</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Laudate Dominum</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">3</score>
+	  <score referee="¿ÀÅÄ">3</score>
+	  <score referee="ÄÓ¿¢">5</score>
+	  <score referee="¶Ó">4</score>
+	  <score referee="Èª">7</score>
+	  <total-score>3</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="5" representative="false" seed="false">
+	<choir-name>ÆüÀ¸³Ø±àÂè°ì¹âÅù³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>ÀÄÌÚ·°</conductor>
+	<piano>º´Çì¹¬·Ã</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>°ËÆ£³¤É§</p:words-by>
+	      <p:composed-by>²®µ×ÊÝÏÂÌÀ</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼¹ç¾§ÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>µ¨Àá¤Ø¤Î¤Þ¤Ê¤¶¤·</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¤æ¤á¤ß¤ë</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">4</score>
+	  <score referee="¿ÀÅÄ">4</score>
+	  <score referee="ÄÓ¿¢">4</score>
+	  <score referee="¶Ó">6</score>
+	  <score referee="Èª">4</score>
+	  <total-score>4</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="3" representative="false" seed="false">
+	<choir-name>¸©Î©µ×µï¹âÅù³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>13</number-of-members>
+	<conductor>¾¾À¸¹Àµ×</conductor>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>´ßÅÄ¶Þ»Ò</p:words-by>
+	      <p:composed-by>ÌÚ²¼ËÒ»Ò</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>³¨¤ÎÃæ¤Îµ¨Àá</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Ü§¤Î¤¦¤¿</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¤Ê¤Ë¤ò¤µ¤¬¤·¤Ë</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">5</score>
+	  <score referee="¿ÀÅÄ">5</score>
+	  <score referee="ÄÓ¿¢">3</score>
+	  <score referee="¶Ó">5</score>
+	  <score referee="Èª">5</score>
+	  <total-score>5</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="1" representative="false" seed="false">
+	<choir-name>¸©Î©»ÍÆü»Ô»Í¶¿¹âÅù³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>12</number-of-members>
+	<conductor>ÇñÏÂ»Ë</conductor>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F1" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>T. L. de Victoria</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>O Regem caeli</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>J<cr:oacute/>zsef KARAI</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Hodie Christus natus est</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">6</score>
+	  <score referee="¿ÀÅÄ">6</score>
+	  <score referee="ÄÓ¿¢">7</score>
+	  <score referee="¶Ó">3</score>
+	  <score referee="Èª">6</score>
+	  <total-score>6</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="7" representative="false" seed="false">
+	<choir-name>¸©Î©Ä»±©¹âÅù³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>17</number-of-members>
+	<conductor>ÌîÃæÀµµª</conductor>
+	<piano>°æ¾å¥Ò¥í¥ß</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>¿·ÀîÏÂ¹¾</p:words-by>
+	      <p:composed-by>ÎëÌÚµ±¾¼</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼¹ç¾§¤È¥Ô¥¢¥Î¤Î¤¿¤á¤Î</p:titlePrefix>
+		<p:mainTitle>ÂçÃÏ¤Ï¤Þ¤À</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Æü¡¹¤¢¤¿¤é¤·¤¯</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">7</score>
+	  <score referee="¿ÀÅÄ">7</score>
+	  <score referee="ÄÓ¿¢">6</score>
+	  <score referee="¶Ó">7</score>
+	  <score referee="Èª">3</score>
+	  <total-score>7</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="9" representative="false" seed="false">
+	<choir-name>¶Ç¹âÅù³Ø¹»²»³ÚÉô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>23</number-of-members>
+	<conductor>Àî¸ý¹§»Ò</conductor>
+	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>ÈÓÅçÀ±</p:words-by>
+	      <p:composed-by>¹â¶¶´î¼£</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>YAISAMANENA</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">9</score>
+	  <score referee="¿ÀÅÄ">8</score>
+	  <score referee="ÄÓ¿¢">8</score>
+	  <score referee="¶Ó">8</score>
+	  <score referee="Èª">8</score>
+	  <total-score>8</total-score>
+	  <score-note>Æ¼</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="2" representative="false" seed="false">
+	<choir-name>¸©Î©»ÍÆü»Ô¾¦¶È¹âÅù³Ø¹»</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>20</number-of-members>
+	<conductor>é®ÅÄÀáÉ×</conductor>
+	<piano>¿åÃ«½í</piano>
+	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>°ÂÏ²Íº»Ì</p:words-by>
+	      <p:composed-by>Ê¿µÈµ£½£</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>½÷À¼¹ç¾§ÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>³¤¤Ï¸«¤Æ¤­¤¿</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>´ßÊÕ¤Ë¤Æ</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">8</score>
+	  <score referee="¿ÀÅÄ">9</score>
+	  <score referee="ÄÓ¿¢">9</score>
+	  <score referee="¶Ó">9</score>
+	  <score referee="Èª">9</score>
+	  <total-score>9</total-score>
+	  <score-note>Æ¼</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>¹â¹»ÉôÌç£Â</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>¸©Î©°ËÀª¹âÅù³Ø¹»¹ç¾§Éô</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>45</number-of-members>
+	<conductor>ºäËÜ¸¦ÂÀ</conductor>
+	<piano>ºûÌÚÃÒ»Ò</piano>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>¹âÅÄÉÒ»Ò</p:words-by>
+	      <p:composed-by>»°Á±¹¸</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>¹ç¾§ÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>¸Þ¤Ä¤ÎÆ¸²è</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>É÷¸«·Ü</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>Âç³ØÉôÌç£Â</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>»°½ÅÂç³Ø¹ç¾§ÃÄ</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>40</number-of-members>
+	<conductor>´äÌÚÏÂ¼ù</conductor>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Î©¸¶Æ»Â¤</p:words-by>
+	      <p:composed-by>Èø·ÁÉÒ¹¬</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>ÌµÈ¼ÁÕº®À¼¹ç¾§¤Î¤¿¤á¤Î</p:titlePrefix>
+		<p:mainTitle>±ÇÁü<cr:romanII/></p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Ì´¤ß¤¿¤â¤Î¤Ï¡Ä</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>¾¾²¼¹Ì</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼¹ç¾§¤Î¤¿¤á¤Î</p:titlePrefix>
+		<p:mainTitle>±âÈþ½ôÅç¤Î»Í¤Ä¤ÎÅç±´</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>»°µþ¤Ì¸å</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+    <section>
+      <section-name>°ìÈÌ£Á</section-name>
+      <choir playing-order="2" representative="true" seed="false">
+	<choir-name>Vocal Ensemble¡ÔEST¡Õ</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>32</number-of-members>
+	<conductor>¸þ°æÀµÍº</conductor>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>Luca Marenzio</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Scendi dal Paradiso</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Sappho</p:words-by>
+	      <p:composed-by>ÎëÌÚµ±¾¼</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>»ì²Ú¾¶</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Eros d'etinaxe moi phrenas</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">1</score>
+	  <score referee="¿ÀÅÄ">1</score>
+	  <score referee="ÄÓ¿¢">1</score>
+	  <score referee="¶Ó">1</score>
+	  <score referee="Èª">1</score>
+	  <total-score>1</total-score>
+	  <score-note>¶â¡¢ÃæÉô»ÙÉôÂç²ñ</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="3" representative="false" seed="false">
+	<choir-name>¹ç¾§ÃÄ¤¹¤º¤«¤¼</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>18</number-of-members>
+	<conductor>°æ¾å¹À</conductor>
+	<piano>»³¸ýÃÎ»Ò</piano>
+	<prize nickname="silver">¶ä¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G4" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:composed-by>Johannes Brahms</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Zigeuner lieder</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>He! Zigeuner!</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Hochgeturmte Rima-flut!</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Heiligem Eide</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Gute Nacht</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true">
+		    <p:mainTitle>Abendwolken</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">2</score>
+	  <score referee="¿ÀÅÄ">2</score>
+	  <score referee="ÄÓ¿¢">2</score>
+	  <score referee="¶Ó">2</score>
+	  <score referee="Èª">2</score>
+	  <total-score>2</total-score>
+	  <score-note>¶ä</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="1" representative="false" seed="false">
+	<choir-name>¥³¡¼¥ëÉ©À¼</choir-name>
+	<choir-type>female</choir-type>
+	<number-of-members>17</number-of-members>
+	<conductor>¿ûÌî¿ÎÈþ</conductor>
+	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="F3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>¿·ÀîÏÂ¹¾</p:words-by>
+	      <p:composed-by>ÎëÌÚµ±¾¼</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>½÷À¼¹ç¾§¤È¥Ô¥¢¥Î¤Î¤¿¤á¤Î</p:titlePrefix>
+		<p:mainTitle>³¤¤ò¤¦¤·¤í¤Ø</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¤ï¤¿¤·¤Î³¤</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>ÃÝÃæ¤Æ¤ë¤è</p:words-by>
+	      <p:composed-by>ÂçÃæ²¸</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:mainTitle>³¤¤Î¥ª¥ë¥´¡¼¥ë</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">3</score>
+	  <score referee="¿ÀÅÄ">3</score>
+	  <score referee="ÄÓ¿¢">3</score>
+	  <score referee="¶Ó">4</score>
+	  <score referee="Èª">4</score>
+	  <total-score>3</total-score>
+	  <score-note>Æ¼</score-note>
+	</scores>
+      </choir>
+      <choir playing-order="4" representative="false" seed="false">
+	<choir-name>¹ç¾§ÃÄ¤¦¤Á¤ï</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>20</number-of-members>
+	<conductor>ÇñÏÂ»Ë</conductor>
+	<piano>ÂÀÅÄ¹ÀÈþ</piano>
+	<prize nickname="blonze">Æ¼¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G3" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>¹¹²Ê¸»Â¢</p:words-by>
+	      <p:composed-by>×¢À¥ÎÌÊ¿</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼¹ç¾§ÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>³¤Ä»¤Î»í</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>¥ª¥í¥í¥óÄ»</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	  <free-program>
+	    <p:suite>
+	      <p:words-by>Ã«Àî½ÓÂÀÏº</p:words-by>
+	      <p:composed-by>¹âÅè¤ß¤É¤ê</p:composed-by>
+	      <p:title original="true" xml:lang="ja">
+		<p:titlePrefix>º®À¼¹ç¾§ÁÈ¶Ê</p:titlePrefix>
+		<p:mainTitle>É÷¤Ë¤Ê¤ëÅ«</p:mainTitle>
+	      </p:title>
+	      <p:suite-piece>
+		<p:piece>
+		  <p:title original="true" xml:lang="ja">
+		    <p:mainTitle>Ì¤Íè</p:mainTitle>
+		  </p:title>
+		</p:piece>
+	      </p:suite-piece>
+	    </p:suite>
+	  </free-program>
+	</program>
+	<scores>
+	  <score referee="°ËÆ£">4</score>
+	  <score referee="¿ÀÅÄ">4</score>
+	  <score referee="ÄÓ¿¢">4</score>
+	  <score referee="¶Ó">3</score>
+	  <score referee="Èª">3</score>
+	  <total-score>4</total-score>
+	  <score-note>Æ¼</score-note>
+	</scores>
+      </choir>
+    </section>
+    <section>
+      <section-name>°ìÈÌ£Â</section-name>
+      <choir representative="true" seed="false">
+	<choir-name>»°½Å¥ô¥©¡¼¥¯¥¹¥Ü¡¼¥Ê</choir-name>
+	<choir-type>mixed</choir-type>
+	<number-of-members>41</number-of-members>
+	<conductor>°ðÍÕÍ´»°</conductor>
+	<prize nickname="gold">¶â¾Þ</prize>
+	<program>
+	  <given-program>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
+	  </given-program>
+	  <free-program>
+	    <p:piece>
+	      <p:words-by>P.S.INGLOTT</p:words-by>
+	      <p:composed-by>CHARLES CAMILLERI</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Pacem Maribus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>CHARLES CAMILLERI</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Sonus Spiritus</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	  <free-program>
+	    <p:piece>
+	      <p:composed-by>CHARLES CAMILLERI</p:composed-by>
+	      <p:title original="true">
+		<p:mainTitle>Amen</p:mainTitle>
+	      </p:title>
+	    </p:piece>
+	  </free-program>
+	</program>
+      </choir>
+    </section>
+  </result>
+</competition>

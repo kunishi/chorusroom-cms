@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: chubu.xml,v 1.10 2001/01/29 07:31:58 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: chubu.xml,v 1.11 2001/01/30 13:24:54 kunishi Exp $</cvs-id>
   <competition-name>第53回中部合唱コンクール</competition-name>
   <result output="chubu">
     <date day-of-week="sat" holiday="false">2000-09-23</date>
@@ -438,7 +438,7 @@
 	    <p:piece>
 	      <p:composed-by>Mikl<cr:oacute/>s KOCSAR</p:composed-by>
 	      <p:title original="true">
-		<曲名><cr:Oacute/>, havas erd<cr:ouml/>; nemas<cr:aacute/>ga</曲名>
+		<p:mainTitle><cr:Oacute/>, havas erd<cr:ouml/>; nemas<cr:aacute/>ga</p:mainTitle>
 	      </p:title>
 	      <p:title original="false" xml:lang="ja">
 		<p:mainTitle>ああ、雪の森の静寂</p:mainTitle>
@@ -603,7 +603,7 @@
 		<p:piece-number>4b.</p:piece-number>
 		<p:piece>
 		  <p:title original="true">
-		    <曲名>Balulalow</曲名>
+		    <p:mainTitle>Balulalow</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -986,7 +986,7 @@
 	<prize nickname="gold">金賞</prize>
 	<program>
 	  <given-program>
-	    <pieceRef number="G2" href="givenProgram.xml"/>
+	    <pieceRef number="G2" href="givenPrograms.xml"/>
 	  </given-program>
 	  <free-program>
 	    <p:suite>
@@ -1036,7 +1036,6 @@
 	  <given-program>
 	    <pieceRef number="F1" href="givenPrograms.xml"/>
 	  </given-program>
-	  <課題曲 番号="F1"/>
 	  <free-program>
 	    <p:piece>
 	      <p:composed-by>J<cr:oacute/>zsef KARAI</p:composed-by>
@@ -2269,7 +2268,7 @@
 	      <p:suite-piece>
 		<p:piece>
 		  <p:title original="true">
-		    <p:mainTitle>Eros d<cr:eacute/>&eacute;tinaxe moi phrenas</p:mainTitle>
+		    <p:mainTitle>Eros d<cr:eacute/>tinaxe moi phrenas</p:mainTitle>
 		  </p:title>
 		</p:piece>
 	      </p:suite-piece>
@@ -2911,7 +2910,7 @@
 	  <score referee="日下部">2</score>
 	  <score referee="佐藤(公)">4</score>
 	  <score referee="佐藤(陽)">2</score>
-	  <score referee="須賀">1</採点>
+	  <score referee="須賀">1</score>
 	  <total-score>2</total-score>
 	  <score-note>金、全国</score-note>
 	</scores>

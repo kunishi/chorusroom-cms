@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: fukushima.xml,v 1.6 2001/01/29 09:47:23 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: fukushima.xml,v 1.7 2001/01/30 13:24:54 kunishi Exp $</cvs-id>
   <competition-name>第54回福島県合唱コンクール</competition-name>
   <result output="fukushima">
     <date day-of-week="fri" holiday="false">2000-08-25</date>
@@ -136,7 +136,6 @@
 	  <given-program>
 	    <pieceRef number="F2" href="givenPrograms.xml"/>
 	  </given-program>
-	  <課題曲 番号="F2"/>
 	  <free-program>
 	    <p:suite>
 	      <p:words-by>谷川俊太郎</p:words-by>

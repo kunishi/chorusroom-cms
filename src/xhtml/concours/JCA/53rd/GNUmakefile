@@ -1,39 +1,42 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.65 2000/12/31 02:53:36 kunishi Exp $
+# $Id: GNUmakefile,v 1.66 2001/01/30 13:24:53 kunishi Exp $
 
-INSTFILES_HTML+=	index.html
-INSTFILES_HTML+=	aichi.html
-INSTFILES_HTML+=	chiba.html
-INSTFILES_HTML+=	chubu.html
-INSTFILES_HTML+=	chugoku.html
-INSTFILES_HTML+=	ehime.html
-INSTFILES_HTML+=	fukuoka.html
-INSTFILES_HTML+=	fukushima.html
-INSTFILES_HTML+=	gunma.html
-INSTFILES_HTML+=	hiroshima.html
-INSTFILES_HTML+=	${HOKKAIDO_HTML}
-INSTFILES_HTML+=	hyogo.html
-INSTFILES_HTML+=	ishikawa.html
-INSTFILES_HTML+=	iwate.html
-INSTFILES_HTML+=	kagawa.html
-INSTFILES_HTML+=	${KANSAI_HTML}
-INSTFILES_HTML+=	${KANTO_HTML}
-INSTFILES_HTML+=	${KUMAMOTO_HTML}
-INSTFILES_HTML+=	${KYUSHU_HTML}
-INSTFILES_HTML+=	mie.html
-INSTFILES_HTML+=	miyagi.html
-INSTFILES_HTML+=	nagano.html
-INSTFILES_HTML+=	okayama.html
-INSTFILES_HTML+=	saga.html
-INSTFILES_HTML+=	${SHIKOKU_HTML}
-INSTFILES_HTML+=	shimane.html
-INSTFILES_HTML+=	tokyo.html
-INSTFILES_HTML+=	${TOHOKU_HTML}
-INSTFILES_HTML+=	yamagata.html
-INSTFILES_HTML+=	yamaguchi.html
-INSTFILES_HTML+=	${HIGHSCHOOL_HTML}
-INSTFILES_HTML+=	${NATIONAL_HTML}
+USE_NEW_SCHEME=		yes
+
+INSTFILES+=	index.html
+
+INSTFILES_TRADITIONAL=	aichi.html
+INSTFILES_TRADITIONAL+=	chiba.html
+INSTFILES_TRADITIONAL+=	chubu.html
+INSTFILES_TRADITIONAL+=	chugoku.html
+INSTFILES_TRADITIONAL+=	ehime.html
+INSTFILES_TRADITIONAL+=	fukuoka.html
+INSTFILES_TRADITIONAL+=	fukushima.html
+INSTFILES_TRADITIONAL+=	gunma.html
+INSTFILES_TRADITIONAL+=	hiroshima.html
+INSTFILES_TRADITIONAL+=	${HOKKAIDO_HTML}
+INSTFILES_TRADITIONAL+=	hyogo.html
+INSTFILES_TRADITIONAL+=	ishikawa.html
+INSTFILES_TRADITIONAL+=	iwate.html
+INSTFILES_TRADITIONAL+=	kagawa.html
+INSTFILES_TRADITIONAL+=	${KANSAI_HTML}
+INSTFILES_TRADITIONAL+=	${KANTO_HTML}
+INSTFILES_TRADITIONAL+=	${KUMAMOTO_HTML}
+INSTFILES_TRADITIONAL+=	${KYUSHU_HTML}
+INSTFILES_TRADITIONAL+=	mie.html
+INSTFILES_TRADITIONAL+=	miyagi.html
+INSTFILES_TRADITIONAL+=	nagano.html
+INSTFILES_TRADITIONAL+=	okayama.html
+INSTFILES_TRADITIONAL+=	saga.html
+INSTFILES_TRADITIONAL+=	${SHIKOKU_HTML}
+INSTFILES_TRADITIONAL+=	shimane.html
+INSTFILES_TRADITIONAL+=	tokyo.html
+INSTFILES_TRADITIONAL+=	${TOHOKU_HTML}
+INSTFILES_TRADITIONAL+=	yamagata.html
+INSTFILES_TRADITIONAL+=	yamaguchi.html
+INSTFILES_TRADITIONAL+=	${HIGHSCHOOL_HTML}
+INSTFILES_TRADITIONAL+=	${NATIONAL_HTML}
 
 KANSAI_HTML=		kansai-highschool.html \
 			kansai-general.html \
@@ -55,66 +58,47 @@ HIGHSCHOOL_HTML=	highschool-2000-10-28.html \
 NATIONAL_HTML=		national-2000-11-25.html \
 			national-2000-11-26.html
 
-INSTFILES_HTML_SAITEN+=	chiba-saiten.html
-INSTFILES_HTML_SAITEN+=	chubu-saiten.html
-INSTFILES_HTML_SAITEN+=	chugoku-saiten.html
-INSTFILES_HTML_SAITEN+=	hokkaido-2000-10-08-saiten.html
-INSTFILES_HTML_SAITEN+=	ishikawa-saiten.html
-INSTFILES_HTML_SAITEN+=	kansai-highschool-saiten.html \
+INSTFILES_TRADITIONAL_SAITEN+=	chiba-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	chubu-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	chugoku-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	hokkaido-2000-10-08-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	ishikawa-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	kansai-highschool-saiten.html \
 			kansai-general-saiten.html \
 			kansai-univ-company-saiten.html
-INSTFILES_HTML_SAITEN+=	kanto-2000-09-23-saiten.html \
+INSTFILES_TRADITIONAL_SAITEN+=	kanto-2000-09-23-saiten.html \
 			kanto-general-saiten.html
-INSTFILES_HTML_SAITEN+=	mie-saiten.html
-INSTFILES_HTML_SAITEN+=	nagano-saiten.html
-INSTFILES_HTML_SAITEN+=	tokyo-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	mie-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	nagano-saiten.html
+INSTFILES_TRADITIONAL_SAITEN+=	tokyo-saiten.html
+INSTFILES_TRADITIONAL+=	${INSTFILES_TRADITIONAL_SAITEN}
+
+INSTFILES_UTF8=	${INSTFILES_TRADITIONAL:%.html=%.utfhtml}
 
 INSTFILES_NOBUILD+=	hyogo.xml
 
-INSTFILES+=	${INSTFILES_HTML} \
-		${INSTFILES_HTML:%.html=%.utfhtml} \
-		${INSTFILES_HTML_SAITEN} \
-		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
+INSTFILES+=	${INSTFILES_TRADITIONAL} \
+		${INSTFILES_UTF8}
 
 REDIRECT_HTML=	${KANSAI_HTML} ${KANTO_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
 		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML} \
 		${HIGHSCHOOL_HTML} ${NATIONAL_HTML}
 
-RESULT_XSL=		${XSLDIR}/jca-result-2000-eucjp-xalan.xsl
-RESULT_XSL_UTF8=	${XSLDIR}/jca-result-2000-utf8-xalan.xsl
-RESULT_XSL_COMMON=	${XSLDIR}/jca-result-2000-common.xsl
-DEFAULT_XSL=		${RESULT_XSL}
-DEFAULT_XSL_UTF8=	${RESULT_XSL_UTF8}
+${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.traditional.xsl
+${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
+${INSTFILES_TRADITIONAL}: XSLT_OUT=-out /dev/null
 
-CSSFILE=	jca-concour.css
-XSLT_OUT=	-param "output-base" "'$(basename $@)'"
+${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
+${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
+${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 include ${SRCTOPDIR}/config.mk
 include ${SRCTOPDIR}/rule.mk
 
-.INTERMEDIATE: hokkaido.utfxml kansai.utfxml kanto.utfxml kumamoto.utfxml
-.INTERMEDIATE: kyushu.utfxml shikoku.utfxml tohoku.utfxml
-.INTERMEDIATE: highschool.utfxml
-.INTERMEDIATE: national.utfxml
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.utfxml}
 
-%-saiten.html:	%.html
-	$(fixhtml)
-
-%-saiten.utfhtml:	TIDY_ENCODING=utf8
-%-saiten.utfhtml:	%.utfhtml
-	$(fixhtml)
-
 ###
-
-index.html:	DEFAULT_XSL=${XHTML10_XSL}
-index.html:	CSSFILE=default.css
-index.html:	XSLT_OUT=-out $@
-
-index.utfhtml:	DEFAULT_XSL_UTF8=${XHTML10_XSL_UTF8}
-index.utfhtml:	CSSFILE=default.css
-index.utfhtml:	XSLT_OUT=-out $@
 
 ${HIGHSCHOOL_HTML:%.html=%.xml}: highschool.xml
 	${LN_S} $< $@

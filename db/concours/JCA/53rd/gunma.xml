@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-2022-jp"?>
 <!DOCTYPE competition PUBLIC "-//CHORUSROOM//DTD Contest JCA 1.0//JA" "http://localhost/DTD/jca-comp-result.dtd">
 <competition xmlns="http://www.chorusroom.org/xml" xmlns:p="http://www.chorusroom.org/piece" xmlns:cr="http://www.chorusroom.org/character">
-  <cvs-id>$Id: gunma.xml,v 1.4 2001/01/29 11:08:57 kunishi Exp $</cvs-id>
+  <cvs-id>$Id: gunma.xml,v 1.5 2001/01/30 13:24:54 kunishi Exp $</cvs-id>
   <competition-name>第４０回群馬県合唱コンクール</competition-name>
-  <result 出力="gunma">
+  <result output="gunma">
     <date day-of-week="sun" holiday="false">2000年7月23日</date>
     <hall>高崎市文化会館</hall>
     <referee shortname="鈴木" job="合唱指揮者">鈴木茂明</referee>
@@ -222,7 +222,7 @@
 	    <p:suite>
 	      <p:words-by>片岡輝</p:words-by>
 	      <p:composed-by>鈴木憲夫</p:composed-by>
-	      <p:title original="true" xml:lang="j">
+	      <p:title original="true" xml:lang="ja">
 		<p:titlePrefix>女声合唱組曲</p:titlePrefix>
 		<p:mainTitle>地球に寄り添って</p:mainTitle>
 	      </p:title>

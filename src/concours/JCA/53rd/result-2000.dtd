@@ -2,34 +2,25 @@
 <!--
   JCAコンクール結果文書用DTD (2000年版)
 
-  $Id: result-2000.dtd,v 1.40 2000/10/07 03:39:51 kunishi Exp $
+  $Id: result-2000.dtd,v 1.41 2001/01/30 13:24:57 kunishi Exp $
   -->
 
 <!-- These entities will override by the internal entity declaration. -->
 <!ENTITY % utfdoc "IGNORE">
 <!ENTITY % ascdoc "INCLUDE">
 
-<![%utfdoc;[
-<!ENTITY % HTMLlat1 PUBLIC
-   "-//W3C//ENTITIES Latin1 for XHTML//EN//HTML"
-   "http://localhost/DTD/xhtml/1.0/xhtml-lat1.ent">
-<!ENTITY % HTMLspecial PUBLIC
-   "-//W3C//ENTITIES Special for XHTML//EN//HTML"
-   "http://localhost/DTD/xhtml/1.0/xhtml-special.ent">
-<!ENTITY % SpecialCharacterEnts SYSTEM
-   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/special-local.ent">
-]]>
-<![%ascdoc;[
-<!ENTITY % HTMLlat1 SYSTEM
-   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/latin1-iso2022jp.ent">
-<!ENTITY % HTMLspecial SYSTEM
-   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/special-iso2022jp.ent">
-<!ENTITY % SpecialCharacterEnts SYSTEM
-   "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/special-local-ascii.ent">
-]]>
-%HTMLlat1;
-%HTMLspecial;
-%SpecialCharacterEnts;
+<!ENTITY % ISOlat1 SYSTEM "iso-lat1-tmp.ent">
+<!ENTITY % ISOlat2 SYSTEM "iso-lat2-tmp.ent">
+<!ENTITY % ISOcyr1 SYSTEM "iso-cyr1-tmp.ent">
+<!ENTITY % ISOcyr2 SYSTEM "iso-cyr2-tmp.ent">
+<!ENTITY % MARU SYSTEM "circled-number-tmp.ent">
+<!ENTITY % ROMAN SYSTEM "roman-numeral-tmp.ent">
+%ISOlat1;
+%ISOlat2;
+%ISOcyr1;
+%ISOcyr2;
+%MARU;
+%ROMAN;
 
 <!ENTITY % global-ent SYSTEM
    "file:///home/kunishi/cvs/xml/www/chorusRoom/DTD/global.ent">
