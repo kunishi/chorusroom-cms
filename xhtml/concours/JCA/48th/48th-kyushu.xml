@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html> <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
-    <link href="mailto:kunishi@c.oka-pu.ac.jp" rev="made">
-    <link href="../style/default.css" rel="stylesheet" type="text/css">
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://localhost/www.w3.org/TR/xhtml1/DTD/strict.dtd" [
+<!ENTITY % global-ent SYSTEM "../global.ent">
+%global-ent;
+]>
+<html xml:lang="ja" xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <link href="mailto:&kunishi-email;" rev="made"/>
+    <link href="../style/default.css" type="text/css" rel="stylesheet"/>
     <title>The Results of the 48th AJCL Chorus Contest Kyushu</title>
   </head>
 
@@ -13,7 +18,7 @@
 
     ○は全国大会出場団体を示します。
 
-    <hr>
+    <hr/>
     <h2>1995/09/08-10, 福岡サンパレス</h2>
 
     <h3>中学の部</h3>
@@ -209,12 +214,11 @@
 	</ul></li>
     </ul>
 
-    <hr>
-    <a href="../">「合唱の部屋」ホームページ</a>へ
+    <hr/>
+    <a href="../" shape="rect">「合唱の部屋」ホームページ</a>へ
 
-    <hr>
-    <address>KUNISHIMA Takeo &lt;kunishi@c.oka-pu.ac.jp&gt;</address>
-    <!-- hhmts start -->
-Last modified: Sun Dec 14 12:15:38 JST 1997
-<!-- hhmts end -->
-  </body> </html>
+    <hr/>
+    <address><a href="mailto:&kunishi-email;" shape="rect">&kunishi-signature;</a></address>
+    $Date: 1999/08/16 03:38:44 $
+  </body>
+</html>
