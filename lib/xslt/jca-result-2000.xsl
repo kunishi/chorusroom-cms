@@ -140,7 +140,7 @@
       <xsl:apply-templates select="ピアノ"/>
       <xsl:apply-templates select="共演者"/>)
       <xsl:call-template name="特別賞リスト"/>
-      <xsl:apply-template select="団体備考"/>
+      <xsl:apply-templates select="団体備考"/>
       <xsl:apply-templates select="曲目"/>
     </li>
   </xsl:template>
@@ -229,7 +229,7 @@
 
   <xsl:template match="出典">
     <xsl:value-of select="."/>
-    <xsl:if test="following-sibling::作曲">・</xsl:if>
+    <xsl:if test="following-sibling::作詩 or following-sibling::作曲 or following-sibling::編曲 or following-sibling::訳詩">・</xsl:if>
   </xsl:template>
   <xsl:template match="作詩">
     <xsl:value-of select="."/>作詩
@@ -241,6 +241,9 @@
   </xsl:template>
   <xsl:template match="編曲">
     <xsl:value-of select="."/>編曲
+  </xsl:template>
+  <xsl:template match="訳詩">
+    <xsl:value-of select="."/>訳詩
   </xsl:template>
 
   <xsl:template match="曲名">
@@ -259,8 +262,8 @@
   </xsl:template>
 
   <xsl:template match="ピース曲名">
-    <xsl:if test="@ピース番号"><xsl:value-of select="@ピース番号"/>. </xsl:if>
-    <xsl:value-of select="."/>
+    「<xsl:if test="@ピース番号"><xsl:value-of select="@ピース番号"/>. </xsl:if>
+    <xsl:value-of select="."/>」
     <xsl:if test="../作詩 or ../出典 or ../訳詩">
       (<xsl:apply-templates select="../出典"/><xsl:apply-templates select="../作詩"/><xsl:apply-templates select="../訳詩"/>)</xsl:if>
     <xsl:if test="../following-sibling::組曲ピース">; </xsl:if>
