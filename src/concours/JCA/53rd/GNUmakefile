@@ -1,6 +1,6 @@
 # Makefile for 	-*-Makefile-*-
 # Copyright (C) 2000 KUNISHIMA Takeo kunishi@c.oka-pu.ac.jp
-# $Id: GNUmakefile,v 1.58 2000/10/29 01:39:44 kunishi Exp $
+# $Id: GNUmakefile,v 1.59 2000/10/29 01:49:13 kunishi Exp $
 
 INSTFILES_HTML+=	index.html
 INSTFILES_HTML+=	aichi.html
@@ -64,7 +64,8 @@ INSTFILES+=	${INSTFILES_HTML} \
 		${INSTFILES_HTML_SAITEN:%.html=%.utfhtml}
 
 REDIRECT_HTML=	${KANSAI_HTML} ${KUMAMOTO_HTML} ${KYUSHU_HTML} \
-		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML}
+		${HOKKAIDO_HTML} ${SHIKOKU_HTML} ${TOHOKU_HTML} \
+		${HIGHSCHOOL_HTML}
 
 RESULT_XSL=		${XSLDIR}/jca-result-2000-eucjp-xalan.xsl
 RESULT_XSL_UTF8=	${XSLDIR}/jca-result-2000-utf8-xalan.xsl
@@ -79,6 +80,7 @@ include ${SRCTOPDIR}/rule.mk
 
 .INTERMEDIATE: hokkaido.utfxml kansai.utfxml kumamoto.utfxml
 .INTERMEDIATE: kyushu.utfxml shikoku.utfxml tohoku.utfxml
+.INTERMEDIATE: highschool.utfxml
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.xml}
 .INTERMEDIATE: ${REDIRECT_HTML:%.html=%.utfxml}
 
