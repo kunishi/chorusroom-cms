@@ -59,10 +59,12 @@
     </classpath>
   </taskdef>
 
+<!-- 
   <dependset>
     <srcfilelist dir="${basedir}/db/links" files="**/*.xml"/>
     <targetfileset dir="${build.xhtml}/links" includes="**/*.xml"/>
   </dependset>
+-->
 
   <!-- whole build process -->
   <target name='wholebuild' depends='prepare, build, finalize'/>
