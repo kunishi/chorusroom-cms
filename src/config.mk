@@ -1,8 +1,17 @@
 # Common macro definitions.
-# $Id: config.mk,v 1.17 1999/11/16 05:05:44 kunishi Exp $
+# $Id: config.mk,v 1.18 1999/12/10 10:09:15 kunishi Exp $
 #
 
+JDK_LIBDIR=	/usr/local/jdk1.1.8/lib
+JDK_CLASSPATH=	${JDK_LIBDIR}/classes.zip:${JDK_LIBDIR}
+JAVA_CLASSES_DIR=	/usr/local/share/java/classes
+XT_CLASSPATH=	${JAVA_CLASSES_DIR}/xt.jar:${JAVA_CLASSES_DIR}/sax.jar
+XML4J_CLASSPATH= ${JAVA_CLASSES_DIR}/xml4j.jar:${JAVA_CLASSES_DIR}/xml4jSamples.jar
+LOTUSXSL_CLASSPATH=	${JAVA_CLASSES_DIR}/lotusxsl.jar:${JAVA_CLASSES_DIR}/lotusxslbsf.jar:${JAVA_CLASSES_DIR}/js.jar
+
+CLASSPATH=	${XT_CLASSPATH}:${XML4J_CLASSPATH}:${JDK_CLASSPATH}
 XSLT_PROC=	java \
+		-classpath ${CLASSPATH} \
 		-Dcom.jclark.xsl.sax.parser=com.ibm.xml.parsers.SAXParser \
 		com.jclark.xsl.sax.Driver
 JAVA_COMPILER?=	tya
