@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.5 2001/01/10 11:10:25 kunishi Exp $ -->
+<!-- $Id: xhtml1-chorusroom.src.xsl,v 1.6 2001/02/06 02:30:00 kunishi Exp $ -->
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:lxslt="http://xml.apache.org/xslt"
@@ -8,6 +8,7 @@
 		xmlns:p="http://www.chorusroom.org/piece"
 		xmlns:r="http://www.chorusroom.org/resource"
 		xmlns:char="http://www.chorusroom.org/character"
+		xmlns:xml="http://www.chorusroom.org/XML/1998/namespace"
 		xmlns="http://www.w3.org/1999/xhtml"
 		extension-element-prefixes="redirect"
 		exclude-result-prefixes="cr p char r">

@@ -1,7 +1,7 @@
 # Makefile for 
 # Copyright (C) 1999 KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #
-# $Id: GNUmakefile,v 1.65 2001/02/04 02:04:36 kunishi Exp $
+# $Id: GNUmakefile,v 1.66 2001/02/06 02:29:59 kunishi Exp $
 
 USE_NEW_SCHEME=	yes
 
@@ -57,11 +57,11 @@ INSTFILES+=	${INSTFILES_TRADITIONAL} \
 		${INSTFILES_UTF8}
 
 ${INSTFILES_TRADITIONAL}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.traditional.xsl
-${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
+${INSTFILES_TRADITIONAL}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
 ${INSTFILES_TRADITIONAL}: XSLT_OUT=-out /dev/null
 
 ${INSTFILES_UTF8}: DEFAULT_XSL=${XSLDIR}/jca-comp-result.utf8.xsl
-${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "'$(basename $@)'"
+${INSTFILES_UTF8}: XSLT_PARAMS+=-param "output-base" "$(basename $@)"
 ${INSTFILES_UTF8}: XSLT_OUT=-out /dev/null
 
 include ${SRCTOPDIR}/config.mk

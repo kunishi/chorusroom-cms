@@ -1,5 +1,5 @@
 # Common rule definitions.
-# $Id: rule.mk,v 1.35 2001/02/05 03:15:28 kunishi Exp $
+# $Id: rule.mk,v 1.36 2001/02/06 02:29:59 kunishi Exp $
 #
 
 .SUFFIXES:	.xml .html .utfxml .utfhtml .ent .u8.html .style .xsl
@@ -17,7 +17,6 @@ endef
 define fixhtml
 ${HTML_FORMAT} -m ${TIDY_ENCODING} $@
 ${PATH_CONFIGURE} $@
-${XMLDECL_FIX} $@
 endef
 
 ifndef SPECIAL_RULES
@@ -54,14 +53,14 @@ else
 	$(xslt-transform)
 	${SLEEP} 1
 	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+#	${XMLDECL_FIX} $@
 %.html:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.traditional.xsl
 
 %.utfhtml: %.xml ${DEFAULT_XSL}
 	$(xslt-transform)
 	${SLEEP} 1
 	${PATH_CONFIGURE} $@
-	${XMLDECL_FIX} $@
+#	${XMLDECL_FIX} $@
 %.utfhtml:	DEFAULT_XSL=${XSLDIR}/xhtml1-chorusroom.utf8.xsl
 endif
 endif
