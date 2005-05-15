@@ -4,7 +4,7 @@ require 'xml/xslt'
 require 'rexml/document'
 
 xslt = XML::XSLT.new()
-xslt.xmlfile = ARGV[0]
+xslt.xml = ARGV[0]
 xslt.xslfile = 'concours2body.xsl'
 out = xslt.serve()
 xslt.xslfile = 'concours2title.xsl'
