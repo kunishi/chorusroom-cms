@@ -7,8 +7,11 @@ xslt = XML::XSLT.new()
 xslt.xml = ARGV[0]
 xslt.xslfile = 'concours2body.xsl'
 out = xslt.serve()
-xslt.xslfile = 'concours2title.xsl'
-title = xslt.serve()
+
+titlexslt = XML::XSLT.new()
+titlexslt.xml = ARGV[0]
+titlexslt.xslfile = 'concours2title.xsl'
+title = titlexslt.serve()
 
 doc = REXML::Document.new()
 doc << REXML::XMLDecl.new('1.0', 'utf-8')
