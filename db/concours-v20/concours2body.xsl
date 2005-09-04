@@ -208,9 +208,9 @@
     <xsl:text>」</xsl:text>
   </xsl:template>
   <!-- XHTML elements -->
-  <xsl:template match="h:*|xh:*">
+  <xsl:template match="h:*|xh:*|@*">
     <xsl:copy>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
   </xsl:template>
 </xsl:stylesheet>
